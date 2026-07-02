@@ -1,0 +1,6 @@
+{
+  "name": "Nguyễn Việt Lộc - Dược Liệu & Thu Mua",
+  "description": "Cổng thông tin cây dược liệu, hướng dẫn kỹ thuật canh tác GACP-WHO độc lập và kết nối thu mua bao tiêu cùng đối tác chiến lược VIETMEC cho nông hộ và hợp tác xã.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
