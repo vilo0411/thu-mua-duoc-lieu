@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thu Mua Dược Liệu</title>
+    <!--
+      SPA fallback cho GitHub Pages (kỹ thuật spa-github-pages của rafgraph).
+      GitHub Pages không rewrite URL sâu về index.html, nên trang này bắt 404,
+      mã hoá đường dẫn thành query string rồi redirect về index.html. Đoạn script
+      tương ứng trong index.html sẽ giải mã và khôi phục lại URL cho react-router.
+      pathSegmentsToKeep = 1 vì site nằm dưới base "/thu-mua-duoc-lieu/".
+    -->
+    <script type="text/javascript">
+      var pathSegmentsToKeep = 1;
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
+    </script>
+  </head>
+  <body></body>
+</html>
