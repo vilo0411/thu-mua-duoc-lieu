@@ -63,7 +63,6 @@ export default function App() {
 
   // UI States
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [showDemoDock, setShowDemoDock] = useState(true);
   const [isShipmentModalOpen, setIsShipmentModalOpen] = useState(false);
   const [selectedHerbForModal, setSelectedHerbForModal] = useState("Đinh lăng");
   const [activeTocSection, setActiveTocSection] = useState("sec-1");
@@ -1086,74 +1085,6 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#FDFBF7] text-[#2D2521] flex flex-col font-sans selection:bg-[#B85037]/10 selection:text-[#B85037]">
-      
-      {/* 🛠️ DEMO CONTROL PANEL / SCREEN NAVIGATOR (COLLAPSIBLE) */}
-      <div className={`bg-[#2D2521] text-white py-3 px-4 border-b border-white/10 z-50 sticky top-0 transition-all ${showDemoDock ? 'block' : 'hidden'}`}>
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-3 text-xs">
-          <div className="flex items-center gap-2">
-            <span className="bg-[#B85037] text-white px-2 py-0.5 rounded-sm font-bold uppercase tracking-widest text-[9px]">Demo Quick Navigator</span>
-            <span className="text-gray-300 font-medium">Nhấp nhanh để duyệt qua 6 giao diện trang được yêu cầu:</span>
-          </div>
-          
-          <div className="flex flex-wrap gap-1.5 justify-center">
-            <button 
-              onClick={() => navigateTo({ type: "home" })}
-              className={`px-3 py-1.5 rounded-sm font-semibold transition-colors cursor-pointer ${activePage.type === "home" ? "bg-[#B85037] text-white" : "bg-white/15 hover:bg-white/25 text-gray-200"}`}
-            >
-              1. Trang Chủ (/)
-            </button>
-            <button 
-              onClick={() => navigateTo({ type: "pillar" })}
-              className={`px-3 py-1.5 rounded-sm font-semibold transition-colors cursor-pointer ${activePage.type === "pillar" ? "bg-[#B85037] text-white" : "bg-white/15 hover:bg-white/25 text-gray-200"}`}
-            >
-              2. Pillar Money (/thu-mua/)
-            </button>
-            <button 
-              onClick={() => navigateTo({ type: "money-cay", cay: "dinh-lang" })}
-              className={`px-3 py-1.5 rounded-sm font-semibold transition-colors cursor-pointer ${activePage.type === "money-cay" && (activePage as any).cay === "dinh-lang" ? "bg-[#B85037] text-white" : "bg-white/15 hover:bg-white/25 text-gray-200"}`}
-            >
-              3. Money Cây (/cay/đinh-lăng)
-            </button>
-            <button 
-              onClick={() => navigateTo({ type: "money-vung", cay: "dinh-lang", vung: "tay-bac" })}
-              className={`px-3 py-1.5 rounded-sm font-semibold transition-colors cursor-pointer ${activePage.type === "money-vung" ? "bg-[#B85037] text-white" : "bg-white/15 hover:bg-white/25 text-gray-200"}`}
-            >
-              4. Money Vùng (/vùng/tây-bắc)
-            </button>
-            <button 
-              onClick={() => navigateTo({ type: "hub-wiki", cay: "dinh-lang" })}
-              className={`px-3 py-1.5 rounded-sm font-semibold transition-colors cursor-pointer ${activePage.type === "hub-wiki" ? "bg-[#B85037] text-white" : "bg-white/15 hover:bg-white/25 text-gray-200"}`}
-            >
-              5. Hub Wiki (/kiến-thức/trồng-đinh-lăng)
-            </button>
-            <button 
-              onClick={() => navigateTo({ type: "wiki-article", topic: "ky-thuat-say-duoc-lieu" })}
-              className={`px-3 py-1.5 rounded-sm font-semibold transition-colors cursor-pointer ${activePage.type === "wiki-article" ? "bg-[#B85037] text-white" : "bg-white/15 hover:bg-white/25 text-gray-200"}`}
-            >
-              6. Wiki Article (/kiến-thức/topic)
-            </button>
-            
-            <button 
-              onClick={() => setShowDemoDock(false)} 
-              className="p-1 hover:bg-white/10 rounded ml-1"
-              title="Ẩn thanh Demo"
-            >
-              <X className="w-3.5 h-3.5" />
-            </button>
-          </div>
-        </div>
-      </div>
-
-      {/* Button to bring back Demo Dock if hidden */}
-      {!showDemoDock && (
-        <button 
-          onClick={() => setShowDemoDock(true)}
-          className="fixed right-4 top-20 bg-[#2D2521] text-white text-xs px-3 py-1.5 rounded-md shadow-lg z-50 hover:bg-[#B85037] transition-all cursor-pointer inline-flex items-center gap-1.5"
-        >
-          <Zap className="w-3.5 h-3.5 text-amber-400" />
-          <span>Mở thanh Demo nhanh</span>
-        </button>
-      )}
 
       {/* ────────────────── BRAND HEADER ────────────────── */}
       <header className="sticky top-0 bg-[#FDFBF7]/90 backdrop-blur-md border-b border-[#E6DDD0] z-30 transition-all">
