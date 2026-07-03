@@ -1,0 +1,24 @@
+{
+  "slug": "bac-trung-bo",
+  "name": "Bắc Trung Bộ",
+  "characteristics": "Dải đất cát sỏi đồi dốc gồ ghề ven biển dốc ngược Tây sang Đông chịu khí hậu chuyển giao khắc nghiệt khô nóng đặc thù và chịu ảnh hưởng trực tiếp của gió phơn Lào bỏng rát mùa hè.",
+  "advantages": "Đất đồi sỏi sấy khô kiệt sừng cùng bức xạ nắng chói chang chính là 'bí thuật sinh tồn' thúc ép cây cà gai leo, ba kích, đinh lăng tăng sinh hàm lượng glycoalcaloid tự nhiên cực kỳ mạnh mẽ.",
+  "commonHerbs": [
+    "Cà gai leo",
+    "Bạc hà Á"
+  ],
+  "provinces": [
+    {
+      "name": "Quảng Trị",
+      "area": "1.100 ha chuyên canh",
+      "harvestPeriod": "Tháng 5 - Tháng 9",
+      "activeCooperatives": "14 Liên hiệp HTX Cà gai leo sạch"
+    },
+    {
+      "name": "Nghệ An",
+      "area": "1.500 ha hỗn hợp",
+      "harvestPeriod": "Tháng 6 - Tháng 10",
+      "activeCooperatives": "19 Tổ hợp thu mua vùng Phủ Quỳ"
+    }
+  ]
+}

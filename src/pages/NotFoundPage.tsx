@@ -2,10 +2,17 @@ import React from "react";
 import { BookOpen, Home, Leaf } from "lucide-react";
 import { Link } from "react-router-dom";
 import { paths } from "../lib/paths";
+import { Seo } from "../lib/seo";
 
 export const NotFoundPage: React.FC = () => {
   return (
     <div className="animate-fade-in max-w-2xl mx-auto text-center py-16 space-y-6">
+      <Seo
+        title="Không tìm thấy trang (404)"
+        description="Đường dẫn không tồn tại hoặc đã thay đổi."
+        path="/404"
+        noindex
+      />
       <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-[#F5ECE1] text-[#B85037]">
         <Leaf className="w-10 h-10" />
       </div>

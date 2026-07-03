@@ -1,0 +1,81 @@
+{
+  "id": "actiso",
+  "slug": "actiso",
+  "name": "Actiso",
+  "scientificName": "Cynara scolymus",
+  "priceRange": "50.000 - 220.000 VNĐ/kg",
+  "shortDesc": "Được trồng phổ biến tại các vùng cao ôn đới mát mẻ quanh năm như Lâm Đồng, Sa Pa.",
+  "image": "https://images.unsplash.com/photo-1508962914676-134849a727f0?q=80&w=600&auto=format&fit=crop",
+  "description": "Actiso là loài thảo dược có xuất xứ từ Địa Trung Hải, phát triển hoàn hảo ở vùng khí hậu mát mẻ ôn đới. Toàn bộ các bộ phận như rễ, thân, lá và đặc biệt là hoa đều thu hoạch để làm trà, làm cao dược liệu giải độc gan cực kỳ đắt khách.",
+  "stats": [
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "6 - 8 tháng cho lá, 1 năm cho hoa rễ"
+    },
+    {
+      "label": "Đất trồng thích hợp",
+      "value": "Đất đỏ Bazan mùn xốp phong phú dinh dưỡng"
+    },
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Hoa, lá tươi, rễ củ"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "15°C - 22°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Hoa Actiso tươi",
+      "specification": "Hoa búp to tròn, chưa nở bung cánh tím, tươi rói không héo",
+      "priceRange": "150.000 - 220.000",
+      "unit": "kg",
+      "trend": "up"
+    },
+    {
+      "grade": "Lá tươi làm cao",
+      "specification": "Lá bánh tẻ thu hoạch định kỳ đạt hàm lượng cynarin cao",
+      "priceRange": "8.000 - 12.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Thân rễ khô thái lát",
+      "specification": "Phơi hoặc sấy khô sạch tạp chất, thơm mát đặc trưng",
+      "priceRange": "80.000 - 110.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "tay-nguyen",
+      "regionName": "Tây Nguyên",
+      "provinces": [
+        "Lâm Đồng"
+      ],
+      "outputEstimate": "1.200 tấn/năm"
+    },
+    {
+      "regionSlug": "tay-bac",
+      "regionName": "Tây Bắc",
+      "provinces": [
+        "Lào Cai (Sa Pa)"
+      ],
+      "outputEstimate": "400 tấn/năm"
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-actiso",
+  "standards": [
+    "Lá thu hoạch làm dược liệu không phun thuốc bảo vệ thực vật cận ngày hái.",
+    "Hoa tươi không dập nát thối rữa, đóng gói rổ tre thông thoáng.",
+    "Hàm lượng chất đắng và cynarin đạt chuẩn xuất khẩu."
+  ],
+  "faq": [
+    {
+      "question": "Trồng Actiso ở vùng đồng bằng nắng nóng được không?",
+      "answer": "Không nên. Actiso là loại liên ôn đới bắt buộc phải có khí hậu lạnh dịu dưới 25 độ C để sinh trưởng tốt và ra hoa. Ở vùng đồng bằng nhiệt đới nóng bức, cây sẽ nhanh chóng héo lụi, không phát triển được và tỷ lệ chết gần như 100%."
+    }
+  ]
+}

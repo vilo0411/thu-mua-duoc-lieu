@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { FileText } from "lucide-react";
 import { useNavigate, useParams } from "react-router-dom";
-import { HERBS_DATA, PARTNER_COMPANY, SITE_OWNER, WIKI_ARTICLES, WIKI_HUBS } from "../data/mockData";
+import { HERBS_DATA, PARTNER_COMPANY, SITE_OWNER, WIKI_ARTICLES, WIKI_HUBS } from "../lib/data";
 import { Breadcrumb, DataTable, StickyToc } from "../components/ui";
 import { paths } from "../lib/paths";
+import { Seo, hubSeo } from "../lib/seo";
 
 export const HubWikiPage: React.FC = () => {
   const { cay = "" } = useParams();
@@ -22,6 +23,7 @@ export const HubWikiPage: React.FC = () => {
 
   return (
     <div className="space-y-10 animate-fade-in">
+      <Seo {...hubSeo(hub, herb.image)} />
       <Breadcrumb items={[
         { label: "Trang chủ", onClick: () => navigate(paths.home()) },
         { label: "Kiến thức", onClick: () => navigate(paths.knowledge()) },

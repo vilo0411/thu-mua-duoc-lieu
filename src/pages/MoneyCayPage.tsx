@@ -1,10 +1,11 @@
 import React from "react";
 import { ChevronRight, Leaf, ShieldCheck } from "lucide-react";
 import { useNavigate, useParams } from "react-router-dom";
-import { HERBS_DATA, PARTNER_COMPANY } from "../data/mockData";
+import { HERBS_DATA, PARTNER_COMPANY } from "../lib/data";
 import { Breadcrumb, CtaBanner, DataTable, FaqAccordion, FeaturedPartnerCard, NeutralPartnerCard } from "../components/ui";
 import { useShipmentModal } from "../lib/ShipmentModalContext";
 import { paths } from "../lib/paths";
+import { Seo, herbSeo } from "../lib/seo";
 
 export const MoneyCayPage: React.FC = () => {
   const { cay = "" } = useParams();
@@ -16,6 +17,7 @@ export const MoneyCayPage: React.FC = () => {
 
   return (
     <div className="space-y-10 animate-fade-in">
+      <Seo {...herbSeo(herb)} />
       <Breadcrumb items={[
         { label: "Trang chủ", onClick: () => navigate(paths.home()) },
         { label: "Thu mua dược liệu", onClick: () => navigate(paths.pillar()) },

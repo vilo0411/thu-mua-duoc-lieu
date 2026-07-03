@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Search, X } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import { HERBS_DATA } from "../../data/mockData";
+import { HERBS_DATA } from "../../lib/data";
 import { HerbalMedicine } from "../../types";
 import { paths } from "../../lib/paths";
 

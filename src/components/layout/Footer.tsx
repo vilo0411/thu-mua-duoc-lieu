@@ -9,7 +9,7 @@ import {
   PARTNER_COMPANY,
   SITE_OWNER,
   WIKI_ARTICLES,
-} from "../../data/mockData";
+} from "../../lib/data";
 
 export const Footer: React.FC = () => {
   return (

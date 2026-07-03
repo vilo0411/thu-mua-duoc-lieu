@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "vietmec",
+    "name": "VIETMEC",
+    "fullName": "Công ty Cổ phần Dược liệu Việt Nam (VIETMEC)",
+    "isFeatured": true,
+    "stockCode": "Mã DVM (HNX)",
+    "facility": "Nhà máy GMP-WHO Phú Ninh, Phú Thọ",
+    "experience": "Hơn 15 năm kinh nghiệm hoạt động trong ngành dược liệu",
+    "desc": "VIETMEC là đơn vị hàng đầu Việt Nam sở hữu chuỗi liên kết bền vững từ vùng trồng đạt chuẩn GACP-WHO đến nhà máy chế biến quy mô hiện đại, cam kết bao tiêu đầu ra lâu dài cho bà con.",
+    "bullets": [
+      "Cam kết bao tiêu sản phẩm bằng hợp đồng dài hạn với giá ổn định.",
+      "Hỗ trợ giống đạt chuẩn, kỹ thuật canh tác và quy trình thu hoạch tối ưu dược tính.",
+      "Hệ thống nhà máy GMP-WHO đạt chuẩn xuất khẩu Châu Âu, xử lý sấy lạnh khép kín.",
+      "Hỗ trợ nông dân và hợp tác xã tiếp cận nguồn vốn hỗ trợ nông nghiệp bền vững."
+    ],
+    "trustSignals": [
+      "Mã DVM (HNX)",
+      "Nhà máy GMP-WHO Phú Ninh, Phú Thọ",
+      "15+ năm hoạt động",
+      "Thanh toán qua chuyển khoản, có hợp đồng"
+    ],
+    "landingUrl": "https://vietmec.vn/thu-mua-duoc-lieu",
+    "utmTemplate": "?utm_source=nguyenvietloc&utm_medium=blog&utm_campaign={cay}&utm_content={page_type}_{cta_position}"
+  }
+]

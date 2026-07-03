@@ -1,0 +1,33 @@
+{
+  "id": "ky-thuat-trong-ba-kich",
+  "slug": "ky-thuat-trong-ba-kich-tim-duoi-tan-rung",
+  "herbSlug": "ba-kich",
+  "herbName": "Ba kích",
+  "title": "Cẩm nang Kỹ thuật trồng Ba kích tím dưới tán rừng và làm giàn leo hiện đại",
+  "intro": "Dây leo Ba kích tím cần điểm tựa vững vàng để leo bám thụ phấn và tổng hợp diệp lục tốt. Chuyên gia Nguyễn Việt Lộc chia sẻ kỹ thuật đúc kết từ vùng trồng kiểu mẫu tại Ba Chẽ, Quảng Ninh.",
+  "standards": [
+    {
+      "stage": "Thiết kế giàn leo",
+      "criteria": "Dùng cọc tre tầm vông chắc chắn bọc nilon bảo vệ đầu cọc hoặc dựng hệ thống lưới cước đan vuông dẻo dai bám chặt.",
+      "controlMethod": "Cố định cọc sâu xuống luống đất trước khi dây bắt đầu vươn dài bám cuốn."
+    },
+    {
+      "stage": "Che phủ tạo tán",
+      "criteria": "Ba kích là cây ưa bóng bán phần từ 30% - 50%, kỵ ánh nắng xói trực tiếp bỏng rát.",
+      "controlMethod": "Nên tận dụng trồng dưới tán rừng cây keo tràm già hoặc làm lưới đen nông nghiệp chống nắng giăng phía trên giàn."
+    }
+  ],
+  "pests": [
+    {
+      "pestName": "Rệp sáp bám hút nhựa ngọn",
+      "symptoms": "Các mảng phấn trắng mềm bu bám chi chít ở đầu ngọn non làm ngọn xoăn tít lùn còi không bò giàn được.",
+      "remedy": "Phun nước tỏi ớt gừng ngâm cay diệt sạch mộc mạc hoặc dùng xà phòng dầu neem organic xịt rửa nhẹ buổi sớm mát trời."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Chi phí đầu tư giàn leo lưới cước cho 1 sào Bắc Bộ Ba kích hết khoảng bao nhiêu?",
+      "answer": "Chi phí làm giàn dã chiến bằng cọc tre tầm vông gia cố dây thép gai kết hợp lưới cước đan sẵn rất rẻ, chỉ dao động từ 1.2 triệu - 1.8 triệu đồng cho 1 sào Bắc Bộ (360m2) và có thể tái sử dụng độ bền lên tới 2-3 mùa thu hoạch dài lâu."
+    }
+  ]
+}

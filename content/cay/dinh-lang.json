@@ -1,0 +1,104 @@
+{
+  "id": "dinh-lang",
+  "slug": "dinh-lang",
+  "name": "Đinh lăng",
+  "scientificName": "Polyscias fruticosa",
+  "priceRange": "35.000 - 180.000 VNĐ/kg",
+  "shortDesc": "Được ví như 'nhân sâm của người nghèo'. Thu hoạch toàn bộ từ lá, thân đến rễ củ từ 3 năm tuổi trở lên.",
+  "image": "https://images.unsplash.com/photo-1597362925123-77861d3fbac7?q=80&w=600&auto=format&fit=crop",
+  "description": "Cây Đinh lăng nếp (lá nhỏ) là loại dược liệu truyền thống cực kỳ phổ biến tại Việt Nam. Toàn bộ các bộ phận của cây đều có giá trị sử dụng và thu mua. Đặc biệt, rễ củ Đinh lăng từ 3 - 5 năm tuổi trở lên chứa lượng saponin cao tương tự nhân sâm, rất được thị trường ưa chuộng.",
+  "stats": [
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "3 - 5 năm (đối với rễ củ)"
+    },
+    {
+      "label": "Đất trồng thích hợp",
+      "value": "Đất cát pha, đất thịt nhẹ, thoát nước tốt"
+    },
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Rễ củ, thân cành, lá khô"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "22°C - 35°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Rễ củ Loại 1",
+      "specification": "Củ đạt trọng lượng >1.5kg, trên 5 năm tuổi, không nấm mốc",
+      "priceRange": "140.000 - 180.000",
+      "unit": "kg",
+      "trend": "up"
+    },
+    {
+      "grade": "Rễ củ Loại 2",
+      "specification": "Củ nặng từ 0.8kg - 1.5kg, từ 3-4 năm tuổi",
+      "priceRange": "85.000 - 120.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Thân cành già",
+      "specification": "Cắt khúc 3-5cm, phơi khô đạt độ ẩm <12%",
+      "priceRange": "35.000 - 45.000",
+      "unit": "kg",
+      "trend": "up"
+    },
+    {
+      "grade": "Lá Đinh lăng khô",
+      "specification": "Phơi khô tự nhiên hoặc sấy sạch, thơm, không lẫn tạp chất",
+      "priceRange": "25.000 - 32.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "dong-bac",
+      "regionName": "Đông Bắc",
+      "provinces": [
+        "Phú Thọ",
+        "Tuyên Quang"
+      ],
+      "outputEstimate": "450 tấn/năm"
+    },
+    {
+      "regionSlug": "tay-bac",
+      "regionName": "Tây Bắc",
+      "provinces": [
+        "Sơn La",
+        "Hòa Bình"
+      ],
+      "outputEstimate": "300 tấn/năm"
+    },
+    {
+      "regionSlug": "dong-bang-song-hong",
+      "regionName": "Đồng bằng Sông Hồng",
+      "provinces": [
+        "Nam Định",
+        "Thái Bình"
+      ],
+      "outputEstimate": "800 tấn/năm"
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-dinh-lang",
+  "standards": [
+    "Không chứa dư lượng thuốc bảo vệ thực vật hóa học (đạt chuẩn GACP-WHO).",
+    "Độ ẩm dược liệu khô phải dưới 12% để tránh nấm mốc phát triển.",
+    "Rễ củ không bị thối hỏng ruột, giữ nguyên vẹn vỏ củ ngoài.",
+    "Lá khô giữ nguyên màu xanh nhạt hoặc vàng cỏ úa, không bị đen sẫm."
+  ],
+  "faq": [
+    {
+      "question": "Nên bán Đinh lăng tươi hay phơi khô thì có giá hơn?",
+      "answer": "Thông thường, rễ củ kích thước lớn (>1.5kg) nên bán tươi cho các đơn vị làm quà tặng hoặc ngâm rượu sẽ được giá cao hơn. Ngược lại, thân cành và lá nên phơi sấy khô theo quy chuẩn độ ẩm <12% để bán số lượng lớn cho các nhà máy chiết xuất dược liệu của VIETMEC."
+    },
+    {
+      "question": "Thời gian thu hoạch Đinh lăng tối ưu nhất là khi nào?",
+      "answer": "Để thu hoạch rễ củ chất lượng tốt nhất, bà con nên thu hoạch vào cuối thu hoặc mùa đông (từ tháng 10 đến tháng 12). Lúc này cây ngừng sinh trưởng mạnh, chất dinh dưỡng tích tụ đậm đặc nhất tại phần rễ củ."
+    }
+  ]
+}

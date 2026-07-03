@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet, useMatch } from "react-router-dom";
 import { ShipmentModalProvider, useShipmentModal } from "../../lib/ShipmentModalContext";
-import { HERBS_DATA } from "../../data/mockData";
+import { HERBS_DATA } from "../../lib/data";
 import { BottomMobileCtaBar, ShipmentModal } from "../ui";
 import { Header } from "./Header";
 import { Footer } from "./Footer";

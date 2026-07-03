@@ -1,9 +1,10 @@
 import React from "react";
 import { ArrowRight, Award, MapPin, Zap } from "lucide-react";
 import { useNavigate, useParams } from "react-router-dom";
-import { HERBS_DATA, REGIONS_DATA, SITE_OWNER } from "../data/mockData";
+import { HERBS_DATA, REGIONS_DATA, SITE_OWNER } from "../lib/data";
 import { Breadcrumb, DataTable, FeaturedPartnerCard, InfoBox } from "../components/ui";
 import { paths } from "../lib/paths";
+import { Seo, herbRegionSeo } from "../lib/seo";
 
 export const MoneyVungPage: React.FC = () => {
   const { cay = "", vung = "" } = useParams();
@@ -14,6 +15,7 @@ export const MoneyVungPage: React.FC = () => {
 
   return (
     <div className="space-y-10 animate-fade-in">
+      <Seo {...herbRegionSeo(herb, region)} />
       <Breadcrumb items={[
         { label: "Trang chủ", onClick: () => navigate(paths.home()) },
         { label: "Thu mua dược liệu", onClick: () => navigate(paths.pillar()) },
