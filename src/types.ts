@@ -95,13 +95,3 @@ export interface WikiHub {
   pests: PestRemedy[];
   faq: { question: string; answer: string }[];
 }
-
-export type ActivePage =
-  | { type: "home" }
-  | { type: "pillar" }
-  | { type: "money-cay"; cay: string }
-  | { type: "money-vung"; cay: string; vung: string }
-  | { type: "hub-wiki"; cay: string }
-  | { type: "wiki-article"; topic: string }
-  | { type: "about" }
-  | { type: "contact" };
