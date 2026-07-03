@@ -1,10 +1,11 @@
 import React from "react";
 import { ArrowRight, BookOpen, ChevronRight, Leaf, ShieldCheck, TrendingUp } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import { HERBS_DATA, PARTNER_COMPANY, SITE_OWNER, WIKI_ARTICLES } from "../data/mockData";
+import { HERBS_DATA, PARTNER_COMPANY, SITE_OWNER, WIKI_ARTICLES } from "../lib/data";
 import { ArticleCard, CtaBanner, HerbCard } from "../components/ui";
 import { useShipmentModal } from "../lib/ShipmentModalContext";
 import { paths } from "../lib/paths";
+import { Seo, homeSeo } from "../lib/seo";
 
 export const HomePage: React.FC = () => {
   const navigate = useNavigate();
@@ -12,6 +13,7 @@ export const HomePage: React.FC = () => {
 
   return (
     <div className="space-y-12 animate-fade-in">
+      <Seo {...homeSeo()} />
       {/* Hero Section */}
       <section id="homepage-hero" className="relative bg-gradient-to-br from-[#FDFBF9] via-[#FBF7F0] to-[#F5ECE1] border-b border-[#E6DDD0] py-16 md:py-24 overflow-hidden rounded-2xl p-6 md:p-12 my-4">
         <div className="absolute right-0 top-0 w-96 h-96 bg-[#B85037]/5 rounded-full -mr-32 -mt-32 pointer-events-none" />

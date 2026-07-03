@@ -1,0 +1,47 @@
+{
+  "id": "ky-thuat-say-duoc-lieu",
+  "slug": "ky-thuat-say-duoc-lieu-chuan-gacp",
+  "title": "Kỹ thuật sấy khô và bảo quản dược liệu đạt chuẩn GACP-WHO hạn chế hao hụt hoạt chất",
+  "category": "Chế biến sau thu hoạch",
+  "author": "Nguyễn Việt Lộc",
+  "readTime": "7 phút đọc",
+  "date": "15/06/2026",
+  "excerpt": "Sấy khô là bước sống còn quyết định giá trị thương mại của lô dược liệu. Chuyên gia Nguyễn Việt Lộc phân tích chi tiết quy trình sấy lạnh khép kín chống ẩm mốc đạt tiêu chuẩn thu mua khắt khe.",
+  "image": "https://images.unsplash.com/photo-1508962914676-134849a727f0?q=80&w=600&auto=format&fit=crop",
+  "contentSections": [
+    {
+      "heading": "1. Tại sao khâu phơi sấy lại quyết định 90% giá trị thương phẩm?",
+      "paragraphs": [
+        "Bà con thường chỉ tập trung vào chăm bón ruộng đồng mà quên mất rằng, chỉ một cơn mưa giông đột xuất hay quá trình ủ bạt sấy kém kỹ thuật có thể biến hàng tấn Đinh lăng, Ba kích thành phế phẩm nấm mốc đen rữa rượi.",
+        "Dược liệu đạt tiêu chuẩn thu mua công nghiệp của VIETMEC bắt buộc phải giữ được màu sắc tự nhiên, mùi hương thảo mộc đặc trưng nguyên vẹn, và quan trọng nhất là bảo tồn nguyên vẹn nồng độ hoạt chất Saponin hay Flavonoid. Sấy không đúng cách, nhiệt độ quá cao sẽ làm phân hủy nhiệt các chất quý này."
+      ],
+      "highlight": "Tuyệt đối không phơi trực tiếp dược liệu có chứa tinh dầu thơm (bạc hà, hương nhu...) dưới nắng gắt trực tiếp 12h trưa vì tia UV sẽ làm bay hơi cạn kiệt lượng dầu quý báu."
+    },
+    {
+      "heading": "2. Quy trình 3 bước sấy lạnh chuyên nghiệp tại Hợp tác xã",
+      "paragraphs": [
+        "Bước 1: Làm sạch sơ chế phân loại. Loại bỏ toàn bộ cỏ dại lẫn bám, rửa sạch bùn đất bám vào khe củ rễ, thái lát độ dày đồng đều 3-5mm để luồng khí đối lưu đều đặn.",
+        "Bước 2: Xếp vỉ thông thoáng. Không xếp chồng chất chồng đè nén quá 2 lớp lát cắt trên một diện tích lưới, đảm bảo luồng không khí ẩm thoát ra thuận lợi.",
+        "Bước 3: Điều khiển dải nhiệt độ. Sấy lạnh tuần hoàn khép kín ở mức nhiệt ổn định 35°C - 45°C. Đây là khoảng nhiệt vàng giúp rễ củ thoát hơi nước tự nhiên, không bị cháy khét bên ngoài mà vẫn ẩm ướt thối bên trong."
+      ]
+    }
+  ],
+  "standardsTable": [
+    {
+      "factor": "Cây thân lá (Bạc hà, Cà gai)",
+      "standard": "Độ ẩm <12%, màu xanh nhạt tự nhiên, không bụi cát bám.",
+      "notes": "Sấy mát dải nhiệt 30-38°C là đẹp nhất."
+    },
+    {
+      "factor": "Rễ củ già (Đinh lăng, Hà thủ ô)",
+      "standard": "Độ ẩm <11%, thớ gỗ chắc, mùi thơm đậm, không ẩm mốc thâm.",
+      "notes": "Cần thái lát mỏng phơi râm ráo sạch rồi mới nạp lò."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Mưa kéo dài 3-4 ngày không phơi được thì xử lý thế nào cứu nguy?",
+      "answer": "Trong trường hợp mưa kéo dài, tuyệt đối không được ủ đống dược liệu ẩm vì vi khuẩn và nấm mốc sẽ sinh sôi chỉ trong 8-12 tiếng. Bà con phải trải mỏng sản phẩm ra kệ thông gió, bật quạt gió liên tục tốc độ cao kết hợp lò sưởi nhiệt nhẹ hoặc chuyển gấp đến xưởng sấy điện công nghiệp gần nhất của VIETMEC cứu hộ."
+    }
+  ]
+}

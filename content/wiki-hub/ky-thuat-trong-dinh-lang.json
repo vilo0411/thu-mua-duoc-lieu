@@ -1,0 +1,43 @@
+{
+  "id": "ky-thuat-trong-dinh-lang",
+  "slug": "ky-thuat-trong-dinh-lang-dat-nang-suat-cao",
+  "herbSlug": "dinh-lang",
+  "herbName": "Đinh lăng",
+  "title": "Cẩm nang Kỹ thuật trồng và chăm sóc Đinh lăng nếp từ A-Z đạt chuẩn GACP-WHO",
+  "intro": "Tài liệu kỹ thuật canh tác độc quyền đúc kết từ cựu kỹ sư nông nghiệp thực địa của Nguyễn Việt Lộc và dữ liệu quy chuẩn sản xuất sạch của đối tác bao tiêu hàng đầu VIETMEC.",
+  "standards": [
+    {
+      "stage": "Chọn đất trồng",
+      "criteria": "Đất dốc nhẹ thoát nước cực nhanh, đất cát pha thịt nhẹ độ pH lý tưởng đạt dải từ 5.5 - 6.5.",
+      "controlMethod": "Bón vôi bột khử chua, cày sâu phơi ải trước khi lên luống vồng cao ít nhất 30-35cm."
+    },
+    {
+      "stage": "Kỹ thuật bón phân",
+      "criteria": "Tuyệt đối cấm sử dụng phân hóa học hóa thạch, ưu tiên 100% phân chuồng ủ hoai mục bằng nấm đối kháng Trichoderma kết hợp tro bếp.",
+      "controlMethod": "Bón lót kỹ trước khi cắm cành giâm gốc, bón thúc định kỳ vào đầu mùa mưa hàng năm."
+    },
+    {
+      "stage": "Mật độ trồng tối ưu",
+      "criteria": "Hàng cách hàng 60cm, cây cách cây 50cm. Mật độ tương đương đạt từ 25.000 - 30.000 cây trên mỗi héc-ta.",
+      "controlMethod": "Bố trí rãnh nước chạy dọc quanh rặng luống đảm bảo tưới ẩm đầy đủ nhưng không bao giờ ứ đọng nước lâu làm úng rễ."
+    }
+  ],
+  "pests": [
+    {
+      "pestName": "Sâu róm hại lá Đinh lăng",
+      "symptoms": "Sâu róm xám rậm lông bâu bám ăn khuyết trụi lủi lá non bánh tẻ vào mùa xuân ấm ẩm.",
+      "remedy": "Bà con ưu tiên bắt thủ công bằng tay hoặc phun chế phẩm sinh học vi nấm hại côn trùng BT (Bacillus thuringiensis) cực sạch lành tính."
+    },
+    {
+      "pestName": "Thối đen rễ do úng ngập",
+      "symptoms": "Lá ngả vàng lụi nhanh dần, rễ củ dưới đất mềm nhũn chảy nước đen có mùi thối rữa nồng.",
+      "remedy": "Khẩn trương khơi rãnh tháo cạn nước đọng, rắc bột lân hữu cơ vi sinh đối kháng nấm tơ hại và nhổ bỏ tiêu hủy ngay các cây hỏng nặng tránh lây lan diện rộng."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Cây Đinh lăng nếp trồng bao nhiêu năm thì đào bán củ lãi nhất?",
+      "answer": "Chu kỳ vàng để thu hoạch Đinh lăng nếp là từ 3.5 năm đến 5 năm tuổi. Trồng sớm quá củ chưa phình lớn và nồng độ chất saponin chưa đạt, bón sấy khô bị teo tóp đen xỉn giảm giá trị rõ rệt. Trồng quá 6 năm nếu không bón phân bồi đất thì củ có hiện tượng hóa xơ giảm chất lượng."
+    }
+  ]
+}

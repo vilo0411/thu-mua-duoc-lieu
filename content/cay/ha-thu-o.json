@@ -1,0 +1,83 @@
+{
+  "id": "ha-thu-o",
+  "slug": "ha-thu-o",
+  "name": "Hà thủ ô đỏ",
+  "scientificName": "Fallopia multiflora",
+  "priceRange": "90.000 - 250.000 VNĐ/kg",
+  "shortDesc": "Dây leo cuốn sống lâu năm, nổi tiếng với công dụng làm đen tóc, bổ huyết, đẹp da.",
+  "image": "https://images.unsplash.com/photo-1622219808011-8be9426f00db?q=80&w=600&auto=format&fit=crop",
+  "description": "Hà thủ ô đỏ là loại thảo dược mọc hoang rải rác khắp vùng núi phía Bắc và hiện nay đang được phát triển mạnh thành vùng trồng chuyên canh rộng lớn tại Hà Giang, Sơn La. Trồng Hà thủ ô đỏ đòi hỏi giàn leo vững chắc và thời gian từ 3 đến 5 năm để có chất lượng củ nặng nhất.",
+  "stats": [
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "3 - 5 năm trở lên"
+    },
+    {
+      "label": "Đất trồng thích hợp",
+      "value": "Đất đồi dốc nhẹ, nhiều mùn ẩm"
+    },
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Củ rễ"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "15°C - 30°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Củ tươi Loại lớn",
+      "specification": "Trọng lượng củ đơn lẻ >2kg, vỏ nhẵn đỏ nâu sẫm",
+      "priceRange": "180.000 - 250.000",
+      "unit": "kg",
+      "trend": "up"
+    },
+    {
+      "grade": "Củ tươi Loại thường",
+      "specification": "Trọng lượng củ từ 0.8kg - 1.8kg",
+      "priceRange": "90.000 - 130.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Lát Hà thủ ô sấy",
+      "specification": "Thái lát dày 3-5mm, phơi sấy đạt độ ẩm chuẩn <12%",
+      "priceRange": "280.000 - 350.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "tay-bac",
+      "regionName": "Tây Bắc",
+      "provinces": [
+        "Sơn La",
+        "Điện Biên"
+      ],
+      "outputEstimate": "200 tấn/năm"
+    },
+    {
+      "regionSlug": "dong-bac",
+      "regionName": "Đông Bắc",
+      "provinces": [
+        "Hà Giang",
+        "Cao Bằng"
+      ],
+      "outputEstimate": "350 tấn/năm"
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-ha-thu-o",
+  "standards": [
+    "Không nhầm lẫn với Hà thủ ô trắng (ít giá trị kinh tế hơn).",
+    "Củ chắc chắn, cắt ra bên trong có màu hồng đỏ nhẹ, có chứa vân bột đặc trưng.",
+    "Hàm lượng tanin và các anthranoid đạt tiêu chuẩn Dược điển Việt Nam."
+  ],
+  "faq": [
+    {
+      "question": "Làm thế nào để phân biệt Hà thủ ô đỏ và Hà thủ ô trắng?",
+      "answer": "Hà thủ ô đỏ có củ giống khoai lang, vỏ ngoài màu nâu đỏ sẫm, nhiều nếp nhăn sâu, bên trong màu đỏ hồng có nhiều bột. Hà thủ ô trắng củ dài dẹt hơn, vỏ màu xám sáng, khi cắt ra có nhựa mủ màu trắng chảy ra, vị rất chát và không có công dụng bổ huyết bằng hà thủ ô đỏ."
+    }
+  ]
+}

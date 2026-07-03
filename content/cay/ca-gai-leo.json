@@ -1,0 +1,75 @@
+{
+  "id": "ca-gai-leo",
+  "slug": "ca-gai-leo",
+  "name": "Cà gai leo",
+  "scientificName": "Solanum procumbens",
+  "priceRange": "30.000 - 75.000 VNĐ/kg",
+  "shortDesc": "Thảo dược dây leo gai sắc nhọn, khắc tinh của các bệnh lý xơ gan, viêm gan vi rút.",
+  "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=600&auto=format&fit=crop",
+  "description": "Cà gai leo là loại thảo dược bản địa có sức sống bền bỉ tuyệt vời trên vùng đất đồi sỏi đá cằn cỗi của miền Trung Việt Nam. Các hoạt chất glycoalcaloid trong cà gai leo cực mạnh giúp bảo vệ tế bào gan, hạ men gan vô cùng hiệu quả, nhu cầu tiêu thụ công nghiệp cực cao.",
+  "stats": [
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "5 - 6 tháng sau khi trồng"
+    },
+    {
+      "label": "Đất trồng thích hợp",
+      "value": "Đất đồi sỏi đá, nghèo dinh dưỡng thoát nước nhanh"
+    },
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Toàn bộ phần thân lá cành già"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "25°C - 38°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Thân cành lá khô",
+      "specification": "Chặt đoạn khúc phơi khô giòn thơm, không lẫn tạp chất hay cỏ dại",
+      "priceRange": "50.000 - 68.000",
+      "unit": "kg",
+      "trend": "up"
+    },
+    {
+      "grade": "Thân lá tươi nguyên ruộng",
+      "specification": "Thu hoạch tươi phục vụ trực tiếp cho xưởng nấu cao cô đặc",
+      "priceRange": "12.000 - 16.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "bac-trung-bo",
+      "regionName": "Bắc Trung Bộ",
+      "provinces": [
+        "Quảng Trị",
+        "Nghệ An"
+      ],
+      "outputEstimate": "1.800 tấn/năm"
+    },
+    {
+      "regionSlug": "dong-bac",
+      "regionName": "Đông Bắc",
+      "provinces": [
+        "Bắc Giang"
+      ],
+      "outputEstimate": "600 tấn/năm"
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-ca-gai-leo",
+  "standards": [
+    "Không chứa tạp chất bụi đất sỏi cát rác hữu cơ quá 1%.",
+    "Màu vàng xanh nhạt sấy thơm mát đặc trưng, không có mùi ẩm mốc cũ nát.",
+    "Cây đạt tuổi trưởng thành đủ ra hoa kết quả đỏ mọng để tích lũy lượng Glycoalcaloid tối ưu nhất."
+  ],
+  "faq": [
+    {
+      "question": "Tại sao Cà gai leo miền Trung lại có giá trị dược tính cao nhất?",
+      "answer": "Do vùng khí hậu khô cằn khắc nghiệt cùng lượng bức xạ mặt trời cực lớn tại Quảng Trị, Nghệ An khiến cây buộc phải tích tụ tự vệ bằng các hoạt chất sinh học tự nhiên dồi dào, từ đó khiến nồng độ chất glycoalcaloid cao hơn rõ rệt so với các vùng đất ẩm mướt màu mỡ."
+    }
+  ]
+}

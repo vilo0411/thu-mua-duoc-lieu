@@ -1,10 +1,11 @@
 import React from "react";
 import { ChevronRight, MapPin } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import { HERBS_DATA, PARTNER_COMPANY, REGIONS_DATA } from "../data/mockData";
+import { HERBS_DATA, PARTNER_COMPANY, REGIONS_DATA } from "../lib/data";
 import { Breadcrumb, CtaBanner, DataTable, FaqAccordion, FeaturedPartnerCard, NeutralPartnerCard } from "../components/ui";
 import { useShipmentModal } from "../lib/ShipmentModalContext";
 import { paths } from "../lib/paths";
+import { Seo, pillarSeo } from "../lib/seo";
 
 export const PillarPage: React.FC = () => {
   const navigate = useNavigate();
@@ -12,6 +13,7 @@ export const PillarPage: React.FC = () => {
 
   return (
     <div className="space-y-10 animate-fade-in">
+      <Seo {...pillarSeo()} />
       <Breadcrumb items={[{ label: "Trang chủ", onClick: () => navigate(paths.home()) }, { label: "Thu mua dược liệu" }]} />
 
       {/* Compact Hero */}

@@ -1,9 +1,10 @@
 import React from "react";
 import { AlertTriangle, ArrowRight, User } from "lucide-react";
 import { useNavigate, useParams } from "react-router-dom";
-import { WIKI_ARTICLES } from "../data/mockData";
+import { WIKI_ARTICLES } from "../lib/data";
 import { Breadcrumb, DataTable, StickyToc } from "../components/ui";
 import { paths } from "../lib/paths";
+import { Seo, articleSeo } from "../lib/seo";
 
 export const WikiArticlePage: React.FC = () => {
   const { topic = "" } = useParams();
@@ -18,6 +19,7 @@ export const WikiArticlePage: React.FC = () => {
 
   return (
     <div className="space-y-10 animate-fade-in">
+      <Seo {...articleSeo(article)} />
       <Breadcrumb items={[
         { label: "Trang chủ", onClick: () => navigate(paths.home()) },
         { label: "Kiến thức", onClick: () => navigate(paths.knowledge()) },

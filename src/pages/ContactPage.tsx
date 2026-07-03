@@ -2,12 +2,14 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Breadcrumb } from "../components/ui";
 import { paths } from "../lib/paths";
+import { Seo, contactSeo } from "../lib/seo";
 
 export const ContactPage: React.FC = () => {
   const navigate = useNavigate();
 
   return (
     <div className="space-y-8 animate-fade-in max-w-2xl mx-auto">
+      <Seo {...contactSeo()} />
       <Breadcrumb items={[{ label: "Trang chủ", onClick: () => navigate(paths.home()) }, { label: "Liên hệ" }]} />
       <section className="bg-white border border-[#E6DDD0] rounded-2xl p-6 md:p-8 space-y-6">
         <div className="space-y-2">

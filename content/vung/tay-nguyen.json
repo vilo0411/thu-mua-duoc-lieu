@@ -1,0 +1,24 @@
+{
+  "slug": "tay-nguyen",
+  "name": "Tây Nguyên",
+  "characteristics": "Các cao nguyên Bazan bằng phẳng màu mỡ có độ cao từ 500m - 1500m so với mực nước biển, chia thành hai mùa mưa nắng rõ rệt, thích nghi tuyệt vời với cây sâm cao cấp và mô hình nấm sạch công nghệ cao.",
+  "advantages": "Diện tích đất trống và đồi rừng còn lớn, khí hậu cao nguyên mát mẻ ôn hòa lý tưởng bậc nhất cho nấm linh chi hữu cơ và sâm bản địa phát triển quy mô trang trại khổng lồ.",
+  "commonHerbs": [
+    "Actiso",
+    "Nấm linh chi"
+  ],
+  "provinces": [
+    {
+      "name": "Lâm Đồng",
+      "area": "2.100 ha Actiso",
+      "harvestPeriod": "Tháng 1 - Tháng 5",
+      "activeCooperatives": "35 Trang trại công nghệ cao Đà Lạt"
+    },
+    {
+      "name": "Kon Tum",
+      "area": "800 ha sâm rừng",
+      "harvestPeriod": "Tháng 11 - Tháng 1",
+      "activeCooperatives": "11 Hợp tác xã liên doanh"
+    }
+  ]
+}

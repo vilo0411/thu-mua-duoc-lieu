@@ -1,9 +1,10 @@
 import React from "react";
 import { ChevronRight, MapPin } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import { HERBS_DATA, REGIONS_DATA } from "../data/mockData";
+import { HERBS_DATA, REGIONS_DATA } from "../lib/data";
 import { Breadcrumb } from "../components/ui";
 import { paths } from "../lib/paths";
+import { Seo, regionsSeo } from "../lib/seo";
 
 // Chọn một slug cây thuốc đại diện cho vùng để dựng URL /thu-mua-duoc-lieu/:cay/:vung.
 const herbSlugForRegion = (regionSlug: string): string => {
@@ -16,6 +17,7 @@ export const RegionsPage: React.FC = () => {
 
   return (
     <div className="space-y-8 animate-fade-in">
+      <Seo {...regionsSeo()} />
       <Breadcrumb items={[{ label: "Trang chủ", onClick: () => navigate(paths.home()) }, { label: "Vùng trồng" }]} />
 
       {/* Hero */}

@@ -1,9 +1,10 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { WIKI_ARTICLES } from "../data/mockData";
+import { WIKI_ARTICLES } from "../lib/data";
 import { ArticleCard, Breadcrumb, CtaBanner } from "../components/ui";
 import { useShipmentModal } from "../lib/ShipmentModalContext";
 import { paths } from "../lib/paths";
+import { Seo, knowledgeSeo } from "../lib/seo";
 
 export const KnowledgePage: React.FC = () => {
   const navigate = useNavigate();
@@ -11,6 +12,7 @@ export const KnowledgePage: React.FC = () => {
 
   return (
     <div className="space-y-8 animate-fade-in">
+      <Seo {...knowledgeSeo()} />
       <Breadcrumb items={[{ label: "Trang chủ", onClick: () => navigate(paths.home()) }, { label: "Kiến thức" }]} />
 
       {/* Hero */}

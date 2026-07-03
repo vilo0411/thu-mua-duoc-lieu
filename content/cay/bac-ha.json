@@ -1,0 +1,82 @@
+{
+  "id": "bac-ha",
+  "slug": "bac-ha",
+  "name": "Bạc hà Á",
+  "scientificName": "Mentha arvensis",
+  "priceRange": "15.000 - 45.000 VNĐ/kg",
+  "shortDesc": "Thân thảo sinh trưởng cực nhanh, cho sản lượng lá tươi lớn dùng để chưng cất tinh dầu menthol.",
+  "image": "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?q=80&w=600&auto=format&fit=crop",
+  "description": "Bạc hà là cây dược liệu ngắn ngày lý tưởng cho canh tác luân canh của nông dân đồng bằng. Cây sinh trưởng tốt trong điều kiện nhiều nắng, đất ẩm, dễ thu hoạch bằng liềm sấy khô chiết tinh dầu hoặc cung cấp trực tiếp cho các xưởng chiết dược mỹ phẩm.",
+  "stats": [
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "45 - 60 ngày sau gieo trồng"
+    },
+    {
+      "label": "Đất trồng thích hợp",
+      "value": "Đất phù sa sông bồi đắp ẩm mịn thoát nước"
+    },
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Thân lá trên mặt đất tươi hoặc sấy khô"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "20°C - 32°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Lá Bạc hà khô",
+      "specification": "Lá xanh ráo nước, phơi bóng râm sấy nhẹ giữ màu xanh thơm đậm, độ ẩm <12%",
+      "priceRange": "38.000 - 45.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Cành lá tươi nguyên",
+      "specification": "Vừa thu cắt tại ruộng sạch cỏ dại, bốc dỡ nhanh trong ngày",
+      "priceRange": "8.000 - 12.000",
+      "unit": "kg",
+      "trend": "down"
+    },
+    {
+      "grade": "Tinh dầu Bạc hà mộc",
+      "specification": "Chưng cất lôi cuốn hơi nước trực tiếp tại HTX, hàm lượng menthol >65%",
+      "priceRange": "650.000 - 800.000",
+      "unit": "lít",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "dong-bang-song-hong",
+      "regionName": "Đồng bằng Sông Hồng",
+      "provinces": [
+        "Hưng Yên",
+        "Hà Nam"
+      ],
+      "outputEstimate": "2.500 tấn/năm"
+    },
+    {
+      "regionSlug": "bac-trung-bo",
+      "regionName": "Bắc Trung Bộ",
+      "provinces": [
+        "Nghệ An (Nghĩa Đàn)"
+      ],
+      "outputEstimate": "1.100 tấn/năm"
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-bac-ha",
+  "standards": [
+    "Không bị lẫn các loài cỏ dại thơm khác.",
+    "Không dính bùn bẩn, đất ruộng cát đen khi thu hoạch.",
+    "Hàm lượng tinh dầu trong lá khô phải đạt từ 1.5% trở lên."
+  ],
+  "faq": [
+    {
+      "question": "Cây bạc hà trồng một lần thu hoạch được mấy đợt?",
+      "answer": "Bạc hà có thể thu hoạch gốc liên tục 3-4 đợt mỗi năm nếu được chăm sóc tưới tiêu và bón phân hữu cơ đầy đủ sau mỗi chu kỳ cắt. Cắt sát gốc khoảng 5cm, cây sẽ nhanh chóng đâm chồi mới mạnh mẽ."
+    }
+  ]
+}

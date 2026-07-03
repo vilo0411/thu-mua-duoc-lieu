@@ -1,9 +1,10 @@
 import React, { useMemo, useState } from "react";
 import { Search } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import { HERBS_DATA } from "../data/mockData";
+import { HERBS_DATA } from "../lib/data";
 import { Breadcrumb, HerbCard } from "../components/ui";
 import { paths } from "../lib/paths";
+import { Seo, herbCatalogSeo } from "../lib/seo";
 
 export const HerbCatalogPage: React.FC = () => {
   const navigate = useNavigate();
@@ -22,6 +23,7 @@ export const HerbCatalogPage: React.FC = () => {
 
   return (
     <div className="space-y-8 animate-fade-in">
+      <Seo {...herbCatalogSeo()} />
       <Breadcrumb items={[{ label: "Trang chủ", onClick: () => navigate(paths.home()) }, { label: "Danh mục cây thuốc" }]} />
 
       {/* Hero */}

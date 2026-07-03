@@ -1,11 +1,14 @@
 {
-  "name": "react-example",
+  "name": "nguyenvietloc-duoc-lieu",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
+    "validate:content": "tsx scripts/validate-content.ts",
+    "prebuild": "npm run validate:content",
     "build": "vite build",
+    "postbuild": "tsx scripts/generate-sitemap.ts",
     "preview": "vite preview",
     "clean": "rm -rf dist server.js",
     "lint": "tsc --noEmit"
@@ -21,7 +24,8 @@
     "react": "^19.0.1",
     "react-dom": "^19.0.1",
     "react-router-dom": "^7.18.1",
-    "vite": "^6.2.3"
+    "vite": "^6.2.3",
+    "zod": "^3.25.76"
   },
   "devDependencies": {
     "@types/express": "^4.17.21",

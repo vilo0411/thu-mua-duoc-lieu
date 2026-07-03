@@ -1,0 +1,83 @@
+{
+  "id": "ba-kich",
+  "slug": "ba-kich",
+  "name": "Ba kích",
+  "scientificName": "Morinda officinalis",
+  "priceRange": "120.000 - 320.000 VNĐ/kg",
+  "shortDesc": "Dây leo bằng thân quấn, rễ phình lớn thành củ thắt chuỗi. Ưa bóng râm dưới tán rừng tự nhiên.",
+  "image": "https://images.unsplash.com/photo-1516253593875-bd7ba052fbc5?q=80&w=600&auto=format&fit=crop",
+  "description": "Ba kích tím là loại thảo dược quý hiếm nổi tiếng với công dụng bổ thận tráng dương, tăng cường sinh lực. Cây phát triển tốt dưới tán rừng ẩm đồi núi phía Bắc, cần thời gian canh tác ít nhất 3-5 năm để củ tích tụ đủ dược tính hoạt chất anthraglycosid quý.",
+  "stats": [
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "3 - 4 năm trồng từ bầu cây giống"
+    },
+    {
+      "label": "Đất trồng thích hợp",
+      "value": "Đất đồi núi xốp, nhiều mùn rừng, thoát nước cực tốt"
+    },
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Rễ củ (đã bỏ lõi khi chế biến sâu)"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "18°C - 28°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Ba kích tươi Loại 1",
+      "specification": "Củ to, đường kính củ >1.5cm, thắt chuỗi đều, trồng trên 4 năm",
+      "priceRange": "260.000 - 320.000",
+      "unit": "kg",
+      "trend": "up"
+    },
+    {
+      "grade": "Ba kích tươi Loại 2",
+      "specification": "Đường kính củ từ 0.8 - 1.2cm, từ 3 năm tuổi",
+      "priceRange": "180.000 - 240.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Củ khô rút lõi",
+      "specification": "Sấy sạch, rút bỏ phần lõi gỗ cứng bên trong, độ ẩm <11%",
+      "priceRange": "550.000 - 680.000",
+      "unit": "kg",
+      "trend": "up"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "dong-bac",
+      "regionName": "Đông Bắc",
+      "provinces": [
+        "Quảng Ninh",
+        "Bắc Giang"
+      ],
+      "outputEstimate": "180 tấn/năm"
+    },
+    {
+      "regionSlug": "tay-bac",
+      "regionName": "Tây Bắc",
+      "provinces": [
+        "Yên Bái",
+        "Lào Cai"
+      ],
+      "outputEstimate": "120 tấn/năm"
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-ba-kich",
+  "standards": [
+    "Độ ẩm sản phẩm khô dưới 12%, không mốc xanh mốc đỏ.",
+    "Kích thước củ đều, không dập nát, không lẫn bùn đất.",
+    "Để đạt giá trị cao nhất cho dược phẩm, củ Ba kích cần được bóc tách rút phần lõi gỗ bên trong trước khi sấy khô."
+  ],
+  "faq": [
+    {
+      "question": "Tại sao phải bỏ lõi Ba kích trước khi sử dụng?",
+      "answer": "Lõi của củ Ba kích không chứa hoạt chất bổ dưỡng mà ngược lại chứa một số độc chất nhẹ có thể gây kích ứng tim mạch và làm giảm chất lượng thuốc sấy khô. Do đó, tất cả các đơn vị thu mua lớn như VIETMEC đều yêu cầu hoặc ưu tiên mua củ đã rút lõi."
+    }
+  ]
+}

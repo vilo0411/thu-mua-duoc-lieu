@@ -1,0 +1,82 @@
+{
+  "id": "kim-ngan-hoa",
+  "slug": "kim-ngan-hoa",
+  "name": "Kim ngân hoa",
+  "scientificName": "Lonicera japonica",
+  "priceRange": "180.000 - 450.000 VNĐ/kg",
+  "shortDesc": "Được coi là 'kháng sinh thực vật quý'. Thu hái chính ở hoa búp sắp nở vàng trắng đan xen.",
+  "image": "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?q=80&w=600&auto=format&fit=crop",
+  "description": "Kim ngân là loại dây leo hoa tuyệt đẹp, khi nở đổi màu từ trắng tinh khôi sang vàng óng ả sang trọng. Búp hoa khô chứa lượng flavonoid dồi dào là vị thuốc kháng viêm, giải nhiệt kháng khuẩn hữu hiệu bậc nhất trong y học cổ truyền.",
+  "stats": [
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "1 năm sau khi giâm cành bám giàn leo"
+    },
+    {
+      "label": "Đất trồng thích hợp",
+      "value": "Đất vườn xốp nhẹ ẩm, đất phù sa bồi dốc nhẹ"
+    },
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Hoa búp (Kim ngân hoa) và cành già (Kim ngân cuống)"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "20°C - 35°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Kim ngân hoa Loại 1",
+      "specification": "Hoa nguyên búp sắp nở, phơi sấy râm giữ nguyên màu trắng vàng nhạt thơm, độ ẩm <11%",
+      "priceRange": "380.000 - 450.000",
+      "unit": "kg",
+      "trend": "up"
+    },
+    {
+      "grade": "Kim ngân hoa sấy diêm sinh nhẹ",
+      "specification": "Quy trình sấy chống nấm mốc đông y truyền thống đạt tiêu chuẩn",
+      "priceRange": "240.000 - 300.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Dây cành Kim ngân khô",
+      "specification": "Cành chặt khúc phơi giòn vàng thơm, độ ẩm <12%",
+      "priceRange": "45.000 - 60.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "dong-bac",
+      "regionName": "Đông Bắc",
+      "provinces": [
+        "Lạng Sơn",
+        "Bắc Giang"
+      ],
+      "outputEstimate": "90 tấn/năm"
+    },
+    {
+      "regionSlug": "dong-bang-song-hong",
+      "regionName": "Đồng bằng Sông Hồng",
+      "provinces": [
+        "Nam Định"
+      ],
+      "outputEstimate": "150 tấn/năm"
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-kim-ngan-hoa",
+  "standards": [
+    "Thu hoạch khi búp hoa đã phát triển tối đa nhưng cánh hoa còn đóng kín chưa nở bung nhị nhụy.",
+    "Màu sắc hoa sấy không bị đen cháy hay vàng đen lụi thâm xỉn.",
+    "Tuyệt đối không có tạp chất và dư lượng kim loại nặng vượt quá quy chuẩn kiểm nghiệm dược."
+  ],
+  "faq": [
+    {
+      "question": "Tại sao búp hoa Kim ngân có giá bán đắt gấp chục lần phần thân dây cành?",
+      "answer": "Búp hoa tích tụ nồng độ hoạt chất lonicerin, tinh dầu tự nhiên và các flavonoid chống viêm cực cao, gánh vác tới 90% công năng điều trị của cây dược phẩm. Phần cành lá chỉ có giá trị làm mát tiêu độc nhẹ nên giá trị thương mại thấp hơn rất nhiều."
+    }
+  ]
+}

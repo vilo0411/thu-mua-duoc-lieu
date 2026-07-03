@@ -74,6 +74,35 @@ export interface WikiArticle {
   faq: { question: string; answer: string }[];
 }
 
+export interface Partner {
+  slug: string;
+  name: string;
+  fullName: string;
+  isFeatured: boolean;
+  stockCode: string;
+  facility: string;
+  experience: string;
+  desc: string;
+  bullets: string[];
+  trustSignals: string[];
+  landingUrl: string;
+  /** Query string mẫu, hỗ trợ placeholder {cay}, {page_type}, {cta_position}. */
+  utmTemplate: string;
+}
+
+export interface SiteConfig {
+  owner: string;
+  email: string;
+  displayUrl: string;
+  /** Origin canonical đầy đủ, dùng cho sitemap / OG / canonical. */
+  siteUrl: string;
+  siteName: string;
+  defaultTitle: string;
+  defaultDescription: string;
+  locale: string;
+  authorUrl: string;
+}
+
 export interface PestRemedy {
   pestName: string;
   symptoms: string;

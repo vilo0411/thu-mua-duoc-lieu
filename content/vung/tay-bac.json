@@ -1,0 +1,32 @@
+{
+  "slug": "tay-bac",
+  "name": "Tây Bắc",
+  "characteristics": "Địa hình núi cao hiểm trở xen kẽ các thung lũng sâu, khí hậu cận nhiệt đới và ôn đới ẩm độc đáo. Đất đồi dốc dồi dào sỏi đá nhiều mùn thích hợp các dòng cây rễ sâu thảo mộc hoang dã dẻo dai.",
+  "advantages": "Lượng bức xạ nhiệt mặt trời dồi dào, biên độ nhiệt độ ngày và đêm rất lớn giúp thảo mộc tự nhiên tổng hợp nồng độ hoạt chất vô cùng đậm đặc khác biệt hoàn toàn đất đồng bằng.",
+  "commonHerbs": [
+    "Hà thủ ô đỏ",
+    "Ba kích",
+    "Đinh lăng",
+    "Actiso"
+  ],
+  "provinces": [
+    {
+      "name": "Sơn La",
+      "area": "1.200 ha chuyên canh",
+      "harvestPeriod": "Tháng 10 - Tháng 12",
+      "activeCooperatives": "15 Hợp tác xã dược liệu liên kết"
+    },
+    {
+      "name": "Hòa Bình",
+      "area": "850 ha chuyên canh",
+      "harvestPeriod": "Quanh năm (thu hoạch luân phiên)",
+      "activeCooperatives": "9 Hợp tác xã kiểu mới"
+    },
+    {
+      "name": "Lào Cai (Sa Pa)",
+      "area": "500 ha ôn đới",
+      "harvestPeriod": "Tháng 8 - Tháng 11",
+      "activeCooperatives": "8 Tác tổ dược sâm bản địa"
+    }
+  ]
+}

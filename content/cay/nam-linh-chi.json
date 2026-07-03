@@ -1,0 +1,83 @@
+{
+  "id": "nam-linh-chi",
+  "slug": "nam-linh-chi",
+  "name": "Nấm linh chi",
+  "scientificName": "Ganoderma lucidum",
+  "priceRange": "300.000 - 1.200.000 VNĐ/kg",
+  "shortDesc": "Nấm dược liệu cao cấp, được nuôi cấy tỉ mỉ trên mùn cưa hữu cơ hoặc thu hoạch tự nhiên.",
+  "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=600&auto=format&fit=crop",
+  "description": "Nấm linh chi Việt Nam được nghiên cứu nuôi trồng thành công tại nhiều Hợp tác xã công nghệ cao, mang lại giá trị kinh tế khổng lồ. Yêu cầu kỹ thuật nhà màng khép kín, giữ ẩm cực tốt và vô trùng phôi giống nghiêm ngặt.",
+  "stats": [
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "3 - 4 tháng từ khi cấy phôi"
+    },
+    {
+      "label": "Đất trồng thích hợp",
+      "value": "Nuôi trong nhà xưởng màng, giá thể gỗ mùn cưa cao su"
+    },
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Mũ nấm còn nguyên lớp bào tử quý giá"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "22°C - 30°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Linh chi Đỏ hữu cơ",
+      "specification": "Còn nguyên lớp phấn bào tử nâu trên bề mặt tai nấm, tai dày dai",
+      "priceRange": "700.000 - 950.000",
+      "unit": "kg",
+      "trend": "up"
+    },
+    {
+      "grade": "Linh chi Việt tự nhiên",
+      "specification": "Khai thác trực tiếp từ rừng Lim tự nhiên vùng Tây Nguyên/Quảng Nam",
+      "priceRange": "1.200.000 - 1.800.000",
+      "unit": "kg",
+      "trend": "up"
+    },
+    {
+      "grade": "Linh chi loại B",
+      "specification": "Tai nấm hơi mỏng hoặc rụng bớt bào tử do thu hoạch muộn",
+      "priceRange": "300.000 - 450.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "tay-nguyen",
+      "regionName": "Tây Nguyên",
+      "provinces": [
+        "Kon Tum",
+        "Gia Lai"
+      ],
+      "outputEstimate": "80 tấn/năm"
+    },
+    {
+      "regionSlug": "dong-nam-bo",
+      "regionName": "Đông Nam Bộ",
+      "provinces": [
+        "Đồng Nai",
+        "Bình Dương"
+      ],
+      "outputEstimate": "150 tấn/năm"
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-nam-linh-chi",
+  "standards": [
+    "Tuyệt đối không phun thuốc hóa học diệt nấm hại khi quả thể đang phát triển.",
+    "Tai nấm hóa gỗ hoàn toàn, đường kính >8cm, không bị sâu mọt ăn rỗng ruột.",
+    "Thu hoạch nhẹ tay tránh làm bay mất lớp phấn bào tử cực kỳ quý giá bám trên mũ nấm."
+  ],
+  "faq": [
+    {
+      "question": "Tại sao bào tử bám trên mặt nấm lại có giá trị cao?",
+      "answer": "Lớp phấn mỏng màu nâu bám trên bề mặt tai nấm chính là bào tử nấm linh chi. Nghiên cứu khoa học chứng minh lớp bào tử này có hàm lượng hoạt chất polysaccharide và triterpenoid cao gấp 10-20 lần so với chính tai nấm, quyết định chất lượng thượng hạng của sản phẩm."
+    }
+  ]
+}

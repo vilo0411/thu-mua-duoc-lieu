@@ -1,0 +1,32 @@
+{
+  "slug": "dong-bac",
+  "name": "Đông Bắc",
+  "characteristics": "Các dãy núi hình cánh cung đón gió mùa lạnh mùa đông từ phía Bắc, lượng mưa đều, thổ nhưỡng rừng sâu nguyên sinh dồi dào dinh dưỡng khoáng chất thích hợp thảo dược rừng và các loại củ dưới tán cây rừng ẩm.",
+  "advantages": "Hệ thống rừng tự nhiên phong phú lý tưởng tuyệt đối để áp dụng mô hình liên kết trồng thảo mộc dưới tán rừng tự nhiên của VIETMEC, bảo tồn hệ sinh thái bản địa tối ưu.",
+  "commonHerbs": [
+    "Ba kích",
+    "Đinh lăng",
+    "Hà thủ ô đỏ",
+    "Kim ngân hoa"
+  ],
+  "provinces": [
+    {
+      "name": "Quảng Ninh",
+      "area": "950 ha rừng liên kết",
+      "harvestPeriod": "Tháng 11 - Tháng 2 năm sau",
+      "activeCooperatives": "12 Tổ sản xuất huyện Ba Chẽ"
+    },
+    {
+      "name": "Hà Giang",
+      "area": "1.400 ha núi đá",
+      "harvestPeriod": "Tháng 9 - Tháng 12",
+      "activeCooperatives": "22 Hợp tác xã người Mông liên kết"
+    },
+    {
+      "name": "Phú Thọ",
+      "area": "750 ha chuyên canh",
+      "harvestPeriod": "Quanh năm",
+      "activeCooperatives": "Phân vùng nhà máy GMP VIETMEC đóng đô"
+    }
+  ]
+}
