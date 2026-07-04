@@ -10,7 +10,6 @@ import {
   SITE_OWNER,
   WIKI_ARTICLES,
 } from "../../lib/data";
-import { AccessibilityBar } from "../ui";
 
 export const Footer: React.FC = () => {
   return (
@@ -127,9 +126,6 @@ export const Footer: React.FC = () => {
           <span className="text-left">
             © 2026 Nguyễn Việt Lộc. Bảo lưu mọi quyền.
           </span>
-          <div className="hidden md:block">
-            <AccessibilityBar tone="dark" />
-          </div>
           <div className="flex gap-4">
             <Link to={paths.about()} className="hover:text-white transition-colors cursor-pointer">Giới thiệu tác giả</Link>
             <span>•</span>
