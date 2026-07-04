@@ -76,9 +76,9 @@ export const SearchBar: React.FC<SearchBarProps> = ({ variant = "desktop", onNav
         value={query}
         onFocus={() => setShowDropdown(true)}
         onChange={(e) => setQuery(e.target.value)}
-        className="w-full bg-[#FAF6F0] border border-[#E6DDD0] text-[#2D2521] placeholder-gray-400 rounded-lg pl-9 pr-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#B85037] transition-all"
+        className="w-full bg-white/10 border border-white/25 text-white placeholder-white/50 rounded-lg pl-9 pr-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-earth focus:bg-white/15 transition-all"
       />
-      <Search className="absolute left-3 top-2.5 w-4 h-4 text-gray-400" />
+      <Search className="absolute left-3 top-2.5 w-4 h-4 text-white/50" />
 
       {showDropdown && query.trim().length > 0 && (
         <div className="absolute right-0 top-full mt-2 w-72 bg-white border border-[#E6DDD0] rounded-xl shadow-xl z-50 overflow-hidden">

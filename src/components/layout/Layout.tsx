@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet, useMatch } from "react-router-dom";
 import { HERBS_DATA } from "../../lib/data";
-import { BottomMobileCtaBar, AccessibilityBar } from "../ui";
+import { BottomMobileCtaBar } from "../ui";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 import { ScrollToTop } from "./ScrollToTop";
@@ -18,9 +18,6 @@ export const Layout: React.FC = () => {
       <Header />
 
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 py-6 md:py-10">
-        <div className="mb-4">
-          <AccessibilityBar />
-        </div>
         <Outlet />
       </main>
 

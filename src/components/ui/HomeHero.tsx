@@ -22,7 +22,7 @@ export const HomeHero: React.FC<HomeHeroProps> = ({ ownerName, imageUrl, stats, 
   return (
     <section
       id="homepage-hero"
-      className="relative full-bleed overflow-hidden bg-pine-900 text-white animate-fade-in"
+      className="relative full-bleed -mt-6 md:-mt-10 overflow-hidden bg-pine-900 text-white animate-fade-in"
     >
       {/* Ảnh nền + overlay để bảo đảm tương phản chữ */}
       <img

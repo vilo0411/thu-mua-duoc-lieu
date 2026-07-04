@@ -11,12 +11,18 @@ const applyScale = (pct: number) => {
   }
 };
 
+interface AccessibilityBarProps {
+  /** "dark" khi đặt trên nền pine (header/mobile nav); "light" cho nền giấy. */
+  tone?: "light" | "dark";
+}
+
 /**
  * Thanh chỉnh cỡ chữ toàn site (A− / A+) cho người lớn tuổi, mắt kém. Không cần
  * backend — chỉ đổi font-size gốc và ghi nhớ bằng localStorage.
  */
-export const AccessibilityBar: React.FC = () => {
+export const AccessibilityBar: React.FC<AccessibilityBarProps> = ({ tone = "light" }) => {
   const [idx, setIdx] = React.useState(0);
+  const dark = tone === "dark";
 
   // Khôi phục lựa chọn đã lưu khi tải trang.
   React.useEffect(() => {
@@ -36,18 +42,18 @@ export const AccessibilityBar: React.FC = () => {
   };
 
   return (
-    <div className="flex items-center justify-end gap-2 text-[#7A6E62]">
+    <div className={`flex items-center justify-end gap-2 ${dark ? "text-white/70" : "text-[#7A6E62]"}`}>
       <span className="inline-flex items-center gap-1 text-sm font-sans font-semibold">
         <Type className="w-4 h-4" />
         Cỡ chữ
       </span>
-      <div className="inline-flex rounded-full border border-[#E6DDD0] bg-white overflow-hidden">
+      <div className={`inline-flex rounded-full border overflow-hidden ${dark ? "border-white/25 bg-white/10" : "border-[#E6DDD0] bg-white"}`}>
         <button
           type="button"
           onClick={() => setLevel(idx - 1)}
           disabled={idx === 0}
           aria-label="Giảm cỡ chữ"
-          className="px-3 py-1.5 text-sm font-bold text-[#4F433A] hover:bg-[#F5ECE1] disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer"
+          className={`px-3 py-1.5 text-sm font-bold disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer ${dark ? "text-white hover:bg-white/15" : "text-[#4F433A] hover:bg-[#F5ECE1]"}`}
         >
           A−
         </button>
@@ -56,7 +62,7 @@ export const AccessibilityBar: React.FC = () => {
           onClick={() => setLevel(idx + 1)}
           disabled={idx === LEVELS.length - 1}
           aria-label="Tăng cỡ chữ"
-          className="px-3 py-1.5 text-base font-bold text-[#4F433A] border-l border-[#E6DDD0] hover:bg-[#F5ECE1] disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer"
+          className={`px-3 py-1.5 text-base font-bold disabled:opacity-30 disabled:cursor-not-allowed cursor-pointer border-l ${dark ? "text-white hover:bg-white/15 border-white/25" : "text-[#4F433A] hover:bg-[#F5ECE1] border-[#E6DDD0]"}`}
         >
           A+
         </button>
