@@ -34,7 +34,14 @@ export const HomePage: React.FC = () => {
       />
 
       {/* 2. "Hai lối vào" — bộ định tuyến 2 silo, chữ ký định tuyến của trang chủ */}
-      <section id="homepage-doors" className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-5">
+      <section id="homepage-doors" className="mt-14 space-y-6">
+        <div className="text-center max-w-2xl mx-auto space-y-2">
+          <span className="text-terracotta font-mono text-xs font-bold uppercase tracking-[0.15em]">// Bạn muốn bắt đầu từ đâu?</span>
+          <h2 className="font-serif text-2xl md:text-3xl font-bold text-ink-soft tracking-tight">
+            Chọn lối vào phù hợp với bạn
+          </h2>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <PillarDoorCard
           icon={Sprout}
           tone="green"
@@ -53,6 +60,7 @@ export const HomePage: React.FC = () => {
           ctaLabel="Xem bảng giá thu mua"
           onClick={() => navigate(paths.pillar())}
         />
+        </div>
       </section>
 
       {/* 3. Band câu chuyện / sứ mệnh — điểm nhớ chính (signature) */}

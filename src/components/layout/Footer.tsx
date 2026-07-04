@@ -16,13 +16,6 @@ export const Footer: React.FC = () => {
     <footer className="bg-pine-900 text-white border-t-4 border-terracotta pt-12 pb-8 px-4 sm:px-6 mt-16">
       <div className="max-w-7xl mx-auto space-y-10">
 
-        {/* Wordmark khổng lồ — chốt thương hiệu (mượn từ mẫu tham khảo) */}
-        <Link to={paths.home()} className="block group">
-          <span className="font-serif font-black tracking-tight leading-none text-white/10 group-hover:text-white/15 transition-colors text-[15vw] md:text-[10rem]">
-            Nguyễn Việt Lộc
-          </span>
-        </Link>
-
         {/* 4 columns section */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Column 1: Về Nguyễn Việt Lộc */}

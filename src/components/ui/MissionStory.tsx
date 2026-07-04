@@ -20,9 +20,9 @@ export const MissionStory: React.FC<MissionStoryProps> = ({ imageUrl, partnerNam
     <section
       id="homepage-mission"
       aria-labelledby="mission-heading"
-      className="relative full-bleed my-16 bg-pine-800 text-white overflow-hidden"
+      className="relative mt-16 rounded-3xl bg-pine-800 text-white overflow-hidden"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-14 md:py-20 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+      <div className="px-6 sm:px-10 lg:px-14 py-12 md:py-16 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
         {/* Cột nội dung */}
         <div className="order-2 lg:order-1">
           <span className="text-earth font-mono text-xs sm:text-sm uppercase tracking-[0.2em]">

@@ -42,15 +42,15 @@ export const PillarDoorCard: React.FC<PillarDoorCardProps> = ({ icon: Icon, eyeb
   return (
     <button
       onClick={onClick}
-      className={`group relative overflow-hidden text-left bg-white border ${t.ring} ${t.hoverBorder} rounded-2xl p-7 md:p-8 shadow-2xs hover:shadow-md transition-all hover:-translate-y-0.5 cursor-pointer flex flex-col gap-4`}
+      className={`group relative overflow-hidden text-left bg-white border ${t.ring} ${t.hoverBorder} rounded-2xl p-8 md:p-10 min-h-[15rem] shadow-2xs hover:shadow-md transition-all hover:-translate-y-0.5 cursor-pointer flex flex-col gap-5`}
     >
-      <div className={`absolute right-0 top-0 w-40 h-40 ${t.glow} rounded-full -mr-16 -mt-16 pointer-events-none`} />
-      <div className={`w-14 h-14 shrink-0 rounded-xl ${t.iconBg} ${t.iconText} flex items-center justify-center`}>
-        <Icon className="w-7 h-7" strokeWidth={2} />
+      <div className={`absolute right-0 top-0 w-48 h-48 ${t.glow} rounded-full -mr-16 -mt-16 pointer-events-none`} />
+      <div className={`w-16 h-16 shrink-0 rounded-2xl ${t.iconBg} ${t.iconText} flex items-center justify-center`}>
+        <Icon className="w-8 h-8" strokeWidth={2} />
       </div>
-      <div className="space-y-1.5 relative z-10">
+      <div className="space-y-2 relative z-10">
         <span className={`text-xs font-bold uppercase tracking-wider ${t.cta}`}>{eyebrow}</span>
-        <h3 className="font-serif text-2xl font-bold text-[#4F433A] tracking-tight">{title}</h3>
+        <h3 className="font-serif text-2xl md:text-3xl font-bold text-[#4F433A] tracking-tight">{title}</h3>
         <p className="text-gray-600 text-sm md:text-base leading-relaxed">{desc}</p>
       </div>
       <span className={`mt-auto inline-flex items-center gap-1.5 font-sans font-bold text-sm ${t.cta}`}>
