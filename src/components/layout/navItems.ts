@@ -11,8 +11,6 @@ export interface NavItem {
 export const NAV_ITEMS: NavItem[] = [
   { to: paths.home(), label: "Trang chủ", end: true },
   { to: paths.pillar(), label: "Thu mua dược liệu" },
-  { to: paths.herbCatalog(), label: "Danh mục cây thuốc" },
-  { to: paths.regions(), label: "Vùng trồng" },
   { to: paths.knowledge(), label: "Kiến thức" },
   { to: paths.about(), label: "Về tôi" },
   { to: paths.contact(), label: "Liên hệ" },

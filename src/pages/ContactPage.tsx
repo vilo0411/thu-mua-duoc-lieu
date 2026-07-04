@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Breadcrumb } from "../components/ui";
+import { FEATURED_PARTNER } from "../lib/data";
 import { paths } from "../lib/paths";
 import { Seo, contactSeo } from "../lib/seo";
 
@@ -49,7 +50,7 @@ export const ContactPage: React.FC = () => {
 
         <div className="border-t border-[#F5EFE6] pt-5 text-xs text-gray-500 italic space-y-1">
           <p>Hộp thư cá nhân chính thức: <strong>lien-he@nguyenvietloc.com</strong></p>
-          <p>Liên hệ phòng thu mua trung tâm đối tác VIETMEC: <strong>thu-mua@vietmec.com</strong></p>
+          <p>Liên hệ phòng thu mua trung tâm đối tác {FEATURED_PARTNER.name}: <strong>thu-mua@vietmec.com</strong></p>
         </div>
       </section>
     </div>

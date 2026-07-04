@@ -3,10 +3,18 @@
   "slug": "kim-ngan-hoa",
   "name": "Kim ngân hoa",
   "scientificName": "Lonicera japonica",
+  "otherNames": [
+    "Nhẫn đông",
+    "Kim ngân",
+    "Boóc kim ngần"
+  ],
+  "group": "hoa-la",
   "priceRange": "180.000 - 450.000 VNĐ/kg",
   "shortDesc": "Được coi là 'kháng sinh thực vật quý'. Thu hái chính ở hoa búp sắp nở vàng trắng đan xen.",
   "image": "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?q=80&w=600&auto=format&fit=crop",
   "description": "Kim ngân là loại dây leo hoa tuyệt đẹp, khi nở đổi màu từ trắng tinh khôi sang vàng óng ả sang trọng. Búp hoa khô chứa lượng flavonoid dồi dào là vị thuốc kháng viêm, giải nhiệt kháng khuẩn hữu hiệu bậc nhất trong y học cổ truyền.",
+  "bioCharacteristics": "Kim ngân là dây leo bằng thân quấn sống lâu năm, lá mọc đối hình trứng, hoa mọc đôi ở nách lá, khi mới nở màu trắng rồi chuyển vàng nên gọi là kim ngân. Cây ưa sáng, chịu hạn khá, leo giàn khỏe và cho thu hoa nhiều năm.",
+  "usageValue": "Hoa búp sắp nở (kim ngân hoa) là bộ phận giá trị nhất làm trà và dược liệu kháng viêm, giải nhiệt; dây cành già (kim ngân cuống) có giá trị thấp hơn. Hoa sấy giữ màu trắng vàng, khô đều đạt giá cao.",
   "stats": [
     {
       "label": "Thời gian thu hoạch",
@@ -25,6 +33,17 @@
       "value": "20°C - 35°C"
     }
   ],
+  "seasonCalendar": {
+    "sow": [
+      2,
+      3
+    ],
+    "harvest": [
+      4,
+      5,
+      6
+    ]
+  },
   "prices": [
     {
       "grade": "Kim ngân hoa Loại 1",
@@ -56,7 +75,8 @@
         "Lạng Sơn",
         "Bắc Giang"
       ],
-      "outputEstimate": "90 tấn/năm"
+      "outputEstimate": "90 tấn/năm",
+      "popularity": "phu"
     },
     {
       "regionSlug": "dong-bang-song-hong",
@@ -64,7 +84,34 @@
       "provinces": [
         "Nam Định"
       ],
-      "outputEstimate": "150 tấn/năm"
+      "outputEstimate": "150 tấn/năm",
+      "popularity": "chinh"
+    }
+  ],
+  "technique": {
+    "season": "Giâm cành vụ xuân, làm giàn cho leo; thu hoa rộ vào đầu hè",
+    "soil": "Đất vườn xốp nhẹ ẩm, đất phù sa dốc nhẹ, thoát nước",
+    "ph": "6.0 – 7.0",
+    "density": "8.000 – 10.000 gốc/ha có giàn leo",
+    "harvestTime": "1 năm sau giâm cành cho thu hoa; cho thu nhiều năm",
+    "yield": "Hoa khô 1.5 – 2.5 tấn/ha/năm khi vào kinh doanh",
+    "propagation": [
+      "giâm cành",
+      "chiết cành"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh phấn trắng",
+      "level": "rat-pho-bien",
+      "symptom": "Lá và nụ phủ lớp phấn trắng, nụ hoa biến dạng, rụng sớm",
+      "remedy": "Tỉa thông thoáng giàn, dùng chế phẩm sinh học lưu huỳnh vi sinh, tránh bón thừa đạm"
+    },
+    {
+      "pestName": "Rệp và bọ trĩ hại nụ",
+      "level": "co-gap",
+      "symptom": "Nụ hoa thâm, cong queo, có lớp dịch dính và muội đen",
+      "remedy": "Phun dầu neem, bảo tồn thiên địch, thu hái kịp thời khi nụ đạt độ"
     }
   ],
   "techniquesLink": "ky-thuat-trong-kim-ngan-hoa",
@@ -72,6 +119,12 @@
     "Thu hoạch khi búp hoa đã phát triển tối đa nhưng cánh hoa còn đóng kín chưa nở bung nhị nhụy.",
     "Màu sắc hoa sấy không bị đen cháy hay vàng đen lụi thâm xỉn.",
     "Tuyệt đối không có tạp chất và dư lượng kim loại nặng vượt quá quy chuẩn kiểm nghiệm dược."
+  ],
+  "keywordsTarget": [
+    "thu mua kim ngân hoa",
+    "giá kim ngân hoa",
+    "kỹ thuật trồng kim ngân hoa",
+    "bán hoa kim ngân"
   ],
   "faq": [
     {

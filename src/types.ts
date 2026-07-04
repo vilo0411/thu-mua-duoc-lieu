@@ -11,11 +11,37 @@ export interface HerbPriceDetail {
   trend: "up" | "down" | "stable";
 }
 
+/** Mức phổ biến của cây tại một vùng (PRD §6.1 ty_le_pho_bien). */
+export type PopularityLevel = "chinh" | "phu" | "it";
+
 export interface HerbRegionInfo {
   regionSlug: string;
   regionName: string;
   provinces: string[];
   outputEstimate: string;
+  /** Cây trồng ở vùng là chính/phụ/ít — quyết định độ đậm nội dung combo (PRD §6.1). */
+  popularity: PopularityLevel;
+}
+
+/** Nhóm dược liệu theo bộ phận thu mua chính (PRD §6.1 nhom). */
+export type HerbGroup = "cu-re" | "hoa-la" | "nam" | "vo" | "than";
+
+export interface HerbTechnique {
+  season: string; // thời vụ
+  soil: string; // đất phù hợp
+  ph: string; // độ pH đất
+  density: string; // mật độ trồng, vd "10.000 cây/ha"
+  harvestTime: string; // thời gian tới thu hoạch
+  yield: string; // năng suất
+  propagation: string[]; // cách nhân giống, vd ["giâm cành", "ươm hạt"]
+}
+
+/** Sâu bệnh thường gặp trên cây (PRD §6.1 sau_benh_thuong_gap). */
+export interface HerbPest {
+  pestName: string;
+  level: "rat-pho-bien" | "co-gap" | "hiem";
+  symptom: string;
+  remedy: string;
 }
 
 export interface HerbalMedicine {
@@ -23,15 +49,27 @@ export interface HerbalMedicine {
   slug: string;
   name: string;
   scientificName: string;
+  otherNames: string[];
+  group: HerbGroup;
   priceRange: string;
   shortDesc: string;
   image: string;
   description: string;
+  bioCharacteristics: string; // đặc điểm sinh học 200-300 từ
+  usageValue: string; // giá trị sử dụng (không đi sâu chữa bệnh)
   stats: HerbStats[];
+  /** Tháng xuống giống & thu hoạch (1–12) cho Lịch mùa vụ tương tác. Tùy chọn. */
+  seasonCalendar?: {
+    sow: number[];
+    harvest: number[];
+  };
   prices: HerbPriceDetail[];
   regions: HerbRegionInfo[];
+  technique: HerbTechnique;
+  pests: HerbPest[];
   techniquesLink: string;
   standards: string[];
+  keywordsTarget: string[];
   faq: { question: string; answer: string }[];
 }
 

@@ -33,11 +33,11 @@ export const NotFoundPage: React.FC = () => {
           Về trang chủ
         </Link>
         <Link
-          to={paths.herbCatalog()}
+          to={paths.pillar()}
           className="inline-flex items-center justify-center gap-2 bg-white border border-[#E6DDD0] hover:border-[#B85037] text-[#4F433A] hover:text-[#B85037] font-sans font-semibold px-6 py-3 rounded-lg transition-colors"
         >
           <Leaf className="w-5 h-5" />
-          Danh mục cây thuốc
+          Thu mua dược liệu
         </Link>
         <Link
           to={paths.knowledge()}

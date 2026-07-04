@@ -1,7 +1,7 @@
 import React from "react";
 import { Globe, Mail, User } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import { SITE_OWNER } from "../lib/data";
+import { SITE_OWNER, FEATURED_PARTNER } from "../lib/data";
 import { Breadcrumb } from "../components/ui";
 import { paths } from "../lib/paths";
 import { Seo, aboutSeo } from "../lib/seo";
@@ -34,7 +34,7 @@ export const AboutPage: React.FC = () => {
             <strong className="text-[#B85037]"> Kỹ thuật canh tác yếu kém </strong> dính tàn dư hóa chất bảo vệ thực vật bị từ chối mua, và <strong className="text-[#B85037]"> Sự bấp bênh rủi ro của thương lái trôi nổi </strong> dẫn tới thảm cảnh nông sản thối rữa đầy đồng.
           </p>
           <p>
-            Mọi kiến thức tôi chia sẻ tại trang điện tử này đều độc lập, khách quan, dựa trên giáo án tập huấn thực tế GACP-WHO của Tổ chức Y tế Thế giới. Đồng thời, tôi kết nối cho bà con nông hộ, HTX đấu đầu mối trực tiếp với các cán bộ thu mua của đối tác chiến lược uy tín là <strong>Tập đoàn Dược liệu Việt Nam (VIETMEC)</strong> nhằm mục đích đảm bảo dòng bao tiêu sạch, pháp lý cam kết vững bền cho gia đình bà con làm giàu.
+            Mọi kiến thức tôi chia sẻ tại trang điện tử này đều độc lập, khách quan, dựa trên giáo án tập huấn thực tế GACP-WHO của Tổ chức Y tế Thế giới. Đồng thời, tôi kết nối cho bà con nông hộ, HTX đấu đầu mối trực tiếp với các cán bộ thu mua của đối tác chiến lược uy tín là <strong>{FEATURED_PARTNER.fullName}</strong> nhằm mục đích đảm bảo dòng bao tiêu sạch, pháp lý cam kết vững bền cho gia đình bà con làm giàu.
           </p>
         </div>
 

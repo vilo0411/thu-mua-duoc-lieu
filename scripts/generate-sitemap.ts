@@ -54,11 +54,11 @@ for (const h of herbs) {
 
 // --- Wiki silo: index + hub theo cây + wiki chung ---
 const wikiPaths = ["/kien-thuc"];
-for (const hub of hubs) wikiPaths.push(`/ky-thuat-trong/${hub.herbSlug}`);
+for (const hub of hubs) wikiPaths.push(`/kien-thuc/ky-thuat-trong-${hub.herbSlug}`);
 for (const a of wiki) wikiPaths.push(`/kien-thuc/${a.id}`);
 
 // --- Static ---
-const staticPaths = ["/", "/duoc-lieu", "/vung-trong", "/ve-toi", "/lien-he"];
+const staticPaths = ["/", "/ve-toi", "/lien-he"];
 
 if (!existsSync(DIST)) mkdirSync(DIST, { recursive: true });
 

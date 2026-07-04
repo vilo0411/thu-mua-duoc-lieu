@@ -3,10 +3,18 @@
   "slug": "ca-gai-leo",
   "name": "Cà gai leo",
   "scientificName": "Solanum procumbens",
+  "otherNames": [
+    "Cà gai dây",
+    "Cà vạnh",
+    "Cà quýnh"
+  ],
+  "group": "than",
   "priceRange": "30.000 - 75.000 VNĐ/kg",
   "shortDesc": "Thảo dược dây leo gai sắc nhọn, khắc tinh của các bệnh lý xơ gan, viêm gan vi rút.",
   "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=600&auto=format&fit=crop",
   "description": "Cà gai leo là loại thảo dược bản địa có sức sống bền bỉ tuyệt vời trên vùng đất đồi sỏi đá cằn cỗi của miền Trung Việt Nam. Các hoạt chất glycoalcaloid trong cà gai leo cực mạnh giúp bảo vệ tế bào gan, hạ men gan vô cùng hiệu quả, nhu cầu tiêu thụ công nghiệp cực cao.",
+  "bioCharacteristics": "Cà gai leo là cây nhỡ leo hoặc bò, thân và lá phủ nhiều gai sắc, hoa tím nhạt, quả mọng đỏ khi chín. Cây có sức sống bền bỉ trên đất đồi sỏi đá cằn khô miền Trung, chịu hạn và nắng gắt rất tốt.",
+  "usageValue": "Toàn bộ thân, cành, lá già được thu mua làm nguyên liệu nấu cao và trà hỗ trợ gan nhờ hoạt chất glycoalcaloid. Hàng khô sạch tạp chất, cây đủ tuổi ra hoa kết quả cho dược tính cao nhất.",
   "stats": [
     {
       "label": "Thời gian thu hoạch",
@@ -25,6 +33,19 @@
       "value": "25°C - 38°C"
     }
   ],
+  "seasonCalendar": {
+    "sow": [
+      4,
+      5,
+      6
+    ],
+    "harvest": [
+      11,
+      12,
+      1,
+      2
+    ]
+  },
   "prices": [
     {
       "grade": "Thân cành lá khô",
@@ -49,7 +70,8 @@
         "Quảng Trị",
         "Nghệ An"
       ],
-      "outputEstimate": "1.800 tấn/năm"
+      "outputEstimate": "1.800 tấn/năm",
+      "popularity": "chinh"
     },
     {
       "regionSlug": "dong-bac",
@@ -57,7 +79,34 @@
       "provinces": [
         "Bắc Giang"
       ],
-      "outputEstimate": "600 tấn/năm"
+      "outputEstimate": "600 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Trồng đầu mùa mưa (tháng 4–6) để cây bén rễ, thu hoạch mùa khô",
+    "soil": "Đất đồi sỏi đá, nghèo dinh dưỡng, thoát nước nhanh",
+    "ph": "5.5 – 6.5",
+    "density": "25.000 – 30.000 cây/ha (cây cách cây 40–50cm)",
+    "harvestTime": "5 – 6 tháng sau trồng cho lứa đầu, sau đó thu nhiều lứa",
+    "yield": "Thân lá khô 4 – 6 tấn/ha/năm",
+    "propagation": [
+      "ươm hạt",
+      "giâm hom"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh héo xanh vi khuẩn",
+      "level": "co-gap",
+      "symptom": "Cây đang xanh đột ngột héo rũ, cắt gốc thấy dịch nhờn đục",
+      "remedy": "Luân canh, xử lý đất bằng vôi và Trichoderma, nhổ bỏ và tiêu hủy cây bệnh"
+    },
+    {
+      "pestName": "Sâu đục thân",
+      "level": "hiem",
+      "symptom": "Thân có lỗ đục và mùn, cành gãy héo",
+      "remedy": "Cắt bỏ cành bị đục, dùng bẫy đèn và chế phẩm sinh học"
     }
   ],
   "techniquesLink": "ky-thuat-trong-ca-gai-leo",
@@ -65,6 +114,12 @@
     "Không chứa tạp chất bụi đất sỏi cát rác hữu cơ quá 1%.",
     "Màu vàng xanh nhạt sấy thơm mát đặc trưng, không có mùi ẩm mốc cũ nát.",
     "Cây đạt tuổi trưởng thành đủ ra hoa kết quả đỏ mọng để tích lũy lượng Glycoalcaloid tối ưu nhất."
+  ],
+  "keywordsTarget": [
+    "thu mua cà gai leo",
+    "giá cà gai leo khô",
+    "kỹ thuật trồng cà gai leo",
+    "bán cà gai leo"
   ],
   "faq": [
     {

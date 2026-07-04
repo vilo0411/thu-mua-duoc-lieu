@@ -3,10 +3,18 @@
   "slug": "ha-thu-o",
   "name": "Hà thủ ô đỏ",
   "scientificName": "Fallopia multiflora",
+  "otherNames": [
+    "Thủ ô",
+    "Dạ giao đằng",
+    "Má ỏn"
+  ],
+  "group": "cu-re",
   "priceRange": "90.000 - 250.000 VNĐ/kg",
   "shortDesc": "Dây leo cuốn sống lâu năm, nổi tiếng với công dụng làm đen tóc, bổ huyết, đẹp da.",
   "image": "https://images.unsplash.com/photo-1622219808011-8be9426f00db?q=80&w=600&auto=format&fit=crop",
   "description": "Hà thủ ô đỏ là loại thảo dược mọc hoang rải rác khắp vùng núi phía Bắc và hiện nay đang được phát triển mạnh thành vùng trồng chuyên canh rộng lớn tại Hà Giang, Sơn La. Trồng Hà thủ ô đỏ đòi hỏi giàn leo vững chắc và thời gian từ 3 đến 5 năm để có chất lượng củ nặng nhất.",
+  "bioCharacteristics": "Hà thủ ô đỏ là dây leo cuốn sống nhiều năm, thân mềm màu tím đỏ, lá hình tim mọc so le. Rễ phình thành củ lớn vỏ nâu đỏ, thịt hồng đỏ nhiều bột. Cây mọc hoang và trồng ở vùng núi mát ẩm, cần giàn leo chắc chắn và đất dốc nhiều mùn.",
+  "usageValue": "Củ rễ là bộ phận thu mua chính, dùng chế biến (chưng với đậu đen) làm nguyên liệu bổ huyết, làm đen tóc trong y học cổ truyền. Củ lớn vỏ đỏ sẫm cho giá trị cao nhất.",
   "stats": [
     {
       "label": "Thời gian thu hoạch",
@@ -25,6 +33,18 @@
       "value": "15°C - 30°C"
     }
   ],
+  "seasonCalendar": {
+    "sow": [
+      2,
+      3,
+      4
+    ],
+    "harvest": [
+      11,
+      12,
+      1
+    ]
+  },
   "prices": [
     {
       "grade": "Củ tươi Loại lớn",
@@ -56,7 +76,8 @@
         "Sơn La",
         "Điện Biên"
       ],
-      "outputEstimate": "200 tấn/năm"
+      "outputEstimate": "200 tấn/năm",
+      "popularity": "phu"
     },
     {
       "regionSlug": "dong-bac",
@@ -65,7 +86,34 @@
         "Hà Giang",
         "Cao Bằng"
       ],
-      "outputEstimate": "350 tấn/năm"
+      "outputEstimate": "350 tấn/năm",
+      "popularity": "chinh"
+    }
+  ],
+  "technique": {
+    "season": "Trồng vụ xuân (tháng 2–4), làm giàn khi cây bắt đầu vươn dây",
+    "soil": "Đất đồi dốc nhẹ, nhiều mùn ẩm, thoát nước tốt",
+    "ph": "5.5 – 6.5",
+    "density": "15.000 – 20.000 cây/ha có giàn leo",
+    "harvestTime": "3 – 5 năm trở lên để củ đạt trọng lượng lớn",
+    "yield": "Củ tươi 8 – 12 tấn/ha sau 4 năm",
+    "propagation": [
+      "giâm hom dây",
+      "ươm hạt"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối củ mùa mưa",
+      "level": "co-gap",
+      "symptom": "Củ thâm nhũn, dây héo, nhất là khi đất úng kéo dài",
+      "remedy": "Lên luống cao, khơi rãnh thoát nước, xử lý vôi và Trichoderma vào đất"
+    },
+    {
+      "pestName": "Bọ trĩ, rệp hại đọt",
+      "level": "hiem",
+      "symptom": "Đọt non xoăn lại, chậm leo giàn",
+      "remedy": "Phun dầu neem hoặc chế phẩm nấm ký sinh khi phát hiện sớm"
     }
   ],
   "techniquesLink": "ky-thuat-trong-ha-thu-o",
@@ -73,6 +121,12 @@
     "Không nhầm lẫn với Hà thủ ô trắng (ít giá trị kinh tế hơn).",
     "Củ chắc chắn, cắt ra bên trong có màu hồng đỏ nhẹ, có chứa vân bột đặc trưng.",
     "Hàm lượng tanin và các anthranoid đạt tiêu chuẩn Dược điển Việt Nam."
+  ],
+  "keywordsTarget": [
+    "thu mua hà thủ ô",
+    "giá hà thủ ô đỏ",
+    "kỹ thuật trồng hà thủ ô",
+    "phân biệt hà thủ ô đỏ trắng"
   ],
   "faq": [
     {

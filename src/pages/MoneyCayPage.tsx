@@ -1,19 +1,30 @@
 import React from "react";
-import { ChevronRight, Leaf, ShieldCheck } from "lucide-react";
+import { ChevronRight, Leaf, ShieldCheck, Bug, Clock, Thermometer, Sprout, Package } from "lucide-react";
 import { useNavigate, useParams } from "react-router-dom";
-import { HERBS_DATA, PARTNER_COMPANY } from "../lib/data";
-import { Breadcrumb, CtaBanner, DataTable, FaqAccordion, FeaturedPartnerCard, NeutralPartnerCard } from "../components/ui";
-import { useShipmentModal } from "../lib/ShipmentModalContext";
+import { HERBS_DATA, PARTNER_COMPANY, FEATURED_PARTNER, buildLandingUrl } from "../lib/data";
+import { Breadcrumb, CtaBanner, FaqAccordion, FeaturedPartnerCard, NeutralPartnerCard, PriceBoard, PestList, HerbPriceCalculator } from "../components/ui";
+
+/** Chọn icon cho thẻ thông số dựa trên từ khoá trong nhãn, giúp bà con liếc là nhận ra. */
+const statIcon = (label: string): React.ElementType => {
+  const l = label.toLowerCase();
+  if (l.includes("bộ phận")) return Package;
+  if (l.includes("nhiệt")) return Thermometer;
+  if (l.includes("thời gian") || l.includes("thu hoạch") || l.includes("năm")) return Clock;
+  if (l.includes("đất") || l.includes("trồng")) return Sprout;
+  return Leaf;
+};
 import { paths } from "../lib/paths";
 import { Seo, herbSeo } from "../lib/seo";
+import { NotFoundPage } from "./NotFoundPage";
 
 export const MoneyCayPage: React.FC = () => {
   const { cay = "" } = useParams();
   const navigate = useNavigate();
-  const { open } = useShipmentModal();
 
   const herb = HERBS_DATA.find((h) => h.slug === cay);
-  if (!herb) return <div className="p-8 text-center text-red-500">Không tìm thấy dữ liệu cây thuốc này.</div>;
+  if (!herb) return <NotFoundPage />;
+
+  const calcCtaHref = buildLandingUrl(FEATURED_PARTNER, { cay: herb.slug, pageType: "money_cay", ctaPosition: "calculator" });
 
   return (
     <div className="space-y-10 animate-fade-in">
@@ -46,12 +57,20 @@ export const MoneyCayPage: React.FC = () => {
       <section className="space-y-4">
         <h3 className="font-serif text-xl font-bold text-[#4F433A]">Thông số đặc điểm thương mại</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {herb.stats.map((stat, idx) => (
-            <div key={idx} className="bg-[#FAF8F4] border border-[#E6DDD0] rounded-xl p-4 flex items-center justify-between gap-4">
-              <span className="font-sans font-semibold text-[#4F433A] text-sm">{stat.label}</span>
-              <span className="font-sans text-[#B85037] font-bold text-base text-right">{stat.value}</span>
-            </div>
-          ))}
+          {herb.stats.map((stat, idx) => {
+            const Icon = statIcon(stat.label);
+            return (
+              <div key={idx} className="bg-[#FAF8F4] border border-[#E6DDD0] rounded-xl p-4 flex items-center gap-4">
+                <div className="w-11 h-11 rounded-full bg-[#F5ECE1] text-[#B85037] flex items-center justify-center shrink-0">
+                  <Icon className="w-5 h-5" />
+                </div>
+                <div className="min-w-0">
+                  <span className="block font-sans font-semibold text-[#7A6E62] text-sm">{stat.label}</span>
+                  <span className="block font-sans text-[#4F433A] font-bold text-lg leading-tight">{stat.value}</span>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </section>
 
@@ -64,21 +83,18 @@ export const MoneyCayPage: React.FC = () => {
           <span className="text-xs text-green-700 font-semibold italic">Đầy đủ các bộ phận giao dịch</span>
         </div>
 
-        <DataTable
-          headers={["Hạng sản phẩm", "Quy cách mô tả kỹ thuật", "Khoảng giá mua (VNĐ/kg)", "Đơn vị tính"]}
-          rows={herb.prices.map((p) => [
-            <strong className="text-[#4F433A] font-sans">{p.grade}</strong>,
-            <span className="text-sm text-gray-600">{p.specification}</span>,
-            <span className="font-mono font-bold text-[#B85037] text-base">{p.priceRange}</span>,
-            <span className="text-sm text-gray-500 font-sans uppercase">/{p.unit}</span>,
-          ])}
-        />
+        <PriceBoard prices={herb.prices} updatedLabel="Tuần này" />
+      </section>
+
+      {/* Price calculator */}
+      <section>
+        <HerbPriceCalculator prices={herb.prices} herbName={herb.name} ctaHref={calcCtaHref} />
       </section>
 
       {/* Partner cards */}
       <section className="space-y-4">
         <h3 className="font-serif text-xl font-bold text-[#4F433A] border-b border-[#F0EAE1] pb-2">Đề xuất kênh bán hàng {herb.name} minh bạch</h3>
-        <FeaturedPartnerCard herbName={herb.name} />
+        <FeaturedPartnerCard herbName={herb.name} cay={herb.slug} pageType="money_cay" />
         <NeutralPartnerCard />
       </section>
 
@@ -122,6 +138,21 @@ export const MoneyCayPage: React.FC = () => {
         </div>
       </section>
 
+      {/* Pests & diseases */}
+      {herb.pests.length > 0 && (
+        <section className="space-y-4">
+          <h3 className="font-serif text-xl font-bold text-[#4F433A] flex items-center gap-2 border-b border-[#F0EAE1] pb-2">
+            <Bug className="w-6 h-6 text-[#B85037]" />
+            Sâu bệnh thường gặp & cách xử lý cho {herb.name}
+          </h3>
+          <p className="text-sm text-gray-600 font-sans">
+            Bà con soi cây nhà mình theo dấu hiệu bên dưới để nhận biết sớm và xử lý bằng chế phẩm an toàn, giữ hàng đạt
+            chuẩn thu mua:
+          </p>
+          <PestList pests={herb.pests} />
+        </section>
+      )}
+
       {/* Technique block */}
       <section className="bg-gradient-to-br from-[#FDFBF9] to-[#FAF6F0] border border-[#E6DDD0] rounded-xl p-6 flex flex-col sm:flex-row gap-6 items-center justify-between">
         <div className="space-y-2">
@@ -147,7 +178,7 @@ export const MoneyCayPage: React.FC = () => {
         title={`Gửi lô hàng ${herb.name} để đấu nối bao tiêu`}
         description={`Nhận ngay phản hồi của Trưởng ban mua hàng khu vực của tập đoàn sấy sạch dược phẩm ${PARTNER_COMPANY.name} để thương thảo giá thu mua sàn của bà con.`}
         buttonText="Bắt đầu gửi thông số lô hàng"
-        onClick={() => open(herb.name)}
+        href={buildLandingUrl(FEATURED_PARTNER, { cay: herb.slug, pageType: "money_cay", ctaPosition: "footer" })}
       />
     </div>
   );

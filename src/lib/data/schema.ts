@@ -12,16 +12,29 @@ import { z } from "zod";
 const trend = z.enum(["up", "down", "stable"]);
 const faqItem = z.object({ question: z.string().min(1), answer: z.string().min(1) });
 
+const popularity = z.enum(["chinh", "phu", "it"]);
+const pestLevel = z.enum(["rat-pho-bien", "co-gap", "hiem"]);
+
 export const herbSchema = z.object({
   id: z.string().min(1),
   slug: z.string().regex(/^[a-z0-9-]+$/, "slug phải là chữ thường không dấu, dùng '-'"),
   name: z.string().min(1),
   scientificName: z.string().min(1),
+  otherNames: z.array(z.string().min(1)),
+  group: z.enum(["cu-re", "hoa-la", "nam", "vo", "than"]),
   priceRange: z.string().min(1),
   shortDesc: z.string().min(1),
   image: z.string().url(),
   description: z.string().min(1),
+  bioCharacteristics: z.string().min(1),
+  usageValue: z.string().min(1),
   stats: z.array(z.object({ label: z.string().min(1), value: z.string().min(1) })).min(1),
+  seasonCalendar: z
+    .object({
+      sow: z.array(z.number().int().min(1).max(12)),
+      harvest: z.array(z.number().int().min(1).max(12)),
+    })
+    .optional(),
   prices: z
     .array(
       z.object({
@@ -39,10 +52,29 @@ export const herbSchema = z.object({
       regionName: z.string().min(1),
       provinces: z.array(z.string().min(1)),
       outputEstimate: z.string().min(1),
+      popularity,
+    }),
+  ),
+  technique: z.object({
+    season: z.string().min(1),
+    soil: z.string().min(1),
+    ph: z.string().min(1),
+    density: z.string().min(1),
+    harvestTime: z.string().min(1),
+    yield: z.string().min(1),
+    propagation: z.array(z.string().min(1)).min(1),
+  }),
+  pests: z.array(
+    z.object({
+      pestName: z.string().min(1),
+      level: pestLevel,
+      symptom: z.string().min(1),
+      remedy: z.string().min(1),
     }),
   ),
   techniquesLink: z.string().min(1),
   standards: z.array(z.string().min(1)).min(1),
+  keywordsTarget: z.array(z.string().min(1)).min(1),
   faq: z.array(faqItem),
 });
 

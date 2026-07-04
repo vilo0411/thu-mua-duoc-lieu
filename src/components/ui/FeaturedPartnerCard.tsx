@@ -1,16 +1,23 @@
 import React from "react";
 import { Building2, CheckCircle2, Clock } from "lucide-react";
-import { useShipmentModal } from "../../lib/ShipmentModalContext";
 import { FEATURED_PARTNER } from "../../lib/data";
+import { LandingLink } from "./LandingLink";
 
 interface FeaturedPartnerCardProps {
   herbName?: string;
+  /** Slug cây cho UTM (bỏ trống ở trang tổng). */
+  cay?: string;
+  /** Loại trang cho UTM (PRD §12.2). */
+  pageType?: string;
 }
 
 // Không hardcode tên đối tác trong template (PRD §15.4) — mọi thông tin lấy từ
 // content/partners.json qua FEATURED_PARTNER.
-export const FeaturedPartnerCard: React.FC<FeaturedPartnerCardProps> = ({ herbName = "Đinh lăng" }) => {
-  const { open } = useShipmentModal();
+export const FeaturedPartnerCard: React.FC<FeaturedPartnerCardProps> = ({
+  herbName = "Đinh lăng",
+  cay,
+  pageType = "money_cay",
+}) => {
   const partner = FEATURED_PARTNER;
 
   return (
@@ -58,13 +65,15 @@ export const FeaturedPartnerCard: React.FC<FeaturedPartnerCardProps> = ({ herbNa
           <div className="text-xs text-gray-500 italic max-w-sm text-center sm:text-left">
             * Nhấp vào nút để gửi thông số lô hàng của bà con. Thông tin sẽ được tự động chuyển đến Trưởng phòng Thu mua khu vực của {partner.name}.
           </div>
-          <button
-            id="featured-partner-cta"
-            onClick={() => open(herbName)}
-            className="w-full sm:w-auto bg-[#B85037] hover:bg-[#9F3E28] text-white font-sans font-bold text-base px-6 py-3.5 rounded-lg shadow-md transition-all transform hover:scale-[1.01] active:scale-[0.99] cursor-pointer text-center"
+          <LandingLink
+            cay={cay}
+            pageType={pageType}
+            ctaPosition="partner_card"
+            showArrow={false}
+            className="w-full sm:w-auto bg-[#B85037] hover:bg-[#9F3E28] text-white font-sans font-bold text-base px-6 py-3.5 rounded-lg shadow-md transition-all transform hover:scale-[1.01] active:scale-[0.99] cursor-pointer text-center inline-block"
           >
-            Gửi thông tin lô hàng {herbName}
-          </button>
+            <span>Gửi thông tin lô hàng {herbName}</span>
+          </LandingLink>
         </div>
       </div>
     </div>

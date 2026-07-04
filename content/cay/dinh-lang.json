@@ -3,10 +3,17 @@
   "slug": "dinh-lang",
   "name": "Đinh lăng",
   "scientificName": "Polyscias fruticosa",
+  "otherNames": [
+    "Cây gỏi cá",
+    "Nam dương sâm"
+  ],
+  "group": "cu-re",
   "priceRange": "35.000 - 180.000 VNĐ/kg",
   "shortDesc": "Được ví như 'nhân sâm của người nghèo'. Thu hoạch toàn bộ từ lá, thân đến rễ củ từ 3 năm tuổi trở lên.",
   "image": "https://images.unsplash.com/photo-1597362925123-77861d3fbac7?q=80&w=600&auto=format&fit=crop",
   "description": "Cây Đinh lăng nếp (lá nhỏ) là loại dược liệu truyền thống cực kỳ phổ biến tại Việt Nam. Toàn bộ các bộ phận của cây đều có giá trị sử dụng và thu mua. Đặc biệt, rễ củ Đinh lăng từ 3 - 5 năm tuổi trở lên chứa lượng saponin cao tương tự nhân sâm, rất được thị trường ưa chuộng.",
+  "bioCharacteristics": "Đinh lăng nếp lá nhỏ là cây bụi lâu năm, cao 1–2m, thân nhẵn ít phân nhánh, lá kép lông chim xẻ nhiều thùy mọc so le. Bộ rễ phát triển thành củ sau 3 năm, tích lũy saponin oleanolic tương tự nhân sâm. Cây ưa sáng nhưng chịu bóng bán phần, sinh trưởng mạnh trong mùa mưa ẩm và gần như ngừng phát triển vào mùa khô lạnh.",
+  "usageValue": "Toàn cây đều được thu mua: rễ củ dùng ngâm rượu và chiết xuất, thân cành và lá khô làm nguyên liệu trà thảo mộc, cao dược liệu. Giá trị thương mại tập trung ở rễ củ lâu năm nhờ hàm lượng hoạt chất cao.",
   "stats": [
     {
       "label": "Thời gian thu hoạch",
@@ -25,6 +32,18 @@
       "value": "22°C - 35°C"
     }
   ],
+  "seasonCalendar": {
+    "sow": [
+      2,
+      3,
+      4
+    ],
+    "harvest": [
+      10,
+      11,
+      12
+    ]
+  },
   "prices": [
     {
       "grade": "Rễ củ Loại 1",
@@ -63,7 +82,8 @@
         "Phú Thọ",
         "Tuyên Quang"
       ],
-      "outputEstimate": "450 tấn/năm"
+      "outputEstimate": "450 tấn/năm",
+      "popularity": "phu"
     },
     {
       "regionSlug": "tay-bac",
@@ -72,7 +92,8 @@
         "Sơn La",
         "Hòa Bình"
       ],
-      "outputEstimate": "300 tấn/năm"
+      "outputEstimate": "300 tấn/năm",
+      "popularity": "phu"
     },
     {
       "regionSlug": "dong-bang-song-hong",
@@ -81,7 +102,33 @@
         "Nam Định",
         "Thái Bình"
       ],
-      "outputEstimate": "800 tấn/năm"
+      "outputEstimate": "800 tấn/năm",
+      "popularity": "chinh"
+    }
+  ],
+  "technique": {
+    "season": "Giâm cành vụ xuân (tháng 2–4) ở miền Bắc, đầu mùa mưa ở miền Nam",
+    "soil": "Đất cát pha, thịt nhẹ, tơi xốp, thoát nước tốt",
+    "ph": "5.5 – 6.5",
+    "density": "40.000 – 50.000 cây/ha (cây cách cây 40cm, hàng cách hàng 50cm)",
+    "harvestTime": "3 – 5 năm đối với rễ củ; lá thu tỉa từ năm thứ 2",
+    "yield": "Rễ củ 2 – 4 tấn/ha sau 3 năm canh tác",
+    "propagation": [
+      "giâm cành"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Rệp sáp hại rễ",
+      "level": "co-gap",
+      "symptom": "Rễ tơ bám lớp trắng như bông, cây còi cọc, lá vàng dần",
+      "remedy": "Tưới chế phẩm nấm xanh – nấm trắng (Metarhizium/Beauveria) vào gốc, luân canh tránh trồng liên tục một chỗ"
+    },
+    {
+      "pestName": "Bệnh thối rễ, thối củ",
+      "level": "co-gap",
+      "symptom": "Củ mềm nhũn có mùi hôi, lá héo rũ từ gốc lên ngọn",
+      "remedy": "Lên luống cao thoát nước, xử lý Trichoderma vào đất trước khi trồng, không tưới đọng"
     }
   ],
   "techniquesLink": "ky-thuat-trong-dinh-lang",
@@ -90,6 +137,12 @@
     "Độ ẩm dược liệu khô phải dưới 12% để tránh nấm mốc phát triển.",
     "Rễ củ không bị thối hỏng ruột, giữ nguyên vẹn vỏ củ ngoài.",
     "Lá khô giữ nguyên màu xanh nhạt hoặc vàng cỏ úa, không bị đen sẫm."
+  ],
+  "keywordsTarget": [
+    "thu mua đinh lăng",
+    "giá đinh lăng hôm nay",
+    "kỹ thuật trồng đinh lăng",
+    "bán rễ củ đinh lăng"
   ],
   "faq": [
     {

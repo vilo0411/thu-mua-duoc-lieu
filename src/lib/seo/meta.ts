@@ -159,26 +159,6 @@ export function knowledgeSeo(): SeoProps {
   };
 }
 
-export function herbCatalogSeo(): SeoProps {
-  return {
-    title: "Danh mục cây dược liệu Việt Nam & bảng giá thu mua",
-    description:
-      "Danh mục các loại cây dược liệu phổ biến tại Việt Nam kèm khoảng giá thu mua tham khảo và đặc điểm canh tác.",
-    path: paths.herbCatalog(),
-    type: "website",
-  };
-}
-
-export function regionsSeo(): SeoProps {
-  return {
-    title: "Vùng trồng dược liệu trọng điểm Việt Nam",
-    description:
-      "Đặc điểm khí hậu, thổ nhưỡng và các tỉnh trồng dược liệu chính theo từng vùng miền của Việt Nam.",
-    path: paths.regions(),
-    type: "website",
-  };
-}
-
 export function aboutSeo(): SeoProps {
   return {
     title: `Về ${SITE.owner} — Chuyên gia nông học dược liệu`,

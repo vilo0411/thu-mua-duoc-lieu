@@ -1,16 +1,17 @@
 import React from "react";
 import { AlertTriangle, ArrowRight, User } from "lucide-react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { WIKI_ARTICLES } from "../lib/data";
 import { Breadcrumb, DataTable, StickyToc } from "../components/ui";
 import { paths } from "../lib/paths";
 import { Seo, articleSeo } from "../lib/seo";
+import { NotFoundPage } from "./NotFoundPage";
 
-export const WikiArticlePage: React.FC = () => {
-  const { topic = "" } = useParams();
+export const WikiArticlePage: React.FC<{ articleId: string }> = ({ articleId }) => {
   const navigate = useNavigate();
 
-  const article = WIKI_ARTICLES.find((a) => a.id === topic) || WIKI_ARTICLES[0];
+  const article = WIKI_ARTICLES.find((a) => a.id === articleId);
+  if (!article) return <NotFoundPage />;
 
   const sections = article.contentSections.map((sec, idx) => ({
     id: `art-sec-${idx}`,

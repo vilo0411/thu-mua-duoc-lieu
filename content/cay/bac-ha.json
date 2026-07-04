@@ -3,10 +3,18 @@
   "slug": "bac-ha",
   "name": "Bạc hà Á",
   "scientificName": "Mentha arvensis",
+  "otherNames": [
+    "Bạc hà nam",
+    "Bạc hà Á",
+    "Húng bạc hà"
+  ],
+  "group": "than",
   "priceRange": "15.000 - 45.000 VNĐ/kg",
   "shortDesc": "Thân thảo sinh trưởng cực nhanh, cho sản lượng lá tươi lớn dùng để chưng cất tinh dầu menthol.",
   "image": "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?q=80&w=600&auto=format&fit=crop",
   "description": "Bạc hà là cây dược liệu ngắn ngày lý tưởng cho canh tác luân canh của nông dân đồng bằng. Cây sinh trưởng tốt trong điều kiện nhiều nắng, đất ẩm, dễ thu hoạch bằng liềm sấy khô chiết tinh dầu hoặc cung cấp trực tiếp cho các xưởng chiết dược mỹ phẩm.",
+  "bioCharacteristics": "Bạc hà Á là cây thân thảo sống lâu năm, thân vuông bò lan và đứng, lá mọc đối có lông và tuyến tinh dầu thơm mát. Cây sinh trưởng cực nhanh, ưa nắng và đất ẩm, cho nhiều lứa cắt trong năm nên rất hợp luân canh ở đồng bằng.",
+  "usageValue": "Thân lá tươi và khô dùng chưng cất tinh dầu menthol, làm trà và nguyên liệu dược mỹ phẩm. Tinh dầu chưng cất tại chỗ cho giá trị gia tăng cao nhất trên một đơn vị diện tích.",
   "stats": [
     {
       "label": "Thời gian thu hoạch",
@@ -25,6 +33,21 @@
       "value": "20°C - 32°C"
     }
   ],
+  "seasonCalendar": {
+    "sow": [
+      2,
+      3,
+      8,
+      9
+    ],
+    "harvest": [
+      5,
+      6,
+      7,
+      11,
+      12
+    ]
+  },
   "prices": [
     {
       "grade": "Lá Bạc hà khô",
@@ -56,7 +79,8 @@
         "Hưng Yên",
         "Hà Nam"
       ],
-      "outputEstimate": "2.500 tấn/năm"
+      "outputEstimate": "2.500 tấn/năm",
+      "popularity": "chinh"
     },
     {
       "regionSlug": "bac-trung-bo",
@@ -64,7 +88,34 @@
       "provinces": [
         "Nghệ An (Nghĩa Đàn)"
       ],
-      "outputEstimate": "1.100 tấn/năm"
+      "outputEstimate": "1.100 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Trồng quanh năm nơi chủ động nước, tốt nhất vụ xuân và vụ thu",
+    "soil": "Đất phù sa ẩm mịn, tơi, thoát nước, giàu hữu cơ",
+    "ph": "6.0 – 7.0",
+    "density": "Trồng bằng hom, mật độ dày phủ luống (hom cách hom 15–20cm)",
+    "harvestTime": "45 – 60 ngày/lứa, thu 3 – 4 lứa mỗi năm",
+    "yield": "Thân lá tươi 20 – 30 tấn/ha/lứa",
+    "propagation": [
+      "giâm hom thân",
+      "tách gốc"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh gỉ sắt",
+      "level": "rat-pho-bien",
+      "symptom": "Mặt dưới lá nổi ổ bào tử màu cam nâu, lá vàng rụng sớm",
+      "remedy": "Cắt bỏ lá bệnh, trồng thưa thoáng, dùng chế phẩm sinh học phòng nấm, tránh tưới đẫm chiều tối"
+    },
+    {
+      "pestName": "Sâu khoang ăn lá",
+      "level": "co-gap",
+      "symptom": "Lá bị ăn khuyết mảng lớn về đêm, giảm năng suất lá",
+      "remedy": "Bẫy bả chua ngọt, phun chế phẩm Bt hoặc dầu neem khi mật độ cao"
     }
   ],
   "techniquesLink": "ky-thuat-trong-bac-ha",
@@ -72,6 +123,12 @@
     "Không bị lẫn các loài cỏ dại thơm khác.",
     "Không dính bùn bẩn, đất ruộng cát đen khi thu hoạch.",
     "Hàm lượng tinh dầu trong lá khô phải đạt từ 1.5% trở lên."
+  ],
+  "keywordsTarget": [
+    "thu mua bạc hà",
+    "giá lá bạc hà khô",
+    "kỹ thuật trồng bạc hà",
+    "chưng cất tinh dầu bạc hà"
   ],
   "faq": [
     {

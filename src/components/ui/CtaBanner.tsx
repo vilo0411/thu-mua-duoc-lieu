@@ -5,10 +5,11 @@ interface CtaBannerProps {
   title: string;
   description: string;
   buttonText: string;
-  onClick: () => void;
+  /** Link outbound về landing (kèm UTM) — dựng bằng buildLandingUrl (PRD §8.3). */
+  href: string;
 }
 
-export const CtaBanner: React.FC<CtaBannerProps> = ({ title, description, buttonText, onClick }) => {
+export const CtaBanner: React.FC<CtaBannerProps> = ({ title, description, buttonText, href }) => {
   return (
     <div className="w-full bg-[#D08620] hover:bg-[#C07B1D] transition-colors rounded-2xl p-8 md:p-10 my-8 shadow-sm text-white flex flex-col md:flex-row items-center justify-between gap-6 relative overflow-hidden">
       {/* Background graphic */}
@@ -23,14 +24,16 @@ export const CtaBanner: React.FC<CtaBannerProps> = ({ title, description, button
           {description}
         </p>
       </div>
-      <button
+      <a
         id="cta-banner-btn"
-        onClick={onClick}
+        href={href}
+        target="_blank"
+        rel="noopener"
         className="shrink-0 bg-white hover:bg-amber-50 text-[#9F5E08] font-sans font-bold text-base px-6 py-3.5 rounded-lg shadow-md transition-all transform hover:scale-[1.02] active:scale-[0.98] cursor-pointer inline-flex items-center gap-2"
       >
         <span>{buttonText}</span>
         <ArrowRight className="w-4 h-4" />
-      </button>
+      </a>
     </div>
   );
 };

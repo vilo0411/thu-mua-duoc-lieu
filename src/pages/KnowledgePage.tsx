@@ -1,14 +1,13 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { WIKI_ARTICLES } from "../lib/data";
+import { Sprout, ArrowRight } from "lucide-react";
+import { WIKI_ARTICLES, WIKI_HUBS, getHerbBySlug, PARTNER_COMPANY, FEATURED_PARTNER, buildLandingUrl } from "../lib/data";
 import { ArticleCard, Breadcrumb, CtaBanner } from "../components/ui";
-import { useShipmentModal } from "../lib/ShipmentModalContext";
 import { paths } from "../lib/paths";
 import { Seo, knowledgeSeo } from "../lib/seo";
 
 export const KnowledgePage: React.FC = () => {
   const navigate = useNavigate();
-  const { open } = useShipmentModal();
 
   return (
     <div className="space-y-8 animate-fade-in">
@@ -25,6 +24,54 @@ export const KnowledgePage: React.FC = () => {
           Tổng hợp các bài viết chuyên sâu do <strong className="text-[#B85037]">Nguyễn Việt Lộc</strong> biên soạn độc lập: kỹ thuật gieo trồng đạt chuẩn GACP-WHO, phân biệt giống thật giả, xử lý sâu bệnh hữu cơ và công nghệ sấy sau thu hoạch.
         </p>
       </section>
+
+      {/* Hub kỹ thuật theo từng cây */}
+      {WIKI_HUBS.length > 0 && (
+        <section className="space-y-6">
+          <div className="flex items-baseline justify-between border-b border-[#F0EAE1] pb-4">
+            <h2 className="font-serif text-2xl font-bold text-[#4F433A]">Cẩm nang kỹ thuật theo cây</h2>
+            <span className="text-sm text-gray-500">{WIKI_HUBS.length} cây</span>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {WIKI_HUBS.map((hub) => {
+              const herb = getHerbBySlug(hub.herbSlug);
+              return (
+                <div
+                  key={hub.id}
+                  onClick={() => navigate(paths.hubWiki(hub.herbSlug))}
+                  className="bg-white rounded-xl overflow-hidden border border-[#E6DDD0] hover:border-[#B85037] shadow-xs hover:shadow-md transition-all group cursor-pointer flex flex-col sm:flex-row h-full"
+                >
+                  <div className="sm:w-2/5 aspect-video sm:aspect-auto bg-gray-100 overflow-hidden relative">
+                    <img
+                      src={herb?.image}
+                      alt={hub.herbName}
+                      referrerPolicy="no-referrer"
+                      className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-300"
+                    />
+                    <div className="absolute top-3 left-3 bg-[#4F7942] text-white text-xs font-bold px-2 py-1 rounded-sm uppercase tracking-wider flex items-center gap-1">
+                      <Sprout className="w-3.5 h-3.5" />
+                      Kỹ thuật trồng
+                    </div>
+                  </div>
+                  <div className="p-5 sm:w-3/5 flex flex-col justify-between space-y-3">
+                    <div className="space-y-2">
+                      <h4 className="font-serif text-lg md:text-xl font-bold text-[#4F433A] group-hover:text-[#B85037] transition-colors leading-snug">
+                        {hub.title}
+                      </h4>
+                      <p className="text-gray-600 text-sm leading-relaxed line-clamp-3">{hub.intro}</p>
+                    </div>
+                    <span className="inline-flex items-center gap-1.5 text-sm font-bold text-[#B85037] pt-1">
+                      Xem cẩm nang {hub.herbName}
+                      <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                    </span>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </section>
+      )}
 
       {/* Article list */}
       <section className="space-y-6">
@@ -52,9 +99,9 @@ export const KnowledgePage: React.FC = () => {
 
       <CtaBanner
         title="Cần tư vấn kỹ thuật trồng cho vùng nguyên liệu của bạn?"
-        description="Gửi thông tin để đội ngũ kỹ sư nông nghiệp của VIETMEC đồng hành khảo sát thực địa và chuyển giao quy trình canh tác đạt chuẩn."
+        description={`Gửi thông tin để đội ngũ kỹ sư nông nghiệp của ${PARTNER_COMPANY.name} đồng hành khảo sát thực địa và chuyển giao quy trình canh tác đạt chuẩn.`}
         buttonText="Gửi yêu cầu tư vấn"
-        onClick={() => open("Dược liệu nông sản")}
+        href={buildLandingUrl(FEATURED_PARTNER, { pageType: "knowledge", ctaPosition: "footer" })}
       />
     </div>
   );

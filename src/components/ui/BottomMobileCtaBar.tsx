@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { Leaf, X } from "lucide-react";
+import { LandingLink } from "./LandingLink";
 
-export const BottomMobileCtaBar: React.FC<{ herbName?: string; onCtaClick: () => void }> = ({
+export const BottomMobileCtaBar: React.FC<{ herbName?: string; cay?: string }> = ({
   herbName = "dược liệu",
-  onCtaClick
+  cay,
 }) => {
   const [isVisible, setIsVisible] = useState(true);
 
@@ -18,15 +19,17 @@ export const BottomMobileCtaBar: React.FC<{ herbName?: string; onCtaClick: () =>
         </div>
       </div>
       <div className="flex items-center gap-2">
-        <button
-          onClick={onCtaClick}
-          className="bg-white hover:bg-amber-50 text-[#9F5E08] font-sans font-bold text-xs sm:text-sm px-4 py-2 rounded-md shadow-sm transition-transform active:scale-95 whitespace-nowrap cursor-pointer"
-        >
-          Liên hệ VIETMEC
-        </button>
+        <LandingLink
+          cay={cay}
+          pageType="money_cay"
+          ctaPosition="mobile_sticky"
+          showArrow={false}
+          className="bg-white hover:bg-amber-50 text-[#9F5E08] font-sans font-bold text-xs sm:text-sm px-4 py-2 rounded-md shadow-sm transition-transform active:scale-95 whitespace-nowrap cursor-pointer inline-block"
+        />
         <button
           onClick={() => setIsVisible(false)}
           className="text-amber-100 hover:text-white p-1"
+          aria-label="Đóng thanh liên hệ"
         >
           <X className="w-4 h-4" />
         </button>
