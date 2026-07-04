@@ -5,17 +5,16 @@ import { paths } from "../../lib/paths";
 import { NAV_ITEMS } from "./navItems";
 import { SearchBar } from "./SearchBar";
 import { MobileNav } from "./MobileNav";
-import { AccessibilityBar } from "../ui";
 
 export const Header: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
     <header className="sticky top-0 bg-pine-900/95 backdrop-blur-md border-b border-white/10 z-30 transition-all">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3.5 flex items-center justify-between gap-4">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between gap-4">
 
-        {/* Top-Left BRAND wordmark */}
-        <Link to={paths.home()} className="flex items-center gap-2 cursor-pointer group">
+        {/* BRAND wordmark (trái) */}
+        <Link to={paths.home()} className="flex items-center gap-2 cursor-pointer group shrink-0">
           <div className="w-9 h-9 rounded-lg bg-terracotta flex items-center justify-center text-white shadow-sm group-hover:scale-105 transition-transform">
             <Leaf className="w-5 h-5 fill-white" />
           </div>
@@ -24,16 +23,16 @@ export const Header: React.FC = () => {
           </span>
         </Link>
 
-        {/* Nav Links (Desktop) */}
-        <nav className="hidden lg:flex items-center gap-5 text-white/75 font-sans font-bold text-sm">
+        {/* Pill nav ở giữa (mượn từ mẫu) — item active là viên trắng nổi trên nền pine */}
+        <nav className="hidden lg:flex absolute left-1/2 -translate-x-1/2 items-center gap-1 bg-white/5 border border-white/10 rounded-full p-1">
           {NAV_ITEMS.map((item) => (
             <NavLink
               key={item.to}
               to={item.to}
               end={item.end}
               className={({ isActive }) =>
-                `hover:text-white transition-colors cursor-pointer py-1 border-b-2 ${
-                  isActive ? "border-earth text-earth" : "border-transparent"
+                `rounded-full px-4 py-1.5 text-sm font-bold transition-colors cursor-pointer ${
+                  isActive ? "bg-white text-pine-900" : "text-white/70 hover:text-white hover:bg-white/10"
                 }`
               }
             >
@@ -42,14 +41,12 @@ export const Header: React.FC = () => {
           ))}
         </nav>
 
-        {/* Font-size control (desktop) + Search + Mobile toggle */}
-        <div className="flex items-center gap-3">
+        {/* Cụm phải: tìm kiếm (xl) + hamburger (mobile) */}
+        <div className="flex items-center gap-3 shrink-0">
           <div className="hidden xl:block">
-            <AccessibilityBar tone="dark" />
+            <SearchBar variant="desktop" />
           </div>
-          <SearchBar variant="desktop" />
 
-          {/* Mobile Menu Hamburger Button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="lg:hidden p-2 text-white/90 hover:text-white"
