@@ -12,13 +12,6 @@ export const Header: React.FC = () => {
 
   return (
     <header className="sticky top-0 bg-pine-900/95 backdrop-blur-md border-b border-white/10 z-30 transition-all">
-      {/* Thanh tiện ích trên cùng — tiện ích cỡ chữ (quy ước site thông tin VN). Ẩn trên điện thoại (đã có trong menu). */}
-      <div className="hidden sm:block border-b border-white/10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-1.5 flex items-center justify-end">
-          <AccessibilityBar tone="dark" />
-        </div>
-      </div>
-
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between gap-4">
 
         {/* BRAND wordmark (trái) */}
@@ -49,10 +42,13 @@ export const Header: React.FC = () => {
           ))}
         </nav>
 
-        {/* Cụm phải: tìm kiếm (xl) + hamburger (mobile) */}
+        {/* Cụm phải: tìm kiếm (xl) + nút cỡ chữ thu gọn (desktop) + hamburger (mobile) */}
         <div className="flex items-center gap-3 shrink-0">
           <div className="hidden xl:block">
             <SearchBar variant="desktop" />
+          </div>
+          <div className="hidden lg:block">
+            <AccessibilityBar tone="dark" variant="compact" />
           </div>
 
           <button

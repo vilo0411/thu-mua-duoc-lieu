@@ -69,7 +69,7 @@ export const SearchBar: React.FC<SearchBarProps> = ({ variant = "desktop", onNav
   }
 
   return (
-    <div className="relative hidden sm:block w-64">
+    <div className="relative hidden sm:block w-56">
       <input
         type="text"
         placeholder="Tìm giá cây thuốc..."
