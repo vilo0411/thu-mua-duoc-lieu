@@ -13,7 +13,7 @@ export const Layout: React.FC = () => {
   const currentHerb = cayMatch ? HERBS_DATA.find((h) => h.slug === cayMatch.params.cay) : undefined;
 
   return (
-    <div className="min-h-screen bg-[#FDFBF7] text-[#2D2521] flex flex-col font-sans selection:bg-[#B85037]/10 selection:text-[#B85037]">
+    <div className="min-h-screen bg-[#FDFBF7] text-[#2D2521] flex flex-col font-sans selection:bg-[#B85037]/10 selection:text-[#B85037] overflow-x-clip">
       <ScrollToTop />
       <Header />
 

@@ -13,6 +13,8 @@ export { LandingLink } from "./LandingLink";
 export { FeaturedPartnerCard } from "./FeaturedPartnerCard";
 export { NeutralPartnerCard } from "./NeutralPartnerCard";
 export { HerbCard } from "./HerbCard";
+export { HomeHero } from "./HomeHero";
+export { MissionStory } from "./MissionStory";
 export { PillarDoorCard } from "./PillarDoorCard";
 export { ArticleCard } from "./ArticleCard";
 export { Breadcrumb } from "./Breadcrumb";
