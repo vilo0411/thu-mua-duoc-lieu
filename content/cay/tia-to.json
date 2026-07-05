@@ -1,0 +1,166 @@
+{
+  "id": "tia-to",
+  "slug": "tia-to",
+  "name": "Tía tô",
+  "scientificName": "Perilla frutescens",
+  "otherNames": [
+    "Tô diệp",
+    "Tô ngạnh",
+    "Tô tử"
+  ],
+  "group": "hoa-la",
+  "priceRange": "9.000 - 60.000 VNĐ/kg",
+  "shortDesc": "Cây tía tô cho nhiều vị dược liệu được thu mua: lá (tô diệp), cành (tô ngạnh) và hạt (tô tử), mỗi loại một mức giá riêng.",
+  "image": "/images/cay/tia-to.jpg",
+  "description": "Tía tô là cây gia vị kiêm dược liệu trồng phổ biến, cho nhiều bộ phận đều được bao tiêu thu mua: lá tía tô (tô diệp), cành tía tô (tô ngạnh) và hạt tía tô (tô tử). Mỗi bộ phận có tiêu chuẩn và giá thu mua riêng.",
+  "bioCharacteristics": "Tô diệp tươi (lá tía tô tươi) chiều dài lá khoảng 7 - 12 cm, rộng 5 - 8 cm. Mặt trên lá có màu lục (xanh), mặt dưới màu tím tía. Toàn thân và lá có nhiều lông nhám, đặc biệt ở phần gân lá.",
+  "usageValue": "Lá tía tô (tô diệp) giải cảm, tán hàn; cành tía tô (tô ngạnh) an thai, lý khí; hạt tía tô (tô tử) giáng khí, trừ đờm. Hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Lá, cành, hạt"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "7 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "23°C - 35°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Lá tía tô (tô diệp) khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Lá tía tô (tô diệp).",
+      "priceRange": "33.000 - 58.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Lá tía tô (tô diệp) tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế, chưa qua sấy.",
+      "priceRange": "11.000 - 22.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Cành tía tô (tô ngạnh) khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Cành tía tô (tô ngạnh).",
+      "priceRange": "34.000 - 60.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Cành tía tô (tô ngạnh) tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế, chưa qua sấy.",
+      "priceRange": "11.000 - 17.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Hạt tía tô (tô tử) khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Hạt tía tô (tô tử).",
+      "priceRange": "27.000 - 54.000",
+      "unit": "kg",
+      "trend": "up"
+    },
+    {
+      "grade": "Hạt tía tô (tô tử) tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế, chưa qua sấy.",
+      "priceRange": "9.000 - 20.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "bac-trung-bo",
+      "regionName": "Bắc Trung Bộ",
+      "provinces": [
+        "Nghệ An",
+        "Thanh Hóa"
+      ],
+      "outputEstimate": "791 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "tay-nguyen",
+      "regionName": "Tây Nguyên",
+      "provinces": [
+        "Lâm Đồng"
+      ],
+      "outputEstimate": "641 tấn/năm",
+      "popularity": "phu"
+    },
+    {
+      "regionSlug": "dong-bac",
+      "regionName": "Đông Bắc",
+      "provinces": [
+        "Bắc Giang",
+        "Cao Bằng"
+      ],
+      "outputEstimate": "1145 tấn/năm",
+      "popularity": "chinh"
+    }
+  ],
+  "technique": {
+    "season": "Trồng quanh năm nơi chủ động tưới",
+    "soil": "Đất đồi feralit thoát nước nhanh",
+    "ph": "6.5 – 7.8",
+    "density": "15500 cây/ha",
+    "harvestTime": "7 tháng sau trồng",
+    "yield": "7 – 7 tấn khô/ha/năm",
+    "propagation": [
+      "gieo hạt",
+      "giâm cành"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-tia-to",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua tía tô",
+    "thu mua lá tía tô tô diệp",
+    "thu mua tô ngạnh",
+    "thu mua hạt tía tô tô tử",
+    "giá dược liệu tía tô"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua những vị nào của tía tô?",
+      "answer": "Thu mua các vị: Tô diệp, Tô ngạnh, Tô tử. Mỗi loại có mức giá và tiêu chuẩn riêng, nhu cầu tối thiểu 50 kg/tháng mỗi loại."
+    },
+    {
+      "question": "Tiêu chuẩn thu mua thế nào?",
+      "answer": "Hàng cần khô sạch, đúng phẩm cấp từng bộ phận, không mốc mối, không tồn dư thuốc bảo vệ thực vật. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Lá tía tô (tô diệp): Tô diệp tươi (lá tía tô tươi) chiều dài lá khoảng 7 - 12 cm, rộng 5 - 8 cm. Mặt trên lá có màu lục (xanh), mặt dưới màu tím tía. Toàn thân và lá có nhiều lông nhám, đặc biệt ở phần gân lá. Cành tía tô (tô ngạnh): Tô ngạnh (cành cây tía tô) thân phân cành, đường kính 0,5 - 1,5 cm, mặt ngoài có các rãnh dọc và có các vết sẹo lá mọc đối xứng nhau. Thân thường có lông mịn bao phủ. Khi bẻ ngang cành tươi, phần lõi bên trong thường mềm và xốp. Hạt tía tô (tô tử): Tô tử (hạt tía tô) Hạt có hình trứng nhỏ hoặc gần hình cầu. Rất nhỏ, đường kính chỉ khoảng 1.5 mm. Vỏ ngoài có các gợn hình vân lưới hơi lồi.",
+    "dry": "Lá tía tô (tô diệp): Phiến lá thường nhàu nát, cuộn lại và gãy, lá được dàn phẳng có hình trứng, dài 4 - 11 cm, rộng 2,5 - 9 cm, chóp lá nhọn, gốc lá tròn hoặc vát nhọn, rộng, mép lá có răng tròn. Hai mặt lá đều có màu tía hoặc mặt trên màu lục, mặt dưới màu tía có lông màu trắng xám mọc rải rác và nhiều vảy tuyến dạng điểm. Cuống lá dài 2 - 7 cm, màu tía hoặc lục tía. Thể chất giòn. Cành non có đường kính 2 - 5 mm, màu lục tía, mặt cắt ngang có tuỷ ở giữa. Cành tía tô (tô ngạnh): Dược liệu hình trụ vuông, bốn góc tù, dài ngắn không đều nhau, đường kính 0,5 - 1,5 cm. Mặt ngoài màu nâu hơi tía hoặc tía thẫm, bốn mặt có rãnh và vân dọc nhỏ, mấu hơi phình to, có các vết sẹo cành và vết sẹo lá mọc đối. Thể nhẹ, chất cứng, mặt gãy có dạng phiến xẻ. Phiến thái dày 2 - 5 mm, thường giống hình thoi dài, vát, gỗ màu vàng nhạt, tia tủy nhỏ và dày đặc, tỏa ra từ trung tâm; tủy Hạt tía tô (tô tử): Quả hình trứng hoặc gần hình cầu, đường kính khoảng 1,5 mm. Bên ngoài màu nâu xám và tía thẫm, có các gợn hình vân lưới hơi lồi. Gốc quả hơi nhọn, có chấm sẹo màu trắng xám của cuống quả. Vỏ quả mỏng, giòn, dễ vỡ. Hạt màu trắng ngà, vỏ hạt có màng, trong hạt có hai lá mầm màu trắng ngà, có dầu. Hạt có mùi thơm nhẹ khi vỡ, vị hơi cay."
+  },
+  "demandQuantity": "50 kg/tháng mỗi loại",
+  "priorityLevel": "hot"
+}

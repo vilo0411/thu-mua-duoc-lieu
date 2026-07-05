@@ -48,9 +48,19 @@ export interface HerbalMedicine {
   id: string;
   slug: string;
   name: string;
+  /** Tên khoa học (Latin). Có thể để trống khi chưa xác định chắc chắn. */
   scientificName: string;
   otherNames: string[];
   group: HerbGroup;
+  /** Đặc điểm nhận diện hàng tươi/khô khi thu mua (nguồn: danh mục thu mua Vietmec). */
+  identification?: {
+    fresh?: string;
+    dry?: string;
+  };
+  /** Sản lượng tối thiểu bên bao tiêu cần gom mỗi kỳ, vd "50 kg/tháng". */
+  demandQuantity?: string;
+  /** Mức độ ưu tiên thu mua: "hot" = đang cần gấp. */
+  priorityLevel?: "hot" | "normal";
   priceRange: string;
   shortDesc: string;
   image: string;

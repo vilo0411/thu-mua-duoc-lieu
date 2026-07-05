@@ -1,0 +1,52 @@
+{
+  "id": "ky-thuat-trong-actiso",
+  "slug": "ky-thuat-trong-actiso-vung-cao-on-doi",
+  "herbSlug": "actiso",
+  "herbName": "Actiso",
+  "title": "Cẩm nang Kỹ thuật trồng Actiso vùng cao ôn đới cho lá và hoa đạt chuẩn dược liệu",
+  "intro": "Actiso là cây liên ôn đới khó tính, chỉ cho năng suất cao khi được canh tác đúng độ cao và nền nhiệt mát dưới 25°C. Chuyên gia Nguyễn Việt Lộc tổng hợp quy trình từ các vùng trồng kiểu mẫu Đà Lạt (Lâm Đồng) và Sa Pa, giúp bà con vừa thu lá tươi định kỳ vừa để hoa và rễ đạt hàm lượng cynarin xuất khẩu.",
+  "standards": [
+    {
+      "stage": "Chọn vùng và ươm cây con",
+      "criteria": "Chỉ trồng ở vùng cao mát mẻ quanh năm (Đà Lạt, Sa Pa) nền nhiệt 15–22°C. Gieo hạt hoặc tách chồi gốc vào bầu ươm từ tháng 5–6, chăm cây con 45–60 ngày đến khi đạt 4–5 lá thật mới đưa ra ruộng.",
+      "controlMethod": "Ươm trong luống có mái che lưới đen 50% chống mưa đá và nắng gắt, tưới giữ ẩm đều, chọn cây con khỏe đồng đều trước khi trồng tháng 7–8."
+    },
+    {
+      "stage": "Làm đất và lên luống",
+      "criteria": "Đất đỏ bazan mùn xốp giàu dinh dưỡng, thoát nước tốt, pH 6.0–6.8. Lên luống rộng 1–1.2m, cao 25–30cm, trồng cây cách cây 60–70cm đạt mật độ 18.000–22.000 cây/ha.",
+      "controlMethod": "Bón lót phân chuồng hoai mục ủ Trichoderma 25–30 tấn/ha kết hợp lân, bón vôi khử chua và cày phơi ải đất trước trồng 15–20 ngày."
+    },
+    {
+      "stage": "Tưới nước và bón thúc",
+      "criteria": "Actiso cần ẩm đều nhưng tuyệt đối không úng. Bón thúc theo giai đoạn: hồi xanh, phát triển thân lá và trước phân hóa mầm hoa, ưu tiên phân hữu cơ vi sinh và kali cho hoa chắc.",
+      "controlMethod": "Tưới rãnh hoặc tưới nhỏ giọt vào sáng sớm, tránh tưới đẫm chiều tối gây nấm; định kỳ làm cỏ, vun gốc và tỉa lá già áp đất để ruộng thông thoáng."
+    },
+    {
+      "stage": "Thu tỉa lá định kỳ",
+      "criteria": "Thu lá bánh tẻ theo lứa để nấu cao mà vẫn giữ ngọn cho cây tiếp tục ra hoa. Lá đạt hàm lượng cynarin cao nhất khi bẻ vào sáng sớm khô sương.",
+      "controlMethod": "Chỉ hái lá bánh tẻ phía ngoài, chừa lại 6–8 lá ngọn nuôi cây; không phun thuốc bảo vệ thực vật trong vòng 15 ngày trước khi hái lá làm dược liệu."
+    }
+  ],
+  "pests": [
+    {
+      "pestName": "Sâu xám cắn gốc cây con",
+      "symptoms": "Cây con mới trồng bị cắn đứt ngang thân sát mặt đất vào ban đêm, sáng ra thấy cây gãy đổ nằm rạp, mất khoảng trên luống.",
+      "remedy": "Làm đất kỹ phơi ải diệt nhộng, bắt sâu thủ công buổi tối, rải chế phẩm nấm xanh Metarhizium quanh gốc và trồng dặm kịp thời các hốc bị mất cây."
+    },
+    {
+      "pestName": "Bệnh thối gốc, héo rũ do nấm đất",
+      "symptoms": "Gốc thân thâm nhũn, lá héo rũ từ ngoài vào giữa dù đất vẫn ẩm, nhổ lên thấy rễ thâm đen mục, thường bùng phát sau mưa dầm kéo dài.",
+      "remedy": "Lên luống cao thoát nước triệt để, xử lý đất bằng vôi và nấm đối kháng Trichoderma trước trồng, nhổ tiêu hủy ngay cây bệnh và rắc vôi vào hốc tránh lây lan."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Trồng Actiso bao lâu thì được thu lứa lá đầu tiên và khi nào thu hoa, rễ?",
+      "answer": "Sau khi trồng ra ruộng khoảng 6–8 tháng là bắt đầu thu tỉa lá bánh tẻ định kỳ để nấu cao. Hoa búp cho thu rộ từ tháng 11 kéo dài đến mùa xuân, còn thân rễ được đào lấy sau khoảng 1 năm khi cây đã cho hết đợt hoa, lúc này rễ tích lũy dược chất đậm đặc nhất."
+    },
+    {
+      "question": "Vì sao cùng giống Actiso nhưng lá trồng ở đồng bằng lại kém giá trị dược liệu?",
+      "answer": "Actiso bắt buộc khí hậu ôn đới mát dưới 25°C mới tổng hợp và tích lũy được cynarin cùng các hoạt chất đắng ở mức cao. Ở nền nhiệt nóng, cây sinh trưởng yếu, lá mỏng, hàm lượng hoạt chất thấp nên dù có sống được thì hàng vẫn không đạt chuẩn thu mua, đó là lý do vùng trồng chỉ tập trung ở Lâm Đồng và Sa Pa."
+    }
+  ]
+}

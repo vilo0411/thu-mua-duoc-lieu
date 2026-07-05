@@ -1,0 +1,166 @@
+{
+  "id": "dau-tam",
+  "slug": "dau-tam",
+  "name": "Dâu tằm",
+  "scientificName": "Morus alba",
+  "otherNames": [
+    "Tang diệp",
+    "Tang bạch bì",
+    "Tang thầm"
+  ],
+  "group": "hoa-la",
+  "priceRange": "8.000 - 69.000 VNĐ/kg",
+  "shortDesc": "Cây dâu tằm cho nhiều vị dược liệu được thu mua: lá dâu (tang diệp), vỏ rễ dâu (tang bạch bì) và quả dâu (tang thầm), mỗi loại một mức giá riêng.",
+  "image": "/images/cay/dau-tam.jpg",
+  "description": "Dâu tằm là cây trồng lâu đời khắp các vùng bãi ven sông, cho nhiều bộ phận đều là dược liệu được bao tiêu thu mua: lá dâu (tang diệp), vỏ rễ dâu (tang bạch bì) và quả dâu (tang thầm). Mỗi bộ phận có mùa thu hái, tiêu chuẩn và giá thu mua riêng.",
+  "bioCharacteristics": "Tang diệp (lá dâu tằm) mặt trên màu xanh sẫm đến vàng lục, mặt dưới màu nhạt hơn, có gân lá nổi rõ và có lông tơ mịn mọc rải rác hoặc dọc theo các đường gân, bề mặt nhẵn, bóng, phiến lá hình trứng dài 9 - 17 cm, rộng 8 - 14 cm, mép có răng cưa rõ rệt.",
+  "usageValue": "Lá dâu (tang diệp) trị cảm, ho; vỏ rễ dâu (tang bạch bì) lợi tiểu, giảm ho; quả dâu (tang thầm) bổ huyết, đen tóc. Hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Lá, vỏ rễ, quả"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "12 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "20°C - 30°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Lá dâu (tang diệp) khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Lá dâu (tang diệp).",
+      "priceRange": "28.000 - 58.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Lá dâu (tang diệp) tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế, chưa qua sấy.",
+      "priceRange": "9.000 - 15.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Vỏ rễ dâu (tang bạch bì) khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Vỏ rễ dâu (tang bạch bì).",
+      "priceRange": "33.000 - 69.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Vỏ rễ dâu (tang bạch bì) tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế, chưa qua sấy.",
+      "priceRange": "11.000 - 17.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Quả dâu (tang thầm) khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Quả dâu (tang thầm).",
+      "priceRange": "25.000 - 46.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Quả dâu (tang thầm) tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế, chưa qua sấy.",
+      "priceRange": "8.000 - 17.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "tay-bac",
+      "regionName": "Tây Bắc",
+      "provinces": [
+        "Sơn La",
+        "Lào Cai"
+      ],
+      "outputEstimate": "1236 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "dong-bac",
+      "regionName": "Đông Bắc",
+      "provinces": [
+        "Bắc Giang"
+      ],
+      "outputEstimate": "586 tấn/năm",
+      "popularity": "phu"
+    },
+    {
+      "regionSlug": "tay-nguyen",
+      "regionName": "Tây Nguyên",
+      "provinces": [
+        "Lâm Đồng",
+        "Đắk Lắk"
+      ],
+      "outputEstimate": "978 tấn/năm",
+      "popularity": "chinh"
+    }
+  ],
+  "technique": {
+    "season": "Xuống giống đầu mùa mưa (tháng 4–6)",
+    "soil": "Đất pha cát ven đồi, tầng canh tác dày",
+    "ph": "5.0 – 6.3",
+    "density": "18000 cây/ha",
+    "harvestTime": "12 tháng sau trồng",
+    "yield": "2 – 4 tấn khô/ha/năm",
+    "propagation": [
+      "gieo hạt",
+      "giâm cành"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-dau-tam",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua dâu tằm",
+    "thu mua lá dâu tang diệp",
+    "thu mua tang bạch bì",
+    "thu mua quả dâu tang thầm",
+    "giá dược liệu dâu tằm"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua những vị nào của dâu tằm?",
+      "answer": "Thu mua các vị: Tang diệp, Tang bạch bì, Tang thầm. Mỗi loại có mức giá và tiêu chuẩn riêng, nhu cầu tối thiểu 50 kg/tháng mỗi loại."
+    },
+    {
+      "question": "Tiêu chuẩn thu mua thế nào?",
+      "answer": "Hàng cần khô sạch, đúng phẩm cấp từng bộ phận, không mốc mối, không tồn dư thuốc bảo vệ thực vật. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Lá dâu (tang diệp): Tang diệp (lá dâu tằm) mặt trên màu xanh sẫm đến vàng lục, mặt dưới màu nhạt hơn, có gân lá nổi rõ và có lông tơ mịn mọc rải rác hoặc dọc theo các đường gân, bề mặt nhẵn, bóng, phiến lá hình trứng dài 9 - 17 cm, rộng 8 - 14 cm, mép có răng cưa rõ rệt. Vỏ rễ dâu (tang bạch bì): Tang bạch bì (vỏ rễ cây dâu tằm) Mặt ngoài có màu trắng sáng, trắng ngà hoặc hơi vàng nhẹ, đường kính dày 3 - 5 mm. Thường ở dạng phiến dài, dạng dải hoặc mảnh cuộn lại. Vỏ mềm, dai, khi tươi chứa nhiều nước, có thể tước thành sợi, khó bẻ gãy. Mùi thơm nhẹ. Quả dâu (tang thầm): Tang thầm (quả dâu tằm chín) Quả kép hình trứng hoặc hình trụ, dài từ 1 - 3 cm, đường kính 0,6 - 0,9 cm. Mặt ngoài quả không trơn nhẵn, tập hợp từ nhiều quả bế nhỏ mọng nước. Thay đổi theo độ chín. Quả chưa chín có màu trắng/xanh, sau chuyển sang đỏ hồng, và khi chín đen (màu sẫm).",
+    "dry": "Lá dâu (tang diệp): Lá nhăn nheo, dễ gãy vụn. Lá nguyên hình trứng, hình trứng rộng, dài 8 - 15 cm, rộng 7 - 13 cm. Mặt trên lá có màu lục vàng hoặc nâu vàng nhạt, đôi khi có nốt nhỏ nhô lên. Mặt dưới lá có màu nhạt, nổi rõ các gân lớn chạy từ cuống lá và nhiều gân nhỏ hình mạng lưới, có lông tơ mịn rải rác trên gân lá. Chất giòn. Vỏ rễ dâu (tang bạch bì): Mảnh vỏ rễ hình ống, hình máng hai mép cuốn lại hoặc mảnh dẹt phẳng, hoặc quăn queo, dài rộng khác khau, dày 1 - 4 mm; mặt ngoài màu trắng hoặc vàng nhạt, tương đối nhẵn, đôi chỗ còn sót lại mảnh bần màu vàng hoặc màu vàng nâu; mặt trong màu vàng nhạt hay vàng xám, có nếp nhăn dọc nhỏ. Chất nhẹ và dai, có sợi chắc, khó bẻ ngang, nhưng dễ tước dọc thành dải nhỏ. Quả dâu (tang thầm): Quả kép hình trụ do nhiều quả bế tạo thành, dài 1 - 2 cm, đường kính 5 - 8 mm, màu nâu vàng nhạt đến đỏ nâu nhạt hoặc tím thẫm, cuống quả ngắn. Qủa bế hình trứng, hơi dẹt, dài 2 mm, rộng 1 mm, có bao hoa nạc xẻ 4. Vị hơi chua và ngọt."
+  },
+  "demandQuantity": "50 kg/tháng mỗi loại",
+  "priorityLevel": "hot"
+}

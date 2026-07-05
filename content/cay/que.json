@@ -1,0 +1,150 @@
+{
+  "id": "que",
+  "slug": "que",
+  "name": "Quế",
+  "scientificName": "Cinnamomum cassia",
+  "otherNames": [
+    "Quế chi",
+    "Quế nhục"
+  ],
+  "group": "than",
+  "priceRange": "9.000 - 65.000 VNĐ/kg",
+  "shortDesc": "Cây quế cho hai vị dược liệu được thu mua: cành quế (quế chi) và vỏ quế (quế nhục / nhục quế), mỗi loại một mức giá riêng.",
+  "image": "/images/cay/que.jpg",
+  "description": "Quế là cây gỗ quý trồng nhiều ở Yên Bái, Quảng Nam, cho hai vị dược liệu chính: cành quế (quế chi) và vỏ thân (quế nhục / nhục quế). Mỗi bộ phận có tiêu chuẩn và giá thu mua riêng.",
+  "bioCharacteristics": "Quế chi tươi là phần cành non của cây quế, hình trụ tròn, dài trên 1m, đường kính 0,5 - 1,5 cm, vỏ màu nâu đỏ hoặc nâu xám, mùi thơm nồng đặc trưng và vị cay, ngọt, đắng nhẹ",
+  "usageValue": "Cành quế (quế chi) phát hãn, thông kinh lạc; vỏ quế (quế nhục) bổ hoả, ấm tỳ vị. Hàng đạt chuẩn khô sạch, hàm lượng tinh dầu cao cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Cành, vỏ thân"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "11 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "23°C - 33°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Cành quế (quế chi) khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Cành quế (quế chi).",
+      "priceRange": "28.000 - 65.000",
+      "unit": "kg",
+      "trend": "up"
+    },
+    {
+      "grade": "Cành quế (quế chi) tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế, chưa qua sấy.",
+      "priceRange": "9.000 - 18.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Vỏ quế (quế nhục) khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Vỏ quế (quế nhục).",
+      "priceRange": "31.000 - 62.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Vỏ quế (quế nhục) tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế, chưa qua sấy.",
+      "priceRange": "10.000 - 17.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "bac-trung-bo",
+      "regionName": "Bắc Trung Bộ",
+      "provinces": [
+        "Nghệ An",
+        "Thanh Hóa"
+      ],
+      "outputEstimate": "495 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "tay-bac",
+      "regionName": "Tây Bắc",
+      "provinces": [
+        "Sơn La"
+      ],
+      "outputEstimate": "345 tấn/năm",
+      "popularity": "phu"
+    },
+    {
+      "regionSlug": "dong-bac",
+      "regionName": "Đông Bắc",
+      "provinces": [
+        "Bắc Giang"
+      ],
+      "outputEstimate": "521 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Trồng quanh năm nơi chủ động tưới",
+    "soil": "Đất thịt nhẹ pha cát, tơi xốp, thoát nước tốt",
+    "ph": "6.6 – 7.0",
+    "density": "27500 cây/ha",
+    "harvestTime": "11 tháng sau trồng",
+    "yield": "5 – 7 tấn khô/ha/năm",
+    "propagation": [
+      "giâm hom",
+      "ươm hạt"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-que",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua quế",
+    "thu mua quế chi",
+    "thu mua quế nhục nhục quế",
+    "thu mua vỏ quế",
+    "giá dược liệu quế"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua những vị nào của quế?",
+      "answer": "Thu mua các vị: Quế chi, Quế nhục. Mỗi loại có mức giá và tiêu chuẩn riêng, nhu cầu tối thiểu 50 kg/tháng mỗi loại."
+    },
+    {
+      "question": "Tiêu chuẩn thu mua thế nào?",
+      "answer": "Hàng cần khô sạch, đúng phẩm cấp từng bộ phận, không mốc mối, không tồn dư thuốc bảo vệ thực vật. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Cành quế (quế chi): Quế chi tươi là phần cành non của cây quế, hình trụ tròn, dài trên 1m, đường kính 0,5 - 1,5 cm, vỏ màu nâu đỏ hoặc nâu xám, mùi thơm nồng đặc trưng và vị cay, ngọt, đắng nhẹ Vỏ quế (quế nhục): Vỏ dày, dài 20 - 60 cm, dày 0,3 - 1 cm. Mặt ngoài thô, có màu nâu xám hoặc nâu sẫm, đôi khi có các vết rạn nứt tự nhiên. Vỏ quế nhục tươi nặng, chứa nhiều nhựa cây và nước. Khi bẻ gãy, vết bẻ có nhựa dính và có thể nhìn thấy rõ các lớp dầu bên trong.",
+    "dry": "Cành quế (quế chi): Cành hình trụ tròn, thường chặt khúc dài 2 - 4cm, đường kính 0,3 - 1cm. Mặt ngoài màu nâu đến màu nâu đỏ, có nhiều vết nhăn dọc nhỏ và các vết sẹo cành, sẹo của chồi và nhiều lỗ vỏ. Chất cứng giòn, dễ gãy. Trên bề mặt vết cắt thấy: lớp vỏ màu nâu, bên trong có gỗ màu vàng nhạt tới nâu vàng, ruột gần tròn. Mùi thơm nhẹ, vị ngọt và hơi cay. Vỏ quế (quế nhục): Mảnh vỏ thường được cuộn tròn thành ống, dài 5 – 50 cm, ngang 1,5 – 10 cm, dày 1 – 8 mm. Mặt ngoài màu nâu đến nâu xám, có các lỗ vỏ và vết cuống lá (không nhìn thấy ở vỏ đã hóa bần dày). Mặt trong màu nâu đỏ đến nâu sẫm, nhẵn hoặc hơi gồ ghề. Chất cứng và giòn, dễ bẻ gãy; mặt bẻ không nhẵn, có xơ. Mặt cắt ngang có hai lớp: lớp ngoài màu vàng nâu, hơi thô ráp, lớp trong màu nâu đỏ, có xơ ngắn; Có một vòng màu nâu hơi vàng giữa hai lớp. Mùi thơm, vị cay ngọt, sau tê nhẹ.\nỞ loài quế C. zeylanicum, vỏ thường mỏng hơn vỏ của loài C. cassia, lớp trong màu nâu vàng, mùi thơm nhẹ.\nỞ loài quế C. loureirii, lớp bần màu nâu ngoài cùng có thể bị cạo bỏ nên chỉ còn một lớp màu nâu hơi đỏ hay nâu sẫm, mùi rất thơm, thể chất giòn, dễ bẻ, vết bẻ có xơ."
+  },
+  "demandQuantity": "50 kg/tháng mỗi loại",
+  "priorityLevel": "hot"
+}

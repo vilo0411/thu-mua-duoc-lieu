@@ -9,7 +9,6 @@ export interface NavItem {
 }
 
 export const NAV_ITEMS: NavItem[] = [
-  { to: paths.home(), label: "Trang chủ", end: true },
   { to: paths.pillar(), label: "Thu mua dược liệu" },
   { to: paths.knowledge(), label: "Kiến thức" },
   { to: paths.about(), label: "Về tôi" },

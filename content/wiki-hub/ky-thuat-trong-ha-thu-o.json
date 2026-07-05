@@ -1,0 +1,52 @@
+{
+  "id": "ky-thuat-trong-ha-thu-o",
+  "slug": "ky-thuat-trong-ha-thu-o-do-lam-gian-leo",
+  "herbSlug": "ha-thu-o",
+  "herbName": "Hà thủ ô đỏ",
+  "title": "Cẩm nang Kỹ thuật trồng Hà thủ ô đỏ làm giàn leo, nuôi củ 3–5 năm đạt trọng lượng lớn",
+  "intro": "Hà thủ ô đỏ là dây leo lâu năm cho củ càng để lâu càng nặng và đắt, đòi hỏi giàn leo vững chắc cùng đất đồi dốc nhiều mùn. Chuyên gia Nguyễn Việt Lộc đúc kết quy trình chuyên canh từ vùng trồng Hà Giang, Cao Bằng, Sơn La, giúp bà con nuôi củ 3–5 năm đạt vỏ đỏ sẫm, thịt hồng nhiều bột, đúng chuẩn Dược điển.",
+  "standards": [
+    {
+      "stage": "Chọn giống và nhân giống",
+      "criteria": "Bắt buộc chọn đúng Hà thủ ô đỏ (không lẫn Hà thủ ô trắng ít giá trị). Nhân giống chủ yếu bằng giâm hom dây bánh tẻ từ cây mẹ khỏe hoặc ươm hạt, trồng vụ xuân tháng 2–4.",
+      "controlMethod": "Cắt hom dây 2–3 mắt từ vườn giống chuẩn, giâm trong bầu cho ra rễ rồi mới đưa lên đồi; kiểm tra vườn giống loại bỏ nhầm lẫn giống trắng ngay từ khâu đầu."
+    },
+    {
+      "stage": "Làm đất dốc và lên luống cao",
+      "criteria": "Đất đồi dốc nhẹ, nhiều mùn ẩm, thoát nước tốt, pH 5.5–6.5. Lên luống cao để củ phình xuống sâu không bị úng; mật độ 15.000–20.000 cây/ha có giàn leo.",
+      "controlMethod": "Cày sâu, bón lót phân chuồng hoai ủ Trichoderma và lân, lên luống vồng cao 30cm; xử lý vôi khử chua và đảm bảo rãnh thoát nước dọc luống trước mùa mưa."
+    },
+    {
+      "stage": "Làm giàn cho dây leo",
+      "criteria": "Khi cây bắt đầu vươn dây phải làm giàn để dây bám leo, quang hợp tốt và tập trung dinh dưỡng nuôi củ. Giàn bằng cọc tre, dây thép hoặc lưới cước đan chắc chắn, bền qua nhiều mùa.",
+      "controlMethod": "Cắm cọc và giăng giàn sớm ngay khi dây dài 30–40cm, buộc dẫn dây lên giàn; định kỳ tỉa bớt dây phụ rậm rạp để tán thông thoáng, hạn chế nấm bệnh."
+    },
+    {
+      "stage": "Chăm sóc dài hạn và thu hoạch củ",
+      "criteria": "Nuôi cây 3–5 năm để củ đạt trọng lượng lớn, vỏ đỏ nâu sẫm, thịt hồng đỏ nhiều bột. Bón thúc hữu cơ hằng năm đầu mùa mưa, giữ ẩm nhưng tránh úng gây thối củ.",
+      "controlMethod": "Đào củ vào mùa khô (tháng 11–1) khi dây tàn lụi, đào nhẹ tay tránh sứt vỏ; củ lớn trên 2kg vỏ nhẵn đỏ sẫm để bán tươi loại 1, phần còn lại thái lát sấy đạt độ ẩm dưới 12%."
+    }
+  ],
+  "pests": [
+    {
+      "pestName": "Tuyến trùng hại rễ củ",
+      "symptoms": "Rễ củ nổi các nốt sần u bướu, củ chậm phình và biến dạng, cây trên giàn sinh trưởng kém, lá vàng còi dù được bón phân đầy đủ, năng suất củ giảm mạnh.",
+      "remedy": "Luân canh với cây khác họ, xử lý đất bằng vôi và chế phẩm nấm đối kháng Paecilomyces/Trichoderma trước trồng, bón nhiều phân hữu cơ hoai để tăng vi sinh vật đối kháng trong đất."
+    },
+    {
+      "pestName": "Bệnh đốm lá, cháy lá mùa mưa",
+      "symptoms": "Trên lá xuất hiện đốm nâu lan rộng viền vàng, lá khô cháy từ mép vào và rụng sớm khi độ ẩm cao kéo dài, làm giảm diện tích quang hợp nuôi củ.",
+      "remedy": "Tỉa dây tạo tán thông thoáng, thu gom tiêu hủy lá bệnh, phun phòng bằng chế phẩm sinh học gốc đồng và tránh tưới đẫm lên tán vào chiều tối."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Trồng Hà thủ ô đỏ bao nhiêu năm thì đào củ bán được giá nhất?",
+      "answer": "Chu kỳ vàng là từ 3 đến 5 năm tuổi. Trồng dưới 3 năm củ còn nhỏ, ít bột và hàm lượng hoạt chất chưa đạt nên bị ép giá; để đủ 4–5 năm củ mới phình lớn trên 2kg, vỏ đỏ sẫm, thịt hồng nhiều bột và bán được ở mức cao nhất. Muốn nuôi lâu vẫn cho củ tốt thì phải làm giàn chắc và bón bồi phân hữu cơ hằng năm."
+    },
+    {
+      "question": "Làm sao chắc chắn trồng đúng Hà thủ ô đỏ chứ không phải giống trắng kém giá trị?",
+      "answer": "Ngay từ khâu giống phải lấy hom, hạt từ vườn chuẩn đã định danh. Phân biệt bằng củ: Hà thủ ô đỏ củ giống khoai lang, vỏ nâu đỏ sẫm nhiều nếp nhăn, cắt ra thịt màu hồng đỏ nhiều bột; còn Hà thủ ô trắng củ dài dẹt, vỏ xám sáng, cắt ra chảy nhựa mủ trắng, vị chát và gần như không có công dụng bổ huyết. Trồng nhầm giống trắng sẽ không đạt tiêu chuẩn thu mua."
+    }
+  ]
+}

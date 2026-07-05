@@ -37,17 +37,17 @@ export const MoneyVungPage: React.FC = () => {
       ]} />
 
       {/* Hero */}
-      <section className="bg-[#FAF8F5] border border-[#E6DDD0] rounded-2xl p-6 md:p-10 space-y-3">
-        <div className="inline-flex items-center gap-1 bg-[#F5ECE1] text-[#B85037] text-xs font-bold px-2.5 py-1 rounded font-sans uppercase">
+      <section className="bg-paper-2 border border-line rounded-2xl p-6 md:p-10 space-y-3">
+        <div className="inline-flex items-center gap-1 bg-sand text-terracotta text-xs font-bold px-2.5 py-1 rounded font-sans uppercase">
           {popularityLabel} · sản lượng {herbRegion.outputEstimate}
         </div>
-        <h1 className="font-serif text-2xl md:text-4xl font-extrabold text-[#4F433A] tracking-tight">
+        <h1 className="font-serif text-2xl md:text-4xl font-extrabold text-ink-soft tracking-tight">
           Thu Mua {herb.name} Tại {region.name}: Giá &amp; Vùng Trồng
         </h1>
         <p className="text-gray-700 text-base md:text-lg max-w-3xl font-sans leading-relaxed">
           {region.name} là {popularityLabel} của cây {herb.name} với sản lượng ước tính {herbRegion.outputEstimate}. Bài
           viết tổng hợp đặc điểm thổ nhưỡng, các tỉnh trọng điểm và cách gửi hàng để bà con, HTX trong vùng bán được giá
-          tốt. Nội dung do <strong className="text-[#4F433A]">{SITE_OWNER}</strong> biên soạn độc lập.
+          tốt. Nội dung do <strong className="text-ink-soft">{SITE_OWNER}</strong> biên soạn độc lập.
         </p>
       </section>
 
@@ -59,7 +59,7 @@ export const MoneyVungPage: React.FC = () => {
         <DataTable
           headers={["Tỉnh thành", "Diện tích quy hoạch (ha)", "Mùa vụ thu hoạch chính", "Liên kết bao tiêu"]}
           rows={region.provinces.map((p) => [
-            <strong className="text-[#4F433A] font-sans">{p.name}</strong>,
+            <strong className="text-ink-soft font-sans">{p.name}</strong>,
             p.area,
             p.harvestPeriod,
             <span className="text-green-700 font-bold bg-green-50 px-2 py-0.5 rounded text-xs">{p.activeCooperatives}</span>,
@@ -69,15 +69,15 @@ export const MoneyVungPage: React.FC = () => {
 
       {/* Mô tả từng tỉnh — H3/tỉnh, ăn keyword tỉnh (PRD §5.4 Block 3) */}
       <section className="space-y-5">
-        <h2 className="font-serif text-xl font-bold text-[#4F433A] border-b border-[#F0EAE1] pb-2">
+        <h2 className="font-serif text-xl font-bold text-ink-soft border-b border-line pb-2">
           Đặc điểm trồng {herb.name} theo từng tỉnh
         </h2>
         {region.provinces.map((p, idx) => (
-          <div key={idx} className="bg-white border border-[#E6DDD0] rounded-xl p-5 space-y-1.5 shadow-2xs">
-            <h3 className="font-serif text-lg font-bold text-[#4F433A]">
+          <div key={idx} className="bg-white border border-line rounded-xl p-5 space-y-1.5 shadow-2xs">
+            <h3 className="font-serif text-lg font-bold text-ink-soft">
               Thu mua {herb.name} tại {p.name}
             </h3>
-            <p className="text-[#2D2521] text-base leading-relaxed font-sans">
+            <p className="text-ink text-base leading-relaxed font-sans">
               Tại {p.name}, {herb.name} được canh tác trên quy mô {p.area}, thu hoạch chính vào {p.harvestPeriod}. Với
               điều kiện {region.characteristics.charAt(0).toLowerCase() + region.characteristics.slice(1)} bà con nên gom
               hàng theo {p.activeCooperatives.toLowerCase()} để thuận tiện cho xe thu mua và đạt sản lượng chung đủ lớn cho
@@ -89,20 +89,20 @@ export const MoneyVungPage: React.FC = () => {
 
       {/* Đặc điểm cây trồng ở vùng */}
       <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="bg-white border border-[#E6DDD0] rounded-xl p-6 space-y-3 shadow-2xs">
-          <h3 className="font-serif text-xl font-bold text-[#4F433A] flex items-center gap-2">
-            <Zap className="w-5 h-5 text-[#B85037]" />
+        <div className="bg-white border border-line rounded-xl p-6 space-y-3 shadow-2xs">
+          <h3 className="font-serif text-xl font-bold text-ink-soft flex items-center gap-2">
+            <Zap className="w-5 h-5 text-terracotta" />
             Thổ nhưỡng &amp; khí hậu vùng {region.name}
           </h3>
-          <p className="text-[#2D2521] text-base leading-relaxed font-sans">{region.characteristics}</p>
+          <p className="text-ink text-base leading-relaxed font-sans">{region.characteristics}</p>
         </div>
 
-        <div className="bg-white border border-[#E6DDD0] rounded-xl p-6 space-y-3 shadow-2xs">
-          <h3 className="font-serif text-xl font-bold text-[#4F433A] flex items-center gap-2">
-            <Award className="w-5 h-5 text-[#D08620]" />
+        <div className="bg-white border border-line rounded-xl p-6 space-y-3 shadow-2xs">
+          <h3 className="font-serif text-xl font-bold text-ink-soft flex items-center gap-2">
+            <Award className="w-5 h-5 text-earth" />
             Lợi thế canh tác {herb.name} tại đây
           </h3>
-          <p className="text-[#2D2521] text-base leading-relaxed font-sans">{region.advantages}</p>
+          <p className="text-ink text-base leading-relaxed font-sans">{region.advantages}</p>
           <p className="text-sm text-gray-600 font-sans">
             Đặc thù kỹ thuật: {herb.name} nhân giống bằng {herb.technique.propagation.join(", ")}, cho thu hoạch sau{" "}
             {herb.technique.harvestTime}.
@@ -112,7 +112,7 @@ export const MoneyVungPage: React.FC = () => {
 
       {/* Quy trình gửi hàng + partner card */}
       <section className="space-y-4">
-        <h2 className="font-serif text-xl font-bold text-[#4F433A]">Gửi hàng &amp; đấu nối bao tiêu theo khu vực</h2>
+        <h2 className="font-serif text-xl font-bold text-ink-soft">Gửi hàng &amp; đấu nối bao tiêu theo khu vực</h2>
         <p className="text-sm text-gray-600 font-sans">
           Bà con trong vùng {region.name} có thể gom hàng qua HTX rồi kết nối trực tiếp với đầu mối thu mua uy tín để
           chốt giá và điều xe. Một đơn vị bà con có thể tham khảo:
@@ -124,24 +124,24 @@ export const MoneyVungPage: React.FC = () => {
       <section className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div
           onClick={() => navigate(paths.herb(herb.slug))}
-          className="bg-[#FAF8F4] hover:bg-white border border-[#E6DDD0] hover:border-[#B85037] p-5 rounded-xl cursor-pointer transition-all flex items-center justify-between group"
+          className="bg-paper-2 hover:bg-white border border-line hover:border-terracotta p-5 rounded-xl cursor-pointer transition-all flex items-center justify-between group"
         >
           <div>
-            <span className="text-xs text-[#B85037] font-semibold">Xem trang tổng</span>
-            <h4 className="font-serif text-lg font-bold text-[#4F433A] group-hover:text-[#B85037] transition-colors mt-0.5">Giá &amp; phân loại thu mua {herb.name}</h4>
+            <span className="text-xs text-terracotta font-semibold">Xem trang tổng</span>
+            <h4 className="font-serif text-lg font-bold text-ink-soft group-hover:text-terracotta transition-colors mt-0.5">Giá &amp; phân loại thu mua {herb.name}</h4>
           </div>
-          <ArrowRight className="w-5 h-5 text-[#B85037] group-hover:translate-x-1 transition-transform" />
+          <ArrowRight className="w-5 h-5 text-terracotta group-hover:translate-x-1 transition-transform" />
         </div>
 
         <div
           onClick={() => navigate(paths.hubWiki(herb.slug))}
-          className="bg-[#FAF8F4] hover:bg-white border border-[#E6DDD0] hover:border-[#B85037] p-5 rounded-xl cursor-pointer transition-all flex items-center justify-between group"
+          className="bg-paper-2 hover:bg-white border border-line hover:border-terracotta p-5 rounded-xl cursor-pointer transition-all flex items-center justify-between group"
         >
           <div>
-            <span className="text-xs text-[#D08620] font-semibold">Tài liệu kỹ thuật</span>
-            <h4 className="font-serif text-lg font-bold text-[#4F433A] group-hover:text-[#B85037] transition-colors mt-0.5">Cẩm nang kỹ thuật trồng {herb.name}</h4>
+            <span className="text-xs text-earth font-semibold">Tài liệu kỹ thuật</span>
+            <h4 className="font-serif text-lg font-bold text-ink-soft group-hover:text-terracotta transition-colors mt-0.5">Cẩm nang kỹ thuật trồng {herb.name}</h4>
           </div>
-          <ArrowRight className="w-5 h-5 text-[#B85037] group-hover:translate-x-1 transition-transform" />
+          <ArrowRight className="w-5 h-5 text-terracotta group-hover:translate-x-1 transition-transform" />
         </div>
       </section>
     </div>

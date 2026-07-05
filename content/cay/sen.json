@@ -1,0 +1,170 @@
+{
+  "id": "sen",
+  "slug": "sen",
+  "name": "Sen",
+  "scientificName": "Nelumbo nucifera",
+  "otherNames": [
+    "Liên",
+    "Hà diệp (lá sen)",
+    "Liên nhục (hạt sen)",
+    "Liên tâm (tâm sen)"
+  ],
+  "group": "hoa-la",
+  "priceRange": "9.000 - 72.000 VNĐ/kg",
+  "shortDesc": "Cây sen cho nhiều vị dược liệu được thu mua thường xuyên: lá sen (hà diệp), hạt sen (liên nhục) và tâm sen (liên tâm), mỗi loại một mức giá riêng.",
+  "image": "/images/cay/sen.jpg",
+  "description": "Sen là cây thủy sinh quen thuộc, trồng phổ biến khắp cả nước và cho nhiều bộ phận đều là dược liệu được bao tiêu thu mua: lá sen (hà diệp), hạt sen (liên nhục) và tâm sen (liên tâm). Mỗi bộ phận có mùa thu hái, tiêu chuẩn và giá thu mua riêng. Bà con trồng hoặc thu hái đạt chuẩn có thể kết nối bán hàng ổn định theo giá sàn công bố mỗi tuần.",
+  "bioCharacteristics": "Cây sen sống ở ao đầm, thân rễ (ngó sen) mọc bò dưới bùn. Lá hình tròn to đường kính 30–60 cm, mặt trên xanh lục đậm nhẵn bóng chống thấm nước. Hoa lớn màu hồng hoặc trắng, gương sen chứa nhiều hạt; mỗi hạt sen bên trong có tâm sen (chồi mầm) màu xanh lục sẫm.",
+  "usageValue": "Ba bộ phận chính được thu mua làm nguyên liệu bào chế cao, trà và thuốc y học cổ truyền: lá sen (hà diệp) dùng hạ mỡ máu, an thần; hạt sen (liên nhục) bổ tỳ, dưỡng tâm; tâm sen (liên tâm) thanh nhiệt, an thần. Hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Lá sen, hạt sen, tâm sen"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng mỗi loại"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "6 - 8 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "20°C - 34°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Lá sen (hà diệp) khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm lá sen.",
+      "priceRange": "32.000 - 66.000",
+      "unit": "kg",
+      "trend": "up"
+    },
+    {
+      "grade": "Lá sen (hà diệp) tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế/nấu cao, chưa qua sấy.",
+      "priceRange": "10.000 - 20.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Hạt sen (liên nhục) khô loại 1",
+      "specification": "Hạt bóc vỏ, bỏ tâm, phơi/sấy khô đều, sạch tạp chất, không mốc mối.",
+      "priceRange": "28.000 - 51.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Hạt sen (liên nhục) tươi nguyên liệu",
+      "specification": "Hạt tươi bóc vỏ giao ngay cho xưởng sơ chế, chưa qua sấy.",
+      "priceRange": "9.000 - 18.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Tâm sen (liên tâm) khô loại 1",
+      "specification": "Tâm sen tách từ hạt, phơi/sấy khô đều, giữ màu lục sẫm, sạch tạp chất.",
+      "priceRange": "34.000 - 72.000",
+      "unit": "kg",
+      "trend": "down"
+    },
+    {
+      "grade": "Tâm sen (liên tâm) tươi nguyên liệu",
+      "specification": "Tâm sen tươi tách ngay khi thu hái, giao cho xưởng sơ chế.",
+      "priceRange": "11.000 - 17.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "bac-trung-bo",
+      "regionName": "Bắc Trung Bộ",
+      "provinces": [
+        "Nghệ An",
+        "Thanh Hóa"
+      ],
+      "outputEstimate": "1251 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "tay-nguyen",
+      "regionName": "Tây Nguyên",
+      "provinces": [
+        "Lâm Đồng",
+        "Đắk Lắk"
+      ],
+      "outputEstimate": "1002 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "tay-bac",
+      "regionName": "Tây Bắc",
+      "provinces": [
+        "Sơn La",
+        "Lào Cai"
+      ],
+      "outputEstimate": "601 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Xuống giống đầu mùa mưa (tháng 4–6)",
+    "soil": "Đất phù sa giàu mùn, ẩm, ruộng nước nông",
+    "ph": "5.4 – 6.7",
+    "density": "20000 cây/ha",
+    "harvestTime": "6 - 8 tháng sau trồng",
+    "yield": "6 – 8 tấn khô/ha/năm",
+    "propagation": [
+      "gieo hạt",
+      "tách ngó/thân rễ"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối ngó/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, ngó thâm, thối nhũn khi nước tù đọng.",
+      "remedy": "Giữ nước sạch lưu thông, xử lý bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-sen",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua sen",
+    "thu mua lá sen",
+    "thu mua hạt sen",
+    "thu mua tâm sen",
+    "giá hạt sen khô",
+    "giá tâm sen",
+    "thu mua dược liệu sen"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua những bộ phận nào của cây sen?",
+      "answer": "Thu mua ba vị chính: lá sen (hà diệp), hạt sen (liên nhục) và tâm sen (liên tâm). Mỗi loại có mức giá và tiêu chuẩn riêng, nhu cầu tối thiểu 50 kg/tháng mỗi loại."
+    },
+    {
+      "question": "Tiêu chuẩn thu mua sen thế nào?",
+      "answer": "Hàng cần khô sạch, đúng phẩm cấp từng bộ phận, không mốc mối, không tồn dư thuốc bảo vệ thực vật. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Lá sen tròn to 30–60 cm, xanh lục đậm, mặt trên nhẵn bóng. Hạt sen hình trái xoan dài 1,1–1,3 cm, vỏ xanh nhạt, bên trong hai lá mầm dày ôm lấy tâm sen. Tâm sen là chồi nhỏ màu xanh lục sẫm dài 0,8–1,2 cm.",
+    "dry": "Lá sen khô nhàu, màu lục tro, 17–23 gân toả tròn, mùi thơm. Hạt sen khô hình trái xoan, màu trắng ngà đến hơi vàng, vị hơi ngọt. Tâm sen khô dài khoảng 1 cm, chồi mầm màu lục sẫm, mặt cắt có nhiều lỗ hổng."
+  },
+  "demandQuantity": "50 kg/tháng mỗi loại",
+  "priorityLevel": "hot"
+}

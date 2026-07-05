@@ -1,0 +1,119 @@
+{
+  "id": "sa-nhan",
+  "slug": "sa-nhan",
+  "name": "Sa nhân",
+  "scientificName": "Amomum villosum",
+  "otherNames": [],
+  "group": "cu-re",
+  "priceRange": "18.000 - 90.000 VNĐ/kg",
+  "shortDesc": "Sa nhân — dược liệu đang được thu mua, thu hạt, quả chín, nhu cầu 50 kg/tháng.",
+  "image": "/images/cay/sa-nhan.jpg",
+  "description": "Sa nhân hiện nằm trong danh mục dược liệu được bao tiêu thu mua thường xuyên, sản lượng cần tối thiểu 50 kg/tháng. Bà con trồng hoặc thu hái đạt chuẩn có thể kết nối bán hàng ổn định theo giá sàn công bố mỗi tuần.",
+  "bioCharacteristics": "Quả sa nhân hình bầu dục hoặc hình cầu,  Dài khoảng 1.5 - 2.5 cm, rộng 1.2 - 1.5 cm. Hình cầu hoặc hình trứng. Lớp vỏ ngoài sần sùi có phủ một lớp lông hoặc gai mềm nhỏ.",
+  "usageValue": "Hạt, quả chín của Sa nhân được thu mua làm nguyên liệu bào chế cao, trà và thuốc y học cổ truyền; hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Hạt, quả chín"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "11 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "21°C - 31°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Hạt, quả chín khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Sa nhân.",
+      "priceRange": "55.000 - 90.000",
+      "unit": "kg",
+      "trend": "up"
+    },
+    {
+      "grade": "Hạt, quả chín tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế/nấu cao, chưa qua sấy.",
+      "priceRange": "18.000 - 25.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "dong-bac",
+      "regionName": "Đông Bắc",
+      "provinces": [
+        "Bắc Giang",
+        "Cao Bằng"
+      ],
+      "outputEstimate": "1285 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "bac-trung-bo",
+      "regionName": "Bắc Trung Bộ",
+      "provinces": [
+        "Nghệ An"
+      ],
+      "outputEstimate": "635 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Trồng vụ xuân (tháng 2–3) hoặc thu (tháng 8–9)",
+    "soil": "Đất pha cát ven đồi, tầng canh tác dày",
+    "ph": "6.4 – 7.7",
+    "density": "22500 cây/ha",
+    "harvestTime": "11 tháng sau trồng",
+    "yield": "3 – 5 tấn khô/ha/năm",
+    "propagation": [
+      "ươm hạt",
+      "tách mầm củ"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-sa-nhan",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua sa nhân",
+    "giá sa nhân",
+    "bán sa nhân khô",
+    "thu mua dược liệu sa nhân"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua Sa nhân với số lượng và tiêu chuẩn thế nào?",
+      "answer": "Nhu cầu tối thiểu 50 kg/tháng, hàng cần đạt các tiêu chí khô sạch, đúng phẩm cấp hạt, quả chín. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Quả sa nhân hình bầu dục hoặc hình cầu,  Dài khoảng 1.5 - 2.5 cm, rộng 1.2 - 1.5 cm. Hình cầu hoặc hình trứng. Lớp vỏ ngoài sần sùi có phủ một lớp lông hoặc gai mềm nhỏ.",
+    "dry": "Amomum villosum Lour.: Hình bầu dục hay hình trứng, dài 1,5 - 2 cm, đường kính 1 - 1,5 cm, màu nâu nhạt hay nâu sẫm, có 3 gờ tù (vách ngăn); mỗi ngăn có chứa 7 - 26 hạt. Bên ngoài mỗi hạt có một màng mỏng, màu trắng mờ (áo hạt) chụm thành một khối. Hạt màu nâu sẫm, cứng nhăn nheo, đường kính 2 - 3 cm.\nAmomum longiligulare T. L. Wu: Hình bầu dục hay hình trứng dài, có 3 gờ tù, dài 1,5 - 2 cm, đường kính 0,8 - 1,2 cm. Bên ngoài mỗi quả có gờ phân nhánh mịn như tuyết, có sẹo của cuống hoa để lại. Hạt màu nâu sẫm, cứng. Khối lượng các hạt tương đối nhỏ, mỗi quả có 3 - 24 hạt, đường kính 1,5 - 2 mm."
+  },
+  "demandQuantity": "50 kg/tháng",
+  "priorityLevel": "hot"
+}

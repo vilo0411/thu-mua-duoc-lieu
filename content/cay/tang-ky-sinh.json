@@ -1,0 +1,119 @@
+{
+  "id": "tang-ky-sinh",
+  "slug": "tang-ky-sinh",
+  "name": "Tang ký sinh",
+  "scientificName": "Taxillus chinensis",
+  "otherNames": [],
+  "group": "hoa-la",
+  "priceRange": "8.000 - 54.000 VNĐ/kg",
+  "shortDesc": "Tang ký sinh — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
+  "image": "/images/cay/tang-ky-sinh.jpg",
+  "description": "Tang ký sinh hiện nằm trong danh mục dược liệu được bao tiêu thu mua thường xuyên, sản lượng cần tối thiểu 50 kg/tháng. Bà con trồng hoặc thu hái đạt chuẩn có thể kết nối bán hàng ổn định theo giá sàn công bố mỗi tuần.",
+  "bioCharacteristics": "Đoạn thân cành có hình trụ, dài 0,8 - 1 m, đường kính 0,4 - 0,8 cm, lá dài từ 3 - 8 cm, rộng từ 2 - 2,5 cm, nhiều cành. Mặt ngoài thân có màu xanh lục hoặc nâu xám, lớp gỗ bên trong có màu trắng ngà hoặc hơi vàng",
+  "usageValue": "Toàn cây trên mặt đất của Tang ký sinh được thu mua làm nguyên liệu bào chế cao, trà và thuốc y học cổ truyền; hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Toàn cây trên mặt đất"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "10 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "20°C - 34°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Toàn cây trên mặt đất khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Tang ký sinh.",
+      "priceRange": "26.000 - 54.000",
+      "unit": "kg",
+      "trend": "up"
+    },
+    {
+      "grade": "Toàn cây trên mặt đất tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế/nấu cao, chưa qua sấy.",
+      "priceRange": "8.000 - 18.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "tay-bac",
+      "regionName": "Tây Bắc",
+      "provinces": [
+        "Sơn La",
+        "Lào Cai"
+      ],
+      "outputEstimate": "904 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "tay-nguyen",
+      "regionName": "Tây Nguyên",
+      "provinces": [
+        "Lâm Đồng"
+      ],
+      "outputEstimate": "254 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Xuống giống đầu mùa mưa (tháng 4–6)",
+    "soil": "Đất thịt nhẹ pha cát, tơi xốp, thoát nước tốt",
+    "ph": "5.1 – 6.4",
+    "density": "12000 cây/ha",
+    "harvestTime": "10 tháng sau trồng",
+    "yield": "6 – 8 tấn khô/ha/năm",
+    "propagation": [
+      "gieo hạt",
+      "giâm cành"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-tang-ky-sinh",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua tang ký sinh",
+    "giá tang ký sinh",
+    "bán tang ký sinh khô",
+    "thu mua dược liệu tang ký sinh"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua Tang ký sinh với số lượng và tiêu chuẩn thế nào?",
+      "answer": "Nhu cầu tối thiểu 50 kg/tháng, hàng cần đạt các tiêu chí khô sạch, đúng phẩm cấp toàn cây trên mặt đất. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Đoạn thân cành có hình trụ, dài 0,8 - 1 m, đường kính 0,4 - 0,8 cm, lá dài từ 3 - 8 cm, rộng từ 2 - 2,5 cm, nhiều cành. Mặt ngoài thân có màu xanh lục hoặc nâu xám, lớp gỗ bên trong có màu trắng ngà hoặc hơi vàng",
+    "dry": "Những đoạn thân, cành hình trụ, dài 3 - 4 cm, đường kính 0,3 - 0,7 cm. Mặt ngoài màu nâu xám, có nhiều lỗ bì nhỏ, đôi khi có những vết nứt ngang. Chất cứng rắn. Mặt cắt ngang thấy rõ ba phần: phần vỏ mỏng màu nâu, gỗ trắng ngà, ruột màu xám và xốp. Lá khô nhăn nhúm, nguyên hoặc bị cắt thành từng mảnh."
+  },
+  "demandQuantity": "50 kg/tháng",
+  "priorityLevel": "hot"
+}

@@ -1,0 +1,121 @@
+{
+  "id": "phu-binh",
+  "slug": "phu-binh",
+  "name": "Phù bình",
+  "scientificName": "",
+  "otherNames": [
+    "Bèo cái"
+  ],
+  "group": "hoa-la",
+  "priceRange": "7.000 - 41.000 VNĐ/kg",
+  "shortDesc": "Phù bình — dược liệu đang được thu mua, thu vỏ, nhu cầu 50 kg/tháng.",
+  "image": "/images/cay/phu-binh.jpg",
+  "description": "Phù bình hiện nằm trong danh mục dược liệu được bao tiêu thu mua thường xuyên, sản lượng cần tối thiểu 50 kg/tháng. Bà con trồng hoặc thu hái đạt chuẩn có thể kết nối bán hàng ổn định theo giá sàn công bố mỗi tuần.",
+  "bioCharacteristics": "Toàn cây đã bỏ rễ, lá mọc chụm lại ở gốc thành hình hoa thị (giống bông hoa đang nở). Phiến lá hình trứng ngược, rộng từ 4 cm - 10 cm, đầu lá tù hoặc hơi tròn. Mặt trên lá nhẵn, màu lục sẫm; mặt dưới nhạt hơn. Toàn thân lá được bao phủ bởi một lớp lông mịn màu trắng, không thấm nước.",
+  "usageValue": "Vỏ của Phù bình được thu mua làm nguyên liệu bào chế cao, trà và thuốc y học cổ truyền; hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Vỏ"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "11 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "21°C - 33°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Vỏ khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Phù bình.",
+      "priceRange": "22.000 - 41.000",
+      "unit": "kg",
+      "trend": "up"
+    },
+    {
+      "grade": "Vỏ tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế/nấu cao, chưa qua sấy.",
+      "priceRange": "7.000 - 16.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "dong-bac",
+      "regionName": "Đông Bắc",
+      "provinces": [
+        "Bắc Giang",
+        "Cao Bằng"
+      ],
+      "outputEstimate": "345 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "tay-nguyen",
+      "regionName": "Tây Nguyên",
+      "provinces": [
+        "Lâm Đồng"
+      ],
+      "outputEstimate": "195 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Trồng vụ xuân (tháng 2–3) hoặc thu (tháng 8–9)",
+    "soil": "Đất pha cát ven đồi, tầng canh tác dày",
+    "ph": "6.0 – 7.3",
+    "density": "12500 cây/ha",
+    "harvestTime": "11 tháng sau trồng",
+    "yield": "5 – 9 tấn khô/ha/năm",
+    "propagation": [
+      "gieo hạt",
+      "giâm cành"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-phu-binh",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua phù bình",
+    "giá phù bình",
+    "bán phù bình khô",
+    "thu mua dược liệu phù bình"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua Phù bình với số lượng và tiêu chuẩn thế nào?",
+      "answer": "Nhu cầu tối thiểu 50 kg/tháng, hàng cần đạt các tiêu chí khô sạch, đúng phẩm cấp vỏ. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Toàn cây đã bỏ rễ, lá mọc chụm lại ở gốc thành hình hoa thị (giống bông hoa đang nở). Phiến lá hình trứng ngược, rộng từ 4 cm - 10 cm, đầu lá tù hoặc hơi tròn. Mặt trên lá nhẵn, màu lục sẫm; mặt dưới nhạt hơn. Toàn thân lá được bao phủ bởi một lớp lông mịn màu trắng, không thấm nước.",
+    "dry": "Toàn cây đã bỏ rễ, lá mọc quanh gốc thành hình hoa thị, nhăn nheo, thường mọc thành cụm. Phiến lá hình trứng ngược, rộng từ 2 - 8 cm, màu lục nhạt, mặt dưới có lông mịn. Chất mềm dễ vỡ vụn. Mùi thơm nhẹ, vị hơi mặn, cay"
+  },
+  "demandQuantity": "50 kg/tháng",
+  "priorityLevel": "hot"
+}

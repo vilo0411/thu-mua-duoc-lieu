@@ -1,0 +1,119 @@
+{
+  "id": "ma-tien-che",
+  "slug": "ma-tien-che",
+  "name": "Mã tiền chế",
+  "scientificName": "Strychnos nux-vomica",
+  "otherNames": [],
+  "group": "hoa-la",
+  "priceRange": "9.000 - 50.000 VNĐ/kg",
+  "shortDesc": "Mã tiền chế — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
+  "image": "/images/cay/ma-tien-che.jpg",
+  "description": "Mã tiền chế hiện nằm trong danh mục dược liệu được bao tiêu thu mua thường xuyên, sản lượng cần tối thiểu 50 kg/tháng. Bà con trồng hoặc thu hái đạt chuẩn có thể kết nối bán hàng ổn định theo giá sàn công bố mỗi tuần.",
+  "bioCharacteristics": "Hạt dẹt, hình nút hoặc đĩa dẹt. Đường kính khoảng 1,2 - 3 cm, dày 0,4 - 0,7 cm. Phủ một lớp lông tơ bóng mượt màu xám nhạt đến xám vàng, tỏa ra từ tâm hạt. Nội nhũ màu vàng nhạt, sừng và dày, bên trong có khoảng trống và phôi hình trái tim. Rất cứng, khó vỡ.",
+  "usageValue": "Toàn cây trên mặt đất của Mã tiền chế được thu mua làm nguyên liệu bào chế cao, trà và thuốc y học cổ truyền; hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Toàn cây trên mặt đất"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "13 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "21°C - 31°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Toàn cây trên mặt đất khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Mã tiền chế.",
+      "priceRange": "29.000 - 50.000",
+      "unit": "kg",
+      "trend": "down"
+    },
+    {
+      "grade": "Toàn cây trên mặt đất tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế/nấu cao, chưa qua sấy.",
+      "priceRange": "9.000 - 16.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "dong-bac",
+      "regionName": "Đông Bắc",
+      "provinces": [
+        "Bắc Giang",
+        "Cao Bằng"
+      ],
+      "outputEstimate": "457 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "bac-trung-bo",
+      "regionName": "Bắc Trung Bộ",
+      "provinces": [
+        "Nghệ An"
+      ],
+      "outputEstimate": "307 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Trồng vụ xuân (tháng 2–3) hoặc thu (tháng 8–9)",
+    "soil": "Đất pha cát ven đồi, tầng canh tác dày",
+    "ph": "6.4 – 7.7",
+    "density": "28500 cây/ha",
+    "harvestTime": "13 tháng sau trồng",
+    "yield": "3 – 9 tấn khô/ha/năm",
+    "propagation": [
+      "gieo hạt",
+      "giâm cành"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-ma-tien-che",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua mã tiền chế",
+    "giá mã tiền chế",
+    "bán mã tiền chế khô",
+    "thu mua dược liệu mã tiền chế"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua Mã tiền chế với số lượng và tiêu chuẩn thế nào?",
+      "answer": "Nhu cầu tối thiểu 50 kg/tháng, hàng cần đạt các tiêu chí khô sạch, đúng phẩm cấp toàn cây trên mặt đất. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Hạt dẹt, hình nút hoặc đĩa dẹt. Đường kính khoảng 1,2 - 3 cm, dày 0,4 - 0,7 cm. Phủ một lớp lông tơ bóng mượt màu xám nhạt đến xám vàng, tỏa ra từ tâm hạt. Nội nhũ màu vàng nhạt, sừng và dày, bên trong có khoảng trống và phôi hình trái tim. Rất cứng, khó vỡ.",
+    "dry": "Hạt hình đĩa dẹt, hơi dày lên ở mép; một số hạt hơi méo mó, cong không đều, đường kính 1,2 – 2,5 cm, dày 0,4 – 0,6 cm, màu xám nhạt đến vàng nhạt. Mặt hạt phủ một lớp lông tơ bóng mượt mọc ngả theo chiều từ tâm hạt tỏa ra xung quanh. Hạt có nội nhũ sừng màu vàng nhạt hay hơi xám, rất cứng."
+  },
+  "demandQuantity": "50 kg/tháng",
+  "priorityLevel": "hot"
+}

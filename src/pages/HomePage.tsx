@@ -158,41 +158,7 @@ export const HomePage: React.FC = () => {
         </div>
       </section>
 
-      {/* 7. Latest posts feed */}
-      <section id="latest-posts" className="mt-16 space-y-4">
-        <h3 className="font-serif text-xl font-bold text-ink-soft border-b border-line pb-2">Báo cáo thực địa & Tin tức mới</h3>
-        <div className="divide-y divide-line/60 bg-white border border-line rounded-xl p-5 shadow-2xs">
-          <div className="py-4 first:pt-0 last:pb-0 flex flex-col sm:flex-row justify-between sm:items-center gap-3">
-            <div>
-              <span className="text-xs text-terracotta font-semibold uppercase tracking-wider">Cập nhật 02/07/2026</span>
-              <h5 className="font-sans font-bold text-base text-ink-soft hover:text-terracotta transition-colors cursor-pointer mt-1" onClick={() => navigate(paths.herb("ba-kich"))}>
-                Khảo sát vùng trồng Ba kích tím tại huyện Ba Chẽ, Quảng Ninh: Hàm lượng hoạt chất anthraglycosid tăng mạnh nhờ mùa mưa sớm.
-              </h5>
-            </div>
-            <span className="text-xs text-gray-400 font-mono shrink-0">Nguyễn Việt Lộc</span>
-          </div>
-          <div className="py-4 first:pt-0 last:pb-0 flex flex-col sm:flex-row justify-between sm:items-center gap-3">
-            <div>
-              <span className="text-xs text-earth font-semibold uppercase tracking-wider">Thị trường</span>
-              <h5 className="font-sans font-bold text-base text-ink-soft hover:text-terracotta transition-colors cursor-pointer mt-1" onClick={() => navigate(paths.herb("dinh-lang"))}>
-                Nhà máy trung tâm {PARTNER_COMPANY.name} nâng 10% công suất thu mua rễ củ Đinh lăng sấy đạt ẩm &lt;11% phục vụ đơn hàng dược phẩm xuất khẩu.
-              </h5>
-            </div>
-            <span className="text-xs text-gray-400 font-mono shrink-0">Phòng phân tích thị trường</span>
-          </div>
-          <div className="py-4 first:pt-0 last:pb-0 flex flex-col sm:flex-row justify-between sm:items-center gap-3">
-            <div>
-              <span className="text-xs text-pine-500 font-semibold uppercase tracking-wider">Cảnh báo</span>
-              <h5 className="font-sans font-bold text-base text-ink-soft hover:text-terracotta transition-colors cursor-pointer mt-1" onClick={() => navigate(paths.article("phan-biet-cay-duoc-lieu-gia"))}>
-                Phát hiện nhiều lô giống Cà gai leo dại giả mạo đạt nồng độ hoạt chất gần bằng không bán trôi nổi trên mạng xã hội tại Nghệ An.
-              </h5>
-            </div>
-            <span className="text-xs text-gray-400 font-mono shrink-0">Ban nông nghiệp HTX</span>
-          </div>
-        </div>
-      </section>
-
-      {/* 8. CTA cuối — mời kết nối đầu mối bao tiêu (outbound + UTM) */}
+      {/* 7. CTA cuối — mời kết nối đầu mối bao tiêu (outbound + UTM) */}
       <div className="mt-16">
         <CtaBanner
           title="Sẵn sàng bán dược liệu đúng giá?"

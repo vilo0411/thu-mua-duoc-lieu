@@ -1,0 +1,119 @@
+{
+  "id": "hoe-hoa",
+  "slug": "hoe-hoa",
+  "name": "Hòe hoa",
+  "scientificName": "Styphnolobium japonicum",
+  "otherNames": [],
+  "group": "hoa-la",
+  "priceRange": "10.000 - 59.000 VNĐ/kg",
+  "shortDesc": "Hòe hoa — dược liệu đang được thu mua, thu hoa, nhu cầu 50 kg/tháng.",
+  "image": "/images/cay/hoe-hoa.jpg",
+  "description": "Hòe hoa hiện nằm trong danh mục dược liệu được bao tiêu thu mua thường xuyên, sản lượng cần tối thiểu 50 kg/tháng. Bà con trồng hoặc thu hái đạt chuẩn có thể kết nối bán hàng ổn định theo giá sàn công bố mỗi tuần.",
+  "bioCharacteristics": "Nụ hoa tươi thường nhỏ, có chiều dài khoảng 6-8 mm, đường kính 3-4 mm. Vị đắng nhạt, mùi thơm đặc trưng.",
+  "usageValue": "Hoa của Hòe hoa được thu mua làm nguyên liệu bào chế cao, trà và thuốc y học cổ truyền; hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Hoa"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "10 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "22°C - 30°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Hoa khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Hòe hoa.",
+      "priceRange": "31.000 - 59.000",
+      "unit": "kg",
+      "trend": "up"
+    },
+    {
+      "grade": "Hoa tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế/nấu cao, chưa qua sấy.",
+      "priceRange": "10.000 - 16.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "tay-nguyen",
+      "regionName": "Tây Nguyên",
+      "provinces": [
+        "Lâm Đồng",
+        "Đắk Lắk"
+      ],
+      "outputEstimate": "354 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "bac-trung-bo",
+      "regionName": "Bắc Trung Bộ",
+      "provinces": [
+        "Nghệ An"
+      ],
+      "outputEstimate": "204 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Gieo trồng đầu xuân khi ẩm độ cao",
+    "soil": "Đất đồi feralit thoát nước nhanh",
+    "ph": "5.0 – 6.3",
+    "density": "17000 cây/ha",
+    "harvestTime": "10 tháng sau trồng",
+    "yield": "2 – 10 tấn khô/ha/năm",
+    "propagation": [
+      "gieo hạt",
+      "giâm cành"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-hoe-hoa",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua hòe hoa",
+    "giá hòe hoa",
+    "bán hòe hoa khô",
+    "thu mua dược liệu hòe hoa"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua Hòe hoa với số lượng và tiêu chuẩn thế nào?",
+      "answer": "Nhu cầu tối thiểu 50 kg/tháng, hàng cần đạt các tiêu chí khô sạch, đúng phẩm cấp hoa. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Nụ hoa tươi thường nhỏ, có chiều dài khoảng 6-8 mm, đường kính 3-4 mm. Vị đắng nhạt, mùi thơm đặc trưng.",
+    "dry": "Nụ khô có hình trụ không đều, được bao bọc toàn bộ bởi đài hoa, mặt ngoài màu ngà vàng, hơi xám, nâu nhạt hay vàng lục, dài 5 – 7 mm, đường kính 2 – 3 mm, có các nếp nhăn dọc. Hoa chưa nở có hình trụ dài, dài từ 4 - 10 mm, đường kính 2 - 4 mm. Dược liệu có mùi thơm đặc trưng, vị đắng."
+  },
+  "demandQuantity": "50 kg/tháng",
+  "priorityLevel": "hot"
+}

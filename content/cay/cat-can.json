@@ -1,0 +1,119 @@
+{
+  "id": "cat-can",
+  "slug": "cat-can",
+  "name": "Cát căn",
+  "scientificName": "Pueraria thomsonii",
+  "otherNames": [],
+  "group": "cu-re",
+  "priceRange": "16.000 - 83.000 VNĐ/kg",
+  "shortDesc": "Cát căn — dược liệu đang được thu mua, thu củ, rễ, nhu cầu 50 kg/tháng.",
+  "image": "/images/cay/cat-can.jpg",
+  "description": "Cát căn hiện nằm trong danh mục dược liệu được bao tiêu thu mua thường xuyên, sản lượng cần tối thiểu 50 kg/tháng. Bà con trồng hoặc thu hái đạt chuẩn có thể kết nối bán hàng ổn định theo giá sàn công bố mỗi tuần.",
+  "bioCharacteristics": "Củ có hình trụ dài hoặc hình thoi, mập mạp, thon nhỏ dần về phía đuôi. Kích thước củ lớn, đường kính thường từ 6cm - 8cm và có thể nặng từ vài kg đến hơn 20kg, Mặt ngoài màu trắng đục hoặc trắng ngà, rất nhiều tinh bột và đặc ruột. Mùi thơm nhẹ.",
+  "usageValue": "Củ, rễ của Cát căn được thu mua làm nguyên liệu bào chế cao, trà và thuốc y học cổ truyền; hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Củ, rễ"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "10 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "22°C - 34°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Củ, rễ khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Cát căn.",
+      "priceRange": "49.000 - 83.000",
+      "unit": "kg",
+      "trend": "up"
+    },
+    {
+      "grade": "Củ, rễ tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế/nấu cao, chưa qua sấy.",
+      "priceRange": "16.000 - 26.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "tay-nguyen",
+      "regionName": "Tây Nguyên",
+      "provinces": [
+        "Lâm Đồng",
+        "Đắk Lắk"
+      ],
+      "outputEstimate": "1174 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "tay-bac",
+      "regionName": "Tây Bắc",
+      "provinces": [
+        "Sơn La"
+      ],
+      "outputEstimate": "524 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Gieo trồng đầu xuân khi ẩm độ cao",
+    "soil": "Đất thịt nhẹ pha cát, tơi xốp, thoát nước tốt",
+    "ph": "5.1 – 6.4",
+    "density": "27000 cây/ha",
+    "harvestTime": "10 tháng sau trồng",
+    "yield": "6 – 6 tấn khô/ha/năm",
+    "propagation": [
+      "ươm hạt",
+      "tách mầm củ"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-cat-can",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua cát căn",
+    "giá cát căn",
+    "bán cát căn khô",
+    "thu mua dược liệu cát căn"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua Cát căn với số lượng và tiêu chuẩn thế nào?",
+      "answer": "Nhu cầu tối thiểu 50 kg/tháng, hàng cần đạt các tiêu chí khô sạch, đúng phẩm cấp củ, rễ. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Củ có hình trụ dài hoặc hình thoi, mập mạp, thon nhỏ dần về phía đuôi. Kích thước củ lớn, đường kính thường từ 6cm - 8cm và có thể nặng từ vài kg đến hơn 20kg, Mặt ngoài màu trắng đục hoặc trắng ngà, rất nhiều tinh bột và đặc ruột. Mùi thơm nhẹ.",
+    "dry": "Rễ củ đã cạo lớp bần bên ngoài, hình trụ, hoặc hình bán trụ, được cắt thành đoạn dài 12 - 15 cm, đường kính 4 - 8 cm, lát cắt dọc hoặc vát, dày, có kích thước khác nhau. Mặt ngoài màu trắng hơi vàng. Chất cứng, nặng và nhiều bột. Mặt cắt ngang có nhiều sợi tạo thành những vòng đồng tâm màu nâu nhạt; mặt cắt dọc có nhiều vân dọc do các sợi tạo nên."
+  },
+  "demandQuantity": "50 kg/tháng",
+  "priorityLevel": "hot"
+}

@@ -1,0 +1,119 @@
+{
+  "id": "tran-bi",
+  "slug": "tran-bi",
+  "name": "Trần bì",
+  "scientificName": "Citrus reticulata",
+  "otherNames": [],
+  "group": "vo",
+  "priceRange": "13.000 - 77.000 VNĐ/kg",
+  "shortDesc": "Trần bì — dược liệu đang được thu mua, thu vỏ, nhu cầu 50 kg/tháng.",
+  "image": "/images/cay/tran-bi.jpg",
+  "description": "Trần bì hiện nằm trong danh mục dược liệu được bao tiêu thu mua thường xuyên, sản lượng cần tối thiểu 50 kg/tháng. Bà con trồng hoặc thu hái đạt chuẩn có thể kết nối bán hàng ổn định theo giá sàn công bố mỗi tuần.",
+  "bioCharacteristics": "Trần bì tươi (vỏ quýt tươi) là lớp vỏ ngoài của quả quýt chín, dày 0,1 - 0,2 cm. Mặt ngoài có màu xanh bóng hoặc vàng ươm (tùy độ chín của quýt). Mặt trong xốp, màu trắng ngà hoặc vàng nhạt.",
+  "usageValue": "Vỏ của Trần bì được thu mua làm nguyên liệu bào chế cao, trà và thuốc y học cổ truyền; hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Vỏ"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "12 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "20°C - 32°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Vỏ khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Trần bì.",
+      "priceRange": "41.000 - 77.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Vỏ tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế/nấu cao, chưa qua sấy.",
+      "priceRange": "13.000 - 21.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "tay-bac",
+      "regionName": "Tây Bắc",
+      "provinces": [
+        "Sơn La",
+        "Lào Cai"
+      ],
+      "outputEstimate": "956 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "bac-trung-bo",
+      "regionName": "Bắc Trung Bộ",
+      "provinces": [
+        "Nghệ An"
+      ],
+      "outputEstimate": "306 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Xuống giống đầu mùa mưa (tháng 4–6)",
+    "soil": "Đất đồi feralit thoát nước nhanh",
+    "ph": "5.8 – 6.2",
+    "density": "18000 cây/ha",
+    "harvestTime": "12 tháng sau trồng",
+    "yield": "4 – 4 tấn khô/ha/năm",
+    "propagation": [
+      "ươm cây giống",
+      "ghép cành"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-tran-bi",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua trần bì",
+    "giá trần bì",
+    "bán trần bì khô",
+    "thu mua dược liệu trần bì"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua Trần bì với số lượng và tiêu chuẩn thế nào?",
+      "answer": "Nhu cầu tối thiểu 50 kg/tháng, hàng cần đạt các tiêu chí khô sạch, đúng phẩm cấp vỏ. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Trần bì tươi (vỏ quýt tươi) là lớp vỏ ngoài của quả quýt chín, dày 0,1 - 0,2 cm. Mặt ngoài có màu xanh bóng hoặc vàng ươm (tùy độ chín của quýt). Mặt trong xốp, màu trắng ngà hoặc vàng nhạt.",
+    "dry": "Vỏ cuốn lại hoặc quăn, dày 0,1 – 0,15 cm, có mảnh còn vết tích của cuống quả. Mặt ngoài màu vàng nâu hay nâu nhạt, có nhiều chấm màu sẫm hơn và lõm xuống (túi tiết). Mặt trong xốp, màu trắng ngà hoặc hồng nhạt, thường lộn ra ngoài. Vỏ nhẹ, giòn, dễ bẻ gãy. Mùi thơm, vị hơi đắng, hơi cay."
+  },
+  "demandQuantity": "50 kg/tháng",
+  "priorityLevel": "hot"
+}

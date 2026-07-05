@@ -19,12 +19,23 @@ export const herbSchema = z.object({
   id: z.string().min(1),
   slug: z.string().regex(/^[a-z0-9-]+$/, "slug phải là chữ thường không dấu, dùng '-'"),
   name: z.string().min(1),
-  scientificName: z.string().min(1),
+  scientificName: z.string(),
   otherNames: z.array(z.string().min(1)),
   group: z.enum(["cu-re", "hoa-la", "nam", "vo", "than"]),
+  identification: z
+    .object({ fresh: z.string().optional(), dry: z.string().optional() })
+    .optional(),
+  demandQuantity: z.string().optional(),
+  priorityLevel: z.enum(["hot", "normal"]).optional(),
   priceRange: z.string().min(1),
   shortDesc: z.string().min(1),
-  image: z.string().url(),
+  // Chấp nhận URL đầy đủ hoặc đường dẫn ảnh nội bộ (vd: /images/cay/sen.jpg)
+  image: z
+    .string()
+    .refine(
+      (v) => /^https?:\/\//.test(v) || v.startsWith("/"),
+      "Phải là URL đầy đủ hoặc đường dẫn nội bộ bắt đầu bằng /",
+    ),
   description: z.string().min(1),
   bioCharacteristics: z.string().min(1),
   usageValue: z.string().min(1),

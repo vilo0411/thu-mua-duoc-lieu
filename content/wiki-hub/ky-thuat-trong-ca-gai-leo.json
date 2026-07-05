@@ -1,0 +1,52 @@
+{
+  "id": "ky-thuat-trong-ca-gai-leo",
+  "slug": "ky-thuat-trong-ca-gai-leo-dat-doi-soi-da",
+  "herbSlug": "ca-gai-leo",
+  "herbName": "Cà gai leo",
+  "title": "Cẩm nang Kỹ thuật trồng Cà gai leo trên đất đồi sỏi đá cho hàm lượng dược chất cao",
+  "intro": "Cà gai leo là cây bản địa chịu hạn cực khỏe, nghịch lý là càng trồng trên đất đồi cằn khô nắng gắt miền Trung thì hàm lượng glycoalcaloid bảo vệ gan lại càng cao. Chuyên gia Nguyễn Việt Lộc chia sẻ kỹ thuật canh tác ít đầu tư, ưu tiên để cây đủ tuổi ra hoa kết quả đỏ mọng nhằm tối đa dược tính khi bán cho các xưởng nấu cao.",
+  "standards": [
+    {
+      "stage": "Ươm giống và chọn thời vụ",
+      "criteria": "Nhân giống bằng ươm hạt hoặc giâm hom, trồng vào đầu mùa mưa (tháng 4–6) để cây tận dụng nước trời bén rễ nhanh, sau đó phát triển và thu hoạch vào mùa khô.",
+      "controlMethod": "Ươm cây con trong bầu 30–40 ngày đến khi cứng cáp cao 15–20cm mới đưa ra đồi; trồng dặm sớm các hốc chết để giữ mật độ 25.000–30.000 cây/ha (cây cách cây 40–50cm)."
+    },
+    {
+      "stage": "Làm đất đồi và bố trí giá đỡ",
+      "criteria": "Đất đồi sỏi đá nghèo dinh dưỡng thoát nước nhanh, pH 5.5–6.5 là môi trường lý tưởng, không cần bón nhiều đạm. Cây là dạng nhỡ leo/bò nên có thể để bò trên mặt luống hoặc cắm chà cho leo giúp thông thoáng.",
+      "controlMethod": "Cày phơi ải, dọn sạch cỏ dại, lên luống thoát nước tốt; bón lót chủ yếu phân chuồng hoai và lân, hạn chế phân hóa học để cây tự tích lũy hoạt chất tự vệ."
+    },
+    {
+      "stage": "Chăm sóc theo hướng khắc nghiệt có kiểm soát",
+      "criteria": "Cà gai leo chịu hạn tốt, không tưới tràn lan mà chỉ giữ ẩm giai đoạn cây con. Để cây phơi nắng, sống trên đất cằn giúp nồng độ glycoalcaloid tăng cao, đây chính là lợi thế dược liệu của vùng Quảng Trị, Nghệ An.",
+      "controlMethod": "Chủ yếu làm cỏ, vun gốc và thoát nước mùa mưa; tuyệt đối tránh lạm dụng phân đạm và tưới đẫm làm cây tốt lá nhưng loãng dược chất."
+    },
+    {
+      "stage": "Thu hoạch đúng tuổi trưởng thành",
+      "criteria": "Chỉ thu khi cây đã đủ tuổi ra hoa tím và kết quả mọng đỏ (khoảng 5–6 tháng cho lứa đầu), lúc này toàn bộ thân, cành, lá già tích lũy dược chất tối ưu. Hàng khô phải sạch tạp chất, thơm mát, không ẩm mốc.",
+      "controlMethod": "Chặt cả thân cành lá, băm khúc và phơi khô giòn trong nắng; sàng loại bỏ đất sỏi tạp chất dưới 1% trước khi đóng bao giao xưởng nấu cao."
+    }
+  ],
+  "pests": [
+    {
+      "pestName": "Bọ rùa 28 chấm ăn lá",
+      "symptoms": "Cả bọ trưởng thành và ấu trùng gặm lớp biểu bì mặt lá tạo thành các vệt trắng lỗ chỗ như mạng lưới, lá xơ khô rách nát, nặng thì trơ trụi làm cây giảm quang hợp và chậm lớn.",
+      "remedy": "Bắt thủ công vào sáng sớm khi bọ còn chậm chạp, ngắt bỏ ổ trứng vàng dưới mặt lá, phun luân phiên dầu neem hoặc chế phẩm Bt khi mật độ cao và giữ ruộng thông thoáng."
+    },
+    {
+      "pestName": "Nhện đỏ hại lá mùa khô hạn",
+      "symptoms": "Lá nổi chấm vàng bạc li ti, khô giòn và rụng sớm, có mạng tơ mảnh dưới mặt lá, thường bùng phát mạnh trong những đợt nắng nóng khô kéo dài đặc trưng của vùng đồi.",
+      "remedy": "Giữ ẩm đất hợp lý giai đoạn cao điểm nắng, phun chế phẩm sinh học nấm ký sinh hoặc dầu neem, bảo tồn thiên địch nhện bắt mồi và bọ rùa ăn thịt."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Vì sao Cà gai leo miền Trung đất cằn lại được thu mua giá cao hơn hàng trồng đất tốt?",
+      "answer": "Điều kiện khô cằn, nắng gắt và bức xạ mạnh ở Quảng Trị, Nghệ An buộc cây phải tăng cường tổng hợp các hoạt chất tự vệ, nhờ đó nồng độ glycoalcaloid bảo vệ gan cao hơn rõ rệt so với cây trồng trên đất ẩm màu mỡ. Xưởng nấu cao đánh giá dược liệu theo hàm lượng hoạt chất nên hàng vùng đồi khô thường được ưu tiên và trả giá tốt hơn."
+    },
+    {
+      "question": "Trồng Cà gai leo một lần thu được mấy lứa và có cần trồng lại hằng năm không?",
+      "answer": "Lứa đầu cho thu sau 5–6 tháng, sau đó cây gốc tiếp tục tái sinh và cho thu nhiều lứa trong 2–3 năm nếu được làm cỏ, vun gốc và bón bổ sung phân hữu cơ. Khi cây già cỗi, năng suất và dược tính giảm thì cày phá trồng lại từ vườn giống sạch bệnh, kết hợp luân canh và xử lý đất để phòng bệnh héo xanh vi khuẩn tích lũy trong đất."
+    }
+  ]
+}

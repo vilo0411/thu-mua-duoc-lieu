@@ -1,0 +1,119 @@
+{
+  "id": "binh-voi",
+  "slug": "binh-voi",
+  "name": "Bình vôi",
+  "scientificName": "Stephania rotunda",
+  "otherNames": [],
+  "group": "hoa-la",
+  "priceRange": "11.000 - 62.000 VNĐ/kg",
+  "shortDesc": "Bình vôi — dược liệu đang được thu mua, thu vỏ, nhu cầu 50 kg/tháng.",
+  "image": "/images/cay/binh-voi.jpg",
+  "description": "Bình vôi hiện nằm trong danh mục dược liệu được bao tiêu thu mua thường xuyên, sản lượng cần tối thiểu 50 kg/tháng. Bà con trồng hoặc thu hái đạt chuẩn có thể kết nối bán hàng ổn định theo giá sàn công bố mỗi tuần.",
+  "bioCharacteristics": "Có hình cầu hoặc bầu dục, nặng tới vài chục kg. Vỏ ngoài xù xì, màu nâu sẫm, khi cắt ngang ruột có màu trắng ngà hoặc vàng nhạt, thịt củ rất đắng và có mùi thơm nhẹ.",
+  "usageValue": "Vỏ của Bình vôi được thu mua làm nguyên liệu bào chế cao, trà và thuốc y học cổ truyền; hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Vỏ"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "9 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "21°C - 31°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Vỏ khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Bình vôi.",
+      "priceRange": "35.000 - 62.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Vỏ tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế/nấu cao, chưa qua sấy.",
+      "priceRange": "11.000 - 18.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "dong-bac",
+      "regionName": "Đông Bắc",
+      "provinces": [
+        "Bắc Giang",
+        "Cao Bằng"
+      ],
+      "outputEstimate": "793 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "bac-trung-bo",
+      "regionName": "Bắc Trung Bộ",
+      "provinces": [
+        "Nghệ An"
+      ],
+      "outputEstimate": "643 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Trồng vụ xuân (tháng 2–3) hoặc thu (tháng 8–9)",
+    "soil": "Đất đồi feralit thoát nước nhanh",
+    "ph": "6.7 – 7.1",
+    "density": "16500 cây/ha",
+    "harvestTime": "9 tháng sau trồng",
+    "yield": "3 – 9 tấn khô/ha/năm",
+    "propagation": [
+      "gieo hạt",
+      "giâm cành"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-binh-voi",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua bình vôi",
+    "giá bình vôi",
+    "bán bình vôi khô",
+    "thu mua dược liệu bình vôi"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua Bình vôi với số lượng và tiêu chuẩn thế nào?",
+      "answer": "Nhu cầu tối thiểu 50 kg/tháng, hàng cần đạt các tiêu chí khô sạch, đúng phẩm cấp vỏ. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Có hình cầu hoặc bầu dục, nặng tới vài chục kg. Vỏ ngoài xù xì, màu nâu sẫm, khi cắt ngang ruột có màu trắng ngà hoặc vàng nhạt, thịt củ rất đắng và có mùi thơm nhẹ.",
+    "dry": "Phần gốc thân phát triển thành củ to, có củ rất to, hình dáng thay đổi tuỳ theo nơi củ phát triển. Vỏ ngoài màu nâu đen, khi cạo vỏ ngoài có màu trắng xám. Hoặc đã thái thành miếng to, nhỏ không đều, có màu trắng xám, vị đắng."
+  },
+  "demandQuantity": "50 kg/tháng",
+  "priorityLevel": "hot"
+}

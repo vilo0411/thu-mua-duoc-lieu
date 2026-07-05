@@ -1,0 +1,121 @@
+{
+  "id": "khien-nguu",
+  "slug": "khien-nguu",
+  "name": "Khiên ngưu",
+  "scientificName": "",
+  "otherNames": [
+    "Hắc sửu"
+  ],
+  "group": "hoa-la",
+  "priceRange": "11.000 - 53.000 VNĐ/kg",
+  "shortDesc": "Khiên ngưu — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
+  "image": "/images/cay/khien-nguu.jpg",
+  "description": "Khiên ngưu hiện nằm trong danh mục dược liệu được bao tiêu thu mua thường xuyên, sản lượng cần tối thiểu 50 kg/tháng. Bà con trồng hoặc thu hái đạt chuẩn có thể kết nối bán hàng ổn định theo giá sàn công bố mỗi tuần.",
+  "bioCharacteristics": "Hình dáng gần giống khối cầu, kích thước nhỏ dài. Hạt có mặt lưng lồi (có rãnh dọc nông), mặt bụng thuôn phẳng. Vỏ hạt tươi rất cứng, nhẵn, màu trắng ngà (bạch sửu) hoặc đen/nâu đen",
+  "usageValue": "Toàn cây trên mặt đất của Khiên ngưu được thu mua làm nguyên liệu bào chế cao, trà và thuốc y học cổ truyền; hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Toàn cây trên mặt đất"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "13 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "21°C - 33°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Toàn cây trên mặt đất khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Khiên ngưu.",
+      "priceRange": "34.000 - 53.000",
+      "unit": "kg",
+      "trend": "down"
+    },
+    {
+      "grade": "Toàn cây trên mặt đất tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế/nấu cao, chưa qua sấy.",
+      "priceRange": "11.000 - 20.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "dong-bac",
+      "regionName": "Đông Bắc",
+      "provinces": [
+        "Bắc Giang",
+        "Cao Bằng"
+      ],
+      "outputEstimate": "1137 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "tay-nguyen",
+      "regionName": "Tây Nguyên",
+      "provinces": [
+        "Lâm Đồng"
+      ],
+      "outputEstimate": "487 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Trồng vụ xuân (tháng 2–3) hoặc thu (tháng 8–9)",
+    "soil": "Đất pha cát ven đồi, tầng canh tác dày",
+    "ph": "6.0 – 7.3",
+    "density": "28500 cây/ha",
+    "harvestTime": "13 tháng sau trồng",
+    "yield": "5 – 9 tấn khô/ha/năm",
+    "propagation": [
+      "gieo hạt",
+      "giâm cành"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-khien-nguu",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua khiên ngưu",
+    "giá khiên ngưu",
+    "bán khiên ngưu khô",
+    "thu mua dược liệu khiên ngưu"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua Khiên ngưu với số lượng và tiêu chuẩn thế nào?",
+      "answer": "Nhu cầu tối thiểu 50 kg/tháng, hàng cần đạt các tiêu chí khô sạch, đúng phẩm cấp toàn cây trên mặt đất. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Hình dáng gần giống khối cầu, kích thước nhỏ dài. Hạt có mặt lưng lồi (có rãnh dọc nông), mặt bụng thuôn phẳng. Vỏ hạt tươi rất cứng, nhẵn, màu trắng ngà (bạch sửu) hoặc đen/nâu đen",
+    "dry": "Hạt gần giống một phần năm khối cầu. Mặt lưng lồi hình cung, có một rãnh nông ở giữa. Mặt bụng hẹp, gần như một đường thẳng tạo thành do hai mặt bên. Rốn nằm ở cuối mặt bụng và lõm xuống. Hạt dài 4 – 7 mm, rộng 3 – 4,5 mm. Mặt ngoài hơi lồi lõm, màu nâu đen (hắc sửu). Vỏ cứng, mặt cắt ngang màu lá mạ đến nâu nhạt."
+  },
+  "demandQuantity": "50 kg/tháng",
+  "priorityLevel": "hot"
+}

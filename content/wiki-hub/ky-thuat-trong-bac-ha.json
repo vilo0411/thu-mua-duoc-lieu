@@ -1,0 +1,52 @@
+{
+  "id": "ky-thuat-trong-bac-ha",
+  "slug": "ky-thuat-trong-bac-ha-luan-canh-cat-nhieu-lua",
+  "herbSlug": "bac-ha",
+  "herbName": "Bạc hà Á",
+  "title": "Cẩm nang Kỹ thuật trồng Bạc hà Á luân canh cắt nhiều lứa, hàm lượng tinh dầu cao",
+  "intro": "Bạc hà Á là cây ngắn ngày lý tưởng cho luân canh của nông dân đồng bằng: giâm hom một lần cắt được 3–4 lứa mỗi năm. Chuyên gia Nguyễn Việt Lộc hướng dẫn quy trình thâm canh giữ hàm lượng menthol trong lá đạt trên 1.5%, tối ưu giá trị khi bán lá khô hoặc chưng cất tinh dầu tại chỗ.",
+  "standards": [
+    {
+      "stage": "Chuẩn bị hom giống",
+      "criteria": "Chọn hom thân bánh tẻ khỏe từ ruộng mẹ sạch bệnh, mỗi hom dài 10–15cm có 3–4 mắt. Trồng dày phủ luống, hom cách hom 15–20cm để nhanh khép tán che cỏ.",
+      "controlMethod": "Cắt hom vào buổi sáng mát, giâm ngay trong ngày, đặt hom nghiêng lấp 2/3 và tưới giữ ẩm liên tục 7–10 ngày đầu cho hom bén rễ."
+    },
+    {
+      "stage": "Làm đất và lên luống ẩm",
+      "criteria": "Đất phù sa ẩm mịn, tơi, giàu hữu cơ, thoát nước, pH 6.0–7.0. Lên luống rộng 1–1.2m, cao vừa phải, chủ động nguồn nước tưới vì bạc hà rất cần ẩm để bật chồi nhanh.",
+      "controlMethod": "Bón lót phân chuồng hoai 15–20 tấn/ha, làm đất nhuyễn sạch cỏ dại; bố trí rãnh tưới tiêu để giữ ẩm đều mà không đọng nước gây gỉ sắt."
+    },
+    {
+      "stage": "Bón thúc phục hồi sau mỗi lứa cắt",
+      "criteria": "Sau mỗi lứa thu, cây cần được bón thúc và tưới đủ để bật chồi lứa tiếp. Ưu tiên phân hữu cơ vi sinh, hạn chế bón thừa đạm khiến lá mềm, ít tinh dầu và dễ nhiễm nấm.",
+      "controlMethod": "Cắt sát gốc chừa 5cm, làm sạch cỏ và tàn dư, bón thúc ngay trong 2–3 ngày sau cắt rồi tưới đẫm để cây phục hồi và đâm chồi đồng loạt."
+    },
+    {
+      "stage": "Thu hái đúng độ và sơ chế giữ tinh dầu",
+      "criteria": "Thu khi ruộng chớm nụ hoa là lúc hàm lượng tinh dầu trong lá cao nhất. Lá khô phải giữ màu xanh, thơm đậm, độ ẩm dưới 12%.",
+      "controlMethod": "Cắt vào ngày nắng ráo, phơi trong bóng râm hoặc sấy nhẹ ở nhiệt độ thấp để không bay hơi tinh dầu; hàng chưng cất thì đưa vào nồi lôi cuốn hơi nước ngay trong ngày."
+    }
+  ],
+  "pests": [
+    {
+      "pestName": "Nhện đỏ hại lá mùa khô nóng",
+      "symptoms": "Mặt dưới lá xuất hiện chấm li ti vàng bạc, lá xoăn khô cằn và bạc màu, có mạng tơ mảnh, cây còi cọc chậm bật chồi vào những đợt nắng nóng khô hạn.",
+      "remedy": "Tưới phun mưa tăng ẩm làm giảm mật độ nhện, phun luân phiên dầu neem hoặc chế phẩm sinh học nấm ký sinh, bảo tồn thiên địch bọ rùa và nhện bắt mồi."
+    },
+    {
+      "pestName": "Bệnh thối gốc, lở cổ rễ khi úng",
+      "symptoms": "Gốc hom thâm nhũn, cây héo từng chòm sau các đợt mưa lớn đọng nước, nhổ lên thấy rễ thâm đen mục, ruộng bị mất khoảng loang lổ.",
+      "remedy": "Lên luống cao khơi rãnh thoát nước nhanh, xử lý đất bằng vôi và Trichoderma trước khi giâm hom, tránh tưới đẫm chiều tối và nhổ tiêu hủy cây bệnh kịp thời."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Trồng bạc hà một lần thu hoạch được bao nhiêu lứa trước khi phải trồng lại?",
+      "answer": "Nếu chăm sóc tưới tiêu và bón thúc hữu cơ đầy đủ sau mỗi lần cắt, bà con có thể thu 3–4 lứa/năm và duy trì ruộng gốc 2–3 năm. Sau đó năng suất và hàm lượng tinh dầu giảm dần, nên cày phá đi giâm hom lại từ ruộng giống sạch bệnh để làm mới, kết hợp luân canh cây khác giúp cắt vòng đời sâu bệnh trong đất."
+    },
+    {
+      "question": "Nên bán lá bạc hà khô hay đầu tư nồi chưng cất tinh dầu tại chỗ?",
+      "answer": "Chưng cất tinh dầu ngay tại ruộng hoặc hợp tác xã cho giá trị gia tăng cao nhất trên mỗi đơn vị diện tích vì tinh dầu menthol có giá tính bằng lít rất cao. Tuy nhiên cần đủ sản lượng và vốn đầu tư nồi lôi cuốn hơi nước. Với hộ quy mô nhỏ, bán lá khô đạt độ ẩm và hàm lượng chuẩn cho đầu mối thu mua vẫn là hướng an toàn, quay vòng vốn nhanh."
+    }
+  ]
+}

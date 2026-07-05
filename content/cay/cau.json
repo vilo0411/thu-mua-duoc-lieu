@@ -1,0 +1,150 @@
+{
+  "id": "cau",
+  "slug": "cau",
+  "name": "Cau",
+  "scientificName": "Areca catechu",
+  "otherNames": [
+    "Bình lang",
+    "Đại phúc bì"
+  ],
+  "group": "hoa-la",
+  "priceRange": "8.000 - 48.000 VNĐ/kg",
+  "shortDesc": "Cây cau cho hai vị dược liệu được thu mua: hạt cau (binh lang) và vỏ quả cau (đại phúc bì), mỗi loại một mức giá riêng.",
+  "image": "/images/cay/cau.jpg",
+  "description": "Cau là cây quen thuộc khắp làng quê Việt, cho hai vị dược liệu: hạt cau (binh lang) và vỏ quả cau (đại phúc bì). Mỗi bộ phận có tiêu chuẩn và giá thu mua riêng.",
+  "bioCharacteristics": "Hạt hình nón cụt hoặc hơi dẹt, dài khoảng 2 - 4 cm, đường kính khoảng 2 - 4 cm, bề mặt màu nâu nhạt xen lẫn các vân màu trắng cẩm thạch. Khi tươi hạt rất chắc, nhiều nước và có vị chát",
+  "usageValue": "Hạt cau (binh lang) sát trùng, tiêu tích; vỏ quả cau (đại phúc bì) hành khí, lợi thuỷ. Hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Hạt, vỏ quả"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "9 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "23°C - 33°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Hạt cau (binh lang) khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Hạt cau (binh lang).",
+      "priceRange": "25.000 - 44.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Hạt cau (binh lang) tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế, chưa qua sấy.",
+      "priceRange": "8.000 - 17.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Vỏ quả cau (đại phúc bì) khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Vỏ quả cau (đại phúc bì).",
+      "priceRange": "30.000 - 48.000",
+      "unit": "kg",
+      "trend": "up"
+    },
+    {
+      "grade": "Vỏ quả cau (đại phúc bì) tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế, chưa qua sấy.",
+      "priceRange": "10.000 - 16.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "bac-trung-bo",
+      "regionName": "Bắc Trung Bộ",
+      "provinces": [
+        "Nghệ An",
+        "Thanh Hóa"
+      ],
+      "outputEstimate": "1203 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "tay-bac",
+      "regionName": "Tây Bắc",
+      "provinces": [
+        "Sơn La"
+      ],
+      "outputEstimate": "553 tấn/năm",
+      "popularity": "phu"
+    },
+    {
+      "regionSlug": "dong-bac",
+      "regionName": "Đông Bắc",
+      "provinces": [
+        "Bắc Giang"
+      ],
+      "outputEstimate": "150 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Trồng quanh năm nơi chủ động tưới",
+    "soil": "Đất pha cát ven đồi, tầng canh tác dày",
+    "ph": "6.3 – 7.6",
+    "density": "21500 cây/ha",
+    "harvestTime": "9 tháng sau trồng",
+    "yield": "5 – 11 tấn khô/ha/năm",
+    "propagation": [
+      "gieo hạt",
+      "giâm cành"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-cau",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua cau",
+    "thu mua hạt cau binh lang",
+    "thu mua đại phúc bì",
+    "thu mua vỏ cau",
+    "giá dược liệu cau"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua những vị nào của cau?",
+      "answer": "Thu mua các vị: Bình lang, Đại phúc bì. Mỗi loại có mức giá và tiêu chuẩn riêng, nhu cầu tối thiểu 50 kg/tháng mỗi loại."
+    },
+    {
+      "question": "Tiêu chuẩn thu mua thế nào?",
+      "answer": "Hàng cần khô sạch, đúng phẩm cấp từng bộ phận, không mốc mối, không tồn dư thuốc bảo vệ thực vật. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Hạt cau (binh lang): Hạt hình nón cụt hoặc hơi dẹt, dài khoảng 2 - 4 cm, đường kính khoảng 2 - 4 cm, bề mặt màu nâu nhạt xen lẫn các vân màu trắng cẩm thạch. Khi tươi hạt rất chắc, nhiều nước và có vị chát Vỏ quả cau (đại phúc bì): Phần vỏ ngoài và vỏ giữa của quả cau chưa chín, vỏ quả màu xanh hoặc hơi vàng (nếu gần chín), thon dài, dài 5-8 cm, dày 0,3-0,7 cm, cứng và lõm cong, vị cay.",
+    "dry": "Hạt cau (binh lang): Khối cứng, hình trứng hoặc hình cầu dẹt, dài khoảng 1,5 cm đến 3,5 cm; đường kính khoảng 1,5 cm đến 3,5 cm. Mặt ngoài màu nâu vàng nhạt hoặc màu nâu đỏ nhạt với những nếp nhăn hình mạng lưới. Cắt ngang thấy vỏ hạt ăn sâu vào nội nhũ tạo thành những nếp màu nâu xen kẽ với màu trắng nhạt. Phôi nhỏ nằm ở đáy hạt. Vị chát và hơi đắng. Vỏ quả cau (đại phúc bì): Là vỏ quả cau chưa chín, bỏ vỏ ngoài. Vỏ quả cứng, lõm cong, dài 4 cm đến 7 cm, rộng 2 cm đến 3,5 cm, vỏ dày 0,2 cm đến 0,5 cm. Vỏ qủa trong  hình vỏ sò, màu nâu tới nâu sẫm, bóng mịn và cứng, chắc. Thể nhẹ, chất rắn, có thể xé theo chiều dọc. Khi xé dọc có thể thấy sợi vỏ quả giữa."
+  },
+  "demandQuantity": "50 kg/tháng mỗi loại",
+  "priorityLevel": "hot"
+}

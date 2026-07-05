@@ -11,7 +11,7 @@
   "group": "cu-re",
   "priceRange": "90.000 - 250.000 VNĐ/kg",
   "shortDesc": "Dây leo cuốn sống lâu năm, nổi tiếng với công dụng làm đen tóc, bổ huyết, đẹp da.",
-  "image": "https://images.unsplash.com/photo-1622219808011-8be9426f00db?q=80&w=600&auto=format&fit=crop",
+  "image": "/images/cay/ha-thu-o.jpg",
   "description": "Hà thủ ô đỏ là loại thảo dược mọc hoang rải rác khắp vùng núi phía Bắc và hiện nay đang được phát triển mạnh thành vùng trồng chuyên canh rộng lớn tại Hà Giang, Sơn La. Trồng Hà thủ ô đỏ đòi hỏi giàn leo vững chắc và thời gian từ 3 đến 5 năm để có chất lượng củ nặng nhất.",
   "bioCharacteristics": "Hà thủ ô đỏ là dây leo cuốn sống nhiều năm, thân mềm màu tím đỏ, lá hình tim mọc so le. Rễ phình thành củ lớn vỏ nâu đỏ, thịt hồng đỏ nhiều bột. Cây mọc hoang và trồng ở vùng núi mát ẩm, cần giàn leo chắc chắn và đất dốc nhiều mùn.",
   "usageValue": "Củ rễ là bộ phận thu mua chính, dùng chế biến (chưng với đậu đen) làm nguyên liệu bổ huyết, làm đen tóc trong y học cổ truyền. Củ lớn vỏ đỏ sẫm cho giá trị cao nhất.",
@@ -133,5 +133,11 @@
       "question": "Làm thế nào để phân biệt Hà thủ ô đỏ và Hà thủ ô trắng?",
       "answer": "Hà thủ ô đỏ có củ giống khoai lang, vỏ ngoài màu nâu đỏ sẫm, nhiều nếp nhăn sâu, bên trong màu đỏ hồng có nhiều bột. Hà thủ ô trắng củ dài dẹt hơn, vỏ màu xám sáng, khi cắt ra có nhựa mủ màu trắng chảy ra, vị rất chát và không có công dụng bổ huyết bằng hà thủ ô đỏ."
     }
-  ]
+  ],
+  "identification": {
+    "fresh": "Củ bề ngoài thô ráp, dài 8-18 cm, đường kính 6-14 cm. Lớp vỏ ngoài màu nâu đỏ, nhưng khi cắt ngang, Phần thịt củ có màu trắng ngà hay nâu nhạt, ở giữa có ít lõi gỗ. Củ hà thủ ô tươi khi nhai thử sẽ có vị chát, đắng và hơi ngọt nhẹ.",
+    "dry": "Rễ nguyên dạng củ tròn, củ dài hoặc hình thoi, không đều. Củ nhỏ để nguyên, củ to bổ đôi theo chiều dọc, hay chặt thành từng miếng, dài 6 – 15 cm, đường kính 4 – 12 cm. Mặt ngoài vỏ màu nâu đỏ, nâu hay nâu xám có những chỗ lồi lõm và các nếp nhăn. Chất cứng chắc, khó bẻ. Mặt cắt ngang có lớp bần mỏng, màu nâu sẫm; mô mềm vỏ màu đỏ hồng. Phần thịt củ có màu trắng ngà hay nâu nhạt; ở giữa có ít lõi gỗ. Mùi nhẹ, vị hơi đắng, hơi ngọt và chát."
+  },
+  "demandQuantity": "50 kg/tháng",
+  "priorityLevel": "hot"
 }

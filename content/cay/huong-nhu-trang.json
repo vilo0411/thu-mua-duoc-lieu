@@ -1,0 +1,119 @@
+{
+  "id": "huong-nhu-trang",
+  "slug": "huong-nhu-trang",
+  "name": "Hương nhu trắng",
+  "scientificName": "Ocimum gratissimum",
+  "otherNames": [],
+  "group": "hoa-la",
+  "priceRange": "8.000 - 62.000 VNĐ/kg",
+  "shortDesc": "Hương nhu trắng — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
+  "image": "/images/cay/huong-nhu-trang.jpg",
+  "description": "Hương nhu trắng hiện nằm trong danh mục dược liệu được bao tiêu thu mua thường xuyên, sản lượng cần tối thiểu 50 kg/tháng. Bà con trồng hoặc thu hái đạt chuẩn có thể kết nối bán hàng ổn định theo giá sàn công bố mỗi tuần.",
+  "bioCharacteristics": "Thân màu trắng xanh. cao khoảng 1,5 - 2,5 m. Toàn thân có màu trắng xanh hoặc xanh nhạt.",
+  "usageValue": "Toàn cây trên mặt đất của Hương nhu trắng được thu mua làm nguyên liệu bào chế cao, trà và thuốc y học cổ truyền; hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Toàn cây trên mặt đất"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "8 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "20°C - 32°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Toàn cây trên mặt đất khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Hương nhu trắng.",
+      "priceRange": "24.000 - 62.000",
+      "unit": "kg",
+      "trend": "down"
+    },
+    {
+      "grade": "Toàn cây trên mặt đất tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế/nấu cao, chưa qua sấy.",
+      "priceRange": "8.000 - 16.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "tay-bac",
+      "regionName": "Tây Bắc",
+      "provinces": [
+        "Sơn La",
+        "Lào Cai"
+      ],
+      "outputEstimate": "1112 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "bac-trung-bo",
+      "regionName": "Bắc Trung Bộ",
+      "provinces": [
+        "Nghệ An"
+      ],
+      "outputEstimate": "462 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Xuống giống đầu mùa mưa (tháng 4–6)",
+    "soil": "Đất đồi feralit thoát nước nhanh",
+    "ph": "5.2 – 6.5",
+    "density": "16000 cây/ha",
+    "harvestTime": "8 tháng sau trồng",
+    "yield": "4 – 8 tấn khô/ha/năm",
+    "propagation": [
+      "gieo hạt",
+      "giâm cành"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-huong-nhu-trang",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua hương nhu trắng",
+    "giá hương nhu trắng",
+    "bán hương nhu trắng khô",
+    "thu mua dược liệu hương nhu trắng"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua Hương nhu trắng với số lượng và tiêu chuẩn thế nào?",
+      "answer": "Nhu cầu tối thiểu 50 kg/tháng, hàng cần đạt các tiêu chí khô sạch, đúng phẩm cấp toàn cây trên mặt đất. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Thân màu trắng xanh. cao khoảng 1,5 - 2,5 m. Toàn thân có màu trắng xanh hoặc xanh nhạt.",
+    "dry": "Đoạn đầu thân và cành có thiết diện vuông, mặt ngoài màu xanh nhạt hay hơi trắng, có nhiều lông. Lá mọc đối chéo chữ thập, cuống dài 3 - 7 cm. Phiến lá hình trứng nhọn, mép có răng cưa, mặt trên màu xanh lục, mặt dưới màu nhạt hơn, phủ lông mịn, dài 8 - 14 cm, rộng 3 – 6 cm."
+  },
+  "demandQuantity": "50 kg/tháng",
+  "priorityLevel": "hot"
+}

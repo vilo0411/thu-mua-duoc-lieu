@@ -1,0 +1,52 @@
+{
+  "id": "ky-thuat-trong-nam-linh-chi",
+  "slug": "ky-thuat-trong-nam-linh-chi-nha-mang-vo-trung",
+  "herbSlug": "nam-linh-chi",
+  "herbName": "Nấm linh chi",
+  "title": "Cẩm nang Kỹ thuật nuôi trồng Nấm linh chi đỏ trên bịch phôi mùn cưa trong nhà màng vô trùng",
+  "intro": "Nấm linh chi đỏ cho giá trị kinh tế cao nhưng đòi hỏi quy trình nhà màng khép kín, vô trùng phôi giống và kiểm soát nhiệt ẩm nghiêm ngặt. Chuyên gia Nguyễn Việt Lộc tổng hợp quy trình nuôi trên bịch phôi mùn cưa cao su từ các hợp tác xã công nghệ cao, giúp thu quả thể hóa gỗ dày, còn nguyên lớp phấn bào tử quý đạt giá tối đa.",
+  "standards": [
+    {
+      "stage": "Phối trộn và đóng bịch phôi",
+      "criteria": "Giá thể chính là mùn cưa gỗ cao su đã ủ, bổ sung cám gạo, cám bắp và bột nhẹ, độ ẩm giá thể đạt khoảng 60–65%. Bịch phôi đóng chặt đều tay để không bị xẹp và nhiễm tạp.",
+      "controlMethod": "Ủ mùn cưa cho phân giải bớt nhựa và tạp chất, phối trộn đúng tỷ lệ dinh dưỡng, đóng bịch và nút cổ bông chuẩn trước khi đưa vào hấp thanh trùng."
+    },
+    {
+      "stage": "Thanh trùng và cấy meo vô trùng",
+      "criteria": "Bịch phôi phải được hấp thanh trùng triệt để để diệt sạch nấm mốc, vi khuẩn tạp. Cấy meo giống cấp trong phòng/tủ cấy vô trùng, thao tác nhanh gọn tránh nhiễm chéo.",
+      "controlMethod": "Hấp phôi ở nhiệt độ và thời gian đủ chuẩn, để nguội rồi cấy meo trong buồng cấy đã khử trùng; người cấy vệ sinh tay, dụng cụ hơ lửa cồn, hạn chế tối đa luồng gió mang bào tử tạp."
+    },
+    {
+      "stage": "Ươm sợi và kiểm soát nhà trồng",
+      "criteria": "Ủ bịch phôi nơi tối thoáng cho tơ nấm ăn kín trắng bịch, sau đó chuyển sang nhà trồng kích quả thể. Nhiệt độ lý tưởng 22–30°C, độ ẩm không khí 80–90%, ánh sáng khuếch tán nhẹ.",
+      "controlMethod": "Nhà màng khép kín có lưới chắn côn trùng, phun sương giữ ẩm và thông gió định kỳ; loại bỏ ngay bịch xuất hiện mốc xanh, mốc cam ra khỏi khu nuôi để tránh lây lan cả lô."
+    },
+    {
+      "stage": "Thu hái giữ nguyên lớp bào tử",
+      "criteria": "Thu khi tai nấm đã hóa gỗ hoàn toàn, viền trắng ngoài rìa chuyển hết sang nâu đỏ, đường kính trên 8cm. Lớp phấn bào tử nâu trên mặt tai là phần quý giá nhất, quyết định phẩm cấp.",
+      "controlMethod": "Cắt nhẹ nhàng sát chân nấm, thao tác khéo tránh làm bay lớp phấn bào tử; sấy khô ở nhiệt độ thấp đến giòn, không phun bất kỳ hóa chất diệt nấm nào khi quả thể đang phát triển."
+    }
+  ],
+  "pests": [
+    {
+      "pestName": "Nhện mạt hại tơ và quả thể non",
+      "symptoms": "Bề mặt bịch phôi và tai nấm non xuất hiện lớp bụi li ti di động, tơ nấm bị ăn lụi loang lổ, quả thể non chậm lớn hoặc thui chột, thường lây lan nhanh giữa các bịch kề nhau.",
+      "remedy": "Vệ sinh khử trùng nhà trồng triệt để giữa các lứa, cách ly và tiêu hủy bịch nhiễm nặng, lắp lưới chắn và dùng bẫy dính, giữ nền nhà khô ráo sạch tàn dư giá thể."
+    },
+    {
+      "pestName": "Vi khuẩn gây nhũn, thối tai nấm",
+      "symptoms": "Tai nấm xuất hiện vết nhũn ướt màu nâu vàng, có mùi hôi khó chịu, lan rộng làm hỏng quả thể, thường bùng phát khi độ ẩm quá cao và nhà trồng bí gió.",
+      "remedy": "Giảm phun sương và tăng thông gió để hạ ẩm bề mặt, loại bỏ ngay tai nấm bệnh, khử trùng dụng cụ và không tưới nước đọng trực tiếp lên mặt tai nấm."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Vì sao lớp phấn bào tử bám trên mặt tai nấm lại quyết định giá bán, và thu hái thế nào để giữ được?",
+      "answer": "Lớp phấn mỏng màu nâu trên bề mặt chính là bào tử linh chi, có hàm lượng polysaccharide và triterpenoid cao gấp nhiều lần bản thân tai nấm nên hàng còn nguyên phấn đạt phẩm cấp thượng hạng, giá cao nhất. Muốn giữ được, phải thu đúng lúc tai vừa hóa gỗ, cắt và di chuyển thật nhẹ tay, sấy khô cẩn thận; thu muộn hoặc va chạm mạnh làm rụng bào tử sẽ tụt xuống loại B."
+    },
+    {
+      "question": "Nuôi một lứa linh chi mất bao lâu và khâu nào dễ thất bại nhất?",
+      "answer": "Từ khi cấy phôi đến khi thu quả thể mất khoảng 3–4 tháng, mỗi bịch cho 25–35g nấm khô. Khâu dễ thất bại và gây thiệt hại lớn nhất là nhiễm mốc xanh, mốc cam do thanh trùng phôi chưa triệt để hoặc cấy meo không vô trùng, khiến cả lô phôi hỏng không ra nấm. Vì vậy đầu tư đúng vào hấp thanh trùng, buồng cấy sạch và nhà màng kiểm soát nhiệt ẩm là yếu tố sống còn."
+    }
+  ]
+}

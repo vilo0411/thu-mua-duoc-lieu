@@ -1,0 +1,119 @@
+{
+  "id": "duong-quy-n",
+  "slug": "duong-quy-n",
+  "name": "Đương quy N",
+  "scientificName": "",
+  "otherNames": [],
+  "group": "hoa-la",
+  "priceRange": "7.000 - 48.000 VNĐ/kg",
+  "shortDesc": "Đương quy N — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
+  "image": "/images/cay/duong-quy-n.jpg",
+  "description": "Đương quy N hiện nằm trong danh mục dược liệu được bao tiêu thu mua thường xuyên, sản lượng cần tối thiểu 50 kg/tháng. Bà con trồng hoặc thu hái đạt chuẩn có thể kết nối bán hàng ổn định theo giá sàn công bố mỗi tuần.",
+  "bioCharacteristics": "Rễ củ to, dài 15 - 25 cm, đường kính 3-5 cm trở lên, có nhiều rễ nhánh dài 20-25 cm, đường kính 0,3-0,5 cm trở lên.",
+  "usageValue": "Toàn cây trên mặt đất của Đương quy N được thu mua làm nguyên liệu bào chế cao, trà và thuốc y học cổ truyền; hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Toàn cây trên mặt đất"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "6 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "22°C - 30°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Toàn cây trên mặt đất khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Đương quy N.",
+      "priceRange": "22.000 - 48.000",
+      "unit": "kg",
+      "trend": "up"
+    },
+    {
+      "grade": "Toàn cây trên mặt đất tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế/nấu cao, chưa qua sấy.",
+      "priceRange": "7.000 - 13.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "tay-nguyen",
+      "regionName": "Tây Nguyên",
+      "provinces": [
+        "Lâm Đồng",
+        "Đắk Lắk"
+      ],
+      "outputEstimate": "330 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "bac-trung-bo",
+      "regionName": "Bắc Trung Bộ",
+      "provinces": [
+        "Nghệ An"
+      ],
+      "outputEstimate": "180 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Gieo trồng đầu xuân khi ẩm độ cao",
+    "soil": "Đất thịt nhẹ pha cát, tơi xốp, thoát nước tốt",
+    "ph": "5.3 – 6.6",
+    "density": "25000 cây/ha",
+    "harvestTime": "6 tháng sau trồng",
+    "yield": "2 – 10 tấn khô/ha/năm",
+    "propagation": [
+      "gieo hạt",
+      "giâm cành"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-duong-quy-n",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua đương quy n",
+    "giá đương quy n",
+    "bán đương quy n khô",
+    "thu mua dược liệu đương quy n"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua Đương quy N với số lượng và tiêu chuẩn thế nào?",
+      "answer": "Nhu cầu tối thiểu 50 kg/tháng, hàng cần đạt các tiêu chí khô sạch, đúng phẩm cấp toàn cây trên mặt đất. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Rễ củ to, dài 15 - 25 cm, đường kính 3-5 cm trở lên, có nhiều rễ nhánh dài 20-25 cm, đường kính 0,3-0,5 cm trở lên.",
+    "dry": "Rễ chính ngắn và mập, dài 10 - 20 cm, đường kính 2 cm trở lên, có nhiều rễ nhánh dài 15 – 20 cm. Mặt ngoài màu nâu tối, có nhiều nếp nhăn dọc, nhiều sẹo lồi nằm ngang là vết tích của rễ con. Mặt cắt ngang màu trắng ngà có vân tròn và nhiều điểm tinh dầu. Mùi thơm hơi hắc, vị ngọt nhẹ, sau hơi cay nóng."
+  },
+  "demandQuantity": "50 kg/tháng",
+  "priorityLevel": "hot"
+}

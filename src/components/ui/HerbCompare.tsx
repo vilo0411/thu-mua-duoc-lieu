@@ -1,5 +1,5 @@
 import React from "react";
-import { GitCompare, X } from "lucide-react";
+import { GitCompare, X, Plus, Search } from "lucide-react";
 import type { HerbalMedicine, HerbGroup } from "../../types";
 
 const GROUP_LABEL: Record<HerbGroup, string> = {
@@ -27,6 +27,78 @@ const ROWS: Row[] = [
   { label: "Số vùng trồng chính", get: (h) => `${h.regions.length} vùng` },
 ];
 
+interface HerbComboboxProps {
+  herbs: HerbalMedicine[];
+  selected: string[];
+  onAdd: (slug: string) => void;
+}
+
+/** Ô tìm kiếm + chọn 1 cây để thêm vào bảng so sánh. Thay cho dãy chip để scale khi có nhiều cây. */
+const HerbCombobox: React.FC<HerbComboboxProps> = ({ herbs, selected, onAdd }) => {
+  const [open, setOpen] = React.useState(false);
+  const [q, setQ] = React.useState("");
+  const boxRef = React.useRef<HTMLDivElement>(null);
+
+  React.useEffect(() => {
+    if (!open) return;
+    const onDown = (e: MouseEvent) => {
+      if (boxRef.current && !boxRef.current.contains(e.target as Node)) setOpen(false);
+    };
+    document.addEventListener("mousedown", onDown);
+    return () => document.removeEventListener("mousedown", onDown);
+  }, [open]);
+
+  const term = q.trim().toLowerCase();
+  const options = herbs.filter(
+    (h) => !selected.includes(h.slug) && (!term || h.name.toLowerCase().includes(term)),
+  );
+
+  const pick = (slug: string) => {
+    onAdd(slug);
+    setQ("");
+    setOpen(false);
+  };
+
+  return (
+    <div ref={boxRef} className="relative w-full max-w-xs">
+      <div className="flex items-center gap-2 px-3.5 py-2.5 rounded-full border border-[#E6DDD0] bg-white focus-within:border-[#B85037] transition-colors">
+        <Search className="w-4 h-4 text-[#B0A695] shrink-0" />
+        <input
+          type="text"
+          value={q}
+          onChange={(e) => {
+            setQ(e.target.value);
+            setOpen(true);
+          }}
+          onFocus={() => setOpen(true)}
+          placeholder={`Tìm & thêm cây (còn ${MAX - selected.length})`}
+          className="w-full bg-transparent text-sm font-sans text-[#4F433A] placeholder:text-[#B0A695] focus:outline-none"
+        />
+      </div>
+      {open && (
+        <ul className="absolute z-20 mt-1.5 w-full max-h-64 overflow-y-auto rounded-2xl border border-[#E6DDD0] bg-white shadow-lg py-1.5 animate-fade-in">
+          {options.length === 0 ? (
+            <li className="px-4 py-2.5 text-sm text-gray-400 italic font-sans">Không tìm thấy cây phù hợp</li>
+          ) : (
+            options.map((h) => (
+              <li key={h.slug}>
+                <button
+                  type="button"
+                  onClick={() => pick(h.slug)}
+                  className="w-full flex items-center justify-between gap-3 px-4 py-2.5 text-left text-sm font-sans text-[#4F433A] hover:bg-[#FAF6F0] cursor-pointer"
+                >
+                  <span className="font-semibold">{h.name}</span>
+                  <span className="text-xs text-[#B0A695]">{GROUP_LABEL[h.group]}</span>
+                </button>
+              </li>
+            ))
+          )}
+        </ul>
+      )}
+    </div>
+  );
+};
+
 interface HerbCompareProps {
   herbs: HerbalMedicine[];
   onPickHerb?: (slug: string) => void;
@@ -36,42 +108,34 @@ interface HerbCompareProps {
 export const HerbCompare: React.FC<HerbCompareProps> = ({ herbs, onPickHerb }) => {
   const [selected, setSelected] = React.useState<string[]>([herbs[0]?.slug, herbs[1]?.slug].filter(Boolean));
 
-  const toggle = (slug: string) => {
-    setSelected((prev) => {
-      if (prev.includes(slug)) return prev.filter((s) => s !== slug);
-      if (prev.length >= MAX) return prev;
-      return [...prev, slug];
-    });
+  const add = (slug: string) => {
+    setSelected((prev) => (prev.includes(slug) || prev.length >= MAX ? prev : [...prev, slug]));
   };
+  const remove = (slug: string) => setSelected((prev) => prev.filter((s) => s !== slug));
 
   const chosen = selected.map((s) => herbs.find((h) => h.slug === s)).filter(Boolean) as HerbalMedicine[];
 
   return (
     <div className="space-y-4">
-      {/* Chọn cây */}
-      <div className="flex flex-wrap gap-2">
-        {herbs.map((h) => {
-          const on = selected.includes(h.slug);
-          const full = selected.length >= MAX && !on;
-          return (
+      {/* Cây đã chọn + ô thêm */}
+      <div className="flex flex-wrap items-center gap-2">
+        {chosen.map((h) => (
+          <span
+            key={h.slug}
+            className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full border border-[#B85037] bg-[#B85037] text-white text-sm font-sans font-semibold"
+          >
+            {h.name}
             <button
-              key={h.slug}
               type="button"
-              onClick={() => toggle(h.slug)}
-              disabled={full}
-              className={`inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full border text-sm font-sans font-semibold transition-colors ${
-                on
-                  ? "bg-[#B85037] border-[#B85037] text-white"
-                  : full
-                    ? "bg-gray-50 border-[#E6DDD0] text-gray-300 cursor-not-allowed"
-                    : "bg-white border-[#E6DDD0] text-[#4F433A] hover:border-[#B85037] cursor-pointer"
-              }`}
+              onClick={() => remove(h.slug)}
+              aria-label={`Bỏ ${h.name}`}
+              className="cursor-pointer hover:opacity-80"
             >
-              {h.name}
-              {on && <X className="w-3.5 h-3.5" />}
+              <X className="w-3.5 h-3.5" />
             </button>
-          );
-        })}
+          </span>
+        ))}
+        {selected.length < MAX && <HerbCombobox herbs={herbs} selected={selected} onAdd={add} />}
       </div>
 
       {chosen.length < 2 ? (

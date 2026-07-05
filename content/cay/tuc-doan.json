@@ -1,0 +1,119 @@
+{
+  "id": "tuc-doan",
+  "slug": "tuc-doan",
+  "name": "Tục đoạn",
+  "scientificName": "Dipsacus asper",
+  "otherNames": [],
+  "group": "hoa-la",
+  "priceRange": "9.000 - 65.000 VNĐ/kg",
+  "shortDesc": "Tục đoạn — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
+  "image": "/images/cay/tuc-doan.jpg",
+  "description": "Tục đoạn hiện nằm trong danh mục dược liệu được bao tiêu thu mua thường xuyên, sản lượng cần tối thiểu 50 kg/tháng. Bà con trồng hoặc thu hái đạt chuẩn có thể kết nối bán hàng ổn định theo giá sàn công bố mỗi tuần.",
+  "bioCharacteristics": "Rễ có hình trụ hoặc hơi uốn cong. Phần đầu trên phình to, phía dưới thuôn nhỏ dần, chiều dài rễ thường dao động từ 8 cm đến 20 cm; đường kính phần củ to nhất khoảng từ 0,4 cm đến 1 cm. Vỏ ngoài có nhiều nếp nhăn, nhiều rãnh dọc và các lỗ bì nhỏ nằm ngang. Rễ khá dẻo dai và chắc chắn khi còn tươi.",
+  "usageValue": "Toàn cây trên mặt đất của Tục đoạn được thu mua làm nguyên liệu bào chế cao, trà và thuốc y học cổ truyền; hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Toàn cây trên mặt đất"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "8 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "20°C - 34°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Toàn cây trên mặt đất khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Tục đoạn.",
+      "priceRange": "29.000 - 65.000",
+      "unit": "kg",
+      "trend": "down"
+    },
+    {
+      "grade": "Toàn cây trên mặt đất tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế/nấu cao, chưa qua sấy.",
+      "priceRange": "9.000 - 19.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "tay-bac",
+      "regionName": "Tây Bắc",
+      "provinces": [
+        "Sơn La",
+        "Lào Cai"
+      ],
+      "outputEstimate": "472 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "tay-nguyen",
+      "regionName": "Tây Nguyên",
+      "provinces": [
+        "Lâm Đồng"
+      ],
+      "outputEstimate": "322 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Xuống giống đầu mùa mưa (tháng 4–6)",
+    "soil": "Đất thịt nhẹ pha cát, tơi xốp, thoát nước tốt",
+    "ph": "5.1 – 6.4",
+    "density": "16000 cây/ha",
+    "harvestTime": "8 tháng sau trồng",
+    "yield": "6 – 8 tấn khô/ha/năm",
+    "propagation": [
+      "gieo hạt",
+      "giâm cành"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-tuc-doan",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua tục đoạn",
+    "giá tục đoạn",
+    "bán tục đoạn khô",
+    "thu mua dược liệu tục đoạn"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua Tục đoạn với số lượng và tiêu chuẩn thế nào?",
+      "answer": "Nhu cầu tối thiểu 50 kg/tháng, hàng cần đạt các tiêu chí khô sạch, đúng phẩm cấp toàn cây trên mặt đất. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Rễ có hình trụ hoặc hơi uốn cong. Phần đầu trên phình to, phía dưới thuôn nhỏ dần, chiều dài rễ thường dao động từ 8 cm đến 20 cm; đường kính phần củ to nhất khoảng từ 0,4 cm đến 1 cm. Vỏ ngoài có nhiều nếp nhăn, nhiều rãnh dọc và các lỗ bì nhỏ nằm ngang. Rễ khá dẻo dai và chắc chắn khi còn tươi.",
+    "dry": "Rễ hình trụ, hơi cong queo, đầu trên to, đầu dưới thuôn nhỏ dần, dài 8 - 20 cm, đường kính 0,4 - 1 cm. Mặt ngoài màu nâu nhạt đến nâu xám, có nhiều nếp nhăn và rãnh dọc, có nhiều lỗ bì nằm ngang và những đoạn rễ con còn sót lại. Dễ bẻ gãy, mặt bẻ lởm chởm. Mặt cắt ngang có lớp bần mỏng, tầng sinh libe-gỗ màu nâu, bó libe-gỗ màu nâu nhạt, sắp xếp thành tia toả ra.\nTục đoạn thái lát: Các lát mỏng hình tròn hoặc hình bầu dục. Bên ngoài màu nâu xám, nhiều nếp nhăn dọc. Trên bề mặt lát: phần vỏ có màu lục sẫm hoặc màu nâu, gỗ có màu vàng xám hoặc nâu vàng, các bó mạch xếp thành đường xuyên tâm, tầng phát sinh thành vòng màu sẫm. Mùi nhẹ, vị đắng hơi ngọt và se."
+  },
+  "demandQuantity": "50 kg/tháng",
+  "priorityLevel": "hot"
+}

@@ -1,0 +1,119 @@
+{
+  "id": "truc-diep",
+  "slug": "truc-diep",
+  "name": "Trúc diệp",
+  "scientificName": "Lophatherum gracile",
+  "otherNames": [],
+  "group": "hoa-la",
+  "priceRange": "10.000 - 51.000 VNĐ/kg",
+  "shortDesc": "Trúc diệp — dược liệu đang được thu mua, thu lá, nhu cầu 50 kg/tháng.",
+  "image": "/images/cay/truc-diep.jpg",
+  "description": "Trúc diệp hiện nằm trong danh mục dược liệu được bao tiêu thu mua thường xuyên, sản lượng cần tối thiểu 50 kg/tháng. Bà con trồng hoặc thu hái đạt chuẩn có thể kết nối bán hàng ổn định theo giá sàn công bố mỗi tuần.",
+  "bioCharacteristics": "Trúc diệp tươi lá mềm, mọc so le, phiến lá thuôn dài hình mũi mác, chóp lá nhọn.  Mặt trên màu lục sẫm, mặt dưới nhạt hơn. Khi vò nát có mùi thơm nhẹ, vị hơi đắng hoặc ngọt nhạt.",
+  "usageValue": "Lá của Trúc diệp được thu mua làm nguyên liệu bào chế cao, trà và thuốc y học cổ truyền; hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Lá"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "11 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "23°C - 31°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Lá khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Trúc diệp.",
+      "priceRange": "32.000 - 51.000",
+      "unit": "kg",
+      "trend": "up"
+    },
+    {
+      "grade": "Lá tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế/nấu cao, chưa qua sấy.",
+      "priceRange": "10.000 - 17.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "bac-trung-bo",
+      "regionName": "Bắc Trung Bộ",
+      "provinces": [
+        "Nghệ An",
+        "Thanh Hóa"
+      ],
+      "outputEstimate": "895 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "dong-bac",
+      "regionName": "Đông Bắc",
+      "provinces": [
+        "Bắc Giang"
+      ],
+      "outputEstimate": "245 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Trồng quanh năm nơi chủ động tưới",
+    "soil": "Đất đồi feralit thoát nước nhanh",
+    "ph": "6.1 – 7.4",
+    "density": "27500 cây/ha",
+    "harvestTime": "11 tháng sau trồng",
+    "yield": "3 – 7 tấn khô/ha/năm",
+    "propagation": [
+      "gieo hạt",
+      "giâm cành"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-truc-diep",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua trúc diệp",
+    "giá trúc diệp",
+    "bán trúc diệp khô",
+    "thu mua dược liệu trúc diệp"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua Trúc diệp với số lượng và tiêu chuẩn thế nào?",
+      "answer": "Nhu cầu tối thiểu 50 kg/tháng, hàng cần đạt các tiêu chí khô sạch, đúng phẩm cấp lá. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Trúc diệp tươi lá mềm, mọc so le, phiến lá thuôn dài hình mũi mác, chóp lá nhọn.  Mặt trên màu lục sẫm, mặt dưới nhạt hơn. Khi vò nát có mùi thơm nhẹ, vị hơi đắng hoặc ngọt nhạt.",
+    "dry": "Có màu xanh xám, xanh lục nhạt hoặc vàng úa. Lá phẳng hoặc hơi cuộn lại, hình mác dài nhọn (giống lá tre hoặc lá lúa lớn). Có nhiều gân dọc song song nổi rõ ở mặt dưới lá và gân ngang chằng chịt tạo thành hình ô vuông nhỏ.  Mùi thơm nhẹ đặc trưng của lá khô, khi nếm có vị nhạt, hơi ngọt hoặc hơi đắng tùy loại."
+  },
+  "demandQuantity": "50 kg/tháng",
+  "priorityLevel": "hot"
+}

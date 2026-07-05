@@ -1,0 +1,121 @@
+{
+  "id": "ban-ha-nam",
+  "slug": "ban-ha-nam",
+  "name": "Bán hạ nam",
+  "scientificName": "Typhonium trilobatum",
+  "otherNames": [
+    "Củ chóc"
+  ],
+  "group": "cu-re",
+  "priceRange": "19.000 - 90.000 VNĐ/kg",
+  "shortDesc": "Bán hạ nam — dược liệu đang được thu mua, thu củ, thân rễ, nhu cầu 50 kg/tháng.",
+  "image": "/images/cay/ban-ha-nam.jpg",
+  "description": "Bán hạ nam hiện nằm trong danh mục dược liệu được bao tiêu thu mua thường xuyên, sản lượng cần tối thiểu 50 kg/tháng. Bà con trồng hoặc thu hái đạt chuẩn có thể kết nối bán hàng ổn định theo giá sàn công bố mỗi tuần.",
+  "bioCharacteristics": "Củ có dạng hình cầu, đường kính từ 1 đến 2 cm. Vỏ ngoài mỏng, màu vàng nhạt hoặc trắng ngà. Bên trong đặc, màu trắng đục, chứa nhiều nhớt và tinh bột.",
+  "usageValue": "Củ, thân rễ của Bán hạ nam được thu mua làm nguyên liệu bào chế cao, trà và thuốc y học cổ truyền; hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Củ, thân rễ"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "14 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "20°C - 34°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Củ, thân rễ khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Bán hạ nam.",
+      "priceRange": "58.000 - 90.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Củ, thân rễ tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế/nấu cao, chưa qua sấy.",
+      "priceRange": "19.000 - 29.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "tay-bac",
+      "regionName": "Tây Bắc",
+      "provinces": [
+        "Sơn La",
+        "Lào Cai"
+      ],
+      "outputEstimate": "688 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "tay-nguyen",
+      "regionName": "Tây Nguyên",
+      "provinces": [
+        "Lâm Đồng"
+      ],
+      "outputEstimate": "538 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Xuống giống đầu mùa mưa (tháng 4–6)",
+    "soil": "Đất đồi feralit thoát nước nhanh",
+    "ph": "5.1 – 6.4",
+    "density": "24000 cây/ha",
+    "harvestTime": "14 tháng sau trồng",
+    "yield": "6 – 8 tấn khô/ha/năm",
+    "propagation": [
+      "ươm hạt",
+      "tách mầm củ"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-ban-ha-nam",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua bán hạ nam",
+    "giá bán hạ nam",
+    "bán bán hạ nam khô",
+    "thu mua dược liệu bán hạ nam"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua Bán hạ nam với số lượng và tiêu chuẩn thế nào?",
+      "answer": "Nhu cầu tối thiểu 50 kg/tháng, hàng cần đạt các tiêu chí khô sạch, đúng phẩm cấp củ, thân rễ. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Củ có dạng hình cầu, đường kính từ 1 đến 2 cm. Vỏ ngoài mỏng, màu vàng nhạt hoặc trắng ngà. Bên trong đặc, màu trắng đục, chứa nhiều nhớt và tinh bột.",
+    "dry": "Phiến có hình nón, hình trứng, hình bầu dục dài, đường kính thường là 0,5 cm đến 3 cm, ít khi đến 4 cm; dày 0,1 cm đến 0,3 cm; màu trắng đục, trắng ngà hay vàng nhạt. Xung quanh phiến còn ít vỏ mỏng và vết tích sẹo của rễ con. Thể chất chắc, khô cứng, giòn, dễ bẻ gẫy. Vị nhạt, gây tê lưỡi, ngứa."
+  },
+  "demandQuantity": "50 kg/tháng",
+  "priorityLevel": "hot"
+}

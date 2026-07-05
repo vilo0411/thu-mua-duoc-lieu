@@ -1,0 +1,151 @@
+{
+  "id": "chi",
+  "slug": "chi",
+  "name": "Chỉ thực – Chỉ xác",
+  "scientificName": "Citrus aurantium",
+  "otherNames": [
+    "Chỉ thực",
+    "Chỉ xác"
+  ],
+  "group": "hoa-la",
+  "priceRange": "8.000 - 63.000 VNĐ/kg",
+  "shortDesc": "Quả cam đắng cho hai vị dược liệu theo độ chín: chỉ thực (quả non) và chỉ xác (quả gần chín), mỗi loại một mức giá riêng.",
+  "image": "/images/cay/chi.jpg",
+  "description": "Chỉ thực và chỉ xác đều là quả cây cam đắng (Citrus aurantium), phân biệt theo độ chín khi thu hái: chỉ thực là quả còn non, chỉ xác là quả đã gần chín bổ đôi phơi khô. Mỗi vị có công dụng và giá thu mua riêng.",
+  "bioCharacteristics": "Quả non của cây thuộc họ Cam (cây Chanh, Quất) thu hái khi quả còn rất nhỏ, chưa chín, đường kính 1-3 cm, vị rất đắng và mùi thơm nồng của tinh dầu",
+  "usageValue": "Chỉ thực phá khí, tiêu tích mạnh; chỉ xác lý khí, khoan trung nhẹ hơn. Hàng đạt chuẩn khô sạch, đúng độ chín cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Quả (non và gần chín)"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "13 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "21°C - 35°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Chỉ thực (quả non) khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Chỉ thực (quả non).",
+      "priceRange": "24.000 - 63.000",
+      "unit": "kg",
+      "trend": "down"
+    },
+    {
+      "grade": "Chỉ thực (quả non) tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế, chưa qua sấy.",
+      "priceRange": "8.000 - 19.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Chỉ xác (quả gần chín) khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Chỉ xác (quả gần chín).",
+      "priceRange": "24.000 - 43.000",
+      "unit": "kg",
+      "trend": "down"
+    },
+    {
+      "grade": "Chỉ xác (quả gần chín) tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế, chưa qua sấy.",
+      "priceRange": "8.000 - 19.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "dong-bac",
+      "regionName": "Đông Bắc",
+      "provinces": [
+        "Bắc Giang",
+        "Cao Bằng"
+      ],
+      "outputEstimate": "497 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "tay-bac",
+      "regionName": "Tây Bắc",
+      "provinces": [
+        "Sơn La"
+      ],
+      "outputEstimate": "347 tấn/năm",
+      "popularity": "phu"
+    },
+    {
+      "regionSlug": "bac-trung-bo",
+      "regionName": "Bắc Trung Bộ",
+      "provinces": [
+        "Nghệ An",
+        "Thanh Hóa"
+      ],
+      "outputEstimate": "587 tấn/năm",
+      "popularity": "chinh"
+    }
+  ],
+  "technique": {
+    "season": "Trồng vụ xuân (tháng 2–3) hoặc thu (tháng 8–9)",
+    "soil": "Đất đồi feralit thoát nước nhanh",
+    "ph": "6.8 – 7.2",
+    "density": "28500 cây/ha",
+    "harvestTime": "13 tháng sau trồng",
+    "yield": "7 – 9 tấn khô/ha/năm",
+    "propagation": [
+      "gieo hạt",
+      "giâm cành"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-chi",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua chỉ thực",
+    "thu mua chỉ xác",
+    "giá chỉ thực chỉ xác",
+    "thu mua quả cam đắng",
+    "thu mua dược liệu chỉ xác"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua những vị nào của chỉ thực?",
+      "answer": "Thu mua các vị: Chỉ thực, Chỉ xác. Mỗi loại có mức giá và tiêu chuẩn riêng, nhu cầu tối thiểu 50 kg/tháng mỗi loại."
+    },
+    {
+      "question": "Tiêu chuẩn thu mua thế nào?",
+      "answer": "Hàng cần khô sạch, đúng phẩm cấp từng bộ phận, không mốc mối, không tồn dư thuốc bảo vệ thực vật. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Chỉ thực (quả non): Quả non của cây thuộc họ Cam (cây Chanh, Quất) thu hái khi quả còn rất nhỏ, chưa chín, đường kính 1-3 cm, vị rất đắng và mùi thơm nồng của tinh dầu Chỉ xác (quả gần chín): Quả gần chín (quả bánh tẻ) của cây cam chua hoặc cây chanh. Hình cầu hoặc hơi dẹt, đường kính 4-6cm, vỏ ngoài màu xanh sẫm đến vàng lục, sần sùi với các túi tinh dầu. Lõi quả chứa nhiều múi và hạt, khi ăn có vị đắng, chua, the và tỏa mùi thơm nồng.",
+    "dry": "Chỉ thực (quả non): Hình bán cầu, một số có hình cầu, đường kính 0,5 - 2,5 cm. Vỏ ngoài màu lục đen hoặc màu lục nâu thẫm. Trên mặt vỏ quả giữa hơi phồng lên, màu trắng vàng hoặc nâu vàng, dày 0,3 - 1,2 cm, có 1 - 2 hàng túi tinh dầu ở phần ngoài. Vỏ quả trong và múi quả màu nâu. Chất cứng. Mùi thơm mát, vị đắng, hơi chua. Chỉ xác (quả gần chín): Hình bán cầu, đường kính 3 - 5 cm, vỏ quả ngoài màu nâu hoặc nâu thẫm. Mặt cắt lớp vỏ quả giữa màu trắng vàng, nhẵn, hơi nhô lên, dày 0,4 -1,3 cm, có 1 - 2 hàng các túi tinh dầu ở phần ngoài vỏ quả ngoài. Chất cứng, rắn, khó bẻ gẫy. Ruột quả có từ 7 - 12 múi, một số ít quả có tới 15 -16 múi. Múi khô, nhăn nheo, có màu từ nâu đến nâu thẫm, trong có hạt. Mùi thơm, vị đắng, hơi chua."
+  },
+  "demandQuantity": "50 kg/tháng mỗi loại",
+  "priorityLevel": "hot"
+}

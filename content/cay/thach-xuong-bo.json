@@ -1,0 +1,119 @@
+{
+  "id": "thach-xuong-bo",
+  "slug": "thach-xuong-bo",
+  "name": "Thạch xương bồ",
+  "scientificName": "Acorus tatarinowii",
+  "otherNames": [],
+  "group": "hoa-la",
+  "priceRange": "7.000 - 56.000 VNĐ/kg",
+  "shortDesc": "Thạch xương bồ — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
+  "image": "/images/cay/thach-xuong-bo.jpg",
+  "description": "Thạch xương bồ hiện nằm trong danh mục dược liệu được bao tiêu thu mua thường xuyên, sản lượng cần tối thiểu 50 kg/tháng. Bà con trồng hoặc thu hái đạt chuẩn có thể kết nối bán hàng ổn định theo giá sàn công bố mỗi tuần.",
+  "bioCharacteristics": "Thân rễ to khoảng 5 - 8mm, mọc bò ngang, phần nhánh bò ngang dài từ 5 - 30 cm, phân nhiều nhánh và nhiều đốt.",
+  "usageValue": "Toàn cây trên mặt đất của Thạch xương bồ được thu mua làm nguyên liệu bào chế cao, trà và thuốc y học cổ truyền; hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Toàn cây trên mặt đất"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "6 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "22°C - 30°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Toàn cây trên mặt đất khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Thạch xương bồ.",
+      "priceRange": "22.000 - 56.000",
+      "unit": "kg",
+      "trend": "up"
+    },
+    {
+      "grade": "Toàn cây trên mặt đất tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế/nấu cao, chưa qua sấy.",
+      "priceRange": "7.000 - 13.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "tay-nguyen",
+      "regionName": "Tây Nguyên",
+      "provinces": [
+        "Lâm Đồng",
+        "Đắk Lắk"
+      ],
+      "outputEstimate": "690 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "bac-trung-bo",
+      "regionName": "Bắc Trung Bộ",
+      "provinces": [
+        "Nghệ An"
+      ],
+      "outputEstimate": "540 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Gieo trồng đầu xuân khi ẩm độ cao",
+    "soil": "Đất thịt nhẹ pha cát, tơi xốp, thoát nước tốt",
+    "ph": "5.3 – 6.6",
+    "density": "25000 cây/ha",
+    "harvestTime": "6 tháng sau trồng",
+    "yield": "2 – 10 tấn khô/ha/năm",
+    "propagation": [
+      "gieo hạt",
+      "giâm cành"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-thach-xuong-bo",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua thạch xương bồ",
+    "giá thạch xương bồ",
+    "bán thạch xương bồ khô",
+    "thu mua dược liệu thạch xương bồ"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua Thạch xương bồ với số lượng và tiêu chuẩn thế nào?",
+      "answer": "Nhu cầu tối thiểu 50 kg/tháng, hàng cần đạt các tiêu chí khô sạch, đúng phẩm cấp toàn cây trên mặt đất. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Thân rễ to khoảng 5 - 8mm, mọc bò ngang, phần nhánh bò ngang dài từ 5 - 30 cm, phân nhiều nhánh và nhiều đốt.",
+    "dry": "Thân rễ hình trụ dẹt, thường khúc khuỷu và phân nhánh, đường kính 0,3-1cm, có nhiều đốt ngắn. Mặt ngoài màu nâu đỏ hoặc xám, xù xì, mặt dưới mang các sợi rễ còn sót lại trên bề mặt hoặc các sẹo rễ hình tròn. Mỗi đốt dài 2-8 mm với các vết nhăn dọc, phần tiếp giáp giữa các đốt mang các mảng dạng sợi  mảnh là vết tích của bẹ lá đã bị khô và mủn đi. Thể chất cứng, vết bẻ có nhiều xơ."
+  },
+  "demandQuantity": "50 kg/tháng",
+  "priorityLevel": "hot"
+}

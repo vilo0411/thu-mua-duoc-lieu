@@ -1,0 +1,121 @@
+{
+  "id": "ngai-diep",
+  "slug": "ngai-diep",
+  "name": "Ngải diệp",
+  "scientificName": "",
+  "otherNames": [
+    "Ngải cứu"
+  ],
+  "group": "hoa-la",
+  "priceRange": "8.000 - 57.000 VNĐ/kg",
+  "shortDesc": "Ngải diệp — dược liệu đang được thu mua, thu lá, nhu cầu 50 kg/tháng.",
+  "image": "/images/cay/ngai-diep.jpg",
+  "description": "Ngải diệp hiện nằm trong danh mục dược liệu được bao tiêu thu mua thường xuyên, sản lượng cần tối thiểu 50 kg/tháng. Bà con trồng hoặc thu hái đạt chuẩn có thể kết nối bán hàng ổn định theo giá sàn công bố mỗi tuần.",
+  "bioCharacteristics": "Ngọn ngải cứu tươi dài 30 - 40 cm, hai mặt lá có màu sắc khác biệt rõ rệt (mặt trên xanh đậm, mặt dưới trắng bạc phủ đầy lông mịn).",
+  "usageValue": "Lá của Ngải diệp được thu mua làm nguyên liệu bào chế cao, trà và thuốc y học cổ truyền; hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Lá"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "14 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "20°C - 30°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Lá khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Ngải diệp.",
+      "priceRange": "25.000 - 57.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Lá tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế/nấu cao, chưa qua sấy.",
+      "priceRange": "8.000 - 14.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "tay-bac",
+      "regionName": "Tây Bắc",
+      "provinces": [
+        "Sơn La",
+        "Lào Cai"
+      ],
+      "outputEstimate": "1128 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "dong-bac",
+      "regionName": "Đông Bắc",
+      "provinces": [
+        "Bắc Giang"
+      ],
+      "outputEstimate": "478 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Xuống giống đầu mùa mưa (tháng 4–6)",
+    "soil": "Đất phù sa giàu mùn, ẩm vừa",
+    "ph": "5.0 – 6.3",
+    "density": "24000 cây/ha",
+    "harvestTime": "14 tháng sau trồng",
+    "yield": "2 – 8 tấn khô/ha/năm",
+    "propagation": [
+      "gieo hạt",
+      "giâm cành"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-ngai-diep",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua ngải diệp",
+    "giá ngải diệp",
+    "bán ngải diệp khô",
+    "thu mua dược liệu ngải diệp"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua Ngải diệp với số lượng và tiêu chuẩn thế nào?",
+      "answer": "Nhu cầu tối thiểu 50 kg/tháng, hàng cần đạt các tiêu chí khô sạch, đúng phẩm cấp lá. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Ngọn ngải cứu tươi dài 30 - 40 cm, hai mặt lá có màu sắc khác biệt rõ rệt (mặt trên xanh đậm, mặt dưới trắng bạc phủ đầy lông mịn).",
+    "dry": "Ngọn thân dài không quá 30 cm, có khía dọc, màu vàng nâu hay nâu xám, có lông tơ. Mặt trên lá màu xám đến xanh đen, nhẵn hay có rất ít lông tơ, mặt dưới lá màu tro trắng, có rất nhiều lông tơ trắng."
+  },
+  "demandQuantity": "50 kg/tháng",
+  "priorityLevel": "hot"
+}

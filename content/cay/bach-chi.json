@@ -1,0 +1,119 @@
+{
+  "id": "bach-chi",
+  "slug": "bach-chi",
+  "name": "Bạch chỉ",
+  "scientificName": "Angelica dahurica",
+  "otherNames": [],
+  "group": "hoa-la",
+  "priceRange": "9.000 - 55.000 VNĐ/kg",
+  "shortDesc": "Bạch chỉ — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
+  "image": "/images/cay/bach-chi.jpg",
+  "description": "Bạch chỉ hiện nằm trong danh mục dược liệu được bao tiêu thu mua thường xuyên, sản lượng cần tối thiểu 50 kg/tháng. Bà con trồng hoặc thu hái đạt chuẩn có thể kết nối bán hàng ổn định theo giá sàn công bố mỗi tuần.",
+  "bioCharacteristics": "Củ to, thẳng hay cong, dài 10 - 20 cm, đường kính phần to từ 2-3 cm, phần cuối thon nhỏ dần.",
+  "usageValue": "Toàn cây trên mặt đất của Bạch chỉ được thu mua làm nguyên liệu bào chế cao, trà và thuốc y học cổ truyền; hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Toàn cây trên mặt đất"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "7 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "23°C - 33°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Toàn cây trên mặt đất khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Bạch chỉ.",
+      "priceRange": "28.000 - 55.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Toàn cây trên mặt đất tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế/nấu cao, chưa qua sấy.",
+      "priceRange": "9.000 - 18.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "bac-trung-bo",
+      "regionName": "Bắc Trung Bộ",
+      "provinces": [
+        "Nghệ An",
+        "Thanh Hóa"
+      ],
+      "outputEstimate": "771 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "tay-bac",
+      "regionName": "Tây Bắc",
+      "provinces": [
+        "Sơn La"
+      ],
+      "outputEstimate": "621 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Trồng quanh năm nơi chủ động tưới",
+    "soil": "Đất phù sa giàu mùn, ẩm vừa",
+    "ph": "6.3 – 7.6",
+    "density": "25500 cây/ha",
+    "harvestTime": "7 tháng sau trồng",
+    "yield": "5 – 11 tấn khô/ha/năm",
+    "propagation": [
+      "gieo hạt",
+      "giâm cành"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-bach-chi",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua bạch chỉ",
+    "giá bạch chỉ",
+    "bán bạch chỉ khô",
+    "thu mua dược liệu bạch chỉ"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua Bạch chỉ với số lượng và tiêu chuẩn thế nào?",
+      "answer": "Nhu cầu tối thiểu 50 kg/tháng, hàng cần đạt các tiêu chí khô sạch, đúng phẩm cấp toàn cây trên mặt đất. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Củ to, thẳng hay cong, dài 10 - 20 cm, đường kính phần to từ 2-3 cm, phần cuối thon nhỏ dần.",
+    "dry": "- Hàng rễ củ: Rễ hình chuỳ, thẳng hay cong, dài 10 - 20 cm, đường kính phần to từ 1,5-3 cm, phần cuối thon nhỏ dần. Mặt ngoài củ có màu vàng nâu nhạt, còn dấu vết của rễ con đã cắt bỏ, có nhiều vết nhăn dọc và nhiều lỗ vỏ lồi lên thành những vết sần ngang. Mặt cắt ngang có màu trắng hay trắng ngà, tầng sinh libe-gỗ rõ rệt. Thể chất cứng, vết bẻ lởm chởm, nhiều bột. Mùi thơm hắc, vị cay hơi đắng.\n- Hàng Phiến: Dược liệu sau khi đã chế biến là những phiến dày gần tròn. Mặt ngoài màu nâu xám, có tinh bột, có vòng màu nâu gần tròn hoặc thuôn (của tầng phát sinh libe – gỗ), rải rác có các chấm (nốt) chứa tinh dầu. Mùi thơm, vị cay hơi đắng."
+  },
+  "demandQuantity": "50 kg/tháng",
+  "priorityLevel": "hot"
+}

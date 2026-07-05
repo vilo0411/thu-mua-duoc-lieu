@@ -1,0 +1,151 @@
+{
+  "id": "gung",
+  "slug": "gung",
+  "name": "Gừng",
+  "scientificName": "Zingiber officinale",
+  "otherNames": [
+    "Sinh khương",
+    "Can khương"
+  ],
+  "group": "cu-re",
+  "priceRange": "15.000 - 95.000 VNĐ/kg",
+  "shortDesc": "Củ gừng cho hai vị dược liệu được thu mua theo cách chế biến: gừng tươi (sinh khương) và gừng khô (can khương), mỗi loại một mức giá riêng.",
+  "image": "/images/cay/gung.jpg",
+  "description": "Gừng là cây gia vị kiêm dược liệu trồng khắp cả nước. Cùng một củ gừng chế biến thành hai vị thuốc khác nhau: gừng tươi (sinh khương) và gừng khô (can khương), mỗi loại có công dụng và giá thu mua riêng.",
+  "bioCharacteristics": "Là thân rễ (củ) mọc phình lên, phân nhiều nhánh không đều, dẹt, có nhiều đốt. Vỏ ngoài màu vàng nhạt hoặc nâu vàng, có vân ngang; ruột củ màu vàng tươi, nhiều xơ và có vị cay nồng, thơm hắc. Vị cay.",
+  "usageValue": "Gừng tươi (sinh khương) tán hàn, chống nôn; gừng khô (can khương) ôn trung, hồi dương. Hàng đạt chuẩn sạch, cay thơm cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Củ (thân rễ)"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "13 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "21°C - 35°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Gừng tươi (sinh khương) khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Gừng tươi (sinh khương).",
+      "priceRange": "47.000 - 70.000",
+      "unit": "kg",
+      "trend": "down"
+    },
+    {
+      "grade": "Gừng tươi (sinh khương) tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế, chưa qua sấy.",
+      "priceRange": "15.000 - 26.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Gừng khô (can khương) khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Gừng khô (can khương).",
+      "priceRange": "57.000 - 95.000",
+      "unit": "kg",
+      "trend": "down"
+    },
+    {
+      "grade": "Gừng khô (can khương) tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế, chưa qua sấy.",
+      "priceRange": "19.000 - 25.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "dong-bac",
+      "regionName": "Đông Bắc",
+      "provinces": [
+        "Bắc Giang",
+        "Cao Bằng"
+      ],
+      "outputEstimate": "437 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "tay-bac",
+      "regionName": "Tây Bắc",
+      "provinces": [
+        "Sơn La"
+      ],
+      "outputEstimate": "287 tấn/năm",
+      "popularity": "phu"
+    },
+    {
+      "regionSlug": "tay-nguyen",
+      "regionName": "Tây Nguyên",
+      "provinces": [
+        "Lâm Đồng",
+        "Đắk Lắk"
+      ],
+      "outputEstimate": "342 tấn/năm",
+      "popularity": "chinh"
+    }
+  ],
+  "technique": {
+    "season": "Trồng vụ xuân (tháng 2–3) hoặc thu (tháng 8–9)",
+    "soil": "Đất phù sa giàu mùn, ẩm vừa",
+    "ph": "6.2 – 7.5",
+    "density": "18500 cây/ha",
+    "harvestTime": "13 tháng sau trồng",
+    "yield": "7 – 5 tấn khô/ha/năm",
+    "propagation": [
+      "ươm hạt",
+      "tách mầm củ"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-gung",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua gừng",
+    "thu mua sinh khương",
+    "thu mua can khương gừng khô",
+    "giá gừng dược liệu",
+    "thu mua củ gừng"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua những vị nào của gừng?",
+      "answer": "Thu mua các vị: Sinh khương, Can khương. Mỗi loại có mức giá và tiêu chuẩn riêng, nhu cầu tối thiểu 50 kg/tháng mỗi loại."
+    },
+    {
+      "question": "Tiêu chuẩn thu mua thế nào?",
+      "answer": "Hàng cần khô sạch, đúng phẩm cấp từng bộ phận, không mốc mối, không tồn dư thuốc bảo vệ thực vật. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Gừng tươi (sinh khương): Là thân rễ (củ) mọc phình lên, phân nhiều nhánh không đều, dẹt, có nhiều đốt. Vỏ ngoài màu vàng nhạt hoặc nâu vàng, có vân ngang; ruột củ màu vàng tươi, nhiều xơ và có vị cay nồng, thơm hắc. Vị cay. Gừng khô (can khương): Thân rễ (quen gọi là củ) không có hình dạng nhất định, thường phân nhánh, dài 3 - 7 cm, dày 1,5 -2,5 cm. Mặt ngoài màu trắng tro hay vàng nhạt, có vết nhăn dọc. Vết bẻ màu trắng tro hoặc ngà vàng, vân tròn rõ. Mặt cắt ngang có sợi thưa.",
+    "dry": "Gừng khô (can khương): Thân rễ (quen gọi là củ) không có hình dạng nhất định, thường phân nhánh, dài 3 - 7 cm, dày 0,5 -1,5 cm. Mặt ngoài màu trắng tro hay vàng nhạt, có vết nhăn dọc. Đỉnh các nhánh có đỉnh sinh trưởng của thân rễ. Vết bẻ màu trắng tro hoặc ngà vàng, có bột, vân tròn rõ. Mặt cắt ngang có sợi thưa."
+  },
+  "demandQuantity": "50 kg/tháng mỗi loại",
+  "priorityLevel": "hot"
+}

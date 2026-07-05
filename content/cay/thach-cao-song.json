@@ -1,0 +1,77 @@
+{
+  "id": "thach-cao-song",
+  "slug": "thach-cao-song",
+  "name": "Thạch cao sống",
+  "scientificName": "",
+  "otherNames": [],
+  "group": "cu-re",
+  "priceRange": "15.000 - 79.000 VNĐ/kg",
+  "shortDesc": "Thạch cao sống — dược liệu đang được thu mua, thu khoáng thạch cao sống, nhu cầu 50 kg/tháng.",
+  "image": "/images/cay/thach-cao-song.jpg",
+  "description": "Thạch cao sống hiện nằm trong danh mục dược liệu được bao tiêu thu mua thường xuyên, sản lượng cần tối thiểu 50 kg/tháng. Bà con trồng hoặc thu hái đạt chuẩn có thể kết nối bán hàng ổn định theo giá sàn công bố mỗi tuần.",
+  "bioCharacteristics": "Thạch cao là 1 khối tập hợp của các sợi theo chiều dài, hình phiến hoặc các miếng không đều, màu trắng, trắng xám hoặc vàng nhạt, đôi khi trong suốt. Thể nặng, chất xốp, mặt cắt dọc có sợi óng ánh. Thạch cao màu trắng, bóng, mảnh to, xốp, mặt ngoài như sợi tơ, không lẫn tạp chất là tốt. Không mùi, vị nhạt",
+  "usageValue": "Khoáng thạch cao sống của Thạch cao sống được thu mua làm nguyên liệu bào chế cao, trà và thuốc y học cổ truyền; hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Khoáng thạch cao sống"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Nguồn gốc",
+      "value": "Khai thác/sơ chế tự nhiên, có kiểm định"
+    },
+    {
+      "label": "Yêu cầu bảo quản",
+      "value": "Khô ráo, tránh ẩm mốc, đóng bao kín"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Khoáng thạch cao sống đạt chuẩn",
+      "specification": "Sơ chế sạch, đúng nguồn gốc, đạt tiêu chí kiểm định của Thạch cao sống.",
+      "priceRange": "46.000 - 79.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [],
+  "technique": {
+    "season": "Không gieo trồng — khai thác/thu gom theo mùa tự nhiên",
+    "soil": "Không áp dụng (khoáng vật/động vật)",
+    "ph": "Không áp dụng",
+    "density": "Không áp dụng",
+    "harvestTime": "Thu gom và sơ chế quanh năm",
+    "yield": "Phụ thuộc nguồn khai thác tự nhiên",
+    "propagation": [
+      "thu gom tự nhiên"
+    ]
+  },
+  "pests": [],
+  "techniquesLink": "ky-thuat-trong-thach-cao-song",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua thạch cao sống",
+    "giá thạch cao sống",
+    "bán thạch cao sống khô",
+    "thu mua dược liệu thạch cao sống"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua Thạch cao sống với số lượng và tiêu chuẩn thế nào?",
+      "answer": "Nhu cầu tối thiểu 50 kg/tháng, hàng cần đạt các tiêu chí khô sạch, đúng phẩm cấp khoáng thạch cao sống. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "dry": "Thạch cao là 1 khối tập hợp của các sợi theo chiều dài, hình phiến hoặc các miếng không đều, màu trắng, trắng xám hoặc vàng nhạt, đôi khi trong suốt. Thể nặng, chất xốp, mặt cắt dọc có sợi óng ánh. Thạch cao màu trắng, bóng, mảnh to, xốp, mặt ngoài như sợi tơ, không lẫn tạp chất là tốt. Không mùi, vị nhạt"
+  },
+  "demandQuantity": "50 kg/tháng",
+  "priorityLevel": "hot"
+}

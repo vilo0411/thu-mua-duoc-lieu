@@ -1,0 +1,119 @@
+{
+  "id": "trach-ta",
+  "slug": "trach-ta",
+  "name": "Trạch tả",
+  "scientificName": "Alisma plantago-aquatica",
+  "otherNames": [],
+  "group": "hoa-la",
+  "priceRange": "8.000 - 56.000 VNĐ/kg",
+  "shortDesc": "Trạch tả — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
+  "image": "/images/cay/trach-ta.jpg",
+  "description": "Trạch tả hiện nằm trong danh mục dược liệu được bao tiêu thu mua thường xuyên, sản lượng cần tối thiểu 50 kg/tháng. Bà con trồng hoặc thu hái đạt chuẩn có thể kết nối bán hàng ổn định theo giá sàn công bố mỗi tuần.",
+  "bioCharacteristics": "Củ có hình cầu, hình trứng hoặc hình con quay, củ có đường kính khoảng 2,5 - 6,5 cm và chiều dài trung bình từ 3 - 8 cm. Phần thịt bên trong rất nạc, nhiều bột",
+  "usageValue": "Toàn cây trên mặt đất của Trạch tả được thu mua làm nguyên liệu bào chế cao, trà và thuốc y học cổ truyền; hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Toàn cây trên mặt đất"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "9 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "23°C - 33°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Toàn cây trên mặt đất khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Trạch tả.",
+      "priceRange": "25.000 - 56.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Toàn cây trên mặt đất tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế/nấu cao, chưa qua sấy.",
+      "priceRange": "8.000 - 17.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "bac-trung-bo",
+      "regionName": "Bắc Trung Bộ",
+      "provinces": [
+        "Nghệ An",
+        "Thanh Hóa"
+      ],
+      "outputEstimate": "423 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "tay-bac",
+      "regionName": "Tây Bắc",
+      "provinces": [
+        "Sơn La"
+      ],
+      "outputEstimate": "273 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Trồng quanh năm nơi chủ động tưới",
+    "soil": "Đất pha cát ven đồi, tầng canh tác dày",
+    "ph": "6.6 – 7.0",
+    "density": "11500 cây/ha",
+    "harvestTime": "9 tháng sau trồng",
+    "yield": "5 – 7 tấn khô/ha/năm",
+    "propagation": [
+      "gieo hạt",
+      "giâm cành"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-trach-ta",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua trạch tả",
+    "giá trạch tả",
+    "bán trạch tả khô",
+    "thu mua dược liệu trạch tả"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua Trạch tả với số lượng và tiêu chuẩn thế nào?",
+      "answer": "Nhu cầu tối thiểu 50 kg/tháng, hàng cần đạt các tiêu chí khô sạch, đúng phẩm cấp toàn cây trên mặt đất. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Củ có hình cầu, hình trứng hoặc hình con quay, củ có đường kính khoảng 2,5 - 6,5 cm và chiều dài trung bình từ 3 - 8 cm. Phần thịt bên trong rất nạc, nhiều bột",
+    "dry": "Thân rễ hình cầu, hình trứng hay hình con quay, dài 2 - 7 cm, đường kính 2 - 6 cm. Mặt ngoài màu trắng hơi vàng hay nâu hơi vàng, có các rãnh nông, dạng vòng không đều ở ngang củ, có nhiều vết sẹo rễ nhỏ dạng bướu, ở đầu thân rễ có vết của thân cây còn sót lại. Chất chắc, mặt bẻ gãy màu trắng vàng, có tinh bột, nhiều lỗ nhỏ. Mùi thơm nhẹ, vị hơi đắng.\nTrạch tả thái lát: Các lát dày hình tròn hoặc hình bầu dục. Bên ngoài màu trắng ngà hoặc nâu vàng nhạt, có các vết sẹo nhỏ của rễ con nhô lên. Mặt phiến màu trắng ngà, có tinh bột, nhiều lỗ nhỏ. Mùi thơm nhẹ, vị hơi đắng."
+  },
+  "demandQuantity": "50 kg/tháng",
+  "priorityLevel": "hot"
+}

@@ -1,0 +1,119 @@
+{
+  "id": "kho-qua",
+  "slug": "kho-qua",
+  "name": "Khổ qua",
+  "scientificName": "Momordica charantia",
+  "otherNames": [],
+  "group": "hoa-la",
+  "priceRange": "9.000 - 61.000 VNĐ/kg",
+  "shortDesc": "Khổ qua — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
+  "image": "/images/cay/kho-qua.jpg",
+  "description": "Khổ qua hiện nằm trong danh mục dược liệu được bao tiêu thu mua thường xuyên, sản lượng cần tối thiểu 50 kg/tháng. Bà con trồng hoặc thu hái đạt chuẩn có thể kết nối bán hàng ổn định theo giá sàn công bố mỗi tuần.",
+  "bioCharacteristics": "Quả thuôn dài, kích thước dao động từ 15 - 20 cm, đường kính từ 4-6cm. Vỏ có nhiều nếp nhăn, sần sùi với các u gai. Lớp thịt quả bao quanh một khoang rỗng chứa hạt dẹt, xốp và có màu trắng hoặc vàng nhạt khi còn tươi.",
+  "usageValue": "Toàn cây trên mặt đất của Khổ qua được thu mua làm nguyên liệu bào chế cao, trà và thuốc y học cổ truyền; hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Toàn cây trên mặt đất"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "8 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "22°C - 34°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Toàn cây trên mặt đất khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Khổ qua.",
+      "priceRange": "29.000 - 61.000",
+      "unit": "kg",
+      "trend": "down"
+    },
+    {
+      "grade": "Toàn cây trên mặt đất tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế/nấu cao, chưa qua sấy.",
+      "priceRange": "9.000 - 19.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "tay-nguyen",
+      "regionName": "Tây Nguyên",
+      "provinces": [
+        "Lâm Đồng",
+        "Đắk Lắk"
+      ],
+      "outputEstimate": "1282 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "tay-bac",
+      "regionName": "Tây Bắc",
+      "provinces": [
+        "Sơn La"
+      ],
+      "outputEstimate": "632 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Gieo trồng đầu xuân khi ẩm độ cao",
+    "soil": "Đất đồi feralit thoát nước nhanh",
+    "ph": "5.1 – 6.4",
+    "density": "21000 cây/ha",
+    "harvestTime": "8 tháng sau trồng",
+    "yield": "6 – 10 tấn khô/ha/năm",
+    "propagation": [
+      "gieo hạt",
+      "giâm cành"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-kho-qua",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua khổ qua",
+    "giá khổ qua",
+    "bán khổ qua khô",
+    "thu mua dược liệu khổ qua"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua Khổ qua với số lượng và tiêu chuẩn thế nào?",
+      "answer": "Nhu cầu tối thiểu 50 kg/tháng, hàng cần đạt các tiêu chí khô sạch, đúng phẩm cấp toàn cây trên mặt đất. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Quả thuôn dài, kích thước dao động từ 15 - 20 cm, đường kính từ 4-6cm. Vỏ có nhiều nếp nhăn, sần sùi với các u gai. Lớp thịt quả bao quanh một khoang rỗng chứa hạt dẹt, xốp và có màu trắng hoặc vàng nhạt khi còn tươi.",
+    "dry": "Quả hình thoi dài 12 cm đến 18 cm, đường kính 3 cm đến 5 cm, gốc và đầu quả thuôn nhọn, mặt ngoài màu xanh có nhiều gai tù, thịt quả dày, vị đắng.\nPhiến: Phiến mỏng hình lưỡi liềm, hình gần tròn, thường rỗng ở giữa, có viền màu vàng nâu bên ngoài vỏ quả, màu trắng hơi vàng bên trong (thịt quả), phiến dày từ 3 mm đến 5 mm, rộng 0,7 cm – 1,5 cm, dài 5 – 8 cm. Mùi thơm nhẹ."
+  },
+  "demandQuantity": "50 kg/tháng",
+  "priorityLevel": "hot"
+}

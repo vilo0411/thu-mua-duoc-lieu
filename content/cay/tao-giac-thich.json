@@ -1,0 +1,119 @@
+{
+  "id": "tao-giac-thich",
+  "slug": "tao-giac-thich",
+  "name": "Tạo giác thích",
+  "scientificName": "Gleditsia australis",
+  "otherNames": [],
+  "group": "than",
+  "priceRange": "11.000 - 63.000 VNĐ/kg",
+  "shortDesc": "Tạo giác thích — dược liệu đang được thu mua, thu thân, cành, nhu cầu 50 kg/tháng.",
+  "image": "/images/cay/tao-giac-thich.jpg",
+  "description": "Tạo giác thích hiện nằm trong danh mục dược liệu được bao tiêu thu mua thường xuyên, sản lượng cần tối thiểu 50 kg/tháng. Bà con trồng hoặc thu hái đạt chuẩn có thể kết nối bán hàng ổn định theo giá sàn công bố mỗi tuần.",
+  "bioCharacteristics": "Tạo giác thích (gai cây bồ kết)  Gai thường mọc phân nhánh trên thân, các gai chính to dài và có thể mang 1-2 nhánh nhỏ. Gai chính hình nón dài, kích thước từ 3 cm đến 15 cm, đường kính 0,3 cm đến 1 cm. Mặt ngoài có màu nâu hoặc nâu tía.",
+  "usageValue": "Thân, cành của Tạo giác thích được thu mua làm nguyên liệu bào chế cao, trà và thuốc y học cổ truyền; hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Thân, cành"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "6 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "20°C - 32°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Thân, cành khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Tạo giác thích.",
+      "priceRange": "33.000 - 63.000",
+      "unit": "kg",
+      "trend": "up"
+    },
+    {
+      "grade": "Thân, cành tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế/nấu cao, chưa qua sấy.",
+      "priceRange": "11.000 - 19.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "tay-bac",
+      "regionName": "Tây Bắc",
+      "provinces": [
+        "Sơn La",
+        "Lào Cai"
+      ],
+      "outputEstimate": "1280 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "bac-trung-bo",
+      "regionName": "Bắc Trung Bộ",
+      "provinces": [
+        "Nghệ An"
+      ],
+      "outputEstimate": "630 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Xuống giống đầu mùa mưa (tháng 4–6)",
+    "soil": "Đất thịt nhẹ pha cát, tơi xốp, thoát nước tốt",
+    "ph": "5.8 – 6.2",
+    "density": "20000 cây/ha",
+    "harvestTime": "6 tháng sau trồng",
+    "yield": "4 – 8 tấn khô/ha/năm",
+    "propagation": [
+      "giâm hom",
+      "ươm hạt"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-tao-giac-thich",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua tạo giác thích",
+    "giá tạo giác thích",
+    "bán tạo giác thích khô",
+    "thu mua dược liệu tạo giác thích"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua Tạo giác thích với số lượng và tiêu chuẩn thế nào?",
+      "answer": "Nhu cầu tối thiểu 50 kg/tháng, hàng cần đạt các tiêu chí khô sạch, đúng phẩm cấp thân, cành. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Tạo giác thích (gai cây bồ kết)  Gai thường mọc phân nhánh trên thân, các gai chính to dài và có thể mang 1-2 nhánh nhỏ. Gai chính hình nón dài, kích thước từ 3 cm đến 15 cm, đường kính 0,3 cm đến 1 cm. Mặt ngoài có màu nâu hoặc nâu tía.",
+    "dry": "Gai phân nhánh, các gai chính to hơn và thường mang 1 đến 2 nhánh gai nhỏ. Gai chính hình nón thuôn dài, chiều dài từ 3 cm đến 15 cm, đường kính từ 0,3 cm đến 1 cm; gai nhánh dài từ 1 cm đến 6 cm, đỉnh nhọn. Mặt ngoài màu nâu đến nâu tía. Chất cứng, khó bẻ gãy. Mùi nhẹ, vị nhạt. Dược liệu đã thái lát: Các lát thường thon về phía đỉnh (ngọn), bên trong có phần gỗ màu trắng hơi vàng, phần tủy màu hơi nâu đỏ; chất giòn, dễ bẻ gãy"
+  },
+  "demandQuantity": "50 kg/tháng",
+  "priorityLevel": "hot"
+}

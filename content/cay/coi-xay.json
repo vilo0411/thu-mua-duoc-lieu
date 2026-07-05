@@ -1,0 +1,119 @@
+{
+  "id": "coi-xay",
+  "slug": "coi-xay",
+  "name": "Cối xay",
+  "scientificName": "Abutilon indicum",
+  "otherNames": [],
+  "group": "hoa-la",
+  "priceRange": "11.000 - 67.000 VNĐ/kg",
+  "shortDesc": "Cối xay — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
+  "image": "/images/cay/coi-xay.jpg",
+  "description": "Cối xay hiện nằm trong danh mục dược liệu được bao tiêu thu mua thường xuyên, sản lượng cần tối thiểu 50 kg/tháng. Bà con trồng hoặc thu hái đạt chuẩn có thể kết nối bán hàng ổn định theo giá sàn công bố mỗi tuần.",
+  "bioCharacteristics": "Thân dài khoảng 1-1,5 m, toàn thân và lá phủ lớp lông mềm. Lá hình tim, mép răng cưa. Hoa màu vàng mọc đơn độc ở kẽ lá. Quả có hình dáng giống chiếc cối xay thu nhỏ",
+  "usageValue": "Toàn cây trên mặt đất của Cối xay được thu mua làm nguyên liệu bào chế cao, trà và thuốc y học cổ truyền; hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Toàn cây trên mặt đất"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "14 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "22°C - 34°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Toàn cây trên mặt đất khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Cối xay.",
+      "priceRange": "35.000 - 67.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Toàn cây trên mặt đất tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế/nấu cao, chưa qua sấy.",
+      "priceRange": "11.000 - 21.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "tay-nguyen",
+      "regionName": "Tây Nguyên",
+      "provinces": [
+        "Lâm Đồng",
+        "Đắk Lắk"
+      ],
+      "outputEstimate": "358 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "tay-bac",
+      "regionName": "Tây Bắc",
+      "provinces": [
+        "Sơn La"
+      ],
+      "outputEstimate": "208 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Gieo trồng đầu xuân khi ẩm độ cao",
+    "soil": "Đất phù sa giàu mùn, ẩm vừa",
+    "ph": "5.4 – 6.7",
+    "density": "19000 cây/ha",
+    "harvestTime": "14 tháng sau trồng",
+    "yield": "6 – 6 tấn khô/ha/năm",
+    "propagation": [
+      "gieo hạt",
+      "giâm cành"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-coi-xay",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua cối xay",
+    "giá cối xay",
+    "bán cối xay khô",
+    "thu mua dược liệu cối xay"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua Cối xay với số lượng và tiêu chuẩn thế nào?",
+      "answer": "Nhu cầu tối thiểu 50 kg/tháng, hàng cần đạt các tiêu chí khô sạch, đúng phẩm cấp toàn cây trên mặt đất. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Thân dài khoảng 1-1,5 m, toàn thân và lá phủ lớp lông mềm. Lá hình tim, mép răng cưa. Hoa màu vàng mọc đơn độc ở kẽ lá. Quả có hình dáng giống chiếc cối xay thu nhỏ",
+    "dry": "Đoạn thân, cành, lá, hoa, quả. Thân lớn đường kính khoảng 1,2 cm, được cắt vát dài 1 - 1,5 cm. Thân nhỏ và cành thường được cắt thành đoạn dài 3 - 4 cm. Vỏ thân có vân nhăn nheo dạng lưới, màu nâu xám nhạt hay lục xám, vỏ cành thường nhẵn. Lá khô bị nhăn nheo, nhàu nát, mặt trên màu lục sẫm, mặt dưới nhạt hơn, dài rộng khoảng 5 - 10 cm. Hoa màu vàng, có cuống, mọc đơn độc ở nách lá. Quả hình cầu cụt đầu giống thớt cối xay, đường kính 1,5 - 2 cm, có khoảng 20 phân quả, mỗi phân quả có một vỏ nhọn như gai, có lông dày, chứa 3 hạt màu đen nhạt, hình thận."
+  },
+  "demandQuantity": "50 kg/tháng",
+  "priorityLevel": "hot"
+}

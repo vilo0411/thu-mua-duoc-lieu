@@ -1,0 +1,121 @@
+{
+  "id": "cu-gai",
+  "slug": "cu-gai",
+  "name": "Củ gai",
+  "scientificName": "Boehmeria nivea",
+  "otherNames": [
+    "Trữ ma căn"
+  ],
+  "group": "cu-re",
+  "priceRange": "16.000 - 81.000 VNĐ/kg",
+  "shortDesc": "Củ gai — dược liệu đang được thu mua, thu củ, thân rễ, nhu cầu 50 kg/tháng.",
+  "image": "/images/cay/cu-gai.jpg",
+  "description": "Củ gai hiện nằm trong danh mục dược liệu được bao tiêu thu mua thường xuyên, sản lượng cần tối thiểu 50 kg/tháng. Bà con trồng hoặc thu hái đạt chuẩn có thể kết nối bán hàng ổn định theo giá sàn công bố mỗi tuần.",
+  "bioCharacteristics": "Rễ có hình trụ hoặc hình thoi, hơi cong. Chiều dài dao động từ 9cm - 27cm và đường kính từ 1cm - 4cm. Vỏ củ có màu nâu sẫm.  Lõi củ thường có màu trắng hoặc vàng nhạt, vị hơi nhạt và khi nhai sẽ thấy cảm giác dính vào răng.",
+  "usageValue": "Củ, thân rễ của Củ gai được thu mua làm nguyên liệu bào chế cao, trà và thuốc y học cổ truyền; hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Củ, thân rễ"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "9 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "21°C - 33°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Củ, thân rễ khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Củ gai.",
+      "priceRange": "48.000 - 81.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Củ, thân rễ tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế/nấu cao, chưa qua sấy.",
+      "priceRange": "16.000 - 25.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "dong-bac",
+      "regionName": "Đông Bắc",
+      "provinces": [
+        "Bắc Giang",
+        "Cao Bằng"
+      ],
+      "outputEstimate": "1173 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "tay-nguyen",
+      "regionName": "Tây Nguyên",
+      "provinces": [
+        "Lâm Đồng"
+      ],
+      "outputEstimate": "523 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Trồng vụ xuân (tháng 2–3) hoặc thu (tháng 8–9)",
+    "soil": "Đất phù sa giàu mùn, ẩm vừa",
+    "ph": "6.0 – 7.3",
+    "density": "26500 cây/ha",
+    "harvestTime": "9 tháng sau trồng",
+    "yield": "5 – 5 tấn khô/ha/năm",
+    "propagation": [
+      "ươm hạt",
+      "tách mầm củ"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-cu-gai",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua củ gai",
+    "giá củ gai",
+    "bán củ gai khô",
+    "thu mua dược liệu củ gai"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua Củ gai với số lượng và tiêu chuẩn thế nào?",
+      "answer": "Nhu cầu tối thiểu 50 kg/tháng, hàng cần đạt các tiêu chí khô sạch, đúng phẩm cấp củ, thân rễ. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Rễ có hình trụ hoặc hình thoi, hơi cong. Chiều dài dao động từ 9cm - 27cm và đường kính từ 1cm - 4cm. Vỏ củ có màu nâu sẫm.  Lõi củ thường có màu trắng hoặc vàng nhạt, vị hơi nhạt và khi nhai sẽ thấy cảm giác dính vào răng.",
+    "dry": "Rễ hình trụ, hơi cong queo, dài 8 - 25 cm, đường kính 0,8 - 2 cm. Mặt ngoài màu nâu xám hoặc nâu sẫm. Chất cứng, vết bẻ màu vàng có xơ, phần vỏ màu nâu xám, phần gỗ màu nâu nhạt, một số ở giữa có vòng đồng tâm, phần tủy (ruột ) màu nâu, trong rỗng, tia ruột khá rõ. Mùi nhẹ, vị nhạt, nhai hơi dính răng."
+  },
+  "demandQuantity": "50 kg/tháng",
+  "priorityLevel": "hot"
+}

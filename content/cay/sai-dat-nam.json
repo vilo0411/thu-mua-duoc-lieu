@@ -1,0 +1,119 @@
+{
+  "id": "sai-dat-nam",
+  "slug": "sai-dat-nam",
+  "name": "Sài đất Nam",
+  "scientificName": "Sphagneticola calendulacea",
+  "otherNames": [],
+  "group": "hoa-la",
+  "priceRange": "7.000 - 45.000 VNĐ/kg",
+  "shortDesc": "Sài đất Nam — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
+  "image": "/images/cay/sai-dat-nam.jpg",
+  "description": "Sài đất Nam hiện nằm trong danh mục dược liệu được bao tiêu thu mua thường xuyên, sản lượng cần tối thiểu 50 kg/tháng. Bà con trồng hoặc thu hái đạt chuẩn có thể kết nối bán hàng ổn định theo giá sàn công bố mỗi tuần.",
+  "bioCharacteristics": "Thân màu xanh, bò sát mặt đất, chiều dài thường từ 20 - 40 cm, chiều dài lá từ 2 cm - 6 cm, chiều rộng từ 0.8 cm - 2.5 cm, thân có nhiều lông trắng. Lá hình bầu dục, thuôn nhọn hai đầu, mọc đối xứng, không có cuống",
+  "usageValue": "Toàn cây trên mặt đất của Sài đất Nam được thu mua làm nguyên liệu bào chế cao, trà và thuốc y học cổ truyền; hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Toàn cây trên mặt đất"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "11 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "23°C - 33°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Toàn cây trên mặt đất khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Sài đất Nam.",
+      "priceRange": "22.000 - 45.000",
+      "unit": "kg",
+      "trend": "up"
+    },
+    {
+      "grade": "Toàn cây trên mặt đất tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế/nấu cao, chưa qua sấy.",
+      "priceRange": "7.000 - 16.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "bac-trung-bo",
+      "regionName": "Bắc Trung Bộ",
+      "provinces": [
+        "Nghệ An",
+        "Thanh Hóa"
+      ],
+      "outputEstimate": "855 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "tay-bac",
+      "regionName": "Tây Bắc",
+      "provinces": [
+        "Sơn La"
+      ],
+      "outputEstimate": "205 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Trồng quanh năm nơi chủ động tưới",
+    "soil": "Đất phù sa giàu mùn, ẩm vừa",
+    "ph": "6.6 – 7.0",
+    "density": "27500 cây/ha",
+    "harvestTime": "11 tháng sau trồng",
+    "yield": "5 – 7 tấn khô/ha/năm",
+    "propagation": [
+      "gieo hạt",
+      "giâm cành"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-sai-dat-nam",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua sài đất nam",
+    "giá sài đất nam",
+    "bán sài đất nam khô",
+    "thu mua dược liệu sài đất nam"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua Sài đất Nam với số lượng và tiêu chuẩn thế nào?",
+      "answer": "Nhu cầu tối thiểu 50 kg/tháng, hàng cần đạt các tiêu chí khô sạch, đúng phẩm cấp toàn cây trên mặt đất. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Thân màu xanh, bò sát mặt đất, chiều dài thường từ 20 - 40 cm, chiều dài lá từ 2 cm - 6 cm, chiều rộng từ 0.8 cm - 2.5 cm, thân có nhiều lông trắng. Lá hình bầu dục, thuôn nhọn hai đầu, mọc đối xứng, không có cuống",
+    "dry": "Những đoạn thân ngắn không đều, mang lông cứng. Phiến lá hình bầu dục thon, hai đầu hơi nhọn, dài 1,5 - 5 cm, rộng 0,8 - 2 cm. Hai mặt có lông nhám, mặt trên màu lục xám, có đốm trắng; mặt dưới màu nhạt hơn. Mép lá có 3 - 5 đôi răng cưa rất thưa và nông."
+  },
+  "demandQuantity": "50 kg/tháng",
+  "priorityLevel": "hot"
+}

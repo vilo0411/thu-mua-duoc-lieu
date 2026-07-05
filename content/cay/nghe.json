@@ -1,0 +1,151 @@
+{
+  "id": "nghe",
+  "slug": "nghe",
+  "name": "Nghệ",
+  "scientificName": "Curcuma longa",
+  "otherNames": [
+    "Khương hoàng",
+    "Uất kim"
+  ],
+  "group": "cu-re",
+  "priceRange": "18.000 - 80.000 VNĐ/kg",
+  "shortDesc": "Cây nghệ cho hai vị dược liệu: củ cái/thân rễ (khương hoàng) và rễ củ con (uất kim), mỗi loại một mức giá riêng.",
+  "image": "/images/cay/nghe.jpg",
+  "description": "Nghệ vàng trồng phổ biến khắp cả nước. Cùng một cây cho hai vị thuốc: thân rễ chính (khương hoàng) và rễ củ con (uất kim). Mỗi vị có công dụng và giá thu mua riêng.",
+  "bioCharacteristics": "Củ cái (thân rễ chính) to, chắc, nặng tay, mập mạp, thường phân nhánh thành các củ hình bầu dục hoặc hình thoi, dài 3 - 7 cm, đường kính 1,5 - 4cm. Vỏ ngoài có màu vàng nhạt hoặc xám nâu. Ruột bên trong đặc ruột, có màu vàng cam, vàng nghệ hoặc đỏ cam. Màu sắc càng đậm chứng tỏ hàm lượng hoạt chất Curcumin càng cao.",
+  "usageValue": "Khương hoàng phá huyết, hành khí, trị đau dạ dày; uất kim hành khí giải uất, lợi mật. Hàng đạt chuẩn củ chắc, màu vàng cam đậm cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Củ (thân rễ và rễ củ)"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "12 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "20°C - 32°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Củ nghệ cái (khương hoàng) khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Củ nghệ cái (khương hoàng).",
+      "priceRange": "56.000 - 74.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Củ nghệ cái (khương hoàng) tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế, chưa qua sấy.",
+      "priceRange": "18.000 - 26.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Củ nghệ con (uất kim) khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Củ nghệ con (uất kim).",
+      "priceRange": "56.000 - 80.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Củ nghệ con (uất kim) tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế, chưa qua sấy.",
+      "priceRange": "18.000 - 26.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "tay-bac",
+      "regionName": "Tây Bắc",
+      "provinces": [
+        "Sơn La",
+        "Lào Cai"
+      ],
+      "outputEstimate": "1136 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "bac-trung-bo",
+      "regionName": "Bắc Trung Bộ",
+      "provinces": [
+        "Nghệ An"
+      ],
+      "outputEstimate": "486 tấn/năm",
+      "popularity": "phu"
+    },
+    {
+      "regionSlug": "tay-nguyen",
+      "regionName": "Tây Nguyên",
+      "provinces": [
+        "Lâm Đồng",
+        "Đắk Lắk"
+      ],
+      "outputEstimate": "746 tấn/năm",
+      "popularity": "chinh"
+    }
+  ],
+  "technique": {
+    "season": "Xuống giống đầu mùa mưa (tháng 4–6)",
+    "soil": "Đất phù sa giàu mùn, ẩm vừa",
+    "ph": "5.8 – 6.2",
+    "density": "28000 cây/ha",
+    "harvestTime": "12 tháng sau trồng",
+    "yield": "4 – 8 tấn khô/ha/năm",
+    "propagation": [
+      "ươm hạt",
+      "tách mầm củ"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-nghe",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua nghệ",
+    "thu mua khương hoàng",
+    "thu mua uất kim",
+    "giá củ nghệ dược liệu",
+    "thu mua nghệ vàng"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua những vị nào của nghệ?",
+      "answer": "Thu mua các vị: Khương hoàng, Uất kim. Mỗi loại có mức giá và tiêu chuẩn riêng, nhu cầu tối thiểu 50 kg/tháng mỗi loại."
+    },
+    {
+      "question": "Tiêu chuẩn thu mua thế nào?",
+      "answer": "Hàng cần khô sạch, đúng phẩm cấp từng bộ phận, không mốc mối, không tồn dư thuốc bảo vệ thực vật. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Củ nghệ cái (khương hoàng): Củ cái (thân rễ chính) to, chắc, nặng tay, mập mạp, thường phân nhánh thành các củ hình bầu dục hoặc hình thoi, dài 3 - 7 cm, đường kính 1,5 - 4cm. Vỏ ngoài có màu vàng nhạt hoặc xám nâu. Ruột bên trong đặc ruột, có màu vàng cam, vàng nghệ hoặc đỏ cam. Màu sắc càng đậm chứng tỏ hàm lượng hoạt chất Curcumin càng cao. Củ nghệ con (uất kim): Củ thường có hình thoi hoặc hình trứng, kích thước nhỏ hơn củ nghệ cái, dài 3-6cm, đường kính 1,5-3,5cm.  Khi cắt ngang hoặc bẻ đôi, phần thịt bên trong có màu vàng nhạt.",
+    "dry": "Củ nghệ cái (khương hoàng): Thân rễ hình trụ, thẳng hoặc hơi cong, đôi khi phân nhánh ngắn dạng chữ Y, dài 2 - 5 cm, đường kính 1 - 3 cm. Mặt ngoài màu xám nâu, nhăn nheo, có những vòng ngang sít nhau, đôi khi còn vết tích của các nhánh và rễ. Mặt cắt ngang thấy rõ 2 vùng vỏ và trụ giữa; trụ giữa chiếm gần 2/3 đường kính. Chất chắc và nặng. Mặt bẻ bóng, có màu vàng cam. Mùi thơm hắc, vị hơi đắng, hơi cay. Củ nghệ con (uất kim): Thân rễ hình trụ, thẳng hoặc hơi cong, đôi khi phân nhánh ngắn dạng chữ Y, dài 2 - 5 cm, đường kính 1 - 3 cm. Mặt ngoài màu xám nâu, nhăn nheo, có những vòng ngang sít nhau, đôi khi còn vết tích của các nhánh và rễ. Mặt cắt ngang thấy rõ 2 vùng vỏ và trụ giữa; trụ giữa chiếm gần 2/3 đường kính. Chất chắc và nặng. Mặt bẻ bóng, có màu vàng cam. Mùi thơm hắc, vị hơi đắng, hơi cay."
+  },
+  "demandQuantity": "50 kg/tháng mỗi loại",
+  "priorityLevel": "hot"
+}

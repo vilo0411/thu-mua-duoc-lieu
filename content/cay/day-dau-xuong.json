@@ -1,0 +1,119 @@
+{
+  "id": "day-dau-xuong",
+  "slug": "day-dau-xuong",
+  "name": "Dây đau xương",
+  "scientificName": "Tinospora sinensis",
+  "otherNames": [],
+  "group": "than",
+  "priceRange": "12.000 - 76.000 VNĐ/kg",
+  "shortDesc": "Dây đau xương — dược liệu đang được thu mua, thu thân, cành, nhu cầu 50 kg/tháng.",
+  "image": "/images/cay/day-dau-xuong.jpg",
+  "description": "Dây đau xương hiện nằm trong danh mục dược liệu được bao tiêu thu mua thường xuyên, sản lượng cần tối thiểu 50 kg/tháng. Bà con trồng hoặc thu hái đạt chuẩn có thể kết nối bán hàng ổn định theo giá sàn công bố mỗi tuần.",
+  "bioCharacteristics": "Thuộc dạng thân leo, dài khoảng 7-8m. Thân non có màu xanh và phủ nhiều lông, khi già chuyển sang màu xám, lớp vỏ có nhiều nốt sần",
+  "usageValue": "Thân, cành của Dây đau xương được thu mua làm nguyên liệu bào chế cao, trà và thuốc y học cổ truyền; hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Thân, cành"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "15 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "23°C - 33°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Thân, cành khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Dây đau xương.",
+      "priceRange": "37.000 - 76.000",
+      "unit": "kg",
+      "trend": "up"
+    },
+    {
+      "grade": "Thân, cành tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế/nấu cao, chưa qua sấy.",
+      "priceRange": "12.000 - 21.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "bac-trung-bo",
+      "regionName": "Bắc Trung Bộ",
+      "provinces": [
+        "Nghệ An",
+        "Thanh Hóa"
+      ],
+      "outputEstimate": "519 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "tay-bac",
+      "regionName": "Tây Bắc",
+      "provinces": [
+        "Sơn La"
+      ],
+      "outputEstimate": "369 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Trồng quanh năm nơi chủ động tưới",
+    "soil": "Đất phù sa giàu mùn, ẩm vừa",
+    "ph": "6.3 – 7.6",
+    "density": "19500 cây/ha",
+    "harvestTime": "15 tháng sau trồng",
+    "yield": "5 – 7 tấn khô/ha/năm",
+    "propagation": [
+      "giâm hom",
+      "ươm hạt"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-day-dau-xuong",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua dây đau xương",
+    "giá dây đau xương",
+    "bán dây đau xương khô",
+    "thu mua dược liệu dây đau xương"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua Dây đau xương với số lượng và tiêu chuẩn thế nào?",
+      "answer": "Nhu cầu tối thiểu 50 kg/tháng, hàng cần đạt các tiêu chí khô sạch, đúng phẩm cấp thân, cành. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Thuộc dạng thân leo, dài khoảng 7-8m. Thân non có màu xanh và phủ nhiều lông, khi già chuyển sang màu xám, lớp vỏ có nhiều nốt sần",
+    "dry": "Thường thái vát thành phiến dày. Mặt ngoài màu nâu xám hoặc xanh xám, có nhiều lỗ vỏ nổi rõ hình tròn hoặc hình trứng dài, đường kính lỗ vỏ không đều. Mặt cắt ngang màu trắng ngà hoặc vàng nhạt. Phần vỏ mỏng. Phần gỗ rộng, xoè ra thành hình nan hoa bánh xe, tia ruột rõ. Phần ruột ở giữa tròn nhỏ."
+  },
+  "demandQuantity": "50 kg/tháng",
+  "priorityLevel": "hot"
+}

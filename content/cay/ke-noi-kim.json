@@ -1,0 +1,78 @@
+{
+  "id": "ke-noi-kim",
+  "slug": "ke-noi-kim",
+  "name": "Kê nội kim",
+  "scientificName": "Gallus gallus domesticus",
+  "otherNames": [],
+  "group": "cu-re",
+  "priceRange": "17.000 - 84.000 VNĐ/kg",
+  "shortDesc": "Kê nội kim — dược liệu đang được thu mua, thu màng mề gà, nhu cầu 50 kg/tháng.",
+  "image": "/images/cay/ke-noi-kim.jpg",
+  "description": "Kê nội kim hiện nằm trong danh mục dược liệu được bao tiêu thu mua thường xuyên, sản lượng cần tối thiểu 50 kg/tháng. Bà con trồng hoặc thu hái đạt chuẩn có thể kết nối bán hàng ổn định theo giá sàn công bố mỗi tuần.",
+  "bioCharacteristics": "Kê nội kim tươi (màng mề gà tươi) là lớp màng màu vàng phủ ở mặt trong của mề gà (dạ dày cơ), bề mặt nhiều nếp nhăn.",
+  "usageValue": "Màng mề gà của Kê nội kim được thu mua làm nguyên liệu bào chế cao, trà và thuốc y học cổ truyền; hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Màng mề gà"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Nguồn gốc",
+      "value": "Khai thác/sơ chế tự nhiên, có kiểm định"
+    },
+    {
+      "label": "Yêu cầu bảo quản",
+      "value": "Khô ráo, tránh ẩm mốc, đóng bao kín"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Màng mề gà đạt chuẩn",
+      "specification": "Sơ chế sạch, đúng nguồn gốc, đạt tiêu chí kiểm định của Kê nội kim.",
+      "priceRange": "53.000 - 84.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [],
+  "technique": {
+    "season": "Không gieo trồng — khai thác/thu gom theo mùa tự nhiên",
+    "soil": "Không áp dụng (khoáng vật/động vật)",
+    "ph": "Không áp dụng",
+    "density": "Không áp dụng",
+    "harvestTime": "Thu gom và sơ chế quanh năm",
+    "yield": "Phụ thuộc nguồn khai thác tự nhiên",
+    "propagation": [
+      "thu gom tự nhiên"
+    ]
+  },
+  "pests": [],
+  "techniquesLink": "ky-thuat-trong-ke-noi-kim",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua kê nội kim",
+    "giá kê nội kim",
+    "bán kê nội kim khô",
+    "thu mua dược liệu kê nội kim"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua Kê nội kim với số lượng và tiêu chuẩn thế nào?",
+      "answer": "Nhu cầu tối thiểu 50 kg/tháng, hàng cần đạt các tiêu chí khô sạch, đúng phẩm cấp màng mề gà. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Kê nội kim tươi (màng mề gà tươi) là lớp màng màu vàng phủ ở mặt trong của mề gà (dạ dày cơ), bề mặt nhiều nếp nhăn.",
+    "dry": "Màng gần nguyên vẹn hoặc từng mảnh khô cong, cuộn lại, dày khoảng 0,2 cm. Mặt ngoài màu vàng, lục vàng hoặc nâu vàng, màng mỏng trong mờ, có nếp nhăn dọc nhô lên. Chất giòn dễ gãy vỡ, vết gãy bóng như sừng. Mùi hơi tanh, vị hơi đắng."
+  },
+  "demandQuantity": "50 kg/tháng",
+  "priorityLevel": "hot"
+}

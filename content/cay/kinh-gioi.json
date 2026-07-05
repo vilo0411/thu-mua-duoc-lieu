@@ -1,0 +1,119 @@
+{
+  "id": "kinh-gioi",
+  "slug": "kinh-gioi",
+  "name": "Kinh giới",
+  "scientificName": "Elsholtzia ciliata",
+  "otherNames": [],
+  "group": "hoa-la",
+  "priceRange": "11.000 - 74.000 VNĐ/kg",
+  "shortDesc": "Kinh giới — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
+  "image": "/images/cay/kinh-gioi.jpg",
+  "description": "Kinh giới hiện nằm trong danh mục dược liệu được bao tiêu thu mua thường xuyên, sản lượng cần tối thiểu 50 kg/tháng. Bà con trồng hoặc thu hái đạt chuẩn có thể kết nối bán hàng ổn định theo giá sàn công bố mỗi tuần.",
+  "bioCharacteristics": "Thân hình vuông đặc trưng, cao từ 30 - 60cm, có lông mịn, lá dài 4-10cm.",
+  "usageValue": "Toàn cây trên mặt đất của Kinh giới được thu mua làm nguyên liệu bào chế cao, trà và thuốc y học cổ truyền; hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Toàn cây trên mặt đất"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "9 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "21°C - 31°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Toàn cây trên mặt đất khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Kinh giới.",
+      "priceRange": "35.000 - 74.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Toàn cây trên mặt đất tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế/nấu cao, chưa qua sấy.",
+      "priceRange": "11.000 - 18.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "dong-bac",
+      "regionName": "Đông Bắc",
+      "provinces": [
+        "Bắc Giang",
+        "Cao Bằng"
+      ],
+      "outputEstimate": "673 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "bac-trung-bo",
+      "regionName": "Bắc Trung Bộ",
+      "provinces": [
+        "Nghệ An"
+      ],
+      "outputEstimate": "523 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Trồng vụ xuân (tháng 2–3) hoặc thu (tháng 8–9)",
+    "soil": "Đất thịt nhẹ pha cát, tơi xốp, thoát nước tốt",
+    "ph": "6.4 – 7.7",
+    "density": "16500 cây/ha",
+    "harvestTime": "9 tháng sau trồng",
+    "yield": "3 – 9 tấn khô/ha/năm",
+    "propagation": [
+      "gieo hạt",
+      "giâm cành"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-kinh-gioi",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua kinh giới",
+    "giá kinh giới",
+    "bán kinh giới khô",
+    "thu mua dược liệu kinh giới"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua Kinh giới với số lượng và tiêu chuẩn thế nào?",
+      "answer": "Nhu cầu tối thiểu 50 kg/tháng, hàng cần đạt các tiêu chí khô sạch, đúng phẩm cấp toàn cây trên mặt đất. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Thân hình vuông đặc trưng, cao từ 30 - 60cm, có lông mịn, lá dài 4-10cm.",
+    "dry": "Đoạn thân hoặc cành dài 30 – 40 cm, thân vuông, có lông mịn. Lá mọc đối hình trứng, dài 3 - 9 cm, rộng 2 - 5 cm, mép có răng cưa, gốc lá dạng nêm, men xuống cuống lá thành cánh hẹp, cuống dài 2 - 3 cm. Cụm hoa là một xim co ở đầu cành, dài 2 - 7 cm, rộng 1,3 cm. Hoa nhỏ, không cuống, màu tím nhạt (khi còn tươi). Quả bế nhỏ, thuôn, nhẵn bóng, dài 0,5 cm."
+  },
+  "demandQuantity": "50 kg/tháng",
+  "priorityLevel": "hot"
+}

@@ -1,0 +1,119 @@
+{
+  "id": "co-nho-noi",
+  "slug": "co-nho-noi",
+  "name": "Cỏ nhọ nồi",
+  "scientificName": "Eclipta prostrata",
+  "otherNames": [],
+  "group": "hoa-la",
+  "priceRange": "11.000 - 53.000 VNĐ/kg",
+  "shortDesc": "Cỏ nhọ nồi — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
+  "image": "/images/cay/co-nho-noi.jpg",
+  "description": "Cỏ nhọ nồi hiện nằm trong danh mục dược liệu được bao tiêu thu mua thường xuyên, sản lượng cần tối thiểu 50 kg/tháng. Bà con trồng hoặc thu hái đạt chuẩn có thể kết nối bán hàng ổn định theo giá sàn công bố mỗi tuần.",
+  "bioCharacteristics": "Thân hình trụ, dài khoảng 30 – 50 cm, đường kính 2,5 - 5,5 mm. Mặt ngòai thân màu nâu tím nhạt và mang lông cứng, trắng. Lá hình mũi mác, màu xám đen và nhăn nheo. Hai mặt đều có lông cứng ngắn, màu trắng.",
+  "usageValue": "Toàn cây trên mặt đất của Cỏ nhọ nồi được thu mua làm nguyên liệu bào chế cao, trà và thuốc y học cổ truyền; hàng đạt chuẩn khô sạch cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Toàn cây trên mặt đất"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "12 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "22°C - 32°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Toàn cây trên mặt đất khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Cỏ nhọ nồi.",
+      "priceRange": "33.000 - 53.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Toàn cây trên mặt đất tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế/nấu cao, chưa qua sấy.",
+      "priceRange": "11.000 - 19.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "tay-nguyen",
+      "regionName": "Tây Nguyên",
+      "provinces": [
+        "Lâm Đồng",
+        "Đắk Lắk"
+      ],
+      "outputEstimate": "1226 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "dong-bac",
+      "regionName": "Đông Bắc",
+      "provinces": [
+        "Bắc Giang"
+      ],
+      "outputEstimate": "576 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Gieo trồng đầu xuân khi ẩm độ cao",
+    "soil": "Đất phù sa giàu mùn, ẩm vừa",
+    "ph": "5.8 – 6.2",
+    "density": "13000 cây/ha",
+    "harvestTime": "12 tháng sau trồng",
+    "yield": "4 – 10 tấn khô/ha/năm",
+    "propagation": [
+      "gieo hạt",
+      "giâm cành"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-co-nho-noi",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua cỏ nhọ nồi",
+    "giá cỏ nhọ nồi",
+    "bán cỏ nhọ nồi khô",
+    "thu mua dược liệu cỏ nhọ nồi"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua Cỏ nhọ nồi với số lượng và tiêu chuẩn thế nào?",
+      "answer": "Nhu cầu tối thiểu 50 kg/tháng, hàng cần đạt các tiêu chí khô sạch, đúng phẩm cấp toàn cây trên mặt đất. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Thân hình trụ, dài khoảng 30 – 50 cm, đường kính 2,5 - 5,5 mm. Mặt ngòai thân màu nâu tím nhạt và mang lông cứng, trắng. Lá hình mũi mác, màu xám đen và nhăn nheo. Hai mặt đều có lông cứng ngắn, màu trắng.",
+    "dry": "Thân hình trụ, dài khoảng 30 – 50 cm, đường kính 2 – 5 mm. Mặt ngoài thân màu nâu tím nhạt và mang lông cứng, trắng. Lá dài 2,5 – 3 cm, rộng 1 – 2,5 cm. Hai mặt đều có lông cứng ngắn, màu trắng."
+  },
+  "demandQuantity": "50 kg/tháng",
+  "priorityLevel": "hot"
+}

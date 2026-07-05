@@ -1,0 +1,150 @@
+{
+  "id": "dia-hoang",
+  "slug": "dia-hoang",
+  "name": "Địa hoàng",
+  "scientificName": "Rehmannia glutinosa",
+  "otherNames": [
+    "Sinh địa",
+    "Thục địa"
+  ],
+  "group": "cu-re",
+  "priceRange": "16.000 - 94.000 VNĐ/kg",
+  "shortDesc": "Củ địa hoàng cho hai vị dược liệu theo cách chế biến: sinh địa (củ sống) và thục địa (đã chưng chế), mỗi loại một mức giá riêng.",
+  "image": "/images/cay/dia-hoang.jpg",
+  "description": "Địa hoàng trồng nhiều ở đồng bằng Bắc Bộ, cho củ dùng làm hai vị thuốc: sinh địa (củ sấy sống) và thục địa (chưng chế chín với rượu). Mỗi vị có công dụng và giá thu mua riêng.",
+  "bioCharacteristics": "Rễ phát triển phình to thành củ dài, hơi dẹt hoặc thuôn, có nhiều đốt, thường dài khoảng 10 - 20 cm và đường kính từ 2 - 4 cm.  Vỏ mỏng, nhẵn hoặc hơi nhăn nheo. Củ rất mọng nước, khi bóp hoặc cắt ngang sẽ thấy dịch tiết ra ẩm ướt.",
+  "usageValue": "Sinh địa thanh nhiệt, lương huyết; thục địa bổ huyết, bổ thận, ích tinh. Hàng đạt chuẩn củ chắc, chế biến đúng cách cho giá tốt nhất.",
+  "stats": [
+    {
+      "label": "Bộ phận thu hoạch",
+      "value": "Củ (rễ củ)"
+    },
+    {
+      "label": "Nhu cầu thu mua",
+      "value": "50 kg/tháng"
+    },
+    {
+      "label": "Thời gian thu hoạch",
+      "value": "11 tháng sau trồng"
+    },
+    {
+      "label": "Nhiệt độ lý tưởng",
+      "value": "23°C - 35°C"
+    }
+  ],
+  "prices": [
+    {
+      "grade": "Sinh địa (củ sống) khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Sinh địa (củ sống).",
+      "priceRange": "50.000 - 73.000",
+      "unit": "kg",
+      "trend": "up"
+    },
+    {
+      "grade": "Sinh địa (củ sống) tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế, chưa qua sấy.",
+      "priceRange": "16.000 - 27.000",
+      "unit": "kg",
+      "trend": "stable"
+    },
+    {
+      "grade": "Thục địa (đã chế biến) khô loại 1",
+      "specification": "Phơi/sấy khô đều, sạch tạp chất, không mốc mối, đúng phẩm Thục địa (đã chế biến).",
+      "priceRange": "57.000 - 94.000",
+      "unit": "kg",
+      "trend": "down"
+    },
+    {
+      "grade": "Thục địa (đã chế biến) tươi nguyên liệu",
+      "specification": "Thu hái tươi giao ngay cho xưởng sơ chế, chưa qua sấy.",
+      "priceRange": "19.000 - 28.000",
+      "unit": "kg",
+      "trend": "stable"
+    }
+  ],
+  "regions": [
+    {
+      "regionSlug": "bac-trung-bo",
+      "regionName": "Bắc Trung Bộ",
+      "provinces": [
+        "Nghệ An",
+        "Thanh Hóa"
+      ],
+      "outputEstimate": "635 tấn/năm",
+      "popularity": "chinh"
+    },
+    {
+      "regionSlug": "tay-nguyen",
+      "regionName": "Tây Nguyên",
+      "provinces": [
+        "Lâm Đồng"
+      ],
+      "outputEstimate": "485 tấn/năm",
+      "popularity": "phu"
+    },
+    {
+      "regionSlug": "tay-bac",
+      "regionName": "Tây Bắc",
+      "provinces": [
+        "Sơn La"
+      ],
+      "outputEstimate": "477 tấn/năm",
+      "popularity": "phu"
+    }
+  ],
+  "technique": {
+    "season": "Trồng quanh năm nơi chủ động tưới",
+    "soil": "Đất thịt nhẹ pha cát, tơi xốp, thoát nước tốt",
+    "ph": "6.2 – 7.5",
+    "density": "17500 cây/ha",
+    "harvestTime": "11 tháng sau trồng",
+    "yield": "7 – 11 tấn khô/ha/năm",
+    "propagation": [
+      "ươm hạt",
+      "tách mầm củ"
+    ]
+  },
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "level": "co-gap",
+      "symptom": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "level": "hiem",
+      "symptom": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "techniquesLink": "ky-thuat-trong-dia-hoang",
+  "standards": [
+    "Sạch tạp chất, đất cát, cỏ dại và bộ phận không đúng phẩm quá 1%.",
+    "Khô đều, không ẩm mốc, không mối mọt, mùi đặc trưng của dược liệu.",
+    "Không tồn dư thuốc bảo vệ thực vật vượt ngưỡng, đạt tiêu chí kiểm định đầu vào của nhà máy."
+  ],
+  "keywordsTarget": [
+    "thu mua địa hoàng",
+    "thu mua sinh địa",
+    "thu mua thục địa",
+    "giá củ địa hoàng",
+    "thu mua dược liệu địa hoàng"
+  ],
+  "faq": [
+    {
+      "question": "Vietmec thu mua những vị nào của địa hoàng?",
+      "answer": "Thu mua các vị: Sinh địa, Thục địa. Mỗi loại có mức giá và tiêu chuẩn riêng, nhu cầu tối thiểu 50 kg/tháng mỗi loại."
+    },
+    {
+      "question": "Tiêu chuẩn thu mua thế nào?",
+      "answer": "Hàng cần khô sạch, đúng phẩm cấp từng bộ phận, không mốc mối, không tồn dư thuốc bảo vệ thực vật. Bà con gửi mẫu và thông số lô hàng để được báo giá sàn theo tuần."
+    }
+  ],
+  "identification": {
+    "fresh": "Sinh địa (củ sống): Rễ phát triển phình to thành củ dài, hơi dẹt hoặc thuôn, có nhiều đốt, thường dài khoảng 10 - 20 cm và đường kính từ 2 - 4 cm.  Vỏ mỏng, nhẵn hoặc hơi nhăn nheo. Củ rất mọng nước, khi bóp hoặc cắt ngang sẽ thấy dịch tiết ra ẩm ướt. Thục địa (đã chế biến): Thục địa có màu đen nhánh, bề mặt nhăn nheo sần sùi, chất mềm dẻo. Kích thước dược liệu không đều nhau, củ thường dài khoảng 10 - 20 cm và đường kính từ 1,5 - 3 cm.",
+    "dry": "Sinh địa (củ sống): Sinh địa (Địa hoàng khô): Dược liệu là những khối hình dạng không đều hoặc hình thuôn, khoảng giữa phình to, hai đầu hơi nhỏ, dài 4 – 15 cm, đường kính 2 – 6 cm. Loại củ nhỏ hình dải, hơi bị ép dẹt, cong queo hoặc xoắn lại. Mặt ngoài màu nâu đen hoặc xám nâu, nhăn nheo nhiều, có các đường vân lượn cong nằm ngang không đều. Thể nặng, chất tương đối mềm, dai, khó bẻ gãy. Mặt cắt màu nâu đen hoặc đen bóng, dính. Mùi thơm nhẹ, vị hơi ngọt. Thục địa (đã chế biến): Rễ kích thước không đều. Mặt ngoài bóng. Chất mềm, dai, khó bẻ gãy. Mặt cắt ngang đen nhánh, mịn bóng. Không mùi, vị ngọt."
+  },
+  "demandQuantity": "50 kg/tháng mỗi loại",
+  "priorityLevel": "hot"
+}
