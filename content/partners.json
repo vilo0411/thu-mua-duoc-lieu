@@ -3,16 +3,16 @@
     "slug": "vietmec",
     "name": "VIETMEC",
     "fullName": "Công ty Cổ phần Dược liệu Việt Nam (VIETMEC)",
-    "isFeatured": true,
+    "isFeatured": false,
     "stockCode": "Mã DVM (HNX)",
     "facility": "Nhà máy GMP-WHO Phú Ninh, Phú Thọ",
-    "experience": "Hơn 15 năm kinh nghiệm hoạt động trong ngành dược liệu",
-    "desc": "VIETMEC là đơn vị hàng đầu Việt Nam sở hữu chuỗi liên kết bền vững từ vùng trồng đạt chuẩn GACP-WHO đến nhà máy chế biến quy mô hiện đại, cam kết bao tiêu đầu ra lâu dài cho bà con.",
+    "experience": "Hơn 15 năm hoạt động trong ngành dược liệu",
+    "desc": "VIETMEC là một trong các đơn vị chế biến dược liệu lớn tại miền Bắc, có nhà máy sấy lạnh khép kín và hợp đồng mua hàng có văn bản. Phù hợp với nông hộ, HTX có sản lượng ổn định và dược liệu đạt tiêu chuẩn khô.",
     "bullets": [
-      "Cam kết bao tiêu sản phẩm bằng hợp đồng dài hạn với giá ổn định.",
-      "Hỗ trợ giống đạt chuẩn, kỹ thuật canh tác và quy trình thu hoạch tối ưu dược tính.",
-      "Hệ thống nhà máy GMP-WHO đạt chuẩn xuất khẩu Châu Âu, xử lý sấy lạnh khép kín.",
-      "Hỗ trợ nông dân và hợp tác xã tiếp cận nguồn vốn hỗ trợ nông nghiệp bền vững."
+      "Ký hợp đồng mua hàng có văn bản, thanh toán qua chuyển khoản.",
+      "Hỗ trợ kỹ thuật sơ chế và tiêu chuẩn chất lượng cho nông hộ liên kết.",
+      "Nhà máy sấy lạnh khép kín, xử lý được lô hàng lớn.",
+      "Có bộ phận thu mua khu vực, liên hệ trực tiếp được."
     ],
     "trustSignals": [
       "Mã DVM (HNX)",
@@ -21,6 +21,6 @@
       "Thanh toán qua chuyển khoản, có hợp đồng"
     ],
     "landingUrl": "https://thumuaduoclieu.vietmec.vn/",
-    "utmTemplate": "?utm_source=nguyenvietloc&utm_medium=blog&utm_campaign={cay}&utm_content={page_type}_{cta_position}"
+    "utmTemplate": "?utm_source=nguyenvietloc&utm_medium=blog&utm_campaign={cay}&utm_content={page_type}_{cta_position}#demand"
   }
 ]

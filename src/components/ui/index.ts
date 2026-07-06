@@ -12,6 +12,7 @@ export { CtaBanner } from "./CtaBanner";
 export { LandingLink } from "./LandingLink";
 export { FeaturedPartnerCard } from "./FeaturedPartnerCard";
 export { NeutralPartnerCard } from "./NeutralPartnerCard";
+export { SaleChannelsCard } from "./SaleChannelsCard";
 export { HerbCard } from "./HerbCard";
 export { HomeHero } from "./HomeHero";
 export { MissionStory } from "./MissionStory";

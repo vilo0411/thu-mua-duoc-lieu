@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { HERBS_DATA, PARTNER_COMPANY, FEATURED_PARTNER, buildLandingUrl } from "../lib/data";
-import { Breadcrumb, CtaBanner, FaqAccordion, FeaturedPartnerCard, NeutralPartnerCard, HerbCatalog, SeasonalCalendar } from "../components/ui";
+import { HERBS_DATA } from "../lib/data";
+import { Breadcrumb, CtaBanner, FaqAccordion, SaleChannelsCard, HerbCatalog, SeasonalCalendar } from "../components/ui";
 import { paths } from "../lib/paths";
 import { Seo, pillarSeo } from "../lib/seo";
 
@@ -57,16 +57,15 @@ export const PillarPage: React.FC = () => {
           </div>
         </section>
 
-        {/* Đối tác thu mua */}
+        {/* Kênh tiêu thụ */}
         <section>
           <SectionHeader
-            eyebrow="Đơn vị thu mua"
-            title="Đối tác bao tiêu được đề xuất"
-            desc="Được chọn qua các chuyến khảo sát thực địa nhà máy sấy chiết và vùng quy hoạch giống."
+            eyebrow="Kênh tiêu thụ"
+            title="Bán dược liệu qua kênh nào?"
+            desc="Ba kênh phổ biến — mỗi kênh có ưu/nhược riêng tùy quy mô và tiêu chuẩn hàng của bà con."
           />
-          <div className="mt-8 space-y-6">
-            <FeaturedPartnerCard herbName="Dược liệu hỗn hợp" pageType="pillar" />
-            <NeutralPartnerCard />
+          <div className="mt-8">
+            <SaleChannelsCard herbName="Dược liệu" pageType="pillar" />
           </div>
         </section>
 
@@ -76,18 +75,24 @@ export const PillarPage: React.FC = () => {
           <div className="mt-8 max-w-3xl">
             <FaqAccordion
               items={[
-                { question: `Quy chuẩn kiểm nghiệm chất lượng rễ củ tại nhà máy ${PARTNER_COMPANY.name} thế nào?`, answer: "Sản phẩm khi chở về nhà máy sẽ được bốc dỡ mẫu ngẫu nhiên tại 5 điểm của xe container. Mẫu sẽ được đưa ngay vào phòng Lab kiểm nghiệm bằng phương pháp sắc ký lớp mỏng để xác định lượng saponin/hoạt chất sinh học. Song song đó là sấy sừng khô đo độ ẩm <11% và hóa nghiệm xác định dư lượng chì, thạch tín hay chất hóa học bảo vệ thực vật. Nếu đạt toàn bộ mới ký nhận phiếu xuất kho giải ngân thanh toán." },
-                { question: "Nông hộ nhỏ lẻ diện tích vài sào thì làm thế nào tham gia chuỗi bao tiêu?", answer: `Đối với nông hộ canh tác nhỏ lẻ quy mô dưới 1 héc-ta, bà con nên chủ động đề xuất ban lãnh đạo nông nghiệp thôn bản kết hợp thành lập một Tổ hợp tác hoặc Hợp tác xã nông nghiệp kiểu mới. Hợp tác xã sẽ là pháp nhân đại diện chung đứng ra ký kết hợp đồng bao tiêu lớn với ${PARTNER_COMPANY.name}, đồng hành gom nông sản chuyên nghiệp tiện chuyến container.` },
+                {
+                  question: "Trồng nhỏ lẻ vài sào có bán được cho nhà máy không?",
+                  answer: "Nhà máy thường mua theo lô lớn (tối thiểu vài tấn/chuyến xe). Nông hộ canh tác dưới 1ha nên liên kết qua HTX hoặc tổ hợp tác địa phương để gom hàng chung. HTX đứng ra ký hợp đồng và phân chia lợi nhuận theo tỷ lệ đóng góp. Đây là con đường bền vững hơn bán lẻ cho thương lái.",
+                },
+                {
+                  question: "Làm thế nào biết giá mình đang bán có bị ép thấp không?",
+                  answer: "Bà con tham khảo bảng giá theo từng cây trên trang này (cập nhật theo vụ), sau đó so sánh với giá thương lái đang trả. Nếu chênh lệch lớn hơn 15–20%, đáng cân nhắc gom hàng theo HTX để bán thẳng nhà máy. Yếu tố khác cũng ảnh hưởng giá: độ ẩm, phân hạng chất lượng, thời điểm bán trong vụ.",
+                },
               ]}
             />
           </div>
         </section>
 
         <CtaBanner
-          title="Đồng hành làm giàu từ đồi núi dốc dược liệu"
-          description={`Tham gia ngay chuỗi liên kết bền vững GACP cùng ${PARTNER_COMPANY.name} để thoát cảnh 'được mùa mất giá' bấp bênh thương lái ép rẻ.`}
-          buttonText="Gửi đăng ký kết nối thu mua"
-          href={buildLandingUrl(FEATURED_PARTNER, { pageType: "pillar", ctaPosition: "footer" })}
+          title="Cần tư vấn kênh bán phù hợp với vùng của bạn?"
+          description="Gửi thông tin cây trồng, khu vực và quy mô — tôi sẽ phản hồi cụ thể về kênh tiêu thụ và tiêu chuẩn chất lượng cần đạt."
+          buttonText="Gửi câu hỏi tư vấn"
+          href="/lien-he"
         />
       </div>
     </div>

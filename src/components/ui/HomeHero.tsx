@@ -48,8 +48,8 @@ export const HomeHero: React.FC<HomeHeroProps> = ({ ownerName, imageUrl, stats, 
           <span className="text-earth">bán được giá</span> xứng đáng.
         </h1>
 
-        <p className="mt-6 max-w-xl text-base md:text-lg text-white/80 leading-relaxed">
-          Nơi tôi chia sẻ kinh nghiệm canh tác chuẩn GACP-WHO và theo sát giá thu mua thực tế —
+        <p className=”mt-6 max-w-xl text-base md:text-lg text-white/80 leading-relaxed”>
+          Nơi tôi chia sẻ kinh nghiệm canh tác từ thực địa và theo sát giá thu mua —
           để bà con không còn cảnh “được mùa mất giá”.
         </p>
 

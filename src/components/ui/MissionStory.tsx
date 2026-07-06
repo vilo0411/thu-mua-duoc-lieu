@@ -2,10 +2,7 @@ import React from "react";
 import { ArrowRight, Quote } from "lucide-react";
 
 interface MissionStoryProps {
-  /** Ảnh vùng trồng (biến thể phân giải cao của herb.image). */
   imageUrl: string;
-  /** Tên đối tác bao tiêu (VIETMEC). */
-  partnerName: string;
   onReadStory: () => void;
 }
 
@@ -15,7 +12,7 @@ interface MissionStoryProps {
  * nạn "được mùa mất giá", thương lái ép giá, và vai trò kết nối đối tác bao tiêu.
  * Copy tái sử dụng từ AboutPage + bài wiki liên kết ba bên.
  */
-export const MissionStory: React.FC<MissionStoryProps> = ({ imageUrl, partnerName, onReadStory }) => {
+export const MissionStory: React.FC<MissionStoryProps> = ({ imageUrl, onReadStory }) => {
   return (
     <section
       id="homepage-mission"
@@ -49,8 +46,8 @@ export const MissionStory: React.FC<MissionStoryProps> = ({ imageUrl, partnerNam
               <strong className="text-white font-semibold">kỹ thuật canh tác còn yếu</strong> khiến
               dược liệu dính dư lượng, bị từ chối mua; và{" "}
               <strong className="text-white font-semibold">đầu ra bấp bênh</strong> vì phụ thuộc
-              thương lái trôi nổi. Tôi chia sẻ kỹ thuật chuẩn GACP-WHO và kết nối bà con với đầu mối
-              bao tiêu uy tín <strong className="text-white font-semibold">{partnerName}</strong>.
+              thương lái trôi nổi. Tôi chia sẻ kỹ thuật thực địa và thông tin các kênh tiêu thụ
+              để bà con tự quyết định kênh bán phù hợp với quy mô của mình.
             </p>
           </div>
 

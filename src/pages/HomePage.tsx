@@ -1,7 +1,7 @@
 import React from "react";
 import { ChevronRight, Sprout, Coins, Compass } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import { HERBS_DATA, REGIONS_DATA, PARTNER_COMPANY, SITE_OWNER, WIKI_ARTICLES, FEATURED_PARTNER, buildLandingUrl } from "../lib/data";
+import { HERBS_DATA, REGIONS_DATA, SITE_OWNER, WIKI_ARTICLES } from "../lib/data";
 import { ArticleCard, CtaBanner, HerbCard, HomeHero, MissionStory, PillarDoorCard } from "../components/ui";
 import { paths } from "../lib/paths";
 import { Seo, homeSeo } from "../lib/seo";
@@ -47,7 +47,7 @@ export const HomePage: React.FC = () => {
           tone="green"
           eyebrow="Silo kiến thức"
           title="Học kỹ thuật trồng"
-          desc="Cẩm nang chọn giống, chăm sóc, phòng sâu bệnh và sơ chế sấy đạt chuẩn GACP-WHO."
+          desc="Cẩm nang chọn giống, chăm sóc, phòng trừ sâu bệnh và kỹ thuật sơ chế sau thu hoạch."
           ctaLabel="Vào thư viện kiến thức"
           onClick={() => navigate(paths.knowledge())}
         />
@@ -56,7 +56,7 @@ export const HomePage: React.FC = () => {
           tone="terracotta"
           eyebrow="Silo thu mua"
           title="Xem giá & bán dược liệu"
-          desc="Tra bảng giá theo cây và vùng trồng, so sánh, kết nối đầu mối bao tiêu uy tín."
+          desc="Tra bảng giá thu mua theo từng cây và vùng trồng, so sánh các kênh tiêu thụ phù hợp."
           ctaLabel="Xem bảng giá thu mua"
           onClick={() => navigate(paths.pillar())}
         />
@@ -66,7 +66,6 @@ export const HomePage: React.FC = () => {
       {/* 3. Band câu chuyện / sứ mệnh — điểm nhớ chính (signature) */}
       <MissionStory
         imageUrl={MISSION_IMAGE}
-        partnerName={PARTNER_COMPANY.name}
         onReadStory={() => navigate(paths.about())}
       />
 
@@ -158,13 +157,13 @@ export const HomePage: React.FC = () => {
         </div>
       </section>
 
-      {/* 7. CTA cuối — mời kết nối đầu mối bao tiêu (outbound + UTM) */}
+      {/* 7. CTA cuối — mời liên hệ tư vấn */}
       <div className="mt-16">
         <CtaBanner
-          title="Sẵn sàng bán dược liệu đúng giá?"
-          description={`Khi cây vào vụ, kết nối trực tiếp phòng thu mua của ${PARTNER_COMPANY.name} để nhận báo giá bao tiêu cho lô hàng của bạn.`}
-          buttonText="Kết nối đầu mối bao tiêu"
-          href={buildLandingUrl(FEATURED_PARTNER, { pageType: "home", ctaPosition: "footer" })}
+          title="Cần tư vấn kênh bán hoặc kỹ thuật trồng?"
+          description="Tôi trả lời trực tiếp qua email — bà con cứ hỏi cụ thể về cây, vùng, quy mô để tôi hỗ trợ đúng chỗ."
+          buttonText="Gửi câu hỏi cho tôi"
+          href="/lien-he"
         />
       </div>
     </div>

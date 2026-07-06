@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Sprout, ArrowRight, Search, X } from "lucide-react";
-import { WIKI_ARTICLES, WIKI_HUBS, getHerbBySlug, PARTNER_COMPANY, FEATURED_PARTNER, buildLandingUrl } from "../lib/data";
+import { WIKI_ARTICLES, WIKI_HUBS, getHerbBySlug } from "../lib/data";
 import { ArticleCard, Breadcrumb, CtaBanner } from "../components/ui";
 import { paths, asset } from "../lib/paths";
 import { norm, matchesFields } from "../lib/search";
@@ -65,7 +65,7 @@ export const KnowledgePage: React.FC = () => {
           Kiến Thức Canh Tác &amp; Chế Biến Dược Liệu
         </h1>
         <p className="text-gray-700 text-base md:text-lg max-w-3xl font-sans leading-relaxed">
-          Tổng hợp các bài viết chuyên sâu do <strong className="text-terracotta">Nguyễn Việt Lộc</strong> biên soạn độc lập: kỹ thuật gieo trồng đạt chuẩn GACP-WHO, phân biệt giống thật giả, xử lý sâu bệnh hữu cơ và công nghệ sấy sau thu hoạch.
+          Tổng hợp từ thực địa bởi <strong className="text-terracotta">Nguyễn Việt Lộc</strong>: kỹ thuật gieo trồng, phân biệt giống, xử lý sâu bệnh hữu cơ và sơ chế sau thu hoạch — viết cho bà con áp dụng được ngay.
         </p>
       </section>
 
@@ -199,10 +199,10 @@ export const KnowledgePage: React.FC = () => {
       </section>
 
       <CtaBanner
-        title="Cần tư vấn kỹ thuật trồng cho vùng nguyên liệu của bạn?"
-        description={`Gửi thông tin để đội ngũ kỹ sư nông nghiệp của ${PARTNER_COMPANY.name} đồng hành khảo sát thực địa và chuyển giao quy trình canh tác đạt chuẩn.`}
-        buttonText="Gửi yêu cầu tư vấn"
-        href={buildLandingUrl(FEATURED_PARTNER, { pageType: "knowledge", ctaPosition: "footer" })}
+        title="Cần tư vấn kỹ thuật trồng cho vùng của bạn?"
+        description="Hỏi cụ thể về loại cây, vùng đất, mùa vụ — tôi sẽ trả lời thẳng từ kinh nghiệm thực địa."
+        buttonText="Gửi câu hỏi kỹ thuật"
+        href="/lien-he"
       />
     </div>
   );

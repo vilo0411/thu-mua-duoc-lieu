@@ -6,7 +6,6 @@ import {
   HERBS_DATA,
   OWNER_EMAIL,
   OWNER_URL,
-  PARTNER_COMPANY,
   SITE_OWNER,
   WIKI_ARTICLES,
 } from "../../lib/data";
@@ -24,7 +23,7 @@ export const Footer: React.FC = () => {
               Về Nguyễn Việt Lộc
             </h4>
             <p className="text-gray-300 text-sm leading-relaxed font-sans">
-              Nguyễn Việt Lộc chia sẻ kinh nghiệm thực tế về canh tác, định giá cây thảo mộc và liên kết sấy khô đạt chuẩn đông y GACP-WHO, định hướng làm giàu bền vững cùng doanh nghiệp uy tín.
+              Nguyễn Việt Lộc chia sẻ kinh nghiệm thực địa về canh tác dược liệu, giá thu mua và cách tìm kênh tiêu thụ phù hợp — dành cho nông dân, HTX và cán bộ khuyến nông.
             </p>
             <Link
               to={paths.about()}
@@ -117,7 +116,7 @@ export const Footer: React.FC = () => {
         <div className="border-t border-white/10 pt-6 text-xs text-gray-400 font-sans leading-relaxed text-left space-y-2">
           <p className="font-bold text-[#EFE6DA]">Tuyên bố trách nhiệm độc lập:</p>
           <p>
-            Các kiến thức, báo cáo kiểm định và chỉ số dải giá giao dịch đăng tải trên trang điện tử cá nhân {OWNER_URL} đều do nhà sáng lập chuyên gia nông học {SITE_OWNER} trực tiếp khảo nghiệm thực tế, biên tập độc lập và chịu trách nhiệm khách quan. Việc gợi ý và hướng dẫn đấu nối tới bộ phận thu gom bao tiêu của tập đoàn dược liệu {PARTNER_COMPANY.name} (mã {PARTNER_COMPANY.stockCode}) dựa trên chất lượng nhà máy sấy đạt chuẩn GMP-WHO thực tế để bảo vệ lợi ích tối đa của nông hộ, hoàn toàn không mang tính quảng cáo thương mại ép buộc.
+            Nội dung trên {OWNER_URL} do {SITE_OWNER} biên soạn độc lập từ kinh nghiệm thực địa. Thông tin giá thu mua và kênh tiêu thụ mang tính tham khảo — bà con nên xác minh lại với đơn vị mua trực tiếp trước khi giao dịch. Trang không đại diện cho bất kỳ doanh nghiệp thu mua nào.
           </p>
         </div>
 

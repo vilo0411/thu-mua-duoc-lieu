@@ -5,7 +5,6 @@ interface CtaBannerProps {
   title: string;
   description: string;
   buttonText: string;
-  /** Link outbound về landing (kèm UTM) — dựng bằng buildLandingUrl (PRD §8.3). */
   href: string;
 }
 
@@ -27,8 +26,8 @@ export const CtaBanner: React.FC<CtaBannerProps> = ({ title, description, button
       <a
         id="cta-banner-btn"
         href={href}
-        target="_blank"
-        rel="noopener"
+        target={href.startsWith("/") ? undefined : "_blank"}
+        rel={href.startsWith("/") ? undefined : "noopener"}
         className="shrink-0 bg-earth hover:bg-[#E19224] text-pine-900 font-sans font-bold text-base px-6 py-3.5 rounded-lg shadow-md transition-all transform hover:scale-[1.02] active:scale-[0.98] cursor-pointer inline-flex items-center gap-2"
       >
         <span>{buttonText}</span>

@@ -1,7 +1,7 @@
 import React from "react";
-import { Globe, Mail, User } from "lucide-react";
+import { Globe, Mail, MapPin, User } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import { SITE_OWNER, FEATURED_PARTNER } from "../lib/data";
+import { SITE_OWNER } from "../lib/data";
 import { Breadcrumb } from "../components/ui";
 import { paths } from "../lib/paths";
 import { Seo, aboutSeo } from "../lib/seo";
@@ -19,35 +19,50 @@ export const AboutPage: React.FC = () => {
             <User className="w-12 h-12" />
           </div>
           <div className="space-y-1 text-center md:text-left">
-            <span className="text-terracotta font-mono text-xs font-bold uppercase tracking-[0.15em] block mb-1">// Nhà sáng lập &amp; Chuyên gia Nông học</span>
+            <span className="text-terracotta font-mono text-xs font-bold uppercase tracking-[0.15em] block mb-1">// Kỹ sư nông học · Thực địa dược liệu</span>
             <h1 className="font-serif text-3xl font-bold text-ink-soft">{SITE_OWNER}</h1>
-            <p className="text-sm text-gray-500 font-mono">lien-he@nguyenvietloc.com • nguyenvietloc.com</p>
+            <p className="text-sm text-gray-500 font-mono">lien-he@nguyenvietloc.com · nguyenvietloc.com</p>
           </div>
         </div>
 
-        <div className="space-y-4 text-base text-ink leading-relaxed font-sans">
+        <div className="space-y-5 text-base text-ink leading-relaxed font-sans">
           <p>
-            Chào bà con nông dân, các đồng chí đại diện Hợp tác xã và quý anh chị thương lái thu mua trên khắp mọi miền tổ quốc. Tôi là <strong>Nguyễn Việt Lộc</strong>, một cựu kỹ sư nông học độc lập có hơn 12 năm đi thực tế, kiểm tra vùng quy hoạch hạt giống và cố vấn cho các chuỗi lò sấy dược thô tại Việt Nam.
+            Tôi là <strong>Nguyễn Việt Lộc</strong>, kỹ sư nông học, hơn 12 năm đi thực địa tại các vùng trồng dược liệu miền núi phía Bắc và Tây Nguyên. Tôi đã khảo sát vùng nguyên liệu tại Sơn La, Hòa Bình, Lào Cai, Kon Tum — làm việc trực tiếp với hộ nông dân, tổ hợp tác và các cơ sở sấy chiết nhỏ.
           </p>
+
+          <div className="bg-paper-2 border border-line rounded-xl p-5 space-y-2">
+            <h3 className="font-serif font-bold text-lg text-ink-soft">Tại sao tôi làm trang này</h3>
+            <p>
+              Năm 2019, tôi chứng kiến bà con ở một bản tại Hòa Bình trồng đinh lăng theo phong trào, không có hợp đồng trước. Đến vụ thu hoạch, thương lái ép giá từ 120.000đ xuống còn 28.000đ/kg khô — hoặc bỏ đặt cọc luôn. Cả bản lỗ nặng.
+            </p>
+            <p>
+              Chuyện đó xảy ra lặp đi lặp lại ở nhiều nơi vì hai nguyên nhân gốc: <strong>kỹ thuật canh tác chưa đạt</strong> khiến dược liệu bị từ chối, và <strong>thiếu thông tin giá cả</strong> khiến bà con không biết mình đang bị ép. Trang này là cách tôi góp phần giải hai bài toán đó — chia sẻ kỹ thuật thực địa và cập nhật giá thu mua theo mùa vụ.
+            </p>
+          </div>
+
           <p>
-            Dự án trang điện tử cá nhân <strong>nguyenvietloc.com</strong> được tôi thành lập với sứ mệnh giải quyết 2 bài toán lớn lớn nhất của ngành thảo dược nước nhà:
-            <strong className="text-terracotta"> Kỹ thuật canh tác yếu kém </strong> dính tàn dư hóa chất bảo vệ thực vật bị từ chối mua, và <strong className="text-terracotta"> Sự bấp bênh rủi ro của thương lái trôi nổi </strong> dẫn tới thảm cảnh nông sản thối rữa đầy đồng.
+            Trang này <strong>độc lập</strong> — tôi không đại diện cho bất kỳ đơn vị thu mua nào. Thông tin giá và kênh tiêu thụ tôi chia sẻ là tổng hợp từ khảo sát thực tế, không thiên vị đầu mối nào. Khi tôi giới thiệu một đơn vị thu mua cụ thể, tôi nói rõ đó là một trong nhiều lựa chọn và bà con nên so sánh trước khi quyết định.
           </p>
+
           <p>
-            Mọi kiến thức tôi chia sẻ tại trang điện tử này đều độc lập, khách quan, dựa trên giáo án tập huấn thực tế GACP-WHO của Tổ chức Y tế Thế giới. Đồng thời, tôi kết nối cho bà con nông hộ, HTX đấu đầu mối trực tiếp với các cán bộ thu mua của đối tác chiến lược uy tín là <strong>{FEATURED_PARTNER.fullName}</strong> nhằm mục đích đảm bảo dòng bao tiêu sạch, pháp lý cam kết vững bền cho gia đình bà con làm giàu.
+            Bà con, HTX hay cán bộ khuyến nông có câu hỏi về kỹ thuật, giá cả hoặc cách tìm đầu ra — cứ liên hệ thẳng với tôi qua email bên dưới.
           </p>
         </div>
 
         <div className="bg-paper-2 p-5 rounded-xl border border-line space-y-3">
-          <h4 className="font-serif text-lg font-bold text-ink-soft">Thông tin liên hệ tư vấn kỹ thuật trực tiếp:</h4>
+          <h4 className="font-serif text-lg font-bold text-ink-soft">Liên hệ trực tiếp</h4>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
             <div className="flex items-center gap-2">
-              <Mail className="w-4.5 h-4.5 text-terracotta" />
-              <span>Hộp thư cá nhân: <strong>lien-he@nguyenvietloc.com</strong></span>
+              <Mail className="w-4 h-4 text-terracotta shrink-0" />
+              <span>Email: <strong>lien-he@nguyenvietloc.com</strong></span>
             </div>
             <div className="flex items-center gap-2">
-              <Globe className="w-4.5 h-4.5 text-terracotta" />
-              <span>Trang chủ chính thức: <strong>nguyenvietloc.com</strong></span>
+              <Globe className="w-4 h-4 text-terracotta shrink-0" />
+              <span>Website: <strong>nguyenvietloc.com</strong></span>
+            </div>
+            <div className="flex items-center gap-2 sm:col-span-2">
+              <MapPin className="w-4 h-4 text-terracotta shrink-0" />
+              <span>Vùng đã khảo sát: Tây Bắc, Đông Bắc, Bắc Trung Bộ, Tây Nguyên</span>
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Breadcrumb } from "../components/ui";
-import { FEATURED_PARTNER } from "../lib/data";
+
 import { paths } from "../lib/paths";
 import { Seo, contactSeo } from "../lib/seo";
 
@@ -17,7 +17,7 @@ export const ContactPage: React.FC = () => {
           <span className="text-terracotta font-mono text-xs font-bold uppercase tracking-[0.15em] block mb-1">// Gửi phản hồi</span>
           <h1 className="font-serif text-2xl md:text-3xl font-bold text-ink-soft tracking-tight">Hộp Thư Tư Vấn Nguyễn Việt Lộc</h1>
           <p className="text-sm text-gray-600">
-            Bà con có thắc mắc về sâu hại dính mốc rễ củ, cần tôi thẩm định vườn ươm giống, hoặc muốn ký kết bao tiêu sấy thô với doanh nghiệp? Gửi thư ngay để nhận phản hồi.
+            Bà con có câu hỏi về kỹ thuật trồng, sâu bệnh, giá thu mua hay kênh tiêu thụ? Cứ gửi thẳng — tôi đọc và trả lời trực tiếp.
           </p>
         </div>
 
@@ -50,7 +50,7 @@ export const ContactPage: React.FC = () => {
 
         <div className="border-t border-sand pt-5 text-xs text-gray-500 italic space-y-1">
           <p>Hộp thư cá nhân chính thức: <strong>lien-he@nguyenvietloc.com</strong></p>
-          <p>Liên hệ phòng thu mua trung tâm đối tác {FEATURED_PARTNER.name}: <strong>thu-mua@vietmec.com</strong></p>
+          <p>Bà con cũng có thể tham khảo thông tin các kênh tiêu thụ tại <a href="/thu-mua-duoc-lieu" className="text-terracotta underline">trang thu mua dược liệu</a>.</p>
         </div>
       </section>
     </div>

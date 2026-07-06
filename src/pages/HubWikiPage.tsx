@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Bug, ChevronDown, Coins, Droplets, FileText, HelpCircle, Leaf, Package, Sprout } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import { HERBS_DATA, PARTNER_COMPANY, WIKI_ARTICLES, WIKI_HUBS } from "../lib/data";
+import { HERBS_DATA, WIKI_ARTICLES, WIKI_HUBS } from "../lib/data";
 import { Breadcrumb, DataTable, FaqAccordion, LandingLink, StickyToc } from "../components/ui";
 import { paths, asset } from "../lib/paths";
 import { Seo, hubSeo } from "../lib/seo";
@@ -282,8 +282,8 @@ export const HubWikiPage: React.FC<{ herbSlug: string }> = ({ herbSlug }) => {
             <div className="bg-paper-2 p-6 rounded-xl border border-line space-y-4">
               <p className="text-ink text-base leading-relaxed font-sans">
                 Sau thu hoạch, {herb.name} cần được sơ chế và sấy đạt độ ẩm chuẩn trước khi giao cho đầu mối. Bà con có
-                thể tham khảo bảng giá phân loại chi tiết ngay tại trang định giá của cây. Với các đơn vị bao tiêu quy mô
-                như {PARTNER_COMPANY.name}, hàng đạt chuẩn GACP-WHO thường được thu mua theo hợp đồng dài hạn với giá ổn định.
+                thể tham khảo bảng giá phân loại chi tiết ngay tại trang định giá của cây, hoặc xem các kênh tiêu thụ phù hợp
+                với quy mô và chất lượng hàng của mình.
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <button

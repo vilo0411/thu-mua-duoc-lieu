@@ -1,8 +1,8 @@
 import React from "react";
 import { ChevronRight, Leaf, ShieldCheck, Bug, Clock, Thermometer, Sprout, Package } from "lucide-react";
 import { useNavigate, useParams } from "react-router-dom";
-import { HERBS_DATA, PARTNER_COMPANY, FEATURED_PARTNER, buildLandingUrl } from "../lib/data";
-import { Breadcrumb, CtaBanner, FaqAccordion, FeaturedPartnerCard, NeutralPartnerCard, PriceBoard, PestList, HerbPriceCalculator } from "../components/ui";
+import { HERBS_DATA } from "../lib/data";
+import { Breadcrumb, CtaBanner, FaqAccordion, SaleChannelsCard, PriceBoard, PestList, HerbPriceCalculator } from "../components/ui";
 
 /** Chọn icon cho thẻ thông số dựa trên từ khoá trong nhãn, giúp bà con liếc là nhận ra. */
 const statIcon = (label: string): React.ElementType => {
@@ -24,7 +24,7 @@ export const MoneyCayPage: React.FC = () => {
   const herb = HERBS_DATA.find((h) => h.slug === cay);
   if (!herb) return <NotFoundPage />;
 
-  const calcCtaHref = buildLandingUrl(FEATURED_PARTNER, { cay: herb.slug, pageType: "money_cay", ctaPosition: "calculator" });
+  const calcCtaHref = `/lien-he`;
 
   return (
     <div className="space-y-10 animate-fade-in">
@@ -136,21 +136,20 @@ export const MoneyCayPage: React.FC = () => {
         <HerbPriceCalculator prices={herb.prices} herbName={herb.name} ctaHref={calcCtaHref} />
       </section>
 
-      {/* Partner cards */}
+      {/* Kênh bán hàng */}
       <section className="space-y-4">
-        <h3 className="font-serif text-xl font-bold text-ink-soft border-b border-line pb-2">Đề xuất kênh bán hàng {herb.name} minh bạch</h3>
-        <FeaturedPartnerCard herbName={herb.name} cay={herb.slug} pageType="money_cay" />
-        <NeutralPartnerCard />
+        <h3 className="font-serif text-xl font-bold text-ink-soft border-b border-line pb-2">Kênh tiêu thụ {herb.name}</h3>
+        <SaleChannelsCard herbName={herb.name} cay={herb.slug} pageType="money_cay" />
       </section>
 
       {/* Standards */}
       <section className="bg-white border border-line rounded-xl p-6 space-y-4">
         <h3 className="font-serif text-xl font-bold text-ink-soft flex items-center gap-2">
           <ShieldCheck className="w-6 h-6 text-green-600" />
-          Yêu cầu tiêu chuẩn kiểm định dược phẩm của nhà máy sấy
+          Tiêu chuẩn chất lượng để bán được giá tốt
         </h3>
         <p className="text-sm text-gray-600 font-sans">
-          Mọi lô hàng {herb.name} trước khi đưa vào kho lò chưng cất sấy điện của doanh nghiệp bao tiêu đều phải đạt tối thiểu 4 tiêu chí khắt khe sau:
+          Đây là các tiêu chí nhà máy chế biến thường kiểm tra khi nhận hàng {herb.name}. Đạt càng nhiều tiêu chí, bà con càng dễ thương lượng giá cao:
         </p>
         <ul className="space-y-3.5 pl-1">
           {herb.standards.map((std, idx) => (
@@ -165,8 +164,8 @@ export const MoneyCayPage: React.FC = () => {
       {/* Region cards */}
       {herb.regions.length > 0 && (
       <section className="space-y-4">
-        <h3 className="font-serif text-xl font-bold text-ink-soft">Các vùng canh tác chính và sản lượng bao tiêu</h3>
-        <p className="text-sm text-gray-600 font-sans">Nhấp vào vùng trồng để kết nối hợp tác xã kiểu mới tại vùng để gom hàng chung chuyến xe thu mua:</p>
+        <h3 className="font-serif text-xl font-bold text-ink-soft">Các vùng trồng trọng điểm</h3>
+        <p className="text-sm text-gray-600 font-sans">Nhấp vào vùng để xem chi tiết tỉnh thành, sản lượng và thông tin HTX tại vùng:</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {herb.regions.map((reg, idx) => (
             <div
@@ -205,7 +204,7 @@ export const MoneyCayPage: React.FC = () => {
         <div className="space-y-2">
           <span className="text-terracotta font-mono text-xs font-bold uppercase tracking-[0.15em] block mb-1">// Tài liệu hướng dẫn</span>
           <h4 className="font-serif text-xl font-bold text-ink-soft">Kỹ thuật gieo trồng chăm sóc {herb.name} đúng quy chuẩn nông nghiệp sạch</h4>
-          <p className="text-sm text-gray-600 max-w-xl">Cung cấp bởi chuyên gia Nguyễn Việt Lộc, đồng biên soạn từ giáo trình tập huấn GACP của đối tác thu mua.</p>
+          <p className="text-sm text-gray-600 max-w-xl">Tổng hợp từ thực địa bởi Nguyễn Việt Lộc — từ chọn giống, chăm sóc đến thu hoạch và sơ chế đúng cách.</p>
         </div>
         <button
           onClick={() => navigate(paths.hubWiki(herb.slug))}
@@ -224,10 +223,10 @@ export const MoneyCayPage: React.FC = () => {
       )}
 
       <CtaBanner
-        title={`Gửi lô hàng ${herb.name} để đấu nối bao tiêu`}
-        description={`Nhận ngay phản hồi của Trưởng ban mua hàng khu vực của tập đoàn sấy sạch dược phẩm ${PARTNER_COMPANY.name} để thương thảo giá thu mua sàn của bà con.`}
-        buttonText="Bắt đầu gửi thông số lô hàng"
-        href={buildLandingUrl(FEATURED_PARTNER, { cay: herb.slug, pageType: "money_cay", ctaPosition: "footer" })}
+        title={`Có thắc mắc về giá hoặc kênh bán ${herb.name}?`}
+        description="Bà con cứ hỏi cụ thể — vùng trồng, số lượng, chất lượng hàng — tôi sẽ tư vấn kênh phù hợp nhất."
+        buttonText="Gửi câu hỏi cho tôi"
+        href="/lien-he"
       />
     </div>
   );
