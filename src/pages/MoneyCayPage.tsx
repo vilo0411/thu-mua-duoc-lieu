@@ -13,7 +13,7 @@ const statIcon = (label: string): React.ElementType => {
   if (l.includes("đất") || l.includes("trồng")) return Sprout;
   return Leaf;
 };
-import { paths } from "../lib/paths";
+import { paths, asset } from "../lib/paths";
 import { Seo, herbSeo } from "../lib/seo";
 import { NotFoundPage } from "./NotFoundPage";
 
@@ -38,7 +38,7 @@ export const MoneyCayPage: React.FC = () => {
       {/* Hero */}
       <section className="relative bg-gradient-to-r from-paper to-sand border border-line rounded-2xl p-6 md:p-10 flex flex-col md:flex-row gap-6 items-center">
         <div className="md:w-1/3 aspect-4/3 w-full bg-gray-100 rounded-xl overflow-hidden shadow-xs shrink-0">
-          <img src={herb.image} alt={herb.name} referrerPolicy="no-referrer" className="w-full h-full object-cover" />
+          <img src={asset(herb.image)} alt={herb.name} referrerPolicy="no-referrer" className="w-full h-full object-cover" />
         </div>
         <div className="md:w-2/3 space-y-4">
           <div className="flex flex-wrap items-center gap-2">

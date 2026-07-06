@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Sprout, ArrowRight, Search, X } from "lucide-react";
 import { WIKI_ARTICLES, WIKI_HUBS, getHerbBySlug, PARTNER_COMPANY, FEATURED_PARTNER, buildLandingUrl } from "../lib/data";
 import { ArticleCard, Breadcrumb, CtaBanner } from "../components/ui";
-import { paths } from "../lib/paths";
+import { paths, asset } from "../lib/paths";
 import { norm, matchesFields } from "../lib/search";
 import { Seo, knowledgeSeo } from "../lib/seo";
 import type { HerbGroup } from "../types";
@@ -131,7 +131,7 @@ export const KnowledgePage: React.FC = () => {
                   >
                     <div className="aspect-video bg-gray-100 overflow-hidden relative">
                       <img
-                        src={herb?.image}
+                        src={asset(herb?.image)}
                         alt={`Kỹ thuật trồng ${hub.herbName}`}
                         referrerPolicy="no-referrer"
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"

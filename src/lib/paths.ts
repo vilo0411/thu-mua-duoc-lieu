@@ -20,3 +20,15 @@ export const paths = {
 
 /** Tiền tố slug của hub kỹ thuật trong silo Kiến thức. */
 export const HUB_SLUG_PREFIX = "ky-thuat-trong-";
+
+/**
+ * Giải một đường dẫn asset nội bộ (vd "/images/cay/x.jpg") theo base deploy.
+ * Cần cho <img src> vì request ảnh đi thẳng tới origin, KHÔNG qua basename router:
+ * trên GitHub Pages ("/thu-mua-duoc-lieu/") "/images/..." sẽ 404 nếu thiếu base.
+ * URL đầy đủ (http/https, data:) được giữ nguyên.
+ */
+export function asset(src: string | undefined): string {
+  if (!src || /^(https?:)?\/\//.test(src) || src.startsWith("data:")) return src ?? "";
+  const base = import.meta.env.BASE_URL; // "/" khi dev, "/thu-mua-duoc-lieu/" khi build
+  return `${base.replace(/\/$/, "")}/${src.replace(/^\//, "")}`;
+}

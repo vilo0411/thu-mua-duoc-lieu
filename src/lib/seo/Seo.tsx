@@ -1,5 +1,6 @@
 import React from "react";
 import { SITE } from "../data";
+import { asset } from "../paths";
 import { canonical } from "./config";
 
 export interface SeoProps {
@@ -32,7 +33,8 @@ export const Seo: React.FC<SeoProps> = ({
   noindex = false,
 }) => {
   const url = canonical(path);
-  const ogImage = image ?? undefined;
+  // Ảnh nội bộ cần gắn base deploy (giống <img>); URL đầy đủ giữ nguyên.
+  const ogImage = image ? asset(image) : undefined;
   const blocks = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
 
   return (

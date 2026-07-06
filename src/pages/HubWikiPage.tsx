@@ -3,7 +3,7 @@ import { Bug, ChevronDown, Coins, Droplets, FileText, HelpCircle, Leaf, Package,
 import { useNavigate } from "react-router-dom";
 import { HERBS_DATA, PARTNER_COMPANY, WIKI_ARTICLES, WIKI_HUBS } from "../lib/data";
 import { Breadcrumb, DataTable, FaqAccordion, LandingLink, StickyToc } from "../components/ui";
-import { paths } from "../lib/paths";
+import { paths, asset } from "../lib/paths";
 import { Seo, hubSeo } from "../lib/seo";
 import { NotFoundPage } from "./NotFoundPage";
 
@@ -141,7 +141,7 @@ export const HubWikiPage: React.FC<{ herbSlug: string }> = ({ herbSlug }) => {
       <section className="grid md:grid-cols-2 gap-5 md:gap-6 md:items-start">
         <div className="order-1 md:order-2 rounded-2xl overflow-hidden border border-line bg-sand aspect-[16/10]">
           <img
-            src={herb.image}
+            src={asset(herb.image)}
             alt={`Cây ${herb.name} (${herb.scientificName}) — kỹ thuật trồng và chăm sóc`}
             className="w-full h-full object-cover"
             loading="eager"

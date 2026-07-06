@@ -1,5 +1,6 @@
 import React from "react";
 import { Calendar, Clock, User } from "lucide-react";
+import { asset } from "../../lib/paths";
 
 interface ArticleCardProps {
   title: string;
@@ -29,7 +30,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
     >
       <div className="md:w-1/3 aspect-video md:aspect-auto bg-gray-100 overflow-hidden relative">
         <img
-          src={image}
+          src={asset(image)}
           alt={title}
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-300"

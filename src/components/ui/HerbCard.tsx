@@ -1,5 +1,6 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
+import { asset } from "../../lib/paths";
 
 interface HerbCardProps {
   name: string;
@@ -18,7 +19,7 @@ export const HerbCard: React.FC<HerbCardProps> = ({ name, scientificName, priceR
     >
       <div className="relative aspect-4/3 overflow-hidden bg-gray-100">
         <img
-          src={image}
+          src={asset(image)}
           alt={name}
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
