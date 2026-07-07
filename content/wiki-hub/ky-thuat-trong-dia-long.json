@@ -1,0 +1,31 @@
+{
+  "id": "ky-thuat-trong-dia-long",
+  "slug": "ky-thuat-trong-dia-long-lam-duoc-lieu",
+  "herbSlug": "dia-long",
+  "herbName": "Địa long",
+  "title": "Kỹ thuật nuôi và sơ chế Địa long (giun đất) làm dược liệu",
+  "intro": "Địa long là giun đất, có thể nuôi trên nền hữu cơ hoặc thu bắt tự nhiên, sau đó làm sạch và sấy khô làm thuốc. Nguyễn Việt Lộc tổng hợp quy trình nuôi, thu và sơ chế giun đất theo hướng sạch, đạt chuẩn dược liệu.",
+  "standards": [
+    {
+      "stage": "Nuôi và chọn giun",
+      "criteria": "Nuôi trên nền phân hữu cơ hoai mục, ẩm, thoáng, tránh hóa chất; chọn giun to khỏe, sạch để làm dược liệu.",
+      "controlMethod": "Duy trì độ ẩm và nhiệt độ luống nuôi ổn định, cho ăn nguồn hữu cơ sạch, không nhiễm thuốc bảo vệ thực vật hay kim loại nặng."
+    },
+    {
+      "stage": "Làm sạch và sấy khô",
+      "criteria": "Giun được làm sạch ruột, loại hết đất cát, sấy khô đến giòn, không thối, không mốc.",
+      "controlMethod": "Cho giun nhả sạch đất, mổ/làm sạch theo yêu cầu, rửa và sấy khô ở nhiệt độ phù hợp đến khô kiệt rồi bảo quản kín."
+    }
+  ],
+  "pests": [],
+  "faq": [
+    {
+      "question": "Nuôi địa long làm dược liệu cần lưu ý gì để đạt chuẩn?",
+      "answer": "Quan trọng nhất là nguồn thức ăn và nền nuôi sạch, không nhiễm hóa chất hay kim loại nặng, vì dược liệu động vật rất dễ tồn dư. Giun to khỏe, làm sạch ruột và sấy khô kiệt sẽ đạt chuẩn thu mua."
+    },
+    {
+      "question": "Địa long sấy khô bảo quản thế nào?",
+      "answer": "Sau khi sấy khô giòn phải đóng gói kín, để nơi khô ráo tránh ẩm mốc và mọt. Bảo quản tốt giúp giữ màu, mùi đặc trưng và giá trị thương phẩm."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "ky-thuat-trong-phen-chua",
+  "slug": "ky-thuat-trong-phen-chua-lam-duoc-lieu",
+  "herbSlug": "phen-chua",
+  "herbName": "Phèn chua",
+  "title": "Kỹ thuật khai thác và tinh chế Phèn chua (Kali nhôm sunfat) đạt độ tinh khiết làm dược liệu",
+  "intro": "Phèn chua là khoáng vật kết tinh, không phải cây trồng, nên giá trị dược liệu phụ thuộc vào khâu tinh chế và bảo quản. Chuyên gia Nguyễn Việt Lộc tổng hợp quy trình chọn nguyên liệu, kết tinh và kiểm soát tạp chất để phèn đạt độ tinh khiết cao, an toàn khi dùng làm thuốc.",
+  "standards": [
+    {
+      "stage": "Chọn nguyên liệu và tinh chế",
+      "criteria": "Phèn dược dụng phải là tinh thể kali nhôm sunfat ngậm nước, trong suốt, không lẫn tạp kim loại nặng, tạp chất bùn đất.",
+      "controlMethod": "Hòa tan, lọc bỏ cặn rồi kết tinh lại nhiều lần để loại tạp; kiểm tra cảm quan trong suốt và định tính đạt tiêu chuẩn dược điển trước khi nhập kho."
+    },
+    {
+      "stage": "Phơi sấy và bảo quản",
+      "criteria": "Tinh thể phèn khô ráo, không chảy nước, giữ nguyên khối trong suốt, độ ẩm thấp để tránh vón cục.",
+      "controlMethod": "Bảo quản trong bao kín, nơi khô mát, tránh nắng nóng và ẩm; đóng gói đúng quy cách, ghi rõ nguồn gốc để đơn vị thu mua truy xuất."
+    }
+  ],
+  "pests": [],
+  "faq": [
+    {
+      "question": "Phèn chua làm dược liệu khác gì phèn công nghiệp?",
+      "answer": "Phèn dùng làm thuốc phải đạt độ tinh khiết cao, không lẫn kim loại nặng và tạp chất như phèn công nghiệp xử lý nước. Vì vậy phải tinh chế kết tinh lại nhiều lần và kiểm nghiệm đạt chuẩn dược điển; hàng đạt chuẩn dược dụng luôn được thu mua giá cao hơn."
+    },
+    {
+      "question": "Bảo quản phèn chua thế nào để không hỏng?",
+      "answer": "Phèn dễ hút ẩm và chảy nước, nên phải để nơi khô mát, đóng bao kín, tránh nắng nóng trực tiếp. Bảo quản đúng cách phèn giữ được khối tinh thể trong suốt, không vón cục, giữ nguyên giá trị thương phẩm."
+    }
+  ]
+}

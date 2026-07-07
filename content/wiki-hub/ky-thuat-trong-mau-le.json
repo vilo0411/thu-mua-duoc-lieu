@@ -1,0 +1,31 @@
+{
+  "id": "ky-thuat-trong-mau-le",
+  "slug": "ky-thuat-trong-mau-le-lam-duoc-lieu",
+  "herbSlug": "mau-le",
+  "herbName": "Mẫu lệ",
+  "title": "Kỹ thuật thu và sơ chế Mẫu lệ (vỏ hàu) làm dược liệu",
+  "intro": "Mẫu lệ là vỏ con hàu, thu gom từ vùng nuôi và khai thác hàu, sau đó làm sạch, phơi khô làm thuốc. Nguyễn Việt Lộc tổng hợp cách chọn, làm sạch và bảo quản vỏ hàu để đạt chuẩn dược liệu.",
+  "standards": [
+    {
+      "stage": "Thu gom và làm sạch vỏ",
+      "criteria": "Vỏ hàu dày, chắc, không lẫn thịt, bùn đất và tạp chất; loại bỏ vỏ vụn nát, mủn.",
+      "controlMethod": "Rửa sạch bùn cát và phần thịt còn bám, ngâm rửa nhiều lần cho hết mùi tanh, phân loại vỏ đạt kích cỡ."
+    },
+    {
+      "stage": "Phơi khô và bảo quản",
+      "criteria": "Vỏ khô ráo, sạch, không mốc, không mùi tanh; giữ nguyên độ cứng chắc.",
+      "controlMethod": "Phơi nắng cho khô kiệt, bảo quản nơi khô thoáng; đóng bao và ghi rõ nguồn gốc để đơn vị thu mua kiểm tra."
+    }
+  ],
+  "pests": [],
+  "faq": [
+    {
+      "question": "Vỏ hàu thế nào thì đạt chuẩn làm dược liệu?",
+      "answer": "Vỏ phải dày chắc, sạch bùn đất và thịt, không mốc, không còn tanh. Sau khi rửa sạch và phơi khô kiệt, hàng đạt độ sạch và khô sẽ được thu mua đúng giá."
+    },
+    {
+      "question": "Cần lưu ý gì khi bảo quản mẫu lệ?",
+      "answer": "Vỏ hàu dễ ám ẩm và mùi nếu để nơi ẩm thấp. Nên bảo quản khô thoáng, đóng bao kín, tránh để chung với hàng có mùi để giữ chất lượng."
+    }
+  ]
+}

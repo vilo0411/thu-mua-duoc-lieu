@@ -1,0 +1,52 @@
+{
+  "id": "ky-thuat-trong-ke-noi-kim",
+  "slug": "ky-thuat-trong-ke-noi-kim-cho-nang-suat-cao",
+  "herbSlug": "ke-noi-kim",
+  "herbName": "Kê nội kim",
+  "title": "Hướng dẫn kỹ thuật canh tác Kê nội kim từ A-Z: chọn đất, nhân giống đến thu hoạch",
+  "intro": "Kê nội kim là dược liệu có đầu ra ổn định, phần thu hái chính là màng mề gà. Chuyên gia Nguyễn Việt Lộc tổng hợp quy trình trồng và chăm sóc theo hướng hữu cơ, kiểm soát tồn dư hóa chất để đạt chuẩn GACP-WHO, phù hợp điều kiện canh tác ở nhiều tỉnh thành.",
+  "standards": [
+    {
+      "stage": "Chọn và xử lý đất trồng",
+      "criteria": "Kê nội kim hợp với không áp dụng (khoáng vật/động vật), độ pH lý tưởng Không áp dụng. Đất cần tơi xốp, tầng canh tác dày để củ, rễ phát triển mập và dài.",
+      "controlMethod": "Cày bừa kỹ, phơi ải và bón vôi bột khử chua trước khi trồng 15–20 ngày; lên luống cao 30–35cm để thoát nước nhanh, tránh úng củ."
+    },
+    {
+      "stage": "Thời vụ và nhân giống",
+      "criteria": "Thời vụ thích hợp: không gieo trồng — khai thác/thu gom theo mùa tự nhiên. Nhân giống bằng thu gom tự nhiên, mật độ khoảng Không áp dụng.",
+      "controlMethod": "Chọn cây giống khỏe, sạch bệnh; trồng đúng khoảng cách để cây đủ ánh sáng, thông thoáng, hạn chế sâu bệnh lây lan và tiện chăm sóc."
+    },
+    {
+      "stage": "Bón phân và chăm sóc theo hướng hữu cơ",
+      "criteria": "Ưu tiên phân chuồng ủ hoai mục với nấm Trichoderma, hạn chế tối đa phân bón và thuốc hóa học để đạt chuẩn GACP-WHO, không tồn dư hóa chất trong dược liệu.",
+      "controlMethod": "Bón lót đầy đủ trước khi trồng, bón thúc theo giai đoạn sinh trưởng; giữ ẩm đều, làm cỏ, tủ gốc và khơi rãnh thoát nước kịp thời trong mùa mưa."
+    },
+    {
+      "stage": "Thu hoạch và sơ chế",
+      "criteria": "Thu hoạch sau khoảng thu gom và sơ chế quanh năm, năng suất tham khảo Phụ thuộc nguồn khai thác tự nhiên. Bộ phận thu hái chính: màng mề gà.",
+      "controlMethod": "Thu đúng độ tuổi để đạt hàm lượng hoạt chất cao nhất; rửa sạch, thái/phơi hoặc sấy khô đến độ ẩm dưới 12%, bảo quản nơi khô ráo tránh ẩm mốc."
+    }
+  ],
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ, héo rũ",
+      "symptoms": "Cây héo rũ từ gốc, rễ hoặc củ thâm đen mềm nhũn có mùi hôi, thường bùng phát trong mùa mưa khi đất bị úng nước lâu ngày.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng nấm đối kháng Trichoderma trước khi trồng, nhổ bỏ và tiêu hủy cây bệnh, tuyệt đối không tưới đọng gốc."
+    },
+    {
+      "pestName": "Sâu ăn lá, sâu xanh",
+      "symptoms": "Lá non bị cắn khuyết loang lổ, xuất hiện phân sâu và trứng bám mặt dưới lá, cây chậm phát triển và giảm năng suất.",
+      "remedy": "Bắt thủ công khi mật độ thấp, luân canh cây trồng, phun chế phẩm sinh học BT (Bacillus thuringiensis) an toàn thay cho thuốc hóa học."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Trồng kê nội kim bao lâu thì được thu hoạch và năng suất ra sao?",
+      "answer": "Với kê nội kim, thời gian từ trồng đến thu hoạch khoảng thu gom và sơ chế quanh năm, năng suất tham khảo đạt Phụ thuộc nguồn khai thác tự nhiên tùy điều kiện đất đai và mức đầu tư chăm sóc. Bà con nên thu đúng độ tuổi để dược liệu đạt hàm lượng hoạt chất và trọng lượng tối ưu, tránh thu non làm giảm chất lượng và giá bán."
+    },
+    {
+      "question": "Làm sao để kê nội kim đạt chuẩn thu mua, bán được giá cao?",
+      "answer": "Muốn bán được giá, màng mề gà phải sạch, phơi hoặc sấy khô đến độ ẩm dưới 12%, không mốc, không lẫn tạp chất và không tồn dư thuốc bảo vệ thực vật theo chuẩn GACP-WHO. Bà con nên canh tác theo hướng hữu cơ, sơ chế đúng kỹ thuật và liên hệ trước với đơn vị bao tiêu để nắm giá và quy cách từng thời điểm."
+    }
+  ]
+}

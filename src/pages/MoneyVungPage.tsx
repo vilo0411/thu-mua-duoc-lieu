@@ -47,7 +47,7 @@ export const MoneyVungPage: React.FC = () => {
         <p className="text-gray-700 text-base md:text-lg max-w-3xl font-sans leading-relaxed">
           {region.name} là {popularityLabel} của cây {herb.name} với sản lượng ước tính {herbRegion.outputEstimate}. Bài
           viết tổng hợp đặc điểm thổ nhưỡng, các tỉnh trọng điểm và cách gửi hàng để bà con, HTX trong vùng bán được giá
-          tốt. Nội dung do <strong className="text-ink-soft">{SITE_OWNER}</strong> biên soạn độc lập.
+          tốt. Nội dung do <strong className="text-ink-soft">{SITE_OWNER}</strong> tổng hợp độc lập từ nguồn tham khảo.
         </p>
       </section>
 

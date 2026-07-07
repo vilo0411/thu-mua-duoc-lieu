@@ -65,7 +65,7 @@ export const KnowledgePage: React.FC = () => {
           Kiến Thức Canh Tác &amp; Chế Biến Dược Liệu
         </h1>
         <p className="text-gray-700 text-base md:text-lg max-w-3xl font-sans leading-relaxed">
-          Tổng hợp từ thực địa bởi <strong className="text-terracotta">Nguyễn Việt Lộc</strong>: kỹ thuật gieo trồng, phân biệt giống, xử lý sâu bệnh hữu cơ và sơ chế sau thu hoạch — viết cho bà con áp dụng được ngay.
+          Do <strong className="text-terracotta">Nguyễn Việt Lộc</strong> tổng hợp từ nguồn uy tín: kỹ thuật gieo trồng, phân biệt giống, xử lý sâu bệnh hữu cơ và sơ chế sau thu hoạch — sắp xếp lại cho bà con dễ áp dụng.
         </p>
       </section>
 
@@ -200,7 +200,7 @@ export const KnowledgePage: React.FC = () => {
 
       <CtaBanner
         title="Cần tư vấn kỹ thuật trồng cho vùng của bạn?"
-        description="Hỏi cụ thể về loại cây, vùng đất, mùa vụ — tôi sẽ trả lời thẳng từ kinh nghiệm thực địa."
+        description="Hỏi cụ thể về loại cây, vùng đất, mùa vụ — tôi sẽ tra cứu, tổng hợp giúp và chỉ nguồn tham khảo."
         buttonText="Gửi câu hỏi kỹ thuật"
         href="/lien-he"
       />

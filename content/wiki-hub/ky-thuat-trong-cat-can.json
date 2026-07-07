@@ -1,0 +1,52 @@
+{
+  "id": "ky-thuat-trong-cat-can",
+  "slug": "ky-thuat-trong-cat-can-dat-chuan-gacp-who",
+  "herbSlug": "cat-can",
+  "herbName": "Cát căn",
+  "title": "Cẩm nang kỹ thuật trồng và chăm sóc Cát căn đạt chuẩn GACP-WHO cho năng suất cao",
+  "intro": "Tài liệu kỹ thuật canh tác Cát căn được chuyên gia Nguyễn Việt Lộc đúc kết từ thực địa tại các vùng trồng Tây Nguyên (Lâm Đồng, Đắk Lắk). Quy trình đi từ khâu chọn đất, nhân giống đến chăm sóc và sơ chế, giúp bà con nông dân trồng cát căn đạt chuẩn dược liệu sạch và bán được giá tốt.",
+  "standards": [
+    {
+      "stage": "Chọn và xử lý đất trồng",
+      "criteria": "Cát căn hợp với đất thịt nhẹ pha cát, tơi xốp, thoát nước tốt, độ pH lý tưởng 5.1 – 6.4. Đất cần tơi xốp, tầng canh tác dày để củ, rễ phát triển mập và dài.",
+      "controlMethod": "Cày bừa kỹ, phơi ải và bón vôi bột khử chua trước khi trồng 15–20 ngày; lên luống cao 30–35cm để thoát nước nhanh, tránh úng củ."
+    },
+    {
+      "stage": "Thời vụ và nhân giống",
+      "criteria": "Thời vụ thích hợp: gieo trồng đầu xuân khi ẩm độ cao. Nhân giống bằng ươm hạt hoặc tách mầm củ, mật độ khoảng 27.000 cây/ha.",
+      "controlMethod": "Chọn hạt giống hoặc hom/cây con khỏe, sạch bệnh; trồng đúng khoảng cách để cây đủ ánh sáng, thông thoáng, hạn chế sâu bệnh lây lan và tiện chăm sóc."
+    },
+    {
+      "stage": "Bón phân và chăm sóc theo hướng hữu cơ",
+      "criteria": "Ưu tiên phân chuồng ủ hoai mục với nấm Trichoderma, hạn chế tối đa phân bón và thuốc hóa học để đạt chuẩn GACP-WHO, không tồn dư hóa chất trong dược liệu.",
+      "controlMethod": "Bón lót đầy đủ trước khi trồng, bón thúc theo giai đoạn sinh trưởng; giữ ẩm đều, làm cỏ, tủ gốc và khơi rãnh thoát nước kịp thời trong mùa mưa."
+    },
+    {
+      "stage": "Thu hoạch và sơ chế",
+      "criteria": "Thu hoạch sau khoảng 10 tháng sau trồng, năng suất tham khảo 6 – 6 tấn khô/ha/năm. Bộ phận thu hái chính: củ, rễ.",
+      "controlMethod": "Thu đúng độ tuổi để đạt hàm lượng hoạt chất cao nhất; rửa sạch, thái/phơi hoặc sấy khô đến độ ẩm dưới 12%, bảo quản nơi khô ráo tránh ẩm mốc."
+    }
+  ],
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "symptoms": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "symptoms": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Trồng cát căn bao lâu thì được thu hoạch và năng suất ra sao?",
+      "answer": "Với cát căn, thời gian từ trồng đến thu hoạch khoảng 10 tháng sau trồng, năng suất tham khảo đạt 6 – 6 tấn khô/ha/năm tùy điều kiện đất đai và mức đầu tư chăm sóc. Bà con nên thu đúng độ tuổi để dược liệu đạt hàm lượng hoạt chất và trọng lượng tối ưu, tránh thu non làm giảm chất lượng và giá bán."
+    },
+    {
+      "question": "Làm sao để cát căn đạt chuẩn thu mua, bán được giá cao?",
+      "answer": "Muốn bán được giá, củ, rễ phải sạch, phơi hoặc sấy khô đến độ ẩm dưới 12%, không mốc, không lẫn tạp chất và không tồn dư thuốc bảo vệ thực vật theo chuẩn GACP-WHO. Bà con nên canh tác theo hướng hữu cơ, sơ chế đúng kỹ thuật và liên hệ trước với đơn vị bao tiêu để nắm giá và quy cách từng thời điểm."
+    }
+  ]
+}

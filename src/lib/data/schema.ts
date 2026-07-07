@@ -36,6 +36,15 @@ export const herbSchema = z.object({
       (v) => /^https?:\/\//.test(v) || v.startsWith("/"),
       "Phải là URL đầy đủ hoặc đường dẫn nội bộ bắt đầu bằng /",
     ),
+  media: z
+    .array(
+      z.object({
+        type: z.enum(["youtube", "tiktok"]),
+        id: z.string().min(1),
+        title: z.string().optional(),
+      }),
+    )
+    .optional(),
   description: z.string().min(1),
   bioCharacteristics: z.string().min(1),
   usageValue: z.string().min(1),

@@ -1,0 +1,42 @@
+{
+  "id": "ky-thuat-trong-mat-ong",
+  "slug": "ky-thuat-trong-mat-ong-lam-duoc-lieu",
+  "herbSlug": "mat-ong",
+  "herbName": "Mật ong",
+  "title": "Kỹ thuật nuôi ong lấy mật sạch đạt chuẩn dược liệu",
+  "intro": "Mật ong dược liệu đòi hỏi đàn ong khỏe, nguồn hoa sạch và khâu quay – lọc – bảo quản đúng kỹ thuật để giữ độ đậm và không lên men. Nguyễn Việt Lộc tổng hợp quy trình nuôi ong lấy mật theo hướng an toàn, phù hợp các vùng nhiều hoa rừng và hoa cây ăn quả.",
+  "standards": [
+    {
+      "stage": "Chọn vùng đặt đàn và chăm sóc ong",
+      "criteria": "Đặt đàn nơi có nguồn hoa dồi dào, sạch, tránh vùng phun thuốc trừ sâu; đàn ong khỏe, chúa tốt, quân đông.",
+      "controlMethod": "Luân chuyển đàn theo mùa hoa, cho ăn bổ sung khi khan hoa, phòng bệnh cho ong bằng biện pháp an toàn, không dùng kháng sinh cấm."
+    },
+    {
+      "stage": "Quay mật và lọc",
+      "criteria": "Chỉ quay mật khi cầu đã vít nắp để mật đủ chín, độ ẩm thấp, không lẫn ấu trùng và sáp vụn.",
+      "controlMethod": "Quay mật bằng thùng inox sạch, lọc qua rây loại tạp; không quay non để tránh mật loãng dễ lên men chua."
+    },
+    {
+      "stage": "Bảo quản và đóng chai",
+      "criteria": "Mật thành phẩm sánh, thơm đặc trưng theo loại hoa, không sủi bọt lên men, không lẫn nước.",
+      "controlMethod": "Đóng chai kín, bảo quản nơi khô mát tránh nắng; ghi rõ loại hoa, thời điểm thu để đơn vị thu mua phân loại và định giá."
+    }
+  ],
+  "pests": [
+    {
+      "pestName": "Bệnh thối ấu trùng và ve ký sinh trên ong",
+      "symptoms": "Ấu trùng chết thâm đen trong lỗ tổ, đàn ong suy yếu, quân giảm nhanh, năng suất mật tụt mạnh.",
+      "remedy": "Vệ sinh thùng và cầu định kỳ, thay chúa và loại cầu bệnh, dùng biện pháp phòng ve an toàn theo hướng dẫn thú y, không lạm dụng kháng sinh."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Vì sao phải đợi ong vít nắp mới quay mật?",
+      "answer": "Mật vít nắp là mật đã chín, độ ẩm thấp, để được lâu và không lên men. Quay non khiến mật loãng, dễ sủi bọt chua, giảm chất lượng và bị ép giá khi bán."
+    },
+    {
+      "question": "Mật ong thế nào thì đạt chuẩn dược liệu, bán được giá?",
+      "answer": "Mật phải nguyên chất, đúng loại hoa, độ đậm cao, không pha đường, không lên men và có nguồn gốc rõ ràng. Nuôi ong ở vùng hoa sạch, quay đúng kỹ thuật và bảo quản tốt sẽ cho mật đạt chuẩn, được thu mua giá cao."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "ky-thuat-trong-o-duoc",
+  "slug": "ky-thuat-trong-o-duoc-cho-nang-suat-cao",
+  "herbSlug": "o-duoc",
+  "herbName": "Ô dược",
+  "title": "Hướng dẫn kỹ thuật canh tác Ô dược từ A-Z: chọn đất, nhân giống đến thu hoạch",
+  "intro": "Ô dược là dược liệu có đầu ra ổn định, phần thu hái chính là toàn cây trên mặt đất. Chuyên gia Nguyễn Việt Lộc tổng hợp quy trình trồng và chăm sóc theo hướng hữu cơ, kiểm soát tồn dư hóa chất để đạt chuẩn GACP-WHO, phù hợp điều kiện canh tác ở Đông Bắc (Bắc Giang, Cao Bằng).",
+  "standards": [
+    {
+      "stage": "Chọn và xử lý đất trồng",
+      "criteria": "Ô dược hợp với đất phù sa giàu mùn, ẩm vừa, độ pH lý tưởng 6.1 – 7.4. Đất thoát nước tốt nhưng giữ đủ ẩm để cây cho nhiều lá, hoa và dược tính đậm.",
+      "controlMethod": "Cày bừa kỹ, phơi ải và bón vôi bột khử chua trước khi trồng 15–20 ngày; lên luống cao 25–30cm để thoát nước nhanh, tránh úng gốc."
+    },
+    {
+      "stage": "Thời vụ và nhân giống",
+      "criteria": "Thời vụ thích hợp: trồng vụ xuân (tháng 2–3) hoặc thu (tháng 8–9). Nhân giống bằng gieo hạt hoặc giâm cành, mật độ khoảng 18.500 cây/ha.",
+      "controlMethod": "Chọn hạt giống hoặc hom/cây con khỏe, sạch bệnh; trồng đúng khoảng cách để cây đủ ánh sáng, thông thoáng, hạn chế sâu bệnh lây lan và tiện chăm sóc."
+    },
+    {
+      "stage": "Bón phân và chăm sóc theo hướng hữu cơ",
+      "criteria": "Ưu tiên phân chuồng ủ hoai mục với nấm Trichoderma, hạn chế tối đa phân bón và thuốc hóa học để đạt chuẩn GACP-WHO, không tồn dư hóa chất trong dược liệu.",
+      "controlMethod": "Bón lót đầy đủ trước khi trồng, bón thúc theo giai đoạn sinh trưởng; giữ ẩm đều, làm cỏ, tủ gốc và khơi rãnh thoát nước kịp thời trong mùa mưa."
+    },
+    {
+      "stage": "Thu hoạch và sơ chế",
+      "criteria": "Thu hoạch sau khoảng 13 tháng sau trồng, năng suất tham khảo 3 – 5 tấn khô/ha/năm. Bộ phận thu hái chính: toàn cây trên mặt đất.",
+      "controlMethod": "Thu đúng độ tuổi để đạt hàm lượng hoạt chất cao nhất; rửa sạch, thái/phơi hoặc sấy khô đến độ ẩm dưới 12%, bảo quản nơi khô ráo tránh ẩm mốc."
+    }
+  ],
+  "pests": [
+    {
+      "pestName": "Bệnh thối rễ/héo rũ",
+      "symptoms": "Cây héo dần, gốc thâm, rễ thối nhũn khi mưa nhiều.",
+      "remedy": "Lên luống cao thoát nước, xử lý đất bằng vôi và nấm đối kháng Trichoderma."
+    },
+    {
+      "pestName": "Sâu ăn lá",
+      "symptoms": "Lá bị cắn khuyết, xuất hiện sâu non mặt dưới lá.",
+      "remedy": "Bắt thủ công, dùng bẫy và chế phẩm sinh học, hạn chế thuốc hóa học cận thu hoạch."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Trồng ô dược bao lâu thì được thu hoạch và năng suất ra sao?",
+      "answer": "Với ô dược, thời gian từ trồng đến thu hoạch khoảng 13 tháng sau trồng, năng suất tham khảo đạt 3 – 5 tấn khô/ha/năm tùy điều kiện đất đai và mức đầu tư chăm sóc. Bà con nên thu đúng độ tuổi để dược liệu đạt hàm lượng hoạt chất và trọng lượng tối ưu, tránh thu non làm giảm chất lượng và giá bán."
+    },
+    {
+      "question": "Làm sao để ô dược đạt chuẩn thu mua, bán được giá cao?",
+      "answer": "Muốn bán được giá, toàn cây trên mặt đất phải sạch, phơi hoặc sấy khô đến độ ẩm dưới 12%, không mốc, không lẫn tạp chất và không tồn dư thuốc bảo vệ thực vật theo chuẩn GACP-WHO. Bà con nên canh tác theo hướng hữu cơ, sơ chế đúng kỹ thuật và liên hệ trước với đơn vị bao tiêu để nắm giá và quy cách từng thời điểm."
+    }
+  ]
+}

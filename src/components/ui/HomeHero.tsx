@@ -39,7 +39,7 @@ export const HomeHero: React.FC<HomeHeroProps> = ({ ownerName, imageUrl, stats, 
         {/* Eyebrow editorial */}
         <div className="flex items-center gap-2 text-earth font-mono text-xs sm:text-sm uppercase tracking-[0.2em]">
           <Sprout className="w-4 h-4 shrink-0" />
-          <span>// Blog thực địa độc lập của {ownerName}</span>
+          <span>// Trang tổng hợp độc lập của {ownerName}</span>
         </div>
 
         <h1 className="mt-5 font-serif font-extrabold leading-[1.02] tracking-tight text-[2.6rem] sm:text-6xl lg:text-7xl max-w-4xl">
@@ -48,8 +48,8 @@ export const HomeHero: React.FC<HomeHeroProps> = ({ ownerName, imageUrl, stats, 
           <span className="text-earth">bán được giá</span> xứng đáng.
         </h1>
 
-        <p className=”mt-6 max-w-xl text-base md:text-lg text-white/80 leading-relaxed”>
-          Nơi tôi chia sẻ kinh nghiệm canh tác từ thực địa và theo sát giá thu mua —
+        <p className="mt-6 max-w-xl text-base md:text-lg text-white/80 leading-relaxed">
+          Nơi tôi tổng hợp kỹ thuật trồng từ nguồn uy tín và theo dõi giá thu mua —
           để bà con không còn cảnh “được mùa mất giá”.
         </p>
 

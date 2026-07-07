@@ -37,17 +37,17 @@ export const MissionStory: React.FC<MissionStoryProps> = ({ imageUrl, onReadStor
 
           <div className="mt-6 space-y-4 text-white/80 leading-relaxed max-w-xl">
             <p>
-              Suốt nhiều năm lăn lộn khắp các bản làng Tây Bắc, Đông Bắc, tôi chứng kiến bà con rủ
-              nhau trồng ồ ạt theo phong trào mà không có hợp đồng bao tiêu. Đến vụ, thương lái ép
-              giá từ 150.000đ xuống còn 20.000đ/kg, thậm chí bỏ mặc nông sản thối rữa tại ruộng.
+              Đọc và nghe quá nhiều câu chuyện bà con Tây Bắc, Đông Bắc rủ nhau trồng ồ ạt theo
+              phong trào mà không có hợp đồng bao tiêu. Đến vụ, thương lái ép giá từ 150.000đ xuống
+              còn 20.000đ/kg, thậm chí bỏ mặc nông sản thối rữa tại ruộng.
             </p>
             <p>
               Trang này ra đời để giải hai bài toán gốc:{" "}
               <strong className="text-white font-semibold">kỹ thuật canh tác còn yếu</strong> khiến
               dược liệu dính dư lượng, bị từ chối mua; và{" "}
               <strong className="text-white font-semibold">đầu ra bấp bênh</strong> vì phụ thuộc
-              thương lái trôi nổi. Tôi chia sẻ kỹ thuật thực địa và thông tin các kênh tiêu thụ
-              để bà con tự quyết định kênh bán phù hợp với quy mô của mình.
+              thương lái trôi nổi. Tôi tổng hợp kỹ thuật từ nguồn uy tín và thông tin các kênh tiêu
+              thụ để bà con tự quyết định kênh bán phù hợp với quy mô của mình.
             </p>
           </div>
 
@@ -56,7 +56,7 @@ export const MissionStory: React.FC<MissionStoryProps> = ({ imageUrl, onReadStor
             <Quote className="w-5 h-5 shrink-0 text-earth/80 -scale-x-100" aria-hidden="true" />
             <p className="font-serif text-lg leading-snug">
               Chuyển từ trồng tự phát sang liên kết ký hợp đồng bao tiêu là con đường bền vững để bà
-              con làm giàu — và tôi muốn đồng hành, thẳng thắn, không tô hồng.
+              con làm giàu — và tôi muốn góp phần bằng cách gom đủ thông tin, thẳng thắn, không tô hồng.
             </p>
           </blockquote>
 
@@ -80,7 +80,7 @@ export const MissionStory: React.FC<MissionStoryProps> = ({ imageUrl, onReadStor
             />
             <div className="absolute inset-0 bg-gradient-to-t from-pine-900/40 to-transparent pointer-events-none" />
             <div className="absolute bottom-4 left-4 font-mono text-xs uppercase tracking-wider text-white/85 bg-pine-900/50 backdrop-blur-xs rounded-full px-3 py-1">
-              Thực địa · Tây Bắc
+              Vùng trồng · Tây Bắc
             </div>
           </div>
         </div>

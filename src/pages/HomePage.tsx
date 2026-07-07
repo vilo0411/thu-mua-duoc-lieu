@@ -45,7 +45,7 @@ export const HomePage: React.FC = () => {
         <PillarDoorCard
           icon={Sprout}
           tone="green"
-          eyebrow="Silo kiến thức"
+          eyebrow=""
           title="Học kỹ thuật trồng"
           desc="Cẩm nang chọn giống, chăm sóc, phòng trừ sâu bệnh và kỹ thuật sơ chế sau thu hoạch."
           ctaLabel="Vào thư viện kiến thức"
@@ -54,7 +54,7 @@ export const HomePage: React.FC = () => {
         <PillarDoorCard
           icon={Coins}
           tone="terracotta"
-          eyebrow="Silo thu mua"
+          eyebrow=""
           title="Xem giá & bán dược liệu"
           desc="Tra bảng giá thu mua theo từng cây và vùng trồng, so sánh các kênh tiêu thụ phù hợp."
           ctaLabel="Xem bảng giá thu mua"
@@ -146,7 +146,7 @@ export const HomePage: React.FC = () => {
             <h2 className="font-serif text-2xl md:text-3xl font-bold text-ink-soft tracking-tight">{SITE_OWNER}</h2>
           </div>
           <p className="text-gray-600 text-sm md:text-base font-sans leading-relaxed max-w-2xl">
-            Tôi là người trực tiếp đi khảo sát vùng trồng, nhà máy sấy chiết và theo sát giá thu mua. Trang này là blog cá nhân <strong className="text-ink-soft">độc lập</strong> — chia sẻ thẳng thắn kinh nghiệm thực địa, không tô hồng, để bà con và hợp tác xã tự tin bán đúng giá trị.
+            Tôi không phải chuyên gia nông học — việc của tôi là tổng hợp và đối chiếu kỹ thuật trồng từ tài liệu khuyến nông, viện dược liệu cùng kinh nghiệm bà con, rồi theo dõi giá thu mua để gom về một chỗ dễ tra cứu. Trang này <strong className="text-ink-soft">độc lập</strong> — thông tin có dẫn nguồn, không tô hồng, để bà con và hợp tác xã tự tin bán đúng giá trị.
           </p>
           <button
             onClick={() => navigate(paths.about())}
@@ -160,8 +160,8 @@ export const HomePage: React.FC = () => {
       {/* 7. CTA cuối — mời liên hệ tư vấn */}
       <div className="mt-16">
         <CtaBanner
-          title="Cần tư vấn kênh bán hoặc kỹ thuật trồng?"
-          description="Tôi trả lời trực tiếp qua email — bà con cứ hỏi cụ thể về cây, vùng, quy mô để tôi hỗ trợ đúng chỗ."
+          title="Cần tìm thông tin về kênh bán hoặc kỹ thuật trồng?"
+          description="Tôi trả lời trực tiếp qua email — bà con cứ hỏi cụ thể về cây, vùng, quy mô để tôi tra cứu, tổng hợp giúp và chỉ nguồn tham khảo."
           buttonText="Gửi câu hỏi cho tôi"
           href="/lien-he"
         />

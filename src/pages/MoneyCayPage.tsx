@@ -2,7 +2,7 @@ import React from "react";
 import { ChevronRight, Leaf, ShieldCheck, Bug, Clock, Thermometer, Sprout, Package } from "lucide-react";
 import { useNavigate, useParams } from "react-router-dom";
 import { HERBS_DATA } from "../lib/data";
-import { Breadcrumb, CtaBanner, FaqAccordion, SaleChannelsCard, PriceBoard, PestList, HerbPriceCalculator } from "../components/ui";
+import { Breadcrumb, CtaBanner, FaqAccordion, SaleChannelsCard, PriceBoard, PestList, HerbPriceCalculator, MediaCarousel } from "../components/ui";
 
 /** Chọn icon cho thẻ thông số dựa trên từ khoá trong nhãn, giúp bà con liếc là nhận ra. */
 const statIcon = (label: string): React.ElementType => {
@@ -66,6 +66,11 @@ export const MoneyCayPage: React.FC = () => {
           <p className="text-gray-700 text-base leading-relaxed font-sans">{herb.description}</p>
         </div>
       </section>
+
+      {/* Video thực địa (YouTube/TikTok) — chỉ hiện khi cây có khai báo media */}
+      {herb.media && herb.media.length > 0 && (
+        <MediaCarousel items={herb.media} heading="Video thực địa" />
+      )}
 
       {/* Quick Info */}
       <section className="space-y-4">
@@ -204,7 +209,7 @@ export const MoneyCayPage: React.FC = () => {
         <div className="space-y-2">
           <span className="text-terracotta font-mono text-xs font-bold uppercase tracking-[0.15em] block mb-1">// Tài liệu hướng dẫn</span>
           <h4 className="font-serif text-xl font-bold text-ink-soft">Kỹ thuật gieo trồng chăm sóc {herb.name} đúng quy chuẩn nông nghiệp sạch</h4>
-          <p className="text-sm text-gray-600 max-w-xl">Tổng hợp từ thực địa bởi Nguyễn Việt Lộc — từ chọn giống, chăm sóc đến thu hoạch và sơ chế đúng cách.</p>
+          <p className="text-sm text-gray-600 max-w-xl">Do Nguyễn Việt Lộc tổng hợp từ nguồn uy tín — từ chọn giống, chăm sóc đến thu hoạch và sơ chế đúng cách.</p>
         </div>
         <button
           onClick={() => navigate(paths.hubWiki(herb.slug))}

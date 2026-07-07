@@ -23,7 +23,7 @@ export const Footer: React.FC = () => {
               Về Nguyễn Việt Lộc
             </h4>
             <p className="text-gray-300 text-sm leading-relaxed font-sans">
-              Nguyễn Việt Lộc chia sẻ kinh nghiệm thực địa về canh tác dược liệu, giá thu mua và cách tìm kênh tiêu thụ phù hợp — dành cho nông dân, HTX và cán bộ khuyến nông.
+              Nguyễn Việt Lộc tổng hợp kỹ thuật canh tác dược liệu, giá thu mua và cách tìm kênh tiêu thụ phù hợp từ các nguồn uy tín — dành cho nông dân, HTX và cán bộ khuyến nông.
             </p>
             <Link
               to={paths.about()}
@@ -98,7 +98,7 @@ export const Footer: React.FC = () => {
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-[#D08620] shrink-0" />
-                <span className="text-xs">Trạm kiểm định vùng trung tâm, Phú Thọ</span>
+                <span className="text-xs">Liên hệ trực tuyến — phản hồi qua email</span>
               </div>
             </div>
             <div className="pt-1">
@@ -116,7 +116,7 @@ export const Footer: React.FC = () => {
         <div className="border-t border-white/10 pt-6 text-xs text-gray-400 font-sans leading-relaxed text-left space-y-2">
           <p className="font-bold text-[#EFE6DA]">Tuyên bố trách nhiệm độc lập:</p>
           <p>
-            Nội dung trên {OWNER_URL} do {SITE_OWNER} biên soạn độc lập từ kinh nghiệm thực địa. Thông tin giá thu mua và kênh tiêu thụ mang tính tham khảo — bà con nên xác minh lại với đơn vị mua trực tiếp trước khi giao dịch. Trang không đại diện cho bất kỳ doanh nghiệp thu mua nào.
+            Nội dung trên {OWNER_URL} do {SITE_OWNER} tổng hợp độc lập từ các nguồn tham khảo (tài liệu khuyến nông, viện dược liệu, kinh nghiệm bà con vùng trồng). Thông tin giá thu mua và kênh tiêu thụ mang tính tham khảo — bà con nên xác minh lại với đơn vị mua trực tiếp trước khi giao dịch. Trang không đại diện cho bất kỳ doanh nghiệp thu mua nào.
           </p>
         </div>
 

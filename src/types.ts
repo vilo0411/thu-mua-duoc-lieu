@@ -44,6 +44,15 @@ export interface HerbPest {
   remedy: string;
 }
 
+/** Một video nhúng (YouTube/TikTok) hiển thị trong carousel "Video thực địa" của trang cây. */
+export interface HerbMedia {
+  type: "youtube" | "tiktok";
+  /** ID video thuần (không phải URL đầy đủ), vd YouTube "dQw4w9WgXcQ". */
+  id: string;
+  /** Caption ngắn hiển thị dưới video. */
+  title?: string;
+}
+
 export interface HerbalMedicine {
   id: string;
   slug: string;
@@ -64,6 +73,8 @@ export interface HerbalMedicine {
   priceRange: string;
   shortDesc: string;
   image: string;
+  /** Video thực địa (YouTube/TikTok) cho carousel. Tùy chọn — vắng thì ẩn section. */
+  media?: HerbMedia[];
   description: string;
   bioCharacteristics: string; // đặc điểm sinh học 200-300 từ
   usageValue: string; // giá trị sử dụng (không đi sâu chữa bệnh)

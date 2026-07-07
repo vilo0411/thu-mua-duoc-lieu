@@ -1,0 +1,31 @@
+{
+  "id": "ky-thuat-trong-o-tac-cot",
+  "slug": "ky-thuat-trong-o-tac-cot-lam-duoc-lieu",
+  "herbSlug": "o-tac-cot",
+  "herbName": "Ô tặc cốt",
+  "title": "Kỹ thuật thu và sơ chế Ô tặc cốt (mai mực) làm dược liệu",
+  "intro": "Ô tặc cốt là mai của con mực, được thu gom từ nguồn hải sản rồi làm sạch, phơi khô làm thuốc. Nguyễn Việt Lộc tổng hợp quy trình chọn, làm sạch và bảo quản mai mực để đạt chuẩn dược liệu, trắng sạch không tanh mốc.",
+  "standards": [
+    {
+      "stage": "Thu gom và làm sạch",
+      "criteria": "Mai mực dày, màu trắng, còn nguyên khối, không vỡ vụn, không lẫn thịt mực và tạp chất.",
+      "controlMethod": "Bóc tách sạch phần thịt bám, rửa nhiều lần cho hết nhớt và muối biển, cạo bỏ lớp cứng bẩn bên ngoài nếu cần."
+    },
+    {
+      "stage": "Phơi sấy và bảo quản",
+      "criteria": "Mai mực khô giòn, trắng, nhẹ, không còn mùi tanh, không mốc xanh mốc đen.",
+      "controlMethod": "Phơi nắng to hoặc sấy đến khô kiệt, bảo quản nơi khô ráo thoáng, tránh ẩm gây mốc và tanh trở lại."
+    }
+  ],
+  "pests": [],
+  "faq": [
+    {
+      "question": "Ô tặc cốt bị mốc, ám mùi tanh có bán được không?",
+      "answer": "Hàng mốc hoặc còn tanh nặng bị coi là kém phẩm, khó thu mua hoặc bị ép giá mạnh. Muốn đạt chuẩn phải làm sạch nhớt kỹ, phơi/sấy khô kiệt và bảo quản khô ráo để giữ mai trắng, giòn, không mùi."
+    },
+    {
+      "question": "Chọn mai mực làm dược liệu thế nào cho chuẩn?",
+      "answer": "Nên chọn mai dày, nguyên khối, trắng sạch, không vỡ vụn. Sau khi làm sạch và phơi khô đạt độ giòn, đóng gói kín nơi khô ráo là đạt yêu cầu thu mua."
+    }
+  ]
+}

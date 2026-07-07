@@ -1,0 +1,31 @@
+{
+  "id": "ky-thuat-trong-thach-cao-song",
+  "slug": "ky-thuat-trong-thach-cao-song-lam-duoc-lieu",
+  "herbSlug": "thach-cao-song",
+  "herbName": "Thạch cao sống",
+  "title": "Kỹ thuật khai thác và sơ chế Thạch cao sống (khoáng canxi sunfat) làm dược liệu",
+  "intro": "Thạch cao sống là khoáng vật canxi sunfat ngậm nước, giá trị dược liệu nằm ở độ tinh khiết và cách sơ chế. Nguyễn Việt Lộc tổng hợp quy trình chọn khối khoáng, làm sạch và bảo quản để thạch cao đạt chuẩn làm thuốc.",
+  "standards": [
+    {
+      "stage": "Chọn và làm sạch khoáng",
+      "criteria": "Khối thạch cao có màu trắng hoặc trắng ngà, kết cấu dạng sợi/tấm, không lẫn đất đá, tạp kim loại.",
+      "controlMethod": "Loại bỏ lớp đất đá bám ngoài, rửa sạch bụi bẩn, đập thành khối vừa và phân loại theo màu, độ tinh khiết trước khi bảo quản."
+    },
+    {
+      "stage": "Bảo quản và đóng gói",
+      "criteria": "Thạch cao khô ráo, giữ nguyên khối, không nhiễm ẩm mốc hay tạp chất.",
+      "controlMethod": "Để nơi khô ráo thoáng mát, đóng bao chống ẩm; ghi rõ nguồn gốc, quy cách để truy xuất khi giao cho đơn vị thu mua."
+    }
+  ],
+  "pests": [],
+  "faq": [
+    {
+      "question": "Thạch cao sống và thạch cao nung khác nhau ra sao?",
+      "answer": "Thạch cao sống giữ nguyên nước kết tinh, dùng làm dược liệu; thạch cao nung đã bị mất nước, tính chất khác hẳn. Khi thu mua dược liệu cần đúng loại thạch cao sống, trắng sạch, không lẫn tạp đá."
+    },
+    {
+      "question": "Làm sao để thạch cao đạt chuẩn thu mua?",
+      "answer": "Khoáng phải trắng sạch, kết cấu sợi rõ, loại hết đất đá tạp chất và giữ khô ráo khi bảo quản. Hàng sạch, đúng chủng loại và có nguồn gốc rõ ràng sẽ được đơn vị thu mua chấp nhận với giá tốt."
+    }
+  ]
+}

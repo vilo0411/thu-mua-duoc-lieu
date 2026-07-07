@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { Bug, ChevronDown, Coins, Droplets, FileText, HelpCircle, Leaf, Package, Sprout } from "lucide-react";
+import { Bug, ChevronDown, Coins, Droplets, HelpCircle, Leaf, Package, Sprout } from "lucide-react";
 import { useNavigate } from "react-router-dom";
-import { HERBS_DATA, WIKI_ARTICLES, WIKI_HUBS } from "../lib/data";
+import { HERBS_DATA, WIKI_HUBS } from "../lib/data";
 import { Breadcrumb, DataTable, FaqAccordion, LandingLink, StickyToc } from "../components/ui";
 import { paths, asset } from "../lib/paths";
 import { Seo, hubSeo } from "../lib/seo";
@@ -19,6 +19,30 @@ const GROUP_LABEL: Record<string, string> = {
   nam: "nhóm nấm dược liệu",
   vo: "nhóm vỏ",
   than: "nhóm thân – cành",
+};
+
+/**
+ * Link wheel giữa các bài kỹ thuật trồng: xếp tất cả hub thành một vòng cố định
+ * (theo nhóm dược liệu rồi tên cây để liên kết cùng chủ đề), mỗi bài trỏ tới N bài
+ * kế tiếp trong vòng. Cách này phân bổ link nội bộ đều, khép kín thành một wheel và
+ * đảm bảo mọi bài đều nhận được liên kết vào — thay cho việc trỏ chung về vài bài tổng.
+ */
+const GROUP_RING_ORDER = ["cu-re", "hoa-la", "than", "vo", "nam"];
+const herbGroupOf = (herbSlug: string) =>
+  HERBS_DATA.find((h) => h.slug === herbSlug)?.group ?? "hoa-la";
+
+const HUB_RING = [...WIKI_HUBS].sort((a, b) => {
+  const ga = GROUP_RING_ORDER.indexOf(herbGroupOf(a.herbSlug));
+  const gb = GROUP_RING_ORDER.indexOf(herbGroupOf(b.herbSlug));
+  return ga - gb || a.herbName.localeCompare(b.herbName, "vi");
+});
+
+/** N bài kỹ thuật kế tiếp trong vòng (quấn vòng) làm liên kết liên quan cho một hub. */
+const relatedHubs = (herbSlug: string, n = 2) => {
+  const i = HUB_RING.findIndex((h) => h.herbSlug === herbSlug);
+  if (i < 0) return [];
+  const count = Math.min(n, HUB_RING.length - 1);
+  return Array.from({ length: count }, (_, k) => HUB_RING[(i + 1 + k) % HUB_RING.length]);
 };
 
 /** Các mục nội dung (tĩnh) — dùng cho mục lục, trạng thái mở, và scroll-spy. */
@@ -148,7 +172,7 @@ export const HubWikiPage: React.FC<{ herbSlug: string }> = ({ herbSlug }) => {
           />
         </div>
         <div className="order-2 md:order-1 bg-gradient-to-br from-sand to-paper border border-line rounded-2xl p-6 md:p-8 space-y-3">
-          <span className="text-terracotta font-mono text-xs font-bold uppercase tracking-[0.15em] block mb-1">// Học liệu thực địa nông học</span>
+          <span className="text-terracotta font-mono text-xs font-bold uppercase tracking-[0.15em] block mb-1">// Học liệu tổng hợp nông học</span>
           <h1 className="font-serif text-2xl md:text-4xl font-extrabold text-ink-soft tracking-tight">{hub.title}</h1>
           <p className="text-gray-700 text-base font-sans leading-relaxed">{hub.intro}</p>
         </div>
@@ -307,22 +331,22 @@ export const HubWikiPage: React.FC<{ herbSlug: string }> = ({ herbSlug }) => {
             <FaqAccordion items={hub.faq} />
           </AccordionSection>
 
-          {/* Related posts */}
+          {/* Link wheel — liên kết vòng tới các bài kỹ thuật trồng cây dược liệu khác */}
           <section className="space-y-4 pt-6">
-            <h3 className="font-serif text-xl font-bold text-ink-soft">Tài liệu chế biến &amp; phân tích liên quan</h3>
+            <h3 className="font-serif text-xl font-bold text-ink-soft">Kỹ thuật trồng các cây dược liệu liên quan</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {WIKI_ARTICLES.filter((a) => a.id !== "ky-thuat-say-duoc-lieu").map((art) => (
+              {relatedHubs(herb.slug).map((rel) => (
                 <div
-                  key={art.id}
-                  onClick={() => navigate(paths.article(art.id))}
+                  key={rel.id}
+                  onClick={() => navigate(paths.hubWiki(rel.herbSlug))}
                   className="border border-line hover:border-terracotta p-4 rounded-xl cursor-pointer bg-white hover:bg-paper-2 transition-all flex items-start gap-3 group"
                 >
                   <div className="w-8 h-8 rounded bg-sand flex items-center justify-center text-terracotta shrink-0 mt-0.5">
-                    <FileText className="w-4.5 h-4.5" />
+                    <Sprout className="w-4.5 h-4.5" />
                   </div>
                   <div>
-                    <h5 className="font-sans font-bold text-sm text-ink-soft group-hover:text-terracotta transition-colors line-clamp-2">{art.title}</h5>
-                    <span className="text-xs text-gray-500 font-mono mt-1 block">{art.readTime}</span>
+                    <h5 className="font-sans font-bold text-sm text-ink-soft group-hover:text-terracotta transition-colors line-clamp-2">{rel.title}</h5>
+                    <span className="text-xs text-gray-500 font-mono mt-1 block">Kỹ thuật trồng {rel.herbName}</span>
                   </div>
                 </div>
               ))}
