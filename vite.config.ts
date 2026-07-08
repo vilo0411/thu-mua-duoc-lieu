@@ -3,11 +3,11 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 import {defineConfig} from 'vite';
 
-export default defineConfig(({command}) => {
+export default defineConfig(() => {
   return {
-    // Served from https://vilo0411.github.io/thu-mua-duoc-lieu/ on GitHub Pages.
-    // Keep root ('/') during local dev so the dev server stays at localhost:3000/.
-    base: command === 'build' ? '/thu-mua-duoc-lieu/' : '/',
+    // Served from the custom domain https://duoclieu.nguyenvietloc.com/ (root).
+    // base '/' cả khi build lẫn dev — canonical/sitemap/basename đều khớp origin.
+    base: '/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {

@@ -12,20 +12,19 @@ export const Header: React.FC = () => {
 
   return (
     <header className="sticky top-0 bg-pine-900/95 backdrop-blur-md border-b border-white/10 z-30 transition-all">
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between gap-4">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex items-center gap-4">
 
-        {/* BRAND wordmark (trái) */}
-        <Link to={paths.home()} className="flex items-center gap-2 cursor-pointer group shrink-0">
-          <div className="w-9 h-9 rounded-lg bg-terracotta flex items-center justify-center text-white shadow-sm group-hover:scale-105 transition-transform">
-            <Leaf className="w-5 h-5 fill-white" />
-          </div>
-          <span className="font-serif text-xl sm:text-2xl font-black text-white tracking-tight group-hover:opacity-90 transition-opacity">
-            Nguyễn Việt Lộc
-          </span>
-        </Link>
+        {/* BRAND logo (trái) — flex-1 để cân đối với cụm phải, giữ nav ở chính giữa */}
+        <div className="flex-1 flex items-center">
+          <Link to={paths.home()} className="cursor-pointer group shrink-0" aria-label="Trang chủ">
+            <div className="w-9 h-9 rounded-lg bg-terracotta flex items-center justify-center text-white shadow-sm group-hover:scale-105 transition-transform">
+              <Leaf className="w-5 h-5 fill-white" />
+            </div>
+          </Link>
+        </div>
 
         {/* Pill nav ở giữa (mượn từ mẫu) — item active là viên trắng nổi trên nền pine */}
-        <nav className="hidden lg:flex absolute left-1/2 -translate-x-1/2 items-center gap-1 bg-white/5 border border-white/10 rounded-full p-1">
+        <nav className="hidden lg:flex items-center gap-1 bg-white/5 border border-white/10 rounded-full p-1">
           {NAV_ITEMS.map((item) => (
             <NavLink
               key={item.to}
@@ -43,7 +42,7 @@ export const Header: React.FC = () => {
         </nav>
 
         {/* Cụm phải: tìm kiếm (xl) + nút cỡ chữ thu gọn (desktop) + hamburger (mobile) */}
-        <div className="flex items-center gap-3 shrink-0">
+        <div className="flex-1 flex items-center justify-end gap-3">
           <div className="hidden xl:block">
             <SearchBar variant="desktop" />
           </div>

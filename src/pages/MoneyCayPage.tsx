@@ -24,7 +24,7 @@ export const MoneyCayPage: React.FC = () => {
   const herb = HERBS_DATA.find((h) => h.slug === cay);
   if (!herb) return <NotFoundPage />;
 
-  const calcCtaHref = `/lien-he`;
+  const calcCtaHref = `#kenh-tieu-thu`;
 
   return (
     <div className="space-y-10 animate-fade-in">
@@ -69,7 +69,7 @@ export const MoneyCayPage: React.FC = () => {
 
       {/* Video thực địa (YouTube/TikTok) — chỉ hiện khi cây có khai báo media */}
       {herb.media && herb.media.length > 0 && (
-        <MediaCarousel items={herb.media} heading="Video thực địa" />
+        <MediaCarousel items={herb.media} heading="Video vùng trồng" />
       )}
 
       {/* Quick Info */}
@@ -142,8 +142,8 @@ export const MoneyCayPage: React.FC = () => {
       </section>
 
       {/* Kênh bán hàng */}
-      <section className="space-y-4">
-        <h3 className="font-serif text-xl font-bold text-ink-soft border-b border-line pb-2">Kênh tiêu thụ {herb.name}</h3>
+      <section id="kenh-tieu-thu" className="space-y-4 scroll-mt-24">
+        <h3 className="font-serif text-xl font-bold text-ink-soft border-b border-line pb-2">Kênh thu mua {herb.name}</h3>
         <SaleChannelsCard herbName={herb.name} cay={herb.slug} pageType="money_cay" />
       </section>
 
@@ -209,7 +209,7 @@ export const MoneyCayPage: React.FC = () => {
         <div className="space-y-2">
           <span className="text-terracotta font-mono text-xs font-bold uppercase tracking-[0.15em] block mb-1">// Tài liệu hướng dẫn</span>
           <h4 className="font-serif text-xl font-bold text-ink-soft">Kỹ thuật gieo trồng chăm sóc {herb.name} đúng quy chuẩn nông nghiệp sạch</h4>
-          <p className="text-sm text-gray-600 max-w-xl">Do Nguyễn Việt Lộc tổng hợp từ nguồn uy tín — từ chọn giống, chăm sóc đến thu hoạch và sơ chế đúng cách.</p>
+          <p className="text-sm text-gray-600 max-w-xl">Do Nguyễn Viết Lộc tổng hợp từ nguồn uy tín — từ chọn giống, chăm sóc đến thu hoạch và sơ chế đúng cách.</p>
         </div>
         <button
           onClick={() => navigate(paths.hubWiki(herb.slug))}

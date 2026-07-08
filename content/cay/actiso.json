@@ -1,7 +1,7 @@
 {
-  "id": "actiso",
-  "slug": "actiso",
-  "name": "Actiso",
+  "id": "atiso",
+  "slug": "atiso",
+  "name": "atiso",
   "scientificName": "Cynara scolymus",
   "otherNames": [
     "Ác-ti-sô",
@@ -10,7 +10,7 @@
   "group": "hoa-la",
   "priceRange": "50.000 - 220.000 VNĐ/kg",
   "shortDesc": "Được trồng phổ biến tại các vùng cao ôn đới mát mẻ quanh năm như Lâm Đồng, Sa Pa.",
-  "image": "/images/cay/actiso.jpg",
+  "image": "/images/cay/atiso.jpg",
   "media": [
     {
       "type": "youtube",
@@ -28,8 +28,8 @@
       "title": "Cách sấy khô bông atisô"
     }
   ],
-  "description": "Actiso là loài thảo dược có xuất xứ từ Địa Trung Hải, phát triển hoàn hảo ở vùng khí hậu mát mẻ ôn đới. Toàn bộ các bộ phận như rễ, thân, lá và đặc biệt là hoa đều thu hoạch để làm trà, làm cao dược liệu giải độc gan cực kỳ đắt khách.",
-  "bioCharacteristics": "Actiso là cây thảo lớn hai năm hoặc lâu năm, cao 1–2m, lá to xẻ thùy sâu phủ lông trắng mặt dưới, cụm hoa hình đầu màu tím. Cây có nguồn gốc Địa Trung Hải, chỉ sinh trưởng và ra hoa tốt ở vùng cao ôn đới mát mẻ quanh năm như Đà Lạt, Sa Pa.",
+  "description": "atiso là loài thảo dược có xuất xứ từ Địa Trung Hải, phát triển hoàn hảo ở vùng khí hậu mát mẻ ôn đới. Toàn bộ các bộ phận như rễ, thân, lá và đặc biệt là hoa đều thu hoạch để làm trà, làm cao dược liệu giải độc gan cực kỳ đắt khách.",
+  "bioCharacteristics": "atiso là cây thảo lớn hai năm hoặc lâu năm, cao 1–2m, lá to xẻ thùy sâu phủ lông trắng mặt dưới, cụm hoa hình đầu màu tím. Cây có nguồn gốc Địa Trung Hải, chỉ sinh trưởng và ra hoa tốt ở vùng cao ôn đới mát mẻ quanh năm như Đà Lạt, Sa Pa.",
   "usageValue": "Lá tươi dùng nấu cao giải độc gan, hoa búp làm trà và thực phẩm, thân rễ thái lát làm dược liệu. Đây là cây cho thu hoạch nhiều bộ phận và tiêu thụ ổn định quanh năm.",
   "stats": [
     {
@@ -66,7 +66,7 @@
   },
   "prices": [
     {
-      "grade": "Hoa Actiso tươi",
+      "grade": "Hoa atiso tươi",
       "specification": "Hoa búp to tròn, chưa nở bung cánh tím, tươi rói không héo",
       "priceRange": "150.000 - 220.000",
       "unit": "kg",
@@ -133,22 +133,22 @@
       "remedy": "Phun dầu neem, bảo tồn thiên địch bọ rùa, không bón thừa đạm"
     }
   ],
-  "techniquesLink": "ky-thuat-trong-actiso",
+  "techniquesLink": "ky-thuat-trong-atiso",
   "standards": [
     "Lá thu hoạch làm dược liệu không phun thuốc bảo vệ thực vật cận ngày hái.",
     "Hoa tươi không dập nát thối rữa, đóng gói rổ tre thông thoáng.",
     "Hàm lượng chất đắng và cynarin đạt chuẩn xuất khẩu."
   ],
   "keywordsTarget": [
-    "thu mua actiso",
-    "giá hoa actiso",
-    "kỹ thuật trồng actiso",
-    "bán lá actiso"
+    "thu mua atiso",
+    "giá hoa atiso",
+    "kỹ thuật trồng atiso",
+    "bán lá atiso"
   ],
   "faq": [
     {
-      "question": "Trồng Actiso ở vùng đồng bằng nắng nóng được không?",
-      "answer": "Không nên. Actiso là loại liên ôn đới bắt buộc phải có khí hậu lạnh dịu dưới 25 độ C để sinh trưởng tốt và ra hoa. Ở vùng đồng bằng nhiệt đới nóng bức, cây sẽ nhanh chóng héo lụi, không phát triển được và tỷ lệ chết gần như 100%."
+      "question": "Trồng atiso ở vùng đồng bằng nắng nóng được không?",
+      "answer": "Không nên. atiso là loại liên ôn đới bắt buộc phải có khí hậu lạnh dịu dưới 25 độ C để sinh trưởng tốt và ra hoa. Ở vùng đồng bằng nhiệt đới nóng bức, cây sẽ nhanh chóng héo lụi, không phát triển được và tỷ lệ chết gần như 100%."
     }
   ]
 }

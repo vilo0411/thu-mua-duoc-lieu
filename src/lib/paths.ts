@@ -11,6 +11,11 @@ export const paths = {
   knowledge: () => "/kien-thuc",
   about: () => "/ve-toi",
   contact: () => "/lien-he",
+  // Trang uy tín (E-E-A-T): chính sách & điều khoản.
+  privacy: () => "/chinh-sach-bao-mat",
+  terms: () => "/dieu-khoan-su-dung",
+  disclaimer: () => "/mien-tru-trach-nhiem",
+  editorial: () => "/chinh-sach-noi-dung",
   herb: (cay: string) => `/thu-mua-duoc-lieu/${cay}`,
   herbRegion: (cay: string, vung: string) => `/thu-mua-duoc-lieu/${cay}/${vung}`,
   // Hub kỹ thuật nằm trong silo Kiến thức (PRD §4.1: /kien-thuc/ky-thuat-trong-{cay}).

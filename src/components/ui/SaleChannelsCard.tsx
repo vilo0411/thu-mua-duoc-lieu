@@ -62,7 +62,14 @@ export const SaleChannelsCard: React.FC<SaleChannelsCardProps> = ({
       {channels.map((ch) => {
         const Icon = ch.icon;
         return (
-          <div key={ch.label} className="border border-line bg-white rounded-xl p-5 md:p-6 space-y-3">
+          <div
+            key={ch.label}
+            className={`bg-white rounded-xl p-5 md:p-6 space-y-3 ${
+              ch.showVietmec
+                ? "border-2 border-terracotta ring-1 ring-terracotta/20 shadow-md shadow-terracotta/10"
+                : "border border-line"
+            }`}
+          >
             <div className="flex flex-wrap items-center gap-2">
               <div className="w-8 h-8 rounded-lg bg-sand flex items-center justify-center shrink-0">
                 <Icon className="w-4.5 h-4.5 text-terracotta" />
@@ -88,9 +95,9 @@ export const SaleChannelsCard: React.FC<SaleChannelsCardProps> = ({
             {ch.showVietmec && (
               <div className="border-t border-line pt-3 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
                 <p className="text-sm text-gray-600">
-                  Một đơn vị tham khảo kênh này:{" "}
+                  Đơn vị tham khảo:{" "}
                   <strong className="text-ink-soft">{partner.fullName}</strong>
-                  {" "}— nhà máy GMP-WHO tại Phú Thọ, có hợp đồng văn bản.
+                  {" "}— Thu mua dược liệu toàn quốc, có hợp đồng văn bản.
                 </p>
                 <a
                   href={partnerLink}

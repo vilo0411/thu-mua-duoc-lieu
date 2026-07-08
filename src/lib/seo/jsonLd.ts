@@ -125,6 +125,6 @@ export function personProfile(): Json {
     "@type": "Person",
     name: SITE.owner,
     url: SITE.authorUrl,
-    description: `Chuyên gia nông học độc lập chia sẻ kiến thức trồng và thu mua dược liệu Việt Nam.`,
+    description: `Người tổng hợp độc lập về kỹ thuật trồng và giá thu mua dược liệu Việt Nam, đối chiếu từ các nguồn uy tín và có dẫn nguồn.`,
   };
 }

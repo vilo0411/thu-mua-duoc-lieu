@@ -158,6 +158,8 @@ export interface SiteConfig {
   siteName: string;
   defaultTitle: string;
   defaultDescription: string;
+  /** Ảnh OG mặc định (path nội bộ) cho trang không tự set image. */
+  defaultImage: string;
   locale: string;
   authorUrl: string;
 }

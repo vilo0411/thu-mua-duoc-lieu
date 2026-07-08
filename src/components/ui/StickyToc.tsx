@@ -34,7 +34,7 @@ export const StickyToc: React.FC<{ items: TocItem[]; activeId: string; onSelect:
         })}
       </nav>
       <div className="mt-6 pt-5 border-t border-[#F5EFE6] text-xs text-gray-400">
-        Cung cấp bởi chuyên gia <strong className="text-gray-500">Nguyễn Việt Lộc</strong>.
+        Tổng hợp bởi <strong className="text-gray-500">Nguyễn Viết Lộc</strong>.
       </div>
     </div>
   );

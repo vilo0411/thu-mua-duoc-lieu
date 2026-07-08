@@ -1,9 +1,9 @@
 import React from "react";
-import { Globe, Mail, MapPin, User } from "lucide-react";
+import { Globe, Mail, MapPin } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { SITE_OWNER } from "../lib/data";
 import { Breadcrumb } from "../components/ui";
-import { paths } from "../lib/paths";
+import { paths, asset } from "../lib/paths";
 import { Seo, aboutSeo } from "../lib/seo";
 
 export const AboutPage: React.FC = () => {
@@ -15,9 +15,11 @@ export const AboutPage: React.FC = () => {
       <Breadcrumb items={[{ label: "Trang chủ", onClick: () => navigate(paths.home()) }, { label: "Về tôi" }]} />
       <section className="bg-white border border-line rounded-2xl p-6 md:p-10 space-y-6">
         <div className="flex flex-col md:flex-row items-center gap-6 pb-6 border-b border-sand">
-          <div className="w-24 h-24 rounded-full bg-terracotta/10 flex items-center justify-center text-terracotta shrink-0">
-            <User className="w-12 h-12" />
-          </div>
+          <img
+            src={asset("/images/nguyen-viet-loc-avatar.png")}
+            alt={`Ảnh đại diện ${SITE_OWNER}`}
+            className="w-24 h-24 rounded-full object-cover ring-2 ring-terracotta/20 shrink-0"
+          />
           <div className="space-y-1 text-center md:text-left">
             <span className="text-terracotta font-mono text-xs font-bold uppercase tracking-[0.15em] block mb-1">// Người tổng hợp · Dược liệu &amp; thu mua</span>
             <h1 className="font-serif text-3xl font-bold text-ink-soft">{SITE_OWNER}</h1>
@@ -27,7 +29,7 @@ export const AboutPage: React.FC = () => {
 
         <div className="space-y-5 text-base text-ink leading-relaxed font-sans">
           <p>
-            Tôi là <strong>Nguyễn Việt Lộc</strong>. Tôi không phải chuyên gia nông học hay người trồng dược liệu lâu năm. Việc tôi làm ở trang này là <strong>tổng hợp và đối chiếu</strong> kỹ thuật trồng, sơ chế cùng thông tin giá thu mua từ nhiều nguồn, rồi sắp xếp lại cho dễ tra cứu ở một chỗ.
+            Tôi tên là <strong>Nguyễn Viết Lộc</strong>. Tôi xây dựng trang web này với mục tiêu <strong>tổng hợp và đối chiếu</strong> kỹ thuật trồng, sơ chế cùng thông tin giá thu mua từ nhiều nguồn, giúp bà con dễ tra cứu và bán với mức giá tốt.
           </p>
 
           <div className="bg-paper-2 border border-line rounded-xl p-5 space-y-2">
@@ -35,17 +37,14 @@ export const AboutPage: React.FC = () => {
             <p>
               Đọc và nghe nhiều câu chuyện bà con trồng dược liệu theo phong trào, không có hợp đồng trước, đến vụ bị thương lái ép giá xuống còn một phần nhỏ — hoặc bỏ đặt cọc luôn. Chuyện đó lặp đi lặp lại vì hai nguyên nhân gốc: <strong>kỹ thuật canh tác chưa đạt</strong> khiến dược liệu bị từ chối, và <strong>thiếu thông tin giá cả</strong> khiến bà con không biết mình đang bị ép.
             </p>
-            <p>
-              Tôi không giải được vấn đề đó bằng chuyên môn thực địa mình không có. Nhưng tôi có thể góp phần bằng việc <strong>gom góp, đối chiếu và trình bày lại</strong> kỹ thuật từ tài liệu khuyến nông, viện/trung tâm dược liệu và kinh nghiệm bà con vùng trồng, cùng thông tin giá thu mua theo mùa vụ — để bà con có một điểm tra cứu dễ hiểu, có dẫn nguồn.
-            </p>
           </div>
 
           <p>
-            Trang này <strong>độc lập</strong> — tôi không đại diện cho bất kỳ đơn vị thu mua nào. Thông tin giá và kênh tiêu thụ là tổng hợp từ nhiều nguồn tham khảo, không thiên vị đầu mối nào. Khi tôi giới thiệu một đơn vị thu mua cụ thể, tôi nói rõ đó là một trong nhiều lựa chọn và bà con nên so sánh, xác minh trước khi quyết định.
+            Website được xây dựng <strong>độc lập</strong> — tôi không đại diện cho bất kỳ đơn vị thu mua nào. Thông tin giá và kênh tiêu thụ là tổng hợp từ nhiều nguồn tham khảo, không thiên vị đầu mối nào. Khi tôi giới thiệu một đơn vị thu mua cụ thể, tôi nói rõ đó là một trong nhiều lựa chọn và bà con nên so sánh, xác minh trước khi quyết định.
           </p>
 
           <p>
-            Vì là thông tin tổng hợp nên có thể còn thiếu sót — bà con, HTX hay cán bộ khuyến nông thấy chỗ nào chưa đúng, hoặc có câu hỏi về kỹ thuật, giá cả, cách tìm đầu ra, cứ liên hệ thẳng với tôi qua email bên dưới để tôi bổ sung, chỉnh lại.
+            Vì là thông tin tổng hợp nên có thể còn thiếu sót — bà con, HTX hay cán bộ khuyến nông thấy chỗ nào chưa đúng, hoặc có câu hỏi về kỹ thuật, giá cả, cách tìm đầu ra, cứ liên hệ với tôi qua email bên dưới để tôi bổ sung, chỉnh sửa kịp thời.
           </p>
         </div>
 
@@ -58,11 +57,11 @@ export const AboutPage: React.FC = () => {
             </div>
             <div className="flex items-center gap-2">
               <Globe className="w-4 h-4 text-terracotta shrink-0" />
-              <span>Website: <strong>nguyenvietloc.com</strong></span>
+              <span>Website: <strong>duoclieu.nguyenvietloc.com</strong></span>
             </div>
             <div className="flex items-center gap-2 sm:col-span-2">
               <MapPin className="w-4 h-4 text-terracotta shrink-0" />
-              <span>Vùng dược liệu trang tổng hợp: Tây Bắc, Đông Bắc, Bắc Trung Bộ, Tây Nguyên</span>
+              <span>Yên Hoà, Hà Nội</span>
             </div>
           </div>
         </div>

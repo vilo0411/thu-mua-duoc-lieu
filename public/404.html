@@ -9,10 +9,13 @@
       GitHub Pages không rewrite URL sâu về index.html, nên trang này bắt 404,
       mã hoá đường dẫn thành query string rồi redirect về index.html. Đoạn script
       tương ứng trong index.html sẽ giải mã và khôi phục lại URL cho react-router.
-      pathSegmentsToKeep = 1 vì site nằm dưới base "/thu-mua-duoc-lieu/".
+      pathSegmentsToKeep = 0 vì site phục vụ ở GỐC custom domain
+      (duoclieu.nguyenvietloc.com, Vite base "/"). Nếu đặt 1 (giá trị cũ dành cho
+      project pages), URL sâu sẽ redirect về "/thu-mua-duoc-lieu/?/..." — path không
+      có index.html nên lại rơi vào 404.html → lặp vô hạn, bot nhận 404 mọi trang sâu.
     -->
     <script type="text/javascript">
-      var pathSegmentsToKeep = 1;
+      var pathSegmentsToKeep = 0;
       var l = window.location;
       l.replace(
         l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +

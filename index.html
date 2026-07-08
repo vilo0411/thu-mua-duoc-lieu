@@ -3,7 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Thu Mua Dược Liệu — Bảng giá & Kỹ thuật canh tác GACP</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Thư Viện Dược Liệu — Kiến thức & Thu mua dược liệu Việt Nam</title>
+
+    <!--
+      KHÔNG đặt <meta description>, <link canonical> hay OG tĩnh ở đây: mỗi trang
+      tự bơm thẻ SEO riêng qua <Seo> (React 19). Để tĩnh sẽ bị trùng thẻ (canonical /
+      description defined multiple times). Chỉ giữ <title> làm fallback lúc tải — React
+      dedupe title nên không nhân đôi.
+    -->
     <!--
       Giải mã đường dẫn do public/404.html mã hoá (spa-github-pages) để khôi phục
       URL sâu cho react-router trước khi ứng dụng mount. Chạy đồng bộ trong <head>.

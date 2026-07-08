@@ -3,7 +3,7 @@ import { ChevronRight, Sprout, Coins, Compass } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { HERBS_DATA, REGIONS_DATA, SITE_OWNER, WIKI_ARTICLES } from "../lib/data";
 import { ArticleCard, CtaBanner, HerbCard, HomeHero, MissionStory, PillarDoorCard } from "../components/ui";
-import { paths } from "../lib/paths";
+import { paths, asset } from "../lib/paths";
 import { Seo, homeSeo } from "../lib/seo";
 
 // Ảnh nền cho hero & band sứ mệnh — biến thể phân giải cao của herb.image (Unsplash).
@@ -17,7 +17,7 @@ export const HomePage: React.FC = () => {
   const stats = [
     { value: `${HERBS_DATA.length}+`, label: "cây dược liệu" },
     { value: `${REGIONS_DATA.length}`, label: "vùng trồng trọng điểm" },
-    { value: `${WIKI_ARTICLES.length}+`, label: "bài kỹ thuật thực địa" },
+    { value: `${WIKI_ARTICLES.length}+`, label: "bài kỹ thuật tổng hợp" },
   ];
 
   return (
@@ -75,14 +75,14 @@ export const HomePage: React.FC = () => {
           <div>
             <span className="text-terracotta font-mono text-xs font-bold uppercase tracking-[0.15em] block mb-1">// Cây thuốc thế mạnh</span>
             <h2 className="font-serif text-2xl md:text-3xl font-bold text-ink-soft tracking-tight">
-              Danh mục thảo dược thu mua chính
+              Danh mục cây dược liệu đang được thu nổi bật
             </h2>
           </div>
           <button
             onClick={() => navigate(paths.pillar())}
             className="text-terracotta hover:text-terracotta-dark text-sm font-bold inline-flex items-center gap-1 hover:underline cursor-pointer"
           >
-            Xem toàn bộ bảng giá cây thuốc <ChevronRight className="w-4 h-4" />
+            Xem toàn bộ bảng giá thu mua dược liệu <ChevronRight className="w-4 h-4" />
           </button>
         </div>
 
@@ -137,9 +137,11 @@ export const HomePage: React.FC = () => {
 
       {/* 6. Về tác giả — E-E-A-T byline */}
       <section id="homepage-author" className="mt-16 bg-paper-2 border border-line rounded-2xl p-7 md:p-10 flex flex-col sm:flex-row items-start gap-6">
-        <div className="w-20 h-20 shrink-0 rounded-full bg-terracotta text-white font-serif font-bold text-2xl flex items-center justify-center shadow-sm">
-          {SITE_OWNER.split(" ").map((w) => w[0]).join("").slice(-3)}
-        </div>
+        <img
+          src={asset("/images/nguyen-viet-loc-avatar.png")}
+          alt={`Ảnh đại diện ${SITE_OWNER}`}
+          className="w-20 h-20 shrink-0 rounded-full object-cover ring-2 ring-terracotta/20 shadow-sm"
+        />
         <div className="space-y-3">
           <div>
             <span className="text-terracotta font-mono text-xs font-bold uppercase tracking-[0.15em] block mb-1">// Người đứng sau trang này</span>

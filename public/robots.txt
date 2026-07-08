@@ -1,6 +1,4 @@
 User-agent: *
-Disallow: /
-Disallow: /api/
-Disallow: /_next/
+Allow: /
 
-Sitemap: https://thu-mua-duoc-lieu.nguyenvietloc.com/sitemap-index.xml
+Sitemap: https://duoclieu.nguyenvietloc.com/sitemap-index.xml

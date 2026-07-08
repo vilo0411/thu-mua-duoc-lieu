@@ -1,10 +1,10 @@
 {
-  "id": "ky-thuat-trong-actiso",
-  "slug": "ky-thuat-trong-actiso-vung-cao-on-doi",
-  "herbSlug": "actiso",
-  "herbName": "Actiso",
-  "title": "Cẩm nang Kỹ thuật trồng Actiso vùng cao ôn đới cho lá và hoa đạt chuẩn dược liệu",
-  "intro": "Actiso là cây liên ôn đới khó tính, chỉ cho năng suất cao khi được canh tác đúng độ cao và nền nhiệt mát dưới 25°C. Chuyên gia Nguyễn Việt Lộc tổng hợp quy trình từ các vùng trồng kiểu mẫu Đà Lạt (Lâm Đồng) và Sa Pa, giúp bà con vừa thu lá tươi định kỳ vừa để hoa và rễ đạt hàm lượng cynarin xuất khẩu.",
+  "id": "ky-thuat-trong-atiso",
+  "slug": "ky-thuat-trong-atiso-vung-cao-on-doi",
+  "herbSlug": "atiso",
+  "herbName": "atiso",
+  "title": "Cẩm nang Kỹ thuật trồng atiso vùng cao ôn đới cho lá và hoa đạt chuẩn dược liệu",
+  "intro": "atiso là cây liên ôn đới khó tính, chỉ cho năng suất cao khi được canh tác đúng độ cao và nền nhiệt mát dưới 25°C. Nguyễn Viết Lộc tổng hợp quy trình từ các vùng trồng kiểu mẫu Đà Lạt (Lâm Đồng) và Sa Pa, giúp bà con vừa thu lá tươi định kỳ vừa để hoa và rễ đạt hàm lượng cynarin xuất khẩu.",
   "standards": [
     {
       "stage": "Chọn vùng và ươm cây con",
@@ -18,7 +18,7 @@
     },
     {
       "stage": "Tưới nước và bón thúc",
-      "criteria": "Actiso cần ẩm đều nhưng tuyệt đối không úng. Bón thúc theo giai đoạn: hồi xanh, phát triển thân lá và trước phân hóa mầm hoa, ưu tiên phân hữu cơ vi sinh và kali cho hoa chắc.",
+      "criteria": "atiso cần ẩm đều nhưng tuyệt đối không úng. Bón thúc theo giai đoạn: hồi xanh, phát triển thân lá và trước phân hóa mầm hoa, ưu tiên phân hữu cơ vi sinh và kali cho hoa chắc.",
       "controlMethod": "Tưới rãnh hoặc tưới nhỏ giọt vào sáng sớm, tránh tưới đẫm chiều tối gây nấm; định kỳ làm cỏ, vun gốc và tỉa lá già áp đất để ruộng thông thoáng."
     },
     {
@@ -41,12 +41,12 @@
   ],
   "faq": [
     {
-      "question": "Trồng Actiso bao lâu thì được thu lứa lá đầu tiên và khi nào thu hoa, rễ?",
+      "question": "Trồng atiso bao lâu thì được thu lứa lá đầu tiên và khi nào thu hoa, rễ?",
       "answer": "Sau khi trồng ra ruộng khoảng 6–8 tháng là bắt đầu thu tỉa lá bánh tẻ định kỳ để nấu cao. Hoa búp cho thu rộ từ tháng 11 kéo dài đến mùa xuân, còn thân rễ được đào lấy sau khoảng 1 năm khi cây đã cho hết đợt hoa, lúc này rễ tích lũy dược chất đậm đặc nhất."
     },
     {
-      "question": "Vì sao cùng giống Actiso nhưng lá trồng ở đồng bằng lại kém giá trị dược liệu?",
-      "answer": "Actiso bắt buộc khí hậu ôn đới mát dưới 25°C mới tổng hợp và tích lũy được cynarin cùng các hoạt chất đắng ở mức cao. Ở nền nhiệt nóng, cây sinh trưởng yếu, lá mỏng, hàm lượng hoạt chất thấp nên dù có sống được thì hàng vẫn không đạt chuẩn thu mua, đó là lý do vùng trồng chỉ tập trung ở Lâm Đồng và Sa Pa."
+      "question": "Vì sao cùng giống atiso nhưng lá trồng ở đồng bằng lại kém giá trị dược liệu?",
+      "answer": "atiso bắt buộc khí hậu ôn đới mát dưới 25°C mới tổng hợp và tích lũy được cynarin cùng các hoạt chất đắng ở mức cao. Ở nền nhiệt nóng, cây sinh trưởng yếu, lá mỏng, hàm lượng hoạt chất thấp nên dù có sống được thì hàng vẫn không đạt chuẩn thu mua, đó là lý do vùng trồng chỉ tập trung ở Lâm Đồng và Sa Pa."
     }
   ]
 }

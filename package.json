@@ -8,7 +8,7 @@
     "validate:content": "tsx scripts/validate-content.ts",
     "prebuild": "npm run validate:content",
     "build": "vite build",
-    "postbuild": "tsx scripts/generate-sitemap.ts",
+    "postbuild": "tsx scripts/generate-sitemap.ts && tsx scripts/prerender.ts",
     "preview": "vite preview",
     "clean": "rm -rf dist server.js",
     "lint": "tsc --noEmit"
@@ -32,6 +32,7 @@
     "@types/node": "^22.14.0",
     "autoprefixer": "^10.4.21",
     "esbuild": "^0.25.0",
+    "puppeteer": "^25.3.0",
     "tailwindcss": "^4.1.14",
     "tsx": "^4.21.0",
     "typescript": "~5.8.2",

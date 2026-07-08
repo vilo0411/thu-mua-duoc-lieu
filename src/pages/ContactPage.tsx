@@ -15,7 +15,7 @@ export const ContactPage: React.FC = () => {
       <section className="bg-white border border-line rounded-2xl p-6 md:p-8 space-y-6">
         <div className="space-y-2">
           <span className="text-terracotta font-mono text-xs font-bold uppercase tracking-[0.15em] block mb-1">// Gửi phản hồi</span>
-          <h1 className="font-serif text-2xl md:text-3xl font-bold text-ink-soft tracking-tight">Hộp Thư Tư Vấn Nguyễn Việt Lộc</h1>
+          <h1 className="font-serif text-2xl md:text-3xl font-bold text-ink-soft tracking-tight">Hộp Thư Tư Vấn Nguyễn Viết Lộc</h1>
           <p className="text-sm text-gray-600">
             Bà con có câu hỏi về kỹ thuật trồng, sâu bệnh, giá thu mua hay kênh tiêu thụ? Cứ gửi thẳng — tôi đọc và trả lời trực tiếp.
           </p>

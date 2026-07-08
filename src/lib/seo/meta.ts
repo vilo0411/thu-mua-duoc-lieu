@@ -39,7 +39,7 @@ export function pillarSeo(): SeoProps {
 export function herbSeo(herb: HerbalMedicine): SeoProps {
   const path = paths.herb(herb.slug);
   return {
-    title: `Thu mua ${herb.name} ${YEAR}: Giá cả, tiêu chí & nơi bán uy tín`,
+    title: `Thu mua dược liệu ${herb.name} ${YEAR}: Giá cả, tiêu chí & nơi bán uy tín`,
     description: herb.shortDesc.slice(0, 158),
     path,
     type: "article",
@@ -65,14 +65,14 @@ export function herbSeo(herb: HerbalMedicine): SeoProps {
 export function herbRegionSeo(herb: HerbalMedicine, region: RegionData): SeoProps {
   const path = paths.herbRegion(herb.slug, region.slug);
   return {
-    title: `Thu mua ${herb.name} tại ${region.name}: Giá & vùng trồng`,
+    title: `Thu mua dược liệu ${herb.name} tại vùng ${region.name}: Giá & vùng trồng`,
     description: `Thông tin thu mua ${herb.name} khu vực ${region.name}: đặc điểm vùng trồng, các tỉnh trọng điểm và quy trình gửi hàng.`,
     path,
     type: "article",
     image: herb.image,
     jsonLd: [
       ld.article({
-        headline: `Thu mua ${herb.name} tại ${region.name}`,
+        headline: `Thu mua dược liệu ${herb.name} tại vùng ${region.name}`,
         description: `Giá và vùng trồng ${herb.name} khu vực ${region.name}.`,
         path,
         image: herb.image,
@@ -147,7 +147,7 @@ export function knowledgeSeo(): SeoProps {
   return {
     title: "Kiến thức trồng & sơ chế dược liệu Việt Nam",
     description:
-      "Thư viện kỹ thuật canh tác, phòng trừ sâu bệnh và sơ chế dược liệu đạt chuẩn GACP-WHO do Nguyễn Việt Lộc biên soạn.",
+      "Thư viện kỹ thuật canh tác, phòng trừ sâu bệnh và sơ chế dược liệu đạt chuẩn GACP-WHO do Nguyễn Viết Lộc tổng hợp từ nguồn uy tín.",
     path: paths.knowledge(),
     type: "website",
     jsonLd: [
@@ -161,8 +161,8 @@ export function knowledgeSeo(): SeoProps {
 
 export function aboutSeo(): SeoProps {
   return {
-    title: `Về ${SITE.owner} — Chuyên gia nông học dược liệu`,
-    description: `Giới thiệu ${SITE.owner}, tác giả blog chia sẻ kinh nghiệm trồng và thu mua dược liệu Việt Nam.`,
+    title: `Về ${SITE.owner} — Người tổng hợp kiến thức & giá dược liệu`,
+    description: `Giới thiệu ${SITE.owner}, người tổng hợp kỹ thuật trồng và giá thu mua dược liệu Việt Nam từ các nguồn uy tín, có dẫn nguồn.`,
     path: paths.about(),
     type: "website",
     jsonLd: [ld.personProfile()],
@@ -176,4 +176,52 @@ export function contactSeo(): SeoProps {
     path: paths.contact(),
     type: "website",
   };
+}
+
+/** Props <Seo> dùng chung cho các trang chính sách/pháp lý. */
+function legalSeo(title: string, description: string, path: string): SeoProps {
+  return {
+    title: title.slice(0, 60),
+    description: description.slice(0, 158),
+    path,
+    type: "website",
+    jsonLd: [
+      ld.breadcrumbList([
+        { name: "Trang chủ", path: paths.home() },
+        { name: title, path },
+      ]),
+    ],
+  };
+}
+
+export function privacySeo(): SeoProps {
+  return legalSeo(
+    `Chính sách bảo mật — ${SITE.siteName}`,
+    `Cách ${SITE.siteName} thu thập, sử dụng và bảo vệ thông tin cá nhân bà con gửi qua biểu mẫu liên hệ. Không mua bán, chia sẻ dữ liệu.`,
+    paths.privacy(),
+  );
+}
+
+export function termsSeo(): SeoProps {
+  return legalSeo(
+    `Điều khoản sử dụng — ${SITE.siteName}`,
+    `Điều khoản khi sử dụng nội dung tại ${SITE.displayUrl}: mục đích tham khảo, quyền sở hữu nội dung, giới hạn trách nhiệm và liên kết bên thứ ba.`,
+    paths.terms(),
+  );
+}
+
+export function disclaimerSeo(): SeoProps {
+  return legalSeo(
+    `Miễn trừ trách nhiệm — ${SITE.siteName}`,
+    `Thông tin kỹ thuật, giá thu mua và kênh tiêu thụ trên trang mang tính tham khảo, không phải tư vấn y tế hay đầu tư. Bà con nên tự xác minh trước khi giao dịch.`,
+    paths.disclaimer(),
+  );
+}
+
+export function editorialSeo(): SeoProps {
+  return legalSeo(
+    `Chính sách nội dung & nguồn tham khảo`,
+    `${SITE.owner} tổng hợp nội dung từ tài liệu khuyến nông, viện dược liệu và kinh nghiệm vùng trồng — cam kết dẫn nguồn, cập nhật và sửa sai kịp thời.`,
+    paths.editorial(),
+  );
 }

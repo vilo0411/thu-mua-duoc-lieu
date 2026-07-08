@@ -1,5 +1,5 @@
 import React from "react";
-import { Calculator, ArrowRight } from "lucide-react";
+import { Calculator, ArrowDown } from "lucide-react";
 import type { HerbPriceDetail } from "../../types";
 
 /** Tách chuỗi "140.000 - 180.000" thành [140000, 180000]. Dấu "." là ngăn nghìn. */
@@ -19,13 +19,14 @@ const QUICK_KG = [10, 50, 100, 500];
 interface HerbPriceCalculatorProps {
   prices: HerbPriceDetail[];
   herbName: string;
-  /** Link outbound tới đối tác bao tiêu (kèm UTM) — chốt chuyển đổi sau khi tính. */
+  /** Mỏ neo tới mục "Kênh tiêu thụ" ngay trên trang (vd "#kenh-tieu-thu") — cuộn tới để bà con tự chọn nơi bán. */
   ctaHref: string;
 }
 
 /**
  * Máy tính "Lô hàng bán được bao nhiêu tiền?" — nhập số kg, chọn loại,
- * hiện ngay khoảng tiền ước tính rồi mời gửi lô hàng cho đối tác thu mua.
+ * hiện ngay khoảng tiền ước tính rồi hướng bà con xuống mục các kênh tiêu thụ.
+ * Trang chỉ tổng hợp thông tin, không trực tiếp thu mua.
  */
 export const HerbPriceCalculator: React.FC<HerbPriceCalculatorProps> = ({ prices, herbName, ctaHref }) => {
   const [gradeIdx, setGradeIdx] = React.useState(0);
@@ -37,6 +38,17 @@ export const HerbPriceCalculator: React.FC<HerbPriceCalculatorProps> = ({ prices
   const estLow = low * qty;
   const estHigh = high * qty;
   const hasResult = qty > 0;
+
+  // Cuộn mượt tới mục kênh tiêu thụ khi ctaHref là mỏ neo (#id).
+  const handleCta = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    if (ctaHref.startsWith("#")) {
+      const target = document.getElementById(ctaHref.slice(1));
+      if (target) {
+        e.preventDefault();
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }
+  };
 
   return (
     <div className="bg-gradient-to-br from-[#FDFBF9] to-[#F5ECE1] border border-[#E6DDD0] rounded-2xl p-6 shadow-xs space-y-5">
@@ -112,13 +124,14 @@ export const HerbPriceCalculator: React.FC<HerbPriceCalculatorProps> = ({ prices
           </div>
           <a
             href={ctaHref}
+            onClick={handleCta}
             className="inline-flex items-center gap-2 bg-[#B85037] hover:bg-[#9d4230] text-white font-sans font-bold text-[15px] px-5 py-3 rounded-xl shadow-sm transition-colors"
           >
-            Gửi lô hàng này để chốt giá thu mua
-            <ArrowRight className="w-4 h-4" />
+            Xem nơi bán {herbName} được giá này
+            <ArrowDown className="w-4 h-4" />
           </a>
           <p className="text-xs text-gray-500 font-sans italic">
-            Con số chỉ mang tính tham khảo theo bảng giá tuần này. Giá chốt tùy chất lượng thực tế của lô hàng.
+            Con số chỉ mang tính tham khảo theo bảng giá tuần này. Giá thực tế do bên thu mua và bà con thỏa thuận, tùy chất lượng lô hàng.
           </p>
         </div>
       )}

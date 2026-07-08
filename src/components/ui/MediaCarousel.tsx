@@ -30,7 +30,7 @@ const watchUrl = (m: HerbMedia): string =>
  */
 export const MediaCarousel: React.FC<MediaCarouselProps> = ({
   items,
-  heading = "Video thực địa",
+  heading = "Video vùng trồng",
   subheading = "Thu hoạch, sơ chế & thị trường thực tế",
 }) => {
   const [active, setActive] = React.useState(0);
@@ -75,7 +75,7 @@ export const MediaCarousel: React.FC<MediaCarouselProps> = ({
             >
               <iframe
                 src={embedSrc(current)}
-                title={current.title ?? "Video thực địa"}
+                title={current.title ?? "Video vùng trồng"}
                 loading="lazy"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
                 allowFullScreen

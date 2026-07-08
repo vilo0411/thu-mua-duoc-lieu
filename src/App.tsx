@@ -9,6 +9,12 @@ import { KnowledgePage } from "./pages/KnowledgePage";
 import { KienThucSlugPage } from "./pages/KienThucSlugPage";
 import { AboutPage } from "./pages/AboutPage";
 import { ContactPage } from "./pages/ContactPage";
+import {
+  PrivacyPage,
+  TermsPage,
+  DisclaimerPage,
+  EditorialPage,
+} from "./pages/LegalPages";
 import { NotFoundPage } from "./pages/NotFoundPage";
 import { paths } from "./lib/paths";
 
@@ -28,6 +34,10 @@ export default function App() {
         <Route path="/kien-thuc/:slug" element={<KienThucSlugPage />} />
         <Route path="/ve-toi" element={<AboutPage />} />
         <Route path="/lien-he" element={<ContactPage />} />
+        <Route path="/chinh-sach-bao-mat" element={<PrivacyPage />} />
+        <Route path="/dieu-khoan-su-dung" element={<TermsPage />} />
+        <Route path="/mien-tru-trach-nhiem" element={<DisclaimerPage />} />
+        <Route path="/chinh-sach-noi-dung" element={<EditorialPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Route>
     </Routes>

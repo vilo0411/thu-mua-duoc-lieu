@@ -6,9 +6,10 @@
  * cần cho từng môi trường deploy). Chỉ sinh combo cây × vùng CÓ THỰC — dựa trên
  * mảng regions của từng cây (PRD §11.2).
  */
-import { readFileSync, readdirSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import { collectRoutes } from "./lib/routes";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const CONTENT = join(ROOT, "content");
@@ -17,17 +18,7 @@ const DIST = join(ROOT, "dist");
 const site = JSON.parse(readFileSync(join(CONTENT, "site.json"), "utf8"));
 const ORIGIN = (process.env.SITE_URL || site.siteUrl).replace(/\/$/, "");
 
-const readDir = (dir: string): any[] =>
-  existsSync(join(CONTENT, dir))
-    ? readdirSync(join(CONTENT, dir))
-        .filter((f) => f.endsWith(".json"))
-        .map((f) => JSON.parse(readFileSync(join(CONTENT, dir, f), "utf8")))
-    : [];
-
-const herbs = readDir("cay");
-const regions = readDir("vung");
-const wiki = readDir("wiki");
-const hubs = readDir("wiki-hub");
+const routes = collectRoutes();
 
 const today = new Date().toISOString().slice(0, 10);
 
@@ -43,22 +34,9 @@ function urlset(paths: string[]): string {
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${items}\n</urlset>\n`;
 }
 
-// --- Money silo: pillar + cây + combo cây×vùng có thực ---
-const moneyPaths = ["/thu-mua-duoc-lieu"];
-for (const h of herbs) {
-  moneyPaths.push(`/thu-mua-duoc-lieu/${h.slug}`);
-  for (const r of h.regions ?? []) {
-    moneyPaths.push(`/thu-mua-duoc-lieu/${h.slug}/${r.regionSlug}`);
-  }
-}
-
-// --- Wiki silo: index + hub theo cây + wiki chung ---
-const wikiPaths = ["/kien-thuc"];
-for (const hub of hubs) wikiPaths.push(`/kien-thuc/ky-thuat-trong-${hub.herbSlug}`);
-for (const a of wiki) wikiPaths.push(`/kien-thuc/${a.id}`);
-
-// --- Static ---
-const staticPaths = ["/", "/ve-toi", "/lien-he"];
+const moneyPaths = routes.money;
+const wikiPaths = routes.wiki;
+const staticPaths = routes.static;
 
 if (!existsSync(DIST)) mkdirSync(DIST, { recursive: true });
 

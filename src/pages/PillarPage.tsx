@@ -33,7 +33,7 @@ export const PillarPage: React.FC = () => {
             Bảng giá & thông tin thu mua dược liệu toàn quốc
           </h1>
           <p className="text-gray-700 text-base md:text-lg font-sans leading-relaxed">
-            Tra nhanh giá thu mua, tiêu chuẩn kiểm định và nơi bán cho từng cây — giúp bà con nông hộ, hợp tác xã bán đúng giá trị thực, không bị thương lái ép.
+            Tra nhanh giá thu mua, tiêu chuẩn kiểm định và nơi bán cho từng cây dược liệu — giúp bà con nông hộ, hợp tác xã bán đúng giá trị thực, không bị thương lái ép.
           </p>
         </div>
       </section>
@@ -71,7 +71,7 @@ export const PillarPage: React.FC = () => {
 
         {/* FAQ */}
         <section>
-          <SectionHeader eyebrow="Hỏi đáp" title="Bà con hỏi — Nguyễn Việt Lộc giải đáp" />
+          <SectionHeader eyebrow="Hỏi đáp" title="Bà con hỏi — Nguyễn Viết Lộc giải đáp" />
           <div className="mt-8 max-w-3xl">
             <FaqAccordion
               items={[

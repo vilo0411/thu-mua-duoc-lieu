@@ -42,11 +42,11 @@ export const MissionStory: React.FC<MissionStoryProps> = ({ imageUrl, onReadStor
               còn 20.000đ/kg, thậm chí bỏ mặc nông sản thối rữa tại ruộng.
             </p>
             <p>
-              Trang này ra đời để giải hai bài toán gốc:{" "}
+              Nguyên nhân tình trạng này là do{" "}
               <strong className="text-white font-semibold">kỹ thuật canh tác còn yếu</strong> khiến
-              dược liệu dính dư lượng, bị từ chối mua; và{" "}
+              dược liệu dính dư lượng, bị từ chối mua; {" "}
               <strong className="text-white font-semibold">đầu ra bấp bênh</strong> vì phụ thuộc
-              thương lái trôi nổi. Tôi tổng hợp kỹ thuật từ nguồn uy tín và thông tin các kênh tiêu
+              thương lái trôi nổi. Tôi xây dựng trang này để tổng hợp kỹ thuật từ nguồn uy tín và thông tin các kênh tiêu
               thụ để bà con tự quyết định kênh bán phù hợp với quy mô của mình.
             </p>
           </div>
@@ -56,7 +56,7 @@ export const MissionStory: React.FC<MissionStoryProps> = ({ imageUrl, onReadStor
             <Quote className="w-5 h-5 shrink-0 text-earth/80 -scale-x-100" aria-hidden="true" />
             <p className="font-serif text-lg leading-snug">
               Chuyển từ trồng tự phát sang liên kết ký hợp đồng bao tiêu là con đường bền vững để bà
-              con làm giàu — và tôi muốn góp phần bằng cách gom đủ thông tin, thẳng thắn, không tô hồng.
+              con làm giàu — tôi muốn góp phần bằng cách cung cấp thông tin hữu ích, dẫn nguồn rõ ràng.
             </p>
           </blockquote>
 

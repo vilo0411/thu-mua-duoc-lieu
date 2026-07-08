@@ -153,7 +153,7 @@ export const HerbCatalog: React.FC = () => {
       <div className="bg-white border border-[#E6DDD0] rounded-2xl p-5 md:p-7 shadow-xs space-y-4">
         <form onSubmit={onSubmit} className="space-y-2">
           <label htmlFor="herb-catalog-search" className="block font-serif text-xl md:text-2xl font-bold text-[#4F433A]">
-            Bà con đang có cây dược liệu gì?
+            Bà con đang muốn bán cây dược liệu gì?
           </label>
           <div className="flex items-center gap-2 px-4 py-3 rounded-xl border-2 border-[#E6DDD0] bg-[#FBF9F5] focus-within:border-[#B85037] transition-colors">
             <Search className="w-6 h-6 text-[#B85037] shrink-0" />
@@ -173,13 +173,13 @@ export const HerbCatalog: React.FC = () => {
             )}
           </div>
           <p className="text-sm text-gray-500 font-sans">
-            Gõ tên cây (không dấu cũng được) để lọc nhanh, xem giá thu mua, tiêu chuẩn & nơi bán. Đang cần mua <strong className="text-[#4F433A]">{HERBS_DATA.length}</strong> loại dược liệu.
+            Gõ tên cây để lọc nhanh, xem giá thu mua, tiêu chuẩn & nơi bán. Đang cần bán <strong className="text-[#4F433A]">{HERBS_DATA.length}</strong> loại dược liệu.
           </p>
         </form>
 
         {showSuggestions && (
           <div className="space-y-2">
-            <span className="block text-sm font-sans font-semibold text-[#7A6E62]">🔥 Đang cần mua nhiều:</span>
+            <span className="block text-sm font-sans font-semibold text-[#7A6E62]">🔥 Cây dược liệu đang được thu mua nhiều:</span>
             <div className="flex flex-wrap gap-2">
               {suggestions.map((h) => (
                 <button

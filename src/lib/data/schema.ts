@@ -178,6 +178,7 @@ export const siteSchema = z.object({
   siteName: z.string().min(1),
   defaultTitle: z.string().min(1),
   defaultDescription: z.string().min(1),
+  defaultImage: z.string().min(1),
   locale: z.string().min(1),
   authorUrl: z.string().url(),
 });

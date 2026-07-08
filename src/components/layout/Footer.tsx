@@ -17,13 +17,13 @@ export const Footer: React.FC = () => {
 
         {/* 4 columns section */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* Column 1: Về Nguyễn Việt Lộc */}
+          {/* Column 1: Về Tác giả */}
           <div className="space-y-4 text-left">
             <h4 className="font-serif text-lg font-bold text-[#EFE6DA] uppercase tracking-wider border-b border-white/10 pb-2">
-              Về Nguyễn Việt Lộc
+              Về Tác giả
             </h4>
             <p className="text-gray-300 text-sm leading-relaxed font-sans">
-              Nguyễn Việt Lộc tổng hợp kỹ thuật canh tác dược liệu, giá thu mua và cách tìm kênh tiêu thụ phù hợp từ các nguồn uy tín — dành cho nông dân, HTX và cán bộ khuyến nông.
+              Nguyễn Viết Lộc tổng hợp các kỹ thuật canh tác dược liệu, giá thu mua và cách tìm kênh tiêu thụ phù hợp từ các nguồn uy tín — dành cho nông dân, HTX và cán bộ khuyến nông.
             </p>
             <Link
               to={paths.about()}
@@ -42,7 +42,7 @@ export const Footer: React.FC = () => {
             <ul className="space-y-2 text-sm text-gray-300">
               <li>
                 <Link to={paths.pillar()} className="hover:text-white transition-colors cursor-pointer text-left">
-                  • Bảng giá dược liệu hôm nay
+                  • Bảng giá thua mua dược liệu cập nhật
                 </Link>
               </li>
               {HERBS_DATA.slice(0, 5).map((h) => (
@@ -51,7 +51,7 @@ export const Footer: React.FC = () => {
                     to={paths.herb(h.slug)}
                     className="hover:text-white transition-colors cursor-pointer text-left capitalize"
                   >
-                    • Thu mua rễ củ {h.name}
+                    • Thu mua dược liệu {h.name}
                   </Link>
                 </li>
               ))}
@@ -120,16 +120,25 @@ export const Footer: React.FC = () => {
           </p>
         </div>
 
+        {/* Legal / policy links */}
+        <nav
+          aria-label="Chính sách & pháp lý"
+          className="border-t border-white/10 pt-6 flex flex-wrap gap-x-4 gap-y-2 text-xs text-gray-400"
+        >
+          <Link to={paths.editorial()} className="hover:text-white transition-colors cursor-pointer">Chính sách nội dung</Link>
+          <span aria-hidden>•</span>
+          <Link to={paths.privacy()} className="hover:text-white transition-colors cursor-pointer">Chính sách bảo mật</Link>
+          <span aria-hidden>•</span>
+          <Link to={paths.terms()} className="hover:text-white transition-colors cursor-pointer">Điều khoản sử dụng</Link>
+          <span aria-hidden>•</span>
+          <Link to={paths.disclaimer()} className="hover:text-white transition-colors cursor-pointer">Miễn trừ trách nhiệm</Link>
+          <span aria-hidden>•</span>
+          <Link to={paths.about()} className="hover:text-white transition-colors cursor-pointer">Giới thiệu tác giả</Link>
+        </nav>
+
         {/* Copyright bar */}
-        <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-400">
-          <span className="text-left">
-            © 2026 Nguyễn Việt Lộc. Bảo lưu mọi quyền.
-          </span>
-          <div className="flex gap-4">
-            <Link to={paths.about()} className="hover:text-white transition-colors cursor-pointer">Giới thiệu tác giả</Link>
-            <span>•</span>
-            <Link to={paths.contact()} className="hover:text-white transition-colors cursor-pointer">Báo cáo vi phạm giống cây giống giả</Link>
-          </div>
+        <div className="border-t border-white/10 pt-6 text-xs text-gray-400">
+          <span>© 2026 Nguyễn Viết Lộc. Bảo lưu mọi quyền.</span>
         </div>
 
       </div>

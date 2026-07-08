@@ -34,7 +34,12 @@ export const Seo: React.FC<SeoProps> = ({
 }) => {
   const url = canonical(path);
   // Ảnh nội bộ cần gắn base deploy (giống <img>); URL đầy đủ giữ nguyên.
-  const ogImage = image ? asset(image) : undefined;
+  // Trang không tự set image sẽ dùng ảnh OG mặc định để link preview không trống.
+  // OG/Twitter yêu cầu URL tuyệt đối → prefix origin cho ảnh nội bộ.
+  const resolved = asset(image ?? SITE.defaultImage);
+  const ogImage = /^https?:\/\//.test(resolved)
+    ? resolved
+    : `${SITE.siteUrl.replace(/\/$/, "")}${resolved.startsWith("/") ? "" : "/"}${resolved}`;
   const blocks = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
 
   return (

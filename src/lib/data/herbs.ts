@@ -11,7 +11,7 @@ const DISPLAY_ORDER = [
   "dinh-lang",
   "ba-kich",
   "ha-thu-o",
-  "actiso",
+  "atiso",
   "nam-linh-chi",
   "bac-ha",
   "ca-gai-leo",

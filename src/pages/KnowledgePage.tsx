@@ -65,7 +65,7 @@ export const KnowledgePage: React.FC = () => {
           Kiến Thức Canh Tác &amp; Chế Biến Dược Liệu
         </h1>
         <p className="text-gray-700 text-base md:text-lg max-w-3xl font-sans leading-relaxed">
-          Do <strong className="text-terracotta">Nguyễn Việt Lộc</strong> tổng hợp từ nguồn uy tín: kỹ thuật gieo trồng, phân biệt giống, xử lý sâu bệnh hữu cơ và sơ chế sau thu hoạch — sắp xếp lại cho bà con dễ áp dụng.
+          Do <strong className="text-terracotta">Nguyễn Viết Lộc</strong> tổng hợp từ nguồn uy tín: kỹ thuật gieo trồng, phân biệt giống, xử lý sâu bệnh hữu cơ và sơ chế sau thu hoạch — sắp xếp lại cho bà con dễ áp dụng.
         </p>
       </section>
 

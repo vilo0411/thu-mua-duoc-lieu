@@ -1,4 +1,4 @@
-# Nguyễn Việt Lộc — Blog SEO thu mua dược liệu
+# Nguyễn Viết Lộc — Blog SEO thu mua dược liệu
 
 Blog Programmatic SEO (pSEO) chia sẻ kiến thức trồng, sơ chế và thu mua dược liệu
 Việt Nam. Xây dựng bằng **Vite + React 19 + React Router + Tailwind CSS 4**, deploy

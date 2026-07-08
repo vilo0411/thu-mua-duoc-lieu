@@ -42,7 +42,7 @@ export const MoneyVungPage: React.FC = () => {
           {popularityLabel} · sản lượng {herbRegion.outputEstimate}
         </div>
         <h1 className="font-serif text-2xl md:text-4xl font-extrabold text-ink-soft tracking-tight">
-          Thu Mua {herb.name} Tại {region.name}: Giá &amp; Vùng Trồng
+          Thu Mua Dược Liệu {herb.name} Tại Vùng {region.name}: Giá &amp; Vùng Trồng
         </h1>
         <p className="text-gray-700 text-base md:text-lg max-w-3xl font-sans leading-relaxed">
           {region.name} là {popularityLabel} của cây {herb.name} với sản lượng ước tính {herbRegion.outputEstimate}. Bài
@@ -72,19 +72,22 @@ export const MoneyVungPage: React.FC = () => {
         <h2 className="font-serif text-xl font-bold text-ink-soft border-b border-line pb-2">
           Đặc điểm trồng {herb.name} theo từng tỉnh
         </h2>
-        {region.provinces.map((p, idx) => (
-          <div key={idx} className="bg-white border border-line rounded-xl p-5 space-y-1.5 shadow-2xs">
-            <h3 className="font-serif text-lg font-bold text-ink-soft">
-              Thu mua {herb.name} tại {p.name}
-            </h3>
-            <p className="text-ink text-base leading-relaxed font-sans">
-              Tại {p.name}, {herb.name} được canh tác trên quy mô {p.area}, thu hoạch chính vào {p.harvestPeriod}. Với
-              điều kiện {region.characteristics.charAt(0).toLowerCase() + region.characteristics.slice(1)} bà con nên gom
-              hàng theo {p.activeCooperatives.toLowerCase()} để thuận tiện cho xe thu mua và đạt sản lượng chung đủ lớn cho
-              một chuyến bao tiêu.
-            </p>
-          </div>
-        ))}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {region.provinces.map((p, idx) => (
+            <div key={idx} className="bg-white border border-line rounded-xl p-5 space-y-2 shadow-2xs">
+              <h3 className="font-serif text-lg font-bold text-ink-soft flex items-center gap-2">
+                <MapPin className="w-4 h-4 text-terracotta shrink-0" />
+                Thu mua {herb.name} tại {p.name}
+              </h3>
+              <p className="text-ink text-base leading-relaxed font-sans">
+                Tại {p.name}, {herb.name} được canh tác trên quy mô {p.area}, thu hoạch chính vào {p.harvestPeriod}. Với
+                điều kiện {region.characteristics.charAt(0).toLowerCase() + region.characteristics.slice(1)} bà con nên gom
+                hàng theo {p.activeCooperatives.toLowerCase()} để thuận tiện cho xe thu mua và đạt sản lượng chung đủ lớn
+                cho một chuyến bao tiêu.
+              </p>
+            </div>
+          ))}
+        </div>
       </section>
 
       {/* Đặc điểm cây trồng ở vùng */}
