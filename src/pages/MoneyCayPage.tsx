@@ -74,7 +74,7 @@ export const MoneyCayPage: React.FC = () => {
 
       {/* Quick Info */}
       <section className="space-y-4">
-        <h3 className="font-serif text-xl font-bold text-ink-soft">Thông số đặc điểm thương mại</h3>
+        <h2 className="font-serif text-xl font-bold text-ink-soft">Thông số đặc điểm thương mại</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {herb.stats.map((stat, idx) => {
             const Icon = statIcon(stat.label);
@@ -96,27 +96,27 @@ export const MoneyCayPage: React.FC = () => {
       {/* Nhận diện hàng tươi / khô (dữ liệu thu mua thực tế) */}
       {(herb.identification?.fresh || herb.identification?.dry) && (
         <section className="space-y-4">
-          <h3 className="font-serif text-xl font-bold text-ink-soft flex items-center gap-2">
+          <h2 className="font-serif text-xl font-bold text-ink-soft flex items-center gap-2">
             <Package className="w-6 h-6 text-terracotta" />
             Đặc điểm nhận diện hàng {herb.name} khi thu mua
-          </h3>
+          </h2>
           <p className="text-sm text-gray-600 font-sans">
             Bà con đối chiếu mô tả dưới đây để phân loại đúng phẩm cấp trước khi cân hàng, tránh bị trừ ký do lẫn tạp:
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {herb.identification.fresh && (
               <div className="bg-green-50/60 border border-green-200 rounded-xl p-5 space-y-2">
-                <h4 className="font-sans font-bold text-green-800 flex items-center gap-1.5">
+                <h3 className="font-sans font-bold text-green-800 flex items-center gap-1.5">
                   <Sprout className="w-4 h-4" /> Hàng tươi
-                </h4>
+                </h3>
                 <p className="text-[15px] text-ink leading-relaxed whitespace-pre-line font-sans">{herb.identification.fresh}</p>
               </div>
             )}
             {herb.identification.dry && (
               <div className="bg-paper-2 border border-line rounded-xl p-5 space-y-2">
-                <h4 className="font-sans font-bold text-ink-soft flex items-center gap-1.5">
+                <h3 className="font-sans font-bold text-ink-soft flex items-center gap-1.5">
                   <Package className="w-4 h-4" /> Hàng khô
-                </h4>
+                </h3>
                 <p className="text-[15px] text-ink leading-relaxed whitespace-pre-line font-sans">{herb.identification.dry}</p>
               </div>
             )}
@@ -127,9 +127,9 @@ export const MoneyCayPage: React.FC = () => {
       {/* Pricing table */}
       <section className="space-y-4">
         <div className="flex flex-col sm:flex-row items-baseline justify-between gap-2">
-          <h3 className="font-serif text-xl font-bold text-ink-soft">
+          <h2 className="font-serif text-xl font-bold text-ink-soft">
             Bảng giá phân hạng thu mua rễ tươi/sấy khô ({herb.name}) hôm nay
-          </h3>
+          </h2>
           <span className="text-xs text-green-700 font-semibold italic">Đầy đủ các bộ phận giao dịch</span>
         </div>
 
@@ -143,16 +143,16 @@ export const MoneyCayPage: React.FC = () => {
 
       {/* Kênh bán hàng */}
       <section id="kenh-tieu-thu" className="space-y-4 scroll-mt-24">
-        <h3 className="font-serif text-xl font-bold text-ink-soft border-b border-line pb-2">Kênh thu mua {herb.name}</h3>
+        <h2 className="font-serif text-xl font-bold text-ink-soft border-b border-line pb-2">Kênh thu mua {herb.name}</h2>
         <SaleChannelsCard herbName={herb.name} cay={herb.slug} pageType="money_cay" />
       </section>
 
       {/* Standards */}
       <section className="bg-white border border-line rounded-xl p-6 space-y-4">
-        <h3 className="font-serif text-xl font-bold text-ink-soft flex items-center gap-2">
+        <h2 className="font-serif text-xl font-bold text-ink-soft flex items-center gap-2">
           <ShieldCheck className="w-6 h-6 text-green-600" />
           Tiêu chuẩn chất lượng để bán được giá tốt
-        </h3>
+        </h2>
         <p className="text-sm text-gray-600 font-sans">
           Đây là các tiêu chí nhà máy chế biến thường kiểm tra khi nhận hàng {herb.name}. Đạt càng nhiều tiêu chí, bà con càng dễ thương lượng giá cao:
         </p>
@@ -169,7 +169,7 @@ export const MoneyCayPage: React.FC = () => {
       {/* Region cards */}
       {herb.regions.length > 0 && (
       <section className="space-y-4">
-        <h3 className="font-serif text-xl font-bold text-ink-soft">Các vùng trồng trọng điểm</h3>
+        <h2 className="font-serif text-xl font-bold text-ink-soft">Các vùng trồng trọng điểm</h2>
         <p className="text-sm text-gray-600 font-sans">Nhấp vào vùng để xem chi tiết tỉnh thành, sản lượng và thông tin HTX tại vùng:</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {herb.regions.map((reg, idx) => (
@@ -179,7 +179,7 @@ export const MoneyCayPage: React.FC = () => {
               className="bg-paper hover:bg-sand border border-line hover:border-terracotta p-4 rounded-xl cursor-pointer transition-all flex justify-between items-center group"
             >
               <div>
-                <h5 className="font-sans font-bold text-ink-soft group-hover:text-terracotta transition-colors">{reg.regionName}</h5>
+                <h3 className="font-sans font-bold text-ink-soft group-hover:text-terracotta transition-colors">{reg.regionName}</h3>
                 <p className="text-xs text-gray-500 font-sans mt-0.5">Sản lượng dự kiến: {reg.outputEstimate}</p>
               </div>
               <ChevronRight className="w-5 h-5 text-terracotta group-hover:translate-x-1 transition-transform" />
@@ -192,10 +192,10 @@ export const MoneyCayPage: React.FC = () => {
       {/* Pests & diseases */}
       {herb.pests.length > 0 && (
         <section className="space-y-4">
-          <h3 className="font-serif text-xl font-bold text-ink-soft flex items-center gap-2 border-b border-line pb-2">
+          <h2 className="font-serif text-xl font-bold text-ink-soft flex items-center gap-2 border-b border-line pb-2">
             <Bug className="w-6 h-6 text-terracotta" />
             Sâu bệnh thường gặp & cách xử lý cho {herb.name}
-          </h3>
+          </h2>
           <p className="text-sm text-gray-600 font-sans">
             Bà con soi cây nhà mình theo dấu hiệu bên dưới để nhận biết sớm và xử lý bằng chế phẩm an toàn, giữ hàng đạt
             chuẩn thu mua:
@@ -208,7 +208,7 @@ export const MoneyCayPage: React.FC = () => {
       <section className="bg-gradient-to-br from-paper to-paper-2 border border-line rounded-xl p-6 flex flex-col sm:flex-row gap-6 items-center justify-between">
         <div className="space-y-2">
           <span className="text-terracotta font-mono text-xs font-bold uppercase tracking-[0.15em] block mb-1">// Tài liệu hướng dẫn</span>
-          <h4 className="font-serif text-xl font-bold text-ink-soft">Kỹ thuật gieo trồng chăm sóc {herb.name} đúng quy chuẩn nông nghiệp sạch</h4>
+          <h2 className="font-serif text-xl font-bold text-ink-soft">Kỹ thuật gieo trồng chăm sóc {herb.name} đúng quy chuẩn nông nghiệp sạch</h2>
           <p className="text-sm text-gray-600 max-w-xl">Do Nguyễn Viết Lộc tổng hợp từ nguồn uy tín — từ chọn giống, chăm sóc đến thu hoạch và sơ chế đúng cách.</p>
         </div>
         <button
@@ -222,7 +222,7 @@ export const MoneyCayPage: React.FC = () => {
       {/* FAQ */}
       {herb.faq.length > 0 && (
       <section className="space-y-4">
-        <h3 className="font-serif text-xl font-bold text-ink-soft border-b border-line pb-2">Câu hỏi thường gặp nhất về thu mua {herb.name}</h3>
+        <h2 className="font-serif text-xl font-bold text-ink-soft border-b border-line pb-2">Câu hỏi thường gặp nhất về thu mua {herb.name}</h2>
         <FaqAccordion items={herb.faq} />
       </section>
       )}

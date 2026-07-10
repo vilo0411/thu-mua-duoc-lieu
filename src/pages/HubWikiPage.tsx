@@ -333,7 +333,7 @@ export const HubWikiPage: React.FC<{ herbSlug: string }> = ({ herbSlug }) => {
 
           {/* Link wheel — liên kết vòng tới các bài kỹ thuật trồng cây dược liệu khác */}
           <section className="space-y-4 pt-6">
-            <h3 className="font-serif text-xl font-bold text-ink-soft">Kỹ thuật trồng các cây dược liệu liên quan</h3>
+            <h2 className="font-serif text-xl font-bold text-ink-soft">Kỹ thuật trồng các cây dược liệu liên quan</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {relatedHubs(herb.slug).map((rel) => (
                 <div
@@ -345,7 +345,7 @@ export const HubWikiPage: React.FC<{ herbSlug: string }> = ({ herbSlug }) => {
                     <Sprout className="w-4.5 h-4.5" />
                   </div>
                   <div>
-                    <h5 className="font-sans font-bold text-sm text-ink-soft group-hover:text-terracotta transition-colors line-clamp-2">{rel.title}</h5>
+                    <h3 className="font-sans font-bold text-sm text-ink-soft group-hover:text-terracotta transition-colors line-clamp-2">{rel.title}</h3>
                     <span className="text-xs text-gray-500 font-mono mt-1 block">Kỹ thuật trồng {rel.herbName}</span>
                   </div>
                 </div>

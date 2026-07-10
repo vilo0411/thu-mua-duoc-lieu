@@ -31,7 +31,7 @@ export const PriceBoard: React.FC<PriceBoardProps> = ({ prices, updatedLabel }) 
             className="bg-white border border-[#E6DDD0] rounded-2xl p-5 shadow-xs flex flex-col gap-3"
           >
             <div className="flex items-start justify-between gap-3">
-              <h4 className="font-sans font-bold text-lg text-[#4F433A] leading-snug">{p.grade}</h4>
+              <h3 className="font-sans font-bold text-lg text-[#4F433A] leading-snug">{p.grade}</h3>
               <span
                 className={`inline-flex items-center gap-1 shrink-0 px-2.5 py-1 rounded-full border text-xs font-bold font-sans ${trend.className}`}
               >

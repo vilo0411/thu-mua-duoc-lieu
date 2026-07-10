@@ -16,9 +16,9 @@ export const CtaBanner: React.FC<CtaBannerProps> = ({ title, description, button
       <div className="absolute left-1/4 bottom-0 w-32 h-32 bg-white/5 rounded-full -ml-8 -mb-8 pointer-events-none" />
 
       <div className="space-y-2 max-w-2xl text-center md:text-left z-10">
-        <h3 className="font-serif text-2xl md:text-3xl font-bold tracking-tight text-white leading-tight">
+        <h2 className="font-serif text-2xl md:text-3xl font-bold tracking-tight text-white leading-tight">
           {title}
-        </h3>
+        </h2>
         <p className="text-white/75 text-base md:text-lg max-w-xl font-sans leading-relaxed">
           {description}
         </p>

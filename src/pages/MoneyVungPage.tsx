@@ -93,18 +93,18 @@ export const MoneyVungPage: React.FC = () => {
       {/* Đặc điểm cây trồng ở vùng */}
       <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="bg-white border border-line rounded-xl p-6 space-y-3 shadow-2xs">
-          <h3 className="font-serif text-xl font-bold text-ink-soft flex items-center gap-2">
+          <h2 className="font-serif text-xl font-bold text-ink-soft flex items-center gap-2">
             <Zap className="w-5 h-5 text-terracotta" />
             Thổ nhưỡng &amp; khí hậu vùng {region.name}
-          </h3>
+          </h2>
           <p className="text-ink text-base leading-relaxed font-sans">{region.characteristics}</p>
         </div>
 
         <div className="bg-white border border-line rounded-xl p-6 space-y-3 shadow-2xs">
-          <h3 className="font-serif text-xl font-bold text-ink-soft flex items-center gap-2">
+          <h2 className="font-serif text-xl font-bold text-ink-soft flex items-center gap-2">
             <Award className="w-5 h-5 text-earth" />
             Lợi thế canh tác {herb.name} tại đây
-          </h3>
+          </h2>
           <p className="text-ink text-base leading-relaxed font-sans">{region.advantages}</p>
           <p className="text-sm text-gray-600 font-sans">
             Đặc thù kỹ thuật: {herb.name} nhân giống bằng {herb.technique.propagation.join(", ")}, cho thu hoạch sau{" "}
@@ -131,7 +131,7 @@ export const MoneyVungPage: React.FC = () => {
         >
           <div>
             <span className="text-xs text-terracotta font-semibold">Xem trang tổng</span>
-            <h4 className="font-serif text-lg font-bold text-ink-soft group-hover:text-terracotta transition-colors mt-0.5">Giá &amp; phân loại thu mua {herb.name}</h4>
+            <h2 className="font-serif text-lg font-bold text-ink-soft group-hover:text-terracotta transition-colors mt-0.5">Giá &amp; phân loại thu mua {herb.name}</h2>
           </div>
           <ArrowRight className="w-5 h-5 text-terracotta group-hover:translate-x-1 transition-transform" />
         </div>
@@ -142,7 +142,7 @@ export const MoneyVungPage: React.FC = () => {
         >
           <div>
             <span className="text-xs text-earth font-semibold">Tài liệu kỹ thuật</span>
-            <h4 className="font-serif text-lg font-bold text-ink-soft group-hover:text-terracotta transition-colors mt-0.5">Cẩm nang kỹ thuật trồng {herb.name}</h4>
+            <h2 className="font-serif text-lg font-bold text-ink-soft group-hover:text-terracotta transition-colors mt-0.5">Cẩm nang kỹ thuật trồng {herb.name}</h2>
           </div>
           <ArrowRight className="w-5 h-5 text-terracotta group-hover:translate-x-1 transition-transform" />
         </div>

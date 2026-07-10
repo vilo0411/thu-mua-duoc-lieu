@@ -145,9 +145,9 @@ export const KnowledgePage: React.FC = () => {
                       {herb && (
                         <span className="text-[11px] font-sans font-bold uppercase tracking-[0.12em] text-terracotta">{GROUP_LABEL[herb.group]}</span>
                       )}
-                      <h4 className="font-serif text-lg font-bold text-ink-soft group-hover:text-terracotta transition-colors leading-snug">
+                      <h3 className="font-serif text-lg font-bold text-ink-soft group-hover:text-terracotta transition-colors leading-snug">
                         {hub.herbName}
-                      </h4>
+                      </h3>
                       <p className="text-gray-500 text-sm leading-relaxed line-clamp-2 flex-1">{herb?.shortDesc ?? hub.intro}</p>
                       <span className="inline-flex items-center gap-1.5 text-sm font-bold text-terracotta mt-1">
                         Xem cẩm nang

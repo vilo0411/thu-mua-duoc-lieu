@@ -33,7 +33,7 @@ export const AboutPage: React.FC = () => {
           </p>
 
           <div className="bg-paper-2 border border-line rounded-xl p-5 space-y-2">
-            <h3 className="font-serif font-bold text-lg text-ink-soft">Tại sao tôi làm trang này</h3>
+            <h2 className="font-serif font-bold text-lg text-ink-soft">Tại sao tôi làm trang này</h2>
             <p>
               Đọc và nghe nhiều câu chuyện bà con trồng dược liệu theo phong trào, không có hợp đồng trước, đến vụ bị thương lái ép giá xuống còn một phần nhỏ — hoặc bỏ đặt cọc luôn. Chuyện đó lặp đi lặp lại vì hai nguyên nhân gốc: <strong>kỹ thuật canh tác chưa đạt</strong> khiến dược liệu bị từ chối, và <strong>thiếu thông tin giá cả</strong> khiến bà con không biết mình đang bị ép.
             </p>
@@ -49,7 +49,7 @@ export const AboutPage: React.FC = () => {
         </div>
 
         <div className="bg-paper-2 p-5 rounded-xl border border-line space-y-3">
-          <h4 className="font-serif text-lg font-bold text-ink-soft">Liên hệ trực tiếp</h4>
+          <h2 className="font-serif text-lg font-bold text-ink-soft">Liên hệ trực tiếp</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
             <div className="flex items-center gap-2">
               <Mail className="w-4 h-4 text-terracotta shrink-0" />

@@ -52,10 +52,10 @@ export const HerbPriceCalculator: React.FC<HerbPriceCalculatorProps> = ({ prices
 
   return (
     <div className="bg-gradient-to-br from-[#FDFBF9] to-[#F5ECE1] border border-[#E6DDD0] rounded-2xl p-6 shadow-xs space-y-5">
-      <h3 className="font-serif text-xl font-bold text-[#4F433A] flex items-center gap-2">
+      <h2 className="font-serif text-xl font-bold text-[#4F433A] flex items-center gap-2">
         <Calculator className="w-6 h-6 text-[#B85037]" />
         Ước tính lô hàng {herbName} của bạn bán được bao nhiêu?
-      </h3>
+      </h2>
 
       {/* Chọn loại hàng */}
       <div className="space-y-2">

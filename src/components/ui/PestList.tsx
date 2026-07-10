@@ -25,10 +25,10 @@ export const PestList: React.FC<PestListProps> = ({ pests }) => {
         return (
           <div key={idx} className="bg-white border border-[#E6DDD0] rounded-2xl p-5 shadow-xs flex flex-col gap-4">
             <div className="flex items-start justify-between gap-3">
-              <h4 className="font-sans font-bold text-lg text-[#4F433A] leading-snug flex items-center gap-2">
+              <h3 className="font-sans font-bold text-lg text-[#4F433A] leading-snug flex items-center gap-2">
                 <Bug className="w-5 h-5 text-[#B85037] shrink-0" />
                 {pest.pestName}
-              </h4>
+              </h3>
               <span
                 className={`inline-flex shrink-0 px-2.5 py-1 rounded-full border text-xs font-bold font-sans ${level.className}`}
               >

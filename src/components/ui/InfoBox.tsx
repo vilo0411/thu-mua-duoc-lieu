@@ -15,9 +15,9 @@ export const InfoBox: React.FC<InfoBoxProps> = ({ title, children, icon }) => {
           {icon || <Info className="w-5 h-5" />}
         </div>
         <div className="flex-1">
-          <h4 className="text-[#4F433A] font-sans font-bold text-lg mb-2 tracking-tight">
+          <h2 className="text-[#4F433A] font-sans font-bold text-lg mb-2 tracking-tight">
             {title}
-          </h4>
+          </h2>
           <div className="text-[#2D2521] text-base leading-relaxed font-sans">
             {children}
           </div>

@@ -50,7 +50,7 @@ export const MediaCarousel: React.FC<MediaCarouselProps> = ({
           <PlayCircle className="w-5 h-5 text-terracotta" />
         </div>
         <div className="min-w-0">
-          <h3 className="font-serif text-xl font-bold text-ink-soft leading-tight">{heading}</h3>
+          <h2 className="font-serif text-xl font-bold text-ink-soft leading-tight">{heading}</h2>
           <p className="text-xs text-gray-500 font-sans">{subheading}</p>
         </div>
         {multi && (

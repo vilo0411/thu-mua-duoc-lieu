@@ -19,9 +19,9 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Column 1: Về Tác giả */}
           <div className="space-y-4 text-left">
-            <h4 className="font-serif text-lg font-bold text-[#EFE6DA] uppercase tracking-wider border-b border-white/10 pb-2">
+            <h2 className="font-serif text-lg font-bold text-[#EFE6DA] uppercase tracking-wider border-b border-white/10 pb-2">
               Về Tác giả
-            </h4>
+            </h2>
             <p className="text-gray-300 text-sm leading-relaxed font-sans">
               Nguyễn Viết Lộc tổng hợp các kỹ thuật canh tác dược liệu, giá thu mua và cách tìm kênh tiêu thụ phù hợp từ các nguồn uy tín — dành cho nông dân, HTX và cán bộ khuyến nông.
             </p>
@@ -36,9 +36,9 @@ export const Footer: React.FC = () => {
 
           {/* Column 2: Thu mua dược liệu */}
           <div className="space-y-4 text-left">
-            <h4 className="font-serif text-lg font-bold text-[#EFE6DA] uppercase tracking-wider border-b border-white/10 pb-2">
+            <h2 className="font-serif text-lg font-bold text-[#EFE6DA] uppercase tracking-wider border-b border-white/10 pb-2">
               Thu mua dược liệu
-            </h4>
+            </h2>
             <ul className="space-y-2 text-sm text-gray-300">
               <li>
                 <Link to={paths.pillar()} className="hover:text-white transition-colors cursor-pointer text-left">
@@ -60,9 +60,9 @@ export const Footer: React.FC = () => {
 
           {/* Column 3: Kiến thức */}
           <div className="space-y-4 text-left">
-            <h4 className="font-serif text-lg font-bold text-[#EFE6DA] uppercase tracking-wider border-b border-white/10 pb-2">
+            <h2 className="font-serif text-lg font-bold text-[#EFE6DA] uppercase tracking-wider border-b border-white/10 pb-2">
               Kiến thức canh tác
-            </h4>
+            </h2>
             <ul className="space-y-2 text-sm text-gray-300">
               {WIKI_ARTICLES.map((art) => (
                 <li key={art.id}>
@@ -84,9 +84,9 @@ export const Footer: React.FC = () => {
 
           {/* Column 4: Liên hệ */}
           <div className="space-y-4 text-left">
-            <h4 className="font-serif text-lg font-bold text-[#EFE6DA] uppercase tracking-wider border-b border-white/10 pb-2">
+            <h2 className="font-serif text-lg font-bold text-[#EFE6DA] uppercase tracking-wider border-b border-white/10 pb-2">
               Liên hệ trực tiếp
-            </h4>
+            </h2>
             <div className="space-y-2 text-sm text-gray-300">
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-[#D08620] shrink-0" />

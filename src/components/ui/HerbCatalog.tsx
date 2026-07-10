@@ -149,6 +149,10 @@ export const HerbCatalog: React.FC = () => {
 
   return (
     <div className="space-y-6">
+      {/* H2 cho khối công cụ: giữ mạch heading h1→h2 của trang (label ô tìm không tính
+          là heading). Ẩn khỏi giao diện, vẫn hiện với bộ đọc màn hình & bot. */}
+      <h2 className="sr-only">Công cụ tra cứu giá thu mua dược liệu theo cây &amp; vùng</h2>
+
       {/* Ô tìm lớn duy nhất + gợi ý cây hot */}
       <div className="bg-white border border-[#E6DDD0] rounded-2xl p-5 md:p-7 shadow-xs space-y-4">
         <form onSubmit={onSubmit} className="space-y-2">
@@ -293,9 +297,9 @@ export const HerbCatalog: React.FC = () => {
                           )}
                         </div>
 
-                        <h4 className="font-serif font-bold text-lg text-[#4F433A] group-hover:text-[#B85037] transition-colors leading-snug mt-1.5">
+                        <h3 className="font-serif font-bold text-lg text-[#4F433A] group-hover:text-[#B85037] transition-colors leading-snug mt-1.5">
                           {h.name}
-                        </h4>
+                        </h3>
 
                         {price ? (
                           <div className="flex items-baseline gap-1.5 mt-2">

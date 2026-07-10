@@ -28,9 +28,9 @@ export const FeaturedPartnerCard: React.FC<FeaturedPartnerCardProps> = ({
 
       <div className="space-y-4">
         <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
-          <h4 className="font-serif text-2xl font-bold text-[#B85037]">
+          <h3 className="font-serif text-2xl font-bold text-[#B85037]">
             {partner.fullName}
-          </h4>
+          </h3>
           <span className="bg-[#F5ECE1] text-[#B85037] text-xs font-semibold px-2 py-1 rounded border border-[#E6DDD0]">
             {partner.stockCode}
           </span>
@@ -50,9 +50,9 @@ export const FeaturedPartnerCard: React.FC<FeaturedPartnerCardProps> = ({
         <p className="text-base text-[#2D2521] leading-relaxed font-sans">{partner.desc}</p>
 
         <div className="space-y-2.5 my-4 bg-[#FAF7F2] p-4 rounded-xl border border-[#F0EAE1]">
-          <h5 className="font-sans font-bold text-sm text-[#4F433A] uppercase tracking-wider mb-2">
+          <h4 className="font-sans font-bold text-sm text-[#4F433A] uppercase tracking-wider mb-2">
             Quyền lợi liên kết bao tiêu cùng {partner.name}:
-          </h5>
+          </h4>
           {partner.bullets.map((bullet, idx) => (
             <div key={idx} className="flex items-start gap-2 text-sm text-[#2D2521]">
               <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />

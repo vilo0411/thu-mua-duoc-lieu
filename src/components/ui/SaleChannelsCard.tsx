@@ -74,7 +74,7 @@ export const SaleChannelsCard: React.FC<SaleChannelsCardProps> = ({
               <div className="w-8 h-8 rounded-lg bg-sand flex items-center justify-center shrink-0">
                 <Icon className="w-4.5 h-4.5 text-terracotta" />
               </div>
-              <h4 className="font-sans font-bold text-base text-ink-soft">{ch.label}</h4>
+              <h3 className="font-sans font-bold text-base text-ink-soft">{ch.label}</h3>
               <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${ch.tagColor}`}>{ch.tag}</span>
             </div>
 

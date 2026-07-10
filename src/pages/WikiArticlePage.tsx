@@ -64,9 +64,9 @@ export const WikiArticlePage: React.FC<{ articleId: string }> = ({ articleId }) 
 
           {article.contentSections.map((sec, idx) => (
             <div key={idx} id={`art-sec-${idx}`} className="space-y-4 pt-4 first:pt-0">
-              <h3 className="font-serif text-xl md:text-2xl font-bold text-ink-soft border-b border-line pb-2">
+              <h2 className="font-serif text-xl md:text-2xl font-bold text-ink-soft border-b border-line pb-2">
                 {sec.heading}
-              </h3>
+              </h2>
               {sec.paragraphs.map((p, pIdx) => (
                 <p key={pIdx}>{p}</p>
               ))}
@@ -80,7 +80,7 @@ export const WikiArticlePage: React.FC<{ articleId: string }> = ({ articleId }) 
 
           {article.standardsTable && (
             <div className="space-y-4 pt-4">
-              <h4 className="font-serif text-lg font-bold text-ink-soft">Quy chuẩn phân tích sấy ráo mẫu tiêu biểu</h4>
+              <h2 className="font-serif text-lg font-bold text-ink-soft">Quy chuẩn phân tích sấy ráo mẫu tiêu biểu</h2>
               <DataTable
                 headers={["Nhóm dược thảo tuyển mẫu", "Quy cách độ ẩm chuẩn hóa lý", "Gợi ý khuyên dùng bảo quản"]}
                 rows={article.standardsTable.map((s) => [
@@ -94,10 +94,10 @@ export const WikiArticlePage: React.FC<{ articleId: string }> = ({ articleId }) 
 
           {/* Common Mistakes callout */}
           <div className="bg-sand border border-terracotta/30 rounded-xl p-5 my-6 space-y-2">
-            <h5 className="font-sans font-bold text-base text-terracotta flex items-center gap-1.5">
+            <h2 className="font-sans font-bold text-base text-terracotta flex items-center gap-1.5">
               <AlertTriangle className="w-5 h-5 shrink-0" />
               Sai lầm phổ biến bà con nông dân cần tuyệt đối tránh:
-            </h5>
+            </h2>
             <p className="text-sm text-gray-700">
               Ủ bạt sấy kín khí! Khi thu hái xong chưa có xe tải bốc đi, bà con dồn đống phủ bạt kín để ráo nắng. Chỉ sau 4h, lượng nhiệt ủ nội sinh sẽ làm thâm đen ruột củ sâm Đinh lăng, thối hỏng Ba kích, biến toàn bộ thành hàng phế phẩm bị nhà máy từ chối nhận mua ngay tại cổng.
             </p>
@@ -105,7 +105,7 @@ export const WikiArticlePage: React.FC<{ articleId: string }> = ({ articleId }) 
 
           {/* Related articles */}
           <section className="space-y-4 pt-8 border-t border-line">
-            <h4 className="font-serif text-xl font-bold text-ink-soft">Các chuyên mục tin cậy độc giả nông học đón đọc nhiều nhất</h4>
+            <h2 className="font-serif text-xl font-bold text-ink-soft">Các chuyên mục tin cậy độc giả nông học đón đọc nhiều nhất</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {WIKI_ARTICLES.filter((a) => a.id !== article.id).slice(0, 2).map((art) => (
                 <div
@@ -115,7 +115,7 @@ export const WikiArticlePage: React.FC<{ articleId: string }> = ({ articleId }) 
                 >
                   <div className="space-y-2">
                     <span className="text-[10px] bg-sand border border-line text-earth px-2 py-0.5 rounded uppercase font-bold tracking-wider">{art.category}</span>
-                    <h5 className="font-serif text-base font-bold text-ink-soft group-hover:text-terracotta transition-colors line-clamp-2">{art.title}</h5>
+                    <h3 className="font-serif text-base font-bold text-ink-soft group-hover:text-terracotta transition-colors line-clamp-2">{art.title}</h3>
                   </div>
                   <span className="text-xs text-terracotta font-semibold flex items-center gap-1 mt-3">Đọc cẩm nang này <ArrowRight className="w-3.5 h-3.5" /></span>
                 </div>

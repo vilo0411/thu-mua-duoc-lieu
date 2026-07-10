@@ -61,15 +61,15 @@ export const SeasonalCalendar: React.FC<SeasonalCalendarProps> = ({ herbs, onPic
       {/* Hai danh sách của tháng đang chọn */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="bg-[#F3F7F0] border border-[#CFE0C4] rounded-xl p-4 space-y-3">
-          <h4 className="font-sans font-bold text-[#3D6130] flex items-center gap-2">
+          <h3 className="font-sans font-bold text-[#3D6130] flex items-center gap-2">
             <Sprout className="w-5 h-5" /> Nên xuống giống trong Tháng {month}
-          </h4>
+          </h3>
           <HerbChips list={sow} empty="Không có cây nào xuống giống tháng này." />
         </div>
         <div className="bg-[#FBF3E3] border border-[#EBD9B4] rounded-xl p-4 space-y-3">
-          <h4 className="font-sans font-bold text-[#96701E] flex items-center gap-2">
+          <h3 className="font-sans font-bold text-[#96701E] flex items-center gap-2">
             <Wheat className="w-5 h-5" /> Vào vụ thu hoạch trong Tháng {month}
-          </h4>
+          </h3>
           <HerbChips list={harvest} empty="Không có cây nào vào vụ thu hoạch tháng này." />
         </div>
       </div>

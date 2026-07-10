@@ -12,9 +12,9 @@ export const StickyToc: React.FC<{ items: TocItem[]; activeId: string; onSelect:
 }) => {
   return (
     <div className="bg-white border border-[#E6DDD0] rounded-xl p-5 sticky top-24 shadow-xs">
-      <h4 className="font-sans font-bold text-sm text-[#4F433A] uppercase tracking-wider mb-4 pb-2 border-b border-[#F5EFE6]">
+      <h2 className="font-sans font-bold text-sm text-[#4F433A] uppercase tracking-wider mb-4 pb-2 border-b border-[#F5EFE6]">
         Mục lục bài viết
-      </h4>
+      </h2>
       <nav className="space-y-3">
         {items.map((item) => {
           const isActive = activeId === item.id;

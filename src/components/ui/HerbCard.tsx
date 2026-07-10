@@ -31,9 +31,9 @@ export const HerbCard: React.FC<HerbCardProps> = ({ name, scientificName, priceR
       <div className="p-5 flex-1 flex flex-col justify-between space-y-3">
         <div className="space-y-1">
           <div className="flex items-center justify-between">
-            <h4 className="font-serif text-xl font-bold text-[#4F433A] group-hover:text-[#B85037] transition-colors tracking-tight">
+            <h3 className="font-serif text-xl font-bold text-[#4F433A] group-hover:text-[#B85037] transition-colors tracking-tight">
               {name}
-            </h4>
+            </h3>
             <span className="text-xs text-gray-400 italic font-mono">{scientificName}</span>
           </div>
           <p className="text-[#2D2521] text-sm leading-relaxed line-clamp-3">
