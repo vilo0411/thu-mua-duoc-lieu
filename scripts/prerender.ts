@@ -45,11 +45,19 @@ function startServer(): Promise<Server> {
   });
 }
 
-/** Đường dẫn file output cho một route logic ("/" → dist/index.html). */
+/**
+ * Đường dẫn file output cho một route logic ("/" → dist/index.html).
+ *
+ * Ghi ra file PHẲNG `<path>.html` thay vì `<path>/index.html`: GitHub Pages phục
+ * vụ `foo.html` ngay tại `/foo` KHÔNG redirect (clean URLs), khớp đúng canonical
+ * không-slash. Nếu ghi kiểu thư-mục/index.html, request `/foo` (không slash) sẽ bị
+ * 301 sang `/foo/` (directory-index) → lệch canonical. File `.html` và thư mục con
+ * cùng tên (combo cây×vùng) vẫn cùng tồn tại bình thường trên filesystem.
+ */
 function outFile(path: string): string {
   if (path === "/") return join(DIST, "index.html");
   const clean = path.replace(/^\//, "").replace(/\/$/, "");
-  return join(DIST, clean, "index.html");
+  return join(DIST, `${clean}.html`);
 }
 
 async function main() {
@@ -102,7 +110,7 @@ async function main() {
   server.close();
 
   console.log(
-    `✓ Prerender: ${done}/${routes.length} trang → dist/**/index.html` +
+    `✓ Prerender: ${done}/${routes.length} trang → dist/**/*.html` +
       (failed.length ? ` (lỗi ${failed.length}: ${failed.join(", ")})` : ""),
   );
   // Route lỗi = HTML rỗng cho bot → coi là thất bại build để không deploy nhầm.
