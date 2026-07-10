@@ -39,7 +39,7 @@ export function pillarSeo(): SeoProps {
 export function herbSeo(herb: HerbalMedicine): SeoProps {
   const path = paths.herb(herb.slug);
   return {
-    title: `Thu mua dược liệu ${herb.name} ${YEAR}: Giá cả, tiêu chí & nơi bán uy tín`,
+    title: `Thu mua dược liệu ${herb.name} ${YEAR}: Giá & nơi bán uy tín`,
     description: herb.shortDesc.slice(0, 158),
     path,
     type: "article",
@@ -65,7 +65,7 @@ export function herbSeo(herb: HerbalMedicine): SeoProps {
 export function herbRegionSeo(herb: HerbalMedicine, region: RegionData): SeoProps {
   const path = paths.herbRegion(herb.slug, region.slug);
   return {
-    title: `Thu mua dược liệu ${herb.name} tại vùng ${region.name}: Giá & vùng trồng`,
+    title: `Thu mua dược liệu ${herb.name} tại ${region.name} ${YEAR}`,
     description: `Thông tin thu mua ${herb.name} khu vực ${region.name}: đặc điểm vùng trồng, các tỉnh trọng điểm và quy trình gửi hàng.`,
     path,
     type: "article",
