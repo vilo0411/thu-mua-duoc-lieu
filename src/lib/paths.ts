@@ -16,6 +16,7 @@ export const paths = {
   terms: () => "/dieu-khoan-su-dung",
   disclaimer: () => "/mien-tru-trach-nhiem",
   editorial: () => "/chinh-sach-noi-dung",
+  sitemap: () => "/so-do-trang",
   herb: (cay: string) => `/thu-mua-duoc-lieu/${cay}`,
   herbRegion: (cay: string, vung: string) => `/thu-mua-duoc-lieu/${cay}/${vung}`,
   // Hub kỹ thuật nằm trong silo Kiến thức (PRD §4.1: /kien-thuc/ky-thuat-trong-{cay}).

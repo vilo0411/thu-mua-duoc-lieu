@@ -16,6 +16,7 @@ import {
   EditorialPage,
 } from "./pages/LegalPages";
 import { NotFoundPage } from "./pages/NotFoundPage";
+import { SitemapPage } from "./pages/SitemapPage";
 import { paths } from "./lib/paths";
 
 export default function App() {
@@ -38,6 +39,7 @@ export default function App() {
         <Route path="/dieu-khoan-su-dung" element={<TermsPage />} />
         <Route path="/mien-tru-trach-nhiem" element={<DisclaimerPage />} />
         <Route path="/chinh-sach-noi-dung" element={<EditorialPage />} />
+        <Route path="/so-do-trang" element={<SitemapPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Route>
     </Routes>

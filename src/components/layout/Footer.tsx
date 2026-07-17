@@ -134,6 +134,8 @@ export const Footer: React.FC = () => {
           <Link to={paths.disclaimer()} className="hover:text-white transition-colors cursor-pointer">Miễn trừ trách nhiệm</Link>
           <span aria-hidden>•</span>
           <Link to={paths.about()} className="hover:text-white transition-colors cursor-pointer">Giới thiệu tác giả</Link>
+          <span aria-hidden>•</span>
+          <Link to={paths.sitemap()} className="hover:text-white transition-colors cursor-pointer">Sơ đồ trang</Link>
         </nav>
 
         {/* Copyright bar */}

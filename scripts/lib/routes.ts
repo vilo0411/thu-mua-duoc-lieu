@@ -55,6 +55,7 @@ export function collectRoutes(): SiteRoutes {
     "/dieu-khoan-su-dung",
     "/mien-tru-trach-nhiem",
     "/chinh-sach-noi-dung",
+    "/so-do-trang",
   ];
 
   return {

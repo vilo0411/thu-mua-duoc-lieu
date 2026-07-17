@@ -14,7 +14,7 @@ const statIcon = (label: string): React.ElementType => {
   return Leaf;
 };
 import { paths, asset } from "../lib/paths";
-import { Seo, herbSeo } from "../lib/seo";
+import { Seo, herbSeo, herbFocusKeyword } from "../lib/seo";
 import { NotFoundPage } from "./NotFoundPage";
 
 export const MoneyCayPage: React.FC = () => {
@@ -58,7 +58,7 @@ export const MoneyCayPage: React.FC = () => {
             )}
           </div>
           <h1 className="font-serif text-2xl md:text-4xl font-extrabold text-ink-soft tracking-tight">
-            Thị Trường Thu Mua & Bảng Giá Dược Liệu {herb.name}
+            {herbFocusKeyword(herb)} {new Date().getFullYear()}: bảng giá &amp; kênh thu mua
           </h1>
           {herb.scientificName && (
             <p className="text-gray-600 text-sm italic font-mono">Tên khoa học: {herb.scientificName}</p>
@@ -215,7 +215,7 @@ export const MoneyCayPage: React.FC = () => {
           onClick={() => navigate(paths.hubWiki(herb.slug))}
           className="shrink-0 bg-white border border-terracotta hover:bg-terracotta hover:text-white text-terracotta font-sans font-bold text-sm px-5 py-3 rounded-lg shadow-2xs transition-all cursor-pointer"
         >
-          Xem cẩm nang kỹ thuật trồng {herb.name} →
+          Xem ngay kỹ thuật trồng {herb.name} →
         </button>
       </section>
 

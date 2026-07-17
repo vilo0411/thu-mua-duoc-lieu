@@ -10,6 +10,15 @@ import * as ld from "./jsonLd";
 
 const YEAR = new Date().getFullYear();
 
+/**
+ * Từ khoá chính của trang cây — nguồn duy nhất cho <title>, <h1> và mô tả để cả ba
+ * cùng nhắm một cụm. Mặc định "Thu mua dược liệu {name}"; cây khai báo focusKeyword
+ * thì ưu tiên giá trị đó.
+ */
+export function herbFocusKeyword(herb: HerbalMedicine): string {
+  return herb.focusKeyword?.trim() || `Thu mua dược liệu ${herb.name}`;
+}
+
 export function homeSeo(): SeoProps {
   return {
     title: SITE.defaultTitle,
@@ -20,11 +29,40 @@ export function homeSeo(): SeoProps {
   };
 }
 
+/** FAQ dùng chung cho Pillar: vừa render trong <FaqAccordion>, vừa đưa vào JSON-LD FAQPage. */
+export const PILLAR_FAQ: { question: string; answer: string }[] = [
+  {
+    question: "Trồng nhỏ lẻ vài sào có bán được cho nhà máy không?",
+    answer:
+      "Nhà máy thường mua theo lô lớn (tối thiểu vài tấn/chuyến xe). Nông hộ canh tác dưới 1ha nên liên kết qua HTX hoặc tổ hợp tác địa phương để gom hàng chung. HTX đứng ra ký hợp đồng và phân chia lợi nhuận theo tỷ lệ đóng góp. Đây là con đường bền vững hơn bán lẻ cho thương lái.",
+  },
+  {
+    question: "Làm thế nào biết giá mình đang bán có bị ép thấp không?",
+    answer:
+      "Bà con tham khảo bảng giá theo từng cây trên trang này (cập nhật theo vụ), sau đó so sánh với giá thương lái đang trả. Nếu chênh lệch lớn hơn 15–20%, đáng cân nhắc gom hàng theo HTX để bán thẳng nhà máy. Yếu tố khác cũng ảnh hưởng giá: độ ẩm, phân hạng chất lượng, thời điểm bán trong vụ.",
+  },
+  {
+    question: "Đâu là đầu mối, công ty thu mua dược liệu uy tín?",
+    answer:
+      "Một đầu mối hoặc công ty thu mua đáng tin thường công bố tiêu chuẩn (độ ẩm, phân hạng, hoạt chất) rõ ràng trước khi cân, có pháp nhân và địa chỉ cụ thể, báo giá sát thị trường và cam kết bao tiêu bằng văn bản. Trong mục 'Đầu mối & công ty thu mua' phía trên, tôi có tổng hợp đơn vị bao tiêu đáp ứng các tiêu chí này để bà con tham khảo và so sánh.",
+  },
+  {
+    question: "Muốn bán dược liệu thì bán ở đâu, địa chỉ nào?",
+    answer:
+      "Có bốn kênh chính: bán cho thương lái tại vườn, mang ra chợ đầu mối, tham gia hợp tác xã, hoặc ký bao tiêu trực tiếp với công ty chế biến. Với hàng số lượng và cần đầu ra ổn định, bán qua HTX hoặc công ty bao tiêu thường được giá và ít rủi ro hơn bán lẻ. Bà con có thể gửi thông tin lô hàng qua card đơn vị thu mua trên trang để được báo giá cụ thể.",
+  },
+  {
+    question: "Thu mua dược liệu tại Hà Nội và miền Bắc ở đâu?",
+    answer:
+      "Tại Hà Nội, dược liệu chủ yếu tập kết về phố Lãn Ông và chợ Ninh Hiệp (Gia Lâm) — nơi các đại lý gom sỉ. Ở miền Bắc, vùng nguyên liệu lớn là Tây Bắc (Sơn La, Hòa Bình, Lào Cai) và Đông Bắc (Cao Bằng, Bắc Kạn, Lạng Sơn), hàng thường chạy về Hà Nội hoặc bán thẳng nhà máy tại địa phương. Muốn bán ổn định, nên kết nối HTX hoặc công ty bao tiêu thay vì bán lẻ ngoài chợ.",
+  },
+];
+
 export function pillarSeo(): SeoProps {
   return {
-    title: `Thu mua dược liệu ${YEAR}: Bảng giá, tiêu chí & vùng trồng`,
+    title: `Thu mua dược liệu ${YEAR}: Giá, đầu mối & công ty thu mua uy tín`,
     description:
-      "Tổng hợp thị trường thu mua dược liệu Việt Nam: danh mục cây, bảng giá tham khảo, tiêu chí chọn đầu mối uy tín và các vùng trồng trọng điểm.",
+      "Bảng giá thu mua dược liệu & cây dược liệu mới nhất, danh bạ đầu mối và công ty thu mua uy tín, nơi bán tại Hà Nội và miền Bắc — giúp nông hộ, HTX bán đúng giá, tránh bị ép.",
     path: paths.pillar(),
     type: "website",
     jsonLd: [
@@ -32,15 +70,17 @@ export function pillarSeo(): SeoProps {
         { name: "Trang chủ", path: paths.home() },
         { name: "Thu mua dược liệu", path: paths.pillar() },
       ]),
+      ld.faqPage(PILLAR_FAQ),
     ],
   };
 }
 
 export function herbSeo(herb: HerbalMedicine): SeoProps {
   const path = paths.herb(herb.slug);
+  const focus = herbFocusKeyword(herb);
   return {
-    title: `Thu mua dược liệu ${herb.name} ${YEAR}: Giá & nơi bán uy tín`,
-    description: herb.shortDesc.slice(0, 158),
+    title: `${focus} ${YEAR}: giá & kênh thu mua uy tín`,
+    description: `${focus} ${YEAR}: bảng giá tham khảo theo phân hạng, tiêu chuẩn chất lượng và kênh thu mua uy tín. ${herb.shortDesc}`.slice(0, 158),
     path,
     type: "article",
     image: herb.image,
@@ -154,6 +194,22 @@ export function knowledgeSeo(): SeoProps {
       ld.breadcrumbList([
         { name: "Trang chủ", path: paths.home() },
         { name: "Kiến thức", path: paths.knowledge() },
+      ]),
+    ],
+  };
+}
+
+export function sitemapSeo(): SeoProps {
+  return {
+    title: `Sơ đồ trang — ${SITE.siteName}`,
+    description:
+      "Sơ đồ toàn bộ trang trên website: bảng giá thu mua từng cây dược liệu, vùng trồng, kỹ thuật canh tác và các trang thông tin — giúp tra cứu và điều hướng nhanh.",
+    path: paths.sitemap(),
+    type: "website",
+    jsonLd: [
+      ld.breadcrumbList([
+        { name: "Trang chủ", path: paths.home() },
+        { name: "Sơ đồ trang", path: paths.sitemap() },
       ]),
     ],
   };

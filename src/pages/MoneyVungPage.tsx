@@ -42,7 +42,7 @@ export const MoneyVungPage: React.FC = () => {
           {popularityLabel} · sản lượng {herbRegion.outputEstimate}
         </div>
         <h1 className="font-serif text-2xl md:text-4xl font-extrabold text-ink-soft tracking-tight">
-          Thu Mua Dược Liệu {herb.name} Tại Vùng {region.name}: Giá &amp; Vùng Trồng
+          Thu Mua Dược Liệu {herb.name} Tại Vùng {region.name}: Giá &amp; Đơn Vị Thu Mua Uy Tín {new Date().getFullYear()}
         </h1>
         <p className="text-gray-700 text-base md:text-lg max-w-3xl font-sans leading-relaxed">
           {region.name} là {popularityLabel} của cây {herb.name} với sản lượng ước tính {herbRegion.outputEstimate}. Bài
@@ -131,7 +131,7 @@ export const MoneyVungPage: React.FC = () => {
         >
           <div>
             <span className="text-xs text-terracotta font-semibold">Xem trang tổng</span>
-            <h2 className="font-serif text-lg font-bold text-ink-soft group-hover:text-terracotta transition-colors mt-0.5">Giá &amp; phân loại thu mua {herb.name}</h2>
+            <h2 className="font-serif text-lg font-bold text-ink-soft group-hover:text-terracotta transition-colors mt-0.5">Thu mua dược liệu {herb.name}</h2>
           </div>
           <ArrowRight className="w-5 h-5 text-terracotta group-hover:translate-x-1 transition-transform" />
         </div>
@@ -142,7 +142,7 @@ export const MoneyVungPage: React.FC = () => {
         >
           <div>
             <span className="text-xs text-earth font-semibold">Tài liệu kỹ thuật</span>
-            <h2 className="font-serif text-lg font-bold text-ink-soft group-hover:text-terracotta transition-colors mt-0.5">Cẩm nang kỹ thuật trồng {herb.name}</h2>
+            <h2 className="font-serif text-lg font-bold text-ink-soft group-hover:text-terracotta transition-colors mt-0.5">Kỹ thuật trồng {herb.name}</h2>
           </div>
           <ArrowRight className="w-5 h-5 text-terracotta group-hover:translate-x-1 transition-transform" />
         </div>

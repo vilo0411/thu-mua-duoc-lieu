@@ -95,6 +95,7 @@ export const herbSchema = z.object({
   techniquesLink: z.string().min(1),
   standards: z.array(z.string().min(1)).min(1),
   keywordsTarget: z.array(z.string().min(1)).min(1),
+  focusKeyword: z.string().min(1).optional(),
   faq: z.array(faqItem),
 });
 
