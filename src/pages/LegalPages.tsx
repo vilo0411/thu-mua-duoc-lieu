@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Breadcrumb } from "../components/ui";
 import { paths } from "../lib/paths";
 import { OWNER_EMAIL, SITE_OWNER, SITE } from "../lib/data";
@@ -32,13 +32,12 @@ const LegalShell: React.FC<{
   intro: React.ReactNode;
   sections: LegalSection[];
 }> = ({ seo, kicker, title, intro, sections }) => {
-  const navigate = useNavigate();
   return (
     <div className="space-y-8 animate-fade-in max-w-3xl mx-auto">
       <Seo {...seo} />
       <Breadcrumb
         items={[
-          { label: "Trang chủ", onClick: () => navigate(paths.home()) },
+          { label: "Trang chủ", href: paths.home() },
           { label: title },
         ]}
       />

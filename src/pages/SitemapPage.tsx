@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { HERBS_DATA, WIKI_HUBS, WIKI_ARTICLES } from "../lib/data";
 import { paths } from "../lib/paths";
 import { Seo, sitemapSeo } from "../lib/seo";
@@ -33,7 +33,6 @@ const linkCls = "text-ink-soft hover:text-terracotta hover:underline transition-
 const subLinkCls = "text-xs text-gray-500 hover:text-terracotta hover:underline transition-colors";
 
 export const SitemapPage: React.FC = () => {
-  const navigate = useNavigate();
 
   const herbsByGroup = GROUP_ORDER
     .map((g) => ({ group: g, herbs: HERBS_DATA.filter((h) => h.group === g).sort(byName) }))
@@ -59,7 +58,7 @@ export const SitemapPage: React.FC = () => {
       <Seo {...sitemapSeo()} />
 
       <div>
-        <Breadcrumb items={[{ label: "Trang chủ", onClick: () => navigate(paths.home()) }, { label: "Sơ đồ trang" }]} />
+        <Breadcrumb items={[{ label: "Trang chủ", href: paths.home() }, { label: "Sơ đồ trang" }]} />
       </div>
 
       <header className="max-w-2xl space-y-3">

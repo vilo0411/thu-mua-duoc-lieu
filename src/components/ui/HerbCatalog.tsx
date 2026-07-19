@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { ArrowRight, TrendingUp, TrendingDown, Minus, Search, ChevronLeft, ChevronRight, ChevronDown, X, BookOpen, SlidersHorizontal } from "lucide-react";
 import { HERBS_DATA, REGIONS_DATA, getHubByHerbSlug } from "../../lib/data";
 import { paths } from "../../lib/paths";
@@ -137,14 +137,13 @@ export const HerbCatalog: React.FC = () => {
     setGroup("all");
   };
 
-  const openHerb = (h: HerbalMedicine) => {
-    navigate(region ? paths.herbRegion(h.slug, region) : paths.herb(h.slug));
-  };
+  // Đường dẫn tới trang cây (kèm vùng nếu đang lọc theo vùng) — dùng cho cả <Link> và submit.
+  const herbHref = (h: HerbalMedicine) => (region ? paths.herbRegion(h.slug, region) : paths.herb(h.slug));
 
   // Enter trong ô tìm → nhảy thẳng tới cây khớp đầu tiên (lối tắt cho người biết rõ cây cần).
   const onSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (filtered[0]) openHerb(filtered[0]);
+    if (filtered[0]) navigate(herbHref(filtered[0]));
   };
 
   return (
@@ -186,14 +185,13 @@ export const HerbCatalog: React.FC = () => {
             <span className="block text-sm font-sans font-semibold text-[#7A6E62]">🔥 Cây dược liệu đang được thu mua nhiều:</span>
             <div className="flex flex-wrap gap-2">
               {suggestions.map((h) => (
-                <button
+                <Link
                   key={h.slug}
-                  type="button"
-                  onClick={() => navigate(paths.herb(h.slug))}
+                  to={paths.herb(h.slug)}
                   className="px-3.5 py-2 rounded-full border border-[#E6DDD0] bg-white text-sm font-sans font-semibold text-[#4F433A] hover:border-[#B85037] hover:text-[#B85037] cursor-pointer transition-colors"
                 >
                   {h.name}
-                </button>
+                </Link>
               ))}
             </div>
           </div>
@@ -282,9 +280,8 @@ export const HerbCatalog: React.FC = () => {
                       key={h.slug}
                       className="bg-white border border-[#E6DDD0] hover:border-[#B85037] rounded-xl p-4 hover:shadow-[0_4px_16px_-6px_rgba(184,80,55,0.25)] transition-all group flex flex-col"
                     >
-                      <button
-                        type="button"
-                        onClick={() => openHerb(h)}
+                      <Link
+                        to={herbHref(h)}
                         className="text-left flex-1 flex flex-col cursor-pointer"
                       >
                         {/* Eyebrow: nhóm + dấu hiệu cần gấp */}
@@ -317,18 +314,17 @@ export const HerbCatalog: React.FC = () => {
                           {region ? `Xem giá tại ${regionName}` : "Xem giá & nơi bán"}
                           <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </span>
-                      </button>
+                      </Link>
 
                       {hasHub && (
-                        <button
-                          type="button"
-                          onClick={() => navigate(paths.hubWiki(h.slug))}
+                        <Link
+                          to={paths.hubWiki(h.slug)}
                           title={`Kỹ thuật trồng ${h.name}`}
                           className="inline-flex items-center gap-1.5 self-start text-[13px] font-sans font-semibold text-[#4F7942] hover:text-[#2E5941] cursor-pointer mt-3 pt-3 border-t border-[#EFE8DC] w-full transition-colors"
                         >
                           <BookOpen className="w-4 h-4 shrink-0" />
                           Xem kỹ thuật trồng
-                        </button>
+                        </Link>
                       )}
                     </div>
                   );

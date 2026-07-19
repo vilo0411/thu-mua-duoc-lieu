@@ -1,0 +1,53 @@
+{
+  "id": "benh-ri-sat",
+  "slug": "benh-ri-sat-gi-sat-dau-hieu-cach-tri",
+  "title": "Bệnh rỉ sắt (gỉ sắt): dấu hiệu và cách phòng trị trên cây trồng",
+  "category": "Phòng trừ sâu bệnh",
+  "author": "Nguyễn Viết Lộc",
+  "readTime": "6 phút đọc",
+  "date": "27/07/2026",
+  "excerpt": "Rỉ sắt (còn gọi gỉ sắt) là bệnh nấm tạo ổ bào tử màu cam nâu như rỉ sét ở mặt dưới lá, làm lá vàng rụng sớm. Tôi tổng hợp lại dấu hiệu và cách phòng trị an toàn cho cây dược liệu.",
+  "image": "/images/kien-thuc/benh-ri-sat.jpg",
+  "contentSections": [
+    {
+      "heading": "1. Bệnh rỉ sắt là gì? (rỉ sắt hay gỉ sắt)",
+      "paragraphs": [
+        "Rỉ sắt — nhiều người viết là 'gỉ sắt' — là cùng một bệnh do nấm gỉ (nhóm Puccinia, Phakopsora...) gây ra. Tên gọi xuất phát từ các ổ bào tử màu cam, nâu đỏ trông như vết rỉ sét bám trên lá.",
+        "Nấm hút dinh dưỡng và phá mô lá, khiến lá vàng, khô và rụng sớm; cây suy, giảm năng suất. Bệnh gặp trên nhiều cây trồng và một số cây dược liệu."
+      ],
+      "highlight": "Dấu hiệu đặc trưng: các ổ (u nhỏ) màu cam/nâu rỉ sét nổi lên chủ yếu ở MẶT DƯỚI lá; chạm vào thấy bột màu nâu vàng dính tay — đó là bào tử nấm."
+    },
+    {
+      "heading": "2. Điều kiện phát sinh",
+      "paragraphs": [
+        "Bệnh phát mạnh khi trời ẩm, nhiều sương, mưa phùn và biên độ nhiệt ngày đêm lớn. Bào tử phát tán theo gió đi rất xa, nên bệnh lây lan nhanh trên diện rộng.",
+        "Vườn rậm rạp, bí gió, ẩm ướt kéo dài và giống mẫn cảm là các yếu tố làm bệnh bùng phát."
+      ]
+    },
+    {
+      "heading": "3. Cách phòng và trị rỉ sắt",
+      "paragraphs": [
+        "Canh tác: chọn giống ít mẫn cảm, trồng thưa, tỉa cành tạo thông thoáng cho nhanh khô tán; thu gom và tiêu hủy lá bệnh để giảm nguồn bào tử; bón cân đối, tăng kali giúp lá cứng cáp.",
+        "Sinh học: phun chế phẩm Bacillus, dịch chiết thảo mộc, dầu neem hỗ trợ phòng khi thời tiết thuận lợi cho bệnh.",
+        "Hóa học (khi cần): các hoạt chất nhóm triazole hoặc thuốc gốc đồng thường được dùng cho bệnh gỉ; với dược liệu, chỉ dùng khi thật cần và tuân thủ nghiêm thời gian cách ly để tránh tồn dư."
+      ]
+    }
+  ],
+  "pitfall": {
+    "body": "Chủ quan để bệnh lan rộng mới xử lý! Bào tử rỉ sắt bay theo gió rất xa và nhân nhanh, chỉ vài ngày ẩm sương là phủ khắp vườn. Cần kiểm tra mặt dưới lá thường xuyên, ngắt bỏ lá chớm bệnh và can thiệp sớm — để cả vườn vàng lá rồi mới trị thì vừa tốn kém vừa mất năng suất."
+  },
+  "faq": [
+    {
+      "question": "Rỉ sắt và gỉ sắt có phải hai bệnh khác nhau không?",
+      "answer": "Không, đó chỉ là hai cách viết của cùng một bệnh do nấm gỉ gây ra. 'Rỉ sắt' và 'gỉ sắt' đều chỉ hiện tượng ổ bào tử màu nâu cam như vết rỉ sét trên lá. Cách nhận biết và phòng trị hoàn toàn giống nhau."
+    },
+    {
+      "question": "Vì sao bệnh rỉ sắt lây nhanh khắp vườn?",
+      "answer": "Vì bào tử nấm gỉ rất nhẹ, phát tán theo gió đi xa và nảy mầm nhanh khi gặp ẩm, sương. Chỉ một vài cây bệnh không xử lý kịp có thể trở thành nguồn lây cho cả vườn. Do đó phát hiện sớm, dọn lá bệnh và giữ tán thông thoáng khô ráo là rất quan trọng."
+    },
+    {
+      "question": "Phòng rỉ sắt cho vườn dược liệu thế nào cho an toàn?",
+      "answer": "Ưu tiên biện pháp phi hóa học: chọn giống ít mẫn cảm, trồng thưa và tỉa thông thoáng để tán nhanh khô, bón cân đối tăng kali, thu gom lá bệnh và phun chế phẩm sinh học phòng khi trời ẩm sương. Thuốc hóa học chỉ dùng khi bệnh nặng và phải bảo đảm thời gian cách ly."
+    }
+  ]
+}

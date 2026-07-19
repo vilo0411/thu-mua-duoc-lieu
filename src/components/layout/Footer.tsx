@@ -64,7 +64,7 @@ export const Footer: React.FC = () => {
               Kiến thức canh tác
             </h2>
             <ul className="space-y-2 text-sm text-gray-300">
-              {WIKI_ARTICLES.map((art) => (
+              {WIKI_ARTICLES.slice(0, 5).map((art) => (
                 <li key={art.id}>
                   <Link
                     to={paths.article(art.id)}
@@ -75,8 +75,8 @@ export const Footer: React.FC = () => {
                 </li>
               ))}
               <li>
-                <Link to={paths.hubWiki("dinh-lang")} className="hover:text-white transition-colors cursor-pointer text-left">
-                  • Kỹ thuật phòng sâu bệnh mọc rễ
+                <Link to={paths.knowledge()} className="hover:text-white transition-colors cursor-pointer text-left font-semibold text-[#EFE6DA]">
+                  → Tất cả kỹ thuật trồng cây dược liệu
                 </Link>
               </li>
             </ul>

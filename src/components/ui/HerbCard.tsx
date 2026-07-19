@@ -1,5 +1,6 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 import { asset } from "../../lib/paths";
 
 interface HerbCardProps {
@@ -8,13 +9,13 @@ interface HerbCardProps {
   priceRange: string;
   shortDesc: string;
   image: string;
-  onClick: () => void;
+  to: string;
 }
 
-export const HerbCard: React.FC<HerbCardProps> = ({ name, scientificName, priceRange, shortDesc, image, onClick }) => {
+export const HerbCard: React.FC<HerbCardProps> = ({ name, scientificName, priceRange, shortDesc, image, to }) => {
   return (
-    <div
-      onClick={onClick}
+    <Link
+      to={to}
       className="bg-white rounded-xl overflow-hidden border border-[#E6DDD0] hover:border-[#B85037] shadow-xs hover:shadow-md transition-all group cursor-pointer flex flex-col h-full"
     >
       <div className="relative aspect-4/3 overflow-hidden bg-gray-100">
@@ -45,6 +46,6 @@ export const HerbCard: React.FC<HerbCardProps> = ({ name, scientificName, priceR
           <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
         </div>
       </div>
-    </div>
+    </Link>
   );
 };

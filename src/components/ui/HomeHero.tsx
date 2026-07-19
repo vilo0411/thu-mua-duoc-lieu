@@ -1,13 +1,14 @@
 import React from "react";
 import { ArrowRight, Sprout } from "lucide-react";
+import { Link } from "react-router-dom";
 
 interface HomeHeroProps {
   ownerName: string;
   /** Ảnh nền vùng trồng (dùng biến thể phân giải cao của herb.image). */
   imageUrl: string;
   stats: { value: string; label: string }[];
-  onSeePrices: () => void;
-  onLearn: () => void;
+  seePricesTo: string;
+  learnTo: string;
 }
 
 /** Nhãn phân loại chạy dưới hero — mã hoá 3 trục nội dung thật của site. */
@@ -18,7 +19,7 @@ const RAILS = ["Kỹ thuật trồng", "Giá thu mua", "Vùng trồng"];
  * Ảnh vùng trồng phủ overlay pine để chữ luôn đọc rõ; typography khổ lớn.
  * "Phá khung" max-w-7xl của Layout bằng w-screen + margin âm (Layout đã overflow-x-clip).
  */
-export const HomeHero: React.FC<HomeHeroProps> = ({ ownerName, imageUrl, stats, onSeePrices, onLearn }) => {
+export const HomeHero: React.FC<HomeHeroProps> = ({ ownerName, imageUrl, stats, seePricesTo, learnTo }) => {
   return (
     <section
       id="homepage-hero"
@@ -54,19 +55,19 @@ export const HomeHero: React.FC<HomeHeroProps> = ({ ownerName, imageUrl, stats, 
         </p>
 
         <div className="mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4">
-          <button
-            onClick={onSeePrices}
+          <Link
+            to={seePricesTo}
             className="inline-flex items-center justify-center gap-2 rounded-full bg-terracotta hover:bg-terracotta-dark px-7 py-3.5 font-sans font-bold text-white transition-colors cursor-pointer"
           >
             Xem bảng giá thu mua
             <ArrowRight className="w-4 h-4" />
-          </button>
-          <button
-            onClick={onLearn}
+          </Link>
+          <Link
+            to={learnTo}
             className="inline-flex items-center justify-center gap-2 rounded-full border border-white/40 hover:border-white hover:bg-white/10 px-7 py-3.5 font-sans font-bold text-white transition-colors cursor-pointer"
           >
             Học kỹ thuật trồng
-          </button>
+          </Link>
         </div>
 
         {/* Dải số liệu tin cậy — suy từ dữ liệu thật */}

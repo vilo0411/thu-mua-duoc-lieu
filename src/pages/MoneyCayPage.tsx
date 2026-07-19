@@ -1,6 +1,6 @@
 import React from "react";
 import { ChevronRight, Leaf, ShieldCheck, Bug, Clock, Thermometer, Sprout, Package } from "lucide-react";
-import { useNavigate, useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { HERBS_DATA } from "../lib/data";
 import { Breadcrumb, CtaBanner, FaqAccordion, SaleChannelsCard, PriceBoard, PestList, HerbPriceCalculator, MediaCarousel } from "../components/ui";
 
@@ -19,7 +19,6 @@ import { NotFoundPage } from "./NotFoundPage";
 
 export const MoneyCayPage: React.FC = () => {
   const { cay = "" } = useParams();
-  const navigate = useNavigate();
 
   const herb = HERBS_DATA.find((h) => h.slug === cay);
   if (!herb) return <NotFoundPage />;
@@ -30,8 +29,8 @@ export const MoneyCayPage: React.FC = () => {
     <div className="space-y-10 animate-fade-in">
       <Seo {...herbSeo(herb)} />
       <Breadcrumb items={[
-        { label: "Trang chủ", onClick: () => navigate(paths.home()) },
-        { label: "Thu mua dược liệu", onClick: () => navigate(paths.pillar()) },
+        { label: "Trang chủ", href: paths.home() },
+        { label: "Thu mua dược liệu", href: paths.pillar() },
         { label: herb.name },
       ]} />
 
@@ -173,9 +172,9 @@ export const MoneyCayPage: React.FC = () => {
         <p className="text-sm text-gray-600 font-sans">Nhấp vào vùng để xem chi tiết tỉnh thành, sản lượng và thông tin HTX tại vùng:</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {herb.regions.map((reg, idx) => (
-            <div
+            <Link
               key={idx}
-              onClick={() => navigate(paths.herbRegion(herb.slug, reg.regionSlug))}
+              to={paths.herbRegion(herb.slug, reg.regionSlug)}
               className="bg-paper hover:bg-sand border border-line hover:border-terracotta p-4 rounded-xl cursor-pointer transition-all flex justify-between items-center group"
             >
               <div>
@@ -183,7 +182,7 @@ export const MoneyCayPage: React.FC = () => {
                 <p className="text-xs text-gray-500 font-sans mt-0.5">Sản lượng dự kiến: {reg.outputEstimate}</p>
               </div>
               <ChevronRight className="w-5 h-5 text-terracotta group-hover:translate-x-1 transition-transform" />
-            </div>
+            </Link>
           ))}
         </div>
       </section>
@@ -211,12 +210,12 @@ export const MoneyCayPage: React.FC = () => {
           <h2 className="font-serif text-xl font-bold text-ink-soft">Kỹ thuật gieo trồng chăm sóc {herb.name} đúng quy chuẩn nông nghiệp sạch</h2>
           <p className="text-sm text-gray-600 max-w-xl">Do Nguyễn Viết Lộc tổng hợp từ nguồn uy tín — từ chọn giống, chăm sóc đến thu hoạch và sơ chế đúng cách.</p>
         </div>
-        <button
-          onClick={() => navigate(paths.hubWiki(herb.slug))}
+        <Link
+          to={paths.hubWiki(herb.slug)}
           className="shrink-0 bg-white border border-terracotta hover:bg-terracotta hover:text-white text-terracotta font-sans font-bold text-sm px-5 py-3 rounded-lg shadow-2xs transition-all cursor-pointer"
         >
           Xem ngay kỹ thuật trồng {herb.name} →
-        </button>
+        </Link>
       </section>
 
       {/* FAQ */}

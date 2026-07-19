@@ -183,18 +183,19 @@ export function articleSeo(a: WikiArticle): SeoProps {
   };
 }
 
-export function knowledgeSeo(): SeoProps {
+export function knowledgeSeo(listItems: { name: string; path: string }[] = []): SeoProps {
   return {
-    title: "Kiến thức trồng & sơ chế dược liệu Việt Nam",
+    title: "Kỹ thuật trồng cây dược liệu: cẩm nang canh tác & sơ chế",
     description:
-      "Thư viện kỹ thuật canh tác, phòng trừ sâu bệnh và sơ chế dược liệu đạt chuẩn GACP-WHO do Nguyễn Viết Lộc tổng hợp từ nguồn uy tín.",
+      "Cẩm nang kỹ thuật trồng cây dược liệu: gieo trồng, nhân giống, làm đất, bón phân, phòng trừ sâu bệnh và sơ chế — do Nguyễn Viết Lộc tổng hợp từ nguồn uy tín.",
     path: paths.knowledge(),
     type: "website",
     jsonLd: [
       ld.breadcrumbList([
         { name: "Trang chủ", path: paths.home() },
-        { name: "Kiến thức", path: paths.knowledge() },
+        { name: "Kỹ thuật trồng cây dược liệu", path: paths.knowledge() },
       ]),
+      ...(listItems.length ? [ld.itemList(listItems)] : []),
     ],
   };
 }

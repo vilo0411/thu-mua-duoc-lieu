@@ -1,9 +1,10 @@
 import React from "react";
 import { ArrowRight, Quote } from "lucide-react";
+import { Link } from "react-router-dom";
 
 interface MissionStoryProps {
   imageUrl: string;
-  onReadStory: () => void;
+  readStoryTo: string;
 }
 
 /**
@@ -12,7 +13,7 @@ interface MissionStoryProps {
  * nạn "được mùa mất giá", thương lái ép giá, và vai trò kết nối đối tác bao tiêu.
  * Copy tái sử dụng từ AboutPage + bài wiki liên kết ba bên.
  */
-export const MissionStory: React.FC<MissionStoryProps> = ({ imageUrl, onReadStory }) => {
+export const MissionStory: React.FC<MissionStoryProps> = ({ imageUrl, readStoryTo }) => {
   return (
     <section
       id="homepage-mission"
@@ -60,13 +61,13 @@ export const MissionStory: React.FC<MissionStoryProps> = ({ imageUrl, onReadStor
             </p>
           </blockquote>
 
-          <button
-            onClick={onReadStory}
+          <Link
+            to={readStoryTo}
             className="mt-8 inline-flex items-center gap-2 rounded-full bg-white text-pine-900 hover:bg-earth hover:text-pine-900 px-6 py-3 font-sans font-bold transition-colors cursor-pointer"
           >
             Đọc câu chuyện đầy đủ
             <ArrowRight className="w-4 h-4" />
-          </button>
+          </Link>
         </div>
 
         {/* Cột ảnh */}

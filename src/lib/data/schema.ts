@@ -126,7 +126,13 @@ export const wikiArticleSchema = z.object({
   readTime: z.string().min(1),
   date: z.string().min(1),
   excerpt: z.string().min(1),
-  image: z.string().url(),
+  // Chấp nhận URL đầy đủ hoặc đường dẫn ảnh nội bộ (vd: /images/kien-thuc/x.jpg) như herbSchema.
+  image: z
+    .string()
+    .refine(
+      (v) => /^https?:\/\//.test(v) || v.startsWith("/"),
+      "Phải là URL đầy đủ hoặc đường dẫn nội bộ bắt đầu bằng /",
+    ),
   contentSections: z
     .array(
       z.object({
@@ -139,6 +145,11 @@ export const wikiArticleSchema = z.object({
   standardsTable: z
     .array(z.object({ factor: z.string().min(1), standard: z.string().min(1), notes: z.string().min(1) }))
     .optional(),
+  // Tiêu đề + 3 header cột cho standardsTable. Nếu thiếu, WikiArticlePage dùng mặc định.
+  standardsTableTitle: z.string().min(1).optional(),
+  standardsTableHeaders: z.tuple([z.string().min(1), z.string().min(1), z.string().min(1)]).optional(),
+  // Callout "sai lầm phổ biến" — theo từng bài; không có thì không render (tránh dính text bài sấy).
+  pitfall: z.object({ title: z.string().min(1).optional(), body: z.string().min(1) }).optional(),
   faq: z.array(faqItem),
 });
 

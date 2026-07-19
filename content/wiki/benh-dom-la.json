@@ -1,0 +1,53 @@
+{
+  "id": "benh-dom-la",
+  "slug": "benh-dom-la-nguyen-nhan-cach-tri",
+  "title": "Bệnh đốm lá: nguyên nhân, dấu hiệu và cách phòng trị",
+  "category": "Phòng trừ sâu bệnh",
+  "author": "Nguyễn Viết Lộc",
+  "readTime": "6 phút đọc",
+  "date": "26/07/2026",
+  "excerpt": "Đốm lá là nhóm bệnh do nhiều loại nấm gây ra, làm lá lốm đốm, cháy khô và rụng sớm. Tôi tổng hợp lại cách nhận biết, phân biệt và phòng trị đốm lá theo hướng an toàn cho cây dược liệu.",
+  "image": "/images/kien-thuc/benh-dom-la.jpg",
+  "contentSections": [
+    {
+      "heading": "1. Bệnh đốm lá là gì?",
+      "paragraphs": [
+        "Đốm lá là tên gọi chung cho nhóm bệnh tạo các đốm trên phiến lá, do nhiều loại nấm khác nhau gây ra (Cercospora, Alternaria, Septoria...). Vì nhiều tác nhân nên hình dạng đốm cũng đa dạng, nhưng đều dẫn tới hậu quả chung: lá giảm quang hợp, cháy khô và rụng sớm.",
+        "Bệnh ít khi giết cây ngay nhưng làm cây suy dần, giảm năng suất và làm xấu dược liệu lấy lá — ảnh hưởng trực tiếp giá bán."
+      ],
+      "highlight": "Dấu hiệu chung: đốm tròn hoặc bầu dục màu nâu, tâm xám, thường có QUẦNG VÀNG quanh vết; nặng thì các đốm liên kết làm lá cháy loang lổ rồi rụng."
+    },
+    {
+      "heading": "2. Điều kiện phát sinh và lây lan",
+      "paragraphs": [
+        "Bệnh phát mạnh trong điều kiện ẩm ướt kéo dài, mưa nhiều, sương đêm và vườn rậm rạp. Nấm tồn tại trên tàn dư lá bệnh và lây qua nước bắn, gió.",
+        "Tưới nước lên tán vào chiều tối để lá ướt qua đêm, trồng dày và thiếu dinh dưỡng cân đối đều khiến bệnh nặng hơn."
+      ]
+    },
+    {
+      "heading": "3. Cách phòng và trị đốm lá",
+      "paragraphs": [
+        "Vệ sinh và canh tác: thu gom, tiêu hủy lá bệnh; tỉa thông thoáng; thoát nước tốt; tưới vào gốc buổi sáng thay vì tưới đẫm lên lá chiều tối; luân canh và bón cân đối để cây khỏe.",
+        "Sinh học: phun Bacillus subtilis, Trichoderma, dịch chiết thảo mộc hỗ trợ phòng khi thời tiết thuận lợi cho bệnh.",
+        "Hóa học (khi cần): thuốc gốc đồng hoặc hoạt chất được phép, dùng đúng liều và bảo đảm thời gian cách ly cho dược liệu. Đốm lá dễ nhầm với [thán thư](/kien-thuc/benh-than-thu) — khi khó phân biệt, cứ ưu tiên các biện pháp canh tác phòng ngừa vì chúng gần như giống nhau."
+      ]
+    }
+  ],
+  "pitfall": {
+    "body": "Tưới nước lên lá vào chiều tối! Tán lá đọng nước ẩm suốt đêm là điều kiện lý tưởng cho nấm đốm lá nảy nở và lây lan. Hãy tưới vào gốc buổi sáng để lá kịp khô trong ngày, kết hợp dọn sạch lá bệnh rụng dưới gốc — đây là hai việc rẻ tiền nhưng giảm bệnh rõ rệt."
+  },
+  "faq": [
+    {
+      "question": "Bệnh đốm lá có làm chết cây không?",
+      "answer": "Đốm lá thường không giết cây ngay như một số bệnh thối rễ hay mốc sương, nhưng nếu để nặng, lá cháy khô và rụng nhiều sẽ khiến cây suy kiệt dần, giảm năng suất và có thể chết ở cây yếu. Quan trọng là xử lý sớm và giữ vườn thông thoáng, khô ráo."
+    },
+    {
+      "question": "Vì sao chữa mãi mà đốm lá vẫn tái đi tái lại?",
+      "answer": "Thường do chỉ phun thuốc mà bỏ qua nguồn bệnh và điều kiện phát sinh: lá bệnh rụng dưới gốc chưa dọn, vườn vẫn rậm ẩm, vẫn tưới đẫm lên lá. Muốn dứt điểm phải kết hợp vệ sinh tàn dư, tỉa thông thoáng, thoát nước và điều chỉnh cách tưới, chứ không chỉ dựa vào thuốc."
+    },
+    {
+      "question": "Có cần diệt trừ đốm lá triệt để không?",
+      "answer": "Với dược liệu, mục tiêu là kiểm soát bệnh ở mức không gây hại đáng kể chứ không nhất thiết 'sạch tuyệt đối'. Duy trì vườn thông thoáng, khô ráo, cây khỏe và can thiệp sinh học kịp thời khi bệnh chớm là đủ để giữ năng suất mà không phải lạm dụng hóa chất."
+    }
+  ]
+}

@@ -23,7 +23,7 @@ export const PillarPage: React.FC = () => {
       <Seo {...pillarSeo()} />
 
       <div className="mb-8">
-        <Breadcrumb items={[{ label: "Trang chủ", onClick: () => navigate(paths.home()) }, { label: "Thu mua dược liệu" }]} />
+        <Breadcrumb items={[{ label: "Trang chủ", href: paths.home() }, { label: "Thu mua dược liệu" }]} />
       </div>
 
       {/* Hero — lời hứa của trang, thoáng và ít viền */}

@@ -1,0 +1,86 @@
+{
+  "id": "kiem-dinh-duoc-lieu",
+  "slug": "kiem-dinh-duoc-lieu-chi-tieu-quy-trinh",
+  "title": "Kiểm định dược liệu là gì? Các chỉ tiêu kiểm nghiệm chính",
+  "category": "Tiêu chuẩn & kiểm định",
+  "author": "Nguyễn Viết Lộc",
+  "readTime": "7 phút đọc",
+  "date": "03/08/2026",
+  "excerpt": "Kiểm định (kiểm nghiệm) dược liệu là bước xác minh chất lượng và an toàn của lô hàng. Tôi tổng hợp lại các chỉ tiêu kiểm định chính, kiểm ở đâu và vì sao nó giúp bán dược liệu được giá.",
+  "image": "/images/kien-thuc/kiem-dinh-duoc-lieu.jpg",
+  "contentSections": [
+    {
+      "heading": "1. Kiểm định dược liệu là gì?",
+      "paragraphs": [
+        "Kiểm định (hay kiểm nghiệm) dược liệu là việc lấy mẫu và phân tích trong phòng thí nghiệm để xác minh một lô dược liệu có đúng loài, đủ hàm lượng hoạt chất và an toàn hay không. Đây là bước 'chứng minh chất lượng bằng con số', khác với đánh giá cảm quan bằng mắt và mũi.",
+        "Kết quả kiểm định (phiếu kiểm nghiệm) là căn cứ để nhà máy chấp nhận thu mua, và là bằng chứng bảo vệ người trồng khi bị nghi ngờ hàng kém chất lượng."
+      ],
+      "highlight": "Kiểm định trả lời ba câu hỏi: (1) có đúng loài dược liệu không? (2) có đủ hoạt chất không? (3) có an toàn — không tồn dư, không nhiễm bẩn quá ngưỡng — không?"
+    },
+    {
+      "heading": "2. Các chỉ tiêu kiểm định chính",
+      "paragraphs": [
+        "Việc kiểm nghiệm thường dựa theo Dược điển Việt Nam và quy định của Bộ Y tế. Bảng dưới đây liệt kê các nhóm chỉ tiêu thường gặp; tùy loại dược liệu và mục đích mua mà bên mua yêu cầu kiểm những chỉ tiêu nào."
+      ]
+    },
+    {
+      "heading": "3. Kiểm định ở đâu, quy trình thế nào?",
+      "paragraphs": [
+        "Việc kiểm nghiệm được thực hiện tại các viện/trung tâm kiểm nghiệm thuốc, phòng kiểm nghiệm đạt chuẩn, hoặc phòng QC của chính nhà máy thu mua. Quy trình cơ bản: lấy mẫu đại diện cho lô hàng, gửi mẫu, phòng thí nghiệm phân tích theo chỉ tiêu yêu cầu và trả phiếu kết quả.",
+        "Trong thực tế mua bán, nhiều khi chính nhà máy lấy mẫu và tự kiểm khi nhập kho. Người trồng/hợp tác xã chủ động kiểm định trước sẽ nắm được chất lượng hàng của mình để đàm phán giá tốt hơn."
+      ]
+    },
+    {
+      "heading": "4. Vì sao kiểm định giúp bán được giá?",
+      "paragraphs": [
+        "Dược liệu có phiếu kiểm nghiệm đạt chuẩn tạo niềm tin cho bên mua, dễ vào chuỗi nhà máy [GMP](/kien-thuc/tieu-chuan-gmp) và bán giá cao, ổn định. Ngược lại, hàng không rõ chất lượng dễ bị ép giá hoặc từ chối.",
+        "Kiểm định cũng gắn liền với canh tác đạt [GACP](/kien-thuc/tieu-chuan-gacp): trồng đúng chuẩn thì khả năng đạt các chỉ tiêu kiểm nghiệm cao hơn. Và để không bị mua nhầm giống/hàng giả ngay từ đầu, xem thêm bài [phân biệt cây dược liệu giả](/kien-thuc/phan-biet-cay-duoc-lieu-gia)."
+      ]
+    }
+  ],
+  "standardsTable": [
+    {
+      "factor": "Định tính",
+      "standard": "Xác định đúng loài/bộ phận dùng (soi bột, sắc ký...)",
+      "notes": "Chống nhầm loài, trộn giả."
+    },
+    {
+      "factor": "Định lượng hoạt chất",
+      "standard": "Hàm lượng hoạt chất đạt mức tối thiểu",
+      "notes": "Quyết định giá trị dược liệu."
+    },
+    {
+      "factor": "Độ tinh khiết",
+      "standard": "Độ ẩm, tro, tạp chất trong ngưỡng cho phép",
+      "notes": "Liên quan sơ chế, bảo quản."
+    },
+    {
+      "factor": "An toàn",
+      "standard": "Kim loại nặng, dư lượng thuốc BVTV, vi sinh, aflatoxin dưới ngưỡng",
+      "notes": "Yếu tố hay khiến hàng bị loại."
+    }
+  ],
+  "standardsTableTitle": "Các nhóm chỉ tiêu kiểm định dược liệu thường gặp",
+  "standardsTableHeaders": [
+    "Nhóm chỉ tiêu",
+    "Nội dung kiểm",
+    "Ý nghĩa"
+  ],
+  "pitfall": {
+    "body": "Chỉ tin cảm quan, bỏ qua chỉ tiêu an toàn! Hàng nhìn đẹp mắt vẫn có thể vượt ngưỡng dư lượng thuốc BVTV, kim loại nặng hay nhiễm nấm mốc (aflatoxin) — những thứ mắt thường không thấy nhưng khiến lô hàng bị từ chối. Trồng theo hướng sạch và kiểm định các chỉ tiêu an toàn là cách chắc ăn nhất để giữ giá."
+  },
+  "faq": [
+    {
+      "question": "Kiểm định dược liệu gồm những chỉ tiêu gì?",
+      "answer": "Thường gồm bốn nhóm: định tính (đúng loài/bộ phận dùng), định lượng hoạt chất (đủ hàm lượng), độ tinh khiết (độ ẩm, tro, tạp chất) và an toàn (kim loại nặng, dư lượng thuốc BVTV, vi sinh vật, aflatoxin). Tùy loại dược liệu và yêu cầu bên mua mà kiểm đầy đủ hay một số chỉ tiêu trọng yếu."
+    },
+    {
+      "question": "Kiểm định dược liệu ở đâu?",
+      "answer": "Tại các viện/trung tâm kiểm nghiệm thuốc, phòng kiểm nghiệm đạt chuẩn, hoặc phòng QC của nhà máy thu mua. Nhiều trường hợp nhà máy tự lấy mẫu kiểm khi nhập kho. Người trồng hoặc hợp tác xã có thể chủ động gửi mẫu kiểm trước để biết chất lượng hàng và đàm phán giá tốt hơn."
+    },
+    {
+      "question": "Hộ trồng nhỏ có cần kiểm định không?",
+      "answer": "Không bắt buộc với mọi lô, nhưng rất nên khi bán số lượng lớn hoặc bán cho nhà máy. Có phiếu kiểm nghiệm đạt chuẩn giúp tạo niềm tin, bán được giá cao và tránh bị ép giá. Kết hợp canh tác đạt [GACP](/kien-thuc/tieu-chuan-gacp) sẽ tăng khả năng đạt các chỉ tiêu khi kiểm."
+    }
+  ]
+}

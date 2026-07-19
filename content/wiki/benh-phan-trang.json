@@ -1,0 +1,84 @@
+{
+  "id": "benh-phan-trang",
+  "slug": "benh-phan-trang-dau-hieu-cach-tri",
+  "title": "Bệnh phấn trắng: dấu hiệu và cách phòng trị cho cây dược liệu",
+  "category": "Phòng trừ sâu bệnh",
+  "author": "Nguyễn Viết Lộc",
+  "readTime": "6 phút đọc",
+  "date": "25/07/2026",
+  "excerpt": "Phấn trắng là bệnh nấm tạo lớp bột trắng trên lá, làm cây suy và giảm năng suất. Tôi tổng hợp lại dấu hiệu, điều kiện phát sinh và cách phòng trị ưu tiên sinh học, hạn chế hóa chất cho vườn dược liệu.",
+  "image": "/images/kien-thuc/benh-phan-trang.jpg",
+  "contentSections": [
+    {
+      "heading": "1. Bệnh phấn trắng là gì?",
+      "paragraphs": [
+        "Phấn trắng là bệnh do nấm (nhóm Erysiphe/Oidium) gây ra, dễ nhận nhất qua lớp bột trắng như rắc phấn phủ trên mặt lá, chồi non và đôi khi cả hoa. Nấm hút dinh dưỡng làm lá vàng, xoăn, khô và rụng sớm.",
+        "Bệnh làm giảm quang hợp, cây còi cọc, năng suất và chất lượng dược liệu đều giảm. Khác với nhiều bệnh nấm khác, phấn trắng lại phát triển tốt cả khi mặt lá khô, chỉ cần ẩm độ không khí cao."
+      ],
+      "highlight": "Dấu hiệu không thể nhầm: lớp bột trắng/xám phủ trên bề mặt lá, lau nhẹ có thể trôi bớt. Ban đầu là các đốm phấn nhỏ, sau lan phủ cả phiến lá."
+    },
+    {
+      "heading": "2. Điều kiện phát sinh",
+      "paragraphs": [
+        "Bệnh nặng khi ẩm độ không khí cao nhưng lá khô, trời râm mát, chênh lệch nhiệt độ ngày đêm lớn (sáng sương, trưa nắng nhẹ).",
+        "Trồng dày, thiếu ánh sáng, bí gió và bón thừa đạm khiến lá non mềm — điều kiện lý tưởng cho phấn trắng phát triển."
+      ]
+    },
+    {
+      "heading": "3. Cách phòng bệnh phấn trắng",
+      "paragraphs": [
+        "Trồng thưa hợp lý, tỉa cành tạo thông thoáng và đủ nắng để giảm ẩm độ quanh tán.",
+        "Bón cân đối, tránh thừa đạm làm lá non mềm yếu; tăng cường kali, canxi giúp lá cứng cáp, chống chịu tốt hơn.",
+        "Kiểm tra vườn thường xuyên, phát hiện sớm các đốm phấn đầu tiên để xử lý khi bệnh còn nhẹ."
+      ]
+    },
+    {
+      "heading": "4. Cách trị khi cây đã nhiễm",
+      "paragraphs": [
+        "Sinh học và thảo mộc (ưu tiên cho dược liệu): phun nấm đối kháng (Ampelomyces), dầu neem, dung dịch lưu huỳnh vi sinh; một số nhà vườn dùng dung dịch baking soda pha loãng hoặc sữa tươi pha nước như biện pháp dân gian hỗ trợ khi bệnh chớm.",
+        "Cắt bỏ và tiêu hủy lá bệnh nặng để giảm nguồn nấm; không vứt bừa trong vườn.",
+        "Hóa học (chỉ khi cần): thuốc gốc lưu huỳnh hoặc hoạt chất được phép; với dược liệu phải tuân thủ liều và thời gian cách ly nghiêm ngặt để tránh tồn dư."
+      ]
+    }
+  ],
+  "standardsTable": [
+    {
+      "factor": "Biện pháp canh tác",
+      "standard": "Trồng thưa, đủ nắng, thông thoáng, bón cân đối (tránh thừa đạm)",
+      "notes": "Giảm ẩm quanh tán là chìa khóa."
+    },
+    {
+      "factor": "Biện pháp sinh học",
+      "standard": "Nấm đối kháng Ampelomyces, dầu neem, lưu huỳnh vi sinh",
+      "notes": "Phun phòng và khi bệnh chớm."
+    },
+    {
+      "factor": "Biện pháp hóa học",
+      "standard": "Thuốc gốc lưu huỳnh / hoạt chất được phép",
+      "notes": "Chỉ khi nặng; tuân thủ cách ly."
+    }
+  ],
+  "standardsTableTitle": "Các biện pháp phòng trị phấn trắng",
+  "standardsTableHeaders": [
+    "Nhóm biện pháp",
+    "Cách làm",
+    "Lưu ý"
+  ],
+  "pitfall": {
+    "body": "Trồng quá dày và bón thừa đạm! Vườn rậm, bí gió, thiếu nắng cộng lá non mềm vì thừa đạm chính là môi trường lý tưởng cho phấn trắng. Hãy trồng thưa, tỉa thông thoáng và bón cân đối — phòng bằng canh tác hiệu quả hơn nhiều so với chạy theo phun thuốc."
+  },
+  "faq": [
+    {
+      "question": "Phấn trắng có tự khỏi khi trời nắng không?",
+      "answer": "Nắng ráo và thông thoáng giúp bệnh chậm lại nhưng thường không tự khỏi hẳn nếu nguồn nấm còn và vườn vẫn rậm. Cần kết hợp tỉa thông thoáng, dọn lá bệnh và phun chế phẩm sinh học để khống chế; để mặc bệnh dễ tái phát khi trời râm ẩm trở lại."
+    },
+    {
+      "question": "Dùng baking soda hay sữa trị phấn trắng có hiệu quả không?",
+      "answer": "Đây là các biện pháp dân gian có thể hỗ trợ khi bệnh mới chớm và trên diện tích nhỏ, giúp thay đổi bề mặt lá bất lợi cho nấm. Tuy nhiên hiệu quả không ổn định bằng chế phẩm sinh học chuyên dụng; nên xem là biện pháp bổ trợ, kết hợp với canh tác thông thoáng chứ không thay thế phòng bệnh tổng thể."
+    },
+    {
+      "question": "Phấn trắng khác gì mốc sương?",
+      "answer": "Phấn trắng tạo lớp bột trắng trên MẶT TRÊN lá và phát triển cả khi lá khô, ẩm không khí cao. Còn [mốc sương](/kien-thuc/benh-moc-suong) tạo lớp mốc trắng xám ở MẶT DƯỚI lá kèm vết úng nước, cần lá ẩm ướt và lây lan cực nhanh khi lạnh ẩm. Hai bệnh khác tác nhân nên cách xử lý cũng khác."
+    }
+  ]
+}

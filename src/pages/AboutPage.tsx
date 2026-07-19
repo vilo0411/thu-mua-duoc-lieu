@@ -1,18 +1,15 @@
 import React from "react";
 import { Globe, Mail, MapPin } from "lucide-react";
-import { useNavigate } from "react-router-dom";
 import { SITE_OWNER } from "../lib/data";
 import { Breadcrumb } from "../components/ui";
 import { paths, asset } from "../lib/paths";
 import { Seo, aboutSeo } from "../lib/seo";
 
 export const AboutPage: React.FC = () => {
-  const navigate = useNavigate();
-
   return (
     <div className="space-y-8 animate-fade-in max-w-4xl mx-auto">
       <Seo {...aboutSeo()} />
-      <Breadcrumb items={[{ label: "Trang chủ", onClick: () => navigate(paths.home()) }, { label: "Về tôi" }]} />
+      <Breadcrumb items={[{ label: "Trang chủ", href: paths.home() }, { label: "Về tôi" }]} />
       <section className="bg-white border border-line rounded-2xl p-6 md:p-10 space-y-6">
         <div className="flex flex-col md:flex-row items-center gap-6 pb-6 border-b border-sand">
           <img

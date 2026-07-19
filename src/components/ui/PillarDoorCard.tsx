@@ -1,5 +1,6 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 /** Hai tông "lối vào" — xanh lá cho silo Kiến thức, terracotta cho silo Thu mua. */
 type Tone = "green" | "terracotta";
@@ -30,18 +31,18 @@ interface PillarDoorCardProps {
   desc: string;
   ctaLabel: string;
   tone: Tone;
-  onClick: () => void;
+  to: string;
 }
 
 /**
  * Thẻ "lối vào" một silo nội dung — thiết bị điều hướng riêng của trang chủ.
  * Cỡ lớn, bấm cả thẻ, có icon nhấn tông theo silo để phân biệt hai hướng đi.
  */
-export const PillarDoorCard: React.FC<PillarDoorCardProps> = ({ icon: Icon, eyebrow, title, desc, ctaLabel, tone, onClick }) => {
+export const PillarDoorCard: React.FC<PillarDoorCardProps> = ({ icon: Icon, eyebrow, title, desc, ctaLabel, tone, to }) => {
   const t = TONE[tone];
   return (
-    <button
-      onClick={onClick}
+    <Link
+      to={to}
       className={`group relative overflow-hidden text-left bg-white border ${t.ring} ${t.hoverBorder} rounded-2xl p-8 md:p-10 min-h-[15rem] shadow-2xs hover:shadow-md transition-all hover:-translate-y-0.5 cursor-pointer flex flex-col gap-5`}
     >
       <div className={`absolute right-0 top-0 w-48 h-48 ${t.glow} rounded-full -mr-16 -mt-16 pointer-events-none`} />
@@ -57,6 +58,6 @@ export const PillarDoorCard: React.FC<PillarDoorCardProps> = ({ icon: Icon, eyeb
         {ctaLabel}
         <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
       </span>
-    </button>
+    </Link>
   );
 };

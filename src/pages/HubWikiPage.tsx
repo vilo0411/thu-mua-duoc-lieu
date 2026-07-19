@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Bug, ChevronDown, Coins, Droplets, HelpCircle, Leaf, Package, Sprout } from "lucide-react";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { HERBS_DATA, WIKI_HUBS } from "../lib/data";
 import { Breadcrumb, DataTable, FaqAccordion, LandingLink, StickyToc } from "../components/ui";
 import { paths, asset } from "../lib/paths";
@@ -44,6 +44,42 @@ const relatedHubs = (herbSlug: string, n = 2) => {
   const count = Math.min(n, HUB_RING.length - 1);
   return Array.from({ length: count }, (_, k) => HUB_RING[(i + 1 + k) % HUB_RING.length]);
 };
+
+/**
+ * Lưới link từ mỗi hub cây → cụm bài "Kỹ thuật gieo trồng" nền tảng (123 → 7).
+ * Bài phổ quát luôn có; bài nhân giống chọn theo `technique.propagation` của cây.
+ */
+const CORE_ARTICLES = [
+  { id: "gia-the-la-gi", label: "Giá thể là gì? Các loại giá thể trồng dược liệu" },
+  { id: "cach-tron-dat-trong-cay", label: "Cách trộn đất trồng cây dược liệu" },
+  { id: "cach-bon-lot-bon-thuc", label: "Bón lót và bón thúc: cách bón & chọn phân" },
+  { id: "cach-diet-co-dai", label: "Cách diệt cỏ dại cho vườn dược liệu" },
+];
+const SEED_ARTICLES = [
+  { id: "cach-u-hat-giong", label: "Cách ủ hạt giống kích mầm nhanh" },
+  { id: "cach-uom-hat-giong", label: "Cách ươm hạt giống nảy mầm đều" },
+];
+const CUTTING_ARTICLE = { id: "cach-giam-canh", label: "Cách giâm cành đúng kỹ thuật" };
+
+const foundationLinksFor = (propagation: string[]) => {
+  const text = propagation.join(" ").toLowerCase();
+  const list = [...CORE_ARTICLES];
+  if (/hạt|gieo|ươm/.test(text)) list.push(...SEED_ARTICLES);
+  if (/giâm|hom|cành/.test(text)) list.push(CUTTING_ARTICLE);
+  return list;
+};
+
+/** Cụm bài phòng trừ sâu bệnh generic — link từ phần "Sâu bệnh" của mọi hub (123 → 8). */
+const DISEASE_ARTICLES = [
+  { id: "benh-than-thu", label: "Bệnh thán thư" },
+  { id: "benh-phan-trang", label: "Bệnh phấn trắng" },
+  { id: "benh-dom-la", label: "Bệnh đốm lá" },
+  { id: "benh-ri-sat", label: "Bệnh rỉ sắt (gỉ sắt)" },
+  { id: "benh-lo-co-re-thoi-re", label: "Lở cổ rễ & thối rễ" },
+  { id: "benh-moc-suong", label: "Bệnh mốc sương" },
+  { id: "benh-nut-than-xi-mu", label: "Nứt thân xì mủ" },
+  { id: "cach-tri-rep-sap", label: "Cách trị rệp sáp" },
+];
 
 /** Các mục nội dung (tĩnh) — dùng cho mục lục, trạng thái mở, và scroll-spy. */
 const SECTIONS = [
@@ -94,7 +130,6 @@ const AccordionSection: React.FC<{
 );
 
 export const HubWikiPage: React.FC<{ herbSlug: string }> = ({ herbSlug }) => {
-  const navigate = useNavigate();
   const [activeTocSection, setActiveTocSection] = useState(SECTION_IDS[0]);
   // Mặc định mở tất cả các mục; người dùng có thể tự gập lại.
   const [openSections, setOpenSections] = useState<Set<string>>(new Set(SECTION_IDS));
@@ -154,8 +189,8 @@ export const HubWikiPage: React.FC<{ herbSlug: string }> = ({ herbSlug }) => {
     <div className="space-y-8 animate-fade-in">
       <Seo {...hubSeo(hub, herb.image)} />
       <Breadcrumb items={[
-        { label: "Trang chủ", onClick: () => navigate(paths.home()) },
-        { label: "Kiến thức", onClick: () => navigate(paths.knowledge()) },
+        { label: "Trang chủ", href: paths.home() },
+        { label: "Kiến thức", href: paths.knowledge() },
         { label: `Kỹ thuật trồng ${herb.name}` },
       ]} />
 
@@ -280,6 +315,20 @@ export const HubWikiPage: React.FC<{ herbSlug: string }> = ({ herbSlug }) => {
                 <span className="text-sm text-ink">{p.remedy}</span>,
               ])}
             />
+            <div className="pt-2 space-y-2">
+              <p className="text-sm font-sans font-semibold text-ink-soft">Tra cứu bệnh & sâu hại thường gặp:</p>
+              <div className="flex flex-wrap gap-2">
+                {DISEASE_ARTICLES.map((a) => (
+                  <Link
+                    key={a.id}
+                    to={paths.article(a.id)}
+                    className="px-3 py-1.5 rounded-full border border-line bg-white text-sm font-sans font-semibold text-ink-soft hover:border-terracotta hover:text-terracotta transition-colors"
+                  >
+                    {a.label}
+                  </Link>
+                ))}
+              </div>
+            </div>
           </AccordionSection>
 
           {/* 5. Thu hoạch & sơ chế */}
@@ -310,12 +359,12 @@ export const HubWikiPage: React.FC<{ herbSlug: string }> = ({ herbSlug }) => {
                 với quy mô và chất lượng hàng của mình.
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
-                <button
-                  onClick={() => navigate(paths.herb(herb.slug))}
+                <Link
+                  to={paths.herb(herb.slug)}
                   className="bg-terracotta hover:bg-terracotta-dark text-white font-sans font-bold text-sm px-5 py-3 rounded-lg shadow-2xs transition-all inline-flex items-center justify-center gap-1 cursor-pointer"
                 >
                   Xem bảng giá thu mua {herb.name} →
-                </button>
+                </Link>
                 <LandingLink
                   cay={herb.slug}
                   pageType="hub_wiki"
@@ -331,14 +380,36 @@ export const HubWikiPage: React.FC<{ herbSlug: string }> = ({ herbSlug }) => {
             <FaqAccordion items={hub.faq} />
           </AccordionSection>
 
+          {/* Kiến thức nền tảng — link tới cụm "Kỹ thuật gieo trồng" theo cách nhân giống của cây */}
+          <section className="space-y-4 pt-6">
+            <h2 className="font-serif text-xl font-bold text-ink-soft">Kiến thức gieo trồng nền tảng nên đọc</h2>
+            <p className="text-sm text-gray-600 font-sans">
+              Các kỹ thuật cơ bản áp dụng khi trồng {herb.name} — nắm chắc trước khi bắt tay vào vườn:
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+              {foundationLinksFor(t.propagation).map((a) => (
+                <Link
+                  key={a.id}
+                  to={paths.article(a.id)}
+                  className="border border-line hover:border-terracotta p-4 rounded-xl cursor-pointer bg-white hover:bg-paper-2 transition-all flex items-center gap-3 group"
+                >
+                  <div className="w-8 h-8 rounded bg-sand flex items-center justify-center text-terracotta shrink-0">
+                    <Sprout className="w-4.5 h-4.5" />
+                  </div>
+                  <span className="font-sans font-semibold text-sm text-ink-soft group-hover:text-terracotta transition-colors">{a.label}</span>
+                </Link>
+              ))}
+            </div>
+          </section>
+
           {/* Link wheel — liên kết vòng tới các bài kỹ thuật trồng cây dược liệu khác */}
           <section className="space-y-4 pt-6">
             <h2 className="font-serif text-xl font-bold text-ink-soft">Kỹ thuật trồng các cây dược liệu liên quan</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {relatedHubs(herb.slug).map((rel) => (
-                <div
+                <Link
                   key={rel.id}
-                  onClick={() => navigate(paths.hubWiki(rel.herbSlug))}
+                  to={paths.hubWiki(rel.herbSlug)}
                   className="border border-line hover:border-terracotta p-4 rounded-xl cursor-pointer bg-white hover:bg-paper-2 transition-all flex items-start gap-3 group"
                 >
                   <div className="w-8 h-8 rounded bg-sand flex items-center justify-center text-terracotta shrink-0 mt-0.5">
@@ -348,7 +419,7 @@ export const HubWikiPage: React.FC<{ herbSlug: string }> = ({ herbSlug }) => {
                     <h3 className="font-sans font-bold text-sm text-ink-soft group-hover:text-terracotta transition-colors line-clamp-2">{rel.title}</h3>
                     <span className="text-xs text-gray-500 font-mono mt-1 block">Kỹ thuật trồng {rel.herbName}</span>
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
           </section>

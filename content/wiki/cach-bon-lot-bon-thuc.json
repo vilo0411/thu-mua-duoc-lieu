@@ -1,0 +1,84 @@
+{
+  "id": "cach-bon-lot-bon-thuc",
+  "slug": "cach-bon-lot-bon-thuc-chon-phan",
+  "title": "Bón lót và bón thúc là gì? Cách bón và chọn loại phân",
+  "category": "Kỹ thuật gieo trồng",
+  "author": "Nguyễn Viết Lộc",
+  "readTime": "7 phút đọc",
+  "date": "22/07/2026",
+  "excerpt": "Bón lót và bón thúc là hai mốc bón phân quan trọng nhất của cây trồng. Tôi tổng hợp lại cách phân biệt, thời điểm bón và loại phân nên dùng cho từng lần, áp dụng cho cây dược liệu.",
+  "image": "/images/kien-thuc/cach-bon-lot-bon-thuc.jpg",
+  "contentSections": [
+    {
+      "heading": "1. Bón lót và bón thúc là gì?",
+      "paragraphs": [
+        "Bón lót là bón phân trước hoặc ngay khi trồng, trộn vào đất/hố để làm nền dinh dưỡng sẵn cho cây bén rễ. Bón thúc là bón bổ sung trong quá trình cây sinh trưởng, cung cấp dinh dưỡng đúng lúc cây cần nhiều (ra lá, ra hoa, nuôi củ).",
+        "Nói ngắn gọn: bón lót là 'dọn mâm sẵn' trước khi cây vào ở, còn bón thúc là 'tiếp thức ăn' theo từng giai đoạn lớn của cây. Thiếu bón lót cây còi ngay từ đầu; thiếu bón thúc cây hụt hơi giữa vụ."
+      ],
+      "highlight": "Với dược liệu, hạn chế tối đa phân hóa học và ưu tiên phân hữu cơ hoai mục — vừa nuôi đất bền, vừa tránh tồn dư khiến lô hàng bị đầu mối thu mua từ chối."
+    },
+    {
+      "heading": "2. Bón lót: thời điểm và loại phân",
+      "paragraphs": [
+        "Thời điểm: bón khi làm đất, trước khi trồng — trộn phân vào hố hoặc rải đều rồi cày lấp, để phân 'ngấm' vào đất trước khi đặt cây.",
+        "Loại phân bón lót: chủ yếu là phân hữu cơ hoai mục (phân chuồng ủ hoai, phân trùn quế, phân hữu cơ vi sinh) kết hợp lân và vôi. Đây là các loại phân tan chậm, giữ lâu trong đất — hợp vai trò làm nền. Phân đạm dễ tan không nên dùng nhiều để bón lót vì dễ rửa trôi.",
+        "Với cây lấy củ/rễ, bón lót đầy đủ hữu cơ và lân ngay từ đầu giúp bộ rễ phát triển mạnh, củ to chắc về sau."
+      ]
+    },
+    {
+      "heading": "3. Bón thúc: thời điểm và loại phân",
+      "paragraphs": [
+        "Thời điểm: bón theo giai đoạn sinh trưởng — thúc khi cây hồi xanh/đẻ nhánh, thúc khi chuẩn bị ra hoa/nuôi củ. Bón vào lúc đất đủ ẩm, kết hợp làm cỏ vun gốc để phân phát huy tốt.",
+        "Loại phân bón thúc: phân dễ tiêu để cây hấp thu nhanh — phân hữu cơ ngâm ủ, phân trùn dạng lỏng, hoặc lượng nhỏ NPK cân đối nếu cần. Giai đoạn nuôi củ ưu tiên kali để củ chắc, tăng chất lượng.",
+        "Nguyên tắc: bón thúc lượng ít, chia nhiều lần thay vì bón dồn một lần — cây ăn đều, ít thất thoát và không bị 'bội thực' phân."
+      ]
+    },
+    {
+      "heading": "4. Lưu ý riêng cho cây dược liệu",
+      "paragraphs": [
+        "Ngưng bón thúc, nhất là phân đạm, trước thu hoạch một khoảng đủ dài để tránh tồn dư nitrat và giữ hàm lượng hoạt chất. Đây là yêu cầu quan trọng để đạt chuẩn thu mua.",
+        "Mỗi cây có lịch và liều bón riêng — tham khảo trong trang kỹ thuật của từng cây, ví dụ [kỹ thuật trồng Đinh lăng](/kien-thuc/ky-thuat-trong-dinh-lang) hay [Ba kích](/kien-thuc/ky-thuat-trong-ba-kich). Nền đất tơi xốp phối trộn tốt (xem [cách trộn đất trồng cây](/kien-thuc/cach-tron-dat-trong-cay)) giúp phân bón phát huy hiệu quả hơn."
+      ]
+    }
+  ],
+  "standardsTable": [
+    {
+      "factor": "Bón lót (trước/khi trồng)",
+      "standard": "Phân chuồng hoai, phân trùn, lân, vôi",
+      "notes": "Phân tan chậm làm nền; trộn vào hố/đất."
+    },
+    {
+      "factor": "Bón thúc đợt đầu (hồi xanh)",
+      "standard": "Phân hữu cơ ngâm, ít đạm dễ tiêu",
+      "notes": "Giúp cây bén rễ, ra lá nhanh."
+    },
+    {
+      "factor": "Bón thúc nuôi củ/hoa",
+      "standard": "Ưu tiên kali, hữu cơ hoai",
+      "notes": "Củ chắc, tăng chất lượng; chia nhiều lần."
+    }
+  ],
+  "standardsTableTitle": "Chọn loại phân theo từng lần bón",
+  "standardsTableHeaders": [
+    "Lần bón",
+    "Loại phân nên dùng",
+    "Mục đích & cách bón"
+  ],
+  "pitfall": {
+    "body": "Bón phân tươi và bón thúc sát ngày thu hoạch! Phân chuồng chưa hoai sinh nhiệt, đốt rễ và gọi mầm bệnh; còn bón thúc (nhất là đạm) ngay trước thu hoạch để lại tồn dư nitrat, làm lô dược liệu bị loại. Luôn ủ hoai phân trước khi bón và ngưng bón thúc đủ sớm trước khi thu."
+  },
+  "faq": [
+    {
+      "question": "Loại phân nào dùng để bón lót là tốt nhất?",
+      "answer": "Tốt nhất cho bón lót là phân hữu cơ đã hoai mục (phân chuồng ủ hoai, phân trùn quế) kết hợp lân và vôi. Đây là các loại tan chậm, giữ lâu trong đất, cải tạo cấu trúc và làm nền dinh dưỡng bền. Hạn chế dùng nhiều phân đạm dễ tan để bón lót vì dễ rửa trôi, lãng phí."
+    },
+    {
+      "question": "Bón lót và bón thúc khác nhau ở điểm nào?",
+      "answer": "Khác nhau ở thời điểm và vai trò: bón lót thực hiện trước/khi trồng để tạo nền dinh dưỡng, dùng phân tan chậm; bón thúc thực hiện trong lúc cây đang lớn để tiếp dinh dưỡng đúng giai đoạn, dùng phân dễ tiêu. Một vụ trồng đầy đủ cần cả hai."
+    },
+    {
+      "question": "Bón thúc mấy lần trong một vụ là hợp lý?",
+      "answer": "Tùy cây và thời gian sinh trưởng, nhưng nguyên tắc chung là chia nhỏ nhiều lần (thường 2–4 lần) theo các mốc: hồi xanh/đẻ nhánh, phát triển thân lá, và nuôi hoa/củ. Bón ít mỗi lần giúp cây hấp thu đều, tránh thất thoát và sốc phân."
+    }
+  ]
+}

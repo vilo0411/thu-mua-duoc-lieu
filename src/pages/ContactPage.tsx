@@ -1,17 +1,14 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import { Breadcrumb } from "../components/ui";
 
 import { paths } from "../lib/paths";
 import { Seo, contactSeo } from "../lib/seo";
 
 export const ContactPage: React.FC = () => {
-  const navigate = useNavigate();
-
   return (
     <div className="space-y-8 animate-fade-in max-w-2xl mx-auto">
       <Seo {...contactSeo()} />
-      <Breadcrumb items={[{ label: "Trang chủ", onClick: () => navigate(paths.home()) }, { label: "Liên hệ" }]} />
+      <Breadcrumb items={[{ label: "Trang chủ", href: paths.home() }, { label: "Liên hệ" }]} />
       <section className="bg-white border border-line rounded-2xl p-6 md:p-8 space-y-6">
         <div className="space-y-2">
           <span className="text-terracotta font-mono text-xs font-bold uppercase tracking-[0.15em] block mb-1">// Gửi phản hồi</span>

@@ -1,7 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 interface BreadcrumbProps {
-  items: { label: string; onClick?: () => void }[];
+  // href: đường dẫn nội bộ → render <Link> (thẻ <a> thật, crawl được). Mục cuối bỏ href = nhãn tĩnh.
+  items: { label: string; href?: string }[];
 }
 
 export const Breadcrumb: React.FC<BreadcrumbProps> = ({ items }) => {
@@ -10,13 +12,13 @@ export const Breadcrumb: React.FC<BreadcrumbProps> = ({ items }) => {
       {items.map((item, idx) => (
         <React.Fragment key={idx}>
           {idx > 0 && <span className="text-gray-300">/</span>}
-          {item.onClick ? (
-            <button
-              onClick={item.onClick}
+          {item.href ? (
+            <Link
+              to={item.href}
               className="hover:text-[#B85037] transition-colors font-medium cursor-pointer"
             >
               {item.label}
-            </button>
+            </Link>
           ) : (
             <span className="text-[#4F433A] font-semibold">{item.label}</span>
           )}

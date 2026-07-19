@@ -1,6 +1,6 @@
 import React from "react";
 import { ArrowRight, Award, MapPin, Zap } from "lucide-react";
-import { useNavigate, useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { HERBS_DATA, REGIONS_DATA, SITE_OWNER } from "../lib/data";
 import { Breadcrumb, DataTable, FeaturedPartnerCard, InfoBox } from "../components/ui";
 import { paths } from "../lib/paths";
@@ -15,7 +15,6 @@ const POPULARITY_LABEL: Record<string, string> = {
 
 export const MoneyVungPage: React.FC = () => {
   const { cay = "", vung = "" } = useParams();
-  const navigate = useNavigate();
 
   const herb = HERBS_DATA.find((h) => h.slug === cay);
   const region = REGIONS_DATA.find((r) => r.slug === vung);
@@ -30,9 +29,9 @@ export const MoneyVungPage: React.FC = () => {
     <div className="space-y-10 animate-fade-in">
       <Seo {...herbRegionSeo(herb, region)} />
       <Breadcrumb items={[
-        { label: "Trang chủ", onClick: () => navigate(paths.home()) },
-        { label: "Thu mua dược liệu", onClick: () => navigate(paths.pillar()) },
-        { label: herb.name, onClick: () => navigate(paths.herb(herb.slug)) },
+        { label: "Trang chủ", href: paths.home() },
+        { label: "Thu mua dược liệu", href: paths.pillar() },
+        { label: herb.name, href: paths.herb(herb.slug) },
         { label: `Vùng ${region.name}` },
       ]} />
 
@@ -125,8 +124,8 @@ export const MoneyVungPage: React.FC = () => {
 
       {/* Điều hướng nội bộ */}
       <section className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        <div
-          onClick={() => navigate(paths.herb(herb.slug))}
+        <Link
+          to={paths.herb(herb.slug)}
           className="bg-paper-2 hover:bg-white border border-line hover:border-terracotta p-5 rounded-xl cursor-pointer transition-all flex items-center justify-between group"
         >
           <div>
@@ -134,10 +133,10 @@ export const MoneyVungPage: React.FC = () => {
             <h2 className="font-serif text-lg font-bold text-ink-soft group-hover:text-terracotta transition-colors mt-0.5">Thu mua dược liệu {herb.name}</h2>
           </div>
           <ArrowRight className="w-5 h-5 text-terracotta group-hover:translate-x-1 transition-transform" />
-        </div>
+        </Link>
 
-        <div
-          onClick={() => navigate(paths.hubWiki(herb.slug))}
+        <Link
+          to={paths.hubWiki(herb.slug)}
           className="bg-paper-2 hover:bg-white border border-line hover:border-terracotta p-5 rounded-xl cursor-pointer transition-all flex items-center justify-between group"
         >
           <div>
@@ -145,7 +144,7 @@ export const MoneyVungPage: React.FC = () => {
             <h2 className="font-serif text-lg font-bold text-ink-soft group-hover:text-terracotta transition-colors mt-0.5">Kỹ thuật trồng {herb.name}</h2>
           </div>
           <ArrowRight className="w-5 h-5 text-terracotta group-hover:translate-x-1 transition-transform" />
-        </div>
+        </Link>
       </section>
     </div>
   );

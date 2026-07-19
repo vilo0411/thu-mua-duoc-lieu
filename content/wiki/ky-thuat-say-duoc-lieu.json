@@ -38,6 +38,15 @@
       "notes": "Cần thái lát mỏng phơi râm ráo sạch rồi mới nạp lò."
     }
   ],
+  "standardsTableTitle": "Quy chuẩn phân tích sấy ráo mẫu tiêu biểu",
+  "standardsTableHeaders": [
+    "Nhóm dược thảo tuyển mẫu",
+    "Quy cách độ ẩm chuẩn hóa lý",
+    "Gợi ý khuyên dùng bảo quản"
+  ],
+  "pitfall": {
+    "body": "Ủ bạt sấy kín khí! Khi thu hái xong chưa có xe tải bốc đi, bà con dồn đống phủ bạt kín để ráo nắng. Chỉ sau 4h, lượng nhiệt ủ nội sinh sẽ làm thâm đen ruột củ sâm Đinh lăng, thối hỏng Ba kích, biến toàn bộ thành hàng phế phẩm bị nhà máy từ chối nhận mua ngay tại cổng."
+  },
   "faq": [
     {
       "question": "Mưa kéo dài 3-4 ngày không phơi được thì xử lý thế nào cứu nguy?",

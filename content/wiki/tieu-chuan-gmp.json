@@ -1,0 +1,86 @@
+{
+  "id": "tieu-chuan-gmp",
+  "slug": "tieu-chuan-gmp-la-gi-gmp-who",
+  "title": "Tiêu chuẩn GMP là gì? GMP-WHO trong sản xuất dược liệu",
+  "category": "Tiêu chuẩn & kiểm định",
+  "author": "Nguyễn Viết Lộc",
+  "readTime": "7 phút đọc",
+  "date": "01/08/2026",
+  "excerpt": "GMP là tiêu chuẩn Thực hành sản xuất tốt, bắt buộc với nhà máy dược. Tôi tổng hợp lại GMP và GMP-WHO là gì, gồm những nguyên tắc nào và liên quan ra sao tới người trồng dược liệu.",
+  "image": "/images/kien-thuc/tieu-chuan-gmp.jpg",
+  "contentSections": [
+    {
+      "heading": "1. Tiêu chuẩn GMP là gì?",
+      "paragraphs": [
+        "GMP (Good Manufacturing Practice — Thực hành sản xuất tốt) là bộ nguyên tắc, tiêu chuẩn về sản xuất nhằm bảo đảm sản phẩm được làm ra ổn định, đồng đều và đạt chất lượng đã đăng ký. Với thuốc và dược liệu, GMP là điều kiện bắt buộc để nhà máy được phép sản xuất.",
+        "Nói dễ hiểu, GMP kiểm soát toàn bộ quá trình 'từ nguyên liệu tới thành phẩm' — con người, nhà xưởng, thiết bị, nguyên liệu, quy trình và hồ sơ — để loại bỏ nguy cơ nhiễm bẩn, nhầm lẫn và sai sót."
+      ],
+      "highlight": "GMP không chỉ kiểm tra sản phẩm cuối cùng, mà kiểm soát cả quá trình làm ra nó. Triết lý cốt lõi: chất lượng phải được 'xây vào' quy trình, chứ không phải 'kiểm ra' ở khâu cuối."
+    },
+    {
+      "heading": "2. GMP-WHO là gì?",
+      "paragraphs": [
+        "GMP-WHO là bộ nguyên tắc GMP do Tổ chức Y tế Thế giới (WHO) khuyến nghị, được nhiều quốc gia (trong đó có Việt Nam) áp dụng làm chuẩn cho sản xuất dược phẩm. Nhà máy đạt GMP-WHO nghĩa là dây chuyền, quy trình và hệ thống quản lý chất lượng đáp ứng yêu cầu của WHO.",
+        "Ngoài GMP-WHO còn có các cấp cao hơn như EU-GMP, PIC/S-GMP. Với đông dược và dược liệu trong nước, GMP-WHO là mốc phổ biến mà các nhà máy hướng tới."
+      ]
+    },
+    {
+      "heading": "3. Những nội dung chính của GMP",
+      "paragraphs": [
+        "GMP đặt yêu cầu trên nhiều mặt, có thể tóm lại thành các nhóm chính trong bảng dưới đây. Điểm chung là mọi thứ đều phải được quy định rõ, thực hiện đúng và ghi chép lại để truy xuất được."
+      ]
+    },
+    {
+      "heading": "4. GMP liên quan gì tới người trồng dược liệu?",
+      "paragraphs": [
+        "Người trồng không trực tiếp làm GMP (đó là việc của nhà máy), nhưng lại là mắt xích đầu vào của chuỗi GMP: nhà máy đạt GMP bắt buộc phải kiểm soát nguồn nguyên liệu, nên chỉ mua dược liệu rõ nguồn gốc, đạt tiêu chuẩn chất lượng và không tồn dư.",
+        "Vì vậy, muốn bán được cho nhà máy chuẩn GMP và bán giá tốt, người trồng cần canh tác đạt chuẩn ở đầu vào — đây chính là vai trò của [tiêu chuẩn GACP](/kien-thuc/tieu-chuan-gacp) (thực hành tốt trồng trọt và thu hái) và của việc [kiểm định dược liệu](/kien-thuc/kiem-dinh-duoc-lieu) để chứng minh chất lượng lô hàng."
+      ]
+    }
+  ],
+  "standardsTable": [
+    {
+      "factor": "Con người",
+      "standard": "Được đào tạo, có quy trình vệ sinh, sức khỏe định kỳ",
+      "notes": "Tránh nhiễm chéo do người."
+    },
+    {
+      "factor": "Nhà xưởng & thiết bị",
+      "standard": "Thiết kế một chiều, dễ vệ sinh, hiệu chuẩn thiết bị",
+      "notes": "Chống nhiễm bẩn, nhầm lẫn."
+    },
+    {
+      "factor": "Nguyên liệu",
+      "standard": "Rõ nguồn gốc, kiểm nhập, đạt tiêu chuẩn chất lượng",
+      "notes": "Mắt xích liên quan người trồng."
+    },
+    {
+      "factor": "Quy trình & hồ sơ",
+      "standard": "Quy trình chuẩn (SOP), ghi chép đầy đủ, truy xuất được",
+      "notes": "Chất lượng phải chứng minh bằng hồ sơ."
+    }
+  ],
+  "standardsTableTitle": "Các nhóm yêu cầu chính của GMP",
+  "standardsTableHeaders": [
+    "Nhóm yếu tố",
+    "Yêu cầu cốt lõi",
+    "Ý nghĩa"
+  ],
+  "pitfall": {
+    "body": "Nhầm GMP với GACP! GMP là chuẩn cho SẢN XUẤT tại nhà máy (khâu chế biến, bào chế); còn GACP là chuẩn cho TRỒNG TRỌT và THU HÁI ở vườn. Người trồng cần quan tâm GACP trước; GMP là việc của nhà máy nhưng ảnh hưởng gián tiếp tới yêu cầu chất lượng nguyên liệu bà con bán ra."
+  },
+  "faq": [
+    {
+      "question": "GMP và GMP-WHO khác nhau thế nào?",
+      "answer": "GMP là khái niệm chung về Thực hành sản xuất tốt; còn GMP-WHO là bộ nguyên tắc GMP cụ thể do WHO ban hành và được nhiều nước áp dụng, trong đó có Việt Nam. Khi nói nhà máy 'đạt GMP-WHO' nghĩa là đáp ứng bộ tiêu chuẩn của WHO. Ngoài ra còn các cấp cao hơn như EU-GMP, PIC/S-GMP."
+    },
+    {
+      "question": "Người trồng dược liệu có cần đạt GMP không?",
+      "answer": "Không. GMP áp dụng cho nhà máy sản xuất, không phải cho hộ trồng. Cái người trồng cần hướng tới là [GACP](/kien-thuc/tieu-chuan-gacp) — thực hành tốt trồng trọt và thu hái. Tuy nhiên vì nhà máy GMP kiểm soát chặt nguyên liệu đầu vào, canh tác đạt chuẩn sẽ giúp bà con bán được cho các đầu mối lớn với giá tốt hơn."
+    },
+    {
+      "question": "Vì sao nhà máy đạt GMP lại kén chọn nguyên liệu?",
+      "answer": "Vì GMP yêu cầu kiểm soát chất lượng từ đầu vào: nguyên liệu phải rõ nguồn gốc, đạt chỉ tiêu và không tồn dư hóa chất, kim loại nặng, vi sinh vượt ngưỡng. Nguyên liệu kém sẽ làm hỏng cả lô thành phẩm và vi phạm hồ sơ chất lượng. Đó là lý do dược liệu đạt chuẩn, có [kiểm định](/kien-thuc/kiem-dinh-duoc-lieu) luôn được ưu tiên thu mua."
+    }
+  ]
+}

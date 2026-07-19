@@ -1,5 +1,6 @@
 import React from "react";
 import { Calendar, Clock, User } from "lucide-react";
+import { Link } from "react-router-dom";
 import { asset } from "../../lib/paths";
 
 interface ArticleCardProps {
@@ -10,7 +11,7 @@ interface ArticleCardProps {
   readTime: string;
   author: string;
   date: string;
-  onClick: () => void;
+  to: string;
 }
 
 export const ArticleCard: React.FC<ArticleCardProps> = ({
@@ -21,11 +22,11 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
   readTime,
   author,
   date,
-  onClick
+  to
 }) => {
   return (
-    <div
-      onClick={onClick}
+    <Link
+      to={to}
       className="bg-white rounded-xl overflow-hidden border border-[#E6DDD0] hover:border-[#B85037] shadow-xs hover:shadow-md transition-all group cursor-pointer flex flex-col md:flex-row h-full md:max-h-64"
     >
       <div className="md:w-1/3 aspect-video md:aspect-auto bg-gray-100 overflow-hidden relative">
@@ -66,6 +67,6 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
           </div>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };

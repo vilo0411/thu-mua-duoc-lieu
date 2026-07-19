@@ -100,6 +100,20 @@ export function howTo(opts: {
   };
 }
 
+/** ItemList cho trang tổng hợp (pillar) — liệt kê danh sách link con để làm rõ cấu trúc cụm. */
+export function itemList(items: { name: string; path: string }[]): Json {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: items.map((it, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: it.name,
+      url: canonical(it.path),
+    })),
+  };
+}
+
 export function website(): Json {
   return {
     "@context": "https://schema.org",

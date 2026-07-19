@@ -1,6 +1,6 @@
 import React from "react";
 import { ChevronRight, Sprout, Coins, Compass } from "lucide-react";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { HERBS_DATA, REGIONS_DATA, SITE_OWNER, WIKI_ARTICLES } from "../lib/data";
 import { ArticleCard, CtaBanner, HerbCard, HomeHero, MissionStory, PillarDoorCard } from "../components/ui";
 import { paths, asset } from "../lib/paths";
@@ -11,8 +11,6 @@ const HERO_IMAGE = "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2
 const MISSION_IMAGE = "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?q=80&w=1200&auto=format&fit=crop";
 
 export const HomePage: React.FC = () => {
-  const navigate = useNavigate();
-
   // Dải số liệu tin cậy ở hero — suy từ dữ liệu thật, không hardcode.
   const stats = [
     { value: `${HERBS_DATA.length}+`, label: "cây dược liệu" },
@@ -29,8 +27,8 @@ export const HomePage: React.FC = () => {
         ownerName={SITE_OWNER}
         imageUrl={HERO_IMAGE}
         stats={stats}
-        onSeePrices={() => navigate(paths.pillar())}
-        onLearn={() => navigate(paths.knowledge())}
+        seePricesTo={paths.pillar()}
+        learnTo={paths.knowledge()}
       />
 
       {/* 2. "Hai lối vào" — bộ định tuyến 2 silo, chữ ký định tuyến của trang chủ */}
@@ -49,7 +47,7 @@ export const HomePage: React.FC = () => {
           title="Học kỹ thuật trồng"
           desc="Cẩm nang chọn giống, chăm sóc, phòng trừ sâu bệnh và kỹ thuật sơ chế sau thu hoạch."
           ctaLabel="Vào thư viện kiến thức"
-          onClick={() => navigate(paths.knowledge())}
+          to={paths.knowledge()}
         />
         <PillarDoorCard
           icon={Coins}
@@ -58,7 +56,7 @@ export const HomePage: React.FC = () => {
           title="Xem giá & bán dược liệu"
           desc="Tra bảng giá thu mua theo từng cây và vùng trồng, so sánh các kênh tiêu thụ phù hợp."
           ctaLabel="Xem bảng giá thu mua"
-          onClick={() => navigate(paths.pillar())}
+          to={paths.pillar()}
         />
         </div>
       </section>
@@ -66,7 +64,7 @@ export const HomePage: React.FC = () => {
       {/* 3. Band câu chuyện / sứ mệnh — điểm nhớ chính (signature) */}
       <MissionStory
         imageUrl={MISSION_IMAGE}
-        onReadStory={() => navigate(paths.about())}
+        readStoryTo={paths.about()}
       />
 
       {/* 4. Featured Herbs Grid */}
@@ -78,12 +76,12 @@ export const HomePage: React.FC = () => {
               Danh mục cây dược liệu đang được thu nổi bật
             </h2>
           </div>
-          <button
-            onClick={() => navigate(paths.pillar())}
+          <Link
+            to={paths.pillar()}
             className="text-terracotta hover:text-terracotta-dark text-sm font-bold inline-flex items-center gap-1 hover:underline cursor-pointer"
           >
             Xem toàn bộ bảng giá thu mua dược liệu <ChevronRight className="w-4 h-4" />
-          </button>
+          </Link>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -95,7 +93,7 @@ export const HomePage: React.FC = () => {
               priceRange={herb.priceRange}
               shortDesc={herb.shortDesc}
               image={herb.image}
-              onClick={() => navigate(paths.herb(herb.slug))}
+              to={paths.herb(herb.slug)}
             />
           ))}
         </div>
@@ -110,12 +108,12 @@ export const HomePage: React.FC = () => {
               Kiến thức canh tác nổi bật từ {SITE_OWNER}
             </h2>
           </div>
-          <button
-            onClick={() => navigate(paths.knowledge())}
+          <Link
+            to={paths.knowledge()}
             className="text-terracotta hover:text-terracotta-dark text-sm font-bold inline-flex items-center gap-1 hover:underline cursor-pointer"
           >
             Đọc toàn bộ cẩm nang nông nghiệp <ChevronRight className="w-4 h-4" />
-          </button>
+          </Link>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
@@ -129,7 +127,7 @@ export const HomePage: React.FC = () => {
               readTime={art.readTime}
               author={art.author}
               date={art.date}
-              onClick={() => navigate(paths.article(art.id))}
+              to={paths.article(art.id)}
             />
           ))}
         </div>
@@ -150,12 +148,12 @@ export const HomePage: React.FC = () => {
           <p className="text-gray-600 text-sm md:text-base font-sans leading-relaxed max-w-2xl">
             Tôi không phải chuyên gia nông học — việc của tôi là tổng hợp và đối chiếu kỹ thuật trồng từ tài liệu khuyến nông, viện dược liệu cùng kinh nghiệm bà con, rồi theo dõi giá thu mua để gom về một chỗ dễ tra cứu. Trang này <strong className="text-ink-soft">độc lập</strong> — thông tin có dẫn nguồn, không tô hồng, để bà con và hợp tác xã tự tin bán đúng giá trị.
           </p>
-          <button
-            onClick={() => navigate(paths.about())}
+          <Link
+            to={paths.about()}
             className="inline-flex items-center gap-1.5 font-sans font-bold text-sm text-terracotta hover:text-terracotta-dark hover:underline cursor-pointer"
           >
             <Compass className="w-4 h-4" /> Tìm hiểu về tôi
-          </button>
+          </Link>
         </div>
       </section>
 

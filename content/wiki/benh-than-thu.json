@@ -1,0 +1,84 @@
+{
+  "id": "benh-than-thu",
+  "slug": "benh-than-thu-dau-hieu-cach-tri",
+  "title": "Bệnh thán thư: dấu hiệu nhận biết và cách phòng trị hiệu quả",
+  "category": "Phòng trừ sâu bệnh",
+  "author": "Nguyễn Viết Lộc",
+  "readTime": "7 phút đọc",
+  "date": "24/07/2026",
+  "excerpt": "Thán thư là bệnh nấm phổ biến gây đốm lõm trên lá, thân, quả nhiều cây trồng. Tôi tổng hợp lại dấu hiệu nhận biết, điều kiện phát sinh và cách phòng trị theo hướng ưu tiên sinh học cho vườn dược liệu.",
+  "image": "/images/kien-thuc/benh-than-thu.jpg",
+  "contentSections": [
+    {
+      "heading": "1. Bệnh thán thư là gì, do đâu?",
+      "paragraphs": [
+        "Thán thư là bệnh do nấm (chủ yếu chi Colletotrichum) gây ra, tấn công lá, thân, cành, hoa và quả của rất nhiều loại cây trồng — trong đó có nhiều cây dược liệu. Nấm tồn tại trên tàn dư cây bệnh và lây lan qua nước mưa, gió, dụng cụ.",
+        "Đây là một trong những bệnh gây hại nặng nhất mùa mưa: chỉ cần vài ngày nóng ẩm liên tục, vết bệnh có thể lan rộng, làm rụng lá, thối quả và khô cành, ảnh hưởng trực tiếp năng suất và chất lượng thương phẩm."
+      ],
+      "highlight": "Nhận diện đặc trưng: vết bệnh thán thư thường LÕM xuống, tâm màu nâu xám, viền nâu sẫm, đôi khi có các vòng đồng tâm và chấm đen li ti (ổ bào tử) ở giữa."
+    },
+    {
+      "heading": "2. Dấu hiệu nhận biết trên cây",
+      "paragraphs": [
+        "Trên lá: đốm nhỏ màu nâu, lớn dần thành vết tròn hoặc bất định, tâm xám hơi lõm, viền nâu đậm; nhiều vết liên kết làm lá cháy khô, rụng sớm.",
+        "Trên thân, cành: vết loét lõm màu nâu đen, có thể làm khô đầu cành (chết ngọn).",
+        "Trên hoa, quả: đốm thối lõm, lan nhanh làm rụng hoa, thối quả; chỗ bệnh có lớp bào tử màu hồng cam khi ẩm."
+      ]
+    },
+    {
+      "heading": "3. Điều kiện phát sinh",
+      "paragraphs": [
+        "Bệnh bùng mạnh khi trời nóng ẩm, mưa nhiều, độ ẩm cao và vườn rậm rạp bí gió. Nước mưa bắn làm bào tử phát tán từ lá bệnh sang lá khỏe.",
+        "Trồng quá dày, bón thừa đạm, thoát nước kém và để tàn dư cây bệnh trong vườn đều làm bệnh nặng thêm."
+      ]
+    },
+    {
+      "heading": "4. Cách phòng và trị thán thư",
+      "paragraphs": [
+        "Canh tác (quan trọng nhất): chọn giống sạch bệnh, trồng thưa hợp lý, tỉa cành tạo thông thoáng, thoát nước tốt, thu gom và tiêu hủy lá/quả bệnh, luân canh, bón cân đối tránh thừa đạm. Nền đất tơi thoát nước tốt (xem [cách trộn đất trồng cây](/kien-thuc/cach-tron-dat-trong-cay)) giúp giảm áp lực bệnh.",
+        "Sinh học (ưu tiên cho dược liệu): dùng nấm đối kháng Trichoderma ủ vào đất, chế phẩm Bacillus subtilis phun phòng; các dung dịch gốc thảo mộc, dầu neem hỗ trợ khi bệnh mới chớm.",
+        "Hóa học (chỉ khi cần, tuân thủ cách ly): khi bệnh nặng có thể dùng thuốc gốc đồng hoặc hoạt chất được phép; với dược liệu phải tuân thủ nghiêm loại thuốc, liều và thời gian cách ly để tránh tồn dư khiến lô hàng bị từ chối. Xem thêm bệnh dễ nhầm là [đốm lá](/kien-thuc/benh-dom-la)."
+      ]
+    }
+  ],
+  "standardsTable": [
+    {
+      "factor": "Biện pháp canh tác",
+      "standard": "Giống sạch, trồng thưa, tỉa thông thoáng, thoát nước, dọn tàn dư, luân canh",
+      "notes": "Nền tảng, phòng là chính."
+    },
+    {
+      "factor": "Biện pháp sinh học",
+      "standard": "Trichoderma, Bacillus subtilis, dầu neem",
+      "notes": "Ưu tiên cho dược liệu sạch."
+    },
+    {
+      "factor": "Biện pháp hóa học",
+      "standard": "Thuốc gốc đồng / hoạt chất được phép",
+      "notes": "Chỉ khi nặng; tuân thủ thời gian cách ly."
+    }
+  ],
+  "standardsTableTitle": "Ba nhóm biện pháp phòng trị thán thư",
+  "standardsTableHeaders": [
+    "Nhóm biện pháp",
+    "Cách làm",
+    "Lưu ý"
+  ],
+  "pitfall": {
+    "body": "Để tàn dư cây bệnh trong vườn và tưới đẫm lên tán chiều tối! Lá, quả bệnh rơi rụng là nguồn bào tử tái nhiễm; tán lá ướt qua đêm là môi trường lý tưởng cho nấm. Hãy thu gom tiêu hủy tàn dư và tưới vào gốc buổi sáng để tán khô nhanh trong ngày."
+  },
+  "faq": [
+    {
+      "question": "Bệnh thán thư có lây sang cây khác không?",
+      "answer": "Có. Nấm thán thư phát tán mạnh qua nước mưa bắn, gió và dụng cụ cắt tỉa, lây từ lá/quả bệnh sang cây khỏe và sang cây khác trong vườn. Vì vậy cần thu gom tàn dư bệnh, khử trùng dụng cụ và xử lý sớm khi mới chớm để chặn lây lan."
+    },
+    {
+      "question": "Phân biệt thán thư với bệnh đốm lá thế nào?",
+      "answer": "Vết thán thư thường lõm xuống, viền nâu sẫm rõ, có vòng đồng tâm và ổ bào tử hồng cam khi ẩm, tấn công cả quả/thân. Còn [đốm lá](/kien-thuc/benh-dom-la) thường là đốm phẳng hơn, có quầng vàng và chủ yếu ở lá. Khi khó phân biệt, biện pháp canh tác phòng ngừa gần như giống nhau."
+    },
+    {
+      "question": "Có trị thán thư mà không dùng thuốc hóa học được không?",
+      "answer": "Với vườn dược liệu, nên ưu tiên hướng phi hóa học: chọn giống sạch, trồng thưa thông thoáng, thoát nước tốt, dọn tàn dư và dùng chế phẩm sinh học (Trichoderma, Bacillus) phun phòng định kỳ. Cách này hiệu quả nếu làm sớm và đều; thuốc hóa học chỉ nên là giải pháp cuối khi bệnh bùng nặng."
+    }
+  ]
+}

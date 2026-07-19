@@ -136,6 +136,12 @@ export interface WikiArticle {
     standard: string;
     notes: string;
   }[];
+  /** Tiêu đề bảng standardsTable; mặc định nếu thiếu. */
+  standardsTableTitle?: string;
+  /** 3 header cột cho standardsTable; mặc định nếu thiếu. */
+  standardsTableHeaders?: [string, string, string];
+  /** Callout "sai lầm phổ biến" riêng theo bài; không render nếu thiếu. */
+  pitfall?: { title?: string; body: string };
   faq: { question: string; answer: string }[];
 }
 

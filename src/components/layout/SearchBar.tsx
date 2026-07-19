@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Search, X } from "lucide-react";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { HERBS_DATA } from "../../lib/data";
 import { HerbalMedicine } from "../../types";
 import { paths } from "../../lib/paths";
@@ -12,7 +12,6 @@ interface SearchBarProps {
 }
 
 export const SearchBar: React.FC<SearchBarProps> = ({ variant = "desktop", onNavigate }) => {
-  const navigate = useNavigate();
   const [query, setQuery] = useState("");
   const [showDropdown, setShowDropdown] = useState(false);
   const [results, setResults] = useState<HerbalMedicine[]>([]);
@@ -33,8 +32,8 @@ export const SearchBar: React.FC<SearchBarProps> = ({ variant = "desktop", onNav
     }
   }, [query]);
 
-  const goToHerb = (slug: string) => {
-    navigate(paths.herb(slug));
+  // Reset ô tìm + đóng dropdown sau khi bấm một kết quả (điều hướng do <Link> lo).
+  const onPick = () => {
     setQuery("");
     setShowDropdown(false);
     onNavigate?.();
@@ -54,13 +53,14 @@ export const SearchBar: React.FC<SearchBarProps> = ({ variant = "desktop", onNav
         {query.trim().length > 0 && (
           <div className="bg-white border border-[#E6DDD0] rounded-lg mt-2 p-2 shadow-lg max-h-40 overflow-y-auto text-left">
             {results.map((h) => (
-              <div
+              <Link
                 key={h.id}
-                onClick={() => goToHerb(h.slug)}
-                className="p-2 hover:bg-gray-100 cursor-pointer text-sm font-bold text-[#4F433A]"
+                to={paths.herb(h.slug)}
+                onClick={onPick}
+                className="block p-2 hover:bg-gray-100 cursor-pointer text-sm font-bold text-[#4F433A]"
               >
                 {h.name} ({h.priceRange})
-              </div>
+              </Link>
             ))}
           </div>
         )}
@@ -91,14 +91,15 @@ export const SearchBar: React.FC<SearchBarProps> = ({ variant = "desktop", onNav
           <div className="max-h-60 overflow-y-auto divide-y divide-[#F5EFE6]">
             {results.length > 0 ? (
               results.map((herb) => (
-                <div
+                <Link
                   key={herb.id}
-                  onClick={() => goToHerb(herb.slug)}
-                  className="p-3 hover:bg-[#FAF6F0] cursor-pointer transition-colors text-left"
+                  to={paths.herb(herb.slug)}
+                  onClick={onPick}
+                  className="block p-3 hover:bg-[#FAF6F0] cursor-pointer transition-colors text-left"
                 >
                   <div className="font-sans font-bold text-sm text-[#4F433A]">{herb.name}</div>
                   <div className="text-xs text-[#B85037] font-mono mt-0.5">{herb.priceRange}</div>
-                </div>
+                </Link>
               ))
             ) : (
               <div className="p-4 text-center text-xs text-gray-400 italic">Không tìm thấy dược liệu cần tìm.</div>

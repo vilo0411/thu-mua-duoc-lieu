@@ -1,0 +1,158 @@
+{
+  "cach-tron-dat-trong-cay": {
+    "file": "/images/kien-thuc/cach-tron-dat-trong-cay.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Compost_pile.JPG",
+    "artist": "Ksd5",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "query": "garden compost soil"
+  },
+  "cach-giam-canh": {
+    "file": "/images/kien-thuc/cach-giam-canh.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Rooted_cuttings_-_Flickr_-_peganum_(2).jpg",
+    "artist": "peganum from Small Dole, England",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "query": "plant cuttings rooting propagation",
+    "matchedTitle": "file:rooted cuttings - flickr - peganum (2).jpg"
+  },
+  "cach-uom-hat-giong": {
+    "file": "/images/kien-thuc/cach-uom-hat-giong.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:5720Farm_Ready_Seedling_Facility_East_West_Seed_Philippines_37.jpg",
+    "artist": "Judgefloro",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "query": "seedling tray nursery"
+  },
+  "cach-u-hat-giong": {
+    "file": "/images/kien-thuc/cach-u-hat-giong.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Chinese-potato_sprouts_12.jpg",
+    "artist": "Vis M",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "query": "germinating seeds sprouting",
+    "matchedTitle": "file:chinese-potato sprouts 12.jpg"
+  },
+  "cach-bon-lot-bon-thuc": {
+    "file": "/images/kien-thuc/cach-bon-lot-bon-thuc.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Land_Preparation_from_Cow_Dung_(Manure).jpg",
+    "artist": "Zeerun",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "query": "cow dung manure heap",
+    "matchedTitle": "file:land preparation from cow dung (manure).jpg"
+  },
+  "cach-diet-co-dai": {
+    "file": "/images/kien-thuc/cach-diet-co-dai.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Clean_weeds_from_tea_garden_-_Flickr_-_Son_Hoa_Nguyen.jpg",
+    "artist": "Oliver Nguyen from Viet Nam",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "query": "hoeing garden weeds",
+    "matchedTitle": "file:clean weeds from tea garden - flickr - son hoa nguyen.jpg"
+  },
+  "benh-than-thu": {
+    "file": "/images/kien-thuc/benh-than-thu.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Colletotrichum_acutatum_1.jpg",
+    "artist": "Robert L. Anderson, USDA Forest Service, Bugwood.org",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "query": "colletotrichum leaf",
+    "matchedTitle": "file:colletotrichum acutatum 1.jpg"
+  },
+  "benh-phan-trang": {
+    "file": "/images/kien-thuc/benh-phan-trang.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Quercus_Oidium_(2105859351).jpg",
+    "artist": "Gilles San Martin from Namur, Belgium",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "query": "oidium leaf",
+    "matchedTitle": "file:quercus oidium (2105859351).jpg"
+  },
+  "benh-dom-la": {
+    "file": "/images/kien-thuc/benh-dom-la.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Ridderzuring_bladvlekkenziekte_(Rumex_obtusifolius_with_leaf_spot).jpg",
+    "artist": "Rasbak",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "query": "leaf spot disease"
+  },
+  "benh-ri-sat": {
+    "file": "/images/kien-thuc/benh-ri-sat.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_2201_Crofton_weed_leaf_affected_by_Crofton_rust_fungus.jpg",
+    "artist": ", CSIRO",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "query": "leaf rust fungus"
+  },
+  "benh-lo-co-re-thoi-re": {
+    "file": "/images/kien-thuc/benh-lo-co-re-thoi-re.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Seedlings_-_Flickr_-_peganum_(3).jpg",
+    "artist": "peganum from Small Dole, England",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "query": "damping off seedlings",
+    "matchedTitle": "file:seedlings - flickr - peganum (3).jpg"
+  },
+  "benh-moc-suong": {
+    "file": "/images/kien-thuc/benh-moc-suong.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Downy_mildew_on_watermelon_2.jpg",
+    "artist": "David B. Langston, University of Georgia, United States",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "query": "downy mildew leaf plant",
+    "matchedTitle": "file:downy mildew on watermelon 2.jpg"
+  },
+  "benh-nut-than-xi-mu": {
+    "file": "/images/kien-thuc/benh-nut-than-xi-mu.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Lemon_tree_with_phytophtora_02_-_foot_rot_gummosis.jpg",
+    "artist": "Eiku",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "query": "gummosis citrus",
+    "matchedTitle": "file:lemon tree with phytophtora 02 - foot rot gummosis.jpg"
+  },
+  "cach-tri-rep-sap": {
+    "file": "/images/kien-thuc/cach-tri-rep-sap.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Mealybug_Benalm%C3%A1dena_1.jpg",
+    "artist": "Tero Keski-Valkama",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "query": "mealybug"
+  },
+  "tieu-chuan-gmp": {
+    "file": "/images/kien-thuc/tieu-chuan-gmp.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:COVIran_Barekat_vaccine_production_03.jpg",
+    "artist": "Tehran Times",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "query": "pharmaceutical production line",
+    "matchedTitle": "file:coviran barekat vaccine production 03.jpg"
+  },
+  "tieu-chuan-gacp": {
+    "file": "/images/kien-thuc/tieu-chuan-gacp.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:View_of_rows_of_lavender_in_Mayfield_Lavender_Farm_-_geograph.org.uk_-_5850596.jpg",
+    "artist": "Robert Lamb",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "query": "lavender field farm rows",
+    "matchedTitle": "file:view of rows of lavender in mayfield lavender farm - geograph.org.uk - 5850596.jpg"
+  },
+  "kiem-dinh-duoc-lieu": {
+    "file": "/images/kien-thuc/kiem-dinh-duoc-lieu.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Laboratory_1_Analytical_Chemistry_Dept_Gdansk_University_of_Technology.jpg",
+    "artist": "LukaszKatlewa",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "query": "analytical chemistry laboratory"
+  },
+  "gia-the-la-gi": {
+    "file": "/images/kien-thuc/gia-the-la-gi.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Copped_Hall_walled_Kitchen_Garden_compost_bin,_Epping,_Essex,_England.jpg",
+    "artist": "Acabashi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "query": "Category:Compost",
+    "matchedTitle": "file:copped hall walled kitchen garden compost bin, epping, essex, england.jpg"
+  }
+}
