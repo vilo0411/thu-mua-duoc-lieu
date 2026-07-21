@@ -29,7 +29,7 @@ export const herbSchema = z.object({
   priorityLevel: z.enum(["hot", "normal"]).optional(),
   priceRange: z.string().min(1),
   shortDesc: z.string().min(1),
-  // Chấp nhận URL đầy đủ hoặc đường dẫn ảnh nội bộ (vd: /images/cay/sen.jpg)
+  // Chấp nhận URL đầy đủ hoặc đường dẫn ảnh nội bộ (vd: /images/cay/sen.webp)
   image: z
     .string()
     .refine(

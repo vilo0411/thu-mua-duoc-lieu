@@ -29,13 +29,37 @@ if (!existsSync(join(DIST, "index.html"))) {
   process.exit(1);
 }
 
+/**
+ * Gỡ mọi thẻ metadata do <Seo> quản lý khỏi template shell, để dù dist/index.html
+ * đã bị prerender làm nhiễm thì SPA fallback vẫn là shell rỗng — React bơm thẻ mới
+ * mà không chồng lên thẻ cũ (nguồn gốc lỗi "canonical/description defined multiple
+ * times"). Gồm cả <title>: React 19 KHÔNG dedupe title tĩnh có sẵn trong HTML (chỉ
+ * quản lý title do component render), nên để lại sẽ thành 2 <title> trong prerender.
+ * Title tĩnh vẫn giữ trong index.html để `vite dev` (không prerender) có fallback.
+ */
+function sanitizeTemplate(html: string): string {
+  return html
+    .replace(/<title>[\s\S]*?<\/title>/gi, "")
+    .replace(/<link\b[^>]*\brel=["']canonical["'][^>]*>/gi, "")
+    .replace(/<meta\b[^>]*\bname=["']description["'][^>]*>/gi, "")
+    .replace(/<meta\b[^>]*\bname=["']robots["'][^>]*>/gi, "")
+    .replace(/<meta\b[^>]*\bproperty=["']og:[^"']*["'][^>]*>/gi, "")
+    .replace(/<meta\b[^>]*\bname=["']twitter:[^"']*["'][^>]*>/gi, "")
+    .replace(/<script\b[^>]*\btype=["']application\/ld\+json["'][^>]*>[\s\S]*?<\/script>/gi, "");
+}
+
 /** Static server phục vụ dist với SPA fallback (URL sâu → index.html). */
 function startServer(): Promise<Server> {
   // Giữ template GỐC trong bộ nhớ: prerender sẽ ghi đè dist/index.html (trang home)
   // ngay trong lúc chạy, nên không được đọc lại từ đĩa — nếu không, các route sau
   // sẽ nhận trang đã render sẵn của home (canonical/nội dung bị nhiễm) rồi mount đè
   // lên, sinh thẻ trùng. `index: false` để static không tự trả index.html đã ghi.
-  const template = readFileSync(join(DIST, "index.html"), "utf8");
+  //
+  // Thêm một lớp phòng thủ: dist/index.html có thể ĐÃ bị prerender ghi đè từ lần
+  // chạy trước (khi chạy prerender.ts đứng riêng, không qua `vite build`). Nên strip
+  // sạch mọi thẻ SEO mà <Seo> sẽ tự bơm lại (canonical/description/OG/Twitter/robots/
+  // JSON-LD). Nếu không, React render đè → mỗi trang có 2 canonical + 2 description.
+  const template = sanitizeTemplate(readFileSync(join(DIST, "index.html"), "utf8"));
   const app = express();
   app.use(express.static(DIST, { index: false }));
   // Fallback SPA: mọi navigation → template rỗng gốc để router client dựng trang.
@@ -89,9 +113,14 @@ async function main() {
             !!document.head.querySelector('link[rel="canonical"]'),
           { timeout: NAV_TIMEOUT },
         );
-        const html = await page.evaluate(
-          () => "<!doctype html>\n" + document.documentElement.outerHTML,
-        );
+        const html = (
+          await page.evaluate(
+            () => "<!doctype html>\n" + document.documentElement.outerHTML,
+          )
+        )
+          // onload="this.media='all'" đã chạy trong lúc render → media bị bake thành
+          // "all" (chặn render). Trả về "print" để bảng font nạp bất đồng bộ trên trang tĩnh.
+          .replace(/media="all" onload="this\.media='all'"/g, `media="print" onload="this.media='all'"`);
         const file = outFile(path);
         mkdirSync(dirname(file), { recursive: true });
         writeFileSync(file, html);

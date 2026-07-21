@@ -34,6 +34,8 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({
           src={asset(image)}
           alt={title}
           referrerPolicy="no-referrer"
+          loading="lazy"
+          decoding="async"
           className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-300"
         />
         <div className="absolute top-3 left-3 bg-[#D08620] text-white text-xs font-bold px-2 py-1 rounded-sm uppercase tracking-wider">

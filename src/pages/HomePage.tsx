@@ -136,8 +136,12 @@ export const HomePage: React.FC = () => {
       {/* 6. Về tác giả — E-E-A-T byline */}
       <section id="homepage-author" className="mt-16 bg-paper-2 border border-line rounded-2xl p-7 md:p-10 flex flex-col sm:flex-row items-start gap-6">
         <img
-          src={asset("/images/nguyen-viet-loc-avatar.png")}
+          src={asset("/images/nguyen-viet-loc-avatar.webp")}
           alt={`Ảnh đại diện ${SITE_OWNER}`}
+          width={80}
+          height={80}
+          loading="lazy"
+          decoding="async"
           className="w-20 h-20 shrink-0 rounded-full object-cover ring-2 ring-terracotta/20 shadow-sm"
         />
         <div className="space-y-3">

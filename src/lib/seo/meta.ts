@@ -91,7 +91,6 @@ export function herbSeo(herb: HerbalMedicine): SeoProps {
         path,
         image: herb.image,
       }),
-      ld.product({ name: herb.name, description: herb.shortDesc, image: herb.image }),
       ld.faqPage(herb.faq),
       ld.breadcrumbList([
         { name: "Trang chủ", path: paths.home() },
@@ -117,7 +116,6 @@ export function herbRegionSeo(herb: HerbalMedicine, region: RegionData): SeoProp
         path,
         image: herb.image,
       }),
-      ld.product({ name: `${herb.name} (${region.name})`, description: herb.shortDesc, image: herb.image }),
       ld.breadcrumbList([
         { name: "Trang chủ", path: paths.home() },
         { name: "Thu mua dược liệu", path: paths.pillar() },

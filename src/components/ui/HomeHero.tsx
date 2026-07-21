@@ -31,6 +31,8 @@ export const HomeHero: React.FC<HomeHeroProps> = ({ ownerName, imageUrl, stats, 
         alt=""
         aria-hidden="true"
         referrerPolicy="no-referrer"
+        fetchPriority="high"
+        decoding="async"
         className="absolute inset-0 w-full h-full object-cover object-center opacity-45"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-pine-900 via-pine-900/85 to-pine-900/50 pointer-events-none" />

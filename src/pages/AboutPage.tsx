@@ -13,8 +13,12 @@ export const AboutPage: React.FC = () => {
       <section className="bg-white border border-line rounded-2xl p-6 md:p-10 space-y-6">
         <div className="flex flex-col md:flex-row items-center gap-6 pb-6 border-b border-sand">
           <img
-            src={asset("/images/nguyen-viet-loc-avatar.png")}
+            src={asset("/images/nguyen-viet-loc-avatar.webp")}
             alt={`Ảnh đại diện ${SITE_OWNER}`}
+            width={96}
+            height={96}
+            loading="lazy"
+            decoding="async"
             className="w-24 h-24 rounded-full object-cover ring-2 ring-terracotta/20 shrink-0"
           />
           <div className="space-y-1 text-center md:text-left">

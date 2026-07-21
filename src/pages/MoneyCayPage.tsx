@@ -26,7 +26,7 @@ export const MoneyCayPage: React.FC = () => {
   const calcCtaHref = `#kenh-tieu-thu`;
 
   return (
-    <div className="space-y-10 animate-fade-in">
+    <div className="space-y-14 md:space-y-20 animate-fade-in">
       <Seo {...herbSeo(herb)} />
       <Breadcrumb items={[
         { label: "Trang chủ", href: paths.home() },
@@ -37,7 +37,7 @@ export const MoneyCayPage: React.FC = () => {
       {/* Hero */}
       <section className="relative bg-gradient-to-r from-paper to-sand border border-line rounded-2xl p-6 md:p-10 flex flex-col md:flex-row gap-6 items-center">
         <div className="md:w-1/3 aspect-4/3 w-full bg-gray-100 rounded-xl overflow-hidden shadow-xs shrink-0">
-          <img src={asset(herb.image)} alt={herb.name} referrerPolicy="no-referrer" className="w-full h-full object-cover" />
+          <img src={asset(herb.image)} alt={herb.name} referrerPolicy="no-referrer" loading="eager" fetchPriority="high" decoding="async" className="w-full h-full object-cover" />
         </div>
         <div className="md:w-2/3 space-y-4">
           <div className="flex flex-wrap items-center gap-2">
@@ -72,7 +72,7 @@ export const MoneyCayPage: React.FC = () => {
       )}
 
       {/* Quick Info */}
-      <section className="space-y-4">
+      <section className="space-y-6">
         <h2 className="font-serif text-xl font-bold text-ink-soft">Thông số đặc điểm thương mại</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {herb.stats.map((stat, idx) => {
@@ -94,7 +94,7 @@ export const MoneyCayPage: React.FC = () => {
 
       {/* Nhận diện hàng tươi / khô (dữ liệu thu mua thực tế) */}
       {(herb.identification?.fresh || herb.identification?.dry) && (
-        <section className="space-y-4">
+        <section className="space-y-6">
           <h2 className="font-serif text-xl font-bold text-ink-soft flex items-center gap-2">
             <Package className="w-6 h-6 text-terracotta" />
             Đặc điểm nhận diện hàng {herb.name} khi thu mua
@@ -124,7 +124,7 @@ export const MoneyCayPage: React.FC = () => {
       )}
 
       {/* Pricing table */}
-      <section className="space-y-4">
+      <section className="space-y-6">
         <div className="flex flex-col sm:flex-row items-baseline justify-between gap-2">
           <h2 className="font-serif text-xl font-bold text-ink-soft">
             Bảng giá phân hạng thu mua rễ tươi/sấy khô ({herb.name}) hôm nay
@@ -141,13 +141,13 @@ export const MoneyCayPage: React.FC = () => {
       </section>
 
       {/* Kênh bán hàng */}
-      <section id="kenh-tieu-thu" className="space-y-4 scroll-mt-24">
+      <section id="kenh-tieu-thu" className="space-y-6 scroll-mt-24">
         <h2 className="font-serif text-xl font-bold text-ink-soft border-b border-line pb-2">Kênh thu mua {herb.name}</h2>
         <SaleChannelsCard herbName={herb.name} cay={herb.slug} pageType="money_cay" />
       </section>
 
       {/* Standards */}
-      <section className="bg-white border border-line rounded-xl p-6 space-y-4">
+      <section className="bg-white border border-line rounded-xl p-6 space-y-5">
         <h2 className="font-serif text-xl font-bold text-ink-soft flex items-center gap-2">
           <ShieldCheck className="w-6 h-6 text-green-600" />
           Tiêu chuẩn chất lượng để bán được giá tốt
@@ -167,7 +167,7 @@ export const MoneyCayPage: React.FC = () => {
 
       {/* Region cards */}
       {herb.regions.length > 0 && (
-      <section className="space-y-4">
+      <section className="space-y-6">
         <h2 className="font-serif text-xl font-bold text-ink-soft">Các vùng trồng trọng điểm</h2>
         <p className="text-sm text-gray-600 font-sans">Nhấp vào vùng để xem chi tiết tỉnh thành, sản lượng và thông tin HTX tại vùng:</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
@@ -190,7 +190,7 @@ export const MoneyCayPage: React.FC = () => {
 
       {/* Pests & diseases */}
       {herb.pests.length > 0 && (
-        <section className="space-y-4">
+        <section className="space-y-6">
           <h2 className="font-serif text-xl font-bold text-ink-soft flex items-center gap-2 border-b border-line pb-2">
             <Bug className="w-6 h-6 text-terracotta" />
             Sâu bệnh thường gặp & cách xử lý cho {herb.name}
@@ -220,7 +220,7 @@ export const MoneyCayPage: React.FC = () => {
 
       {/* FAQ */}
       {herb.faq.length > 0 && (
-      <section className="space-y-4">
+      <section className="space-y-6">
         <h2 className="font-serif text-xl font-bold text-ink-soft border-b border-line pb-2">Câu hỏi thường gặp nhất về thu mua {herb.name}</h2>
         <FaqAccordion items={herb.faq} />
       </section>

@@ -26,7 +26,7 @@ export const MoneyVungPage: React.FC = () => {
   const popularityLabel = POPULARITY_LABEL[herbRegion.popularity] ?? "vùng trồng";
 
   return (
-    <div className="space-y-10 animate-fade-in">
+    <div className="space-y-14 md:space-y-20 animate-fade-in">
       <Seo {...herbRegionSeo(herb, region)} />
       <Breadcrumb items={[
         { label: "Trang chủ", href: paths.home() },
@@ -67,7 +67,7 @@ export const MoneyVungPage: React.FC = () => {
       </InfoBox>
 
       {/* Mô tả từng tỉnh — H3/tỉnh, ăn keyword tỉnh (PRD §5.4 Block 3) */}
-      <section className="space-y-5">
+      <section className="space-y-6">
         <h2 className="font-serif text-xl font-bold text-ink-soft border-b border-line pb-2">
           Đặc điểm trồng {herb.name} theo từng tỉnh
         </h2>
@@ -113,7 +113,7 @@ export const MoneyVungPage: React.FC = () => {
       </section>
 
       {/* Quy trình gửi hàng + partner card */}
-      <section className="space-y-4">
+      <section className="space-y-6">
         <h2 className="font-serif text-xl font-bold text-ink-soft">Gửi hàng &amp; đấu nối bao tiêu theo khu vực</h2>
         <p className="text-sm text-gray-600 font-sans">
           Bà con trong vùng {region.name} có thể gom hàng qua HTX rồi kết nối trực tiếp với đầu mối thu mua uy tín để

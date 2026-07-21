@@ -77,6 +77,8 @@ export const MissionStory: React.FC<MissionStoryProps> = ({ imageUrl, readStoryT
               src={imageUrl}
               alt="Vùng trồng dược liệu thực địa"
               referrerPolicy="no-referrer"
+              loading="lazy"
+              decoding="async"
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-pine-900/40 to-transparent pointer-events-none" />

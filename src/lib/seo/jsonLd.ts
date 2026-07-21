@@ -66,21 +66,6 @@ export function article(opts: {
   };
 }
 
-export function product(opts: {
-  name: string;
-  description: string;
-  image?: string;
-}): Json {
-  return {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    name: opts.name,
-    description: opts.description,
-    ...(opts.image ? { image: opts.image } : {}),
-    category: "Dược liệu",
-  };
-}
-
 export function howTo(opts: {
   name: string;
   description: string;

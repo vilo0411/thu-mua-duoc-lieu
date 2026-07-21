@@ -204,6 +204,8 @@ export const HubWikiPage: React.FC<{ herbSlug: string }> = ({ herbSlug }) => {
             alt={`Cây ${herb.name} (${herb.scientificName}) — kỹ thuật trồng và chăm sóc`}
             className="w-full h-full object-cover"
             loading="eager"
+            fetchPriority="high"
+            decoding="async"
           />
         </div>
         <div className="order-2 md:order-1 bg-gradient-to-br from-sand to-paper border border-line rounded-2xl p-6 md:p-8 space-y-3">

@@ -23,6 +23,8 @@ export const HerbCard: React.FC<HerbCardProps> = ({ name, scientificName, priceR
           src={asset(image)}
           alt={name}
           referrerPolicy="no-referrer"
+          loading="lazy"
+          decoding="async"
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         />
         <div className="absolute top-3 right-3 bg-[#B85037]/90 text-white text-xs font-semibold px-2.5 py-1 rounded-md backdrop-blur-xs font-sans">

@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
     "validate:content": "tsx scripts/validate-content.ts",
+    "optimize:images": "tsx scripts/optimize-images.ts",
     "prebuild": "npm run validate:content",
     "build": "vite build",
     "postbuild": "tsx scripts/generate-sitemap.ts && tsx scripts/prerender.ts",
@@ -33,6 +34,7 @@
     "autoprefixer": "^10.4.21",
     "esbuild": "^0.25.0",
     "puppeteer": "^25.3.0",
+    "sharp": "^0.35.3",
     "tailwindcss": "^4.1.14",
     "tsx": "^4.21.0",
     "typescript": "~5.8.2",

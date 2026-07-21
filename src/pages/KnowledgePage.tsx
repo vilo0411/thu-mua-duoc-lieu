@@ -232,6 +232,8 @@ export const KnowledgePage: React.FC = () => {
                         src={asset(herb?.image)}
                         alt={`Kỹ thuật trồng ${hub.herbName}`}
                         referrerPolicy="no-referrer"
+                        loading="lazy"
+                        decoding="async"
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                       />
                       <span className="absolute top-2.5 left-2.5 bg-pine-500 text-white text-[11px] font-bold px-2 py-0.5 rounded-sm uppercase tracking-wider inline-flex items-center gap-1">
