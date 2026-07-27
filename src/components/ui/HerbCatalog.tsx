@@ -137,8 +137,9 @@ export const HerbCatalog: React.FC = () => {
     setGroup("all");
   };
 
-  // Đường dẫn tới trang cây (kèm vùng nếu đang lọc theo vùng) — dùng cho cả <Link> và submit.
-  const herbHref = (h: HerbalMedicine) => (region ? paths.herbRegion(h.slug, region) : paths.herb(h.slug));
+  // Đường dẫn tới trang cây — bộ lọc vùng chỉ để duyệt, không còn trang cấp vùng riêng
+  // (nội dung vùng đã gộp vào chính trang cây).
+  const herbHref = (h: HerbalMedicine) => paths.herb(h.slug);
 
   // Enter trong ô tìm → nhảy thẳng tới cây khớp đầu tiên (lối tắt cho người biết rõ cây cần).
   const onSubmit = (e: React.FormEvent) => {
@@ -311,7 +312,7 @@ export const HerbCatalog: React.FC = () => {
                         <span className="text-[13px] text-gray-500 font-sans mt-1.5">Thu hoạch: {h.technique.harvestTime}</span>
 
                         <span className="inline-flex items-center gap-1 text-sm font-sans font-bold text-[#B85037] mt-3">
-                          {region ? `Xem giá tại ${regionName}` : "Xem giá & nơi bán"}
+                          Xem giá &amp; nơi bán
                           <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </span>
                       </Link>

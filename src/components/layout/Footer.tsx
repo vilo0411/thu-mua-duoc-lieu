@@ -51,7 +51,7 @@ export const Footer: React.FC = () => {
                     to={paths.herb(h.slug)}
                     className="hover:text-white transition-colors cursor-pointer text-left capitalize"
                   >
-                    • Thu mua dược liệu {h.name}
+                    • Thu mua {h.name}
                   </Link>
                 </li>
               ))}

@@ -30,7 +30,6 @@ const GroupTitle: React.FC<{ eyebrow: string; title: string; count?: number }> =
 );
 
 const linkCls = "text-ink-soft hover:text-terracotta hover:underline transition-colors";
-const subLinkCls = "text-xs text-gray-500 hover:text-terracotta hover:underline transition-colors";
 
 export const SitemapPage: React.FC = () => {
 
@@ -38,7 +37,6 @@ export const SitemapPage: React.FC = () => {
     .map((g) => ({ group: g, herbs: HERBS_DATA.filter((h) => h.group === g).sort(byName) }))
     .filter((x) => x.herbs.length > 0);
 
-  const comboCount = HERBS_DATA.reduce((n, h) => n + (h.regions?.length ?? 0), 0);
   const hubs = [...WIKI_HUBS].sort((a, b) => a.herbName.localeCompare(b.herbName, "vi"));
 
   const staticLinks = [
@@ -85,7 +83,7 @@ export const SitemapPage: React.FC = () => {
       <section className="space-y-8">
         <GroupTitle eyebrow="Thu mua dược liệu" title="Bảng giá theo cây" count={HERBS_DATA.length} />
         <p className="text-sm text-gray-500 font-sans -mt-4">
-          Mỗi cây có trang bảng giá riêng; các liên kết nhỏ bên dưới là trang thu mua theo từng vùng trồng ({comboCount} trang vùng).
+          Mỗi cây có một trang bảng giá riêng, đã bao gồm thông tin vùng trồng &amp; thu mua trọng điểm ngay trong bài.
         </p>
         {herbsByGroup.map(({ group, herbs }) => (
           <div key={group} className="space-y-4">
@@ -94,19 +92,10 @@ export const SitemapPage: React.FC = () => {
             </h3>
             <ul className="grid gap-x-8 gap-y-3 sm:grid-cols-2 lg:grid-cols-3 text-[15px] font-sans">
               {herbs.map((h) => (
-                <li key={h.id} className="space-y-1">
+                <li key={h.id}>
                   <Link to={paths.herb(h.slug)} className={`${linkCls} capitalize font-medium`}>
-                    Thu mua dược liệu {h.name}
+                    Thu mua {h.name}
                   </Link>
-                  {h.regions && h.regions.length > 0 && (
-                    <div className="flex flex-wrap gap-x-2 gap-y-0.5">
-                      {h.regions.map((r) => (
-                        <Link key={r.regionSlug} to={paths.herbRegion(h.slug, r.regionSlug)} className={subLinkCls}>
-                          {r.regionName}
-                        </Link>
-                      ))}
-                    </div>
-                  )}
                 </li>
               ))}
             </ul>

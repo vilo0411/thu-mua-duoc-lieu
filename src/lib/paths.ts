@@ -18,6 +18,8 @@ export const paths = {
   editorial: () => "/chinh-sach-noi-dung",
   sitemap: () => "/so-do-trang",
   herb: (cay: string) => `/thu-mua-duoc-lieu/${cay}`,
+  // Legacy: combo cây×vùng đã gộp về trang cây (bỏ cấp vùng — tránh cannibalization).
+  // Giữ CHỈ để dựng `from` cho stub redirect trong scripts/lib/routes.ts.
   herbRegion: (cay: string, vung: string) => `/thu-mua-duoc-lieu/${cay}/${vung}`,
   // Hub kỹ thuật nằm trong silo Kiến thức (PRD §4.1: /kien-thuc/ky-thuat-trong-{cay}).
   hubWiki: (cay: string) => `/kien-thuc/ky-thuat-trong-${cay}`,

@@ -23,7 +23,7 @@ const DEFAULT_LABELS: Record<CtaPosition, string> = {
 interface LandingLinkProps {
   /** Slug cây cho UTM campaign (bỏ trống nếu trang tổng). */
   cay?: string;
-  /** money_cay | money_vung | pillar | hub_wiki | home | knowledge (PRD §12.2). */
+  /** money_cay | pillar | hub_wiki | home | knowledge (PRD §12.2). */
   pageType: string;
   ctaPosition: CtaPosition;
   /** Ghi đè anchor text mặc định. */

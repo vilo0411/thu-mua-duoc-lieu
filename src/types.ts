@@ -93,7 +93,7 @@ export interface HerbalMedicine {
   keywordsTarget: string[];
   /**
    * Từ khoá chính (focus keyword) của landing — dùng cho <title>, <h1> và mô tả.
-   * Bỏ trống thì mặc định "Thu mua dược liệu {name}". Ghi đè khi cây cần cụm khác
+   * Bỏ trống thì mặc định "Thu mua {name}". Ghi đè khi cây cần cụm khác
    * (vd "thu mua atiso khô", "giá thu mua ba kích").
    */
   focusKeyword?: string;

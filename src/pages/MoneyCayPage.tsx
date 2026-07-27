@@ -1,7 +1,7 @@
 import React from "react";
-import { ChevronRight, Leaf, ShieldCheck, Bug, Clock, Thermometer, Sprout, Package } from "lucide-react";
+import { Leaf, ShieldCheck, Bug, Clock, Thermometer, Sprout, Package, MapPin } from "lucide-react";
 import { Link, useParams } from "react-router-dom";
-import { HERBS_DATA } from "../lib/data";
+import { HERBS_DATA, getRegionBySlug } from "../lib/data";
 import { Breadcrumb, CtaBanner, FaqAccordion, SaleChannelsCard, PriceBoard, PestList, HerbPriceCalculator, MediaCarousel } from "../components/ui";
 
 /** Chọn icon cho thẻ thông số dựa trên từ khoá trong nhãn, giúp bà con liếc là nhận ra. */
@@ -16,6 +16,12 @@ const statIcon = (label: string): React.ElementType => {
 import { paths, asset } from "../lib/paths";
 import { Seo, herbSeo, herbFocusKeyword } from "../lib/seo";
 import { NotFoundPage } from "./NotFoundPage";
+
+const POPULARITY_LABEL: Record<string, string> = {
+  chinh: "vùng trồng trọng điểm",
+  phu: "vùng trồng phụ trợ",
+  it: "vùng trồng rải rác",
+};
 
 export const MoneyCayPage: React.FC = () => {
   const { cay = "" } = useParams();
@@ -144,6 +150,13 @@ export const MoneyCayPage: React.FC = () => {
       <section id="kenh-tieu-thu" className="space-y-6 scroll-mt-24">
         <h2 className="font-serif text-xl font-bold text-ink-soft border-b border-line pb-2">Kênh thu mua {herb.name}</h2>
         <SaleChannelsCard herbName={herb.name} cay={herb.slug} pageType="money_cay" />
+        <p className="text-sm text-gray-600 font-sans">
+          Xem thêm:{" "}
+          <Link to={paths.pillar()} className="text-terracotta font-semibold hover:underline">
+            bảng giá &amp; đầu mối thu mua dược liệu cho toàn bộ {HERBS_DATA.length} cây
+          </Link>
+          .
+        </p>
       </section>
 
       {/* Standards */}
@@ -165,25 +178,48 @@ export const MoneyCayPage: React.FC = () => {
         </ul>
       </section>
 
-      {/* Region cards */}
+      {/* Vùng trồng — nội dung nằm ngay trong bài cây (không tách trang cấp vùng) */}
       {herb.regions.length > 0 && (
       <section className="space-y-6">
-        <h2 className="font-serif text-xl font-bold text-ink-soft">Các vùng trồng trọng điểm</h2>
-        <p className="text-sm text-gray-600 font-sans">Nhấp vào vùng để xem chi tiết tỉnh thành, sản lượng và thông tin HTX tại vùng:</p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {herb.regions.map((reg, idx) => (
-            <Link
-              key={idx}
-              to={paths.herbRegion(herb.slug, reg.regionSlug)}
-              className="bg-paper hover:bg-sand border border-line hover:border-terracotta p-4 rounded-xl cursor-pointer transition-all flex justify-between items-center group"
-            >
-              <div>
-                <h3 className="font-sans font-bold text-ink-soft group-hover:text-terracotta transition-colors">{reg.regionName}</h3>
-                <p className="text-xs text-gray-500 font-sans mt-0.5">Sản lượng dự kiến: {reg.outputEstimate}</p>
+        <h2 className="font-serif text-xl font-bold text-ink-soft border-b border-line pb-2">
+          Vùng trồng &amp; thu mua {herb.name} trọng điểm
+        </h2>
+        <p className="text-sm text-gray-600 font-sans">
+          {herb.name} được thu mua tập trung tại các vùng dưới đây. Bà con ở những tỉnh này gom hàng qua HTX/đầu mối
+          địa phương để đủ sản lượng cho một chuyến bao tiêu:
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {herb.regions.map((reg, idx) => {
+            const detail = getRegionBySlug(reg.regionSlug);
+            const popularityLabel = POPULARITY_LABEL[reg.popularity] ?? "vùng trồng";
+            return (
+              <div key={idx} className="bg-paper border border-line rounded-xl p-5 space-y-2.5">
+                <div className="flex items-start justify-between gap-3">
+                  <h3 className="font-serif text-lg font-bold text-ink-soft flex items-center gap-2">
+                    <MapPin className="w-4 h-4 text-terracotta shrink-0" />
+                    Thu mua {herb.name} tại {reg.regionName}
+                  </h3>
+                  <span className="shrink-0 text-[11px] font-sans font-bold uppercase bg-sand text-terracotta px-2 py-0.5 rounded">
+                    {popularityLabel}
+                  </span>
+                </div>
+                {reg.provinces.length > 0 && (
+                  <p className="text-sm text-ink font-sans">
+                    <span className="font-semibold text-ink-soft">Tỉnh trọng điểm:</span> {reg.provinces.join(", ")}
+                  </p>
+                )}
+                <p className="text-sm text-ink font-sans">
+                  <span className="font-semibold text-ink-soft">Sản lượng dự kiến:</span> {reg.outputEstimate}
+                </p>
+                {detail?.characteristics && (
+                  <p className="text-[15px] text-ink leading-relaxed font-sans">{detail.characteristics}</p>
+                )}
+                {detail?.advantages && (
+                  <p className="text-sm text-gray-600 leading-relaxed font-sans">{detail.advantages}</p>
+                )}
               </div>
-              <ChevronRight className="w-5 h-5 text-terracotta group-hover:translate-x-1 transition-transform" />
-            </Link>
-          ))}
+            );
+          })}
         </div>
       </section>
       )}

@@ -2,7 +2,7 @@
  * Builder tạo sẵn props <Seo> cho từng loại trang, gom title/description/JSON-LD
  * theo ma trận schema ở PRD §8.2 để mỗi page chỉ cần một dòng <Seo>.
  */
-import type { HerbalMedicine, RegionData, WikiArticle, WikiHub } from "../../types";
+import type { HerbalMedicine, WikiArticle, WikiHub } from "../../types";
 import { paths } from "../paths";
 import { SITE } from "../data";
 import type { SeoProps } from "./Seo";
@@ -12,11 +12,12 @@ const YEAR = new Date().getFullYear();
 
 /**
  * Từ khoá chính của trang cây — nguồn duy nhất cho <title>, <h1> và mô tả để cả ba
- * cùng nhắm một cụm. Mặc định "Thu mua dược liệu {name}"; cây khai báo focusKeyword
+ * cùng nhắm một cụm. Mặc định "Thu mua {name}" (không kèm "dược liệu" để tránh
+ * cạnh tranh head term với Pillar); cây khai báo focusKeyword
  * thì ưu tiên giá trị đó.
  */
 export function herbFocusKeyword(herb: HerbalMedicine): string {
-  return herb.focusKeyword?.trim() || `Thu mua dược liệu ${herb.name}`;
+  return herb.focusKeyword?.trim() || `Thu mua ${herb.name}`;
 }
 
 export function homeSeo(): SeoProps {
@@ -96,31 +97,6 @@ export function herbSeo(herb: HerbalMedicine): SeoProps {
         { name: "Trang chủ", path: paths.home() },
         { name: "Thu mua dược liệu", path: paths.pillar() },
         { name: herb.name, path },
-      ]),
-    ],
-  };
-}
-
-export function herbRegionSeo(herb: HerbalMedicine, region: RegionData): SeoProps {
-  const path = paths.herbRegion(herb.slug, region.slug);
-  return {
-    title: `Thu mua dược liệu ${herb.name} tại ${region.name} ${YEAR}`,
-    description: `Thông tin thu mua ${herb.name} khu vực ${region.name}: đặc điểm vùng trồng, các tỉnh trọng điểm và quy trình gửi hàng.`,
-    path,
-    type: "article",
-    image: herb.image,
-    jsonLd: [
-      ld.article({
-        headline: `Thu mua dược liệu ${herb.name} tại vùng ${region.name}`,
-        description: `Giá và vùng trồng ${herb.name} khu vực ${region.name}.`,
-        path,
-        image: herb.image,
-      }),
-      ld.breadcrumbList([
-        { name: "Trang chủ", path: paths.home() },
-        { name: "Thu mua dược liệu", path: paths.pillar() },
-        { name: herb.name, path: paths.herb(herb.slug) },
-        { name: region.name, path },
       ]),
     ],
   };

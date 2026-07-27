@@ -20,13 +20,19 @@ const readDir = (dir: string): any[] =>
     : [];
 
 export interface SiteRoutes {
-  /** Money silo: pillar + cây + combo cây×vùng có thực. */
+  /** Money silo: pillar + cây (KHÔNG còn cấp vùng — đã gộp về trang cây). */
   money: string[];
   /** Wiki silo: index + hub theo cây + wiki chung. */
   wiki: string[];
   /** Trang tĩnh (home, giới thiệu, liên hệ). */
   static: string[];
-  /** Toàn bộ path (đã gộp), dùng để prerender. */
+  /**
+   * Combo cây×vùng cũ → redirect về trang cây. Không nằm trong sitemap/`all`:
+   * prerender ghi riêng thành stub HTML (canonical + meta refresh) trỏ về `to`
+   * để hợp nhất tín hiệu, tránh cannibalization từ khoá cấp vùng.
+   */
+  redirects: { from: string; to: string }[];
+  /** Toàn bộ path CÓ NỘI DUNG (đã gộp), dùng để prerender. KHÔNG gồm redirects. */
   all: string[];
 }
 
@@ -36,10 +42,12 @@ export function collectRoutes(): SiteRoutes {
   const hubs = readDir("wiki-hub");
 
   const money = ["/thu-mua-duoc-lieu"];
+  const redirects: { from: string; to: string }[] = [];
   for (const h of herbs) {
-    money.push(`/thu-mua-duoc-lieu/${h.slug}`);
+    const herbPath = `/thu-mua-duoc-lieu/${h.slug}`;
+    money.push(herbPath);
     for (const r of h.regions ?? []) {
-      money.push(`/thu-mua-duoc-lieu/${h.slug}/${r.regionSlug}`);
+      redirects.push({ from: `${herbPath}/${r.regionSlug}`, to: herbPath });
     }
   }
 
@@ -62,6 +70,7 @@ export function collectRoutes(): SiteRoutes {
     money,
     wiki,
     static: staticPaths,
+    redirects,
     all: [...staticPaths, ...money, ...wiki],
   };
 }

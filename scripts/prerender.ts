@@ -84,6 +84,36 @@ function outFile(path: string): string {
   return join(DIST, `${clean}.html`);
 }
 
+/** Origin canonical, dùng cho canonical tuyệt đối trong stub redirect. */
+const ORIGIN = (
+  process.env.SITE_URL ||
+  JSON.parse(readFileSync(join(ROOT, "content", "site.json"), "utf8")).siteUrl
+).replace(/\/$/, "");
+
+/**
+ * Stub HTML thay cho 301 trên host tĩnh (GitHub Pages không có 301 server thật):
+ * canonical + meta refresh + robots noindex,follow trỏ về trang cây `to`. Google
+ * coi meta-refresh-0 + canonical như redirect, hợp nhất tín hiệu về trang cha và
+ * tránh cannibalization từ khoá cấp vùng. Là HTML độc lập (giống public/404.html),
+ * KHÔNG phải SPA shell nên không đụng quy tắc "mỗi thẻ SEO đúng 1 lần" của prerender.
+ */
+function redirectStub(to: string): string {
+  const abs = `${ORIGIN}${to}`;
+  return `<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>Đang chuyển hướng…</title>
+<link rel="canonical" href="${abs}">
+<meta name="robots" content="noindex, follow">
+<meta http-equiv="refresh" content="0; url=${to}">
+<script>location.replace(${JSON.stringify(to)})</script>
+</head>
+<body>Trang đã chuyển. Xem tại <a href="${to}">bài thu mua dược liệu</a>.</body>
+</html>
+`;
+}
+
 async function main() {
   const routes = collectRoutes().all;
   const server = await startServer();
@@ -138,8 +168,17 @@ async function main() {
   await browser.close();
   server.close();
 
+  // Ghi stub redirect cho combo cây×vùng cũ (không qua Puppeteer — HTML tĩnh cố định).
+  const redirects = collectRoutes().redirects;
+  for (const { from, to } of redirects) {
+    const file = outFile(from);
+    mkdirSync(dirname(file), { recursive: true });
+    writeFileSync(file, redirectStub(to));
+  }
+
   console.log(
     `✓ Prerender: ${done}/${routes.length} trang → dist/**/*.html` +
+      ` + ${redirects.length} stub redirect cây×vùng` +
       (failed.length ? ` (lỗi ${failed.length}: ${failed.join(", ")})` : ""),
   );
   // Route lỗi = HTML rỗng cho bot → coi là thất bại build để không deploy nhầm.

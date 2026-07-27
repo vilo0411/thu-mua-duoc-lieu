@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from "react";
-import { Navigate, Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes, useParams } from "react-router-dom";
 import { Layout } from "./components/layout/Layout";
 import { paths } from "./lib/paths";
 
@@ -8,7 +8,6 @@ import { paths } from "./lib/paths";
 import { HomePage } from "./pages/HomePage";
 import { PillarPage } from "./pages/PillarPage";
 import { MoneyCayPage } from "./pages/MoneyCayPage";
-import { MoneyVungPage } from "./pages/MoneyVungPage";
 import { KnowledgePage } from "./pages/KnowledgePage";
 import { KienThucSlugPage } from "./pages/KienThucSlugPage";
 // NotFoundPage cũng được các trang nội dung import tĩnh (render khi slug sai) nên
@@ -25,6 +24,15 @@ const TermsPage = lazy(() => import("./pages/LegalPages").then((m) => ({ default
 const DisclaimerPage = lazy(() => import("./pages/LegalPages").then((m) => ({ default: m.DisclaimerPage })));
 const EditorialPage = lazy(() => import("./pages/LegalPages").then((m) => ({ default: m.EditorialPage })));
 
+/**
+ * Combo cây×vùng cũ đã gộp về trang cây (bỏ cấp vùng — tránh cannibalization từ khoá).
+ * Redirect client-side cho SPA nav/bookmark; bot nhận stub prerender canonical→trang cây.
+ */
+const RedirectToHerb: React.FC = () => {
+  const { cay = "" } = useParams();
+  return <Navigate to={paths.herb(cay)} replace />;
+};
+
 export default function App() {
   return (
     <Routes>
@@ -32,7 +40,7 @@ export default function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/thu-mua-duoc-lieu" element={<PillarPage />} />
         <Route path="/thu-mua-duoc-lieu/:cay" element={<MoneyCayPage />} />
-        <Route path="/thu-mua-duoc-lieu/:cay/:vung" element={<MoneyVungPage />} />
+        <Route path="/thu-mua-duoc-lieu/:cay/:vung" element={<RedirectToHerb />} />
         {/* IA gộp về 2 silo (PRD §4.1): danh mục cây & vùng trồng đã nằm trong Pillar.
             Các URL cũ redirect về Pillar để tránh duplicate content. */}
         <Route path={paths.herbCatalog()} element={<Navigate to={paths.pillar()} replace />} />
