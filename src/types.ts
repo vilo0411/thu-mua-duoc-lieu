@@ -120,6 +120,8 @@ export interface WikiArticle {
   id: string;
   slug: string;
   title: string;
+  /** <title> ngắn dành riêng cho SERP; thiếu thì tự cắt từ title. */
+  seoTitle?: string;
   category: string;
   author: string;
   readTime: string;
@@ -168,6 +170,8 @@ export interface SiteConfig {
   /** Origin canonical đầy đủ, dùng cho sitemap / OG / canonical. */
   siteUrl: string;
   siteName: string;
+  /** Tên site rút gọn → WebSite.alternateName, nguồn "site name" Google ghép vào title link. */
+  siteShortName?: string;
   defaultTitle: string;
   defaultDescription: string;
   /** Ảnh OG mặc định (path nội bộ) cho trang không tự set image. */
@@ -188,6 +192,8 @@ export interface WikiHub {
   herbSlug: string;
   herbName: string;
   title: string;
+  /** <title> ngắn dành riêng cho SERP; thiếu thì tự cắt từ title. */
+  seoTitle?: string;
   intro: string;
   standards: {
     stage: string;

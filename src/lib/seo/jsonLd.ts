@@ -104,6 +104,8 @@ export function website(): Json {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: SITE.siteName,
+    // Google lấy "site name" hiển thị cạnh title link từ đây (chỉ đọc ở trang chủ).
+    ...(SITE.siteShortName ? { alternateName: SITE.siteShortName } : {}),
     url: SITE.siteUrl,
   };
 }

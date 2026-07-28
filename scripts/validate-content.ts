@@ -62,6 +62,26 @@ if (Array.isArray(partners)) {
 }
 validate("content/site.json", siteSchema, readJson(join(CONTENT, "site.json")));
 
+// Bài wiki dùng thẳng title làm <title>: quá dài thì Google cắt/viết lại (title
+// hiển thị còn phải cõng thêm tên site Google tự ghép). Cảnh báo để bổ sung seoTitle.
+{
+  const TITLE_MAX = 55;
+  const abs = join(CONTENT, "wiki");
+  const long: string[] = [];
+  if (existsSync(abs)) {
+    for (const file of readdirSync(abs).filter((f) => f.endsWith(".json"))) {
+      const d = readJson(join(abs, file)) as { title?: string; seoTitle?: string };
+      const t = d?.seoTitle || d?.title;
+      if (typeof t === "string" && t.length > TITLE_MAX) long.push(`${file} (${t.length})`);
+    }
+  }
+  if (long.length) {
+    console.warn(
+      `⚠ ${long.length} bài wiki có <title> > ${TITLE_MAX} ký tự — thêm "seoTitle" ngắn hơn:\n    ${long.join("\n    ")}`,
+    );
+  }
+}
+
 if (errors > 0) {
   console.error(`\n✗ Xác thực content thất bại: ${errors} lỗi trên ${checked} file.`);
   process.exit(1);

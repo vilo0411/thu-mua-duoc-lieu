@@ -121,6 +121,8 @@ export const wikiArticleSchema = z.object({
   id: z.string().min(1),
   slug: z.string().min(1),
   title: z.string().min(1),
+  /** <title> riêng cho SEO khi title biên tập quá dài (xem TITLE_MAX ở seo/meta). */
+  seoTitle: z.string().min(1).optional(),
   category: z.string().min(1),
   author: z.string().min(1),
   readTime: z.string().min(1),
@@ -159,6 +161,8 @@ export const wikiHubSchema = z.object({
   herbSlug: z.string().min(1),
   herbName: z.string().min(1),
   title: z.string().min(1),
+  /** <title> riêng cho SEO khi title biên tập quá dài (xem TITLE_MAX ở seo/meta). */
+  seoTitle: z.string().min(1).optional(),
   intro: z.string().min(1),
   standards: z
     .array(z.object({ stage: z.string().min(1), criteria: z.string().min(1), controlMethod: z.string().min(1) }))
@@ -188,6 +192,9 @@ export const siteSchema = z.object({
   displayUrl: z.string().min(1),
   siteUrl: z.string().url(),
   siteName: z.string().min(1),
+  /** Tên site rút gọn (WebSite.alternateName) — Google có thể dùng bản ngắn này
+   *  khi ghép brand vào title link, đỡ ngốn ký tự hiển thị. */
+  siteShortName: z.string().min(1).optional(),
   defaultTitle: z.string().min(1),
   defaultDescription: z.string().min(1),
   defaultImage: z.string().min(1),
