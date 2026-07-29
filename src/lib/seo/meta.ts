@@ -101,7 +101,7 @@ export function pillarSeo(): SeoProps {
   return {
     title: `Thu mua dược liệu ${YEAR}: giá & đầu mối uy tín`,
     description:
-      "Bảng giá thu mua dược liệu mới nhất, đầu mối và công ty thu mua uy tín, nơi bán tại Hà Nội, miền Bắc và toàn quốc — giúp nông hộ, HTX bán đúng giá, tránh bị ép.",
+      "Bảng giá thu mua dược liệu mới nhất, đầu mối và công ty thu mua uy tín, nơi bán tại Hà Nội, miền Bắc và toàn quốc - giúp nông hộ, HTX bán đúng giá, tránh bị ép.",
     path: paths.pillar(),
     type: "website",
     jsonLd: [

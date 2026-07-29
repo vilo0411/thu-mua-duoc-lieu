@@ -144,9 +144,24 @@ async function main() {
           { timeout: NAV_TIMEOUT },
         );
         const html = (
-          await page.evaluate(
-            () => "<!doctype html>\n" + document.documentElement.outerHTML,
-          )
+          await page.evaluate(() => {
+            // Đánh dấu thẻ SEO đã bake vào HTML tĩnh để main.tsx gỡ chúng trước khi
+            // React mount. Không đánh dấu thì client render sẽ bơm thêm một bộ nữa
+            // (React 19 không dedupe thẻ metadata tĩnh) → 2 canonical/description.
+            const managed = [
+              "title",
+              'meta[name="description"]',
+              'meta[name="robots"]',
+              'link[rel="canonical"]',
+              'meta[property^="og:"]',
+              'meta[name^="twitter:"]',
+              'script[type="application/ld+json"]',
+            ].join(",");
+            document.head
+              .querySelectorAll(managed)
+              .forEach((el) => el.setAttribute("data-ssg", ""));
+            return "<!doctype html>\n" + document.documentElement.outerHTML;
+          })
         )
           // onload="this.media='all'" đã chạy trong lúc render → media bị bake thành
           // "all" (chặn render). Trả về "print" để bảng font nạp bất đồng bộ trên trang tĩnh.
