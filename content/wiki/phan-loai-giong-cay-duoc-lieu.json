@@ -1,0 +1,53 @@
+{
+  "id": "phan-loai-giong-cay-duoc-lieu",
+  "slug": "phan-loai-giong-cay-duoc-lieu-theo-bo-phan-vung-mien",
+  "title": "Phân loại giống cây dược liệu theo bộ phận thu hoạch và vùng miền",
+  "seoTitle": "Phân loại giống cây dược liệu theo bộ phận, vùng",
+  "category": "Kiến thức cơ bản",
+  "author": "Nguyễn Viết Lộc",
+  "readTime": "5 phút đọc",
+  "date": "26/08/2026",
+  "excerpt": "Hiểu cách phân loại cây dược liệu giúp chọn đúng hướng canh tác và kỹ thuật chăm sóc phù hợp. Tôi tổng hợp lại cách phân loại phổ biến theo bộ phận thu hoạch và theo vùng sinh trưởng.",
+  "image": "/images/kien-thuc/phan-loai-giong-cay-duoc-lieu.webp",
+  "contentSections": [
+    {
+      "heading": "1. Vì sao cần phân loại cây dược liệu trước khi trồng",
+      "paragraphs": [
+        "Mỗi nhóm cây dược liệu, phân theo bộ phận thu hoạch hay vùng sinh trưởng, có yêu cầu kỹ thuật khác nhau về đất, nước, ánh sáng và cách chăm sóc. Hiểu đúng nhóm cây định trồng giúp áp dụng kỹ thuật phù hợp thay vì bê nguyên công thức của nhóm cây khác.",
+        "Cách phân loại phổ biến và dễ áp dụng nhất với người mới là theo bộ phận thu hoạch (lấy gì trên cây) và theo vùng/địa điểm sinh trưởng phù hợp."
+      ]
+    },
+    {
+      "heading": "2. Phân loại theo bộ phận thu hoạch",
+      "paragraphs": [
+        "Cây dược liệu lấy củ, rễ: giá trị dược liệu tập trung ở phần dưới mặt đất, đòi hỏi đất tơi xốp, thoát nước tốt để củ rễ phát triển đẹp, không bị úng thối — xem thêm [đất trồng dược liệu](/kien-thuc/dat-trong-cay-duoc-lieu) và [cách trộn đất trồng cây](/kien-thuc/cach-tron-dat-trong-cay). Thời gian sinh trưởng thường dài hơn nhóm lấy lá, thân.",
+        "Cây dược liệu lấy lá, thân: thu hoạch phần trên mặt đất, thường có chu kỳ ngắn hơn, có thể thu hái nhiều lứa. Kỹ thuật chăm sóc chú trọng nhiều vào dinh dưỡng nuôi thân lá và phòng bệnh hại lá hơn là cải tạo đất sâu.",
+        "Ngoài hai nhóm phổ biến trên, một số cây dược liệu còn được thu hoạch ở hoa, quả hoặc hạt tùy loài, mỗi loại lại có thời điểm và kỹ thuật thu hái riêng để đạt hàm lượng hoạt chất tốt nhất."
+      ]
+    },
+    {
+      "heading": "3. Phân loại theo vùng, địa điểm sinh trưởng",
+      "paragraphs": [
+        "Nhiều loại dược liệu chỉ phát triển tốt và tích lũy đủ hoạt chất ở một số vùng khí hậu, độ cao nhất định — đây là lý do cùng một loài cây nhưng trồng ở vùng khác có thể cho chất lượng chênh lệch đáng kể.",
+        "Trước khi quyết định trồng, nên tìm hiểu xem loại dược liệu định trồng có phù hợp với điều kiện khí hậu, thổ nhưỡng tại vùng của mình hay không, thay vì chỉ dựa vào việc loại cây đó đang có giá tốt ở nơi khác."
+      ]
+    }
+  ],
+  "pitfall": {
+    "body": "Áp dụng chung một kỹ thuật chăm sóc cho mọi loại cây dược liệu! Cây lấy củ/rễ và cây lấy lá/thân có yêu cầu về đất, nước, dinh dưỡng khác nhau khá rõ — bê nguyên công thức chăm sóc của nhóm này sang nhóm kia (ví dụ tưới quá nhiều cho cây lấy củ như cách chăm cây lấy lá) dễ dẫn tới úng thối, giảm chất lượng dược liệu."
+  },
+  "faq": [
+    {
+      "question": "Người mới trồng nên chọn nhóm cây lấy củ hay lấy lá/thân trước?",
+      "answer": "Nhóm cây lấy lá, thân thường có chu kỳ thu hoạch ngắn hơn, phù hợp để người mới làm quen kỹ thuật và có vòng quay vốn nhanh hơn. Nhóm cây lấy củ, rễ tuy giá trị thương phẩm thường cao hơn nhưng đòi hỏi kỹ thuật chăm sóc đất kỹ hơn và thời gian thu hồi vốn dài hơn, phù hợp khi đã có kinh nghiệm hoặc điều kiện đầu tư dài hạn."
+    },
+    {
+      "question": "Một loại dược liệu có thể trồng được ở nhiều vùng miền khác nhau không?",
+      "answer": "Có thể trồng được về mặt sinh trưởng ở nhiều nơi, nhưng chất lượng và hàm lượng hoạt chất có thể khác biệt đáng kể tùy điều kiện khí hậu, thổ nhưỡng từng vùng. Nên tìm hiểu kỹ vùng sinh thái phù hợp nhất với loại cây định trồng, hoặc tham khảo kinh nghiệm từ các hộ đã trồng thành công tại vùng có điều kiện tương tự."
+    },
+    {
+      "question": "Phân loại theo bộ phận thu hoạch có giúp ích gì khi chọn giống không?",
+      "answer": "Có, việc xác định trước nhóm cây (lấy củ, rễ hay lấy lá, thân) giúp định hướng cả cách chuẩn bị đất, chọn giống và lên kế hoạch chăm sóc phù hợp ngay từ đầu, tránh phải điều chỉnh giữa chừng khi đã đầu tư một phần công sức và chi phí."
+    }
+  ]
+}

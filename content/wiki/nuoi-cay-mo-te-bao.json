@@ -1,0 +1,63 @@
+{
+  "id": "nuoi-cay-mo-te-bao",
+  "slug": "nuoi-cay-mo-te-bao-cay-duoc-lieu",
+  "title": "Nuôi cấy mô tế bào cây dược liệu: khái niệm và quy trình cơ bản",
+  "seoTitle": "Nuôi cấy mô tế bào cây dược liệu là gì?",
+  "category": "Kỹ thuật gieo trồng",
+  "author": "Nguyễn Viết Lộc",
+  "readTime": "6 phút đọc",
+  "date": "01/08/2026",
+  "excerpt": "Nuôi cấy mô giúp nhân giống số lượng lớn cây sạch bệnh trong thời gian ngắn. Tôi tổng hợp lại khái niệm, điều kiện cần có và quy trình cơ bản để bà con hình dung trước khi cân nhắc áp dụng.",
+  "image": "/images/kien-thuc/nuoi-cay-mo-te-bao.webp",
+  "contentSections": [
+    {
+      "heading": "1. Nuôi cấy mô là gì? Khác gì với giâm, chiết, ghép",
+      "paragraphs": [
+        "Nuôi cấy mô (vi nhân giống) là kỹ thuật nhân giống vô tính hiện đại: lấy một mẩu mô nhỏ (đỉnh sinh trưởng, chồi nách...) từ cây mẹ khỏe, nuôi trong môi trường dinh dưỡng vô trùng để mẩu mô phát triển thành cây con hoàn chỉnh, sau đó đưa ra vườn ươm thích nghi dần với môi trường tự nhiên.",
+        "Khác với [giâm cành, chiết cành, ghép cành](/kien-thuc/cach-giam-canh) chỉ nhân được số lượng giới hạn theo số cành trên cây mẹ, nuôi cấy mô có thể nhân ra hàng nghìn cây con đồng nhất về di truyền từ một mẩu mô rất nhỏ, trong thời gian ngắn."
+      ],
+      "highlight": "Ưu điểm lớn nhất của nuôi cấy mô là tạo ra cây giống sạch bệnh (đặc biệt sạch virus) và đồng đều tuyệt đối — điều rất khó đạt được bằng các cách nhân giống truyền thống."
+    },
+    {
+      "heading": "2. Điều kiện cần có để nuôi cấy mô",
+      "paragraphs": [
+        "Đây là kỹ thuật đòi hỏi phòng thí nghiệm cơ bản: phòng vô trùng hoặc tủ cấy vô trùng (laminar flow), nồi hấp khử trùng dụng cụ và môi trường nuôi cấy, hóa chất và chất điều hòa sinh trưởng thực vật, cùng phòng nuôi có kiểm soát ánh sáng, nhiệt độ.",
+        "Vì chi phí đầu tư ban đầu và yêu cầu kỹ thuật cao, nuôi cấy mô thường do các trung tâm giống, viện nghiên cứu hoặc cơ sở sản xuất giống quy mô lớn thực hiện, sau đó cung cấp cây giống ra cho nông hộ trồng — không phải kỹ thuật hộ trồng nhỏ lẻ tự làm tại nhà."
+      ]
+    },
+    {
+      "heading": "3. Các bước cơ bản của quy trình nuôi cấy mô",
+      "paragraphs": [
+        "Bước 1 – Chọn và khử trùng mẫu mô: lấy mẫu từ cây mẹ khỏe, sạch bệnh, khử trùng bề mặt mẫu bằng hóa chất phù hợp để loại vi khuẩn, nấm bám ngoài mà không làm chết mô.",
+        "Bước 2 – Cấy mẫu vào môi trường nhân giống: đặt mẫu vào môi trường dinh dưỡng vô trùng (thường chứa khoáng, đường, vitamin, chất điều hòa sinh trưởng) trong ống nghiệm hoặc bình cấy, đưa vào phòng nuôi kiểm soát ánh sáng và nhiệt độ.",
+        "Bước 3 – Nhân nhanh chồi: từ mẫu ban đầu, chồi con phát sinh và được tách, cấy chuyền sang môi trường mới nhiều lần để nhân số lượng lên nhanh.",
+        "Bước 4 – Ra rễ tạo cây hoàn chỉnh: chuyển chồi sang môi trường kích ra rễ để tạo cây con có đầy đủ thân, lá, rễ.",
+        "Bước 5 – Huấn luyện và đưa ra vườn ươm: cây con từ ống nghiệm rất non yếu, cần giai đoạn thích nghi dần (ra ngôi) trong nhà lưới trước khi đem trồng đại trà — giai đoạn này tỷ lệ hao hụt khá cao nếu chăm không đúng."
+      ]
+    },
+    {
+      "heading": "4. Khi nào nên cân nhắc dùng giống nuôi cấy mô",
+      "paragraphs": [
+        "Với hộ trồng quy mô nhỏ, cách thực tế nhất là mua cây giống nuôi cấy mô đã ra ngôi ổn định từ cơ sở giống uy tín, thay vì tự đầu tư phòng thí nghiệm. Nên ưu tiên khi cần giống sạch bệnh, đồng đều cho diện tích lớn, hoặc với những cây khó nhân bằng hạt/giâm cành và giống gốc dễ nhiễm virus.",
+        "Với diện tích nhỏ, ít đòi hỏi đồng nhất tuyệt đối, các cách nhân giống truyền thống như [ươm hạt](/kien-thuc/cach-uom-hat-giong) hay [giâm, chiết, ghép cành](/kien-thuc/cach-giam-canh) vẫn đơn giản và tiết kiệm chi phí hơn nhiều."
+      ]
+    }
+  ],
+  "pitfall": {
+    "body": "Mua giống nuôi cấy mô trôi nổi, không rõ nguồn gốc! Cây giống từ cơ sở không kiểm soát tốt vẫn có thể mang mầm bệnh hoặc lẫn giống, mất hết lợi thế 'sạch bệnh, đồng đều' của nuôi cấy mô. Chỉ nên mua từ trung tâm giống, viện nghiên cứu hoặc cơ sở có uy tín, có hồ sơ nguồn gốc rõ ràng."
+  },
+  "faq": [
+    {
+      "question": "Nuôi cấy mô có đắt hơn các cách nhân giống khác không?",
+      "answer": "Chi phí đầu tư ban đầu cho phòng thí nghiệm rất cao, nhưng giá mỗi cây giống thành phẩm bán ra thường không chênh lệch quá nhiều so với giống giâm/chiết chất lượng tốt, vì nhân được số lượng lớn từ một mẫu ban đầu. Với hộ trồng, chi phí thực tế là giá mua cây giống đã ra ngôi, không phải chi phí đầu tư phòng lab."
+    },
+    {
+      "question": "Cây giống nuôi cấy mô có khác gì về năng suất so với cây giâm cành?",
+      "answer": "Nếu cùng nguồn gen tốt, cây nuôi cấy mô thường phát triển đồng đều hơn và ít bệnh hơn nhờ sạch virus, nhưng năng suất từng cây không nhất thiết cao hơn giống giâm/chiết cùng chất lượng. Lợi thế chính nằm ở độ đồng đều và sạch bệnh trên diện rộng chứ không phải năng suất vượt trội của từng cây riêng lẻ."
+    },
+    {
+      "question": "Cây con nuôi cấy mô mới mua về cần chăm thế nào?",
+      "answer": "Cây con giai đoạn đầu còn non yếu (nhất là nếu mới ra ngôi chưa lâu), cần che mát, giữ ẩm đều, tránh nắng gắt và gió mạnh, tương tự cách chăm cây con sau [ươm hạt giống](/kien-thuc/cach-uom-hat-giong). Nên hỏi kỹ nhà cung cấp giống về thời gian ra ngôi và mức độ đã thích nghi trước khi đem trồng đại trà."
+    }
+  ]
+}

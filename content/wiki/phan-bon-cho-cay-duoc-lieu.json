@@ -1,0 +1,85 @@
+{
+  "id": "phan-bon-cho-cay-duoc-lieu",
+  "slug": "phan-bon-cho-cay-duoc-lieu-huu-co-vo-co-npk",
+  "title": "Phân bón cho cây dược liệu: phân hữu cơ, trùn quế, vô cơ và NPK",
+  "seoTitle": "Phân bón cho cây dược liệu: hữu cơ, vô cơ, NPK",
+  "category": "Kỹ thuật gieo trồng",
+  "author": "Nguyễn Viết Lộc",
+  "readTime": "6 phút đọc",
+  "date": "03/08/2026",
+  "excerpt": "Chọn đúng loại phân và bón đúng liều quyết định cây dược liệu có sạch, tích lũy hoạt chất tốt hay không. Tôi tổng hợp lại các nhóm phân bón phổ biến và cách phối hợp hợp lý cho vườn dược liệu.",
+  "image": "/images/kien-thuc/phan-bon-cho-cay-duoc-lieu.webp",
+  "contentSections": [
+    {
+      "heading": "1. Hai nhóm phân bón chính: hữu cơ và vô cơ",
+      "paragraphs": [
+        "Phân hữu cơ có nguồn gốc từ động, thực vật (phân chuồng ủ hoai, phân trùn quế, phân xanh, phân vi sinh...), cung cấp dinh dưỡng chậm nhưng bền, cải tạo cấu trúc đất và nuôi hệ vi sinh vật có lợi.",
+        "Phân vô cơ (phân hóa học) như NPK, ure, kali... cung cấp dinh dưỡng nhanh, dễ kiểm soát hàm lượng nhưng không cải tạo đất, dùng sai liều dễ gây tồn dư và làm chai đất về lâu dài.",
+        "Với dược liệu, xu hướng chung là lấy hữu cơ làm nền, chỉ dùng vô cơ bổ sung đúng giai đoạn cần thiết — vừa đảm bảo chất lượng dược liệu sạch, vừa giữ đất khỏe cho nhiều vụ sau."
+      ],
+      "highlight": "Dược liệu hướng chuẩn thu mua khắt khe hoặc xuất khẩu thường ưu tiên phân hữu cơ, hạn chế tối đa phân vô cơ để giảm nguy cơ tồn dư — đây cũng là yêu cầu trong nhiều tiêu chuẩn như VietGAP, GACP-WHO."
+      },
+    {
+      "heading": "2. Phân hữu cơ và phân trùn quế",
+      "paragraphs": [
+        "Phân chuồng, phân xanh ủ hoai: cung cấp mùn và dinh dưỡng đa dạng, cải tạo đất tốt. Bắt buộc phải ủ hoai kỹ trước khi bón — phân tươi sinh nhiệt, mang mầm bệnh và có thể đốt rễ cây.",
+        "Phân trùn quế: là loại phân hữu cơ được ưa chuộng nhất hiện nay cho dược liệu sạch nhờ giàu dinh dưỡng dễ hấp thu, gần như không có mầm bệnh (do đã qua hệ tiêu hóa trùn), an toàn cho cây con và ít gây sốc phân hơn phân chuồng tươi.",
+        "Phân vi sinh: chứa vi sinh vật có lợi giúp phân giải dinh dưỡng khó tiêu trong đất thành dạng cây hấp thu được, thường dùng bổ sung cùng phân hữu cơ để tăng hiệu quả."
+      ]
+    },
+    {
+      "heading": "3. Phân vô cơ và NPK: dùng sao cho hợp lý",
+      "paragraphs": [
+        "NPK cung cấp ba dưỡng chất chính: đạm (N) giúp cây phát triển thân lá, lân (P) giúp phát triển rễ và ra hoa, kali (K) giúp cây cứng cáp và tích lũy dưỡng chất vào củ/rễ. Tỷ lệ NPK cần điều chỉnh theo từng giai đoạn: giai đoạn đầu cây cần nhiều đạm để phát triển thân lá, giai đoạn về sau cây lấy củ cần tăng kali để củ chắc.",
+        "Nguyên tắc dùng NPK an toàn: bón đúng liều khuyến cáo trên bao bì, chia nhỏ nhiều lần thay vì bón dồn một lần, và tuân thủ thời gian cách ly trước thu hoạch để tránh tồn dư trong dược liệu."
+      ]
+    },
+    {
+      "heading": "4. Kết hợp hữu cơ và vô cơ theo giai đoạn",
+      "paragraphs": [
+        "Cách phối hợp phổ biến: dùng phân hữu cơ (phân trùn quế, phân chuồng hoai) làm nền bón lót trước khi trồng để cải tạo đất, sau đó bón thúc bổ sung định kỳ trong giai đoạn sinh trưởng — chi tiết thời điểm và liều lượng bón lót, bón thúc xem tại bài [bón lót, bón thúc cho cây dược liệu](/kien-thuc/cach-bon-lot-bon-thuc).",
+        "Phân vô cơ chỉ nên dùng bổ sung khi cây có dấu hiệu thiếu dinh dưỡng rõ (còi cọc, vàng lá) hoặc ở giai đoạn cần thúc nhanh, không nên thay thế hoàn toàn phân hữu cơ vì về lâu dài đất sẽ mất dần độ tơi xốp và hệ vi sinh có lợi."
+      ]
+    }
+  ],
+  "standardsTable": [
+    {
+      "factor": "Phân trùn quế",
+      "standard": "Dinh dưỡng dễ hấp thu, gần như sạch mầm bệnh.",
+      "notes": "Ưu tiên hàng đầu cho dược liệu sạch, an toàn cho cây con."
+    },
+    {
+      "factor": "Phân chuồng/phân xanh ủ hoai",
+      "standard": "Cải tạo đất tốt, dinh dưỡng đa dạng.",
+      "notes": "Bắt buộc ủ hoai kỹ, tuyệt đối không dùng phân tươi."
+    },
+    {
+      "factor": "Phân NPK (vô cơ)",
+      "standard": "Dinh dưỡng nhanh, dễ kiểm soát hàm lượng.",
+      "notes": "Chỉ bón bổ sung đúng liều, tuân thủ thời gian cách ly."
+    }
+  ],
+  "standardsTableTitle": "So sánh nhanh các nhóm phân bón cho dược liệu",
+  "standardsTableHeaders": [
+    "Loại phân bón",
+    "Đặc điểm chính",
+    "Lưu ý khi dùng cho dược liệu"
+  ],
+  "pitfall": {
+    "body": "Lạm dụng phân NPK hóa học để cây lớn nhanh! Bón quá liều hoặc quá gần ngày thu hoạch khiến dược liệu tồn dư hóa chất, dễ bị đầu mối thu mua từ chối, đồng thời làm đất chai dần qua nhiều vụ. Nên lấy phân hữu cơ làm nền, chỉ bổ sung NPK đúng liều và đúng thời điểm cần thiết."
+  },
+  "faq": [
+    {
+      "question": "Nên bón phân trùn quế hay phân chuồng ủ hoai cho dược liệu?",
+      "answer": "Cả hai đều tốt, nhưng phân trùn quế an toàn hơn cho cây con và ít rủi ro mầm bệnh hơn vì đã qua hệ tiêu hóa trùn, trong khi phân chuồng cần ủ hoai thật kỹ mới an toàn. Nếu có điều kiện, nhiều nhà vườn kết hợp cả hai: phân chuồng hoai làm nền cải tạo đất diện rộng, phân trùn quế bổ sung định kỳ cho cây."
+    },
+    {
+      "question": "Trồng dược liệu có bắt buộc phải dùng phân hữu cơ hoàn toàn không?",
+      "answer": "Không bắt buộc tuyệt đối, nhưng các tiêu chuẩn dược liệu sạch như VietGAP, GACP-WHO đều khuyến khích ưu tiên hữu cơ và hạn chế tối đa phân vô cơ để giảm tồn dư. Với dược liệu hướng xuất khẩu hoặc thu mua giá tốt, việc giảm phụ thuộc phân hóa học gần như là yêu cầu bắt buộc."
+    },
+    {
+      "question": "Bón NPK sai cách gây hại gì cho cây dược liệu?",
+      "answer": "Bón quá liều hoặc sai tỷ lệ N-P-K theo giai đoạn có thể khiến cây phát triển thân lá quá mức mà củ/rễ kém chắc, hoặc gây sót rễ, cháy lá nếu bón nồng độ quá đậm đặc. Dùng đúng liều khuyến cáo, chia nhỏ nhiều lần và ưu tiên kali ở giai đoạn nuôi củ sẽ giúp cây phát triển cân đối hơn."
+    }
+  ]
+}

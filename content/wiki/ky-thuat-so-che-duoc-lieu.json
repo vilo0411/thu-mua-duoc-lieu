@@ -1,0 +1,61 @@
+{
+  "id": "ky-thuat-so-che-duoc-lieu",
+  "slug": "ky-thuat-so-che-duoc-lieu-tong-quan",
+  "title": "Kỹ thuật sơ chế dược liệu: tổng quan các phương pháp phổ biến",
+  "seoTitle": "Kỹ thuật sơ chế dược liệu: tổng quan phương pháp",
+  "category": "Chế biến sau thu hoạch",
+  "author": "Nguyễn Viết Lộc",
+  "readTime": "6 phút đọc",
+  "date": "10/08/2026",
+  "excerpt": "Sơ chế đúng cách quyết định dược liệu giữ được hoạt chất và đạt chuẩn thu mua hay không. Tôi tổng hợp lại các nhóm phương pháp sơ chế phổ biến và dẫn tới bài chi tiết từng cách để bà con tra cứu nhanh.",
+  "image": "/images/kien-thuc/ky-thuat-so-che-duoc-lieu.webp",
+  "contentSections": [
+    {
+      "heading": "1. Sơ chế dược liệu gồm những hướng nào?",
+      "paragraphs": [
+        "Sơ chế là bước xử lý dược liệu ngay sau thu hoạch để loại bỏ tạp chất, ổn định chất lượng và chuẩn bị cho bảo quản hoặc chế biến tiếp theo. Về cơ bản, sơ chế chia thành hai hướng: sơ chế khô (làm giảm độ ẩm) và sơ chế ướt (dùng nước, rượu hoặc các dung dịch khác để xử lý).",
+        "Chọn hướng sơ chế nào phụ thuộc vào loại dược liệu, mục đích sử dụng (làm thuốc sắc, ngâm rượu, hay bán thô) và điều kiện thực tế của cơ sở."
+      ],
+      "highlight": "Sơ chế sai cách là nguyên nhân phổ biến nhất khiến dược liệu bị mất giá trị — dù trồng trọt và chăm sóc rất tốt, chỉ cần sơ chế ẩu là hoạt chất hao hụt, dễ mốc và bị đầu mối thu mua từ chối."
+    },
+    {
+      "heading": "2. Sơ chế khô: làm khô dược liệu",
+      "paragraphs": [
+        "Nhóm phương pháp làm khô gồm nhiều cách khác nhau tùy điều kiện: phơi âm can (phơi trong bóng râm), phơi nắng trực tiếp, sấy nhiệt bằng máy sấy, và sao vàng bằng nhiệt trực tiếp trên chảo/nồi. Mỗi cách phù hợp với loại dược liệu và mục đích sử dụng khác nhau — xem chi tiết tại bài [phơi âm can, phơi nắng và sấy nhiệt](/kien-thuc/ky-thuat-say-duoc-lieu) và [sao vàng hạ thổ](/kien-thuc/sao-vang-ha-tho).",
+        "Nguyên tắc chung khi làm khô là giảm độ ẩm xuống mức an toàn (thường dưới 12%) mà không làm mất quá nhiều hoạt chất hay đổi màu, đổi mùi tự nhiên của dược liệu."
+      ]
+    },
+    {
+      "heading": "3. Sơ chế ướt: ngâm, ủ và lên men",
+      "paragraphs": [
+        "Nhóm sơ chế ướt dùng nước hoặc các dung dịch (rượu, giấm, nước gạo) để ngâm, khử bớt độc tính hoặc làm dịu bớt tính dược liệu trước khi dùng — chi tiết xem tại bài [ngâm sơ chế dược liệu: rượu, giấm, nước gạo](/kien-thuc/ngam-so-che-duoc-lieu).",
+        "Một số dược liệu còn được xử lý qua bước ủ hoặc lên men để chuyển hóa hoạt chất, tăng hiệu quả sử dụng — xem thêm tại [kỹ thuật ủ và lên men dược liệu](/kien-thuc/ky-thuat-u-len-men)."
+      ]
+    },
+    {
+      "heading": "4. Chọn phương pháp sơ chế nào cho phù hợp",
+      "paragraphs": [
+        "Với dược liệu chứa tinh dầu, dễ bay hơi hoạt chất khi gặp nhiệt cao (như bạc hà, hương nhu), nên ưu tiên phơi âm can hoặc sấy nhiệt độ thấp thay vì phơi nắng gắt hay sao vàng ở nhiệt cao.",
+        "Với củ, rễ dày cần giảm bớt độc tính hoặc tăng công dụng theo kinh nghiệm y học cổ truyền, các bước ngâm, sao vàng hoặc chế biến kỹ thuật hơn thường được áp dụng trước khi làm khô hoàn toàn.",
+        "Sau khi sơ chế xong, dược liệu cần được bảo quản đúng cách để giữ chất lượng lâu dài — xem thêm tại [phương pháp bảo quản dược liệu](/kien-thuc/bao-quan-duoc-lieu)."
+      ]
+    }
+  ],
+  "pitfall": {
+    "body": "Sơ chế xong nhưng không bảo quản đúng cách ngay sau đó! Nhiều lô dược liệu đã làm khô đạt chuẩn nhưng do đóng gói, cất trữ sai cách (ẩm, không kín) mà bị mốc trở lại chỉ sau vài tuần. Sơ chế và bảo quản là hai bước liền mạch, không thể xem nhẹ bước nào."
+  },
+  "faq": [
+    {
+      "question": "Sơ chế khô hay sơ chế ướt tốt hơn?",
+      "answer": "Không có cách nào 'tốt hơn' tuyệt đối — tùy vào loại dược liệu và mục đích sử dụng. Phần lớn dược liệu bán thô, sắc thuốc cần sơ chế khô để bảo quản lâu; một số dược liệu dùng ngâm rượu hoặc cần giảm độc tính lại cần qua bước sơ chế ướt trước khi làm khô."
+    },
+    {
+      "question": "Vì sao cùng một loại dược liệu lại có nhiều cách sơ chế khác nhau?",
+      "answer": "Vì mục đích sử dụng cuối cùng khác nhau: cùng một dược liệu có thể phơi khô để bán thô, sao vàng để dùng sắc thuốc theo y học cổ truyền, hoặc ngâm rượu để dùng trực tiếp. Mỗi cách sơ chế cho ra thành phẩm với đặc tính và công dụng hơi khác nhau."
+    },
+    {
+      "question": "Làm sao biết dược liệu đã sơ chế đạt chuẩn để bán?",
+      "answer": "Dấu hiệu cơ bản là dược liệu khô đều, không còn ẩm bên trong, giữ màu sắc và mùi hương tự nhiên đặc trưng, không có dấu hiệu mốc, mối mọt. Với số lượng lớn, nên tham khảo tiêu chuẩn độ ẩm cụ thể cho từng loại dược liệu và trao đổi trước với đầu mối thu mua về yêu cầu chất lượng."
+    }
+  ]
+}

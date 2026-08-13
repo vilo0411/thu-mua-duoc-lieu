@@ -1,0 +1,59 @@
+{
+  "id": "ngam-so-che-duoc-lieu",
+  "slug": "ngam-so-che-duoc-lieu-ruou-giam-nuoc-gao",
+  "title": "Ngâm sơ chế dược liệu: rượu, giấm và nước gạo dùng khi nào",
+  "seoTitle": "Ngâm sơ chế dược liệu: rượu, giấm, nước gạo",
+  "category": "Chế biến sau thu hoạch",
+  "author": "Nguyễn Viết Lộc",
+  "readTime": "6 phút đọc",
+  "date": "12/08/2026",
+  "excerpt": "Ngâm rượu, giấm hay nước gạo là các bước sơ chế quen thuộc trong y học cổ truyền, mỗi cách phù hợp với một mục đích riêng. Tôi tổng hợp lại đặc điểm và cách dùng cơ bản của từng phương pháp.",
+  "image": "/images/kien-thuc/ngam-so-che-duoc-lieu.webp",
+  "contentSections": [
+    {
+      "heading": "1. Vì sao cần ngâm sơ chế trước khi dùng?",
+      "paragraphs": [
+        "Nhiều dược liệu ở dạng thô có thể chứa vị hăng, độc tính nhẹ hoặc tính vị quá mạnh, cần qua bước ngâm với rượu, giấm hoặc nước gạo để làm dịu bớt trước khi sử dụng hoặc chế biến tiếp theo — đây là kinh nghiệm chế biến quen thuộc trong y học cổ truyền.",
+        "Mỗi loại dung dịch ngâm có tác dụng khác nhau, không thể dùng thay thế lẫn nhau tùy tiện mà cần theo đúng cách chế biến truyền thống của từng loại dược liệu."
+      ],
+      "highlight": "Ngâm sơ chế là bước chuẩn bị, không phải bước cuối cùng — sau khi ngâm, dược liệu thường vẫn cần làm khô hoặc chế biến thêm trước khi dùng, trừ trường hợp ngâm rượu thành phẩm để uống trực tiếp."
+    },
+    {
+      "heading": "2. Ngâm rượu dược liệu",
+      "paragraphs": [
+        "Ngâm rượu dùng để chiết xuất hoạt chất tan trong cồn từ dược liệu, tạo thành rượu thuốc dùng theo kinh nghiệm dân gian, đồng thời rượu còn có tác dụng bảo quản, hạn chế vi sinh vật phát triển.",
+        "Nguyên tắc cơ bản: dược liệu cần làm sạch, để ráo hoặc sơ chế sơ bộ trước khi ngâm; tỷ lệ dược liệu và độ rượu phù hợp theo từng loại; ngâm đủ thời gian (thường vài tuần đến vài tháng) ở nơi thoáng mát, tránh ánh nắng trực tiếp."
+      ]
+    },
+    {
+      "heading": "3. Ngâm giấm dược liệu",
+      "paragraphs": [
+        "Ngâm giấm thường dùng để làm dịu bớt tính táo, giảm bớt độc tính nhẹ ở một số dược liệu, đồng thời hỗ trợ khử mùi hăng đặc trưng của dược liệu tươi. Sau khi ngâm giấm, dược liệu thường được vớt ra, làm khô hoặc chế biến tiếp theo công thức riêng."
+      ]
+    },
+    {
+      "heading": "4. Ngâm nước gạo khử độc",
+      "paragraphs": [
+        "Ngâm nước gạo (thường là nước vo gạo) là cách chế biến dân gian phổ biến để khử bớt độc tính hoặc vị đắng, hăng của một số dược liệu thô trước khi dùng, đặc biệt với các loại củ có tính chát, độc nhẹ nếu dùng sống.",
+        "Thời gian ngâm và số lần thay nước tùy loại dược liệu, thường ngâm tới khi nước ngâm trong hơn, dược liệu bớt vị hăng gắt ban đầu."
+      ]
+    }
+  ],
+  "pitfall": {
+    "body": "Ngâm sai loại dung dịch hoặc rút ngắn thời gian ngâm để làm nhanh! Mỗi dược liệu có cách chế biến truyền thống riêng — dùng sai loại dung dịch ngâm (giấm thay vì nước gạo, hoặc ngược lại) hoặc ngâm chưa đủ thời gian có thể không khử hết độc tính hoặc vị hăng cần thiết. Nên tìm hiểu đúng cách chế biến truyền thống cho từng loại dược liệu cụ thể trước khi làm."
+  },
+  "faq": [
+    {
+      "question": "Ngâm rượu và ngâm giấm khác nhau về mục đích thế nào?",
+      "answer": "Ngâm rượu chủ yếu để chiết xuất hoạt chất tạo rượu thuốc dùng trực tiếp, còn ngâm giấm thường là bước sơ chế trung gian nhằm làm dịu tính vị hoặc giảm độc tính nhẹ trước khi dược liệu được chế biến tiếp (làm khô, sao vàng...). Hai cách phục vụ mục đích khác nhau nên không thay thế lẫn nhau."
+    },
+    {
+      "question": "Vì sao dân gian hay dùng nước vo gạo để ngâm dược liệu?",
+      "answer": "Nước vo gạo có tính chất giúp làm dịu bớt vị hăng, chát và hỗ trợ khử một phần độc tính nhẹ ở một số dược liệu thô theo kinh nghiệm dân gian lâu đời, đồng thời dễ kiếm, chi phí gần như bằng không so với các dung dịch chuyên biệt khác."
+    },
+    {
+      "question": "Ngâm rượu dược liệu bao lâu thì dùng được?",
+      "answer": "Tùy loại dược liệu và mục đích sử dụng, thời gian ngâm phổ biến từ vài tuần tới vài tháng để hoạt chất chiết ra đủ và rượu đạt màu, mùi vị ổn định. Nên tham khảo công thức chế biến truyền thống cụ thể cho từng loại dược liệu, không nên dùng sớm khi rượu thuốc chưa ngâm đủ thời gian khuyến cáo."
+    }
+  ]
+}

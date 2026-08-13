@@ -1,0 +1,54 @@
+{
+  "id": "benh-kham-la",
+  "slug": "benh-kham-la-cay-duoc-lieu-nguyen-nhan-cach-tri",
+  "title": "Bệnh khảm lá ở cây dược liệu: nguyên nhân và cách xử lý",
+  "seoTitle": "Bệnh khảm lá cây dược liệu: nguyên nhân, cách trị",
+  "category": "Phòng trừ sâu bệnh",
+  "author": "Nguyễn Viết Lộc",
+  "readTime": "5 phút đọc",
+  "date": "08/08/2026",
+  "excerpt": "Khảm lá là bệnh do virus, hiện chưa có thuốc trị đặc hiệu nên phòng là chính. Tôi tổng hợp lại dấu hiệu nhận biết, đường lây và các biện pháp hạn chế bệnh khảm lá lây lan trong vườn dược liệu.",
+  "image": "/images/kien-thuc/benh-kham-la.webp",
+  "contentSections": [
+    {
+      "heading": "1. Bệnh khảm lá là gì?",
+      "paragraphs": [
+        "Khảm lá là bệnh do virus gây ra, biểu hiện đặc trưng là lá loang lổ xen kẽ các mảng xanh đậm – xanh nhạt (hoặc vàng) không đều màu như hình khảm, phiến lá thường nhăn nheo, biến dạng và cây chậm phát triển.",
+        "Khác với các bệnh do nấm, vi khuẩn có thể xử lý bằng thuốc, bệnh do virus như khảm lá hiện chưa có thuốc đặc trị hiệu quả — biện pháp chính là phòng ngừa và loại bỏ sớm cây bệnh để hạn chế lây lan."
+      ],
+      "highlight": "Dấu hiệu nhận biết: lá loang màu không đều kiểu 'khảm' (đậm nhạt xen kẽ), phiến lá nhăn, cây còi cọc dần theo thời gian dù không thấy đốm nấm hay côn trùng rõ rệt."
+    },
+    {
+      "heading": "2. Đường lây bệnh",
+      "paragraphs": [
+        "Virus gây khảm lá lây chủ yếu qua côn trùng chích hút (rệp, bọ trĩ...) mang virus từ cây bệnh sang cây khỏe, qua dụng cụ cắt tỉa dùng chung không khử trùng, và qua cây giống nhân vô tính (giâm, chiết) từ cây mẹ đã nhiễm bệnh.",
+        "Vì lây qua giống vô tính, một cây mẹ nhiễm khảm lá có thể khiến toàn bộ lô cây con giâm/chiết từ cây đó đều mang bệnh mà không biểu hiện ngay từ đầu."
+      ]
+    },
+    {
+      "heading": "3. Cách phòng và hạn chế lây lan",
+      "paragraphs": [
+        "Chọn giống sạch bệnh ngay từ đầu: không lấy cành giâm, chiết từ cây mẹ có dấu hiệu khảm lá, dù chỉ nghi ngờ nhẹ.",
+        "Kiểm soát côn trùng trung gian (rệp, bọ trĩ) vì đây là đường lây chính — vườn thông thoáng, kiểm tra định kỳ giúp phát hiện côn trùng sớm trước khi chúng phát tán virus rộng.",
+        "Khử trùng dụng cụ cắt tỉa giữa các cây, đặc biệt khi vừa thao tác trên cây nghi bệnh. Cây đã biểu hiện khảm lá rõ nên nhổ bỏ, tiêu hủy sớm để bảo vệ cả vườn, không nên giữ lại vì thương tiếc vì virus không chữa khỏi."
+      ]
+    }
+  ],
+  "pitfall": {
+    "body": "Tiếp tục nhân giống vô tính từ cây đã nhiễm khảm lá! Vì bệnh do virus lây qua giống vô tính, việc giâm/chiết từ cây mẹ bệnh sẽ nhân rộng bệnh ra toàn bộ lứa cây con mới — thiệt hại còn lớn hơn nhiều so với việc bỏ đi một cây mẹ. Luôn kiểm tra kỹ cây mẹ trước khi lấy giống, dù chỉ nghi ngờ cũng nên tránh."
+  },
+  "faq": [
+    {
+      "question": "Bệnh khảm lá có thuốc trị không?",
+      "answer": "Hiện chưa có thuốc đặc trị hiệu quả cho bệnh virus như khảm lá. Hướng xử lý thực tế là phòng ngừa lây lan (kiểm soát côn trùng trung gian, chọn giống sạch, khử trùng dụng cụ) và loại bỏ sớm cây đã nhiễm bệnh rõ để bảo vệ các cây còn lại."
+    },
+    {
+      "question": "Cây bị khảm lá nhẹ có nên giữ lại không?",
+      "answer": "Không nên, dù biểu hiện còn nhẹ. Virus không tự khỏi và cây vẫn là nguồn lây cho côn trùng trung gian mang sang cây khác, đồng thời không nên dùng làm cây mẹ để nhân giống. Loại bỏ sớm giúp hạn chế thiệt hại lan rộng ra cả vườn."
+    },
+    {
+      "question": "Làm sao biết cây giống mới mua có sạch bệnh khảm lá không?",
+      "answer": "Nên quan sát kỹ lá cây giống trước khi mua, tìm dấu hiệu loang màu bất thường kiểu khảm. Với số lượng lớn, nên mua từ cơ sở giống uy tín có kiểm soát chất lượng, tương tự lưu ý khi chọn giống nuôi cấy mô, và theo dõi thêm một thời gian sau khi trồng trước khi dùng làm cây mẹ nhân tiếp."
+    }
+  ]
+}

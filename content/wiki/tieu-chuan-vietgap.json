@@ -1,0 +1,62 @@
+{
+  "id": "tieu-chuan-vietgap",
+  "slug": "tieu-chuan-vietgap-cho-cay-duoc-lieu",
+  "title": "Tiêu chuẩn VietGAP cho cây dược liệu: yêu cầu và cách xin chứng nhận",
+  "seoTitle": "Tiêu chuẩn VietGAP cho cây dược liệu",
+  "category": "Tiêu chuẩn & kiểm định",
+  "author": "Nguyễn Viết Lộc",
+  "readTime": "6 phút đọc",
+  "date": "15/08/2026",
+  "excerpt": "VietGAP là tiêu chuẩn thực hành nông nghiệp tốt phổ biến nhất tại Việt Nam, áp dụng được cho cả cây dược liệu. Tôi tổng hợp lại VietGAP là gì, khác gì GACP-WHO và hộ trồng nên bắt đầu từ đâu để xin chứng nhận.",
+  "image": "/images/kien-thuc/tieu-chuan-vietgap.webp",
+  "contentSections": [
+    {
+      "heading": "1. Tiêu chuẩn VietGAP là gì?",
+      "paragraphs": [
+        "VietGAP (Vietnamese Good Agricultural Practices — Thực hành sản xuất nông nghiệp tốt tại Việt Nam) là bộ tiêu chuẩn trong nước quy định nguyên tắc, trình tự sản xuất an toàn, kiểm soát từ giống, đất, nước, phân bón, thuốc bảo vệ thực vật tới thu hoạch, đảm bảo sản phẩm an toàn và có thể truy xuất nguồn gốc.",
+        "VietGAP ban đầu phổ biến với rau, quả nhưng hoàn toàn áp dụng được cho cây dược liệu, đặc biệt phù hợp với hộ trồng và hợp tác xã quy mô vừa muốn có chứng nhận chính thức trong nước với chi phí, thủ tục nhẹ nhàng hơn tiêu chuẩn quốc tế."
+      ],
+      "highlight": "Khác với [GACP-WHO](/kien-thuc/tieu-chuan-gacp) là hướng dẫn chuyên biệt cho dược liệu do Tổ chức Y tế Thế giới ban hành, VietGAP là tiêu chuẩn nông nghiệp nói chung của Việt Nam — hai tiêu chuẩn có nhiều điểm tương đồng về nguyên tắc kiểm soát an toàn, và một vùng trồng có thể hướng tới cả hai tùy mục tiêu thị trường."
+    },
+    {
+      "heading": "2. VietGAP gồm những yêu cầu chính nào",
+      "paragraphs": [
+        "Kiểm soát đầu vào: giống rõ nguồn gốc, đất và nước tưới được đánh giá không ô nhiễm, khu vực sản xuất tách biệt nguồn ô nhiễm.",
+        "Kiểm soát canh tác: sử dụng phân bón, thuốc bảo vệ thực vật đúng danh mục cho phép, đúng liều và thời gian cách ly, có ghi chép nhật ký sử dụng.",
+        "Kiểm soát sau thu hoạch: thu hoạch, sơ chế, đóng gói, bảo quản và vận chuyển đảm bảo vệ sinh, hạn chế nhiễm bẩn chéo.",
+        "Truy xuất nguồn gốc: toàn bộ quá trình cần ghi chép đầy đủ để có thể truy vết ngược từ sản phẩm về tận vườn trồng khi cần."
+      ]
+    },
+    {
+      "heading": "3. Quy trình xin chứng nhận VietGAP",
+      "paragraphs": [
+        "Bước cơ bản gồm: đăng ký với tổ chức chứng nhận được công nhận, xây dựng và áp dụng quy trình sản xuất theo yêu cầu VietGAP, ghi chép nhật ký đầy đủ trong quá trình canh tác, sau đó tổ chức chứng nhận đánh giá thực tế tại vườn và cấp giấy chứng nhận nếu đạt yêu cầu.",
+        "Chứng nhận VietGAP có thời hạn và cần đánh giá lại định kỳ, không phải xin một lần dùng mãi mãi — vùng trồng cần duy trì đúng quy trình liên tục để giữ chứng nhận qua các lần tái đánh giá."
+      ]
+    },
+    {
+      "heading": "4. Hộ trồng nhỏ nên bắt đầu từ đâu",
+      "paragraphs": [
+        "Tương tự hướng chuẩn bị cho GACP-WHO, hộ trồng nhỏ có thể bắt đầu bằng việc ghi nhật ký canh tác đầy đủ, dùng giống rõ nguồn gốc, hạn chế và ghi chép việc dùng thuốc bảo vệ thực vật. Đây là nền tảng chung cho cả VietGAP lẫn các tiêu chuẩn khác.",
+        "Vì chi phí và thủ tục xin chứng nhận không nhỏ với một hộ đơn lẻ, nên cân nhắc liên kết theo hợp tác xã hoặc nhóm hộ để cùng xây dựng quy trình và chia sẻ chi phí đánh giá, chứng nhận."
+      ]
+    }
+  ],
+  "pitfall": {
+    "body": "Áp dụng quy trình VietGAP trên giấy nhưng thực tế canh tác không đúng! Một số vùng trồng có hồ sơ, nhật ký đầy đủ nhưng thực tế sử dụng thuốc bảo vệ thực vật ngoài danh mục hoặc không đúng liều. Khi tổ chức chứng nhận hoặc khách hàng kiểm tra thực tế phát hiện sai lệch, chứng nhận có thể bị thu hồi và mất uy tín lâu dài. Quy trình và thực tế canh tác phải luôn khớp nhau."
+  },
+  "faq": [
+    {
+      "question": "VietGAP và GACP-WHO nên chọn tiêu chuẩn nào trước?",
+      "answer": "Nếu hướng tới thị trường trong nước và muốn có chứng nhận với chi phí, thủ tục nhẹ hơn, VietGAP là lựa chọn hợp lý để bắt đầu. Nếu mục tiêu là bán cho nhà máy đông dược lớn hoặc hướng xuất khẩu, nên tìm hiểu thêm GACP-WHO vì đây là tiêu chuẩn chuyên biệt cho dược liệu được nhiều nhà máy yêu cầu. Một vùng trồng cũng có thể xây dựng nền tảng chung rồi hướng tới cả hai."
+    },
+    {
+      "question": "Chứng nhận VietGAP có thời hạn bao lâu?",
+      "answer": "Chứng nhận VietGAP có thời hạn nhất định và cần đánh giá lại định kỳ để gia hạn, không phải xin một lần là dùng vĩnh viễn. Vùng trồng cần duy trì đúng quy trình sản xuất liên tục, không chỉ trong giai đoạn chuẩn bị xin chứng nhận ban đầu, để đảm bảo qua được các lần tái đánh giá."
+    },
+    {
+      "question": "Chi phí xin chứng nhận VietGAP có cao không?",
+      "answer": "Chi phí phụ thuộc quy mô vùng trồng, tổ chức chứng nhận và mức độ hoàn thiện sẵn có của quy trình canh tác. Với hộ trồng đơn lẻ, chi phí trên đầu người sẽ cao hơn nhiều so với liên kết theo hợp tác xã hoặc nhóm hộ cùng xin chứng nhận chung, vì có thể chia sẻ chi phí đánh giá và xây dựng quy trình."
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+/import React, { useState } from "react";
 import { ArrowDown } from "lucide-react";
 import type { HerbGroup, HerbTechnique } from "../../types";
 
@@ -338,43 +338,43 @@ export const GrowthTimeline: React.FC<GrowthTimelineProps> = ({ technique: t, gr
   const stageLabels: [string, string][] =
     group === "cu-re"
       ? [
-          ["Hạt/hom giống", `${t.propagation.join(", ")} · mật độ ${t.density}`],
-          ["Xuống giống", t.season],
-          ["Cây con bén rễ", `Đất ${t.soil}, pH ${t.ph}`],
-          ["Củ phình to dưới đất", "Tưới, bón phân hữu cơ, vun gốc giữ ẩm cho củ"],
-          ["Đào củ thu hoạch", `Sau ${t.harvestTime} · năng suất ${t.yield}`],
-        ]
+        ["Hạt/hom giống", `${t.propagation.join(", ")} · mật độ ${t.density}`],
+        ["Xuống giống", t.season],
+        ["Cây con bén rễ", `Đất ${t.soil}, pH ${t.ph}`],
+        ["Củ phình to dưới đất", "Tưới, bón phân hữu cơ, vun gốc giữ ẩm cho củ"],
+        ["Đào củ thu hoạch", `Sau ${t.harvestTime} · năng suất ${t.yield}`],
+      ]
       : group === "nam"
         ? [
-            ["Cấy giống/bào tử", `${t.propagation.join(", ")} · mật độ ${t.density}`],
-            ["Ủ tơ trên giá thể", t.season],
-            ["Nấm nhú thể quả", `Giá thể ${t.soil}, độ ẩm phù hợp`],
-            ["Thể quả phát triển", "Giữ ẩm, thoáng khí, tránh ánh nắng trực tiếp"],
-            ["Hái nấm thu hoạch", `Sau ${t.harvestTime} · năng suất ${t.yield}`],
-          ]
+          ["Cấy giống/bào tử", `${t.propagation.join(", ")} · mật độ ${t.density}`],
+          ["Ủ tơ trên giá thể", t.season],
+          ["Nấm nhú thể quả", `Giá thể ${t.soil}, độ ẩm phù hợp`],
+          ["Thể quả phát triển", "Giữ ẩm, thoáng khí, tránh ánh nắng trực tiếp"],
+          ["Hái nấm thu hoạch", `Sau ${t.harvestTime} · năng suất ${t.yield}`],
+        ]
         : group === "vo"
           ? [
-              ["Giống & ươm cây", `${t.propagation.join(", ")} · mật độ ${t.density}`],
-              ["Trồng cây con", t.season],
-              ["Cây phát triển tán", `Đất ${t.soil}, pH ${t.ph}`],
-              ["Thân đủ tuổi lấy vỏ", "Tưới, bón phân hữu cơ, tỉa cành tạo tán"],
-              ["Bóc vỏ thu hoạch", `Sau ${t.harvestTime} · năng suất ${t.yield}`],
-            ]
+            ["Giống & ươm cây", `${t.propagation.join(", ")} · mật độ ${t.density}`],
+            ["Trồng cây con", t.season],
+            ["Cây phát triển tán", `Đất ${t.soil}, pH ${t.ph}`],
+            ["Thân đủ tuổi lấy vỏ", "Tưới, bón phân hữu cơ, tỉa cành tạo tán"],
+            ["Bóc vỏ thu hoạch", `Sau ${t.harvestTime} · năng suất ${t.yield}`],
+          ]
           : group === "than"
             ? [
-                ["Hạt giống & nhân giống", `${t.propagation.join(", ")} · mật độ ${t.density}`],
-                ["Xuống giống", t.season],
-                ["Bụi cây bén rễ", `Đất ${t.soil}, pH ${t.ph}`],
-                ["Thân, cành phát triển", "Tưới, bón phân hữu cơ, làm cỏ, phòng sâu bệnh"],
-                ["Cắt cành thu hoạch", `Sau ${t.harvestTime} · năng suất ${t.yield}`],
-              ]
+              ["Hạt giống & nhân giống", `${t.propagation.join(", ")} · mật độ ${t.density}`],
+              ["Xuống giống", t.season],
+              ["Bụi cây bén rễ", `Đất ${t.soil}, pH ${t.ph}`],
+              ["Thân, cành phát triển", "Tưới, bón phân hữu cơ, làm cỏ, phòng sâu bệnh"],
+              ["Cắt cành thu hoạch", `Sau ${t.harvestTime} · năng suất ${t.yield}`],
+            ]
             : [
-                ["Hạt giống & nhân giống", `${t.propagation.join(", ")} · mật độ ${t.density}`],
-                ["Xuống giống", t.season],
-                ["Cây con bén rễ", `Đất ${t.soil}, pH ${t.ph}`],
-                ["Sinh trưởng, tích dược tính", "Tưới, bón phân hữu cơ, làm cỏ, phòng sâu bệnh"],
-                ["Thu hoạch", `Sau ${t.harvestTime} · năng suất ${t.yield}`],
-              ];
+              ["Hạt giống & nhân giống", `${t.propagation.join(", ")} · mật độ ${t.density}`],
+              ["Xuống giống", t.season],
+              ["Cây con bén rễ", `Đất ${t.soil}, pH ${t.ph}`],
+              ["Sinh trưởng, tích dược tính", "Tưới, bón phân hữu cơ, làm cỏ, phòng sâu bệnh"],
+              ["Thu hoạch", `Sau ${t.harvestTime} · năng suất ${t.yield}`],
+            ];
 
   const stages = stageLabels.map(([label, caption]) => ({ label, caption }));
   const [active, setActive] = useState(0);
@@ -409,18 +409,16 @@ export const GrowthTimeline: React.FC<GrowthTimelineProps> = ({ technique: t, gr
               className="relative z-10 flex flex-col items-center gap-1.5 cursor-pointer group flex-1"
             >
               <span
-                className={`${NODE_SIZES[i]} rounded-full flex items-center justify-center border-2 transition-all shrink-0 ${
-                  isPast ? "bg-terracotta border-terracotta text-white" : "bg-white border-[#E6DDD0] text-gray-400 group-hover:border-terracotta/50"
-                } ${isActive ? "ring-4 ring-terracotta/20" : ""}`}
+                className={`${NODE_SIZES[i]} rounded-full flex items-center justify-center border-2 transition-all shrink-0 ${isPast ? "bg-terracotta border-terracotta text-white" : "bg-white border-[#E6DDD0] text-gray-400 group-hover:border-terracotta/50"
+                  } ${isActive ? "ring-4 ring-terracotta/20" : ""}`}
               >
                 <svg viewBox="0 0 64 64" className="w-2/3 h-2/3">
                   <PlantGlyph group={group} stage={i} />
                 </svg>
               </span>
               <span
-                className={`hidden sm:block text-[10.5px] font-sans font-semibold text-center leading-tight px-1 ${
-                  isActive ? "text-terracotta" : "text-gray-500"
-                }`}
+                className={`hidden sm:block text-[10.5px] font-sans font-semibold text-center leading-tight px-1 ${isActive ? "text-terracotta" : "text-gray-500"
+                  }`}
               >
                 {s.label}
               </span>

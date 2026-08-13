@@ -1,0 +1,67 @@
+{
+  "id": "ky-thuat-trong-cay-duoc-lieu",
+  "slug": "ky-thuat-trong-va-cham-soc-cay-duoc-lieu",
+  "title": "Kỹ thuật trồng và chăm sóc cây dược liệu: quy trình tổng quan",
+  "seoTitle": "Kỹ thuật trồng và chăm sóc cây dược liệu",
+  "category": "Kỹ thuật gieo trồng",
+  "author": "Nguyễn Viết Lộc",
+  "readTime": "6 phút đọc",
+  "date": "04/08/2026",
+  "excerpt": "Trồng dược liệu đạt chuẩn thu mua là một chuỗi các bước liên kết nhau, từ chọn giống tới thu hoạch. Tôi tổng hợp lại quy trình tổng quan và dẫn tới các bài chi tiết từng khâu để bà con tra cứu nhanh.",
+  "image": "/images/kien-thuc/ky-thuat-trong-cay-duoc-lieu.webp",
+  "contentSections": [
+    {
+      "heading": "1. Tổng quan các bước trồng dược liệu",
+      "paragraphs": [
+        "Một chu trình trồng dược liệu cơ bản thường gồm 5 khâu chính: chọn và nhân giống, chuẩn bị đất/giá thể, bón phân theo giai đoạn, chăm sóc và phòng trừ sâu bệnh, và cuối cùng là thu hoạch – sơ chế – bảo quản. Mỗi khâu ảnh hưởng trực tiếp tới khâu sau, nên làm ẩu một bước sẽ kéo theo rủi ro cho cả vụ.",
+        "Bài này tổng hợp ngắn gọn từng khâu và dẫn link tới các bài kỹ thuật chi tiết, để bà con dễ tra cứu đúng phần mình đang cần."
+      ],
+      "highlight": "Nguyên tắc chung: đầu tư kỹ ở khâu giống và đất ngay từ đầu bao giờ cũng rẻ hơn và hiệu quả hơn việc chữa cháy sâu bệnh, còi cọc về sau."
+    },
+    {
+      "heading": "2. Chọn và nhân giống",
+      "paragraphs": [
+        "Tùy loại cây và điều kiện, có thể nhân giống bằng hạt (xem [cách ủ hạt giống](/kien-thuc/cach-u-hat-giong) và [cách ươm hạt giống](/kien-thuc/cach-uom-hat-giong)) hoặc nhân vô tính bằng [giâm, chiết, ghép cành](/kien-thuc/cach-giam-canh). Với diện tích lớn cần giống đồng đều, sạch bệnh, có thể cân nhắc giống từ [nuôi cấy mô](/kien-thuc/nuoi-cay-mo-te-bao).",
+        "Giống tốt là nền tảng của cả vụ — cây giống yếu, nhiễm bệnh từ đầu rất khó khắc phục về sau dù chăm sóc kỹ đến đâu."
+      ]
+    },
+    {
+      "heading": "3. Chuẩn bị đất, giá thể và bón phân",
+      "paragraphs": [
+        "Trước khi trồng, cần biết rõ [loại đất vườn nhà và các chỉ số cơ bản](/kien-thuc/dat-trong-cay-duoc-lieu), sau đó cải tạo và [phối trộn đất/giá thể theo tỷ lệ phù hợp](/kien-thuc/cach-tron-dat-trong-cay) — tham khảo thêm [giá thể là gì](/kien-thuc/gia-the-la-gi) nếu trồng trong chậu, bầu ươm.",
+        "Về dinh dưỡng, nên nắm cách [bón lót, bón thúc](/kien-thuc/cach-bon-lot-bon-thuc) theo từng giai đoạn và cách chọn [phân hữu cơ, trùn quế, vô cơ, NPK](/kien-thuc/phan-bon-cho-cay-duoc-lieu) phù hợp."
+      ]
+    },
+    {
+      "heading": "4. Chăm sóc: tưới nước, làm cỏ, phòng trừ sâu bệnh",
+      "paragraphs": [
+        "Trong giai đoạn sinh trưởng, cần duy trì độ ẩm phù hợp, kiểm soát cỏ dại đúng cách (xem [cách diệt cỏ dại](/kien-thuc/cach-diet-co-dai)) và theo dõi sát các dấu hiệu sâu bệnh để xử lý sớm — tham khảo [tổng quan sâu bệnh hại cây dược liệu](/kien-thuc/sau-benh-hai-cay-duoc-lieu) để nhận diện nhanh các bệnh thường gặp.",
+        "Phát hiện sớm luôn dễ xử lý và ít tốn kém hơn khi bệnh đã lan rộng — nên kiểm tra vườn định kỳ thay vì chỉ xử lý khi thấy cây có biểu hiện nặng."
+      ]
+    },
+    {
+      "heading": "5. Thu hoạch, sơ chế và tiêu chuẩn chất lượng",
+      "paragraphs": [
+        "Sau thu hoạch, dược liệu cần được sơ chế đúng cách (làm khô, phơi sấy hoặc các phương pháp sơ chế khác — xem [kỹ thuật sơ chế dược liệu](/kien-thuc/ky-thuat-so-che-duoc-lieu)) và bảo quản đúng chuẩn để giữ chất lượng, tránh hao hụt hoạt chất.",
+        "Với vùng trồng hướng thu mua giá tốt hoặc xuất khẩu, nên tìm hiểu sớm các tiêu chuẩn liên quan như VietGAP, GACP-WHO ngay từ khi lập vườn, vì tiêu chuẩn ảnh hưởng tới cả cách chọn giống, đất, phân bón chứ không chỉ khâu thu hoạch."
+      ]
+    }
+  ],
+  "pitfall": {
+    "body": "Chỉ tập trung một khâu mà bỏ qua các khâu còn lại! Nhiều hộ đầu tư rất kỹ cho giống nhưng lại xuề xòa ở khâu đất hoặc phơi sấy, khiến công sức đầu tư ban đầu mất giá trị. Cả 5 khâu — giống, đất/phân, chăm sóc, sâu bệnh, sơ chế — cần được coi trọng như nhau vì chỉ cần một khâu yếu là ảnh hưởng tới chất lượng cả lô hàng."
+  },
+  "faq": [
+    {
+      "question": "Người mới bắt đầu trồng dược liệu nên đọc theo thứ tự nào?",
+      "answer": "Nên bắt đầu từ khâu giống (cách ươm hạt hoặc giâm cành phù hợp với cây định trồng), sau đó tới chuẩn bị đất và phân bón, rồi mới tới chăm sóc và phòng trừ sâu bệnh. Việc nắm tiêu chuẩn chất lượng và cách sơ chế nên tìm hiểu song song ngay từ đầu, không nên để tới sát ngày thu hoạch mới tìm hiểu."
+    },
+    {
+      "question": "Trồng dược liệu có khác nhiều so với trồng rau, cây ăn quả không?",
+      "answer": "Về nguyên lý cơ bản (đất, nước, dinh dưỡng, sâu bệnh) là tương tự, nhưng dược liệu thường yêu cầu khắt khe hơn về tồn dư hóa chất và cách sơ chế bảo quản để giữ hoạt chất, vì sản phẩm cuối cùng liên quan tới sức khỏe người dùng. Đây là lý do các tiêu chuẩn như VietGAP, GACP-WHO đóng vai trò quan trọng hơn so với trồng rau thông thường."
+    },
+    {
+      "question": "Có cần áp dụng tất cả kỹ thuật trong bài này ngay từ vụ đầu tiên không?",
+      "answer": "Không nhất thiết phải hoàn hảo ngay từ đầu, nhưng nên nắm được bức tranh tổng thể trước khi trồng để tránh sai sót lớn khó sửa (như chọn sai loại đất, bỏ qua xử lý giá thể). Có thể vừa trồng vừa tối ưu dần từng khâu qua các vụ, dựa trên quan sát thực tế tại vườn nhà mình."
+    }
+  ]
+}
