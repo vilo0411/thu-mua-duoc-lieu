@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Bug, ChevronDown, Coins, Droplets, HelpCircle, Leaf, Package, Sprout } from "lucide-react";
 import { Link } from "react-router-dom";
 import { HERBS_DATA, WIKI_HUBS } from "../lib/data";
-import { Breadcrumb, FaqAccordion, LandingLink, PestList, ProcessSteps, StickyToc, TechConditionCards } from "../components/ui";
+import { Breadcrumb, FaqAccordion, GrowthTimeline, LandingLink, PestList, ProcessSteps, StickyToc, TechConditionCards } from "../components/ui";
 import { paths, asset } from "../lib/paths";
 import { Seo, hubSeo } from "../lib/seo";
 import { NotFoundPage } from "./NotFoundPage";
@@ -210,23 +210,13 @@ export const HubWikiPage: React.FC<{ herbSlug: string }> = ({ herbSlug }) => {
         </div>
       </section>
 
-      {/* Thông số nhanh — cho đọc lướt trên mobile mà không cần bung mục */}
-      <section aria-label="Thông số kỹ thuật nhanh" className="grid grid-cols-2 md:grid-cols-4 gap-3">
-        {[
-          { k: "Thời vụ trồng", v: t.season },
-          { k: "Đất phù hợp", v: t.soil },
-          { k: "Độ pH đất", v: t.ph },
-          { k: "Mật độ trồng", v: t.density },
-          { k: "Thời gian thu hoạch", v: t.harvestTime },
-          { k: "Năng suất tham khảo", v: t.yield },
-          { k: "Nhân giống", v: t.propagation.join(", ") },
-          { k: "Nhóm dược liệu", v: GROUP_LABEL[herb.group] ?? "dược liệu" },
-        ].map((it) => (
-          <div key={it.k} className="bg-white border border-line rounded-xl p-3.5">
-            <div className="text-[11px] font-sans font-semibold uppercase tracking-wide text-gray-500 mb-1">{it.k}</div>
-            <div className="text-sm font-sans font-medium text-ink-soft leading-snug">{it.v}</div>
-          </div>
-        ))}
+      {/* Hành trình sinh trưởng — dòng thời gian bấm được từ giống đến thu hoạch,
+          cho đọc lướt trực quan ngay trên đầu trang mà không cần bung mục nào. */}
+      <section aria-label="Hành trình sinh trưởng" className="bg-white border border-line rounded-2xl p-5 md:p-6">
+        <h2 className="font-serif text-lg font-bold text-ink-soft mb-4">
+          Hành trình từ giống đến thu hoạch {herb.name}
+        </h2>
+        <GrowthTimeline technique={t} group={herb.group} onSeeProcess={() => openAndScroll("sec-cham-soc")} />
       </section>
 
       {/* Main Content with Sticky TOC */}
@@ -270,7 +260,8 @@ export const HubWikiPage: React.FC<{ herbSlug: string }> = ({ herbSlug }) => {
           {/* 3. Chăm sóc đạt chuẩn (dữ liệu hub) */}
           <AccordionSection id="sec-cham-soc" icon={Droplets} title="Quy trình kiểm soát chất lượng & chăm sóc đạt chuẩn GACP-WHO" open={openSections.has("sec-cham-soc")} onToggle={toggle}>
             <p className="text-sm text-gray-600 font-sans">
-              Các mốc kiểm soát trong canh tác {herb.name} theo hướng hữu cơ, không tồn dư hóa chất:
+              Đây là quy trình đầy đủ cho từng giai đoạn ở "Hành trình từ giống đến thu hoạch" phía trên — mỗi mốc có
+              tiêu chí kỹ thuật cụ thể và cách xử lý theo hướng hữu cơ, không tồn dư hóa chất:
             </p>
             <ProcessSteps steps={hub.standards} />
           </AccordionSection>

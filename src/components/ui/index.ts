@@ -25,3 +25,4 @@ export { StickyToc } from "./StickyToc";
 export { RegionLinkCard } from "./RegionLinkCard";
 export { TechConditionCards } from "./TechConditionCards";
 export { ProcessSteps } from "./ProcessSteps";
+export { GrowthTimeline } from "./GrowthTimeline";
