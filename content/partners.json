@@ -21,6 +21,6 @@
       "Thanh toán qua chuyển khoản, có hợp đồng"
     ],
     "landingUrl": "https://thumuaduoclieu.vietmec.vn/",
-    "utmTemplate": "?utm_source=nguyenvietloc&utm_medium=blog&utm_campaign={cay}&utm_content={page_type}_{cta_position}#demand"
+    "utmTemplate": "?utm_source=nguyenvietloc&utm_medium=referral&utm_campaign={cay}&utm_content={page_type}_{cta_position}#demand"
   }
 ]

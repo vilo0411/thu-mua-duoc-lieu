@@ -10,7 +10,7 @@ const LEVEL_META: Record<HerbPest["level"], { label: string; className: string }
 };
 
 interface PestListProps {
-  pests: HerbPest[];
+  pests: { pestName: string; level?: HerbPest["level"]; symptom: string; remedy: string }[];
 }
 
 /**
@@ -21,7 +21,7 @@ export const PestList: React.FC<PestListProps> = ({ pests }) => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
       {pests.map((pest, idx) => {
-        const level = LEVEL_META[pest.level];
+        const level = pest.level ? LEVEL_META[pest.level] : undefined;
         return (
           <div key={idx} className="bg-white border border-[#E6DDD0] rounded-2xl p-5 shadow-xs flex flex-col gap-4">
             <div className="flex items-start justify-between gap-3">
@@ -29,11 +29,13 @@ export const PestList: React.FC<PestListProps> = ({ pests }) => {
                 <Bug className="w-5 h-5 text-[#B85037] shrink-0" />
                 {pest.pestName}
               </h3>
-              <span
-                className={`inline-flex shrink-0 px-2.5 py-1 rounded-full border text-xs font-bold font-sans ${level.className}`}
-              >
-                {level.label}
-              </span>
+              {level && (
+                <span
+                  className={`inline-flex shrink-0 px-2.5 py-1 rounded-full border text-xs font-bold font-sans ${level.className}`}
+                >
+                  {level.label}
+                </span>
+              )}
             </div>
 
             <div className="flex items-start gap-3">

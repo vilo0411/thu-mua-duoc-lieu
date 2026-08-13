@@ -2,16 +2,11 @@ import React, { useEffect, useState } from "react";
 import { Bug, ChevronDown, Coins, Droplets, HelpCircle, Leaf, Package, Sprout } from "lucide-react";
 import { Link } from "react-router-dom";
 import { HERBS_DATA, WIKI_HUBS } from "../lib/data";
-import { Breadcrumb, DataTable, FaqAccordion, LandingLink, StickyToc } from "../components/ui";
+import { Breadcrumb, FaqAccordion, LandingLink, PestList, ProcessSteps, StickyToc, TechConditionCards } from "../components/ui";
 import { paths, asset } from "../lib/paths";
 import { Seo, hubSeo } from "../lib/seo";
 import { NotFoundPage } from "./NotFoundPage";
-
-const PEST_LEVEL_LABEL: Record<string, string> = {
-  "rat-pho-bien": "Rất phổ biến",
-  "co-gap": "Có gặp",
-  hiem: "Hiếm",
-};
+import type { HerbPest } from "../types";
 
 const GROUP_LABEL: Record<string, string> = {
   "cu-re": "nhóm củ – rễ",
@@ -161,7 +156,7 @@ export const HubWikiPage: React.FC<{ herbSlug: string }> = ({ herbSlug }) => {
     ...herb.pests.map((p) => ({ name: p.pestName, level: p.level, symptom: p.symptom, remedy: p.remedy })),
     ...hub.pests
       .filter((hp) => !herb.pests.some((p) => p.pestName === hp.pestName))
-      .map((hp) => ({ name: hp.pestName, level: undefined as string | undefined, symptom: hp.symptoms, remedy: hp.remedy })),
+      .map((hp) => ({ name: hp.pestName, level: undefined as HerbPest["level"] | undefined, symptom: hp.symptoms, remedy: hp.remedy })),
   ];
 
   const allOpen = SECTION_IDS.every((id) => openSections.has(id));
@@ -269,21 +264,7 @@ export const HubWikiPage: React.FC<{ herbSlug: string }> = ({ herbSlug }) => {
             <p className="text-sm text-gray-600 font-sans">
               Các thông số canh tác cốt lõi để {herb.name} đạt năng suất và tích lũy hoạt chất tối ưu:
             </p>
-            <DataTable
-              headers={["Yếu tố canh tác", "Yêu cầu kỹ thuật"]}
-              rows={[
-                ["Thời vụ trồng", t.season],
-                ["Đất phù hợp", t.soil],
-                ["Độ pH đất", t.ph],
-                ["Mật độ trồng", t.density],
-                ["Cách nhân giống", t.propagation.join(", ")],
-                ["Thời gian thu hoạch", t.harvestTime],
-                ["Năng suất tham khảo", t.yield],
-              ].map(([k, v]) => [
-                <strong className="text-ink-soft font-sans">{k}</strong>,
-                <span className="text-ink">{v}</span>,
-              ])}
-            />
+            <TechConditionCards technique={t} />
           </AccordionSection>
 
           {/* 3. Chăm sóc đạt chuẩn (dữ liệu hub) */}
@@ -291,14 +272,7 @@ export const HubWikiPage: React.FC<{ herbSlug: string }> = ({ herbSlug }) => {
             <p className="text-sm text-gray-600 font-sans">
               Các mốc kiểm soát trong canh tác {herb.name} theo hướng hữu cơ, không tồn dư hóa chất:
             </p>
-            <DataTable
-              headers={["Giai đoạn canh tác", "Yêu cầu tiêu chuẩn kỹ thuật", "Phương pháp xử lý"]}
-              rows={hub.standards.map((s) => [
-                <strong className="text-ink-soft font-sans">{s.stage}</strong>,
-                s.criteria,
-                <span className="text-sm text-gray-600">{s.controlMethod}</span>,
-              ])}
-            />
+            <ProcessSteps steps={hub.standards} />
           </AccordionSection>
 
           {/* 4. Sâu bệnh */}
@@ -306,17 +280,7 @@ export const HubWikiPage: React.FC<{ herbSlug: string }> = ({ herbSlug }) => {
             <p className="text-sm text-gray-600 font-sans">
               Ưu tiên biện pháp sinh học, hạn chế tối đa thuốc bảo vệ thực vật hóa học để giữ dược tính sạch:
             </p>
-            <DataTable
-              headers={["Tên sâu bệnh", "Mức độ", "Triệu chứng nhận diện", "Phác đồ xử lý hữu cơ"]}
-              rows={pestRows.map((p) => [
-                <strong className="text-terracotta font-sans">{p.name}</strong>,
-                <span className="text-xs font-semibold text-ink-soft bg-sand px-2 py-0.5 rounded whitespace-nowrap">
-                  {p.level ? PEST_LEVEL_LABEL[p.level] ?? p.level : "—"}
-                </span>,
-                <span className="text-sm text-gray-600">{p.symptom}</span>,
-                <span className="text-sm text-ink">{p.remedy}</span>,
-              ])}
-            />
+            <PestList pests={pestRows.map((p) => ({ pestName: p.name, level: p.level, symptom: p.symptom, remedy: p.remedy }))} />
             <div className="pt-2 space-y-2">
               <p className="text-sm font-sans font-semibold text-ink-soft">Tra cứu bệnh & sâu hại thường gặp:</p>
               <div className="flex flex-wrap gap-2">

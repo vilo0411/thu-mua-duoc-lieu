@@ -364,7 +364,7 @@ type Partner = {
   is_featured: boolean;      // true cho VIETMEC
   trust_signals: string[];   // ["Mã DVM (HNX)", "Nhà máy GMP-WHO", ...]
   landing_url: string;       // external link
-  utm_template: string;      // "?utm_source=nguyenvietloc&utm_medium=blog&utm_campaign={cay}"
+  utm_template: string;      // "?utm_source=nguyenvietloc&utm_medium=referral&utm_campaign={cay}"
 };
 ```
 
@@ -523,7 +523,7 @@ Không dùng cùng 1 anchor text cho cùng 1 URL đích. Vary tự nhiên: "kỹ
 **Rule 7 — External link về landing:**
 - Chỉ money page + wiki tiêu chuẩn được link landing
 - Anchor text vary: "Gửi thông tin lô hàng", "Tham khảo VIETMEC", "Form đăng ký"
-- Kèm UTM: `?utm_source=nguyenvietloc&utm_medium=blog&utm_campaign={cay}&utm_content={page_type}`
+- Kèm UTM: `?utm_source=nguyenvietloc&utm_medium=referral&utm_campaign={cay}&utm_content={page_type}`
 - `rel="noopener"` (không nofollow — link tự nhiên)
 
 ### 8.4. Sitemap.xml
@@ -774,7 +774,7 @@ event('faq_expand', { question: string, page_url: string });
 Tất cả outbound link về VIETMEC landing phải có UTM:
 ```
 ?utm_source=nguyenvietloc
-&utm_medium=blog
+&utm_medium=referral
 &utm_campaign={cay_slug or 'general'}
 &utm_content={page_type}_{cta_position}
 &utm_term={vung_slug or ''}
