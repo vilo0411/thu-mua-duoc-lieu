@@ -155,8 +155,15 @@ export interface WebPageOpts {
   dateModified?: string;
   /** Thực thể chính trang nói về (vd Taxon của cây). */
   about?: string;
-  /** Node phụ thuộc trang: FAQPage, ItemList… */
+  /**
+   * Node con là CreativeWork (vd FAQPage). KHÔNG nhét ItemList vào đây:
+   * `hasPart` chỉ nhận CreativeWork, còn ItemList là Intangible → validator báo
+   * "ItemList không phải loại mục tiêu hợp lệ cho thuộc tính hasPart".
+   * Danh sách đi qua `mainEntity`.
+   */
   hasPart?: string[];
+  /** Thực thể chính của trang — nhận mọi Thing, nên ItemList khai ở đây. */
+  mainEntity?: string;
   primaryImage?: string;
 }
 
@@ -174,7 +181,8 @@ export function webPage(o: WebPageOpts): Json {
     datePublished: toIsoDate(o.datePublished),
     dateModified: toIsoDate(o.dateModified),
     about: o.about ? ref(o.about) : undefined,
-    hasPart: o.hasPart?.map(ref),
+    hasPart: o.hasPart?.length ? o.hasPart.map(ref) : undefined,
+    mainEntity: o.mainEntity ? ref(o.mainEntity) : undefined,
     // KHÔNG khai `speakable`: chỉ Google News/Assistant dùng, ở vài ngôn ngữ, nên
     // site này không được lợi gì — trong khi `cssSelector` (kiểu CssSelectorType)
     // luôn bị schema.org validator báo lỗi. Đoạn trả lời trực tiếp vẫn được đánh dấu

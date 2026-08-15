@@ -131,7 +131,8 @@ export function pillarSeo(): SeoProps {
         name: title,
         description,
         dateModified: SITE_LASTMOD,
-        hasPart: [ID.faq(path), ID.itemList(path)],
+        hasPart: [ID.faq(path)],
+        mainEntity: ID.itemList(path),
       }),
       ld.breadcrumbList(path, [
         { name: "Trang chủ", path: paths.home() },
@@ -346,7 +347,7 @@ export function knowledgeSeo(listItems: { name: string; path: string }[] = []): 
         name: title,
         description,
         dateModified: SITE_LASTMOD,
-        hasPart: listItems.length ? [ID.itemList(path)] : undefined,
+        mainEntity: listItems.length ? ID.itemList(path) : undefined,
       }),
       ld.breadcrumbList(path, [
         { name: "Trang chủ", path: paths.home() },
@@ -376,7 +377,7 @@ export function sitemapSeo(): SeoProps {
         name: title,
         description,
         dateModified: SITE_LASTMOD,
-        hasPart: [ID.itemList(path)],
+        mainEntity: ID.itemList(path),
       }),
       ld.breadcrumbList(path, [
         { name: "Trang chủ", path: paths.home() },
