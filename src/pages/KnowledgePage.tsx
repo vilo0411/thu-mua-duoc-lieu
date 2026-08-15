@@ -366,32 +366,6 @@ export const KnowledgePage: React.FC = () => {
             <Pagination page={page} totalPages={articlePages} onChange={goPage} label="bài viết" />
           </>
         )}
-
-        {/* Mục lục đầy đủ: phân trang chỉ render 9 thẻ nên các bài còn lại vẫn cần một đường link
-            trong HTML để người đọc (và bot) tới được — giữ luôn link nội bộ cho mọi bài. */}
-        <details className="border border-line rounded-xl bg-white p-4">
-          <summary className="cursor-pointer font-sans font-semibold text-sm text-ink-soft hover:text-terracotta">
-            Xem danh sách đầy đủ {WIKI_ARTICLES.length} bài viết
-          </summary>
-          <div className="pt-4 grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-5">
-            {articlesByCategory.map(([category, arts]) => (
-              <div key={category} className="space-y-1.5">
-                {/* Nhãn nhóm trong hộp thu gọn, KHÔNG phải một mục của trang → không
-                    dùng heading, tránh chen vào dàn h2/h3 của trang. */}
-                <p className="font-sans text-xs font-bold uppercase tracking-[0.12em] text-terracotta m-0">{category}</p>
-                <ul role="list" className="space-y-1 list-none m-0 p-0">
-                  {arts.map((a) => (
-                    <li key={a.id}>
-                      <Link to={paths.article(a.id)} className="text-sm text-ink hover:text-terracotta hover:underline">
-                        {a.title}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-        </details>
       </section>
 
       <CtaBanner
