@@ -5,6 +5,13 @@
   "scientificName": "Diospyros kaki",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q158482",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/H%E1%BB%93ng_(qu%E1%BA%A3)",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Diospyros_kaki",
+    "powo": "urn:lsid:ipni.org:names:322553-1",
+    "gbif": "3032984"
+  },
   "priceRange": "9.000 - 64.000 VNĐ/kg",
   "shortDesc": "Thị đế — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/thi-de.webp",

@@ -5,6 +5,13 @@
   "scientificName": "Sesamum indicum",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q2763698",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/V%E1%BB%ABng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Sesame",
+    "powo": "urn:lsid:ipni.org:names:675971-1",
+    "gbif": "3172622"
+  },
   "priceRange": "12.000 - 74.000 VNĐ/kg",
   "shortDesc": "Vừng đen — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/vung-den.webp",

@@ -9,6 +9,12 @@
     "Xích chi"
   ],
   "group": "nam",
+  "taxonIds": {
+    "wikidata": "Q271098",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/N%E1%BA%A5m_linh_chi",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Ganoderma_lucidum",
+    "gbif": "2549730"
+  },
   "priceRange": "300.000 - 1.200.000 VNĐ/kg",
   "shortDesc": "Nấm dược liệu cao cấp, được nuôi cấy tỉ mỉ trên mùn cưa hữu cơ hoặc thu hoạch tự nhiên.",
   "image": "/images/cay/nam-linh-chi.webp",

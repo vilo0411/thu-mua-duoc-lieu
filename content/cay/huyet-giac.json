@@ -5,6 +5,12 @@
   "scientificName": "Dracaena cambodiana",
   "otherNames": [],
   "group": "than",
+  "taxonIds": {
+    "wikidata": "Q11150362",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Huy%E1%BA%BFt_gi%C3%A1c",
+    "powo": "urn:lsid:ipni.org:names:534134-1",
+    "gbif": "5304576"
+  },
   "priceRange": "13.000 - 76.000 VNĐ/kg",
   "shortDesc": "Huyết giác — dược liệu đang được thu mua, thu thân, cành, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/huyet-giac.webp",

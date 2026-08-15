@@ -8,6 +8,13 @@
     "Đại phúc bì"
   ],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q156969",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Cau",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Areca_catechu",
+    "powo": "urn:lsid:ipni.org:names:664107-1",
+    "gbif": "2736531"
+  },
   "priceRange": "8.000 - 48.000 VNĐ/kg",
   "shortDesc": "Cây cau cho hai vị dược liệu được thu mua: hạt cau (binh lang) và vỏ quả cau (đại phúc bì), mỗi loại một mức giá riêng.",
   "image": "/images/cay/cau.webp",

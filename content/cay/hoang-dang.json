@@ -5,6 +5,13 @@
   "scientificName": "Fibraurea tinctoria",
   "otherNames": [],
   "group": "cu-re",
+  "taxonIds": {
+    "wikidata": "Q15331296",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Fibraurea_tinctoria",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Fibraurea_tinctoria",
+    "powo": "urn:lsid:ipni.org:names:580826-1",
+    "gbif": "5371724"
+  },
   "priceRange": "18.000 - 82.000 VNĐ/kg",
   "shortDesc": "Hoàng đằng — dược liệu đang được thu mua, thu thân, cành, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/hoang-dang.webp",

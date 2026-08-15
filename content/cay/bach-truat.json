@@ -5,6 +5,13 @@
   "scientificName": "Atractylodes macrocephala",
   "otherNames": [],
   "group": "cu-re",
+  "taxonIds": {
+    "wikidata": "Q8208640",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/B%E1%BA%A1ch_tru%E1%BA%ADt",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Atractylodes_macrocephala",
+    "powo": "urn:lsid:ipni.org:names:182978-1",
+    "gbif": "3122454"
+  },
   "priceRange": "17.000 - 71.000 VNĐ/kg",
   "shortDesc": "Bạch truật — dược liệu đang được thu mua, thu củ, rễ, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/bach-truat.webp",

@@ -5,6 +5,13 @@
   "scientificName": "Alpinia officinarum",
   "otherNames": [],
   "group": "cu-re",
+  "taxonIds": {
+    "wikidata": "Q1281083",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Ri%E1%BB%81ng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Alpinia_officinarum",
+    "powo": "urn:lsid:ipni.org:names:795352-1",
+    "gbif": "5302199"
+  },
   "priceRange": "17.000 - 76.000 VNĐ/kg",
   "shortDesc": "Riềng phiến — dược liệu đang được thu mua, thu củ, rễ, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/rieng-phien.webp",

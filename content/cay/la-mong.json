@@ -5,6 +5,13 @@
   "scientificName": "Lawsonia inermis",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q182448",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%C3%A2y_m%C3%B3ng_tay",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Lawsonia_inermis",
+    "powo": "urn:lsid:ipni.org:names:553638-1",
+    "gbif": "5420912"
+  },
   "priceRange": "11.000 - 54.000 VNĐ/kg",
   "shortDesc": "Lá móng — dược liệu đang được thu mua, thu lá, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/la-mong.webp",

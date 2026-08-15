@@ -5,6 +5,13 @@
   "scientificName": "Plantago major",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q157154",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/M%C3%A3_%C4%91%E1%BB%81",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Plantago_major",
+    "powo": "urn:lsid:ipni.org:names:321286-2",
+    "gbif": "3189767"
+  },
   "priceRange": "10.000 - 55.000 VNĐ/kg",
   "shortDesc": "Mã đề — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/ma-de.webp",

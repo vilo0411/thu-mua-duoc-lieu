@@ -5,6 +5,13 @@
   "scientificName": "Ocimum gratissimum",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q2355390",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/H%C6%B0%C6%A1ng_nhu_tr%E1%BA%AFng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Ocimum_gratissimum",
+    "powo": "urn:lsid:ipni.org:names:452969-1",
+    "gbif": "2927094"
+  },
   "priceRange": "8.000 - 62.000 VNĐ/kg",
   "shortDesc": "Hương nhu trắng — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/huong-nhu-trang.webp",

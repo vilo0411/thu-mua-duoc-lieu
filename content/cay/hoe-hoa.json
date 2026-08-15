@@ -5,6 +5,13 @@
   "scientificName": "Styphnolobium japonicum",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q288558",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/H%C3%B2e",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Styphnolobium_japonicum",
+    "powo": "urn:lsid:ipni.org:names:1119529-2",
+    "gbif": "2963569"
+  },
   "priceRange": "10.000 - 59.000 VNĐ/kg",
   "shortDesc": "Hòe hoa — dược liệu đang được thu mua, thu hoa, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/hoe-hoa.webp",

@@ -5,6 +5,11 @@
   "scientificName": "Hedyotis diffusa",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q704680",
+    "powo": "urn:lsid:ipni.org:names:752440-1",
+    "gbif": "2916128"
+  },
   "priceRange": "8.000 - 47.000 VNĐ/kg",
   "shortDesc": "Bạch hoa xà thiệt thảo — dược liệu đang được thu mua, thu hoa, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/bach-hoa-xa-thiet-thao.webp",

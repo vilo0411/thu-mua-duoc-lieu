@@ -5,6 +5,13 @@
   "scientificName": "Amomum villosum",
   "otherNames": [],
   "group": "cu-re",
+  "taxonIds": {
+    "wikidata": "Q2843829",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Sa_nh%C3%A2n_%C4%91%E1%BB%8F",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Wurfbainia_villosa",
+    "powo": "urn:lsid:ipni.org:names:795689-1",
+    "gbif": "5301710"
+  },
   "priceRange": "18.000 - 90.000 VNĐ/kg",
   "shortDesc": "Sa nhân — dược liệu đang được thu mua, thu hạt, quả chín, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/sa-nhan.webp",

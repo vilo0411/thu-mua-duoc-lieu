@@ -23,6 +23,27 @@ export interface HerbRegionInfo {
   popularity: PopularityLevel;
 }
 
+/** Mã định danh loài ở các CSDL ngoài, dùng dựng `sameAs` cho Taxon. */
+export interface TaxonIds {
+  /** Q-id Wikidata, vd "Q161125". */
+  wikidata?: string;
+  /** URL bài Wikipedia tiếng Việt. */
+  wikipediaVi?: string;
+  /** URL bài Wikipedia tiếng Anh. */
+  wikipediaEn?: string;
+  /** Id POWO (Plants of the World Online — Kew), phần sau /taxon/. */
+  powo?: string;
+  /** Id loài trên GBIF, vd "3189866". */
+  gbif?: string;
+}
+
+/** Nguồn tham khảo của một bài viết → JSON-LD `citation` + mục "Nguồn tham khảo". */
+export interface ContentSource {
+  title: string;
+  url: string;
+  publisher?: string;
+}
+
 /** Nhóm dược liệu theo bộ phận thu mua chính (PRD §6.1 nhom). */
 export type HerbGroup = "cu-re" | "hoa-la" | "nam" | "vo" | "than";
 
@@ -61,6 +82,13 @@ export interface HerbalMedicine {
   scientificName: string;
   otherNames: string[];
   group: HerbGroup;
+  /**
+   * Mã định danh của loài ở các cơ sở dữ liệu ngoài → dựng `sameAs` cho node Taxon,
+   * giúp Google/LLM nối trang này với đúng thực thể thực vật. Sinh bằng
+   * `scripts/fetch-taxon-ids.ts` rồi duyệt tay; cây nào không chắc thì để trống —
+   * khai sai thực thể còn hại hơn không khai.
+   */
+  taxonIds?: TaxonIds;
   /** Đặc điểm nhận diện hàng tươi/khô khi thu mua (nguồn: danh mục thu mua Vietmec). */
   identification?: {
     fresh?: string;
@@ -144,6 +172,10 @@ export interface WikiArticle {
   standardsTableHeaders?: [string, string, string];
   /** Callout "sai lầm phổ biến" riêng theo bài; không render nếu thiếu. */
   pitfall?: { title?: string; body: string };
+  /** Đánh dấu bài mô tả một quy trình → phát thêm JSON-LD HowTo. */
+  howTo?: boolean;
+  /** Nguồn tham khảo; render cuối bài và phát thành `citation`. */
+  sources?: ContentSource[];
   faq: { question: string; answer: string }[];
 }
 
@@ -178,6 +210,14 @@ export interface SiteConfig {
   defaultImage: string;
   locale: string;
   authorUrl: string;
+  /** Logo Organization (path nội bộ). Bỏ trống thì KHÔNG khai `logo` trong schema. */
+  logo?: string;
+  /** Ảnh chân dung tác giả → `Person.image`. */
+  authorImage?: string;
+  /** Hồ sơ ngoài (mạng xã hội, profile) → `sameAs`. Mảng rỗng thì không phát key. */
+  sameAs?: string[];
+  /** Lĩnh vực chuyên môn của tác giả → `Person.knowsAbout`. */
+  knowsAbout?: string[];
 }
 
 export interface PestRemedy {
@@ -201,5 +241,7 @@ export interface WikiHub {
     controlMethod: string;
   }[];
   pests: PestRemedy[];
+  /** Nguồn tham khảo; render cuối trang hub và phát thành `citation`. */
+  sources?: ContentSource[];
   faq: { question: string; answer: string }[];
 }

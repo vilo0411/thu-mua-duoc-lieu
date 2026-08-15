@@ -19,14 +19,14 @@ interface PestListProps {
  */
 export const PestList: React.FC<PestListProps> = ({ pests }) => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <ul role="list" className="grid grid-cols-1 md:grid-cols-2 gap-4 list-none m-0 p-0">
       {pests.map((pest, idx) => {
         const level = pest.level ? LEVEL_META[pest.level] : undefined;
         return (
-          <div key={idx} className="bg-white border border-[#E6DDD0] rounded-2xl p-5 shadow-xs flex flex-col gap-4">
+          <li key={idx} className="bg-white border border-[#E6DDD0] rounded-2xl p-5 shadow-xs flex flex-col gap-4">
             <div className="flex items-start justify-between gap-3">
               <h3 className="font-sans font-bold text-lg text-[#4F433A] leading-snug flex items-center gap-2">
-                <Bug className="w-5 h-5 text-[#B85037] shrink-0" />
+                <Bug className="w-5 h-5 text-[#B85037] shrink-0" aria-hidden="true" />
                 {pest.pestName}
               </h3>
               {level && (
@@ -57,9 +57,9 @@ export const PestList: React.FC<PestListProps> = ({ pests }) => {
                 <p className="text-[15px] text-gray-600 leading-relaxed font-sans">{pest.remedy}</p>
               </div>
             </div>
-          </div>
+          </li>
         );
       })}
-    </div>
+    </ul>
   );
 };

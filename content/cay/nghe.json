@@ -8,6 +8,13 @@
     "Uất kim"
   ],
   "group": "cu-re",
+  "taxonIds": {
+    "wikidata": "Q42562",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Ngh%E1%BB%87",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Turmeric",
+    "powo": "urn:lsid:ipni.org:names:796451-1",
+    "gbif": "2757624"
+  },
   "priceRange": "18.000 - 80.000 VNĐ/kg",
   "shortDesc": "Cây nghệ cho hai vị dược liệu: củ cái/thân rễ (khương hoàng) và rễ củ con (uất kim), mỗi loại một mức giá riêng.",
   "image": "/images/cay/nghe.webp",

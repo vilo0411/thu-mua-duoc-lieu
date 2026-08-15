@@ -5,6 +5,13 @@
   "scientificName": "Leonurus japonicus",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q1071905",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/%C3%8Dch_m%E1%BA%ABu",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Leonurus_japonicus",
+    "powo": "urn:lsid:ipni.org:names:449195-1",
+    "gbif": "6410563"
+  },
   "priceRange": "12.000 - 74.000 VNĐ/kg",
   "shortDesc": "Ích mẫu — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/ich-mau.webp",

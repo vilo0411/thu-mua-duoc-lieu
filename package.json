@@ -7,12 +7,17 @@
     "dev": "vite --port=3000 --host=0.0.0.0",
     "validate:content": "tsx scripts/validate-content.ts",
     "optimize:images": "tsx scripts/optimize-images.ts",
-    "prebuild": "npm run validate:content",
+    "prebuild": "npm run generate:lastmod && npm run validate:content",
     "build": "vite build",
-    "postbuild": "tsx scripts/generate-sitemap.ts && tsx scripts/prerender.ts",
+    "postbuild": "tsx scripts/generate-sitemap.ts && tsx scripts/generate-llms-txt.ts && tsx scripts/prerender.ts && npm run validate:html && npm run validate:schema && npm run validate:semantics",
     "preview": "vite preview",
     "clean": "rm -rf dist server.js",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "generate:lastmod": "tsx scripts/generate-lastmod.ts",
+    "validate:schema": "tsx scripts/validate-schema.ts",
+    "validate:html": "tsx scripts/validate-html.ts",
+    "validate:semantics": "tsx scripts/validate-semantics.ts",
+    "validate:w3c": "tsx scripts/validate-w3c.ts"
   },
   "dependencies": {
     "@google/genai": "^2.4.0",
@@ -33,6 +38,7 @@
     "@types/node": "^22.14.0",
     "autoprefixer": "^10.4.21",
     "esbuild": "^0.25.0",
+    "html-validate": "^11.6.2",
     "puppeteer": "^25.3.0",
     "sharp": "^0.35.3",
     "tailwindcss": "^4.1.14",

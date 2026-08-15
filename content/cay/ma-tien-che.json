@@ -5,6 +5,13 @@
   "scientificName": "Strychnos nux-vomica",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q272945",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/M%C3%A3_ti%E1%BB%81n",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Strychnos_nux-vomica",
+    "powo": "urn:lsid:ipni.org:names:547371-1",
+    "gbif": "5414399"
+  },
   "priceRange": "9.000 - 50.000 VNĐ/kg",
   "shortDesc": "Mã tiền chế — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/ma-tien-che.webp",

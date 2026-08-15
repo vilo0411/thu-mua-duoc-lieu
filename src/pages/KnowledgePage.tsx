@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Sprout, ArrowRight, Search, X } from "lucide-react";
 import { WIKI_ARTICLES, WIKI_HUBS, getHerbBySlug } from "../lib/data";
-import { ArticleCard, Breadcrumb, CtaBanner } from "../components/ui";
+import { ArticleCard, Breadcrumb, CtaBanner, Pagination } from "../components/ui";
 import { paths, asset } from "../lib/paths";
 import { norm, matchesFields } from "../lib/search";
 import { Seo, knowledgeSeo } from "../lib/seo";
@@ -18,6 +18,9 @@ const GROUP_LABEL: Record<HerbGroup, string> = {
 
 // Số hub hiện ban đầu khi chưa lọc; phần còn lại ẩn sau nút "Xem thêm" để trang gọn.
 const HUB_CAP = 9;
+
+// Số bài mỗi trang trong thư viện bài viết chuyên đề (lưới 3 cột × 3 hàng).
+const ARTICLES_PER_PAGE = 9;
 
 // Tra tiêu đề bài theo id (dùng cho ItemList SEO và các bước quy trình).
 const ARTICLE_BY_ID = new Map(WIKI_ARTICLES.map((a) => [a.id, a] as const));
@@ -53,6 +56,9 @@ export const KnowledgePage: React.FC = () => {
   const [query, setQuery] = React.useState("");
   const [group, setGroup] = React.useState<HerbGroup | "all">("all");
   const [expanded, setExpanded] = React.useState(false);
+  const [articleCat, setArticleCat] = React.useState<string>("all");
+  const [articleQuery, setArticleQuery] = React.useState("");
+  const [articlePage, setArticlePage] = React.useState(1);
 
   // Ghép hub với dữ liệu cây (ảnh, nhóm, tên khác) để hiển thị + tìm kiếm; sắp theo tên cây.
   const hubItems = React.useMemo(
@@ -104,6 +110,31 @@ export const KnowledgePage: React.FC = () => {
     return [...map.entries()];
   }, []);
 
+  // Thư viện bài viết: lọc theo chuyên mục + từ khoá, rồi cắt trang.
+  const nqArticle = norm(articleQuery);
+  const filteredArticles = React.useMemo(
+    () =>
+      WIKI_ARTICLES.filter(
+        (a) =>
+          (articleCat === "all" || a.category === articleCat) &&
+          matchesFields([a.title, a.excerpt, a.category], nqArticle),
+      ),
+    [articleCat, nqArticle],
+  );
+  const articlePages = Math.max(1, Math.ceil(filteredArticles.length / ARTICLES_PER_PAGE));
+  const page = Math.min(articlePage, articlePages); // giữ hợp lệ khi bộ lọc thu hẹp kết quả
+  const pagedArticles = filteredArticles.slice((page - 1) * ARTICLES_PER_PAGE, page * ARTICLES_PER_PAGE);
+
+  // Đổi bộ lọc thì về trang 1; đổi trang thì kéo lên đầu khu thư viện cho khỏi lạc chỗ đọc.
+  const changeFilter = (next: () => void) => {
+    next();
+    setArticlePage(1);
+  };
+  const goPage = (p: number) => {
+    setArticlePage(p);
+    document.getElementById("thu-vien-bai-viet")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
   return (
     <div className="space-y-8 animate-fade-in">
       <Seo {...knowledgeSeo(seoListItems)} />
@@ -121,58 +152,40 @@ export const KnowledgePage: React.FC = () => {
       </section>
 
       {/* Quy trình trồng dược liệu — 6 bước nền tảng, mỗi bước dẫn tới bài kỹ thuật chi tiết */}
-      <section className="space-y-5">
+      <section aria-labelledby="quy-trinh-h" className="space-y-5">
         <div className="border-b border-line pb-4">
-          <h2 className="font-serif text-2xl font-bold text-ink-soft">Quy trình trồng dược liệu qua 6 bước</h2>
+          <h2 id="quy-trinh-h" className="font-serif text-2xl font-bold text-ink-soft">Quy trình trồng dược liệu qua 6 bước</h2>
           <p className="text-sm text-gray-600 font-sans mt-1">Nắm khung chung trước, rồi bấm vào từng bước để đọc kỹ thuật chi tiết.</p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {/* <ol>: "6 bước" là một quy trình có thứ tự — thứ tự ở đây là ý nghĩa. */}
+        <ol role="list" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 list-none m-0 p-0">
           {FOUNDATION_STEPS.map((s) => (
-            <div key={s.step} className="bg-white border border-line rounded-xl p-5 flex flex-col gap-2">
+            <li key={s.step} className="bg-white border border-line rounded-xl p-5 flex flex-col gap-2">
               <h3 className="font-serif text-lg font-bold text-ink-soft">{s.step}</h3>
               <p className="text-sm text-gray-600 font-sans leading-relaxed flex-1">{s.desc}</p>
-              <div className="flex flex-col gap-1.5 pt-1">
+              <ul role="list" className="flex flex-col gap-1.5 pt-1 list-none m-0 p-0">
                 {s.ids.map((id) => (
-                  <Link
-                    key={id}
-                    to={paths.article(id)}
-                    className="inline-flex items-center gap-1.5 text-sm font-semibold text-terracotta hover:text-terracotta-dark hover:underline"
-                  >
-                    <ArrowRight className="w-3.5 h-3.5 shrink-0" />
-                    <span className="line-clamp-1">{articleTitle(id)}</span>
-                  </Link>
+                  <li key={id}>
+                    <Link
+                      to={paths.article(id)}
+                      className="inline-flex items-center gap-1.5 text-sm font-semibold text-terracotta hover:text-terracotta-dark hover:underline"
+                    >
+                      <ArrowRight className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
+                      <span className="line-clamp-1">{articleTitle(id)}</span>
+                    </Link>
+                  </li>
                 ))}
-              </div>
-            </div>
+              </ul>
+            </li>
           ))}
-        </div>
-      </section>
-
-      {/* Cụm phòng trừ sâu bệnh — tra cứu nhanh theo từng bệnh/sâu hại thường gặp */}
-      <section className="space-y-5">
-        <div className="border-b border-line pb-4">
-          <h2 className="font-serif text-2xl font-bold text-ink-soft">Phòng trừ sâu bệnh thường gặp</h2>
-          <p className="text-sm text-gray-600 font-sans mt-1">Nhận biết dấu hiệu và cách xử lý an toàn cho dược liệu — bấm vào từng bệnh để đọc chi tiết.</p>
-        </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-          {DISEASE_ARTICLE_IDS.map((id) => (
-            <Link
-              key={id}
-              to={paths.article(id)}
-              className="border border-line hover:border-terracotta p-4 rounded-xl bg-white hover:bg-paper-2 transition-all flex items-center gap-2.5 group"
-            >
-              <ArrowRight className="w-4 h-4 shrink-0 text-terracotta" />
-              <span className="font-sans font-semibold text-sm text-ink-soft group-hover:text-terracotta transition-colors line-clamp-1">{articleTitle(id)}</span>
-            </Link>
-          ))}
-        </div>
+        </ol>
       </section>
 
       {/* Hub kỹ thuật theo từng cây — lưới gọn, tìm/lọc để scale khi có nhiều bài */}
       {hubItems.length > 0 && (
-        <section className="space-y-5">
+        <section aria-labelledby="cam-nang-h" className="space-y-5">
           <div className="flex items-baseline justify-between border-b border-line pb-4">
-            <h2 className="font-serif text-2xl font-bold text-ink-soft">Cẩm nang kỹ thuật theo cây</h2>
+            <h2 id="cam-nang-h" className="font-serif text-2xl font-bold text-ink-soft">Cẩm nang kỹ thuật theo cây</h2>
             <span className="text-sm text-gray-500">{hubItems.length} cây</span>
           </div>
 
@@ -220,13 +233,10 @@ export const KnowledgePage: React.FC = () => {
             </p>
           ) : (
             <>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+              <ul role="list" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 list-none m-0 p-0">
                 {visible.map(({ hub, herb }) => (
-                  <Link
-                    key={hub.id}
-                    to={paths.hubWiki(hub.herbSlug)}
-                    className="text-left bg-white rounded-xl overflow-hidden border border-line hover:border-terracotta shadow-xs hover:shadow-md transition-all group cursor-pointer flex flex-col"
-                  >
+                  <li key={hub.id} className="grid">
+                  <article className="relative text-left bg-white rounded-xl overflow-hidden border border-line hover:border-terracotta shadow-xs hover:shadow-md transition-all group cursor-pointer flex flex-col">
                     <div className="aspect-video bg-gray-100 overflow-hidden relative">
                       <img
                         src={asset(herb?.image)}
@@ -237,7 +247,7 @@ export const KnowledgePage: React.FC = () => {
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                       />
                       <span className="absolute top-2.5 left-2.5 bg-pine-500 text-white text-[11px] font-bold px-2 py-0.5 rounded-sm uppercase tracking-wider inline-flex items-center gap-1">
-                        <Sprout className="w-3 h-3" />
+                        <Sprout className="w-3 h-3" aria-hidden="true" />
                         Kỹ thuật trồng
                       </span>
                     </div>
@@ -246,17 +256,20 @@ export const KnowledgePage: React.FC = () => {
                         <span className="text-[11px] font-sans font-bold uppercase tracking-[0.12em] text-terracotta">{GROUP_LABEL[herb.group]}</span>
                       )}
                       <h3 className="font-serif text-lg font-bold text-ink-soft group-hover:text-terracotta transition-colors leading-snug">
-                        {hub.herbName}
+                        <Link to={paths.hubWiki(hub.herbSlug)} className="after:absolute after:inset-0 after:content-['']">
+                          {hub.herbName}
+                        </Link>
                       </h3>
                       <p className="text-gray-500 text-sm leading-relaxed line-clamp-2 flex-1">{herb?.shortDesc ?? hub.intro}</p>
                       <span className="inline-flex items-center gap-1.5 text-sm font-bold text-terracotta mt-1">
                         Xem cẩm nang
-                        <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                        <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
                       </span>
                     </div>
-                  </Link>
+                  </article>
+                  </li>
                 ))}
-              </div>
+              </ul>
 
               {hiddenCount > 0 && (
                 <div className="flex justify-center pt-1">
@@ -274,31 +287,112 @@ export const KnowledgePage: React.FC = () => {
         </section>
       )}
 
-      {/* Bài viết chuyên đề — gộp theo chuyên mục để cụm "Kỹ thuật gieo trồng" thành khối riêng */}
-      {articlesByCategory.map(([category, arts]) => (
-        <section key={category} className="space-y-6">
-          <div className="flex items-baseline justify-between border-b border-line pb-4">
-            <h2 className="font-serif text-2xl font-bold text-ink-soft">{category}</h2>
-            <span className="text-sm text-gray-500">{arts.length} bài viết</span>
-          </div>
+      {/* Thư viện bài viết chuyên đề — một khu duy nhất có tab chuyên mục, ô tìm và phân trang,
+          thay cho 5 khối xếp dọc trước đây (trang dài, khó quét mắt trên điện thoại). */}
+      <section id="thu-vien-bai-viet" aria-labelledby="thu-vien-h" className="space-y-5 scroll-mt-24">
+        <div className="flex items-baseline justify-between border-b border-line pb-4">
+          <h2 id="thu-vien-h" className="font-serif text-2xl font-bold text-ink-soft">Thư viện bài viết kỹ thuật</h2>
+          <span className="text-sm text-gray-500">{WIKI_ARTICLES.length} bài viết</span>
+        </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            {arts.map((art) => (
-              <ArticleCard
-                key={art.id}
-                title={art.title}
-                category={art.category}
-                excerpt={art.excerpt}
-                image={art.image}
-                readTime={art.readTime}
-                author={art.author}
-                date={art.date}
-                to={paths.article(art.id)}
-              />
+        {/* Ô tìm + tab chuyên mục */}
+        <div className="space-y-3">
+          <div className="flex items-center gap-2 px-4 py-2.5 rounded-xl border border-line bg-white focus-within:border-terracotta transition-colors md:max-w-sm w-full">
+            <Search className="w-5 h-5 text-terracotta shrink-0" />
+            <input
+              type="text"
+              value={articleQuery}
+              onChange={(e) => changeFilter(() => setArticleQuery(e.target.value))}
+              autoComplete="off"
+              placeholder="Tìm bài viết, ví dụ: bon phan, sau benh…"
+              className="w-full bg-transparent text-base font-sans text-ink placeholder:text-gray-400 focus:outline-none"
+            />
+            {articleQuery && (
+              <button
+                type="button"
+                onClick={() => changeFilter(() => setArticleQuery(""))}
+                aria-label="Xoá"
+                className="shrink-0 text-gray-400 hover:text-terracotta cursor-pointer"
+              >
+                <X className="w-4.5 h-4.5" />
+              </button>
+            )}
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {([["all", WIKI_ARTICLES.length] as const, ...articlesByCategory.map(([c, arts]) => [c, arts.length] as const)]).map(
+              ([cat, count]) => {
+                const active = articleCat === cat;
+                return (
+                  <button
+                    key={cat}
+                    type="button"
+                    onClick={() => changeFilter(() => setArticleCat(cat))}
+                    aria-pressed={active}
+                    className={`px-3 py-1.5 rounded-full border text-sm font-sans font-semibold cursor-pointer transition-colors ${
+                      active ? "bg-terracotta border-terracotta text-white" : "bg-white border-line text-ink-soft hover:border-terracotta hover:text-terracotta"
+                    }`}
+                  >
+                    {cat === "all" ? "Tất cả" : cat} <span className={active ? "opacity-80" : "text-gray-400"}>({count})</span>
+                  </button>
+                );
+              },
+            )}
+          </div>
+        </div>
+
+        {filteredArticles.length === 0 ? (
+          <p className="text-sm text-gray-500 italic py-10 text-center">
+            Không tìm thấy bài viết nào khớp. Thử gõ ngắn gọn hơn hoặc chọn lại chuyên mục.
+          </p>
+        ) : (
+          <>
+            <ul role="list" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 list-none m-0 p-0">
+              {pagedArticles.map((art) => (
+                <li key={art.id} className="grid">
+                <ArticleCard
+                  compact
+                  title={art.title}
+                  category={art.category}
+                  excerpt={art.excerpt}
+                  image={art.image}
+                  readTime={art.readTime}
+                  author={art.author}
+                  date={art.date}
+                  to={paths.article(art.id)}
+                />
+                </li>
+              ))}
+            </ul>
+            <Pagination page={page} totalPages={articlePages} onChange={goPage} label="bài viết" />
+          </>
+        )}
+
+        {/* Mục lục đầy đủ: phân trang chỉ render 9 thẻ nên các bài còn lại vẫn cần một đường link
+            trong HTML để người đọc (và bot) tới được — giữ luôn link nội bộ cho mọi bài. */}
+        <details className="border border-line rounded-xl bg-white p-4">
+          <summary className="cursor-pointer font-sans font-semibold text-sm text-ink-soft hover:text-terracotta">
+            Xem danh sách đầy đủ {WIKI_ARTICLES.length} bài viết
+          </summary>
+          <div className="pt-4 grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-5">
+            {articlesByCategory.map(([category, arts]) => (
+              <div key={category} className="space-y-1.5">
+                {/* Nhãn nhóm trong hộp thu gọn, KHÔNG phải một mục của trang → không
+                    dùng heading, tránh chen vào dàn h2/h3 của trang. */}
+                <p className="font-sans text-xs font-bold uppercase tracking-[0.12em] text-terracotta m-0">{category}</p>
+                <ul role="list" className="space-y-1 list-none m-0 p-0">
+                  {arts.map((a) => (
+                    <li key={a.id}>
+                      <Link to={paths.article(a.id)} className="text-sm text-ink hover:text-terracotta hover:underline">
+                        {a.title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             ))}
           </div>
-        </section>
-      ))}
+        </details>
+      </section>
 
       <CtaBanner
         title="Cần tư vấn kỹ thuật trồng cho vùng của bạn?"

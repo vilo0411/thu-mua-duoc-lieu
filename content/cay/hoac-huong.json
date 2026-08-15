@@ -5,6 +5,13 @@
   "scientificName": "Pogostemon cablin",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q257757",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Qu%E1%BA%A3ng_ho%E1%BA%AFc_h%C6%B0%C6%A1ng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Patchouli",
+    "powo": "urn:lsid:ipni.org:names:454827-1",
+    "gbif": "2926672"
+  },
   "priceRange": "10.000 - 68.000 VNĐ/kg",
   "shortDesc": "Hoắc hương — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/hoac-huong.webp",

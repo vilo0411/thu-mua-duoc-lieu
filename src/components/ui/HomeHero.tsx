@@ -75,10 +75,13 @@ export const HomeHero: React.FC<HomeHeroProps> = ({ ownerName, imageUrl, stats, 
         {/* Dải số liệu tin cậy — suy từ dữ liệu thật */}
         <dl className="mt-12 flex flex-wrap gap-x-10 gap-y-5 border-t border-white/15 pt-7">
           {stats.map((s) => (
+            // <div> con của <dl> CHỈ được chứa dt/dd — cái <span> nhãn trước đây là lỗi
+            // W3C, và nó còn lặp lại y nguyên nội dung của <dt class="sr-only"> nên
+            // trình đọc màn hình đọc nhãn hai lần. Gộp làm một: <dt> là nhãn hiển thị,
+            // thứ tự DOM đúng chuẩn (dt trước dd), còn thứ tự nhìn thấy do `order` lo.
             <div key={s.label} className="flex items-baseline gap-2.5">
-              <dt className="sr-only">{s.label}</dt>
-              <dd className="font-serif font-extrabold text-3xl md:text-4xl text-earth tracking-tight">{s.value}</dd>
-              <span className="text-sm text-white/70 max-w-28 leading-tight">{s.label}</span>
+              <dt className="order-2 text-sm text-white/70 max-w-28 leading-tight">{s.label}</dt>
+              <dd className="order-1 m-0 font-serif font-extrabold text-3xl md:text-4xl text-earth tracking-tight">{s.value}</dd>
             </div>
           ))}
         </dl>

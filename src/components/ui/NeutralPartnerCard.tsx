@@ -3,13 +3,14 @@ import { AlertTriangle } from "lucide-react";
 
 export const NeutralPartnerCard: React.FC = () => {
   return (
-    <div className="border border-gray-200 bg-gray-50 rounded-xl p-5 md:p-6 my-6 text-gray-600">
+    <article className="border border-gray-200 bg-gray-50 rounded-xl p-5 md:p-6 my-6 text-gray-600">
       <div className="flex items-start gap-3">
-        <AlertTriangle className="w-5 h-5 text-gray-400 mt-1 shrink-0" />
+        <AlertTriangle className="w-5 h-5 text-gray-400 mt-1 shrink-0" aria-hidden="true" />
         <div className="space-y-2">
-          <h4 className="font-sans font-bold text-lg text-gray-700">
+          {/* h3, không phải h4: thẻ này nằm ngay dưới h2 "Kênh thu mua" nên h4 là nhảy cấp. */}
+          <h3 className="font-sans font-bold text-lg text-gray-700">
             Các điểm thu gom tư nhân tự phát (Thương lái nhỏ lẻ)
-          </h4>
+          </h3>
           <p className="text-sm leading-relaxed">
             Ưu điểm: Giao dịch nhanh bằng tiền mặt trực tiếp tại bờ ruộng, không yêu cầu phân loại chặt chẽ hay giấy tờ xuất xứ nguồn gốc.
           </p>
@@ -21,6 +22,6 @@ export const NeutralPartnerCard: React.FC = () => {
           </div>
         </div>
       </div>
-    </div>
+    </article>
   );
 };

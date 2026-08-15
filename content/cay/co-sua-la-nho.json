@@ -5,6 +5,13 @@
   "scientificName": "Euphorbia thymifolia",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q10904925",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%E1%BB%8F_s%E1%BB%AFa_l%C3%A1_nh%E1%BB%8F",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Euphorbia_thymifolia",
+    "powo": "urn:lsid:ipni.org:names:102034-2",
+    "gbif": "3066919"
+  },
   "priceRange": "8.000 - 53.000 VNĐ/kg",
   "shortDesc": "Cỏ sữa lá nhỏ — dược liệu đang được thu mua, thu lá, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/co-sua-la-nho.webp",

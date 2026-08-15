@@ -14,22 +14,25 @@ export const MobileNav: React.FC<MobileNavProps> = ({ onClose }) => {
       {/* Mobile Search input */}
       <SearchBar variant="mobile" onNavigate={onClose} />
 
-      <nav className="flex flex-col gap-4 text-base font-bold text-white/80 text-left">
-        {NAV_ITEMS.map((item, idx) => (
-          <NavLink
-            key={item.to}
-            to={item.to}
-            end={item.end}
-            onClick={onClose}
-            className={({ isActive }) =>
-              `py-2 text-left cursor-pointer hover:text-white ${isActive ? "text-earth" : ""} ${
-                idx < NAV_ITEMS.length - 1 ? "border-b border-white/10" : ""
-              }`
-            }
-          >
-            {item.label}
-          </NavLink>
-        ))}
+      <nav aria-label="Điều hướng chính (di động)">
+        <ul role="list" className="flex flex-col gap-4 text-base font-bold text-white/80 text-left list-none m-0 p-0">
+          {NAV_ITEMS.map((item, idx) => (
+            <li key={item.to}>
+              <NavLink
+                to={item.to}
+                end={item.end}
+                onClick={onClose}
+                className={({ isActive }) =>
+                  `block py-2 text-left cursor-pointer hover:text-white ${isActive ? "text-earth" : ""} ${
+                    idx < NAV_ITEMS.length - 1 ? "border-b border-white/10" : ""
+                  }`
+                }
+              >
+                {item.label}
+              </NavLink>
+            </li>
+          ))}
+        </ul>
       </nav>
 
       <div className="pt-2 border-t border-white/10">

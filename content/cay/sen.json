@@ -10,6 +10,13 @@
     "Liên tâm (tâm sen)"
   ],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q16528",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Sen_h%E1%BB%93ng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Nelumbo_nucifera",
+    "powo": "urn:lsid:ipni.org:names:605422-1",
+    "gbif": "2882449"
+  },
   "priceRange": "9.000 - 72.000 VNĐ/kg",
   "shortDesc": "Cây sen cho nhiều vị dược liệu được thu mua thường xuyên: lá sen (hà diệp), hạt sen (liên nhục) và tâm sen (liên tâm), mỗi loại một mức giá riêng.",
   "image": "/images/cay/sen.webp",

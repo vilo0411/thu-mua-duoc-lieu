@@ -5,6 +5,13 @@
   "scientificName": "Angelica dahurica",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q847098",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/B%E1%BA%A1ch_ch%E1%BB%89_(thu%E1%BB%91c_B%E1%BA%AFc)",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Angelica_dahurica",
+    "powo": "urn:lsid:ipni.org:names:60451989-2",
+    "gbif": "5537813"
+  },
   "priceRange": "9.000 - 55.000 VNĐ/kg",
   "shortDesc": "Bạch chỉ — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/bach-chi.webp",

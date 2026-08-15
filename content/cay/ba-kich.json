@@ -6,11 +6,19 @@
   "otherNames": [
     "Ba kích tím",
     "Dây ruột gà",
-    "Chẩu phóng xì"
+    "Chẩu phóng xì",
+    "Ba kích thiên"
   ],
   "group": "cu-re",
-  "priceRange": "120.000 - 320.000 VNĐ/kg",
-  "shortDesc": "Dây leo bằng thân quấn, rễ phình lớn thành củ thắt chuỗi. Ưa bóng râm dưới tán rừng tự nhiên.",
+  "taxonIds": {
+    "wikidata": "Q2220745",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Ba_k%C3%ADch",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Gynochthodes_officinalis",
+    "powo": "urn:lsid:ipni.org:names:756442-1",
+    "gbif": "5339779"
+  },
+  "priceRange": "200.000 - 1.000.000 VNĐ/kg",
+  "shortDesc": "Dây leo bằng thân quấn, rễ phình lớn thành củ thắt chuỗi hạt như ruột gà. Nổi tiếng là dược liệu bổ thận tráng dương, tăng cường sinh lực cao cấp.",
   "image": "/images/cay/ba-kich.webp",
   "media": [
     {
@@ -29,21 +37,21 @@
       "title": "Dược liệu ba kích & bài thuốc dân gian"
     }
   ],
-  "description": "Ba kích tím là loại thảo dược quý hiếm nổi tiếng với công dụng bổ thận tráng dương, tăng cường sinh lực. Cây phát triển tốt dưới tán rừng ẩm đồi núi phía Bắc, cần thời gian canh tác ít nhất 3-5 năm để củ tích tụ đủ dược tính hoạt chất anthraglycosid quý.",
-  "bioCharacteristics": "Ba kích là dây leo thân quấn sống lâu năm, mọc tự nhiên dưới tán rừng ẩm vùng núi phía Bắc. Rễ phình thành củ thắt chuỗi như ruột gà, vỏ tím sẫm, thịt phớt tím. Cây ưa bóng râm, khí hậu mát ẩm, đất giàu mùn rừng và cần giá đỡ để leo bám.",
-  "usageValue": "Củ Ba kích là bộ phận thu mua duy nhất, dùng ngâm rượu và làm nguyên liệu cao dược liệu bổ dưỡng. Củ đã rút lõi gỗ đạt giá cao nhất do phần lõi không chứa hoạt chất quý.",
+  "description": "Thị trường thu mua và bán củ ba kích (đặc biệt là ba kích tím) tại Hà Nội và các tỉnh phía Bắc vô cùng sôi động. Dược liệu này được săn đón nhờ chứa lượng anthraglycosid và phytosterol dồi dào, giúp đại bổ thận dương, kiện gân cốt, tăng sinh lực. Cây cần canh tác tối thiểu 3 - 5 năm ở vùng đất đồi núi dốc, dưới tán rừng ẩm mới đạt độ tích tụ dược tính tốt nhất.",
+  "bioCharacteristics": "Ba kích là cây dây leo thân quấn sống lâu năm. Rễ phình to thành củ có cấu trúc thắt chuỗi khúc khuỷu giống ruột gà. Vỏ ngoài màu vàng nâu hoặc xám nhạt, thịt củ ba kích tím có màu phớt tím đến tím sẫm. Cây ưa bóng bán phần (che phủ 30% - 50%), thích nghi tốt nhất trên đất rừng ẩm giàu mùn, thoát nước nhanh tại vùng núi thấp và trung du phía Bắc.",
+  "usageValue": "Rễ củ ba kích là bộ phận thu mua thương mại duy nhất. Dược liệu được dùng chủ yếu để ngâm rượu thuốc cường dương hoặc làm nguyên liệu cô đặc cao dược liệu. Củ bắt buộc phải bóc tách rút bỏ lõi gỗ trước khi ngâm hoặc chế biến sâu, do phần lõi gỗ không chứa hoạt tính bổ dưỡng mà chứa tạp chất làm giảm chất lượng rượu.",
   "stats": [
     {
       "label": "Thời gian thu hoạch",
-      "value": "3 - 4 năm trồng từ bầu cây giống"
+      "value": "3 - 5 năm đối với ba kích trồng lâm nghiệp"
     },
     {
       "label": "Đất trồng thích hợp",
-      "value": "Đất đồi núi xốp, nhiều mùn rừng, thoát nước cực tốt"
+      "value": "Đất đồi núi dốc xốp, giàu mùn ẩm, thoát nước cực nhanh"
     },
     {
       "label": "Bộ phận thu hoạch",
-      "value": "Rễ củ (đã bỏ lõi khi chế biến sâu)"
+      "value": "Rễ củ (bắt buộc bóc tách rút bỏ lõi gỗ)"
     },
     {
       "label": "Nhiệt độ lý tưởng",
@@ -63,23 +71,30 @@
   },
   "prices": [
     {
-      "grade": "Ba kích tươi Loại 1",
-      "specification": "Củ to, đường kính củ >1.5cm, thắt chuỗi đều, trồng trên 4 năm",
-      "priceRange": "260.000 - 320.000",
-      "unit": "kg",
-      "trend": "up"
-    },
-    {
-      "grade": "Ba kích tươi Loại 2",
-      "specification": "Đường kính củ từ 0.8 - 1.2cm, từ 3 năm tuổi",
-      "priceRange": "180.000 - 240.000",
+      "grade": "Ba kích tím tươi nguyên củ (Trồng)",
+      "specification": "Củ tươi thu hoạch từ 3-5 năm tuổi, chưa tách lõi, đường kính >1.2cm",
+      "priceRange": "200.000 - 250.000",
       "unit": "kg",
       "trend": "stable"
     },
     {
-      "grade": "Củ khô rút lõi",
-      "specification": "Sấy sạch, rút bỏ phần lõi gỗ cứng bên trong, độ ẩm <11%",
-      "priceRange": "550.000 - 680.000",
+      "grade": "Ba kích tươi bóc lõi sẵn",
+      "specification": "Củ trồng làm sạch sẵn, tách rút bỏ hoàn toàn phần lõi gỗ dai cứng",
+      "priceRange": "260.000 - 350.000",
+      "unit": "kg",
+      "trend": "up"
+    },
+    {
+      "grade": "Ba kích rừng Quảng Ninh xịn",
+      "specification": "Củ khai thác tự nhiên ở Ba Chẽ, củ nhỏ cứng, ruột tím sẫm, số lượng cực hiếm",
+      "priceRange": "600.000 - 1.000.000",
+      "unit": "kg",
+      "trend": "up"
+    },
+    {
+      "grade": "Củ khô rút lõi sấy sạch",
+      "specification": "Đã rút sạch lõi, sấy khô độ ẩm <12%, thơm đậm đà, không chất bảo quản",
+      "priceRange": "700.000 - 850.000",
       "unit": "kg",
       "trend": "up"
     }
@@ -89,7 +104,7 @@
       "regionSlug": "dong-bac",
       "regionName": "Đông Bắc",
       "provinces": [
-        "Quảng Ninh",
+        "Quảng Ninh (Ba Chẽ)",
         "Bắc Giang"
       ],
       "outputEstimate": "180 tấn/năm",
@@ -108,10 +123,10 @@
   ],
   "technique": {
     "season": "Trồng vụ xuân (tháng 3–4) khi thời tiết ấm ẩm, dưới tán rừng hoặc giàn che 50%",
-    "soil": "Đất đồi núi xốp, nhiều mùn rừng, thoát nước cực tốt",
+    "soil": "Đất đồi núi dốc xốp, nhiều mùn rừng, thoát nước cực tốt",
     "ph": "4.5 – 6.0",
     "density": "8.000 – 10.000 cây/ha, có giàn leo hoặc trồng xen tán rừng",
-    "harvestTime": "3 – 4 năm trồng từ bầu cây giống",
+    "harvestTime": "3 – 5 năm trồng từ bầu cây giống",
     "yield": "Củ tươi 4 – 6 tấn/ha sau 4 năm",
     "propagation": [
       "ươm hạt",
@@ -134,9 +149,10 @@
   ],
   "techniquesLink": "ky-thuat-trong-ba-kich",
   "standards": [
-    "Độ ẩm sản phẩm khô dưới 12%, không mốc xanh mốc đỏ.",
-    "Kích thước củ đều, không dập nát, không lẫn bùn đất.",
-    "Để đạt giá trị cao nhất cho dược phẩm, củ Ba kích cần được bóc tách rút phần lõi gỗ bên trong trước khi sấy khô."
+    "Không dư lượng phân bón hóa học hay thuốc trừ sâu bảo vệ thực vật (đạt chuẩn GACP-WHO).",
+    "Độ ẩm sản phẩm khô dưới 12%, thơm tự nhiên, không ẩm mốc hay lẫn đất cát.",
+    "Củ tươi nguyên vẹn, đường kính >1.2cm, thắt chuỗi đều đặn giống ruột gà.",
+    "Bắt buộc tách bỏ hoàn toàn phần lõi gỗ cứng bên trong để đạt giá phân hạng Loại 1 và xuất khẩu."
   ],
   "keywordsTarget": [
     "thu mua ba kích",
@@ -144,10 +160,29 @@
     "kỹ thuật trồng ba kích",
     "bán củ ba kích"
   ],
+  "focusKeyword": "thu mua ba kích",
+  "demandQuantity": "Từ 100kg đến không giới hạn số lượng (mua củ tươi, khô rút lõi sỉ & lẻ)",
+  "priorityLevel": "hot",
+  "identification": {
+    "fresh": "Củ thắt khúc chuỗi hạt đều đặn như ruột gà, vỏ màu vàng xám hoặc xám xỉn, thịt bẻ ra có màu phớt tím hoặc tím sẫm đặc trưng, lõi gỗ dai cứng bên trong.",
+    "dry": "Đã bóc sạch 100% lõi gỗ cứng hoàn toàn, củ sấy khô giữ nguyên mùi thơm dược liệu tự nhiên, độ ẩm dưới 12%, màu tím xám hoặc sẫm, không nấm mốc."
+  },
   "faq": [
     {
-      "question": "Tại sao phải bỏ lõi Ba kích trước khi sử dụng?",
-      "answer": "Lõi của củ Ba kích không chứa hoạt chất bổ dưỡng, ngược lại có một số độc chất nhẹ có thể làm giảm chất lượng dược phẩm. Vì vậy các đơn vị thu mua và chế biến đều yêu cầu hoặc ưu tiên mua củ đã rút lõi — bà con nên xử lý trước để bán được giá phân hạng cao hơn."
+      "question": "Tại sao củ ba kích bắt buộc phải bóc bỏ lõi gỗ trước khi sử dụng?",
+      "answer": "Phần lõi gỗ của củ ba kích không chứa các hoạt chất anthraglycosid quý, ngược lại còn chứa tạp chất không tốt cho sức khỏe và làm giảm chất lượng của rượu ngâm. Khi bóc lõi củ tươi, củ sẽ ra nước tím đậm hơn và khi sấy khô sẽ nhanh đạt độ ẩm chuẩn dưới 12%. Các cơ sở thu mua chuyên nghiệp đều yêu cầu hoặc trả giá cao hơn hẳn cho ba kích đã rút lõi."
+    },
+    {
+      "question": "Làm sao phân biệt ba kích rừng xịn Quảng Ninh và ba kích giả (củ viễn chí)?",
+      "answer": "Ba kích rừng tự nhiên (đặc biệt ở Ba Chẽ, Quảng Ninh) củ thường còi cọc, to nhỏ không đều, lõi gỗ dai cứng rất khó bẻ. Trong khi đó củ viễn chí giả (củ ruột gà Tây Bắc) vỏ thường màu đỏ sẫm hoặc trắng xỉn, bẻ ra thịt nhiều nước và có lốm đốm đỏ, lõi gỗ giòn dễ gãy nát chứ không dai dai như ba kích. Ngâm rượu viễn chí sẽ cho ra màu đục xỉn, mùi không thơm nồng."
+    },
+    {
+      "question": "Ba kích rừng có những loại nào và nên mua loại nào để ngâm rượu tốt nhất?",
+      "answer": "Trong tự nhiên, ba kích rừng Quảng Ninh có 2 loại chính là ba kích trắng và ba kích tím. Ba kích trắng phổ biến hơn (chiếm đến 80% sản lượng trong tự nhiên), ba kích tím rừng cực kỳ hiếm gặp. Khi ngâm rượu, ba kích tím rừng cho ra màu tím đậm đẹp mắt, còn ba kích trắng cho màu rượu nhạt hơn, tuy nhiên về giá trị dược tính bồi bổ sinh lực thì cả hai loại đều tương đương nhau. Người mua cần cảnh giác nếu có nơi chào bán ba kích tím rừng tự nhiên với số lượng lớn giá rẻ."
+    },
+    {
+      "question": "Địa chỉ mua bán ba kích uy tín ở đâu tại khu vực Hà Nội?",
+      "answer": "Bạn có thể tìm mua ba kích tím chất lượng tại các tiệm thuốc Đông y uy tín lâu năm hoặc các cửa hàng đặc sản đồ rừng (như khu vực Đồ Rừng Tây Bắc ở Mỹ Đình, quận Cầu Giấy, Thanh Xuân). Đối với bà con nông dân cần bán sỉ số lượng lớn hoặc thương lái gom hàng, các hội nhóm trực tuyến lớn như Hội Mua Bán Ba Kích Tím Việt Nam là kênh giao dịch trực tiếp hiệu quả, hoặc có thể liên hệ trực tiếp với các đơn vị bao tiêu lớn như VIETMEC để được thu mua ổn định."
     }
   ]
 }

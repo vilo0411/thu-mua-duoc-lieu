@@ -8,6 +8,13 @@
     "Thục địa"
   ],
   "group": "cu-re",
+  "taxonIds": {
+    "wikidata": "Q1071605",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/%C4%90%E1%BB%8Ba_ho%C3%A0ng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Rehmannia_glutinosa",
+    "powo": "urn:lsid:ipni.org:names:808644-1",
+    "gbif": "6033069"
+  },
   "priceRange": "16.000 - 94.000 VNĐ/kg",
   "shortDesc": "Củ địa hoàng cho hai vị dược liệu theo cách chế biến: sinh địa (củ sống) và thục địa (đã chưng chế), mỗi loại một mức giá riêng.",
   "image": "/images/cay/dia-hoang.webp",

@@ -5,6 +5,13 @@
   "scientificName": "Coix lacryma-jobi",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q827098",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/%C3%9D_d%C4%A9",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Job%27s_tears",
+    "powo": "urn:lsid:ipni.org:names:30100521-2",
+    "gbif": "2706301"
+  },
   "priceRange": "9.000 - 64.000 VNĐ/kg",
   "shortDesc": "Ý dĩ — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/y-di.webp",

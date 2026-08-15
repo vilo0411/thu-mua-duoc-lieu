@@ -5,6 +5,12 @@
   "scientificName": "Stephania rotunda",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q21321499",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Stephania_rotunda",
+    "powo": "urn:lsid:ipni.org:names:581482-1",
+    "gbif": "5592764"
+  },
   "priceRange": "11.000 - 62.000 VNĐ/kg",
   "shortDesc": "Bình vôi — dược liệu đang được thu mua, thu vỏ, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/binh-voi.webp",

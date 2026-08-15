@@ -53,12 +53,14 @@ export const FeaturedPartnerCard: React.FC<FeaturedPartnerCardProps> = ({
           <h4 className="font-sans font-bold text-sm text-[#4F433A] uppercase tracking-wider mb-2">
             Quyền lợi liên kết bao tiêu cùng {partner.name}:
           </h4>
-          {partner.bullets.map((bullet, idx) => (
-            <div key={idx} className="flex items-start gap-2 text-sm text-[#2D2521]">
-              <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" />
-              <span>{bullet}</span>
-            </div>
-          ))}
+          <ul role="list" className="space-y-2.5 list-none m-0 p-0">
+            {partner.bullets.map((bullet, idx) => (
+              <li key={idx} className="flex items-start gap-2 text-sm text-[#2D2521]">
+                <CheckCircle2 className="w-5 h-5 text-green-600 shrink-0 mt-0.5" aria-hidden="true" />
+                <span>{bullet}</span>
+              </li>
+            ))}
+          </ul>
         </div>
 
         <div className="pt-2 flex flex-col sm:flex-row items-center gap-4 justify-between">

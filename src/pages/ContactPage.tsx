@@ -18,26 +18,28 @@ export const ContactPage: React.FC = () => {
           </p>
         </div>
 
+        {/* Mỗi <label> phải trỏ vào đúng ô nhập bằng htmlFor/id — label đứng cạnh mà
+            không nối thì trình đọc màn hình đọc ô trống, và bấm vào nhãn không focus. */}
         <form onSubmit={(e) => { e.preventDefault(); alert("Cảm ơn ý kiến của bà con, tôi sẽ trực tiếp hồi đáp qua thư điện tử sớm nhất!"); }} className="space-y-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-              <label className="block text-sm font-semibold text-ink-soft mb-1">Họ và tên bà con</label>
-              <input required type="text" placeholder="Nguyễn Văn A" className="w-full px-4 py-2 border border-line rounded-lg focus:outline-none focus:ring-2 focus:ring-terracotta" />
+              <label htmlFor="ct-ten" className="block text-sm font-semibold text-ink-soft mb-1">Họ và tên bà con</label>
+              <input id="ct-ten" name="ten" autoComplete="name" required type="text" placeholder="Nguyễn Văn A" className="w-full px-4 py-2 border border-line rounded-lg focus:outline-none focus:ring-2 focus:ring-terracotta" />
             </div>
             <div>
-              <label className="block text-sm font-semibold text-ink-soft mb-1">Số điện thoại liên lạc</label>
-              <input required type="tel" placeholder="0912345678" className="w-full px-4 py-2 border border-line rounded-lg focus:outline-none focus:ring-2 focus:ring-terracotta" />
+              <label htmlFor="ct-dienthoai" className="block text-sm font-semibold text-ink-soft mb-1">Số điện thoại liên lạc</label>
+              <input id="ct-dienthoai" name="dienThoai" autoComplete="tel" required type="tel" placeholder="0912345678" className="w-full px-4 py-2 border border-line rounded-lg focus:outline-none focus:ring-2 focus:ring-terracotta" />
             </div>
           </div>
 
           <div>
-            <label className="block text-sm font-semibold text-ink-soft mb-1">Địa chỉ Email (Nếu có)</label>
-            <input type="email" placeholder="lien-he@nguyenvietloc.com" className="w-full px-4 py-2 border border-line rounded-lg focus:outline-none focus:ring-2 focus:ring-terracotta" />
+            <label htmlFor="ct-email" className="block text-sm font-semibold text-ink-soft mb-1">Địa chỉ Email (Nếu có)</label>
+            <input id="ct-email" name="email" autoComplete="email" type="email" placeholder="lien-he@nguyenvietloc.com" className="w-full px-4 py-2 border border-line rounded-lg focus:outline-none focus:ring-2 focus:ring-terracotta" />
           </div>
 
           <div>
-            <label className="block text-sm font-semibold text-ink-soft mb-1">Nội dung thắc mắc / Đề xuất vùng trồng</label>
-            <textarea required rows={4} placeholder="Mô tả chi tiết diện tích đất đồi sỏi, loại cây định gieo trồng hoặc tình trạng sâu bệnh..." className="w-full px-4 py-2 border border-line rounded-lg focus:outline-none focus:ring-2 focus:ring-terracotta"></textarea>
+            <label htmlFor="ct-noidung" className="block text-sm font-semibold text-ink-soft mb-1">Nội dung thắc mắc / Đề xuất vùng trồng</label>
+            <textarea id="ct-noidung" name="noiDung" required rows={4} placeholder="Mô tả chi tiết diện tích đất đồi sỏi, loại cây định gieo trồng hoặc tình trạng sâu bệnh..." className="w-full px-4 py-2 border border-line rounded-lg focus:outline-none focus:ring-2 focus:ring-terracotta"></textarea>
           </div>
 
           <button type="submit" className="w-full bg-terracotta hover:bg-terracotta-dark text-white font-bold py-3 rounded-lg shadow-md transition-colors cursor-pointer text-center">
@@ -45,10 +47,11 @@ export const ContactPage: React.FC = () => {
           </button>
         </form>
 
-        <div className="border-t border-sand pt-5 text-xs text-gray-500 italic space-y-1">
-          <p>Hộp thư cá nhân chính thức: <strong>lien-he@nguyenvietloc.com</strong></p>
+        <h2 className="sr-only">Thông tin liên hệ khác</h2>
+        <address className="not-italic border-t border-sand pt-5 text-xs text-gray-500 italic space-y-1">
+          <p>Hộp thư cá nhân chính thức: <a href="mailto:lien-he@nguyenvietloc.com" className="font-bold text-terracotta hover:underline">lien-he@nguyenvietloc.com</a></p>
           <p>Bà con cũng có thể tham khảo thông tin các kênh tiêu thụ tại <a href="/thu-mua-duoc-lieu" className="text-terracotta underline">trang thu mua dược liệu</a>.</p>
-        </div>
+        </address>
       </section>
     </div>
   );

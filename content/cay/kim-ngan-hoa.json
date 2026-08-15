@@ -9,6 +9,13 @@
     "Boóc kim ngần"
   ],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q161083",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Kim_ng%C3%A2n",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Lonicera_japonica",
+    "powo": "urn:lsid:ipni.org:names:148850-1",
+    "gbif": "5334240"
+  },
   "priceRange": "180.000 - 450.000 VNĐ/kg",
   "shortDesc": "Được coi là 'kháng sinh thực vật quý'. Thu hái chính ở hoa búp sắp nở vàng trắng đan xen.",
   "image": "/images/cay/kim-ngan-hoa.webp",

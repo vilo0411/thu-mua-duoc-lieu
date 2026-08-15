@@ -5,6 +5,9 @@
   "scientificName": "Pheretima aspergillum",
   "otherNames": [],
   "group": "cu-re",
+  "taxonIds": {
+    "wikidata": "Q104699438"
+  },
   "priceRange": "17.000 - 87.000 VNĐ/kg",
   "shortDesc": "Địa long — dược liệu đang được thu mua, thu toàn con (giun đất), nhu cầu 50 kg/tháng.",
   "image": "/images/cay/dia-long.webp",

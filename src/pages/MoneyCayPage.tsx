@@ -15,6 +15,7 @@ const statIcon = (label: string): React.ElementType => {
 };
 import { paths, asset } from "../lib/paths";
 import { Seo, herbSeo, herbFocusKeyword } from "../lib/seo";
+import { lastModified, formatVnDate } from "../lib/data/lastmod";
 import { NotFoundPage } from "./NotFoundPage";
 
 const POPULARITY_LABEL: Record<string, string> = {
@@ -30,9 +31,15 @@ export const MoneyCayPage: React.FC = () => {
   if (!herb) return <NotFoundPage />;
 
   const calcCtaHref = `#kenh-tieu-thu`;
+  // Ngày cập nhật phải hiện trên trang: Google đòi ngày trong schema khớp ngày người đọc thấy.
+  // Giữ cả ISO (cho <time dateTime>) lẫn chuỗi Việt (cho mắt người).
+  const updatedIso = lastModified("cay", herb.slug);
+  const updated = formatVnDate(updatedIso);
 
   return (
-    <div className="space-y-14 md:space-y-20 animate-fade-in">
+    // <article>: trang cây là một tài liệu độc lập về một thực thể, không phải một
+    // đống <section> rời rạc — đây là ranh giới nội dung chính cho crawler.
+    <article className="space-y-14 md:space-y-20 animate-fade-in">
       <Seo {...herbSeo(herb)} />
       <Breadcrumb items={[
         { label: "Trang chủ", href: paths.home() },
@@ -40,8 +47,8 @@ export const MoneyCayPage: React.FC = () => {
         { label: herb.name },
       ]} />
 
-      {/* Hero */}
-      <section className="relative bg-gradient-to-r from-paper to-sand border border-line rounded-2xl p-6 md:p-10 flex flex-col md:flex-row gap-6 items-center">
+      {/* Hero = <header> của trang cây */}
+      <header className="relative bg-gradient-to-r from-paper to-sand border border-line rounded-2xl p-6 md:p-10 flex flex-col md:flex-row gap-6 items-center">
         <div className="md:w-1/3 aspect-4/3 w-full bg-gray-100 rounded-xl overflow-hidden shadow-xs shrink-0">
           <img src={asset(herb.image)} alt={herb.name} referrerPolicy="no-referrer" loading="eager" fetchPriority="high" decoding="async" className="w-full h-full object-cover" />
         </div>
@@ -66,11 +73,22 @@ export const MoneyCayPage: React.FC = () => {
             {herbFocusKeyword(herb)} {new Date().getFullYear()}: bảng giá &amp; kênh thu mua
           </h1>
           {herb.scientificName && (
-            <p className="text-gray-600 text-sm italic font-mono">Tên khoa học: {herb.scientificName}</p>
+            <p className="text-gray-600 text-sm font-mono">
+              {/* Danh pháp Latin: <i lang="la"> đúng quy ước phân loại học và báo cho
+                  trình đọc màn hình đừng phát âm theo tiếng Việt. */}
+              Tên khoa học: <i lang="la" className="italic">{herb.scientificName}</i>
+            </p>
           )}
-          <p className="text-gray-700 text-base leading-relaxed font-sans">{herb.description}</p>
+          {/* Ngày cập nhật hiển thị để khớp `dateModified` trong JSON-LD. */}
+          {updated && (
+            <p className="text-xs text-gray-500 font-sans">
+              Cập nhật: <time dateTime={updatedIso}>{updated}</time>
+            </p>
+          )}
+          {/* .seo-answer: đánh dấu đoạn trả lời trực tiếp câu hỏi chính của trang (dùng cho biên tập). */}
+          <p className="seo-answer text-gray-700 text-base leading-relaxed font-sans">{herb.description}</p>
         </div>
-      </section>
+      </header>
 
       {/* Video thực địa (YouTube/TikTok) — chỉ hiện khi cây có khai báo media */}
       {herb.media && herb.media.length > 0 && (
@@ -78,31 +96,37 @@ export const MoneyCayPage: React.FC = () => {
       )}
 
       {/* Quick Info */}
-      <section className="space-y-6">
-        <h2 className="font-serif text-xl font-bold text-ink-soft">Thông số đặc điểm thương mại</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <section id="thong-so" aria-labelledby="thong-so-h" className="space-y-6 scroll-mt-24">
+        <h2 id="thong-so-h" className="font-serif text-xl font-bold text-ink-soft">Thông số đặc điểm thương mại</h2>
+        {/* <dl>: đây đúng nghĩa là các cặp thuật ngữ–định nghĩa. Trước đây là span/span
+            trong div, máy không biết cái nào là nhãn còn cái nào là giá trị. */}
+        <dl className="grid grid-cols-1 sm:grid-cols-2 gap-4 m-0">
           {herb.stats.map((stat, idx) => {
             const Icon = statIcon(stat.label);
             return (
-              <div key={idx} className="bg-paper-2 border border-line rounded-xl p-4 flex items-center gap-4">
-                <div className="w-11 h-11 rounded-full bg-sand text-terracotta flex items-center justify-center shrink-0">
-                  <Icon className="w-5 h-5" />
-                </div>
-                <div className="min-w-0">
-                  <span className="block font-sans font-semibold text-ink-soft text-sm">{stat.label}</span>
-                  <span className="block font-sans text-ink-soft font-bold text-lg leading-tight">{stat.value}</span>
-                </div>
+              // <div> con của <dl> CHỈ được chứa dt/dd — nên icon nằm trong <dt>
+              // (aria-hidden vì nó chỉ trang trí, nhãn chữ đã nói đủ).
+              <div key={idx} className="bg-paper-2 border border-line rounded-xl p-4 flex flex-wrap items-center gap-x-4">
+                <dt className="flex flex-1 min-w-0 items-center gap-4 font-sans font-semibold text-ink-soft text-sm">
+                  <span className="w-11 h-11 rounded-full bg-sand text-terracotta flex items-center justify-center shrink-0" aria-hidden="true">
+                    <Icon className="w-5 h-5" />
+                  </span>
+                  <span className="min-w-0">{stat.label}</span>
+                </dt>
+                <dd className="w-full pl-[3.75rem] font-sans text-ink-soft font-bold text-lg leading-tight m-0">
+                  {stat.value}
+                </dd>
               </div>
             );
           })}
-        </div>
+        </dl>
       </section>
 
       {/* Nhận diện hàng tươi / khô (dữ liệu thu mua thực tế) */}
       {(herb.identification?.fresh || herb.identification?.dry) && (
-        <section className="space-y-6">
-          <h2 className="font-serif text-xl font-bold text-ink-soft flex items-center gap-2">
-            <Package className="w-6 h-6 text-terracotta" />
+        <section id="nhan-dien" aria-labelledby="nhan-dien-h" className="space-y-6 scroll-mt-24">
+          <h2 id="nhan-dien-h" className="font-serif text-xl font-bold text-ink-soft flex items-center gap-2">
+            <Package className="w-6 h-6 text-terracotta" aria-hidden="true" />
             Đặc điểm nhận diện hàng {herb.name} khi thu mua
           </h2>
           <p className="text-sm text-gray-600 font-sans">
@@ -130,25 +154,25 @@ export const MoneyCayPage: React.FC = () => {
       )}
 
       {/* Pricing table */}
-      <section className="space-y-6">
+      <section id="gia-thu-mua" aria-labelledby="gia-thu-mua-h" className="space-y-6 scroll-mt-24">
         <div className="flex flex-col sm:flex-row items-baseline justify-between gap-2">
-          <h2 className="font-serif text-xl font-bold text-ink-soft">
+          <h2 id="gia-thu-mua-h" className="font-serif text-xl font-bold text-ink-soft">
             Bảng giá phân hạng thu mua rễ tươi/sấy khô ({herb.name}) hôm nay
           </h2>
           <span className="text-xs text-green-700 font-semibold italic">Đầy đủ các bộ phận giao dịch</span>
         </div>
 
-        <PriceBoard prices={herb.prices} updatedLabel="Tuần này" />
+        <PriceBoard prices={herb.prices} updatedLabel="Tuần này" herbName={herb.name} />
       </section>
 
       {/* Price calculator */}
-      <section>
+      <section id="tinh-gia" className="scroll-mt-24">
         <HerbPriceCalculator prices={herb.prices} herbName={herb.name} ctaHref={calcCtaHref} />
       </section>
 
       {/* Kênh bán hàng */}
-      <section id="kenh-tieu-thu" className="space-y-6 scroll-mt-24">
-        <h2 className="font-serif text-xl font-bold text-ink-soft border-b border-line pb-2">Kênh thu mua {herb.name}</h2>
+      <section id="kenh-tieu-thu" aria-labelledby="kenh-tieu-thu-h" className="space-y-6 scroll-mt-24">
+        <h2 id="kenh-tieu-thu-h" className="font-serif text-xl font-bold text-ink-soft border-b border-line pb-2">Kênh thu mua {herb.name}</h2>
         <SaleChannelsCard herbName={herb.name} cay={herb.slug} pageType="money_cay" />
         <p className="text-sm text-gray-600 font-sans">
           Xem thêm:{" "}
@@ -160,18 +184,18 @@ export const MoneyCayPage: React.FC = () => {
       </section>
 
       {/* Standards */}
-      <section className="bg-white border border-line rounded-xl p-6 space-y-5">
-        <h2 className="font-serif text-xl font-bold text-ink-soft flex items-center gap-2">
-          <ShieldCheck className="w-6 h-6 text-green-600" />
+      <section id="tieu-chuan" aria-labelledby="tieu-chuan-h" className="bg-white border border-line rounded-xl p-6 space-y-5 scroll-mt-24">
+        <h2 id="tieu-chuan-h" className="font-serif text-xl font-bold text-ink-soft flex items-center gap-2">
+          <ShieldCheck className="w-6 h-6 text-green-600" aria-hidden="true" />
           Tiêu chuẩn chất lượng để bán được giá tốt
         </h2>
         <p className="text-sm text-gray-600 font-sans">
           Đây là các tiêu chí nhà máy chế biến thường kiểm tra khi nhận hàng {herb.name}. Đạt càng nhiều tiêu chí, bà con càng dễ thương lượng giá cao:
         </p>
-        <ul className="space-y-3.5 pl-1">
+        <ul role="list" className="space-y-3.5 pl-1 list-none m-0">
           {herb.standards.map((std, idx) => (
             <li key={idx} className="flex items-start gap-3 text-ink text-base leading-relaxed">
-              <div className="w-5 h-5 rounded-full bg-green-100 text-green-600 flex items-center justify-center shrink-0 mt-1">✓</div>
+              <span className="w-5 h-5 rounded-full bg-green-100 text-green-600 flex items-center justify-center shrink-0 mt-1" aria-hidden="true">✓</span>
               <span>{std}</span>
             </li>
           ))}
@@ -180,23 +204,23 @@ export const MoneyCayPage: React.FC = () => {
 
       {/* Vùng trồng — nội dung nằm ngay trong bài cây (không tách trang cấp vùng) */}
       {herb.regions.length > 0 && (
-      <section className="space-y-6">
-        <h2 className="font-serif text-xl font-bold text-ink-soft border-b border-line pb-2">
+      <section id="vung-trong" aria-labelledby="vung-trong-h" className="space-y-6 scroll-mt-24">
+        <h2 id="vung-trong-h" className="font-serif text-xl font-bold text-ink-soft border-b border-line pb-2">
           Vùng trồng &amp; thu mua {herb.name} trọng điểm
         </h2>
         <p className="text-sm text-gray-600 font-sans">
           {herb.name} được thu mua tập trung tại các vùng dưới đây. Bà con ở những tỉnh này gom hàng qua HTX/đầu mối
           địa phương để đủ sản lượng cho một chuyến bao tiêu:
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <ul role="list" className="grid grid-cols-1 md:grid-cols-2 gap-4 list-none m-0 p-0">
           {herb.regions.map((reg, idx) => {
             const detail = getRegionBySlug(reg.regionSlug);
             const popularityLabel = POPULARITY_LABEL[reg.popularity] ?? "vùng trồng";
             return (
-              <div key={idx} className="bg-paper border border-line rounded-xl p-5 space-y-2.5">
+              <li key={idx} className="bg-paper border border-line rounded-xl p-5 space-y-2.5">
                 <div className="flex items-start justify-between gap-3">
                   <h3 className="font-serif text-lg font-bold text-ink-soft flex items-center gap-2">
-                    <MapPin className="w-4 h-4 text-terracotta shrink-0" />
+                    <MapPin className="w-4 h-4 text-terracotta shrink-0" aria-hidden="true" />
                     Thu mua {herb.name} tại {reg.regionName}
                   </h3>
                   <span className="shrink-0 text-[11px] font-sans font-bold uppercase bg-sand text-terracotta px-2 py-0.5 rounded">
@@ -217,18 +241,18 @@ export const MoneyCayPage: React.FC = () => {
                 {detail?.advantages && (
                   <p className="text-sm text-gray-600 leading-relaxed font-sans">{detail.advantages}</p>
                 )}
-              </div>
+              </li>
             );
           })}
-        </div>
+        </ul>
       </section>
       )}
 
       {/* Pests & diseases */}
       {herb.pests.length > 0 && (
-        <section className="space-y-6">
-          <h2 className="font-serif text-xl font-bold text-ink-soft flex items-center gap-2 border-b border-line pb-2">
-            <Bug className="w-6 h-6 text-terracotta" />
+        <section id="sau-benh" aria-labelledby="sau-benh-h" className="space-y-6 scroll-mt-24">
+          <h2 id="sau-benh-h" className="font-serif text-xl font-bold text-ink-soft flex items-center gap-2 border-b border-line pb-2">
+            <Bug className="w-6 h-6 text-terracotta" aria-hidden="true" />
             Sâu bệnh thường gặp & cách xử lý cho {herb.name}
           </h2>
           <p className="text-sm text-gray-600 font-sans">
@@ -240,10 +264,10 @@ export const MoneyCayPage: React.FC = () => {
       )}
 
       {/* Technique block */}
-      <section className="bg-gradient-to-br from-paper to-paper-2 border border-line rounded-xl p-6 flex flex-col sm:flex-row gap-6 items-center justify-between">
+      <section aria-labelledby="ky-thuat-h" className="bg-gradient-to-br from-paper to-paper-2 border border-line rounded-xl p-6 flex flex-col sm:flex-row gap-6 items-center justify-between">
         <div className="space-y-2">
           <span className="text-terracotta font-mono text-xs font-bold uppercase tracking-[0.15em] block mb-1">// Tài liệu hướng dẫn</span>
-          <h2 className="font-serif text-xl font-bold text-ink-soft">Kỹ thuật gieo trồng chăm sóc {herb.name} đúng quy chuẩn nông nghiệp sạch</h2>
+          <h2 id="ky-thuat-h" className="font-serif text-xl font-bold text-ink-soft">Kỹ thuật gieo trồng chăm sóc {herb.name} đúng quy chuẩn nông nghiệp sạch</h2>
           <p className="text-sm text-gray-600 max-w-xl">Do Nguyễn Viết Lộc tổng hợp từ nguồn uy tín — từ chọn giống, chăm sóc đến thu hoạch và sơ chế đúng cách.</p>
         </div>
         <Link
@@ -256,8 +280,8 @@ export const MoneyCayPage: React.FC = () => {
 
       {/* FAQ */}
       {herb.faq.length > 0 && (
-      <section className="space-y-6">
-        <h2 className="font-serif text-xl font-bold text-ink-soft border-b border-line pb-2">Câu hỏi thường gặp nhất về thu mua {herb.name}</h2>
+      <section id="faq" aria-labelledby="faq-h" className="space-y-6 scroll-mt-24">
+        <h2 id="faq-h" className="font-serif text-xl font-bold text-ink-soft border-b border-line pb-2">Câu hỏi thường gặp nhất về thu mua {herb.name}</h2>
         <FaqAccordion items={herb.faq} />
       </section>
       )}
@@ -268,6 +292,6 @@ export const MoneyCayPage: React.FC = () => {
         buttonText="Gửi câu hỏi cho tôi"
         href="/lien-he"
       />
-    </div>
+    </article>
   );
 };

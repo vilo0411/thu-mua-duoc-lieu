@@ -5,6 +5,13 @@
   "scientificName": "Lindera aggregata",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q3205609",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Lindera_aggregata",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Lindera_aggregata",
+    "powo": "urn:lsid:ipni.org:names:465318-1",
+    "gbif": "7304587"
+  },
   "priceRange": "9.000 - 66.000 VNĐ/kg",
   "shortDesc": "Ô dược — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/o-duoc.webp",

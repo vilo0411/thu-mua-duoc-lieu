@@ -5,6 +5,13 @@
   "scientificName": "Lactuca indica",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q4236769",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Di%E1%BA%BFp_d%E1%BA%A1i",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Lactuca_indica",
+    "powo": "urn:lsid:ipni.org:names:228047-1",
+    "gbif": "3140510"
+  },
   "priceRange": "11.000 - 73.000 VNĐ/kg",
   "shortDesc": "Bồ công anh — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/bo-cong-anh.webp",

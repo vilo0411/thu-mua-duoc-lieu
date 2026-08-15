@@ -5,6 +5,12 @@
   "scientificName": "Docynia indica",
   "otherNames": [],
   "group": "cu-re",
+  "taxonIds": {
+    "wikidata": "Q10830314",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/T%C3%A1o_m%C3%A8o",
+    "powo": "urn:lsid:ipni.org:names:724616-1",
+    "gbif": "3025442"
+  },
   "priceRange": "15.000 - 80.000 VNĐ/kg",
   "shortDesc": "Sơn tra — dược liệu đang được thu mua, thu củ, rễ, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/son-tra.webp",

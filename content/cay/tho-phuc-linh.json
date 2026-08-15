@@ -5,6 +5,13 @@
   "scientificName": "Smilax glabra",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q3658986",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Th%E1%BB%95_ph%E1%BB%A5c_linh",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Smilax_glabra",
+    "powo": "urn:lsid:ipni.org:names:541462-1",
+    "gbif": "5295506"
+  },
   "priceRange": "10.000 - 56.000 VNĐ/kg",
   "shortDesc": "Thổ phục linh — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/tho-phuc-linh.webp",

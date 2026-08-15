@@ -5,6 +5,12 @@
   "scientificName": "Lophatherum gracile",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q5702352",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Lophatherum_gracile",
+    "powo": "urn:lsid:ipni.org:names:407535-1",
+    "gbif": "4129475"
+  },
   "priceRange": "10.000 - 51.000 VNĐ/kg",
   "shortDesc": "Trúc diệp — dược liệu đang được thu mua, thu lá, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/truc-diep.webp",

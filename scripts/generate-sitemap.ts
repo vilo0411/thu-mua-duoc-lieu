@@ -22,6 +22,27 @@ const routes = collectRoutes();
 
 const today = new Date().toISOString().slice(0, 10);
 
+/**
+ * Ngày sửa thật của từng trang, do scripts/generate-lastmod.ts sinh từ lịch sử git.
+ * Trước đây mọi URL đều mang ngày build — khiến toàn site trông như vừa đổi sau mỗi
+ * lần deploy, làm loãng tín hiệu "nội dung mới" mà lastmod vốn dùng để phát đi.
+ */
+const lastmodPath = join(CONTENT, "lastmod.json");
+const LASTMOD: Record<string, string> = existsSync(lastmodPath)
+  ? JSON.parse(readFileSync(lastmodPath, "utf8"))
+  : {};
+
+/** Suy khoá lastmod từ path URL; trang tĩnh dùng mốc chung của site. */
+function lastmodFor(path: string): string {
+  const herb = path.match(/^\/thu-mua-duoc-lieu\/([^/]+)$/);
+  if (herb) return LASTMOD[`cay/${herb[1]}`] ?? today;
+  const hub = path.match(/^\/kien-thuc\/ky-thuat-trong-(.+)$/);
+  if (hub) return LASTMOD[`wiki-hub/${hub[1]}`] ?? today;
+  const article = path.match(/^\/kien-thuc\/(.+)$/);
+  if (article) return LASTMOD[`wiki/${article[1]}`] ?? today;
+  return LASTMOD._site ?? today;
+}
+
 function url(path: string): string {
   const clean = path === "/" ? "/" : `/${path.replace(/^\//, "").replace(/\/$/, "")}`;
   return `${ORIGIN}${clean === "/" ? "/" : clean}`;
@@ -29,7 +50,7 @@ function url(path: string): string {
 
 function urlset(paths: string[]): string {
   const items = paths
-    .map((p) => `  <url>\n    <loc>${url(p)}</loc>\n    <lastmod>${today}</lastmod>\n  </url>`)
+    .map((p) => `  <url>\n    <loc>${url(p)}</loc>\n    <lastmod>${lastmodFor(p)}</lastmod>\n  </url>`)
     .join("\n");
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${items}\n</urlset>\n`;
 }

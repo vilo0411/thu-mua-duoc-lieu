@@ -4,9 +4,13 @@
  */
 import type { HerbalMedicine, WikiArticle, WikiHub } from "../../types";
 import { paths } from "../paths";
-import { SITE } from "../data";
+import { SITE, HERBS_DATA } from "../data";
+import { lastModified, SITE_LASTMOD } from "../data/lastmod";
 import type { SeoProps } from "./Seo";
 import * as ld from "./jsonLd";
+import { ID } from "./ids";
+import { imageCredit } from "./imageCredits";
+import { slugify, stepAnchorId } from "../slug";
 
 const YEAR = new Date().getFullYear();
 
@@ -59,12 +63,23 @@ export function herbFocusKeyword(herb: HerbalMedicine): string {
 }
 
 export function homeSeo(): SeoProps {
+  const path = paths.home();
   return {
     title: SITE.defaultTitle,
     description: SITE.defaultDescription,
-    path: paths.home(),
+    path,
     type: "website",
-    jsonLd: [ld.organizationOfBlogger(), ld.website()],
+    graph: [
+      ...ld.baseNodes(),
+      ld.webPage({
+        path,
+        name: SITE.defaultTitle,
+        description: SITE.defaultDescription,
+        dateModified: SITE_LASTMOD,
+        about: ID.org(),
+      }),
+      ld.breadcrumbList(path, [{ name: "Trang chủ", path }]),
+    ],
   };
 }
 
@@ -98,40 +113,77 @@ export const PILLAR_FAQ: { question: string; answer: string }[] = [
 ];
 
 export function pillarSeo(): SeoProps {
+  const path = paths.pillar();
+  const title = `Thu mua dược liệu ${YEAR}: giá & đầu mối uy tín`;
+  const description =
+    "Bảng giá thu mua dược liệu mới nhất, đầu mối và công ty thu mua uy tín, nơi bán tại Hà Nội, miền Bắc và toàn quốc - giúp nông hộ, HTX bán đúng giá, tránh bị ép.";
+  const items = HERBS_DATA.map((h) => ({ name: h.name, path: paths.herb(h.slug) }));
   return {
-    title: `Thu mua dược liệu ${YEAR}: giá & đầu mối uy tín`,
-    description:
-      "Bảng giá thu mua dược liệu mới nhất, đầu mối và công ty thu mua uy tín, nơi bán tại Hà Nội, miền Bắc và toàn quốc - giúp nông hộ, HTX bán đúng giá, tránh bị ép.",
-    path: paths.pillar(),
+    title,
+    description,
+    path,
     type: "website",
-    jsonLd: [
-      ld.breadcrumbList([
+    graph: [
+      ...ld.baseNodes(),
+      ld.webPage({
+        path,
+        type: "CollectionPage",
+        name: title,
+        description,
+        dateModified: SITE_LASTMOD,
+        hasPart: [ID.faq(path), ID.itemList(path)],
+      }),
+      ld.breadcrumbList(path, [
         { name: "Trang chủ", path: paths.home() },
-        { name: "Thu mua dược liệu", path: paths.pillar() },
+        { name: "Thu mua dược liệu", path },
       ]),
-      ld.faqPage(PILLAR_FAQ),
+      ld.itemList(path, items),
+      ld.faqPage(path, PILLAR_FAQ),
     ],
   };
 }
 
+/**
+ * KHÔNG phát Product/Offer ở đây. Bảng giá trên trang là giá thị trường tham khảo do
+ * tôi tổng hợp, không phải lời chào bán — khai Offer sẽ là structured data gây hiểu
+ * lầm. Tín hiệu giá cho máy đọc nằm ở bảng HTML ngữ nghĩa trong PriceBoard.
+ */
 export function herbSeo(herb: HerbalMedicine): SeoProps {
   const path = paths.herb(herb.slug);
   const focus = herbFocusKeyword(herb);
+  const modified = lastModified("cay", herb.slug);
   return {
     title: fitTitle(`${focus} ${YEAR}: giá & nơi bán uy tín`),
     description: `${focus} ${YEAR}: bảng giá tham khảo theo phân hạng, tiêu chuẩn chất lượng và kênh thu mua uy tín. ${herb.shortDesc}`.slice(0, 158),
     path,
     type: "article",
     image: herb.image,
-    jsonLd: [
+    graph: [
+      ...ld.baseNodes(),
+      ld.webPage({
+        path,
+        name: `${focus} ${YEAR}`,
+        description: herb.shortDesc,
+        dateModified: modified,
+        about: ID.taxon(path),
+        hasPart: [ID.faq(path)],
+        primaryImage: herb.image ? ID.primaryImage(path) : undefined,
+      }),
       ld.article({
         headline: `Thị trường thu mua ${herb.name}`,
         description: herb.shortDesc,
         path,
         image: herb.image,
+        dateModified: modified,
+        articleSection: "Thu mua dược liệu",
+        keywords: herb.keywordsTarget,
+        about: ID.taxon(path),
       }),
-      ld.faqPage(herb.faq),
-      ld.breadcrumbList([
+      // Trang thu mua là trang gốc của thực thể cây → Taxon đầy đủ ở đây.
+      ld.taxon(herb, path),
+      ld.primaryImage(path, herb.image, herb.name, imageCredit(herb.image)),
+      ld.faqPage(path, herb.faq),
+      ld.breadcrumbList(path, [
         { name: "Trang chủ", path: paths.home() },
         { name: "Thu mua dược liệu", path: paths.pillar() },
         { name: herb.name, path },
@@ -140,8 +192,16 @@ export function herbSeo(herb: HerbalMedicine): SeoProps {
   };
 }
 
-export function hubSeo(hub: WikiHub, image?: string): SeoProps {
+/**
+ * Trang hub nói về QUY TRÌNH trồng, nhưng vẫn phát node Taxon giống hệt trang thu
+ * mua (cùng `@id`, cùng sameAs) để hai silo được nhận là cùng một thực thể cây.
+ */
+export function hubSeo(hub: WikiHub, herb: HerbalMedicine): SeoProps {
   const path = paths.hubWiki(hub.herbSlug);
+  const herbPath = paths.herb(herb.slug);
+  const image = herb.image;
+  const modified = lastModified("wiki-hub", hub.herbSlug);
+  const title = hub.title;
   return {
     // Title biên tập (dùng làm H1) thường 60–70 ký tự nên bị cắt trên SERP; <title>
     // sinh theo khuôn ngắn bám đúng cụm "kỹ thuật trồng {cây}". Hub nào cần khác
@@ -151,15 +211,43 @@ export function hubSeo(hub: WikiHub, image?: string): SeoProps {
     path,
     type: "article",
     image,
-    jsonLd: [
-      ld.article({ headline: hub.title, description: hub.intro, path, image }),
-      ld.howTo({
-        name: hub.title,
-        description: hub.intro,
-        steps: hub.standards.map((s) => ({ name: s.stage, text: s.criteria })),
+    graph: [
+      ...ld.baseNodes(),
+      ld.webPage({
+        path,
+        name: title,
+        description: hub.intro.slice(0, 158),
+        dateModified: modified,
+        about: ID.taxon(herbPath),
+        hasPart: [ID.faq(path)],
+        primaryImage: image ? ID.primaryImage(path) : undefined,
       }),
-      ld.faqPage(hub.faq),
-      ld.breadcrumbList([
+      ld.article({
+        headline: title,
+        description: hub.intro,
+        path,
+        image,
+        dateModified: modified,
+        articleSection: "Kỹ thuật trồng",
+        about: ID.taxon(herbPath),
+        sources: hub.sources,
+      }),
+      ld.taxon(herb, herbPath),
+      ld.primaryImage(path, image, hub.herbName, imageCredit(image)),
+      ld.howTo({
+        path,
+        name: title,
+        description: hub.intro,
+        // criteria = yêu cầu, controlMethod = cách làm; gộp cả hai để step có nội
+        // dung đúng như người đọc thấy trên <ProcessSteps>.
+        steps: hub.standards.map((s) => ({
+          name: s.stage,
+          text: [s.criteria, s.controlMethod].filter(Boolean).join(" Cách làm: "),
+          anchor: stepAnchorId(s.stage),
+        })),
+      }),
+      ld.faqPage(path, hub.faq),
+      ld.breadcrumbList(path, [
         { name: "Trang chủ", path: paths.home() },
         { name: "Kiến thức", path: paths.knowledge() },
         { name: hub.herbName, path },
@@ -168,28 +256,70 @@ export function hubSeo(hub: WikiHub, image?: string): SeoProps {
   };
 }
 
+/** Bài mô tả quy trình → phát thêm HowTo. Ưu tiên cờ `howTo` trong content; thiếu thì đoán theo slug/category. */
+export function isHowToArticle(a: WikiArticle): boolean {
+  if (typeof a.howTo === "boolean") return a.howTo;
+  return (
+    a.category.toLowerCase().includes("chế biến") ||
+    a.slug.startsWith("cach-") ||
+    a.slug.startsWith("quy-trinh-")
+  );
+}
+
+/** Id anchor của một section trong bài wiki — dùng chung giữa trang, TOC và HowToStep.url. */
+export function articleSectionId(heading: string, index: number): string {
+  const s = slugify(heading, 50);
+  return s ? `muc-${s}` : `muc-${index + 1}`;
+}
+
 export function articleSeo(a: WikiArticle): SeoProps {
   const path = paths.article(a.id);
-  const isHowTo = a.category.toLowerCase().includes("chế biến") || a.slug.startsWith("cach-") || a.slug.startsWith("quy-trinh-");
+  const modified = lastModified("wiki", a.id);
   return {
     title: fitTitle(a.seoTitle || a.title),
     description: a.excerpt.slice(0, 158),
     path,
     type: "article",
     image: a.image,
-    jsonLd: [
-      ld.article({ headline: a.title, description: a.excerpt, path, image: a.image, datePublished: a.date }),
-      ...(isHowTo
+    graph: [
+      ...ld.baseNodes(),
+      ld.webPage({
+        path,
+        name: a.title,
+        description: a.excerpt.slice(0, 158),
+        datePublished: a.date,
+        dateModified: modified,
+        hasPart: [ID.faq(path)],
+        primaryImage: a.image ? ID.primaryImage(path) : undefined,
+      }),
+      ld.article({
+        headline: a.title,
+        description: a.excerpt,
+        path,
+        image: a.image,
+        datePublished: a.date,
+        dateModified: modified,
+        articleSection: a.category,
+        about: undefined,
+        sources: a.sources,
+      }),
+      ld.primaryImage(path, a.image, a.title, imageCredit(a.image)),
+      ...(isHowToArticle(a)
         ? [
             ld.howTo({
+              path,
               name: a.title,
               description: a.excerpt,
-              steps: a.contentSections.map((s) => ({ name: s.heading, text: s.paragraphs[0] ?? "" })),
+              steps: a.contentSections.map((s, i) => ({
+                name: s.heading,
+                text: s.paragraphs.join(" "),
+                anchor: articleSectionId(s.heading, i),
+              })),
             }),
           ]
         : []),
-      ld.faqPage(a.faq),
-      ld.breadcrumbList([
+      ld.faqPage(path, a.faq),
+      ld.breadcrumbList(path, [
         { name: "Trang chủ", path: paths.home() },
         { name: "Kiến thức", path: paths.knowledge() },
         { name: a.title, path },
@@ -199,55 +329,122 @@ export function articleSeo(a: WikiArticle): SeoProps {
 }
 
 export function knowledgeSeo(listItems: { name: string; path: string }[] = []): SeoProps {
+  const path = paths.knowledge();
+  const title = "Kỹ thuật trồng cây dược liệu: cẩm nang canh tác";
+  const description =
+    "Cẩm nang kỹ thuật trồng cây dược liệu: gieo trồng, nhân giống, làm đất, bón phân, phòng trừ sâu bệnh và sơ chế — do Nguyễn Viết Lộc tổng hợp từ nguồn uy tín.";
   return {
-    title: "Kỹ thuật trồng cây dược liệu: cẩm nang canh tác",
-    description:
-      "Cẩm nang kỹ thuật trồng cây dược liệu: gieo trồng, nhân giống, làm đất, bón phân, phòng trừ sâu bệnh và sơ chế — do Nguyễn Viết Lộc tổng hợp từ nguồn uy tín.",
-    path: paths.knowledge(),
+    title,
+    description,
+    path,
     type: "website",
-    jsonLd: [
-      ld.breadcrumbList([
+    graph: [
+      ...ld.baseNodes(),
+      ld.webPage({
+        path,
+        type: "CollectionPage",
+        name: title,
+        description,
+        dateModified: SITE_LASTMOD,
+        hasPart: listItems.length ? [ID.itemList(path)] : undefined,
+      }),
+      ld.breadcrumbList(path, [
         { name: "Trang chủ", path: paths.home() },
-        { name: "Kỹ thuật trồng cây dược liệu", path: paths.knowledge() },
+        { name: "Kỹ thuật trồng cây dược liệu", path },
       ]),
-      ...(listItems.length ? [ld.itemList(listItems)] : []),
+      ld.itemList(path, listItems),
     ],
   };
 }
 
 export function sitemapSeo(): SeoProps {
+  const path = paths.sitemap();
+  // Không tự gắn siteName: Google đã tự thêm tên site vào title link trên SERP.
+  const title = "Sơ đồ trang: toàn bộ nội dung dược liệu";
+  const description =
+    "Sơ đồ toàn bộ trang trên website: bảng giá thu mua từng cây dược liệu, vùng trồng, kỹ thuật canh tác và các trang thông tin — giúp tra cứu và điều hướng nhanh.";
   return {
-    // Không tự gắn siteName: Google đã tự thêm tên site vào title link trên SERP.
-    title: "Sơ đồ trang: toàn bộ nội dung dược liệu",
-    description:
-      "Sơ đồ toàn bộ trang trên website: bảng giá thu mua từng cây dược liệu, vùng trồng, kỹ thuật canh tác và các trang thông tin — giúp tra cứu và điều hướng nhanh.",
-    path: paths.sitemap(),
+    title,
+    description,
+    path,
     type: "website",
-    jsonLd: [
-      ld.breadcrumbList([
+    graph: [
+      ...ld.baseNodes(),
+      ld.webPage({
+        path,
+        type: "CollectionPage",
+        name: title,
+        description,
+        dateModified: SITE_LASTMOD,
+        hasPart: [ID.itemList(path)],
+      }),
+      ld.breadcrumbList(path, [
         { name: "Trang chủ", path: paths.home() },
-        { name: "Sơ đồ trang", path: paths.sitemap() },
+        { name: "Sơ đồ trang", path },
+      ]),
+      // Liệt kê các trang trụ; danh sách 122 cây đã có ItemList riêng ở Pillar.
+      ld.itemList(path, [
+        { name: "Thu mua dược liệu", path: paths.pillar() },
+        { name: "Kỹ thuật trồng cây dược liệu", path: paths.knowledge() },
+        { name: `Về ${SITE.owner}`, path: paths.about() },
+        { name: "Liên hệ", path: paths.contact() },
       ]),
     ],
   };
 }
 
 export function aboutSeo(): SeoProps {
+  const path = paths.about();
+  const title = `Về ${SITE.owner} — người tổng hợp kiến thức dược liệu`;
+  const description = `Giới thiệu ${SITE.owner}, người tổng hợp kỹ thuật trồng và giá thu mua dược liệu Việt Nam từ các nguồn uy tín, có dẫn nguồn.`;
   return {
-    title: `Về ${SITE.owner} — người tổng hợp kiến thức dược liệu`,
-    description: `Giới thiệu ${SITE.owner}, người tổng hợp kỹ thuật trồng và giá thu mua dược liệu Việt Nam từ các nguồn uy tín, có dẫn nguồn.`,
-    path: paths.about(),
+    title,
+    description,
+    path,
     type: "website",
-    jsonLd: [ld.personProfile()],
+    graph: [
+      ...ld.baseNodes(),
+      // ProfilePage: trang hồ sơ của chính tác giả — thực thể trung tâm cho E-E-A-T.
+      ld.webPage({
+        path,
+        type: "ProfilePage",
+        name: title,
+        description,
+        dateModified: SITE_LASTMOD,
+        about: ID.person(),
+      }),
+      ld.breadcrumbList(path, [
+        { name: "Trang chủ", path: paths.home() },
+        { name: `Về ${SITE.owner}`, path },
+      ]),
+    ],
   };
 }
 
 export function contactSeo(): SeoProps {
+  const path = paths.contact();
+  const title = `Liên hệ ${SITE.owner} về trồng & thu mua dược liệu`;
+  const description = `Thông tin liên hệ với ${SITE.owner} để trao đổi về kỹ thuật trồng và thu mua dược liệu.`;
   return {
-    title: `Liên hệ ${SITE.owner} về trồng & thu mua dược liệu`,
-    description: `Thông tin liên hệ với ${SITE.owner} để trao đổi về kỹ thuật trồng và thu mua dược liệu.`,
-    path: paths.contact(),
+    title,
+    description,
+    path,
     type: "website",
+    graph: [
+      ...ld.baseNodes(ld.contactPoint()),
+      ld.webPage({
+        path,
+        type: "ContactPage",
+        name: title,
+        description,
+        dateModified: SITE_LASTMOD,
+        about: ID.org(),
+      }),
+      ld.breadcrumbList(path, [
+        { name: "Trang chủ", path: paths.home() },
+        { name: "Liên hệ", path },
+      ]),
+    ],
   };
 }
 
@@ -258,8 +455,15 @@ function legalSeo(title: string, description: string, path: string): SeoProps {
     description: description.slice(0, 158),
     path,
     type: "website",
-    jsonLd: [
-      ld.breadcrumbList([
+    graph: [
+      ...ld.baseNodes(),
+      ld.webPage({
+        path,
+        name: title,
+        description: description.slice(0, 158),
+        dateModified: SITE_LASTMOD,
+      }),
+      ld.breadcrumbList(path, [
         { name: "Trang chủ", path: paths.home() },
         { name: title, path },
       ]),

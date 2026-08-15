@@ -39,26 +39,31 @@ export const HomePage: React.FC = () => {
             Chọn lối vào phù hợp với bạn
           </h2>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <PillarDoorCard
-          icon={Sprout}
-          tone="green"
-          eyebrow=""
-          title="Học kỹ thuật trồng"
-          desc="Cẩm nang chọn giống, chăm sóc, phòng trừ sâu bệnh và kỹ thuật sơ chế sau thu hoạch."
-          ctaLabel="Vào thư viện kiến thức"
-          to={paths.knowledge()}
-        />
-        <PillarDoorCard
-          icon={Coins}
-          tone="terracotta"
-          eyebrow=""
-          title="Xem giá & bán dược liệu"
-          desc="Tra bảng giá thu mua theo từng cây và vùng trồng, so sánh các kênh tiêu thụ phù hợp."
-          ctaLabel="Xem bảng giá thu mua"
-          to={paths.pillar()}
-        />
-        </div>
+        {/* <ul>: hai lối vào là một danh sách lựa chọn, không phải hai khối rời rạc. */}
+        <ul role="list" className="grid grid-cols-1 md:grid-cols-2 gap-6 list-none m-0 p-0">
+          <li className="grid">
+            <PillarDoorCard
+              icon={Sprout}
+              tone="green"
+              eyebrow=""
+              title="Học kỹ thuật trồng"
+              desc="Cẩm nang chọn giống, chăm sóc, phòng trừ sâu bệnh và kỹ thuật sơ chế sau thu hoạch."
+              ctaLabel="Vào thư viện kiến thức"
+              to={paths.knowledge()}
+            />
+          </li>
+          <li className="grid">
+            <PillarDoorCard
+              icon={Coins}
+              tone="terracotta"
+              eyebrow=""
+              title="Xem giá & bán dược liệu"
+              desc="Tra bảng giá thu mua theo từng cây và vùng trồng, so sánh các kênh tiêu thụ phù hợp."
+              ctaLabel="Xem bảng giá thu mua"
+              to={paths.pillar()}
+            />
+          </li>
+        </ul>
       </section>
 
       {/* 3. Band câu chuyện / sứ mệnh — điểm nhớ chính (signature) */}
@@ -84,19 +89,20 @@ export const HomePage: React.FC = () => {
           </Link>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <ul role="list" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 list-none m-0 p-0">
           {HERBS_DATA.slice(0, 8).map((herb) => (
-            <HerbCard
-              key={herb.id}
-              name={herb.name}
-              scientificName={herb.scientificName}
-              priceRange={herb.priceRange}
-              shortDesc={herb.shortDesc}
-              image={herb.image}
-              to={paths.herb(herb.slug)}
-            />
+            <li key={herb.id} className="grid">
+              <HerbCard
+                name={herb.name}
+                scientificName={herb.scientificName}
+                priceRange={herb.priceRange}
+                shortDesc={herb.shortDesc}
+                image={herb.image}
+                to={paths.herb(herb.slug)}
+              />
+            </li>
           ))}
-        </div>
+        </ul>
       </section>
 
       {/* 5. Featured Knowledge Posts — nội dung độc quyền silo Kiến thức */}
@@ -116,21 +122,22 @@ export const HomePage: React.FC = () => {
           </Link>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <ul role="list" className="grid grid-cols-1 lg:grid-cols-2 gap-6 list-none m-0 p-0">
           {WIKI_ARTICLES.slice(0, 2).map((art) => (
-            <ArticleCard
-              key={art.id}
-              title={art.title}
-              category={art.category}
-              excerpt={art.excerpt}
-              image={art.image}
-              readTime={art.readTime}
-              author={art.author}
-              date={art.date}
-              to={paths.article(art.id)}
-            />
+            <li key={art.id} className="grid">
+              <ArticleCard
+                title={art.title}
+                category={art.category}
+                excerpt={art.excerpt}
+                image={art.image}
+                readTime={art.readTime}
+                author={art.author}
+                date={art.date}
+                to={paths.article(art.id)}
+              />
+            </li>
           ))}
-        </div>
+        </ul>
       </section>
 
       {/* 6. Về tác giả — E-E-A-T byline */}

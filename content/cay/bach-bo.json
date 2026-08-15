@@ -5,6 +5,13 @@
   "scientificName": "Stemona tuberosa",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q2249619",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/B%C3%A1ch_b%E1%BB%99_(th%E1%BB%B1c_v%E1%BA%ADt)",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Stemona_tuberosa",
+    "powo": "urn:lsid:ipni.org:names:742815-1",
+    "gbif": "2863358"
+  },
   "priceRange": "8.000 - 61.000 VNĐ/kg",
   "shortDesc": "Bách bộ — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/bach-bo.webp",

@@ -5,6 +5,11 @@
   "scientificName": "Adenosma caeruleum",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q49435111",
+    "powo": "urn:lsid:ipni.org:names:798421-1",
+    "gbif": "3729076"
+  },
   "priceRange": "9.000 - 68.000 VNĐ/kg",
   "shortDesc": "Nhân trần — dược liệu đang được thu mua, thu hạt, quả chín, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/nhan-tran.webp",

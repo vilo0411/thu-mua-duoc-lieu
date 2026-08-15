@@ -5,6 +5,13 @@
   "scientificName": "Erythrina variegata",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q715744",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Erythrina_variegata",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Erythrina_variegata",
+    "powo": "urn:lsid:ipni.org:names:494614-1",
+    "gbif": "5349581"
+  },
   "priceRange": "8.000 - 60.000 VNĐ/kg",
   "shortDesc": "Vông nem — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/vong-nem.webp",

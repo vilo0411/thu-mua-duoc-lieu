@@ -8,6 +8,13 @@
     "Nam dương sâm"
   ],
   "group": "cu-re",
+  "taxonIds": {
+    "wikidata": "Q5903279",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/%C4%90inh_l%C4%83ng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Polyscias_fruticosa",
+    "powo": "urn:lsid:ipni.org:names:847351-1",
+    "gbif": "3035652"
+  },
   "priceRange": "35.000 - 180.000 VNĐ/kg",
   "shortDesc": "Được ví như 'nhân sâm của người nghèo'. Thu hoạch toàn bộ từ lá, thân đến rễ củ từ 3 năm tuổi trở lên.",
   "image": "/images/cay/dinh-lang.webp",

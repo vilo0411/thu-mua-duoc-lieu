@@ -5,6 +5,13 @@
   "scientificName": "Chrysanthemum indicum",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q4157858",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%C3%BAc_v%C3%A0ng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Chrysanthemum_indicum",
+    "powo": "urn:lsid:ipni.org:names:193510-1",
+    "gbif": "3150814"
+  },
   "priceRange": "9.000 - 55.000 VNĐ/kg",
   "shortDesc": "Cúc hoa vàng — dược liệu đang được thu mua, thu hoa, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/cuc-hoa-vang.webp",

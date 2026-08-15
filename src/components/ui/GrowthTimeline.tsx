@@ -1,4 +1,4 @@
-/import React, { useState } from "react";
+import React, { useState } from "react";
 import { ArrowDown } from "lucide-react";
 import type { HerbGroup, HerbTechnique } from "../../types";
 
@@ -301,7 +301,7 @@ const FIELD_SCALE = [1.35, 1.55, 1.4, 1.6, 1.3, 1.5, 1.4];
 const FieldScene: React.FC<{ group: HerbGroup; stage: number }> = ({ group, stage }) => {
   const groundY = 205;
   return (
-    <svg viewBox="0 0 800 260" className="w-full h-full block">
+    <svg viewBox="0 0 800 260" className="w-full h-full block" role="img" aria-label={`Minh hoạ ruộng ở giai đoạn ${stage + 1}`}>
       <defs>
         <linearGradient id="gt-sky" x1="0" y1="0" x2="0" y2="1">
           <stop offset="0" stopColor="#F8F5EE" />
@@ -391,28 +391,35 @@ export const GrowthTimeline: React.FC<GrowthTimelineProps> = ({ technique: t, gr
         </span>
       </div>
 
-      <div className="relative flex items-start justify-between px-1 pt-1">
-        <div className="absolute left-0 right-0 top-[18px] h-0.5 bg-[#E6DDD0]" />
+      {/* <ol>: đây là chuỗi giai đoạn sinh trưởng có thứ tự, không phải một nhóm nút rời.
+          Thanh tiến trình là trang trí nên aria-hidden. */}
+      <div className="relative">
+        {/* Hai thanh này phải nằm NGOÀI <ol>: con trực tiếp của ol chỉ được là <li>. */}
+        <div className="absolute left-0 right-0 top-[18px] h-0.5 bg-[#E6DDD0]" aria-hidden="true" />
         <div
           className="absolute left-0 top-[18px] h-0.5 bg-terracotta transition-all duration-300"
           style={{ width: `${(active / (stages.length - 1)) * 100}%` }}
+          aria-hidden="true"
         />
+        <ol role="list" className="relative flex items-start justify-between px-1 pt-1 list-none m-0 p-0">
         {stages.map((s, i) => {
           const isActive = i === active;
           const isPast = i <= active;
           return (
+            <li key={s.label} className="relative z-10 flex-1 flex">
             <button
-              key={s.label}
               type="button"
               onClick={() => setActive(i)}
-              aria-current={isActive}
-              className="relative z-10 flex flex-col items-center gap-1.5 cursor-pointer group flex-1"
+              // aria-current chỉ nhận token liệt kê sẵn — truyền boolean là giá trị
+              // không hợp lệ. "step" là token đúng cho một mốc trong quy trình.
+              aria-current={isActive ? "step" : undefined}
+              className="flex flex-1 flex-col items-center gap-1.5 cursor-pointer group"
             >
               <span
                 className={`${NODE_SIZES[i]} rounded-full flex items-center justify-center border-2 transition-all shrink-0 ${isPast ? "bg-terracotta border-terracotta text-white" : "bg-white border-[#E6DDD0] text-gray-400 group-hover:border-terracotta/50"
                   } ${isActive ? "ring-4 ring-terracotta/20" : ""}`}
               >
-                <svg viewBox="0 0 64 64" className="w-2/3 h-2/3">
+                <svg viewBox="0 0 64 64" className="w-2/3 h-2/3" aria-hidden="true">
                   <PlantGlyph group={group} stage={i} />
                 </svg>
               </span>
@@ -420,11 +427,15 @@ export const GrowthTimeline: React.FC<GrowthTimelineProps> = ({ technique: t, gr
                 className={`hidden sm:block text-[10.5px] font-sans font-semibold text-center leading-tight px-1 ${isActive ? "text-terracotta" : "text-gray-500"
                   }`}
               >
+                {/* Nhãn ẩn ở mobile bằng CSS, nên nút phải tự mang tên qua sr-only. */}
                 {s.label}
               </span>
+              <span className="sr-only sm:hidden">{s.label}</span>
             </button>
+            </li>
           );
         })}
+        </ol>
       </div>
 
       <p className="text-sm text-gray-600 leading-relaxed font-sans">{stages[active].caption}</p>
@@ -435,7 +446,7 @@ export const GrowthTimeline: React.FC<GrowthTimelineProps> = ({ technique: t, gr
           onClick={onSeeProcess}
           className="flex items-center gap-1.5 text-xs font-sans font-semibold text-terracotta hover:text-terracotta-dark cursor-pointer"
         >
-          Xem quy trình kiểm soát chất lượng chi tiết từng giai đoạn <ArrowDown className="w-3.5 h-3.5" />
+          Xem quy trình kiểm soát chất lượng chi tiết từng giai đoạn <ArrowDown className="w-3.5 h-3.5" aria-hidden="true" />
         </button>
       )}
     </div>

@@ -5,6 +5,12 @@
   "scientificName": "Tinospora sinensis",
   "otherNames": [],
   "group": "than",
+  "taxonIds": {
+    "wikidata": "Q10872524",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/D%C3%A2y_%C4%91au_x%C6%B0%C6%A1ng",
+    "powo": "urn:lsid:ipni.org:names:581638-1",
+    "gbif": "3830295"
+  },
   "priceRange": "12.000 - 76.000 VNĐ/kg",
   "shortDesc": "Dây đau xương — dược liệu đang được thu mua, thu thân, cành, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/day-dau-xuong.webp",

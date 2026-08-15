@@ -5,6 +5,13 @@
   "scientificName": "Illicium verum",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q2878644",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_h%E1%BB%93i",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Illicium_verum",
+    "powo": "urn:lsid:ipni.org:names:554553-1",
+    "gbif": "2889756"
+  },
   "priceRange": "11.000 - 67.000 VNĐ/kg",
   "shortDesc": "Đại hồi — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/dai-hoi.webp",

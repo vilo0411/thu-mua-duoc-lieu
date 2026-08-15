@@ -5,6 +5,13 @@
   "scientificName": "Curcuma zedoaria",
   "otherNames": [],
   "group": "cu-re",
+  "taxonIds": {
+    "wikidata": "Q206733",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Ngh%E1%BB%87_%C4%91en",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Curcuma_zedoaria",
+    "powo": "urn:lsid:ipni.org:names:872393-1",
+    "gbif": "2757545"
+  },
   "priceRange": "19.000 - 91.000 VNĐ/kg",
   "shortDesc": "Nga truật — dược liệu đang được thu mua, thu củ, rễ, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/nga-truat.webp",

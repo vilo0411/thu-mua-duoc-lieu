@@ -5,6 +5,13 @@
   "scientificName": "Lablab purpureus",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q1077410",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%ADu_v%C3%A1n",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Lablab",
+    "powo": "urn:lsid:ipni.org:names:501411-1",
+    "gbif": "2952236"
+  },
   "priceRange": "8.000 - 53.000 VNĐ/kg",
   "shortDesc": "Bạch biển đậu — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/bach-bien-dau.webp",

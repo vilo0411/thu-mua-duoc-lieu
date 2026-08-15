@@ -5,6 +5,13 @@
   "scientificName": "Centella asiatica",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q324714",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Rau_m%C3%A1",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Centella_asiatica",
+    "powo": "urn:lsid:ipni.org:names:1197718-2",
+    "gbif": "3034128"
+  },
   "priceRange": "7.000 - 55.000 VNĐ/kg",
   "shortDesc": "Rau má — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/rau-ma.webp",

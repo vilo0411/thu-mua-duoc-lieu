@@ -5,6 +5,12 @@
   "scientificName": "Spatholobus suberectus",
   "otherNames": [],
   "group": "than",
+  "taxonIds": {
+    "wikidata": "Q10953561",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Spatholobus_suberectus",
+    "powo": "urn:lsid:ipni.org:names:519185-1",
+    "gbif": "2977075"
+  },
   "priceRange": "12.000 - 60.000 VNĐ/kg",
   "shortDesc": "Kê huyết đắng — dược liệu đang được thu mua, thu thân, cành, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/ke-huyet-dang.webp",

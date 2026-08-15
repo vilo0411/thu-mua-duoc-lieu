@@ -51,6 +51,18 @@ export function collectRoutes(): SiteRoutes {
     }
   }
 
+  // Cấu hình redirect thủ công cho các đường dẫn cũ của Đương quy B và Đương quy N
+  redirects.push(
+    { from: "/thu-mua-duoc-lieu/duong-quy-b", to: "/thu-mua-duoc-lieu/duong-quy" },
+    { from: "/thu-mua-duoc-lieu/duong-quy-n", to: "/thu-mua-duoc-lieu/duong-quy" },
+    { from: "/thu-mua-duoc-lieu/duong-quy-b/bac-trung-bo", to: "/thu-mua-duoc-lieu/duong-quy" },
+    { from: "/thu-mua-duoc-lieu/duong-quy-b/dong-bac", to: "/thu-mua-duoc-lieu/duong-quy" },
+    { from: "/thu-mua-duoc-lieu/duong-quy-n/tay-nguyen", to: "/thu-mua-duoc-lieu/duong-quy" },
+    { from: "/thu-mua-duoc-lieu/duong-quy-n/bac-trung-bo", to: "/thu-mua-duoc-lieu/duong-quy" },
+    { from: "/kien-thuc/ky-thuat-trong-duong-quy-b", to: "/kien-thuc/ky-thuat-trong-duong-quy" },
+    { from: "/kien-thuc/ky-thuat-trong-duong-quy-n", to: "/kien-thuc/ky-thuat-trong-duong-quy" }
+  );
+
   const wiki = ["/kien-thuc"];
   for (const hub of hubs) wiki.push(`/kien-thuc/ky-thuat-trong-${hub.herbSlug}`);
   for (const a of wikiArticles) wiki.push(`/kien-thuc/${a.id}`);

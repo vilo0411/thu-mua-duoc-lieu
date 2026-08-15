@@ -5,6 +5,12 @@
   "scientificName": "Clerodendrum japonicum",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q15232428",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/M%C3%B2_%C4%91%E1%BB%8F",
+    "powo": "urn:lsid:ipni.org:names:862167-1",
+    "gbif": "2925348"
+  },
   "priceRange": "10.000 - 53.000 VNĐ/kg",
   "shortDesc": "Xích đồng nam — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/xich-dong-nam.webp",

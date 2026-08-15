@@ -5,6 +5,13 @@
   "scientificName": "Asparagus cochinchinensis",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q8207156",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Thi%C3%AAn_m%C3%B4n_%C4%91%C3%B4ng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Asparagus_cochinchinensis",
+    "powo": "urn:lsid:ipni.org:names:531041-1",
+    "gbif": "2768772"
+  },
   "priceRange": "9.000 - 57.000 VNĐ/kg",
   "shortDesc": "Thiên môn đông — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/thien-mon-dong.webp",

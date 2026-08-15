@@ -5,6 +5,13 @@
   "scientificName": "Raphanus sativus",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q7224565",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%E1%BA%A3i_c%E1%BB%A7",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Radish",
+    "powo": "urn:lsid:ipni.org:names:288491-1",
+    "gbif": "7678610"
+  },
   "priceRange": "7.000 - 46.000 VNĐ/kg",
   "shortDesc": "La Bạc tử — dược liệu đang được thu mua, thu hạt, quả chín, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/la-bac-tu.webp",

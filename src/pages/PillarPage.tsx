@@ -7,10 +7,12 @@ import { paths } from "../lib/paths";
 import { Seo, pillarSeo, PILLAR_FAQ } from "../lib/seo";
 
 /** Tiêu đề mục dùng chung: eyebrow nhỏ + tiêu đề serif + mô tả, giới hạn bề rộng cho dễ đọc. */
-const SectionHeader: React.FC<{ eyebrow: string; title: string; desc?: string }> = ({ eyebrow, title, desc }) => (
+const SectionHeader: React.FC<{ id: string; eyebrow: string; title: string; desc?: string }> = ({ id, eyebrow, title, desc }) => (
   <header className="max-w-2xl space-y-3">
     <span className="inline-block text-xs font-sans font-bold uppercase tracking-[0.2em] text-terracotta">{eyebrow}</span>
-    <h2 className="font-serif text-2xl md:text-[2rem] leading-tight font-bold text-ink-soft tracking-tight">{title}</h2>
+    {/* id để <section> bao ngoài trỏ aria-labelledby vào đây — landmark có tên thật
+        thay vì một vùng vô danh. */}
+    <h2 id={id} className="font-serif text-2xl md:text-[2rem] leading-tight font-bold text-ink-soft tracking-tight">{title}</h2>
     {desc && <p className="text-[15px] text-gray-600 font-sans leading-relaxed">{desc}</p>}
   </header>
 );
@@ -47,8 +49,9 @@ export const PillarPage: React.FC = () => {
       {/* Các mục còn lại — nhịp rộng để trang có khoảng thở */}
       <div className="mt-20 md:mt-28 space-y-20 md:space-y-28">
         {/* Lịch mùa vụ */}
-        <section>
+        <section aria-labelledby="pillar-mua-vu">
           <SectionHeader
+            id="pillar-mua-vu"
             eyebrow="Lịch mùa vụ"
             title="Tháng này nên trồng & thu hoạch cây gì?"
             desc="Chọn một tháng để xem nhanh cây nào nên xuống giống và cây nào vào vụ thu hoạch."
@@ -59,8 +62,9 @@ export const PillarPage: React.FC = () => {
         </section>
 
         {/* Kênh tiêu thụ */}
-        <section>
+        <section aria-labelledby="pillar-kenh-tieu-thu">
           <SectionHeader
+            id="pillar-kenh-tieu-thu"
             eyebrow="Kênh tiêu thụ"
             title="Bán dược liệu qua kênh nào?"
             desc="Ba kênh phổ biến — mỗi kênh có ưu/nhược riêng tùy quy mô và tiêu chuẩn hàng của bà con."
@@ -72,8 +76,9 @@ export const PillarPage: React.FC = () => {
 
         {/* Đầu mối & công ty thu mua — phục vụ nhóm từ khoá "đầu mối/nơi/địa chỉ/công ty thu mua".
             Định vị người tổng hợp: đây là danh bạ + hướng dẫn, không phải bên trực tiếp thu mua. */}
-        <section>
+        <section aria-labelledby="pillar-dau-moi">
           <SectionHeader
+            id="pillar-dau-moi"
             eyebrow="Đầu mối & công ty"
             title="Đầu mối & công ty thu mua dược liệu uy tín"
             desc="Bà con muốn tìm nơi bán, địa chỉ hoặc công ty thu mua cây dược liệu? Đây là cách nhận biết một đầu mối tử tế và đơn vị bao tiêu mà tôi đang tổng hợp lại."
@@ -83,8 +88,8 @@ export const PillarPage: React.FC = () => {
               Thị trường dược liệu có đủ loại người mua: thương lái đường dài, đại lý chợ đầu mối, hợp tác xã và các công ty chế biến — dược. Không phải ai trả giá cao nhất cũng là chỗ bán tốt nhất; điều quan trọng là đầu mối đó có ổn định đầu ra, cân đong minh bạch và thanh toán sòng phẳng hay không.
             </p>
 
-            <InfoBox title="4 dấu hiệu của một đầu mối thu mua đáng tin" icon={<ShieldCheck className="w-5 h-5" />}>
-              <ul className="grid gap-x-8 gap-y-1.5 sm:grid-cols-2 list-disc pl-5">
+            <InfoBox headingLevel={3} title="4 dấu hiệu của một đầu mối thu mua đáng tin" icon={<ShieldCheck className="w-5 h-5" />}>
+              <ul role="list" className="grid gap-x-8 gap-y-1.5 sm:grid-cols-2 list-disc pl-5">
                 <li><strong>Công bố tiêu chuẩn rõ ràng:</strong> nói trước độ ẩm, phân hạng, chỉ tiêu hoạt chất — không phải mua xong mới trừ lùi.</li>
                 <li><strong>Có pháp nhân, địa chỉ cụ thể:</strong> công ty hoặc HTX có mã số thuế, nhà xưởng, người phụ trách thu mua khu vực rõ ràng.</li>
                 <li><strong>Giá tham chiếu theo vụ:</strong> báo giá sát bảng giá thị trường, chênh trong khoảng 15–20% chứ không ép sâu.</li>
@@ -101,8 +106,9 @@ export const PillarPage: React.FC = () => {
         </section>
 
         {/* Theo khu vực — phục vụ từ khoá "thu mua dược liệu tại Hà Nội / miền Bắc". */}
-        <section>
+        <section aria-labelledby="pillar-khu-vuc">
           <SectionHeader
+            id="pillar-khu-vuc"
             eyebrow="Theo khu vực"
             title="Thu mua dược liệu tại Hà Nội & miền Bắc"
             desc="Hai khu vực bà con hỏi nhiều nhất — điểm tập kết, chợ đầu mối và đường đi của hàng."
@@ -124,8 +130,8 @@ export const PillarPage: React.FC = () => {
         </section>
 
         {/* FAQ */}
-        <section>
-          <SectionHeader eyebrow="Hỏi đáp" title="Bà con hỏi — Nguyễn Viết Lộc giải đáp" />
+        <section aria-labelledby="pillar-hoi-dap">
+          <SectionHeader id="pillar-hoi-dap" eyebrow="Hỏi đáp" title="Bà con hỏi — Nguyễn Viết Lộc giải đáp" />
           <div className="mt-8 max-w-3xl">
             <FaqAccordion items={PILLAR_FAQ} />
           </div>

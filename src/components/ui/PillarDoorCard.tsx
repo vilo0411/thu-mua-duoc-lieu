@@ -41,23 +41,29 @@ interface PillarDoorCardProps {
 export const PillarDoorCard: React.FC<PillarDoorCardProps> = ({ icon: Icon, eyebrow, title, desc, ctaLabel, tone, to }) => {
   const t = TONE[tone];
   return (
-    <Link
-      to={to}
-      className={`group relative overflow-hidden text-left bg-white border ${t.ring} ${t.hoverBorder} rounded-2xl p-8 md:p-10 min-h-[15rem] shadow-2xs hover:shadow-md transition-all hover:-translate-y-0.5 cursor-pointer flex flex-col gap-5`}
+    <article
+      // `isolate` + glow ở -z-10: vệt sáng trang trí chìm xuống dưới phần chữ mà không
+      // cần bọc chữ trong một tầng `relative` — nếu bọc, overlay ::after của link sẽ neo
+      // vào tầng đó thay vì vào cả thẻ, và phần trên thẻ mất vùng bấm.
+      className={`group relative isolate overflow-hidden text-left bg-white border ${t.ring} ${t.hoverBorder} rounded-2xl p-8 md:p-10 min-h-[15rem] shadow-2xs hover:shadow-md transition-all hover:-translate-y-0.5 cursor-pointer flex flex-col gap-5`}
     >
-      <div className={`absolute right-0 top-0 w-48 h-48 ${t.glow} rounded-full -mr-16 -mt-16 pointer-events-none`} />
+      <div className={`absolute right-0 top-0 -z-10 w-48 h-48 ${t.glow} rounded-full -mr-16 -mt-16 pointer-events-none`} />
       <div className={`w-16 h-16 shrink-0 rounded-2xl ${t.iconBg} ${t.iconText} flex items-center justify-center`}>
         <Icon className="w-8 h-8" strokeWidth={2} />
       </div>
-      <div className="space-y-2 relative z-10">
+      <div className="space-y-2">
         <span className={`text-xs font-bold uppercase tracking-wider ${t.cta}`}>{eyebrow}</span>
-        <h3 className="font-serif text-2xl md:text-3xl font-bold text-[#4F433A] tracking-tight">{title}</h3>
+        <h3 className="font-serif text-2xl md:text-3xl font-bold text-[#4F433A] tracking-tight">
+          <Link to={to} className="after:absolute after:inset-0 after:content-['']">
+            {title}
+          </Link>
+        </h3>
         <p className="text-gray-600 text-sm md:text-base leading-relaxed">{desc}</p>
       </div>
       <span className={`mt-auto inline-flex items-center gap-1.5 font-sans font-bold text-sm ${t.cta}`}>
         {ctaLabel}
         <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
       </span>
-    </Link>
+    </article>
   );
 };

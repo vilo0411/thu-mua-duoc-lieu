@@ -5,6 +5,13 @@
   "scientificName": "Achyranthes aspera",
   "otherNames": [],
   "group": "cu-re",
+  "taxonIds": {
+    "wikidata": "Q3286822",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%E1%BB%8F_x%C6%B0%E1%BB%9Bc",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Achyranthes_aspera",
+    "powo": "urn:lsid:ipni.org:names:2468-2",
+    "gbif": "3085168"
+  },
   "priceRange": "16.000 - 81.000 VNĐ/kg",
   "shortDesc": "Cỏ xước — dược liệu đang được thu mua, thu rễ, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/co-xuoc.webp",

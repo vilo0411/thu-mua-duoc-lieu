@@ -8,6 +8,11 @@
     "Atiso"
   ],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q134609",
+    "powo": "urn:lsid:ipni.org:names:200902-1",
+    "gbif": "3112361"
+  },
   "priceRange": "50.000 - 220.000 VNĐ/kg",
   "shortDesc": "Được trồng phổ biến tại các vùng cao ôn đới mát mẻ quanh năm như Lâm Đồng, Sa Pa.",
   "image": "/images/cay/atiso.webp",

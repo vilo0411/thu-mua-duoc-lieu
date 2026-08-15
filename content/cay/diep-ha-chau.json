@@ -5,6 +5,13 @@
   "scientificName": "Phyllanthus urinaria",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q1131974",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Ch%C3%B3_%C4%91%E1%BA%BB_r%C4%83ng_c%C6%B0a",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Phyllanthus_urinaria",
+    "powo": "urn:lsid:ipni.org:names:354815-1",
+    "gbif": "5382780"
+  },
   "priceRange": "10.000 - 66.000 VNĐ/kg",
   "shortDesc": "Diệp hạ châu — dược liệu đang được thu mua, thu lá, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/diep-ha-chau.webp",

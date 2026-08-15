@@ -1,5 +1,6 @@
 import React from "react";
 import { CheckCircle2 } from "lucide-react";
+import { stepAnchorId } from "../../lib/slug";
 
 interface ProcessStep {
   stage: string;
@@ -14,12 +15,16 @@ interface ProcessStepsProps {
 /**
  * Dòng thời gian các bước quy trình (số thứ tự nối dọc) — thay cho bảng 3 cột,
  * giúp người đọc thấy rõ trình tự canh tác thay vì phải đối chiếu hàng/cột.
+ *
+ * Dùng <ol> chứ không phải <div>: trình tự là ý nghĩa chính ở đây, và mỗi bước có id
+ * neo (`stepAnchorId`, dùng chung với `HowToStep.url` trong JSON-LD) để trích dẫn
+ * được từng bước thay vì cả trang.
  */
 export const ProcessSteps: React.FC<ProcessStepsProps> = ({ steps }) => {
   return (
-    <div className="space-y-0">
+    <ol className="space-y-0 list-none p-0 m-0">
       {steps.map((s, idx) => (
-        <div key={idx} className="flex gap-4">
+        <li key={s.stage} id={stepAnchorId(s.stage)} className="flex gap-4 scroll-mt-24">
           <div className="flex flex-col items-center shrink-0">
             <div className="w-9 h-9 rounded-full bg-terracotta text-white font-sans font-bold text-sm flex items-center justify-center">
               {idx + 1}
@@ -37,8 +42,8 @@ export const ProcessSteps: React.FC<ProcessStepsProps> = ({ steps }) => {
               </p>
             </div>
           </div>
-        </div>
+        </li>
       ))}
-    </div>
+    </ol>
   );
 };

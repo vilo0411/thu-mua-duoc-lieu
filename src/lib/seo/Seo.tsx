@@ -2,6 +2,7 @@ import React from "react";
 import { SITE } from "../data";
 import { asset } from "../paths";
 import { canonical } from "./config";
+import { graph as jsonLdGraph } from "./jsonLd";
 
 export interface SeoProps {
   /** Tiêu đề <title> (nên 50–60 ký tự, chứa keyword chính — PRD §8.1). */
@@ -12,8 +13,11 @@ export interface SeoProps {
   path: string;
   type?: "website" | "article";
   image?: string;
-  /** Một hoặc nhiều object JSON-LD. */
-  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+  /**
+   * Các NODE JSON-LD của trang (không kèm `@context`). Chúng được gộp thành một
+   * `@graph` duy nhất — xem quy ước ở đầu lib/seo/jsonLd.ts.
+   */
+  graph?: (Record<string, unknown> | undefined | null | false)[];
   /** Đặt true cho các trang không muốn index (ví dụ trang 404). */
   noindex?: boolean;
 }
@@ -29,7 +33,7 @@ export const Seo: React.FC<SeoProps> = ({
   path,
   type = "website",
   image,
-  jsonLd,
+  graph: nodes,
   noindex = false,
 }) => {
   const url = canonical(path);
@@ -40,7 +44,11 @@ export const Seo: React.FC<SeoProps> = ({
   const ogImage = /^https?:\/\//.test(resolved)
     ? resolved
     : `${SITE.siteUrl.replace(/\/$/, "")}${resolved.startsWith("/") ? "" : "/"}${resolved}`;
-  const blocks = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
+  // Cả trang chỉ phát MỘT khối ld+json chứa @graph, nên các node trỏ nhau qua @id.
+  // Escape "<" để chuỗi nội dung chứa "</script>" không cắt đứt thẻ script.
+  const ldJson = nodes?.some(Boolean)
+    ? JSON.stringify(jsonLdGraph(nodes)).replace(/</g, "\\u003c")
+    : undefined;
 
   return (
     <>
@@ -64,14 +72,13 @@ export const Seo: React.FC<SeoProps> = ({
       <meta name="twitter:description" content={description} />
       {ogImage && <meta name="twitter:image" content={ogImage} />}
 
-      {blocks.map((block, i) => (
+      {ldJson && (
         <script
-          key={i}
           type="application/ld+json"
           // eslint-disable-next-line react/no-danger
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(block) }}
+          dangerouslySetInnerHTML={{ __html: ldJson }}
         />
-      ))}
+      )}
     </>
   );
 };

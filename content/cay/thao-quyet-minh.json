@@ -5,6 +5,13 @@
   "scientificName": "Senna tora",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q2739004",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Senna_tora",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Senna_tora",
+    "powo": "urn:lsid:ipni.org:names:518369-1",
+    "gbif": "2957728"
+  },
   "priceRange": "9.000 - 54.000 VNĐ/kg",
   "shortDesc": "Thảo quyết minh — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/thao-quyet-minh.webp",

@@ -5,6 +5,13 @@
   "scientificName": "Sphagneticola calendulacea",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q15602531",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Sphagneticola_calendulacea",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Sphagneticola_calendulacea",
+    "powo": "urn:lsid:ipni.org:names:993278-1",
+    "gbif": "3116861"
+  },
   "priceRange": "7.000 - 45.000 VNĐ/kg",
   "shortDesc": "Sài đất Nam — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/sai-dat-nam.webp",

@@ -5,6 +5,13 @@
   "scientificName": "Pueraria thomsonii",
   "otherNames": [],
   "group": "cu-re",
+  "taxonIds": {
+    "wikidata": "Q15525444",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/S%E1%BA%AFn_d%C3%A2y",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Kudzu",
+    "powo": "urn:lsid:ipni.org:names:318790-2",
+    "gbif": "2977669"
+  },
   "priceRange": "16.000 - 83.000 VNĐ/kg",
   "shortDesc": "Cát căn — dược liệu đang được thu mua, thu củ, rễ, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/cat-can.webp",

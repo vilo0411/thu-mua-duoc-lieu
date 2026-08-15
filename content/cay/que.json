@@ -8,6 +8,13 @@
     "Quế nhục"
   ],
   "group": "than",
+  "taxonIds": {
+    "wikidata": "Q204148",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Qu%E1%BA%BF_%C4%91%C6%A1n",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Cinnamomum_cassia",
+    "powo": "urn:lsid:ipni.org:names:77109079-1",
+    "gbif": "7512166"
+  },
   "priceRange": "9.000 - 65.000 VNĐ/kg",
   "shortDesc": "Cây quế cho hai vị dược liệu được thu mua: cành quế (quế chi) và vỏ quế (quế nhục / nhục quế), mỗi loại một mức giá riêng.",
   "image": "/images/cay/que.webp",

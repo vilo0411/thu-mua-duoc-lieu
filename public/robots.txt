@@ -1,4 +1,43 @@
 User-agent: *
 Allow: /
 
+# Cho phép tường minh các trình thu thập của công cụ trả lời bằng AI.
+# Nội dung ở đây là kiến thức tổng hợp có dẫn nguồn, mục tiêu là được trích dẫn —
+# nên mở cửa thay vì để mặc định ngầm hiểu.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
 Sitemap: https://duoclieu.nguyenvietloc.com/sitemap-index.xml

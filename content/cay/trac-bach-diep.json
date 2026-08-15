@@ -5,6 +5,13 @@
   "scientificName": "Platycladus orientalis",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q33482",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Tr%E1%BA%AFc_b%C3%A1ch",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Platycladus_orientalis",
+    "powo": "urn:lsid:ipni.org:names:677124-1",
+    "gbif": "2684855"
+  },
   "priceRange": "11.000 - 62.000 VNĐ/kg",
   "shortDesc": "Trắc bách diệp — dược liệu đang được thu mua, thu lá, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/trac-bach-diep.webp",

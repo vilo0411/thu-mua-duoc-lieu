@@ -5,6 +5,11 @@
   "scientificName": "Belamcanda chinensis",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q10957184",
+    "powo": "urn:lsid:ipni.org:names:436184-1",
+    "gbif": "2748796"
+  },
   "priceRange": "11.000 - 67.000 VNĐ/kg",
   "shortDesc": "Xạ can — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/xa-can.webp",

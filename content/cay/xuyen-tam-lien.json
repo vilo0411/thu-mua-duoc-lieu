@@ -5,6 +5,13 @@
   "scientificName": "Andrographis paniculata",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q1551608",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Xuy%C3%AAn_t%C3%A2m_li%C3%AAn",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Andrographis_paniculata",
+    "powo": "urn:lsid:ipni.org:names:45226-1",
+    "gbif": "3173178"
+  },
   "priceRange": "7.000 - 48.000 VNĐ/kg",
   "shortDesc": "Xuyên tâm liên — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/xuyen-tam-lien.webp",

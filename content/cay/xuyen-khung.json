@@ -5,6 +5,12 @@
   "scientificName": "Ligusticum chuanxiong",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q61958112",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Ligusticum_chuanxiong",
+    "powo": "urn:lsid:ipni.org:names:844410-1",
+    "gbif": "3639592"
+  },
   "priceRange": "9.000 - 53.000 VNĐ/kg",
   "shortDesc": "Xuyên khung — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/xuyen-khung.webp",

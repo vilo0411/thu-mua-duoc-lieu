@@ -5,6 +5,12 @@
   "scientificName": "Ardisia silvestris",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q15239227",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/L%C3%A1_kh%C3%B4i",
+    "powo": "urn:lsid:ipni.org:names:587602-1",
+    "gbif": "7330958"
+  },
   "priceRange": "11.000 - 65.000 VNĐ/kg",
   "shortDesc": "Lá khôi — dược liệu đang được thu mua, thu lá, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/la-khoi.webp",

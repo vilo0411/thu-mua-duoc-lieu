@@ -5,6 +5,11 @@
   "scientificName": "Desmodium styracifolium",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q10780017",
+    "powo": "urn:lsid:ipni.org:names:492170-1",
+    "gbif": "2967806"
+  },
   "priceRange": "12.000 - 59.000 VNĐ/kg",
   "shortDesc": "Kim tiền thảo — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/kim-tien-thao.webp",

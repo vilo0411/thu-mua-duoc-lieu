@@ -5,6 +5,13 @@
   "scientificName": "Cnidium monnieri",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q12842240",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Gi%E1%BA%A7n_s%C3%A0ng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Cnidium_monnieri",
+    "powo": "urn:lsid:ipni.org:names:840463-1",
+    "gbif": "3034720"
+  },
   "priceRange": "11.000 - 73.000 VNĐ/kg",
   "shortDesc": "Xa sàng tử — dược liệu đang được thu mua, thu hạt, quả chín, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/xa-sang-tu.webp",

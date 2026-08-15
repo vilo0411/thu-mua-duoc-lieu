@@ -9,6 +9,13 @@
     "Tang thầm"
   ],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q157307",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/D%C3%A2u_t%E1%BA%B1m_tr%E1%BA%AFng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Morus_alba",
+    "powo": "urn:lsid:ipni.org:names:30051955-2",
+    "gbif": "5361889"
+  },
   "priceRange": "8.000 - 69.000 VNĐ/kg",
   "shortDesc": "Cây dâu tằm cho nhiều vị dược liệu được thu mua: lá dâu (tang diệp), vỏ rễ dâu (tang bạch bì) và quả dâu (tang thầm), mỗi loại một mức giá riêng.",
   "image": "/images/cay/dau-tam.webp",

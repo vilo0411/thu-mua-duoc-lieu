@@ -5,6 +5,13 @@
   "scientificName": "Eurycoma longifolia",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q311710",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/M%E1%BA%ADt_nh%C3%A2n",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Eurycoma_longifolia",
+    "powo": "urn:lsid:ipni.org:names:813715-1",
+    "gbif": "3709190"
+  },
   "priceRange": "12.000 - 70.000 VNĐ/kg",
   "shortDesc": "Mật nhân — dược liệu đang được thu mua, thu hạt, quả chín, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/mat-nhan.webp",

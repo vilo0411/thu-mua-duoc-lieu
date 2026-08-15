@@ -5,6 +5,13 @@
   "scientificName": "Excoecaria cochinchinensis",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q3336409",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/%C4%90%C6%A1n_m%E1%BA%B7t_tr%E1%BB%9Di",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Excoecaria_cochinchinensis",
+    "powo": "urn:lsid:ipni.org:names:348839-1",
+    "gbif": "3071716"
+  },
   "priceRange": "7.000 - 48.000 VNĐ/kg",
   "shortDesc": "Đơn lá đỏ — dược liệu đang được thu mua, thu lá, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/don-la-do.webp",

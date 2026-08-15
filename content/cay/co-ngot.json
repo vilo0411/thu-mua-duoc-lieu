@@ -5,6 +5,12 @@
   "scientificName": "Stevia rebaudiana",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q7213452",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%E1%BB%8F_ng%E1%BB%8Dt",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Stevia_rebaudiana",
+    "gbif": "3125557"
+  },
   "priceRange": "9.000 - 53.000 VNĐ/kg",
   "shortDesc": "Cỏ ngọt — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/co-ngot.webp",

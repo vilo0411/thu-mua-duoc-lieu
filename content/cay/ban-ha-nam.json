@@ -7,6 +7,12 @@
     "Củ chóc"
   ],
   "group": "cu-re",
+  "taxonIds": {
+    "wikidata": "Q12848810",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/B%C3%A1n_h%E1%BA%A1_nam",
+    "powo": "urn:lsid:ipni.org:names:89268-1",
+    "gbif": "2869559"
+  },
   "priceRange": "19.000 - 90.000 VNĐ/kg",
   "shortDesc": "Bán hạ nam — dược liệu đang được thu mua, thu củ, thân rễ, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/ban-ha-nam.webp",

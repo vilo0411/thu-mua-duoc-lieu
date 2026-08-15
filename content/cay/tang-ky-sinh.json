@@ -5,6 +5,12 @@
   "scientificName": "Taxillus chinensis",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q15050563",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Taxillus_chinensis",
+    "powo": "urn:lsid:ipni.org:names:552130-1",
+    "gbif": "4001208"
+  },
   "priceRange": "8.000 - 54.000 VNĐ/kg",
   "shortDesc": "Tang ký sinh — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/tang-ky-sinh.webp",

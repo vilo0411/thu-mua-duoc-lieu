@@ -5,6 +5,13 @@
   "scientificName": "Abutilon indicum",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q2901598",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%C3%A2y_c%E1%BB%91i_xay",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Abutilon_indicum",
+    "powo": "urn:lsid:ipni.org:names:1101632-2",
+    "gbif": "3152634"
+  },
   "priceRange": "11.000 - 67.000 VNĐ/kg",
   "shortDesc": "Cối xay — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/coi-xay.webp",

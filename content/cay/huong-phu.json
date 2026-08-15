@@ -5,6 +5,13 @@
   "scientificName": "Cyperus rotundus",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q1391422",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%E1%BB%A7_g%E1%BA%A5u",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Cyperus_rotundus",
+    "powo": "urn:lsid:ipni.org:names:305797-1",
+    "gbif": "2714818"
+  },
   "priceRange": "9.000 - 49.000 VNĐ/kg",
   "shortDesc": "Hương phụ — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/huong-phu.webp",

@@ -12,12 +12,18 @@ interface HerbCardProps {
   to: string;
 }
 
+/**
+ * Thẻ giới thiệu một cây dược liệu.
+ *
+ * Thẻ ngoài là <article> chứ không phải <a>: mỗi thẻ là một mục nội dung độc lập, và
+ * outline của lưới chỉ đọc được nếu tiêu đề nằm trong dàn heading chứ không bị nuốt
+ * vào trong một cái link khổng lồ. Link thật đặt ở <h3>, rồi `after:absolute
+ * after:inset-0` kéo vùng bấm phủ lại toàn thẻ — người dùng vẫn bấm được chỗ nào cũng
+ * được, còn trình đọc màn hình chỉ nghe đúng tên cây làm nhãn link.
+ */
 export const HerbCard: React.FC<HerbCardProps> = ({ name, scientificName, priceRange, shortDesc, image, to }) => {
   return (
-    <Link
-      to={to}
-      className="bg-white rounded-xl overflow-hidden border border-[#E6DDD0] hover:border-[#B85037] shadow-xs hover:shadow-md transition-all group cursor-pointer flex flex-col h-full"
-    >
+    <article className="relative bg-white rounded-xl overflow-hidden border border-[#E6DDD0] hover:border-[#B85037] shadow-xs hover:shadow-md transition-all group cursor-pointer flex flex-col h-full">
       <div className="relative aspect-4/3 overflow-hidden bg-gray-100">
         <img
           src={asset(image)}
@@ -35,9 +41,13 @@ export const HerbCard: React.FC<HerbCardProps> = ({ name, scientificName, priceR
         <div className="space-y-1">
           <div className="flex items-center justify-between">
             <h3 className="font-serif text-xl font-bold text-[#4F433A] group-hover:text-[#B85037] transition-colors tracking-tight">
-              {name}
+              <Link to={to} className="after:absolute after:inset-0 after:content-['']">
+                {name}
+              </Link>
             </h3>
-            <span className="text-xs text-gray-400 italic font-mono">{scientificName}</span>
+            {/* Tên khoa học là danh pháp Latin: <i lang="la"> vừa đúng quy ước phân loại
+                học, vừa báo cho trình đọc màn hình đừng đọc theo ngữ âm tiếng Việt. */}
+            <i lang="la" className="text-xs text-gray-400 italic font-mono">{scientificName}</i>
           </div>
           <p className="text-[#2D2521] text-sm leading-relaxed line-clamp-3">
             {shortDesc}
@@ -48,6 +58,6 @@ export const HerbCard: React.FC<HerbCardProps> = ({ name, scientificName, priceR
           <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
         </div>
       </div>
-    </Link>
+    </article>
   );
 };

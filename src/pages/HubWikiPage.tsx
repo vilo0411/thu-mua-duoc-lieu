@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import { Bug, ChevronDown, Coins, Droplets, HelpCircle, Leaf, Package, Sprout } from "lucide-react";
 import { Link } from "react-router-dom";
 import { HERBS_DATA, WIKI_HUBS } from "../lib/data";
-import { Breadcrumb, FaqAccordion, GrowthTimeline, LandingLink, PestList, ProcessSteps, StickyToc, TechConditionCards } from "../components/ui";
+import { Breadcrumb, FaqAccordion, GrowthTimeline, LandingLink, PestList, ProcessSteps, SourceList, StickyToc, TechConditionCards } from "../components/ui";
 import { paths, asset } from "../lib/paths";
+import { lastModified, formatVnDate } from "../lib/data/lastmod";
 import { Seo, hubSeo } from "../lib/seo";
 import { NotFoundPage } from "./NotFoundPage";
 import type { HerbPest } from "../types";
@@ -101,22 +102,29 @@ const AccordionSection: React.FC<{
   onToggle: (id: string) => void;
   children: React.ReactNode;
 }> = ({ id, icon: Icon, title, open, onToggle, children }) => (
-  <section id={id} className="scroll-mt-24 border border-line rounded-xl bg-white overflow-hidden">
+  <section id={id} aria-labelledby={`${id}-h`} className="scroll-mt-24 border border-line rounded-xl bg-white overflow-hidden">
     <h2 className="m-0">
       <button
         type="button"
+        id={`${id}-h`}
         onClick={() => onToggle(id)}
         aria-expanded={open}
+        aria-controls={`${id}-panel`}
         className="w-full flex items-center gap-3 text-left px-4 md:px-6 py-4 hover:bg-paper-2 transition-colors cursor-pointer"
       >
-        <span className="shrink-0 w-8 h-8 rounded-full bg-sand text-terracotta flex items-center justify-center">
+        <span className="shrink-0 w-8 h-8 rounded-full bg-sand text-terracotta flex items-center justify-center" aria-hidden="true">
           <Icon className="w-4 h-4" />
         </span>
         <span className="flex-1 font-serif text-base md:text-xl font-bold text-ink-soft">{title}</span>
-        <ChevronDown className={`w-5 h-5 text-terracotta shrink-0 transition-transform duration-300 ${open ? "rotate-180" : ""}`} />
+        <ChevronDown aria-hidden="true" className={`w-5 h-5 text-terracotta shrink-0 transition-transform duration-300 ${open ? "rotate-180" : ""}`} />
       </button>
     </h2>
-    <div className={`grid transition-[grid-template-rows] duration-300 ease-out ${open ? "grid-rows-[1fr]" : "grid-rows-[0fr]"}`}>
+    <div
+      id={`${id}-panel`}
+      role="region"
+      aria-labelledby={`${id}-h`}
+      className={`grid transition-[grid-template-rows] duration-300 ease-out ${open ? "grid-rows-[1fr]" : "grid-rows-[0fr]"}`}
+    >
       <div className="overflow-hidden">
         <div className="px-4 md:px-6 pb-6 pt-1 space-y-4 border-t border-line">{children}</div>
       </div>
@@ -150,6 +158,9 @@ export const HubWikiPage: React.FC<{ herbSlug: string }> = ({ herbSlug }) => {
   if (!herb || !hub) return <NotFoundPage />;
 
   const t = herb.technique;
+  // Ngày cập nhật phải hiện trên trang: Google đòi ngày trong schema khớp ngày người đọc thấy.
+  const updatedIso = lastModified("wiki-hub", herbSlug);
+  const updated = formatVnDate(updatedIso);
 
   // Gộp sâu bệnh từ dữ liệu cây (§6) và dữ liệu hub, khử trùng theo tên.
   const pestRows = [
@@ -181,8 +192,9 @@ export const HubWikiPage: React.FC<{ herbSlug: string }> = ({ herbSlug }) => {
   const toggleAll = () => setOpenSections(allOpen ? new Set() : new Set(SECTION_IDS));
 
   return (
-    <div className="space-y-8 animate-fade-in">
-      <Seo {...hubSeo(hub, herb.image)} />
+    // <article>: cẩm nang kỹ thuật của một cây là một tài liệu độc lập.
+    <article className="space-y-8 animate-fade-in">
+      <Seo {...hubSeo(hub, herb)} />
       <Breadcrumb items={[
         { label: "Trang chủ", href: paths.home() },
         { label: "Kiến thức", href: paths.knowledge() },
@@ -192,7 +204,7 @@ export const HubWikiPage: React.FC<{ herbSlug: string }> = ({ herbSlug }) => {
       {/* Hero — chữ + ảnh thật của cây, cân bằng cảm giác "toàn chữ".
           Ảnh giữ tỉ lệ cố định mọi kích thước (không dùng aspect-auto) để không phình
           theo chiều cao gốc ảnh dọc làm vỡ layout; grid canh trên để 2 cột cao độc lập. */}
-      <section className="grid md:grid-cols-2 gap-5 md:gap-6 md:items-start">
+      <header className="grid md:grid-cols-2 gap-5 md:gap-6 md:items-start">
         <div className="order-1 md:order-2 rounded-2xl overflow-hidden border border-line bg-sand aspect-[16/10]">
           <img
             src={asset(herb.image)}
@@ -206,14 +218,21 @@ export const HubWikiPage: React.FC<{ herbSlug: string }> = ({ herbSlug }) => {
         <div className="order-2 md:order-1 bg-gradient-to-br from-sand to-paper border border-line rounded-2xl p-6 md:p-8 space-y-3">
           <span className="text-terracotta font-mono text-xs font-bold uppercase tracking-[0.15em] block mb-1">// Học liệu tổng hợp nông học</span>
           <h1 className="font-serif text-2xl md:text-4xl font-extrabold text-ink-soft tracking-tight">{hub.title}</h1>
-          <p className="text-gray-700 text-base font-sans leading-relaxed">{hub.intro}</p>
+          {/* Ngày cập nhật hiển thị để khớp `dateModified` trong JSON-LD. */}
+          {updated && (
+            <p className="text-xs text-gray-500 font-sans">
+              Cập nhật: <time dateTime={updatedIso}>{updated}</time>
+            </p>
+          )}
+          {/* .seo-answer: đánh dấu đoạn trả lời trực tiếp câu hỏi chính của trang (dùng cho biên tập). */}
+          <p className="seo-answer text-gray-700 text-base font-sans leading-relaxed">{hub.intro}</p>
         </div>
-      </section>
+      </header>
 
       {/* Hành trình sinh trưởng — dòng thời gian bấm được từ giống đến thu hoạch,
           cho đọc lướt trực quan ngay trên đầu trang mà không cần bung mục nào. */}
-      <section aria-label="Hành trình sinh trưởng" className="bg-white border border-line rounded-2xl p-5 md:p-6">
-        <h2 className="font-serif text-lg font-bold text-ink-soft mb-4">
+      <section aria-labelledby="hanh-trinh-h" className="bg-white border border-line rounded-2xl p-5 md:p-6">
+        <h2 id="hanh-trinh-h" className="font-serif text-lg font-bold text-ink-soft mb-4">
           Hành trình từ giống đến thu hoạch {herb.name}
         </h2>
         <GrowthTimeline technique={t} group={herb.group} onSeeProcess={() => openAndScroll("sec-cham-soc")} />
@@ -296,10 +315,10 @@ export const HubWikiPage: React.FC<{ herbSlug: string }> = ({ herbSlug }) => {
                 <strong>{t.yield}</strong>. Thu đúng độ tuổi giúp hàm lượng hoạt chất đạt đỉnh và giữ giá bán tốt nhất.
               </p>
               <p>Để lô hàng đạt chuẩn nhập kho, bà con lưu ý các tiêu chí sau khi sơ chế và bảo quản:</p>
-              <ul className="space-y-2.5 pl-1">
+              <ul role="list" className="space-y-2.5 pl-1 list-none m-0">
                 {herb.standards.map((std, idx) => (
                   <li key={idx} className="flex items-start gap-3 text-ink text-base leading-relaxed">
-                    <div className="w-5 h-5 rounded-full bg-green-100 text-green-600 flex items-center justify-center shrink-0 mt-1">✓</div>
+                    <span className="w-5 h-5 rounded-full bg-green-100 text-green-600 flex items-center justify-center shrink-0 mt-1" aria-hidden="true">✓</span>
                     <span>{std}</span>
                   </li>
                 ))}
@@ -338,50 +357,58 @@ export const HubWikiPage: React.FC<{ herbSlug: string }> = ({ herbSlug }) => {
           </AccordionSection>
 
           {/* Kiến thức nền tảng — link tới cụm "Kỹ thuật gieo trồng" theo cách nhân giống của cây */}
-          <section className="space-y-4 pt-6">
-            <h2 className="font-serif text-xl font-bold text-ink-soft">Kiến thức gieo trồng nền tảng nên đọc</h2>
+          <section aria-labelledby="nen-tang-h" className="space-y-4 pt-6">
+            <h2 id="nen-tang-h" className="font-serif text-xl font-bold text-ink-soft">Kiến thức gieo trồng nền tảng nên đọc</h2>
             <p className="text-sm text-gray-600 font-sans">
               Các kỹ thuật cơ bản áp dụng khi trồng {herb.name} — nắm chắc trước khi bắt tay vào vườn:
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            <ul role="list" className="grid grid-cols-1 md:grid-cols-2 gap-3 list-none m-0 p-0">
               {foundationLinksFor(t.propagation).map((a) => (
-                <Link
-                  key={a.id}
-                  to={paths.article(a.id)}
-                  className="border border-line hover:border-terracotta p-4 rounded-xl cursor-pointer bg-white hover:bg-paper-2 transition-all flex items-center gap-3 group"
-                >
-                  <div className="w-8 h-8 rounded bg-sand flex items-center justify-center text-terracotta shrink-0">
-                    <Sprout className="w-4.5 h-4.5" />
-                  </div>
-                  <span className="font-sans font-semibold text-sm text-ink-soft group-hover:text-terracotta transition-colors">{a.label}</span>
-                </Link>
+                <li key={a.id} className="grid">
+                  <Link
+                    to={paths.article(a.id)}
+                    className="border border-line hover:border-terracotta p-4 rounded-xl cursor-pointer bg-white hover:bg-paper-2 transition-all flex items-center gap-3 group"
+                  >
+                    <span className="w-8 h-8 rounded bg-sand flex items-center justify-center text-terracotta shrink-0" aria-hidden="true">
+                      <Sprout className="w-4.5 h-4.5" />
+                    </span>
+                    <span className="font-sans font-semibold text-sm text-ink-soft group-hover:text-terracotta transition-colors">{a.label}</span>
+                  </Link>
+                </li>
               ))}
-            </div>
+            </ul>
           </section>
 
           {/* Link wheel — liên kết vòng tới các bài kỹ thuật trồng cây dược liệu khác */}
-          <section className="space-y-4 pt-6">
-            <h2 className="font-serif text-xl font-bold text-ink-soft">Kỹ thuật trồng các cây dược liệu liên quan</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <section aria-labelledby="lien-quan-h" className="space-y-4 pt-6">
+            <h2 id="lien-quan-h" className="font-serif text-xl font-bold text-ink-soft">Kỹ thuật trồng các cây dược liệu liên quan</h2>
+            <ul role="list" className="grid grid-cols-1 md:grid-cols-2 gap-4 list-none m-0 p-0">
               {relatedHubs(herb.slug).map((rel) => (
-                <Link
-                  key={rel.id}
-                  to={paths.hubWiki(rel.herbSlug)}
-                  className="border border-line hover:border-terracotta p-4 rounded-xl cursor-pointer bg-white hover:bg-paper-2 transition-all flex items-start gap-3 group"
-                >
-                  <div className="w-8 h-8 rounded bg-sand flex items-center justify-center text-terracotta shrink-0 mt-0.5">
-                    <Sprout className="w-4.5 h-4.5" />
-                  </div>
-                  <div>
-                    <h3 className="font-sans font-bold text-sm text-ink-soft group-hover:text-terracotta transition-colors line-clamp-2">{rel.title}</h3>
-                    <span className="text-xs text-gray-500 font-mono mt-1 block">Kỹ thuật trồng {rel.herbName}</span>
-                  </div>
-                </Link>
+                <li key={rel.id} className="grid">
+                  <article className="relative border border-line hover:border-terracotta p-4 rounded-xl cursor-pointer bg-white hover:bg-paper-2 transition-all flex items-start gap-3 group">
+                    <span className="w-8 h-8 rounded bg-sand flex items-center justify-center text-terracotta shrink-0 mt-0.5" aria-hidden="true">
+                      <Sprout className="w-4.5 h-4.5" />
+                    </span>
+                    <div>
+                      <h3 className="font-sans font-bold text-sm text-ink-soft group-hover:text-terracotta transition-colors line-clamp-2">
+                        <Link to={paths.hubWiki(rel.herbSlug)} className="after:absolute after:inset-0 after:content-['']">
+                          {rel.title}
+                        </Link>
+                      </h3>
+                      <span className="text-xs text-gray-500 font-mono mt-1 block">Kỹ thuật trồng {rel.herbName}</span>
+                    </div>
+                  </article>
+                </li>
               ))}
-            </div>
+            </ul>
           </section>
+
+          {/* Nguồn tham khảo là siêu dữ liệu về bài → <footer> của article. */}
+          <footer>
+            <SourceList sources={hub.sources} />
+          </footer>
         </div>
       </div>
-    </div>
+    </article>
   );
 };

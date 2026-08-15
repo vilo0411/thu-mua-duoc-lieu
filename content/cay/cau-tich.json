@@ -5,6 +5,13 @@
   "scientificName": "Cibotium barometz",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q2672719",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%E1%BA%A9u_t%C3%ADch",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Cibotium_barometz",
+    "powo": "urn:lsid:ipni.org:names:1160435-2",
+    "gbif": "4195539"
+  },
   "priceRange": "8.000 - 53.000 VNĐ/kg",
   "shortDesc": "Cẩu tích — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/cau-tich.webp",

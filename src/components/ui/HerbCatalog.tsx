@@ -270,21 +270,19 @@ export const HerbCatalog: React.FC = () => {
             <p className="text-sm text-gray-500 italic py-8 text-center">Không tìm thấy cây nào khớp. Thử bỏ bớt điều kiện hoặc gõ ngắn gọn hơn.</p>
           ) : (
             <>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <ul role="list" className="grid grid-cols-1 sm:grid-cols-2 gap-4 list-none m-0 p-0">
                 {pageItems.map((h) => {
                   const price = h.prices[0];
                   const TrendI = price ? TREND_ICON[price.trend] : Minus;
                   const hot = h.priorityLevel === "hot";
                   const hasHub = !!getHubByHerbSlug(h.slug);
                   return (
-                    <div
-                      key={h.slug}
-                      className="bg-white border border-[#E6DDD0] hover:border-[#B85037] rounded-xl p-4 hover:shadow-[0_4px_16px_-6px_rgba(184,80,55,0.25)] transition-all group flex flex-col"
-                    >
-                      <Link
-                        to={herbHref(h)}
-                        className="text-left flex-1 flex flex-col cursor-pointer"
-                      >
+                    <li key={h.slug} className="grid">
+                    {/* <article> + link ở <h3> + overlay ::after — xem chú thích ở HerbCard.
+                        Thẻ có HAI đích đến (trang giá và trang kỹ thuật) nên link thứ hai
+                        phải nâng lên `relative z-10` để không bị overlay nuốt mất. */}
+                    <article className="relative bg-white border border-[#E6DDD0] hover:border-[#B85037] rounded-xl p-4 hover:shadow-[0_4px_16px_-6px_rgba(184,80,55,0.25)] transition-all group flex flex-col">
+                      <div className="text-left flex-1 flex flex-col cursor-pointer">
                         {/* Eyebrow: nhóm + dấu hiệu cần gấp */}
                         <div className="flex items-center justify-between gap-2">
                           <span className="text-[11px] font-sans font-bold uppercase tracking-[0.12em] text-[#B85037]">{GROUP_LABEL[h.group]}</span>
@@ -296,7 +294,9 @@ export const HerbCatalog: React.FC = () => {
                         </div>
 
                         <h3 className="font-serif font-bold text-lg text-[#4F433A] group-hover:text-[#B85037] transition-colors leading-snug mt-1.5">
-                          {h.name}
+                          <Link to={herbHref(h)} className="after:absolute after:inset-0 after:content-['']">
+                            {h.name}
+                          </Link>
                         </h3>
 
                         {price ? (
@@ -313,24 +313,25 @@ export const HerbCatalog: React.FC = () => {
 
                         <span className="inline-flex items-center gap-1 text-sm font-sans font-bold text-[#B85037] mt-3">
                           Xem giá &amp; nơi bán
-                          <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                          <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
                         </span>
-                      </Link>
+                      </div>
 
                       {hasHub && (
                         <Link
                           to={paths.hubWiki(h.slug)}
                           title={`Kỹ thuật trồng ${h.name}`}
-                          className="inline-flex items-center gap-1.5 self-start text-[13px] font-sans font-semibold text-[#4F7942] hover:text-[#2E5941] cursor-pointer mt-3 pt-3 border-t border-[#EFE8DC] w-full transition-colors"
+                          className="relative z-10 inline-flex items-center gap-1.5 self-start text-[13px] font-sans font-semibold text-[#4F7942] hover:text-[#2E5941] cursor-pointer mt-3 pt-3 border-t border-[#EFE8DC] w-full transition-colors"
                         >
-                          <BookOpen className="w-4 h-4 shrink-0" />
+                          <BookOpen className="w-4 h-4 shrink-0" aria-hidden="true" />
                           Xem kỹ thuật trồng
                         </Link>
                       )}
-                    </div>
+                    </article>
+                    </li>
                   );
                 })}
-              </div>
+              </ul>
 
               {/* Phân trang */}
               {totalPages > 1 && (

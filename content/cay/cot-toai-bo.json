@@ -5,6 +5,10 @@
   "scientificName": "Drynaria fortunei",
   "otherNames": [],
   "group": "cu-re",
+  "taxonIds": {
+    "wikidata": "Q38238069",
+    "powo": "urn:lsid:ipni.org:names:17091170-1"
+  },
   "priceRange": "17.000 - 70.000 VNĐ/kg",
   "shortDesc": "Cốt toái bổ — dược liệu đang được thu mua, thu củ, rễ, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/cot-toai-bo.webp",

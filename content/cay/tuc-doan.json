@@ -5,6 +5,12 @@
   "scientificName": "Dipsacus asper",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q12841179",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Dipsacus_asper",
+    "powo": "urn:lsid:ipni.org:names:60453523-2",
+    "gbif": "4103236"
+  },
   "priceRange": "9.000 - 65.000 VNĐ/kg",
   "shortDesc": "Tục đoạn — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/tuc-doan.webp",

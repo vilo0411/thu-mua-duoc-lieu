@@ -5,6 +5,13 @@
   "scientificName": "Piper lolot",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q15295912",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/L%C3%A1_l%E1%BB%91t",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Piper_lolot",
+    "powo": "urn:lsid:ipni.org:names:681996-1",
+    "gbif": "4188761"
+  },
   "priceRange": "8.000 - 50.000 VNĐ/kg",
   "shortDesc": "Lá lốt — dược liệu đang được thu mua, thu lá, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/la-lot.webp",

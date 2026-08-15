@@ -63,7 +63,9 @@ export const MediaCarousel: React.FC<MediaCarouselProps> = ({
       {/* Thẻ chứa: player bên trái, playlist bên phải (desktop) / xếp dọc (mobile) */}
       <div className="rounded-2xl border border-line bg-white overflow-hidden flex flex-col lg:flex-row">
         {/* Sân khấu video */}
-        <div className="lg:flex-1 p-3 md:p-4">
+        {/* <figure>/<figcaption>: video + chú thích là một cụm nội dung có nhãn,
+            không phải hai div cạnh nhau. */}
+        <figure className="lg:flex-1 p-3 md:p-4 m-0">
           <div className="relative rounded-xl overflow-hidden bg-pine-900 flex items-center justify-center min-h-[200px] lg:h-[400px]">
             <div
               key={active}
@@ -91,7 +93,7 @@ export const MediaCarousel: React.FC<MediaCarouselProps> = ({
                   aria-label="Video trước"
                   className="absolute left-2 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-white/85 hover:bg-white text-ink flex items-center justify-center shadow-md transition-colors cursor-pointer"
                 >
-                  <ChevronLeft className="w-5 h-5" />
+                  <ChevronLeft className="w-5 h-5" aria-hidden="true" />
                 </button>
                 <button
                   type="button"
@@ -99,14 +101,14 @@ export const MediaCarousel: React.FC<MediaCarouselProps> = ({
                   aria-label="Video kế tiếp"
                   className="absolute right-2 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-white/85 hover:bg-white text-ink flex items-center justify-center shadow-md transition-colors cursor-pointer"
                 >
-                  <ChevronRight className="w-5 h-5" />
+                  <ChevronRight className="w-5 h-5" aria-hidden="true" />
                 </button>
               </>
             )}
           </div>
 
           {/* Chú thích + link mở gốc */}
-          <div className="mt-3 flex items-start justify-between gap-3">
+          <figcaption className="mt-3 flex items-start justify-between gap-3">
             {current.title && (
               <p className="text-sm font-semibold text-ink-soft font-sans leading-snug">{current.title}</p>
             )}
@@ -116,10 +118,10 @@ export const MediaCarousel: React.FC<MediaCarouselProps> = ({
               rel="noopener"
               className="shrink-0 inline-flex items-center gap-1 text-xs font-semibold text-terracotta hover:text-terracotta-dark transition-colors"
             >
-              Xem gốc <ExternalLink className="w-3.5 h-3.5" />
+              Xem gốc <ExternalLink className="w-3.5 h-3.5" aria-hidden="true" />
             </a>
-          </div>
-        </div>
+          </figcaption>
+        </figure>
 
         {/* Playlist thumbnail */}
         {multi && (
@@ -127,7 +129,7 @@ export const MediaCarousel: React.FC<MediaCarouselProps> = ({
             <div className="px-4 pt-3 pb-2 text-xs font-semibold text-ink-soft uppercase tracking-wide font-sans">
               Danh sách · {total} video
             </div>
-            <ul className="flex flex-col gap-1 px-2 pb-2 max-h-[240px] overflow-y-auto lg:max-h-none lg:flex-1 lg:overflow-visible">
+            <ul role="list" className="flex flex-col gap-1 px-2 pb-2 max-h-[240px] overflow-y-auto lg:max-h-none lg:flex-1 lg:overflow-visible">
               {items.map((m, i) => {
                 const t = thumbUrl(m);
                 const on = i === active;
@@ -136,12 +138,14 @@ export const MediaCarousel: React.FC<MediaCarouselProps> = ({
                     <button
                       type="button"
                       onClick={() => setActive(i)}
-                      aria-current={on}
+                      aria-current={on ? "true" : undefined}
                       className={`group w-full h-full flex items-start lg:items-center gap-3 p-2 rounded-lg text-left transition-colors cursor-pointer ${
                         on ? "bg-sand" : "hover:bg-white"
                       }`}
                     >
-                      <div className="relative w-28 lg:w-32 shrink-0 aspect-video rounded-md overflow-hidden bg-pine-900">
+                      {/* <span> chứ không phải <div>: <button> chỉ được chứa phrasing content,
+                          <div> bên trong là lỗi W3C thật. Hiển thị giữ nguyên nhờ class block/flex. */}
+                      <span className="relative block w-28 lg:w-32 shrink-0 aspect-video rounded-md overflow-hidden bg-pine-900">
                         {t ? (
                           <img
                             src={t}
@@ -150,11 +154,11 @@ export const MediaCarousel: React.FC<MediaCarouselProps> = ({
                             className="w-full h-full object-cover"
                           />
                         ) : (
-                          <div className="w-full h-full flex items-center justify-center text-white/70">
+                          <span className="w-full h-full flex items-center justify-center text-white/70">
                             <Play className="w-5 h-5" />
-                          </div>
+                          </span>
                         )}
-                        <div
+                        <span
                           className={`absolute inset-0 flex items-center justify-center transition-colors ${
                             on ? "bg-terracotta/25" : "bg-black/10 group-hover:bg-black/0"
                           }`}
@@ -163,10 +167,10 @@ export const MediaCarousel: React.FC<MediaCarouselProps> = ({
                             className={`w-5 h-5 drop-shadow ${on ? "text-white" : "text-white/90"}`}
                             fill="currentColor"
                           />
-                        </div>
+                        </span>
                         {on && <span className="absolute inset-0 ring-2 ring-terracotta rounded-md" />}
-                      </div>
-                      <div className="min-w-0 flex-1 py-0.5">
+                      </span>
+                      <span className="block min-w-0 flex-1 py-0.5">
                         <span
                           className={`block text-sm font-sans leading-snug line-clamp-2 ${
                             on ? "text-terracotta font-semibold" : "text-ink-soft"
@@ -177,7 +181,7 @@ export const MediaCarousel: React.FC<MediaCarouselProps> = ({
                         <span className="block mt-0.5 text-[11px] text-gray-400 uppercase tracking-wide">
                           {m.type === "youtube" ? "YouTube" : "TikTok"}
                         </span>
-                      </div>
+                      </span>
                     </button>
                   </li>
                 );

@@ -1,6 +1,7 @@
 import React from "react";
 import { ArrowRight, Quote } from "lucide-react";
 import { Link } from "react-router-dom";
+import { SITE_OWNER } from "../../lib/data";
 
 interface MissionStoryProps {
   imageUrl: string;
@@ -60,6 +61,10 @@ export const MissionStory: React.FC<MissionStoryProps> = ({ imageUrl, readStoryT
               con làm giàu — tôi muốn góp phần bằng cách cung cấp thông tin hữu ích, dẫn nguồn rõ ràng.
             </p>
           </blockquote>
+          {/* <cite> ngay sau blockquote: trích dẫn phải nói rõ là lời của ai. */}
+          <p className="mt-2 pl-4 text-sm text-white/70 font-sans">
+            — <cite className="not-italic font-semibold">{SITE_OWNER}</cite>
+          </p>
 
           <Link
             to={readStoryTo}

@@ -145,11 +145,16 @@ export const HerbCompare: React.FC<HerbCompareProps> = ({ herbs, onPickHerb }) =
       ) : (
         <div className="w-full overflow-x-auto rounded-2xl border border-[#E6DDD0] shadow-xs">
           <table className="w-full border-collapse" style={{ minWidth: `${140 + chosen.length * 150}px` }}>
+            {/* <caption>: bảng phải tự nói nó so sánh cái gì, cho cả trình đọc màn hình
+                lẫn trình phân tích bảng của công cụ tìm kiếm. */}
+            <caption className="sr-only">
+              So sánh {chosen.map((h) => h.name).join(", ")} theo giá thu mua, mùa vụ và kỹ thuật trồng
+            </caption>
             <thead>
               <tr className="bg-[#F5EDE0]">
-                <th className="text-left px-4 py-3 font-sans font-bold text-sm text-[#4F433A] w-[140px]">Tiêu chí</th>
+                <th scope="col" className="text-left px-4 py-3 font-sans font-bold text-sm text-[#4F433A] w-[140px]">Tiêu chí</th>
                 {chosen.map((h) => (
-                  <th key={h.slug} className="px-4 py-3 text-left border-l border-[#E6DDD0]">
+                  <th key={h.slug} scope="col" className="px-4 py-3 text-left border-l border-[#E6DDD0]">
                     <button
                       type="button"
                       onClick={() => onPickHerb?.(h.slug)}

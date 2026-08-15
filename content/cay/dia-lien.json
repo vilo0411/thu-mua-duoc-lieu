@@ -5,6 +5,13 @@
   "scientificName": "Kaempferia galanga",
   "otherNames": [],
   "group": "cu-re",
+  "taxonIds": {
+    "wikidata": "Q1113398",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/%C4%90%E1%BB%8Ba_li%E1%BB%81n",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Kaempferia_galanga",
+    "powo": "urn:lsid:ipni.org:names:797160-1",
+    "gbif": "5301451"
+  },
   "priceRange": "15.000 - 69.000 VNĐ/kg",
   "shortDesc": "Địa liền — dược liệu đang được thu mua, thu củ, rễ, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/dia-lien.webp",

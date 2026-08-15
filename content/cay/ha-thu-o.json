@@ -9,6 +9,11 @@
     "Má ỏn"
   ],
   "group": "cu-re",
+  "taxonIds": {
+    "wikidata": "Q1802551",
+    "powo": "urn:lsid:ipni.org:names:694570-1",
+    "gbif": "6391433"
+  },
   "priceRange": "90.000 - 250.000 VNĐ/kg",
   "shortDesc": "Dây leo cuốn sống lâu năm, nổi tiếng với công dụng làm đen tóc, bổ huyết, đẹp da.",
   "image": "/images/cay/ha-thu-o.webp",

@@ -9,5 +9,13 @@
   "defaultDescription": "Trang tổng hợp kỹ thuật trồng, sơ chế và cập nhật giá thu mua dược liệu Việt Nam đạt chuẩn GACP-WHO từ các nguồn uy tín — cho hộ trồng, hợp tác xã và đầu mối thu gom.",
   "defaultImage": "/images/og-default.jpg",
   "locale": "vi_VN",
-  "authorUrl": "https://duoclieu.nguyenvietloc.com/ve-toi"
+  "authorUrl": "https://duoclieu.nguyenvietloc.com/ve-toi",
+  "authorImage": "/images/nguyen-viet-loc-avatar.webp",
+  "knowsAbout": [
+    "Cây dược liệu Việt Nam",
+    "Kỹ thuật trồng cây dược liệu",
+    "Tiêu chuẩn GACP-WHO",
+    "Sơ chế và bảo quản dược liệu",
+    "Thị trường thu mua dược liệu"
+  ]
 }

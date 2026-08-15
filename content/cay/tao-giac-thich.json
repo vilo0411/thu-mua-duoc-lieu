@@ -5,6 +5,12 @@
   "scientificName": "Gleditsia australis",
   "otherNames": [],
   "group": "than",
+  "taxonIds": {
+    "wikidata": "Q10959222",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/B%E1%BB%93_k%E1%BA%BFt_qu%E1%BA%A3_nh%E1%BB%8F",
+    "powo": "urn:lsid:ipni.org:names:496573-1",
+    "gbif": "2959479"
+  },
   "priceRange": "11.000 - 63.000 VNĐ/kg",
   "shortDesc": "Tạo giác thích — dược liệu đang được thu mua, thu thân, cành, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/tao-giac-thich.webp",

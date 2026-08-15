@@ -24,21 +24,26 @@ export const Header: React.FC = () => {
         </div>
 
         {/* Pill nav ở giữa (mượn từ mẫu) — item active là viên trắng nổi trên nền pine */}
-        <nav className="hidden lg:flex items-center gap-1 bg-white/5 border border-white/10 rounded-full p-1">
-          {NAV_ITEMS.map((item) => (
-            <NavLink
-              key={item.to}
-              to={item.to}
-              end={item.end}
-              className={({ isActive }) =>
-                `rounded-full px-4 py-1.5 text-sm font-bold transition-colors cursor-pointer ${
-                  isActive ? "bg-white text-pine-900" : "text-white/70 hover:text-white hover:bg-white/10"
-                }`
-              }
-            >
-              {item.label}
-            </NavLink>
-          ))}
+        {/* aria-label bắt buộc: trang có nhiều landmark <nav> (đây, breadcrumb, mục lục,
+            footer) nên mỗi cái phải tự xưng tên thì trình đọc màn hình mới phân biệt được. */}
+        <nav aria-label="Điều hướng chính" className="hidden lg:block">
+          <ul role="list" className="flex items-center gap-1 bg-white/5 border border-white/10 rounded-full p-1 list-none m-0">
+            {NAV_ITEMS.map((item) => (
+              <li key={item.to}>
+                <NavLink
+                  to={item.to}
+                  end={item.end}
+                  className={({ isActive }) =>
+                    `block rounded-full px-4 py-1.5 text-sm font-bold transition-colors cursor-pointer ${
+                      isActive ? "bg-white text-pine-900" : "text-white/70 hover:text-white hover:bg-white/10"
+                    }`
+                  }
+                >
+                  {item.label}
+                </NavLink>
+              </li>
+            ))}
+          </ul>
         </nav>
 
         {/* Cụm phải: tìm kiếm (xl) + nút cỡ chữ thu gọn (desktop) + hamburger (mobile) */}

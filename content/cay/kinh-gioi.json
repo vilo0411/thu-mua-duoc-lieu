@@ -5,6 +5,13 @@
   "scientificName": "Elsholtzia ciliata",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q1357371",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Kinh_gi%E1%BB%9Bi",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Elsholtzia_ciliata",
+    "powo": "urn:lsid:ipni.org:names:90101-2",
+    "gbif": "2927075"
+  },
   "priceRange": "11.000 - 74.000 VNĐ/kg",
   "shortDesc": "Kinh giới — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/kinh-gioi.webp",

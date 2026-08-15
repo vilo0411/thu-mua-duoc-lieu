@@ -15,6 +15,27 @@ const faqItem = z.object({ question: z.string().min(1), answer: z.string().min(1
 const popularity = z.enum(["chinh", "phu", "it"]);
 const pestLevel = z.enum(["rat-pho-bien", "co-gap", "hiem"]);
 
+/** Mã định danh loài ngoài → sameAs của Taxon. Sai thực thể hại hơn thiếu, nên siết định dạng. */
+const taxonIds = z
+  .object({
+    wikidata: z.string().regex(/^Q\d+$/, "wikidata phải dạng Q + số, vd Q161125").optional(),
+    wikipediaVi: z.string().url().optional(),
+    wikipediaEn: z.string().url().optional(),
+    powo: z.string().min(1).optional(),
+    gbif: z.string().regex(/^\d+$/, "gbif phải là số").optional(),
+  })
+  .optional();
+
+const sources = z
+  .array(
+    z.object({
+      title: z.string().min(1),
+      url: z.string().url(),
+      publisher: z.string().min(1).optional(),
+    }),
+  )
+  .optional();
+
 export const herbSchema = z.object({
   id: z.string().min(1),
   slug: z.string().regex(/^[a-z0-9-]+$/, "slug phải là chữ thường không dấu, dùng '-'"),
@@ -22,6 +43,7 @@ export const herbSchema = z.object({
   scientificName: z.string(),
   otherNames: z.array(z.string().min(1)),
   group: z.enum(["cu-re", "hoa-la", "nam", "vo", "than"]),
+  taxonIds,
   identification: z
     .object({ fresh: z.string().optional(), dry: z.string().optional() })
     .optional(),
@@ -152,6 +174,8 @@ export const wikiArticleSchema = z.object({
   standardsTableHeaders: z.tuple([z.string().min(1), z.string().min(1), z.string().min(1)]).optional(),
   // Callout "sai lầm phổ biến" — theo từng bài; không có thì không render (tránh dính text bài sấy).
   pitfall: z.object({ title: z.string().min(1).optional(), body: z.string().min(1) }).optional(),
+  howTo: z.boolean().optional(),
+  sources,
   faq: z.array(faqItem),
 });
 
@@ -168,6 +192,7 @@ export const wikiHubSchema = z.object({
     .array(z.object({ stage: z.string().min(1), criteria: z.string().min(1), controlMethod: z.string().min(1) }))
     .min(1),
   pests: z.array(z.object({ pestName: z.string().min(1), symptoms: z.string().min(1), remedy: z.string().min(1) })),
+  sources,
   faq: z.array(faqItem),
 });
 
@@ -200,6 +225,11 @@ export const siteSchema = z.object({
   defaultImage: z.string().min(1),
   locale: z.string().min(1),
   authorUrl: z.string().url(),
+  /** Logo Organization. Thiếu thì schema bỏ hẳn key `logo` thay vì trỏ file không có. */
+  logo: z.string().min(1).optional(),
+  authorImage: z.string().min(1).optional(),
+  sameAs: z.array(z.string().url()).optional(),
+  knowsAbout: z.array(z.string().min(1)).optional(),
 });
 
 /** Bản đồ thư mục content → schema tương ứng, dùng bởi validator. */

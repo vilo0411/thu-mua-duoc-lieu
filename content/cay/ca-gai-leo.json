@@ -9,6 +9,12 @@
     "Cà quýnh"
   ],
   "group": "than",
+  "taxonIds": {
+    "wikidata": "Q11150164",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%C3%A0_gai_leo",
+    "powo": "urn:lsid:ipni.org:names:820583-1",
+    "gbif": "2931076"
+  },
   "priceRange": "30.000 - 75.000 VNĐ/kg",
   "shortDesc": "Thảo dược dây leo gai sắc nhọn, khắc tinh của các bệnh lý xơ gan, viêm gan vi rút.",
   "image": "/images/cay/ca-gai-leo.webp",

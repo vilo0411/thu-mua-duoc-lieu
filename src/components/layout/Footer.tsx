@@ -35,11 +35,11 @@ export const Footer: React.FC = () => {
           </div>
 
           {/* Column 2: Thu mua dược liệu */}
-          <div className="space-y-4 text-left">
-            <h2 className="font-serif text-lg font-bold text-[#EFE6DA] uppercase tracking-wider border-b border-white/10 pb-2">
+          <nav aria-labelledby="footer-thu-mua" className="space-y-4 text-left">
+            <h2 id="footer-thu-mua" className="font-serif text-lg font-bold text-[#EFE6DA] uppercase tracking-wider border-b border-white/10 pb-2">
               Thu mua dược liệu
             </h2>
-            <ul className="space-y-2 text-sm text-gray-300">
+            <ul role="list" className="space-y-2 text-sm text-gray-300">
               <li>
                 <Link to={paths.pillar()} className="hover:text-white transition-colors cursor-pointer text-left">
                   • Bảng giá thua mua dược liệu cập nhật
@@ -56,14 +56,14 @@ export const Footer: React.FC = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </nav>
 
           {/* Column 3: Kiến thức */}
-          <div className="space-y-4 text-left">
-            <h2 className="font-serif text-lg font-bold text-[#EFE6DA] uppercase tracking-wider border-b border-white/10 pb-2">
+          <nav aria-labelledby="footer-kien-thuc" className="space-y-4 text-left">
+            <h2 id="footer-kien-thuc" className="font-serif text-lg font-bold text-[#EFE6DA] uppercase tracking-wider border-b border-white/10 pb-2">
               Kiến thức canh tác
             </h2>
-            <ul className="space-y-2 text-sm text-gray-300">
+            <ul role="list" className="space-y-2 text-sm text-gray-300">
               {WIKI_ARTICLES.slice(0, 5).map((art) => (
                 <li key={art.id}>
                   <Link
@@ -80,27 +80,35 @@ export const Footer: React.FC = () => {
                 </Link>
               </li>
             </ul>
-          </div>
+          </nav>
 
           {/* Column 4: Liên hệ */}
           <div className="space-y-4 text-left">
             <h2 className="font-serif text-lg font-bold text-[#EFE6DA] uppercase tracking-wider border-b border-white/10 pb-2">
               Liên hệ trực tiếp
             </h2>
-            <div className="space-y-2 text-sm text-gray-300">
-              <div className="flex items-center gap-2">
+            {/* <address> là thẻ đúng cho thông tin liên hệ của tài liệu; not-italic vì
+                trình duyệt mặc định in nghiêng còn thiết kế thì không. */}
+            <address className="not-italic space-y-2 text-sm text-gray-300">
+              <span className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-[#D08620] shrink-0" />
-                <span>Email: <strong className="text-white">{OWNER_EMAIL}</strong></span>
-              </div>
-              <div className="flex items-center gap-2">
+                <span>
+                  Email:{" "}
+                  <a href={`mailto:${OWNER_EMAIL}`} className="font-bold text-white hover:underline">
+                    {OWNER_EMAIL}
+                  </a>
+                </span>
+              </span>
+              <span className="flex items-center gap-2">
                 <Globe className="w-4 h-4 text-[#D08620] shrink-0" />
+                {/* Để text, không link: displayUrl là tên miền gốc, khác siteUrl của trang này. */}
                 <span>Website: <strong className="text-white">{OWNER_URL}</strong></span>
-              </div>
-              <div className="flex items-center gap-2">
+              </span>
+              <span className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-[#D08620] shrink-0" />
                 <span className="text-xs">Liên hệ trực tuyến — phản hồi qua email</span>
-              </div>
-            </div>
+              </span>
+            </address>
             <div className="pt-1">
               <Link
                 to={paths.contact()}
@@ -121,21 +129,24 @@ export const Footer: React.FC = () => {
         </div>
 
         {/* Legal / policy links */}
-        <nav
-          aria-label="Chính sách & pháp lý"
-          className="border-t border-white/10 pt-6 flex flex-wrap gap-x-4 gap-y-2 text-xs text-gray-400"
-        >
-          <Link to={paths.editorial()} className="hover:text-white transition-colors cursor-pointer">Chính sách nội dung</Link>
-          <span aria-hidden>•</span>
-          <Link to={paths.privacy()} className="hover:text-white transition-colors cursor-pointer">Chính sách bảo mật</Link>
-          <span aria-hidden>•</span>
-          <Link to={paths.terms()} className="hover:text-white transition-colors cursor-pointer">Điều khoản sử dụng</Link>
-          <span aria-hidden>•</span>
-          <Link to={paths.disclaimer()} className="hover:text-white transition-colors cursor-pointer">Miễn trừ trách nhiệm</Link>
-          <span aria-hidden>•</span>
-          <Link to={paths.about()} className="hover:text-white transition-colors cursor-pointer">Giới thiệu tác giả</Link>
-          <span aria-hidden>•</span>
-          <Link to={paths.sitemap()} className="hover:text-white transition-colors cursor-pointer">Sơ đồ trang</Link>
+        <nav aria-label="Chính sách & pháp lý" className="border-t border-white/10 pt-6">
+          <ul role="list" className="flex flex-wrap gap-x-4 gap-y-2 text-xs text-gray-400 list-none m-0 p-0">
+            {[
+              { to: paths.editorial(), label: "Chính sách nội dung" },
+              { to: paths.privacy(), label: "Chính sách bảo mật" },
+              { to: paths.terms(), label: "Điều khoản sử dụng" },
+              { to: paths.disclaimer(), label: "Miễn trừ trách nhiệm" },
+              { to: paths.about(), label: "Giới thiệu tác giả" },
+              { to: paths.sitemap(), label: "Sơ đồ trang" },
+            ].map((item, idx) => (
+              <li key={item.to} className="flex items-center gap-4">
+                {idx > 0 && <span aria-hidden="true">•</span>}
+                <Link to={item.to} className="hover:text-white transition-colors cursor-pointer">
+                  {item.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
         </nav>
 
         {/* Copyright bar */}

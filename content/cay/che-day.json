@@ -5,6 +5,13 @@
   "scientificName": "Ampelopsis cantoniensis",
   "otherNames": [],
   "group": "than",
+  "taxonIds": {
+    "wikidata": "Q11064724",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Ch%C3%A8_d%C3%A2y",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Nekemias_cantoniensis",
+    "powo": "urn:lsid:ipni.org:names:869638-1",
+    "gbif": "7293745"
+  },
   "priceRange": "13.000 - 78.000 VNĐ/kg",
   "shortDesc": "Chè dây — dược liệu đang được thu mua, thu thân, cành, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/che-day.webp",

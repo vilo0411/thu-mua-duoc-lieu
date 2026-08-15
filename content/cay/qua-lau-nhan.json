@@ -5,6 +5,13 @@
   "scientificName": "Trichosanthes kirilowii",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q847006",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Qua_l%C3%A2u",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Trichosanthes_kirilowii",
+    "powo": "urn:lsid:ipni.org:names:294222-1",
+    "gbif": "3624240"
+  },
   "priceRange": "10.000 - 51.000 VNĐ/kg",
   "shortDesc": "Qua lâu nhân — dược liệu đang được thu mua, thu hạt, quả chín, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/qua-lau-nhan.webp",

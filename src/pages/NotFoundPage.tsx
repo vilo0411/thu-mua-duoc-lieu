@@ -13,12 +13,16 @@ export const NotFoundPage: React.FC = () => {
         path="/404"
         noindex
       />
-      <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-sand text-terracotta">
+      <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-sand text-terracotta" aria-hidden="true">
         <Leaf className="w-10 h-10" />
       </div>
       <div className="space-y-2">
-        <h1 className="font-serif text-5xl font-extrabold text-terracotta">404</h1>
-        <h2 className="font-serif text-2xl font-bold text-ink-soft">Không tìm thấy trang bà con cần</h2>
+        {/* h1 gộp cả mã lỗi lẫn thông điệp: "404" một mình không nói lên trang này về
+            cái gì, còn để thông điệp ở h2 thì h1 rỗng nghĩa. */}
+        <h1 className="space-y-2">
+          <span className="block font-serif text-5xl font-extrabold text-terracotta">404</span>
+          <span className="block font-serif text-2xl font-bold text-ink-soft">Không tìm thấy trang bà con cần</span>
+        </h1>
         <p className="text-gray-600 font-sans max-w-md mx-auto">
           Đường dẫn có thể đã thay đổi hoặc không tồn tại. Bà con thử quay về trang chủ hoặc xem danh mục dược liệu bên dưới.
         </p>

@@ -5,6 +5,12 @@
   "scientificName": "Codonopsis javanica",
   "otherNames": [],
   "group": "cu-re",
+  "taxonIds": {
+    "wikidata": "Q15598598",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A3ng_s%C3%A2m_nam",
+    "powo": "urn:lsid:ipni.org:names:141805-1",
+    "gbif": "5412879"
+  },
   "priceRange": "15.000 - 81.000 VNĐ/kg",
   "shortDesc": "Đảng sâm — dược liệu đang được thu mua, thu củ, rễ, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/dang-sam.webp",

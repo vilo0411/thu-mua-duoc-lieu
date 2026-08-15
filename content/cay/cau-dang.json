@@ -5,6 +5,13 @@
   "scientificName": "Uncaria rhynchophylla",
   "otherNames": [],
   "group": "than",
+  "taxonIds": {
+    "wikidata": "Q1134307",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Uncaria_rhynchophylla",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Uncaria_rhynchophylla",
+    "powo": "urn:lsid:ipni.org:names:768297-1",
+    "gbif": "5338182"
+  },
   "priceRange": "11.000 - 56.000 VNĐ/kg",
   "shortDesc": "Câu đằng — dược liệu đang được thu mua, thu thân, cành, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/cau-dang.webp",

@@ -5,6 +5,12 @@
   "scientificName": "Dioscorea persimilis",
   "otherNames": [],
   "group": "cu-re",
+  "taxonIds": {
+    "wikidata": "Q5279591",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/C%E1%BB%A7_m%C3%A0i",
+    "powo": "urn:lsid:ipni.org:names:318407-1",
+    "gbif": "2754654"
+  },
   "priceRange": "16.000 - 78.000 VNĐ/kg",
   "shortDesc": "Hoài sơn — dược liệu đang được thu mua, thu củ, rễ, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/hoai-son.webp",

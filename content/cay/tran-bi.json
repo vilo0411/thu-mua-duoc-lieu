@@ -5,6 +5,13 @@
   "scientificName": "Citrus reticulata",
   "otherNames": [],
   "group": "vo",
+  "taxonIds": {
+    "wikidata": "Q125337",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Qu%C3%BDt",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Mandarin_orange",
+    "powo": "urn:lsid:ipni.org:names:772038-1",
+    "gbif": "3190172"
+  },
   "priceRange": "13.000 - 77.000 VNĐ/kg",
   "shortDesc": "Trần bì — dược liệu đang được thu mua, thu vỏ, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/tran-bi.webp",

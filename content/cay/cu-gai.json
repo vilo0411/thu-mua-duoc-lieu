@@ -7,6 +7,13 @@
     "Trữ ma căn"
   ],
   "group": "cu-re",
+  "taxonIds": {
+    "wikidata": "Q750467",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Gai_(c%C3%A2y)",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Boehmeria_nivea",
+    "powo": "urn:lsid:ipni.org:names:55676-3",
+    "gbif": "2984359"
+  },
   "priceRange": "16.000 - 81.000 VNĐ/kg",
   "shortDesc": "Củ gai — dược liệu đang được thu mua, thu củ, thân rễ, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/cu-gai.webp",

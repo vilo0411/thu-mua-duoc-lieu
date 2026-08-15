@@ -5,6 +5,13 @@
   "scientificName": "Momordica charantia",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q428750",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Kh%E1%BB%95_qua",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Momordica_charantia",
+    "powo": "urn:lsid:ipni.org:names:293413-1",
+    "gbif": "2874581"
+  },
   "priceRange": "9.000 - 61.000 VNĐ/kg",
   "shortDesc": "Khổ qua — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/kho-qua.webp",

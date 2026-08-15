@@ -5,6 +5,13 @@
   "scientificName": "Vitex trifolia",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q29533",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%B9n_ba_l%C3%A1",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Vitex_trifolia",
+    "powo": "urn:lsid:ipni.org:names:866039-1",
+    "gbif": "2925561"
+  },
   "priceRange": "9.000 - 63.000 VNĐ/kg",
   "shortDesc": "Mạn kinh tử — dược liệu đang được thu mua, thu hạt, quả chín, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/man-kinh-tu.webp",

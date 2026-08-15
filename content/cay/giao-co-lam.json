@@ -5,6 +5,13 @@
   "scientificName": "Gynostemma pentaphyllum",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q134253",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Gi%E1%BA%A3o_c%E1%BB%95_lam",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Gynostemma_pentaphyllum",
+    "powo": "urn:lsid:ipni.org:names:292905-1",
+    "gbif": "7317960"
+  },
   "priceRange": "9.000 - 57.000 VNĐ/kg",
   "shortDesc": "Giảo cổ lam — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/giao-co-lam.webp",

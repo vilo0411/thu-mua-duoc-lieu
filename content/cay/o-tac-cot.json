@@ -5,6 +5,11 @@
   "scientificName": "Sepia esculenta",
   "otherNames": [],
   "group": "cu-re",
+  "taxonIds": {
+    "wikidata": "Q2129566",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Acanthosepion_esculentum",
+    "gbif": "2290754"
+  },
   "priceRange": "15.000 - 73.000 VNĐ/kg",
   "shortDesc": "Ô tặc cốt — dược liệu đang được thu mua, thu mai mực (ô tặc cốt), nhu cầu 50 kg/tháng.",
   "image": "/images/cay/o-tac-cot.webp",

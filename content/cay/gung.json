@@ -8,6 +8,13 @@
     "Can khương"
   ],
   "group": "cu-re",
+  "taxonIds": {
+    "wikidata": "Q35625",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/G%E1%BB%ABng",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Ginger",
+    "powo": "urn:lsid:ipni.org:names:798372-1",
+    "gbif": "2757280"
+  },
   "priceRange": "15.000 - 95.000 VNĐ/kg",
   "shortDesc": "Củ gừng cho hai vị dược liệu được thu mua theo cách chế biến: gừng tươi (sinh khương) và gừng khô (can khương), mỗi loại một mức giá riêng.",
   "image": "/images/cay/gung.webp",

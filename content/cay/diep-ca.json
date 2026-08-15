@@ -5,6 +5,13 @@
   "scientificName": "Houttuynia cordata",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q164091",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Di%E1%BA%BFp_c%C3%A1",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Houttuynia_cordata",
+    "powo": "urn:lsid:ipni.org:names:927252-1",
+    "gbif": "5384931"
+  },
   "priceRange": "11.000 - 67.000 VNĐ/kg",
   "shortDesc": "Diếp cá — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/diep-ca.webp",

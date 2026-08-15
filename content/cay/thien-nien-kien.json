@@ -5,6 +5,12 @@
   "scientificName": "Homalomena occulta",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q6851075",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Thi%C3%AAn_ni%C3%AAn_ki%E1%BB%87n",
+    "powo": "urn:lsid:ipni.org:names:87255-1",
+    "gbif": "2868708"
+  },
   "priceRange": "9.000 - 54.000 VNĐ/kg",
   "shortDesc": "Thiên niên kiện — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/thien-nien-kien.webp",

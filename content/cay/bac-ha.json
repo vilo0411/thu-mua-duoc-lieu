@@ -9,6 +9,13 @@
     "Húng bạc hà"
   ],
   "group": "than",
+  "taxonIds": {
+    "wikidata": "Q160585",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/B%E1%BA%A1c_h%C3%A0_%C3%81",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Mentha_arvensis",
+    "powo": "urn:lsid:ipni.org:names:30026217-2",
+    "gbif": "2927192"
+  },
   "priceRange": "15.000 - 45.000 VNĐ/kg",
   "shortDesc": "Thân thảo sinh trưởng cực nhanh, cho sản lượng lá tươi lớn dùng để chưng cất tinh dầu menthol.",
   "image": "/images/cay/bac-ha.webp",

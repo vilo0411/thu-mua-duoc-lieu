@@ -38,6 +38,10 @@ export default function App() {
     <Routes>
       <Route element={<Layout />}>
         <Route path="/" element={<HomePage />} />
+        <Route path="/thu-mua-duoc-lieu/duong-quy-b" element={<Navigate to="/thu-mua-duoc-lieu/duong-quy" replace />} />
+        <Route path="/thu-mua-duoc-lieu/duong-quy-n" element={<Navigate to="/thu-mua-duoc-lieu/duong-quy" replace />} />
+        <Route path="/kien-thuc/ky-thuat-trong-duong-quy-b" element={<Navigate to="/kien-thuc/ky-thuat-trong-duong-quy" replace />} />
+        <Route path="/kien-thuc/ky-thuat-trong-duong-quy-n" element={<Navigate to="/kien-thuc/ky-thuat-trong-duong-quy" replace />} />
         <Route path="/thu-mua-duoc-lieu" element={<PillarPage />} />
         <Route path="/thu-mua-duoc-lieu/:cay" element={<MoneyCayPage />} />
         <Route path="/thu-mua-duoc-lieu/:cay/:vung" element={<RedirectToHerb />} />

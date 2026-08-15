@@ -5,6 +5,12 @@
   "scientificName": "Apis cerana",
   "otherNames": [],
   "group": "cu-re",
+  "taxonIds": {
+    "wikidata": "Q306939",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Apis_cerana",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Apis_cerana",
+    "gbif": "1341979"
+  },
   "priceRange": "18.000 - 83.000 VNĐ/kg",
   "shortDesc": "Mật ong — dược liệu đang được thu mua, thu mật ong nguyên chất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/mat-ong.webp",

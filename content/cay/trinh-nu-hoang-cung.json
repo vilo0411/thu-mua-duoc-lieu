@@ -5,6 +5,13 @@
   "scientificName": "Crinum latifolium",
   "otherNames": [],
   "group": "cu-re",
+  "taxonIds": {
+    "wikidata": "Q3013446",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Trinh_n%E1%BB%AF_ho%C3%A0ng_cung",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Crinum_latifolium",
+    "powo": "urn:lsid:ipni.org:names:63951-1",
+    "gbif": "2853901"
+  },
   "priceRange": "18.000 - 86.000 VNĐ/kg",
   "shortDesc": "Trinh nữ hoàng cung — dược liệu đang được thu mua, thu củ, rễ, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/trinh-nu-hoang-cung.webp",

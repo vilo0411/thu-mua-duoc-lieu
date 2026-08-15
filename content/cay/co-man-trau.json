@@ -5,6 +5,13 @@
   "scientificName": "Eleusine indica",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q1148930",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/M%E1%BA%A7n_tr%E1%BA%A7u",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Eleusine_indica",
+    "powo": "urn:lsid:ipni.org:names:74675-3",
+    "gbif": "2705953"
+  },
   "priceRange": "8.000 - 45.000 VNĐ/kg",
   "shortDesc": "Cỏ Mần Trầu — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/co-man-trau.webp",

@@ -5,6 +5,13 @@
   "scientificName": "Sigesbeckia orientalis",
   "otherNames": [],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q3483517",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Hy_thi%C3%AAm",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Sigesbeckia_orientalis",
+    "powo": "urn:lsid:ipni.org:names:249084-1",
+    "gbif": "3125901"
+  },
   "priceRange": "10.000 - 64.000 VNĐ/kg",
   "shortDesc": "Hy thiêm — dược liệu đang được thu mua, thu toàn cây trên mặt đất, nhu cầu 50 kg/tháng.",
   "image": "/images/cay/hy-thiem.webp",

@@ -9,6 +9,13 @@
     "Tô tử"
   ],
   "group": "hoa-la",
+  "taxonIds": {
+    "wikidata": "Q1076038",
+    "wikipediaVi": "https://vi.wikipedia.org/wiki/Perilla_frutescens",
+    "wikipediaEn": "https://en.wikipedia.org/wiki/Perilla_frutescens",
+    "powo": "urn:lsid:ipni.org:names:190343-2",
+    "gbif": "5341394"
+  },
   "priceRange": "9.000 - 60.000 VNĐ/kg",
   "shortDesc": "Cây tía tô cho nhiều vị dược liệu được thu mua: lá (tô diệp), cành (tô ngạnh) và hạt (tô tử), mỗi loại một mức giá riêng.",
   "image": "/images/cay/tia-to.webp",
