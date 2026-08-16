@@ -380,8 +380,24 @@ export function howTo(o: {
   };
 }
 
-/** ItemList cho trang tổng hợp (pillar, /kien-thuc, sơ đồ trang). */
-export function itemList(path: string, items: { name: string; path: string }[]): Json | undefined {
+export type ListEntry = {
+  name: string;
+  path: string;
+  /** Loại thực thể ở trang đích: Taxon (trang cây), Article (bài/hub)… Mặc định WebPage. */
+  type?: string;
+  /** `@id` của thực thể đó ở trang đích; mặc định là node WebPage của path. */
+  id?: string;
+};
+
+/**
+ * ItemList cho trang tổng hợp (pillar, /kien-thuc, sơ đồ trang).
+ *
+ * Mỗi ListItem trỏ vào thực thể ở trang đích qua `item.@id` (vd `…/cay/dinh-lang/#taxon`)
+ * để danh sách nối được vào graph toàn site, chứ không chỉ là một dãy URL rời. Stub
+ * PHẢI có `@type` + `name`/`url`: object chỉ có mỗi `{"@id"}` sẽ bị validator coi là
+ * tham chiếu treo, vì node đầy đủ nằm ở trang khác chứ không có trong graph trang này.
+ */
+export function itemList(path: string, items: ListEntry[]): Json | undefined {
   if (!items.length) return undefined;
   return {
     "@type": "ItemList",
@@ -389,8 +405,12 @@ export function itemList(path: string, items: { name: string; path: string }[]):
     itemListElement: items.map((it, i) => ({
       "@type": "ListItem",
       position: i + 1,
-      name: it.name,
-      url: canonical(it.path),
+      item: {
+        "@type": it.type ?? "WebPage",
+        "@id": it.id ?? ID.webpage(it.path),
+        name: it.name,
+        url: canonical(it.path),
+      },
     })),
   };
 }

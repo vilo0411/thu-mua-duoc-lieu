@@ -5,7 +5,7 @@
  * Hai mục đích: thực hiện đúng nghĩa vụ ghi công của giấy phép CC, và đủ điều kiện
  * huy hiệu "Licensable" trên Google Images.
  */
-import creditsJson from "../../../public/images/kien-thuc/credits.json";
+import creditsJson from "../../data/wiki-image-credits.json";
 
 interface RawCredit {
   file: string;

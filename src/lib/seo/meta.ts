@@ -117,7 +117,12 @@ export function pillarSeo(): SeoProps {
   const title = `Thu mua dược liệu ${YEAR}: giá & đầu mối uy tín`;
   const description =
     "Bảng giá thu mua dược liệu mới nhất, đầu mối và công ty thu mua uy tín, nơi bán tại Hà Nội, miền Bắc và toàn quốc - giúp nông hộ, HTX bán đúng giá, tránh bị ép.";
-  const items = HERBS_DATA.map((h) => ({ name: h.name, path: paths.herb(h.slug) }));
+  // ListItem trỏ thẳng vào node Taxon của trang cây (cùng @id với node đầy đủ phát ở
+  // đó và ở hub kỹ thuật) → Pillar trở thành trang tổng hợp của chính các thực thể cây.
+  const items = HERBS_DATA.map((h) => {
+    const herbPath = paths.herb(h.slug);
+    return { name: h.name, path: herbPath, type: "Taxon", id: ID.taxon(herbPath) };
+  });
   return {
     title,
     description,
@@ -331,6 +336,10 @@ export function articleSeo(a: WikiArticle): SeoProps {
 
 export function knowledgeSeo(listItems: { name: string; path: string }[] = []): SeoProps {
   const path = paths.knowledge();
+  // Cả bài wiki (paths.article) lẫn hub kỹ thuật (paths.hubWiki) đều phát node Article
+  // tại chính path của mình, nên ListItem trỏ vào ID.article(path) là nối đúng
+  // CollectionPage → Article thay vì chỉ liệt kê URL.
+  const entries = listItems.map((it) => ({ ...it, type: "Article", id: ID.article(it.path) }));
   const title = "Kỹ thuật trồng cây dược liệu: cẩm nang canh tác";
   const description =
     "Cẩm nang kỹ thuật trồng cây dược liệu: gieo trồng, nhân giống, làm đất, bón phân, phòng trừ sâu bệnh và sơ chế — do Nguyễn Viết Lộc tổng hợp từ nguồn uy tín.";
@@ -347,13 +356,13 @@ export function knowledgeSeo(listItems: { name: string; path: string }[] = []): 
         name: title,
         description,
         dateModified: SITE_LASTMOD,
-        mainEntity: listItems.length ? ID.itemList(path) : undefined,
+        mainEntity: entries.length ? ID.itemList(path) : undefined,
       }),
       ld.breadcrumbList(path, [
         { name: "Trang chủ", path: paths.home() },
         { name: "Kỹ thuật trồng cây dược liệu", path },
       ]),
-      ld.itemList(path, listItems),
+      ld.itemList(path, entries),
     ],
   };
 }
@@ -384,11 +393,12 @@ export function sitemapSeo(): SeoProps {
         { name: "Sơ đồ trang", path },
       ]),
       // Liệt kê các trang trụ; danh sách 122 cây đã có ItemList riêng ở Pillar.
+      // @type khớp với node WebPage thật ở trang đích để hai bên gộp làm một.
       ld.itemList(path, [
-        { name: "Thu mua dược liệu", path: paths.pillar() },
-        { name: "Kỹ thuật trồng cây dược liệu", path: paths.knowledge() },
-        { name: `Về ${SITE.owner}`, path: paths.about() },
-        { name: "Liên hệ", path: paths.contact() },
+        { name: "Thu mua dược liệu", path: paths.pillar(), type: "CollectionPage" },
+        { name: "Kỹ thuật trồng cây dược liệu", path: paths.knowledge(), type: "CollectionPage" },
+        { name: `Về ${SITE.owner}`, path: paths.about(), type: "ProfilePage" },
+        { name: "Liên hệ", path: paths.contact(), type: "ContactPage" },
       ]),
     ],
   };

@@ -1,6 +1,7 @@
 /**
  * Tải ảnh minh hoạ cho bài trong content/wiki từ Wikimedia Commons, chuyển WebP và
- * ghi lại thông tin bản quyền vào public/images/kien-thuc/credits.json.
+ * ghi lại thông tin bản quyền vào src/data/wiki-image-credits.json (để trong src vì code
+ * import trực tiếp — Vite không cho import asset nằm trong public/).
  *
  * - Chỉ xử lý bài có `image` trỏ tới /images/kien-thuc/*.webp nhưng file chưa tồn tại.
  * - Từ khoá tìm ảnh lấy từ QUERIES bên dưới (tiếng Anh — Commons index chủ yếu tiếng Anh);
@@ -16,7 +17,7 @@ import sharp from 'sharp';
 const ROOT = path.resolve(import.meta.dirname, '..');
 const WIKI_DIR = path.join(ROOT, 'content', 'wiki');
 const OUT_DIR = path.join(ROOT, 'public', 'images', 'kien-thuc');
-const CREDITS = path.join(OUT_DIR, 'credits.json');
+const CREDITS = path.join(ROOT, 'src', 'data', 'wiki-image-credits.json');
 const MAX_WIDTH = 1400;
 const WEBP_QUALITY = 78;
 const UA = 'duoclieu.nguyenvietloc.com image fetcher (contact: nvloc0411@gmail.com)';
