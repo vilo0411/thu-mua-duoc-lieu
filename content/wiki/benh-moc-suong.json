@@ -30,7 +30,22 @@
       "paragraphs": [
         "Phòng là chính: chọn giống ít mẫn cảm, trồng thưa và tỉa thông thoáng cho tán nhanh khô, lên luống thoát nước tốt, không tưới đẫm lên lá vào chiều tối. Theo dõi sát vườn trong các đợt lạnh ẩm để phát hiện sớm.",
         "Khi bệnh chớm: ngắt bỏ và tiêu hủy ngay lá/cây bệnh, không để trong vườn; phun chế phẩm sinh học (Bacillus, Trichoderma) hoặc thuốc gốc đồng để chặn lây.",
-        "Khi áp lực bệnh cao (thời tiết dịch): với cây trồng thường dùng các hoạt chất chuyên trị nấm noãn (gốc đồng, metalaxyl, mancozeb...). Với dược liệu, cần cân nhắc kỹ, ưu tiên phòng và biện pháp an toàn, chỉ dùng hóa chất khi thật cần và tuân thủ thời gian cách ly. Bệnh dễ nhầm với [phấn trắng](/kien-thuc/benh-phan-trang) nhưng khác hẳn về vị trí và tính chất vết bệnh."
+        "Khi áp lực bệnh cao (thời tiết dịch): với cây trồng thường dùng các hoạt chất chuyên trị nấm noãn (gốc đồng, metalaxyl, mancozeb...). Với dược liệu, cần cân nhắc kỹ, ưu tiên phòng và biện pháp an toàn, chỉ dùng hóa chất khi thật cần và tuân thủ thời gian cách ly. Bệnh dễ nhầm với [phấn trắng](/kien-thuc/benh-phan-trang) nhưng khác hẳn về vị trí và tính chất vết bệnh.",
+        "Dọn sạch lá bệnh khô rụng và tuân thủ [chuẩn dược liệu GACP](/kien-thuc/tieu-chuan-gacp) khi bón phân, chăm sóc để ruộng dược liệu đạt chất lượng thu mua tốt nhất. Xem thêm cách phân biệt mốc sương với bệnh [phấn trắng](/kien-thuc/benh-phan-trang)."
+      ]
+    },
+    {
+      "heading": "4. Mức độ ảnh hưởng trên các cây dược liệu",
+      "paragraphs": [
+        "Mốc sương gây hại nghiêm trọng cho các cây dược liệu ưa khí hậu mát mẻ hoặc trồng vào vụ đông xuân.",
+        "Dưới đây là bảng so sánh biểu hiện bệnh mốc sương và cách xử lý riêng biệt cho ba cây dược liệu chính."
+      ]
+    },
+    {
+      "heading": "5. Lời khuyên của Nguyễn Viết Lộc cho bà con",
+      "paragraphs": [
+        "Bệnh mốc sương lây lan nhanh khi trời lạnh, sương đêm nhiều. Bà con cần thường xuyên phát tỉa các cành tăm rậm rạp và bón đủ phân kali để tăng độ cứng cáp cho lá.",
+        "Hạn chế tối đa việc tưới phun mưa vào buổi chiều tối dông để tránh đọng ẩm qua đêm trên tán lá."
       ]
     }
   ],
@@ -49,6 +64,29 @@
     {
       "question": "Phân biệt mốc sương với phấn trắng thế nào?",
       "answer": "[Phấn trắng](/kien-thuc/benh-phan-trang) tạo lớp bột trắng ở MẶT TRÊN lá, phát triển cả khi lá khô và ẩm không khí cao. Mốc sương lại tạo vết úng nước lan nhanh kèm lớp mốc trắng xám ở MẶT DƯỚI lá, cần lá ẩm ướt và bùng phát khi lạnh ẩm. Hai bệnh khác tác nhân nên cách xử lý cũng khác."
+    }
+  ],
+  "standardsTableTitle": "Đặc điểm bệnh mốc sương trên một số loại cây dược liệu tiêu biểu",
+  "standardsTableHeaders": [
+    "Cây dược liệu",
+    "Biểu hiện mốc sương đặc trưng",
+    "Biện pháp phòng ngừa riêng biệt"
+  ],
+  "standardsTable": [
+    {
+      "factor": "[Actiso](/kien-thuc/ky-thuat-trong-actiso)",
+      "standard": "Mặt dưới lá xuất hiện lớp mốc trắng mịn xám mờ như sương muối vào mùa đông xuân lạnh ẩm.",
+      "notes": "Cắt tỉa bớt lá già sát gốc để vườn thông thoáng gió và đủ ánh sáng."
+    },
+    {
+      "factor": "[Cúc hoa vàng](/kien-thuc/ky-thuat-trong-cuc-hoa-vang)",
+      "standard": "Lá bị cháy đen từng mảng lớn, rìa vết bệnh có lớp phấn mịn màu trắng xám bao phủ.",
+      "notes": "Phun chế phẩm sinh học gốc đồng phòng bệnh sớm khi thời tiết chuyển lạnh sương."
+    },
+    {
+      "factor": "[Ngải diệp](/kien-thuc/ky-thuat-trong-ngai-diep)",
+      "standard": "Lá non bị vàng nhạt loang lổ ở mặt trên, mặt dưới có lớp mốc mờ làm lá khô cháy nhanh.",
+      "notes": "Dọn sạch tàn dư cây sau thu hoạch, bón kali để lá dày cứng cáp hơn."
     }
   ]
 }

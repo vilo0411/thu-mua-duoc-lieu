@@ -30,7 +30,22 @@
       "paragraphs": [
         "Với mốc xám: cắt tỉa thông thoáng, dọn sạch hoa lá tàn úa (nơi nấm dễ khởi phát), tránh tưới quá ẩm vào chiều tối. Khi phát hiện sớm, cắt bỏ phần mô bệnh đem tiêu hủy để tránh lây sang mô khỏe.",
         "Với muội đen: ưu tiên kiểm soát rệp, rầy — nguồn gốc thực sự của bệnh — bằng biện pháp sinh học hoặc thuốc trừ côn trùng phù hợp. Khi hết côn trùng gây dịch ngọt, lớp muội đen sẽ tự bong dần hoặc có thể lau nhẹ để cây quang hợp tốt hơn.",
-        "Cả hai bệnh đều liên quan tới độ ẩm và độ thông thoáng của vườn, nên biện pháp trồng thưa hợp lý, tỉa cành định kỳ giúp phòng được cả hai."
+        "Cả hai bệnh đều liên quan tới độ ẩm và độ thông thoáng của vườn, nên biện pháp trồng thưa hợp lý, tỉa cành định kỳ giúp phòng được cả hai.",
+        "Dọn sạch lá úa và bón phân đúng cách để nâng cao chất lượng lá dược liệu, đáp ứng nghiêm ngặt [chuẩn dược liệu GACP](/kien-thuc/tieu-chuan-gacp). Có thể bón lót đất tơi xốp tương tự cách xử lý phòng bệnh [đốm lá](/kien-thuc/benh-dom-la)."
+      ]
+    },
+    {
+      "heading": "4. Mức độ ảnh hưởng trên các cây dược liệu",
+      "paragraphs": [
+        "Mốc xám và muội đen là hai chứng bệnh ảnh hưởng lớn đến thẩm mỹ và năng suất thu hoạch của dược liệu lấy lá hoặc hoa.",
+        "Bảng dưới tổng hợp triệu chứng và giải pháp riêng biệt."
+      ]
+    },
+    {
+      "heading": "5. Lời khuyên của Nguyễn Viết Lộc cho bà con",
+      "paragraphs": [
+        "Bệnh muội đen luôn đi kèm côn trùng chích hút, còn mốc xám đi kèm độ ẩm cao đọng nước. Muốn trị tận gốc phải diệt rầy rệp và làm thông thoáng tán lá.",
+        "Hãy ưu tiên sử dụng các chế phẩm sinh học thảo mộc xua đuổi côn trùng để bảo đảm ruộng dược liệu sạch hóa chất bảo vệ thực vật."
       ]
     }
   ],
@@ -49,6 +64,29 @@
     {
       "question": "Có thể phòng cả mốc xám lẫn muội đen bằng một biện pháp chung không?",
       "answer": "Trồng thưa hợp lý và tỉa cành giữ vườn thông thoáng là biện pháp nền chung cho cả hai, vì giúp giảm ẩm độ (hạn chế mốc xám) và dễ phát hiện sớm rệp, rầy (hạn chế muội đen). Tuy nhiên xử lý triệt để vẫn cần biện pháp riêng: dọn mô bệnh cho mốc xám, diệt côn trùng cho muội đen."
+    }
+  ],
+  "standardsTableTitle": "Đặc điểm mốc xám, muội đen trên một số loại cây dược liệu tiêu biểu",
+  "standardsTableHeaders": [
+    "Cây dược liệu",
+    "Biểu hiện bệnh đặc trưng",
+    "Biện pháp phòng ngừa riêng biệt"
+  ],
+  "standardsTable": [
+    {
+      "factor": "[Bạc hà Á](/kien-thuc/ky-thuat-trong-bac-ha)",
+      "standard": "Lá và ngọn non có lớp mốc màu xám bao phủ làm thối nát mô lá nhanh chóng trong mùa mưa ẩm.",
+      "notes": "Không bón quá nhiều đạm sát kỳ thu hoạch, tỉa cành định kỳ thông thoáng."
+    },
+    {
+      "factor": "[Cúc hoa vàng](/kien-thuc/ky-thuat-trong-cuc-hoa-vang)",
+      "standard": "Bụi muội đen bám đầy mặt lá và cánh hoa, thường xuất hiện kèm theo rầy rệp hại.",
+      "notes": "Phun nước tỏi ớt xua đuổi côn trùng chích hút, giữ vệ sinh mặt lá."
+    },
+    {
+      "factor": "[Ích mẫu](/kien-thuc/ky-thuat-trong-ich-mau)",
+      "standard": "Thân và lá có các vết loét xám, cành hoa bị thối khô chột hạt.",
+      "notes": "Luân canh triệt để ruộng sau mỗi vụ trồng, phơi ải đất kỹ trước khi gieo."
     }
   ]
 }

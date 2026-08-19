@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Internal Link Graph — thu mua dược liệu</title>
+<style>
+  :root {
+    color-scheme: light;
+    --surface-1: #fcfcfb;
+    --page: #f9f9f7;
+    --text-primary: #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted: #898781;
+    --gridline: #e1e0d9;
+    --baseline: #c3c2b7;
+    --border: rgba(11,11,11,0.10);
+
+    --wiki: #2a78d6;
+    --hub: #eb6834;
+    --cay: #1baf7a;
+    --static: #898781;
+    --critical: #d03b3b;
+    --warning: #fab219;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; background: var(--page); color: var(--text-primary); }
+  #app { display: grid; grid-template-columns: 320px 1fr; height: 100vh; }
+  #sidebar { background: var(--surface-1); border-right: 1px solid var(--border); overflow-y: auto; padding: 16px; display: flex; flex-direction: column; gap: 16px; }
+  #canvas-wrap { position: relative; overflow: hidden; }
+  svg { width: 100%; height: 100%; display: block; }
+
+  h1 { font-size: 15px; margin: 0 0 4px; }
+  h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--text-muted); margin: 0 0 8px; }
+  .meta { font-size: 11px; color: var(--text-muted); }
+
+  .stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .stat-tile { border: 1px solid var(--border); border-radius: 6px; padding: 8px 10px; }
+  .stat-tile .value { font-size: 20px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .stat-tile .label { font-size: 11px; color: var(--text-secondary); }
+
+  .legend { display: flex; flex-direction: column; gap: 6px; font-size: 12px; }
+  .legend label { display: flex; align-items: center; gap: 6px; cursor: pointer; user-select: none; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; flex: none; }
+
+  input[type="search"] { width: 100%; padding: 6px 8px; border: 1px solid var(--border); border-radius: 6px; font-size: 12px; background: var(--surface-1); color: var(--text-primary); }
+
+  .list { display: flex; flex-direction: column; gap: 4px; max-height: 220px; overflow-y: auto; font-size: 12px; }
+  .list-item { display: flex; justify-content: space-between; gap: 8px; padding: 4px 6px; border-radius: 4px; cursor: pointer; }
+  .list-item:hover { background: var(--gridline); }
+  .list-item .n { color: var(--text-secondary); font-variant-numeric: tabular-nums; }
+
+  #detail { border-top: 1px solid var(--border); padding-top: 12px; font-size: 12px; }
+  #detail .title { font-weight: 700; font-size: 13px; margin-bottom: 2px; }
+  #detail .path { color: var(--text-secondary); font-family: ui-monospace, monospace; font-size: 11px; word-break: break-all; }
+  #detail .rows { margin-top: 8px; display: flex; gap: 12px; }
+  #detail .rows div { }
+  #detail .rows .value { font-weight: 700; }
+  #detail .empty { color: var(--text-muted); }
+
+  .btn { font-size: 11px; padding: 4px 8px; border: 1px solid var(--border); border-radius: 6px; background: var(--surface-1); cursor: pointer; color: var(--text-primary); }
+  .btn:hover { background: var(--gridline); }
+
+  .tooltip { position: absolute; pointer-events: none; background: var(--text-primary); color: #fff; font-size: 11px; padding: 4px 8px; border-radius: 4px; max-width: 260px; opacity: 0; transition: opacity .1s; z-index: 10; }
+
+  table.table-view { width: 100%; border-collapse: collapse; font-size: 11px; }
+  table.table-view th, table.table-view td { text-align: left; padding: 4px 6px; border-bottom: 1px solid var(--gridline); }
+  table.table-view th { color: var(--text-muted); font-weight: 600; position: sticky; top: 0; background: var(--surface-1); }
+  #table-panel { position: absolute; inset: 0; background: var(--surface-1); overflow: auto; padding: 16px; display: none; }
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="sidebar">
+    <div>
+      <h1>Internal Link Graph</h1>
+      <div class="meta" id="generated-at"></div>
+    </div>
+
+    <div>
+      <h2>Tổng quan</h2>
+      <div class="stat-grid" id="stat-grid"></div>
+    </div>
+
+    <div>
+      <h2>Hiển thị</h2>
+      <div class="legend" id="legend"></div>
+    </div>
+
+    <div>
+      <h2>Tìm trang</h2>
+      <input type="search" id="search" placeholder="Tên hoặc đường dẫn…" />
+    </div>
+
+    <div>
+      <h2>Top nhận link nhiều nhất</h2>
+      <div class="list" id="top-inbound"></div>
+    </div>
+
+    <div>
+      <h2 id="orphan-heading">Trang orphan (0 inbound)</h2>
+      <div class="list" id="orphan-list"></div>
+    </div>
+
+    <div>
+      <h2 id="silo-heading">Vi phạm silo (wiki → cây trực tiếp)</h2>
+      <div class="list" id="silo-list"></div>
+    </div>
+
+    <div>
+      <button class="btn" id="toggle-table">Xem dạng bảng</button>
+    </div>
+
+    <div id="detail">
+      <div class="empty">Click 1 node trên graph để xem chi tiết.</div>
+    </div>
+  </div>
+
+  <div id="canvas-wrap">
+    <svg id="graph"></svg>
+    <div class="tooltip" id="tooltip"></div>
+    <div id="table-panel">
+      <button class="btn" id="close-table" style="margin-bottom:8px;">← Quay lại graph</button>
+      <table class="table-view" id="table-content"></table>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+<script>
+const GRAPH = /*__GRAPH_DATA__*/;
+
+const TYPE_COLOR = { wiki: "var(--wiki)", hub: "var(--hub)", cay: "var(--cay)", static: "var(--static)" };
+const TYPE_LABEL = { wiki: "Wiki (kiến thức chung)", hub: "Hub kỹ thuật (theo cây)", cay: "Trang cây (money)", static: "Trang tĩnh" };
+
+document.getElementById("generated-at").textContent = "Sinh lúc " + new Date(GRAPH.generatedAt).toLocaleString("vi-VN");
+
+// ---- Stat tiles ----
+const stats = [
+  { label: "Tổng trang", value: GRAPH.stats.totalNodes },
+  { label: "Tổng link", value: GRAPH.stats.totalEdges },
+  { label: "Trang orphan", value: GRAPH.stats.orphanCount },
+  { label: "Vi phạm silo", value: GRAPH.stats.siloViolationCount },
+  { label: "Link gãy", value: GRAPH.stats.brokenLinkCount },
+  { label: "Wiki / Hub / Cây", value: `${GRAPH.stats.byType.wiki}/${GRAPH.stats.byType.hub}/${GRAPH.stats.byType.cay}` },
+];
+document.getElementById("stat-grid").innerHTML = stats.map(s =>
+  `<div class="stat-tile"><div class="value">${s.value}</div><div class="label">${s.label}</div></div>`
+).join("");
+
+// ---- Legend / filters ----
+const activeTypes = new Set(Object.keys(TYPE_COLOR));
+const legendEl = document.getElementById("legend");
+legendEl.innerHTML = Object.keys(TYPE_COLOR).map(t =>
+  `<label><input type="checkbox" checked data-type="${t}" /><span class="dot" style="background:${TYPE_COLOR[t]}"></span>${TYPE_LABEL[t]} (${GRAPH.nodes.filter(n=>n.type===t).length})</label>`
+).join("");
+legendEl.querySelectorAll("input[type=checkbox]").forEach(cb => {
+  cb.addEventListener("change", () => {
+    if (cb.checked) activeTypes.add(cb.dataset.type); else activeTypes.delete(cb.dataset.type);
+    render();
+  });
+});
+
+// ---- Top inbound / orphan / silo lists ----
+document.getElementById("orphan-heading").textContent = `Trang orphan (0 inbound) — ${GRAPH.orphans.length}`;
+document.getElementById("silo-heading").textContent = `Vi phạm silo — ${GRAPH.siloViolations.length}`;
+
+function nodeLabel(id) {
+  const n = GRAPH.nodes.find(n => n.id === id);
+  return n ? n.title : id;
+}
+
+document.getElementById("top-inbound").innerHTML = GRAPH.topInbound.map(n =>
+  `<div class="list-item" data-goto="${n.id}"><span>${n.title}</span><span class="n">${n.inboundCount}</span></div>`
+).join("");
+
+document.getElementById("orphan-list").innerHTML = GRAPH.orphans.map(n =>
+  `<div class="list-item" data-goto="${n.id}"><span>${n.title}</span><span class="n">${TYPE_LABEL[n.type].split(" ")[0]}</span></div>`
+).join("") || `<div class="meta">Không có.</div>`;
+
+document.getElementById("silo-list").innerHTML = GRAPH.siloViolations.map(e =>
+  `<div class="list-item"><span>${nodeLabel(e.source)} → ${nodeLabel(e.target)}</span></div>`
+).join("") || `<div class="meta">Không có.</div>`;
+
+// ---- Table view toggle ----
+document.getElementById("toggle-table").addEventListener("click", () => {
+  const rows = [...GRAPH.nodes].sort((a,b) => b.inboundCount - a.inboundCount).map(n =>
+    `<tr><td>${n.title}</td><td>${n.id}</td><td>${TYPE_LABEL[n.type]}</td><td>${n.inboundCount}</td><td>${n.outboundCount}</td></tr>`
+  ).join("");
+  document.getElementById("table-content").innerHTML =
+    `<thead><tr><th>Tiêu đề</th><th>Path</th><th>Loại</th><th>Inbound</th><th>Outbound</th></tr></thead><tbody>${rows}</tbody>`;
+  document.getElementById("table-panel").style.display = "block";
+});
+document.getElementById("close-table").addEventListener("click", () => {
+  document.getElementById("table-panel").style.display = "none";
+});
+
+// ---- Force graph ----
+const svg = d3.select("#graph");
+const g = svg.append("g");
+svg.call(d3.zoom().scaleExtent([0.15, 6]).on("zoom", (ev) => g.attr("transform", ev.transform)));
+
+const tooltip = document.getElementById("tooltip");
+const wrap = document.getElementById("canvas-wrap");
+
+function sizeFor(n) {
+  return 4 + Math.sqrt(n.inboundCount) * 3.2;
+}
+
+let simulation, linkSel, nodeSel, labelSel;
+
+function render() {
+  const width = wrap.clientWidth, height = wrap.clientHeight;
+  svg.attr("viewBox", [0, 0, width, height]);
+  g.selectAll("*").remove();
+
+  const visibleNodes = GRAPH.nodes.filter(n => activeTypes.has(n.type));
+  const visibleIds = new Set(visibleNodes.map(n => n.id));
+  const visibleEdges = GRAPH.edges.filter(e => visibleIds.has(e.source) && visibleIds.has(e.target));
+
+  const nodesCopy = visibleNodes.map(n => ({ ...n }));
+  const edgesCopy = visibleEdges.map(e => ({ ...e }));
+
+  linkSel = g.append("g").selectAll("line")
+    .data(edgesCopy)
+    .join("line")
+    .attr("stroke", d => d.violatesSilo ? "var(--critical)" : d.broken ? "var(--warning)" : "var(--baseline)")
+    .attr("stroke-width", d => d.violatesSilo ? 2 : 1)
+    .attr("stroke-dasharray", d => d.broken ? "3,2" : null)
+    .attr("opacity", 0.7);
+
+  nodeSel = g.append("g").selectAll("circle")
+    .data(nodesCopy)
+    .join("circle")
+    .attr("r", sizeFor)
+    .attr("fill", d => TYPE_COLOR[d.type])
+    .attr("stroke", d => d.inboundCount === 0 && d.type !== "static" ? "var(--critical)" : "var(--surface-1)")
+    .attr("stroke-width", d => d.inboundCount === 0 && d.type !== "static" ? 2.5 : 1)
+    .style("cursor", "pointer")
+    .on("mouseenter", (ev, d) => {
+      tooltip.style.opacity = 1;
+      tooltip.innerHTML = `<strong>${d.title}</strong><br/>${d.id}<br/>in ${d.inboundCount} · out ${d.outboundCount}`;
+    })
+    .on("mousemove", (ev) => {
+      const r = wrap.getBoundingClientRect();
+      tooltip.style.left = (ev.clientX - r.left + 12) + "px";
+      tooltip.style.top = (ev.clientY - r.top + 12) + "px";
+    })
+    .on("mouseleave", () => { tooltip.style.opacity = 0; })
+    .on("click", (ev, d) => showDetail(d.id))
+    .call(d3.drag()
+      .on("start", (ev, d) => { if (!ev.active) simulation.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+      .on("drag", (ev, d) => { d.fx = ev.x; d.fy = ev.y; })
+      .on("end", (ev, d) => { if (!ev.active) simulation.alphaTarget(0); d.fx = null; d.fy = null; }));
+
+  labelSel = g.append("g").selectAll("text")
+    .data(nodesCopy.filter(n => n.inboundCount >= 3))
+    .join("text")
+    .text(d => d.title.length > 22 ? d.title.slice(0, 22) + "…" : d.title)
+    .attr("font-size", 9)
+    .attr("fill", "var(--text-secondary)")
+    .attr("dx", d => sizeFor(d) + 3)
+    .attr("dy", 3)
+    .style("pointer-events", "none");
+
+  simulation = d3.forceSimulation(nodesCopy)
+    .force("link", d3.forceLink(edgesCopy).id(d => d.id).distance(70).strength(0.25))
+    .force("charge", d3.forceManyBody().strength(-90))
+    .force("center", d3.forceCenter(width / 2, height / 2))
+    .force("collide", d3.forceCollide().radius(d => sizeFor(d) + 4))
+    .on("tick", ticked);
+
+  window.__simNodes = nodesCopy;
+
+  function ticked() {
+    linkSel
+      .attr("x1", d => d.source.x).attr("y1", d => d.source.y)
+      .attr("x2", d => d.target.x).attr("y2", d => d.target.y);
+    nodeSel.attr("cx", d => d.x).attr("cy", d => d.y);
+    labelSel.attr("x", d => d.x).attr("y", d => d.y);
+  }
+}
+
+function showDetail(id) {
+  const n = GRAPH.nodes.find(n => n.id === id);
+  if (!n) return;
+  const inbound = GRAPH.edges.filter(e => e.target === id);
+  const outbound = GRAPH.edges.filter(e => e.source === id);
+  document.getElementById("detail").innerHTML = `
+    <div class="title">${n.title}</div>
+    <div class="path">${n.id}</div>
+    <div class="rows">
+      <div><div class="value">${n.inboundCount}</div>inbound</div>
+      <div><div class="value">${n.outboundCount}</div>outbound</div>
+      <div><div class="value">${TYPE_LABEL[n.type]}</div></div>
+    </div>
+    ${inbound.length ? `<div style="margin-top:8px;"><strong>Link tới từ:</strong><div class="list">${inbound.map(e => `<div class="list-item" data-goto="${e.source}">${nodeLabel(e.source)}</div>`).join("")}</div></div>` : ""}
+    ${outbound.length ? `<div style="margin-top:8px;"><strong>Link ra:</strong><div class="list">${outbound.map(e => `<div class="list-item" data-goto="${e.target}">${nodeLabel(e.target)}</div>`).join("")}</div></div>` : ""}
+  `;
+  document.querySelectorAll("#detail .list-item[data-goto]").forEach(el =>
+    el.addEventListener("click", () => showDetail(el.dataset.goto))
+  );
+  const target = window.__simNodes && window.__simNodes.find(d => d.id === id);
+  if (target) {
+    nodeSel.attr("stroke-width", d => d.id === id ? 4 : (d.inboundCount === 0 && d.type !== "static" ? 2.5 : 1));
+  }
+}
+
+document.addEventListener("click", (ev) => {
+  const item = ev.target.closest("[data-goto]");
+  if (item) showDetail(item.dataset.goto);
+});
+
+document.getElementById("search").addEventListener("input", (ev) => {
+  const q = ev.target.value.trim().toLowerCase();
+  nodeSel.attr("opacity", d => !q || d.title.toLowerCase().includes(q) || d.id.toLowerCase().includes(q) ? 1 : 0.12);
+  if (labelSel) labelSel.attr("opacity", d => !q || d.title.toLowerCase().includes(q) || d.id.toLowerCase().includes(q) ? 1 : 0.12);
+});
+
+window.addEventListener("resize", render);
+render();
+</script>
+</body>
+</html>

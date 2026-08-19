@@ -36,7 +36,7 @@
     {
       "heading": "4. Cách phòng và trị",
       "paragraphs": [
-        "Nền đất và giá thể sạch: dùng giá thể đã xử lý mầm bệnh, phối trộn thoát nước tốt — xem [giá thể là gì](/kien-thuc/gia-the-la-gi) và [cách trộn đất trồng cây](/kien-thuc/cach-tron-dat-trong-cay). Trong vườn ươm, tránh gieo dày và giữ giá thể ẩm vừa phải (xem [cách ươm hạt giống](/kien-thuc/cach-uom-hat-giong)).",
+        "Nền đất và giá thể sạch: dùng giá thể đã xử lý mầm bệnh, phối trộn thoát nước tốt — xem [giá thể là gì](/kien-thuc/gia-the-la-gi) và [cách trộn đất trồng cây](/kien-thuc/cach-tron-dat-trong-cay). Trong vườn ươm, tránh gieo dày và giữ giá thể ẩm vừa phải (xem [cách ươm hạt giống](/kien-thuc/cach-uom-hat-giong)), kết hợp bón phân hữu cơ hoai mục đạt [chuẩn dược liệu GACP](/kien-thuc/tieu-chuan-gacp) để nâng cao sức đề kháng. Bệnh này cũng dễ gây ra hiện tượng [héo xanh và héo vàng](/kien-thuc/benh-heo-xanh-heo-vang) nếu không khống chế kịp thời.",
         "Thoát nước và tưới đúng: lên luống cao, đánh rãnh thoát nước, không tưới đẫm; trồng đúng độ sâu, không vùi gốc quá sâu.",
         "Sinh học: trộn nấm đối kháng Trichoderma vào đất/giá thể ngay từ đầu là biện pháp phòng hiệu quả nhất; kết hợp phân hữu cơ hoai để nuôi hệ vi sinh có lợi. Khi phát hiện cây bệnh, nhổ bỏ và tiêu hủy cả bầu đất để chặn lây; xử lý chỗ đất bệnh bằng vôi và chế phẩm đối kháng.",
         "Hóa học (hạn chế): chỉ dùng thuốc trừ nấm gốc rễ được phép khi cần và bảo đảm cách ly — nhưng với hai bệnh này, một khi rễ đã hỏng thì thuốc cũng khó cứu, nên đầu tư vào phòng vẫn là khôn ngoan nhất."
@@ -48,6 +48,20 @@
         "Với nhóm cây lấy củ, dược liệu còn có thể bị thối củ — khác thối rễ ở chỗ tấn công trực tiếp phần củ dự trữ, thường do nấm hoặc vi khuẩn xâm nhập qua vết xây xát lúc thu hoạch hoặc vận chuyển. Củ bệnh chuyển nhũn, ứa nước, bốc mùi hôi và có thể lan sang cả lô nếu để chung trong bao bì ẩm.",
         "Phòng thối củ cần chú ý cả ngoài đồng lẫn sau thu hoạch: hạn chế làm xây xát vỏ củ khi thu hoạch, để củ ráo bớt nước trước khi đóng bao, không chất đống nơi ẩm bí hơi. Củ đã có dấu hiệu thối cần loại bỏ ngay, không để lẫn vào lô hàng lành vì rất dễ lây lan trong quá trình tồn trữ.",
         "Thối củ sau thu hoạch liên quan chặt tới khâu sơ chế và bảo quản — dược liệu càng khô ráo, thoáng khí đúng cách càng ít nguy cơ thối củ trong kho."
+      ]
+    },
+    {
+      "heading": "4. Mức độ ảnh hưởng trên các cây dược liệu",
+      "paragraphs": [
+        "Bệnh lở cổ rễ thối rễ gây hại nặng nhất trên các cây lấy củ và vườn ươm cây con. Việc nhận diện đúng biểu hiện giúp bà con cứu vườn kịp thời.",
+        "Bảng so sánh sau tổng hợp triệu chứng và giải pháp riêng cho từng cây."
+      ]
+    },
+    {
+      "heading": "5. Lời khuyên của Nguyễn Viết Lộc cho bà con",
+      "paragraphs": [
+        "Bệnh thối rễ phát triển cực nhanh trong nền đất bí chặt và đọng nước. Do đó, việc cải tạo đất, làm luống cao thoát nước tốt là biện pháp phòng bệnh tối quan trọng.",
+        "Hãy duy trì thói quen bổ sung vi sinh vật đối kháng Trichoderma định kỳ để xây dựng lá chắn sinh học tự nhiên dưới lòng đất."
       ]
     }
   ],
@@ -66,6 +80,29 @@
     {
       "question": "Trichoderma phòng thối rễ như thế nào?",
       "answer": "Trichoderma là nấm đối kháng, khi trộn vào đất/giá thể sẽ cạnh tranh và ức chế các nấm gây thối rễ như Fusarium, Pythium, đồng thời kích rễ khỏe. Đây là biện pháp phòng sinh học an toàn, phù hợp dược liệu; nên bổ sung định kỳ cùng phân hữu cơ hoai để duy trì hệ vi sinh có lợi trong đất."
+    }
+  ],
+  "standardsTableTitle": "Đặc điểm lở cổ rễ, thối rễ trên một số loại cây dược liệu tiêu biểu",
+  "standardsTableHeaders": [
+    "Cây dược liệu",
+    "Biểu hiện thối rễ đặc trưng",
+    "Biện pháp phòng ngừa riêng biệt"
+  ],
+  "standardsTable": [
+    {
+      "factor": "[Bạc hà Á](/kien-thuc/ky-thuat-trong-bac-ha)",
+      "standard": "Phần gốc sát mặt đất bị thâm nhũn rồi teo thắt lại, hom giống giâm bị thối đen rễ không bật được chồi.",
+      "notes": "Xử lý giá thể giâm cành bằng vôi bột, tránh giữ độ ẩm khay giâm quá cao."
+    },
+    {
+      "factor": "[Cát cánh](/kien-thuc/ky-thuat-trong-cat-can)",
+      "standard": "Rễ củ bị thối nhũn từ chóp rễ lên, lá vàng úa hàng loạt rồi cây chết rạp thành từng đám trên luống.",
+      "notes": "Lên luống cao 30cm, khơi rãnh thoát nước thật sâu tránh để nước ứ đọng ruộng."
+    },
+    {
+      "factor": "[Actiso](/kien-thuc/ky-thuat-trong-actiso)",
+      "standard": "Gốc thân thâm đen nhầy nhụa sau các trận mưa lớn kéo dài, lá héo rũ dù đất ẩm.",
+      "notes": "Bón phân hữu cơ vi sinh, tưới phòng chế phẩm Bacillus subtilis định kỳ vào vùng gốc."
     }
   ]
 }

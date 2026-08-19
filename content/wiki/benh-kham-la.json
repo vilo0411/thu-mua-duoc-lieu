@@ -13,7 +13,7 @@
     {
       "heading": "1. Bệnh khảm lá là gì?",
       "paragraphs": [
-        "Khảm lá là bệnh do virus gây ra, biểu hiện đặc trưng là lá loang lổ xen kẽ các mảng xanh đậm – xanh nhạt (hoặc vàng) không đều màu như hình khảm, phiến lá thường nhăn nheo, biến dạng và cây chậm phát triển.",
+        "Bệnh khảm lá ở cây dược liệu là một nhóm [sâu bệnh hại dược liệu](/kien-thuc/sau-benh-hai-cay-duoc-lieu) nguy hiểm do virus gây ra, làm lá loang lổ và biến dạng... Khảm lá là bệnh do virus gây ra, biểu hiện đặc trưng là lá loang lổ xen kẽ các mảng xanh đậm – xanh nhạt (hoặc vàng) không đều màu như hình khảm, phiến lá thường nhăn nheo, biến dạng và cây chậm phát triển.",
         "Khác với các bệnh do nấm, vi khuẩn có thể xử lý bằng thuốc, bệnh do virus như khảm lá hiện chưa có thuốc đặc trị hiệu quả — biện pháp chính là phòng ngừa và loại bỏ sớm cây bệnh để hạn chế lây lan."
       ],
       "highlight": "Dấu hiệu nhận biết: lá loang màu không đều kiểu 'khảm' (đậm nhạt xen kẽ), phiến lá nhăn, cây còi cọc dần theo thời gian dù không thấy đốm nấm hay côn trùng rõ rệt."
@@ -30,7 +30,22 @@
       "paragraphs": [
         "Chọn giống sạch bệnh ngay từ đầu: không lấy cành giâm, chiết từ cây mẹ có dấu hiệu khảm lá, dù chỉ nghi ngờ nhẹ.",
         "Kiểm soát côn trùng trung gian (rệp, bọ trĩ) vì đây là đường lây chính — vườn thông thoáng, kiểm tra định kỳ giúp phát hiện côn trùng sớm trước khi chúng phát tán virus rộng.",
-        "Khử trùng dụng cụ cắt tỉa giữa các cây, đặc biệt khi vừa thao tác trên cây nghi bệnh. Cây đã biểu hiện khảm lá rõ nên nhổ bỏ, tiêu hủy sớm để bảo vệ cả vườn, không nên giữ lại vì thương tiếc vì virus không chữa khỏi."
+        "Khử trùng dụng cụ cắt tỉa giữa các cây, đặc biệt khi vừa thao tác trên cây nghi bệnh. Cây đã biểu hiện khảm lá rõ nên nhổ bỏ, tiêu hủy sớm để bảo vệ cả vườn, không nên giữ lại vì thương tiếc vì virus không chữa khỏi.",
+        "Chủ động kiểm soát côn trùng môi giới và tuân thủ [chuẩn dược liệu GACP](/kien-thuc/tieu-chuan-gacp) trong canh tác giúp giảm thiểu tối đa thiệt hại do bệnh khảm gây ra."
+      ]
+    },
+    {
+      "heading": "4. Mức độ ảnh hưởng trên các cây dược liệu",
+      "paragraphs": [
+        "Bệnh khảm do virus lây qua côn trùng chích hút, ảnh hưởng sâu sắc đến sự phát triển của nhiều loại cây dược liệu.",
+        "Dưới đây là bảng so sánh mức độ ảnh hưởng trên ba loại cây chính."
+      ]
+    },
+    {
+      "heading": "5. Lời khuyên của Nguyễn Viết Lộc cho bà con",
+      "paragraphs": [
+        "Virus gây bệnh khảm lá không có thuốc hóa học đặc trị trực tiếp. Cách phòng bệnh hữu hiệu nhất là kiểm soát chặt côn trùng chích hút và chọn nguồn giống sạch bệnh.",
+        "Khi làm cỏ hay cắt tỉa cành, bà con nhớ khử trùng dụng cụ cắt để tránh lây nhiễm chéo từ cây bệnh sang cây khỏe."
       ]
     }
   ],
@@ -49,6 +64,29 @@
     {
       "question": "Làm sao biết cây giống mới mua có sạch bệnh khảm lá không?",
       "answer": "Nên quan sát kỹ lá cây giống trước khi mua, tìm dấu hiệu loang màu bất thường kiểu khảm. Với số lượng lớn, nên mua từ cơ sở giống uy tín có kiểm soát chất lượng, tương tự lưu ý khi chọn giống nuôi cấy mô, và theo dõi thêm một thời gian sau khi trồng trước khi dùng làm cây mẹ nhân tiếp."
+    }
+  ],
+  "standardsTableTitle": "Đặc điểm bệnh khảm lá trên một số loại cây dược liệu tiêu biểu",
+  "standardsTableHeaders": [
+    "Cây dược liệu",
+    "Biểu hiện khảm lá đặc trưng",
+    "Biện pháp phòng ngừa riêng biệt"
+  ],
+  "standardsTable": [
+    {
+      "factor": "[Cà gai leo](/kien-thuc/ky-thuat-trong-ca-gai-leo)",
+      "standard": "Lá bị biến dạng xoăn tít, loang lổ các vệt xanh đậm xanh nhạt đan xen, cây còi cọc không lớn được.",
+      "notes": "Phun chế phẩm sinh học diệt trừ côn trùng môi giới truyền bệnh như rệp, bọ phấn."
+    },
+    {
+      "factor": "[Củ gai](/kien-thuc/ky-thuat-trong-cu-gai)",
+      "standard": "Lá bánh tẻ bị khảm vàng loang lổ, phiến lá gồ ghề nhăn nheo, mép lá co rúm.",
+      "notes": "Không nhân giống từ các cây mẹ đã có biểu hiện nhiễm bệnh khảm."
+    },
+    {
+      "factor": "[Khổ qua](/kien-thuc/ky-thuat-trong-kho-qua)",
+      "standard": "Ngọn xoăn chùn lại, lá nhỏ biến dạng và hoa dễ bị rụng, quả phát triển méo mó.",
+      "notes": "Giữ ruộng sạch cỏ dại, bảo tồn thiên địch để hạn chế mật độ bọ trĩ."
     }
   ]
 }

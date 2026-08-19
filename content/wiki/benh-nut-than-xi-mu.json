@@ -30,7 +30,21 @@
       "paragraphs": [
         "Phòng: thoát nước tốt quanh gốc, không để đọng nước; trồng đúng độ sâu, không vun đất cao che cổ rễ; tránh gây vết thương vùng gốc; quét vôi gốc và bổ sung nấm đối kháng Trichoderma vào đất.",
         "Xử lý khi cây đã bệnh: cạo sạch phần vỏ và gỗ bị thâm ở vết bệnh, để khô, rồi bôi thuốc gốc đồng hoặc hoạt chất trị nấm noãn được phép lên vết cạo; khơi thông thoát nước và bồi dục cho cây phục hồi.",
-        "Với cây bệnh nặng bao quanh gốc thì khó cứu — nên nhổ bỏ, tiêu hủy và xử lý đất trước khi trồng lại. Nền đất tơi thoát nước tốt (xem [cách trộn đất trồng cây](/kien-thuc/cach-tron-dat-trong-cay)) giúp phòng bệnh từ gốc."
+        "Đối với các cành bị bệnh nặng bao quanh gốc thì khó cứu — nên nhổ bỏ, tiêu hủy và xử lý đất trước khi trồng lại để đảm bảo [chuẩn dược liệu GACP](/kien-thuc/tieu-chuan-gacp). Thân cây bị lở loét cũng dễ bị nấm bệnh [thán thư](/kien-thuc/benh-than-thu) cơ hội tấn công."
+      ]
+    },
+    {
+      "heading": "4. Mức độ ảnh hưởng trên các cây dược liệu",
+      "paragraphs": [
+        "Bệnh nứt thân xì mủ phá hủy vỏ và mạch gỗ dẫn nhựa, ảnh hưởng nghiêm trọng đến các cây dược liệu thân gỗ hoặc thân leo hóa gỗ.",
+        "Dưới đây là bảng tổng hợp mức độ ảnh hưởng trên ba loại cây chính."
+      ]
+    },
+    {
+      "heading": "5. Lời khuyên của Nguyễn Viết Lộc cho bà con",
+      "paragraphs": [
+        "Bệnh nứt thân xì mủ phát triển mạnh khi cây bị sây sát gốc hoặc ngập úng rễ. Do đó bà con cần bồi vun gốc cẩn thận, tránh cuốc cỏ sát thân chính làm rách vỏ.",
+        "Đầu mùa mưa nên quét vôi hòa nước vào gốc cây thân gỗ để cản nấm xâm nhiễm từ đất lên."
       ]
     }
   ],
@@ -53,6 +67,29 @@
     {
       "question": "Làm sao ngăn bệnh lây sang cây khác?",
       "answer": "Cần khử trùng dụng cụ cắt/cạo sau khi xử lý cây bệnh, thu gom tiêu hủy phần vỏ gỗ bệnh đã cạo, và xử lý vùng đất quanh gốc bằng vôi cùng nấm đối kháng. Vì nấm lây qua đất và nước, việc khơi thông thoát nước, tránh để nước chảy tràn từ gốc bệnh sang gốc lành cũng rất quan trọng."
+    }
+  ],
+  "standardsTableTitle": "Đặc điểm nứt thân xì mủ trên một số loại cây dược liệu tiêu biểu",
+  "standardsTableHeaders": [
+    "Cây dược liệu",
+    "Biểu hiện bệnh đặc trưng",
+    "Biện pháp phòng ngừa riêng biệt"
+  ],
+  "standardsTable": [
+    {
+      "factor": "[Cát căn](/kien-thuc/ky-thuat-trong-cat-can)",
+      "standard": "Vỏ thân sát gốc bị nứt dọc, rỉ ra chất dịch màu nâu đỏ rồi hóa khô cứng, cây còi cọc héo úa.",
+      "notes": "Tránh làm sây sát gốc dây khi làm cỏ, vun xới đất."
+    },
+    {
+      "factor": "[Đinh lăng](/kien-thuc/ky-thuat-trong-dinh-lang)",
+      "standard": "Vết nứt chảy mủ xuất hiện dọc theo thân cành lớn, lá trên cành bệnh héo vàng rụng.",
+      "notes": "Quét vôi bột hòa nước quanh gốc thân chính vào đầu và cuối mùa mưa."
+    },
+    {
+      "factor": "[Quế](/kien-thuc/ky-thuat-trong-que)",
+      "standard": "Vết nứt nấm loét sâu vào mạch gỗ của vỏ quế, làm giảm nghiêm trọng chất lượng tinh dầu và vỏ quế thương phẩm.",
+      "notes": "Phun phòng chế phẩm sinh học Chaetomium lên vỏ thân khi mưa ẩm kéo dài."
     }
   ]
 }

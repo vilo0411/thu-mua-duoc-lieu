@@ -30,7 +30,21 @@
       "paragraphs": [
         "Phòng bệnh: luân canh với cây khác họ, lên luống cao thoát nước tốt, hạn chế gây vết thương vùng gốc rễ khi chăm sóc, khử trùng dụng cụ cắt tỉa giữa các cây, và trộn nấm đối kháng Trichoderma vào đất để hạn chế nấm gây héo vàng.",
         "Với héo xanh vi khuẩn: hiện chưa có thuốc đặc trị hiệu quả cao khi cây đã nhiễm nặng — cây bệnh nên nhổ bỏ, tiêu hủy ngay để tránh lây lan, xử lý đất bằng vôi trước khi trồng lại.",
-        "Với héo vàng do nấm: có thể xử lý sớm bằng thuốc trừ nấm gốc rễ phù hợp kết hợp cải thiện thoát nước; nếu bệnh đã nặng, hướng xử lý cũng tương tự — nhổ bỏ cây bệnh và xử lý đất trước vụ sau."
+        "Với héo vàng do nấm: có thể xử lý sớm bằng thuốc trừ nấm gốc rễ phù hợp kết hợp cải thiện thoát nước; nếu bệnh đã nặng, hướng xử lý cũng tương tự — nhổ bỏ cây bệnh, xử lý đất trước vụ sau và tuân thủ [chuẩn dược liệu GACP](/kien-thuc/tieu-chuan-gacp) để đảm bảo chất lượng thu mua. Có thể tham khảo thêm cách phòng bệnh [lở cổ rễ](/kien-thuc/benh-lo-co-re-thoi-re) vì chúng có chung nguyên nhân từ nấm đất."
+      ]
+    },
+    {
+      "heading": "4. Mức độ ảnh hưởng trên các cây dược liệu",
+      "paragraphs": [
+        "Tốc độ gây hại và mức độ nhạy cảm của các loài cây dược liệu đối với vi khuẩn Ralstonia và nấm Fusarium rất khác nhau. Việc phân loại giúp nâng cao hiệu quả phòng trừ.",
+        "Dưới đây là bảng tổng hợp mức độ ảnh hưởng và cách khắc phục riêng cho từng cây."
+      ]
+    },
+    {
+      "heading": "5. Lời khuyên của Nguyễn Viết Lộc cho bà con",
+      "paragraphs": [
+        "Bệnh héo xanh và héo vàng khi đã biểu hiện nặng thì hầu như không thể cứu chữa. Do đó, nguyên tắc cốt lõi là phòng bệnh từ đất và bảo vệ bộ rễ ngay từ đầu.",
+        "Bà con nên lên luống cao, bón lót phân ủ hoai bằng nấm đối kháng Trichoderma và tuyệt đối tránh tạo vết thương cho gốc rễ trong quá trình làm cỏ, chăm sóc ruộng vườn."
       ]
     }
   ],
@@ -49,6 +63,29 @@
     {
       "question": "Luân canh cây khác họ có thực sự giúp giảm bệnh không?",
       "answer": "Có, đây là một trong những biện pháp phòng hiệu quả nhất với các bệnh héo do vi khuẩn, nấm tồn tại trong đất. Cây khác họ thường không phải ký chủ của cùng loại mầm bệnh, giúp cắt vòng đời và giảm mật độ mầm bệnh tích lũy trong đất qua thời gian."
+    }
+  ],
+  "standardsTableTitle": "Đặc điểm héo rũ trên một số loại cây dược liệu tiêu biểu",
+  "standardsTableHeaders": [
+    "Cây dược liệu",
+    "Biểu hiện héo rũ đặc trưng",
+    "Biện pháp phòng ngừa riêng biệt"
+  ],
+  "standardsTable": [
+    {
+      "factor": "[Cà gai leo](/kien-thuc/ky-thuat-trong-ca-gai-leo)",
+      "standard": "Cây bị héo rũ đột ngột vào ban ngày khi trời nắng, ban đêm hồi phục nhẹ rồi chết khô hẳn sau 2-3 ngày.",
+      "notes": "Lên luống cao, bón vôi bột khử trùng đất và nhổ tiêu hủy ngay cây chớm bệnh."
+    },
+    {
+      "factor": "[Cúc hoa vàng](/kien-thuc/ky-thuat-trong-cuc-hoa-vang)",
+      "standard": "Lá dưới gốc vàng dần từ mép rồi héo khô từ từ lên ngọn, gốc thân có vệt nâu đen dọc mạch dẫn.",
+      "notes": "Ủ hoai phân chuồng bằng nấm đối kháng Trichoderma trước khi bón lót."
+    },
+    {
+      "factor": "[Địa hoàng](/kien-thuc/ky-thuat-trong-dia-hoang)",
+      "standard": "Cây bị thối nhũn gốc sát mặt đất, toàn bộ lá héo rạp xuống nền luống sau mưa dầm.",
+      "notes": "Không trồng liên tục nhiều vụ địa hoàng trên cùng một khu đất, luân canh với lúa hoặc màu."
     }
   ]
 }
