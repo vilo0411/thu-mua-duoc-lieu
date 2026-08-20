@@ -8,6 +8,8 @@
     "validate:content": "tsx scripts/validate-content.ts",
     "optimize:images": "tsx scripts/optimize-images.ts",
     "link-graph": "tsx scripts/build-link-graph.ts",
+    "qa:draft": "tsx scripts/qa-content.ts draft",
+    "qa:dup": "tsx scripts/qa-content.ts dup",
     "prebuild": "npm run validate:content",
     "build": "vite build",
     "postbuild": "tsx scripts/generate-sitemap.ts && tsx scripts/prerender.ts",

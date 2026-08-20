@@ -13,3 +13,10 @@ Kích hoạt ở bước cuối (Self-check/QA) của mọi workflow trước kh
 ## Output
 
 Nếu tất cả đạt: xác nhận ngắn gọn từng mục đã pass. Nếu có mục fail: liệt kê cụ thể, **không tự ý sửa thêm** — trả lại bước Rewrite hoặc báo người dùng, tuỳ mức độ.
+
+## Gotchas — lỗi hay bỏ sót khi audit
+
+- **Tin mù quáng vào bước Rewrite vừa làm:** luôn đối chiếu lại với outline/proposal gốc — bước Rewrite hay bỏ sót 1 section hoặc lệch hướng so với đề xuất đã duyệt mà không tự báo.
+- **PASS vì "trông ổn":** không được ghi PASS nếu chưa chạy đủ cả 5 mục checklist + `npm run qa:draft` thật; cảm giác "đọc thấy ổn" không thay thế được kiểm tra đếm được.
+- **Chỉ audit bản sau khi sửa, quên audit lại toàn bộ:** khi có sửa dù nhỏ, chạy lại toàn bộ checklist trên bản mới nhất — không chỉ kiểm tra riêng đoạn vừa sửa.
+- **Fact-check ngoài phạm vi cho phép:** chỉ đối chiếu số liệu kỹ thuật với `knowledge/` nội bộ và kiến thức đã xác nhận trong bài — không tự bịa hoặc tự tra cứu nguồn ngoài rồi chèn số liệu mới vào lúc audit.

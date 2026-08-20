@@ -1,6 +1,6 @@
 # Workflow: /revise — sửa bản nháp theo feedback
 
-Input: slug có bản nháp tại `knowledge/4-content/2-draft/<slug>.json` (hoặc `1-outline` nếu feedback ở giai đoạn outline) + feedback cụ thể từ người dùng.
+Input: slug có bản nháp tại `knowledge/4-content/2-draft/<slug>.md` (hoặc `1-outline` nếu feedback ở giai đoạn outline, hoặc `3-finalized` nếu feedback đến sau QA) + feedback cụ thể từ người dùng. Bản nháp là Markdown theo `.agents/rules/seo-formatting-markdown.md` — không có JSON ở giai đoạn này.
 
 ## Các bước
 

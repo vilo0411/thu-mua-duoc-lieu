@@ -12,7 +12,7 @@ Load trước: `.agents/rules/seo-formatting-json.md`, `.agents/rules/file-namin
 4. Xây outline theo đúng shape field của schema đích:
    - Wiki chung: danh sách `contentSections[].heading` dự kiến, có cần `standardsTable` không, có `pitfall` không, danh sách câu hỏi dự kiến cho `faq[]`, tối thiểu 3 hub dự kiến sẽ link tới (PRD Rule 2).
    - Hub: các `standards[]` (stage/criteria/controlMethod) và `pests[]` (pestName/symptoms/remedy) dự kiến, danh sách `faq[]` dự kiến.
-5. Ghi outline vào `knowledge/4-content/1-outline/<slug>.md` (Markdown outline, chưa phải JSON cuối).
+5. Ghi outline vào `knowledge/4-content/1-outline/<slug>.md` (Markdown outline, chưa phải JSON cuối). Outline **bắt buộc** mở đầu bằng mục `## Nghiên cứu SERP đối thủ` theo đúng format output ở `seo-collector.md` (Đối thủ đã có / Khoảng trống / Đề xuất section mới), trước phần cấu trúc outline đề xuất. Nếu không gọi được tool web search, ghi rõ "Bỏ qua SERP research — lý do: <...>" ở mục này thay vì để trống hoặc suy diễn.
 6. Trình outline cho người dùng — **dừng lại chờ xác nhận** trước khi `/drafting` (theo `.agents/rules/workflow-integrity.md`).
 
 Nếu chủ đề chạm vào công dụng sức khỏe/chữa bệnh, đánh dấu rõ trong outline là "có khả năng thuộc YMYL — sẽ đi vào `content/_drafts/wiki-yte/` khi hoàn thiện, không publish thẳng".

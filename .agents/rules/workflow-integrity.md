@@ -16,6 +16,17 @@ Các bước sau **luôn** phải dừng lại chờ người dùng xác nhận 
 - Proposal trước khi Rewrite (mọi workflow sửa nội dung đã publish hoặc gần publish).
 - Outline trước khi Drafting (`/outlining` → `/write`).
 - Draft trước khi Approve (`/drafting` → `/approve`).
+- Diff cuối cùng (Self-check) trước khi chạy `/approve` publish JSON (`/seo-optimize` Bước 5) — không tự chuyển `2-draft` → `3-finalized` → publish liền mạch trong cùng 1 lượt chỉ vì đã trình bày xong, phải có phản hồi xác nhận rõ ràng của người dùng ở giữa.
+
+"Dừng lại chờ xác nhận" nghĩa là kết thúc lượt trả lời tại đó và đợi người dùng trả lời ở lượt sau — không phải trình bày rồi tự tiếp tục các bước kế tiếp trong cùng 1 câu trả lời.
+
+## Proposal/diff phải là file, không chỉ viết trong chat
+
+Mọi Proposal (trước Rewrite) phải ghi vào `knowledge/4-content/1-outline/<slug>.md` — proposal là kế hoạch sửa, đúng vai trò giai đoạn outline trong pipeline, viết chi tiết theo từng section (vấn đề cụ thể + hướng sửa cụ thể, không chỉ nhãn "cập nhật"). Diff cuối (trước Approve publish) ghi vào file `.diff.md` cạnh bản draft ở `2-draft/`. Luôn báo đường dẫn cho người dùng mở đọc — không dán toàn bộ nội dung dài vào chat, chat chỉ tóm tắt ngắn (vài dòng) kèm đường dẫn file.
+
+## Không tự xoá file nháp sau khi publish
+
+Sau khi `/approve` ghi JSON vào `content/` thành công, file `.md` ở `3-finalized/` (và các file `.proposal.md`/`.diff.md` liên quan) **mặc định được giữ lại**. Chỉ xoá khi người dùng yêu cầu rõ ràng (vd: "xoá bản nháp đi"). Không tự suy diễn rằng JSON đã có nghĩa là bản nháp không cần giữ nữa.
 
 ## YMYL gate là bất biến
 

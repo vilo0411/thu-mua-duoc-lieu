@@ -1,0 +1,74 @@
+---
+id: benh-nut-than-xi-mu
+slug: benh-nut-than-xi-mu-nguyen-nhan-cach-tri
+title: "Bệnh nứt thân xì mủ: nguyên nhân, dấu hiệu và cách xử lý"
+seoTitle: "Bệnh nứt thân xì mủ: dấu hiệu và cách trị hiệu quả"
+category: Phòng trừ sâu bệnh
+author: Nguyễn Viết Lộc
+readTime: 6 phút đọc
+date: 30/07/2026
+excerpt: Bệnh nứt thân xì mủ làm nứt vỏ, chảy nhựa nâu và suy cây thân gỗ. Tôi chia sẻ nguyên nhân, dấu hiệu và cách trị bằng thoát nước gốc và vi sinh đối kháng.
+image: /images/kien-thuc/benh-nut-than-xi-mu.webp
+standardsTableTitle: Đặc điểm nứt thân xì mủ trên một số loại cây dược liệu tiêu biểu
+standardsTableHeaders: ["Cây dược liệu", "Biểu hiện bệnh đặc trưng", "Biện pháp phòng ngừa riêng biệt"]
+---
+
+## 1. Bệnh nứt thân xì mủ là gì?
+
+Nứt thân xì mủ (còn gọi là bệnh chảy gôm) xảy ra phổ biến trên các cây thân gỗ do nấm trứng Phytophthora tấn công phần vỏ sát mặt đất. Vết bệnh ban đầu làm vỏ cây nứt dọc, rỉ nhựa màu nâu đỏ.
+
+Bệnh phá hủy mạch dẫn dưới vỏ, khiến cây không thể vận chuyển nước và dinh dưỡng lên cành lá. Hậu quả là lá vàng rụng dần, cây còi cọc và sẽ chết khô nếu vết loét ăn bao quanh chu vi gốc thân.
+
+> HIGHLIGHT: Vùng vỏ gốc và thân bị nứt dọc, thâm ướt, rỉ chất nhựa nâu đỏ; cạo lớp vỏ thấy phần gỗ bên trong đổi màu nâu đen và có mùi hôi.
+
+## 2. Nguyên nhân và điều kiện phát sinh
+
+Tác nhân Phytophthora tồn tại lâu trong đất dưới dạng bào tử ngủ nghỉ, lan truyền rất nhanh qua nước mưa hoặc nước tưới tràn. Chúng xâm nhập vào cây qua các vết thương hở do sâu đục thân, tuyến trùng hại rễ hoặc vết trầy xước khi làm cỏ.
+
+Bệnh bùng phát mạnh trong mùa mưa ẩm khi vườn bị ngập úng hoặc có pH đất thấp dưới 5.0. Việc vun đất quá cao che lấp cổ rễ và tưới nước đẫm trực tiếp vào gốc cũng tạo môi trường ẩm kín cho nấm xâm nhiễm.
+
+## 3. Cách phòng và xử lý
+
+Để chủ động phòng bệnh, tôi khuyên bà con thiết kế luống trồng cao, khơi thông rãnh thoát nước để gốc luôn khô ráo. Hạn chế xới xáo sát gốc thân gây trầy xước vỏ, đồng thời bón phân hữu cơ ủ hoai mục kết hợp nấm đối kháng Trichoderma định kỳ để ức chế nguồn bệnh.
+
+Khi phát hiện vết loét xì mủ, cần dùng dao bén đã khử trùng cạo sạch phần vỏ và mạch gỗ thâm đen đến khi lộ phần gỗ trắng khỏe mạnh. Thu gom toàn bộ mô bệnh đã cạo đem tiêu hủy ngoài vườn để ngăn bào tử nấm lây lan theo gió nước.
+
+Quét trực tiếp thuốc gốc đồng hoặc hoạt chất chuyên trị nấm noãn như Metalaxyl lên vết cạo. Với cây bị hại nặng đứt mạch dẫn quanh gốc thì nên nhổ bỏ, rắc vôi bột khử trùng đất trước khi trồng lại nhằm bảo đảm [chuẩn dược liệu GACP](/kien-thuc/tieu-chuan-gacp), tránh nguy cơ bị nấm [thán thư](/kien-thuc/benh-than-thu) tấn công cơ hội.
+
+## 4. Lời khuyên của Nguyễn Viết Lộc cho bà con
+
+Bệnh nứt thân xì mủ phát triển mạnh khi cây bị sây sát gốc hoặc ngập úng rễ. Do đó bà con cần bồi vun gốc cẩn thận, tránh cuốc cỏ sát thân chính làm rách vỏ.
+
+Đầu mùa mưa nên quét vôi hòa nước vào gốc cây thân gỗ (chiều cao khoảng 80-100cm tính từ mặt đất lên) để cản nấm bệnh xâm nhiễm từ đất. Đồng thời, duy trì bón lót phân hữu cơ hoai mục để xây dựng màng chắn sinh học bảo vệ rễ lâu dài.
+
+## 5. Mức độ ảnh hưởng trên các cây dược liệu
+
+Bệnh nứt thân xì mủ phá hủy vỏ và mạch gỗ dẫn nhựa, ảnh nghiêm trọng đến các cây dược liệu thân gỗ hoặc thân leo hóa gỗ.
+
+Bà con hãy tham khảo bảng tổng hợp mức độ ảnh hưởng và biện pháp phòng ngừa chi tiết cho ba loại cây dược liệu chính ngay bên dưới.
+
+## Bảng: Đặc điểm nứt thân xì mủ trên một số loại cây dược liệu tiêu biểu
+
+| Cây dược liệu | Biểu hiện bệnh đặc trưng | Biện pháp phòng ngừa riêng biệt |
+|---|---|---|
+| [Cát căn](/kien-thuc/ky-thuat-trong-cat-can) | Vỏ thân sát gốc bị nứt dọc, rỉ ra chất dịch màu nâu đỏ rồi hóa khô cứng, cây còi cọc héo úa. | Tránh làm sây sát gốc dây khi làm cỏ, vun xới đất. |
+| [Đinh lăng](/kien-thuc/ky-thuat-trong-dinh-lang) | Vết nứt chảy mủ xuất hiện dọc theo thân cành lớn, lá trên cành bệnh héo vàng rụng. | Quét vôi bột hòa nước quanh gốc thân chính vào đầu và cuối mùa mưa. |
+| [Quế](/kien-thuc/ky-thuat-trong-que) | Vết nứt nấm loét sâu vào mạch gỗ của vỏ quế, làm giảm nghiêm trọng chất lượng tinh dầu và vỏ quế thương phẩm. | Phun phòng chế phẩm sinh học Chaetomium lên vỏ thân khi mưa ẩm kéo dài. |
+
+## Sai lầm phổ biến
+
+Vun đất cao che cổ rễ và để gốc đọng nước! Cổ rễ bị vùi ẩm liên tục cộng vết xây xát là cửa ngõ cho nấm xì mủ xâm nhập. Hãy trồng đúng độ sâu, giữ gốc thông thoáng khô ráo, thoát nước tốt và tránh làm tổn thương vùng gốc khi chăm sóc.
+
+## FAQ
+
+**Q: Ngoài nứt thân xì mủ, cây dược liệu thân gỗ còn hay gặp bệnh hại thân nào khác?**
+A: Ngoài nứt thân xì mủ, cây dược liệu thân gỗ còn hay gặp các bệnh hại khác như thối thân do úng nước, nấm hồng bám cành ở nơi ẩm cao, và sâu đục thân gây hại vỏ cành. Tuy nhiên, nứt thân xì mủ vẫn là bệnh hại nguy hiểm nhất trên cây thân gỗ.
+
+**Q: Cây bị nứt thân xì mủ có chữa được không?**
+A: Có thể chữa khỏi hoàn toàn nếu phát hiện bệnh sớm khi vết nứt còn nhỏ bằng cách cạo sạch mô thối, quét thuốc trị nấm Phytophthora và cải thiện thoát nước gốc. Nhưng khi vết loét đã ăn bao quanh chu vi thân chính cắt đứt mạch dẫn nhựa thì cây rất khó cứu và nên tiêu hủy.
+
+**Q: Vì sao quét vôi gốc lại giúp phòng bệnh?**
+A: Quét vôi gốc giúp sát khuẩn bề mặt vỏ cây, ngăn nấm Phytophthora và côn trùng xâm nhập qua vết loét hở, đồng thời hạn chế tình trạng nứt vỏ do chênh lệch nhiệt độ. Đây là biện pháp bảo vệ cơ học cực kỳ rẻ tiền và hiệu quả cho các loại cây thân gỗ lâu năm.
+
+**Q: Làm sao ngăn bệnh lây sang cây khác?**
+A: Để ngăn bệnh lây lan, bà con cần khử trùng kỹ dụng cụ dao cạo sau mỗi lần xử lý cây bệnh, thu gom tiêu hủy sạch phần vỏ gỗ đã cạo và tưới vi sinh đối kháng quanh vùng rễ. Đồng thời thiết kế mương thoát nước riêng để tránh nước chảy tràn giữa các gốc.
