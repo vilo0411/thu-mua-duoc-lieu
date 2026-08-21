@@ -1,0 +1,6537 @@
+{
+  "generatedAt": "2026-08-21T10:18:26.666Z",
+  "nodes": [
+    {
+      "id": "/",
+      "title": "/",
+      "type": "static",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu",
+      "title": "/thu-mua-duoc-lieu",
+      "type": "static",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc",
+      "title": "/kien-thuc",
+      "type": "static",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/ve-toi",
+      "title": "/ve-toi",
+      "type": "static",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/lien-he",
+      "title": "/lien-he",
+      "type": "static",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/chinh-sach-bao-mat",
+      "title": "/chinh-sach-bao-mat",
+      "type": "static",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/dieu-khoan-su-dung",
+      "title": "/dieu-khoan-su-dung",
+      "type": "static",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/mien-tru-trach-nhiem",
+      "title": "/mien-tru-trach-nhiem",
+      "type": "static",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/chinh-sach-noi-dung",
+      "title": "/chinh-sach-noi-dung",
+      "type": "static",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/so-do-trang",
+      "title": "/so-do-trang",
+      "type": "static",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/atiso",
+      "title": "atiso",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/ba-kich",
+      "title": "Ba kích",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/bac-ha",
+      "title": "Bạc hà Á",
+      "type": "cay",
+      "meta": "than",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/bach-bien-dau",
+      "title": "Bạch biển đậu",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/bach-bo",
+      "title": "Bách bộ",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/bach-chi",
+      "title": "Bạch chỉ",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/bach-hoa-xa-thiet-thao",
+      "title": "Bạch hoa xà thiệt thảo",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/bach-truat",
+      "title": "Bạch truật",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/ban-ha-nam",
+      "title": "Bán hạ nam",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/binh-voi",
+      "title": "Bình vôi",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/bo-cong-anh",
+      "title": "Bồ công anh",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/ca-gai-leo",
+      "title": "Cà gai leo",
+      "type": "cay",
+      "meta": "than",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/cat-can",
+      "title": "Cát căn",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/cau-dang",
+      "title": "Câu đằng",
+      "type": "cay",
+      "meta": "than",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/cau-tich",
+      "title": "Cẩu tích",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/cau",
+      "title": "Cau",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/che-day",
+      "title": "Chè dây",
+      "type": "cay",
+      "meta": "than",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/chi",
+      "title": "Chỉ thực – Chỉ xác",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/co-man-trau",
+      "title": "Cỏ Mần Trầu",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/co-ngot",
+      "title": "Cỏ ngọt",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/co-nho-noi",
+      "title": "Cỏ nhọ nồi",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/co-sua-la-nho",
+      "title": "Cỏ sữa lá nhỏ",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/co-xuoc",
+      "title": "Cỏ xước",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/coi-xay",
+      "title": "Cối xay",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/cot-khi-cu",
+      "title": "Cốt khí củ",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/cot-toai-bo",
+      "title": "Cốt toái bổ",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/cu-gai",
+      "title": "Củ gai",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/cuc-hoa-vang",
+      "title": "Cúc hoa vàng",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/dai-hoi",
+      "title": "Đại hồi",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/dang-sam",
+      "title": "Đảng sâm",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/dau-tam",
+      "title": "Dâu tằm",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/day-dau-xuong",
+      "title": "Dây đau xương",
+      "type": "cay",
+      "meta": "than",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/dia-hoang",
+      "title": "Địa hoàng",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/dia-lien",
+      "title": "Địa liền",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/dia-long",
+      "title": "Địa long",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/diep-ca",
+      "title": "Diếp cá",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/diep-ha-chau",
+      "title": "Diệp hạ châu",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/dinh-lang",
+      "title": "Đinh lăng",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/don-la-do",
+      "title": "Đơn lá đỏ",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/duong-quy-b",
+      "title": "Đương quy B",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/duong-quy-n",
+      "title": "Đương quy N",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/giao-co-lam",
+      "title": "Giảo cổ lam",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/gung",
+      "title": "Gừng",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/ha-thu-o",
+      "title": "Hà thủ ô đỏ",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/hoac-huong",
+      "title": "Hoắc hương",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/hoai-son",
+      "title": "Hoài sơn",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/hoang-ba-nam",
+      "title": "Hoàng bá nam",
+      "type": "cay",
+      "meta": "vo",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/hoang-dang",
+      "title": "Hoàng đằng",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/hoe-hoa",
+      "title": "Hòe hoa",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/huong-nhu-tia",
+      "title": "Hương nhu tía",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/huong-nhu-trang",
+      "title": "Hương nhu trắng",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/huong-phu",
+      "title": "Hương phụ",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/huyet-giac",
+      "title": "Huyết giác",
+      "type": "cay",
+      "meta": "than",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/hy-thiem",
+      "title": "Hy thiêm",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/ich-mau",
+      "title": "Ích mẫu",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/ke-huyet-dang",
+      "title": "Kê huyết đắng",
+      "type": "cay",
+      "meta": "than",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/ke-noi-kim",
+      "title": "Kê nội kim",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/khien-nguu",
+      "title": "Khiên ngưu",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/kho-qua",
+      "title": "Khổ qua",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/kho-sam",
+      "title": "Khổ sâm",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/kim-ngan-hoa",
+      "title": "Kim ngân hoa",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/kim-tien-thao",
+      "title": "Kim tiền thảo",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/kinh-gioi",
+      "title": "Kinh giới",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/la-bac-tu",
+      "title": "La Bạc tử",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/la-khoi",
+      "title": "Lá khôi",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/la-lot",
+      "title": "Lá lốt",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/la-mong",
+      "title": "Lá móng",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/luc",
+      "title": "Lức",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/ma-de",
+      "title": "Mã đề",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/ma-tien-che",
+      "title": "Mã tiền chế",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/man-kinh-tu",
+      "title": "Mạn kinh tử",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/mat-nhan",
+      "title": "Mật nhân",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/mat-ong",
+      "title": "Mật ong",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/mau-le",
+      "title": "Mẫu lệ",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/nam-linh-chi",
+      "title": "Nấm linh chi",
+      "type": "cay",
+      "meta": "nam",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/nga-truat",
+      "title": "Nga truật",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/ngai-diep",
+      "title": "Ngải diệp",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/nghe",
+      "title": "Nghệ",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/ngu-gia-bi-chan-chim",
+      "title": "Ngũ gia bì chân chim",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/nguu-tat-n",
+      "title": "Ngưu tất N",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/nguu-tat",
+      "title": "Ngưu tất",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/nhan-tran",
+      "title": "Nhân trần",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/o-duoc",
+      "title": "Ô dược",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/o-tac-cot",
+      "title": "Ô tặc cốt",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/phen-chua",
+      "title": "Phèn chua",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/phu-binh",
+      "title": "Phù bình",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/qua-lau-nhan",
+      "title": "Qua lâu nhân",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/que",
+      "title": "Quế",
+      "type": "cay",
+      "meta": "than",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/rau-ma",
+      "title": "Rau má",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/rieng-phien",
+      "title": "Riềng phiến",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/sa-nhan",
+      "title": "Sa nhân",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/sai-dat-nam",
+      "title": "Sài đất Nam",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/sam-dai-hanh",
+      "title": "Sâm đại hành",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/sen",
+      "title": "Sen",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/son-tra",
+      "title": "Sơn tra",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/tang-ky-sinh",
+      "title": "Tang ký sinh",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/tao-giac-thich",
+      "title": "Tạo giác thích",
+      "type": "cay",
+      "meta": "than",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/thach-cao-song",
+      "title": "Thạch cao sống",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/thach-xuong-bo",
+      "title": "Thạch xương bồ",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/thao-qua",
+      "title": "Thảo quả",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/thao-quyet-minh",
+      "title": "Thảo quyết minh",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/thi-de",
+      "title": "Thị đế",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/thien-mon-dong",
+      "title": "Thiên môn đông",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/thien-nien-kien",
+      "title": "Thiên niên kiện",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/tho-phuc-linh",
+      "title": "Thổ phục linh",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/tia-to",
+      "title": "Tía tô",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/to-moc",
+      "title": "Tô mộc",
+      "type": "cay",
+      "meta": "than",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/trac-bach-diep",
+      "title": "Trắc bách diệp",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/trach-ta",
+      "title": "Trạch tả",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/tran-bi",
+      "title": "Trần bì",
+      "type": "cay",
+      "meta": "vo",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/trinh-nu-hoang-cung",
+      "title": "Trinh nữ hoàng cung",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/truc-diep",
+      "title": "Trúc diệp",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/tuc-doan",
+      "title": "Tục đoạn",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/ty-giai",
+      "title": "Tỳ giải",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/vong-nem",
+      "title": "Vông nem",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/vung-den",
+      "title": "Vừng đen",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/xa-can",
+      "title": "Xạ can",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/xa-sang-tu",
+      "title": "Xa sàng tử",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/xa-tien-tu",
+      "title": "Xa tiền tử",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/xich-dong-nam",
+      "title": "Xích đồng nam",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/xuyen-khung",
+      "title": "Xuyên khung",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/xuyen-tam-lien",
+      "title": "Xuyên tâm liên",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/y-di",
+      "title": "Ý dĩ",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-atiso",
+      "title": "Cẩm nang Kỹ thuật trồng atiso vùng cao ôn đới cho lá và hoa đạt chuẩn dược liệu",
+      "type": "hub",
+      "meta": "atiso",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-ba-kich",
+      "title": "Cẩm nang Kỹ thuật trồng Ba kích tím dưới tán rừng và làm giàn leo hiện đại",
+      "type": "hub",
+      "meta": "ba-kich",
+      "inboundCount": 9,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-bac-ha",
+      "title": "Cẩm nang Kỹ thuật trồng Bạc hà Á luân canh cắt nhiều lứa, hàm lượng tinh dầu cao",
+      "type": "hub",
+      "meta": "bac-ha",
+      "inboundCount": 7,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-bach-bien-dau",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Bạch biển đậu đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "bach-bien-dau",
+      "inboundCount": 5,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-bach-bo",
+      "title": "Quy trình trồng Bách bộ sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "bach-bo",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-bach-chi",
+      "title": "Hướng dẫn kỹ thuật canh tác Bạch chỉ từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "bach-chi",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-bach-hoa-xa-thiet-thao",
+      "title": "Quy trình trồng Bạch hoa xà thiệt thảo sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "bach-hoa-xa-thiet-thao",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-bach-truat",
+      "title": "Quy trình trồng Bạch truật sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "bach-truat",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-ban-ha-nam",
+      "title": "Quy trình trồng Bán hạ nam sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "ban-ha-nam",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-binh-voi",
+      "title": "Quy trình trồng Bình vôi sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "binh-voi",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-bo-cong-anh",
+      "title": "Quy trình trồng Bồ công anh sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "bo-cong-anh",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-ca-gai-leo",
+      "title": "Cẩm nang Kỹ thuật trồng Cà gai leo trên đất đồi sỏi đá cho hàm lượng dược chất cao",
+      "type": "hub",
+      "meta": "ca-gai-leo",
+      "inboundCount": 7,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-cat-can",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Cát căn đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "cat-can",
+      "inboundCount": 6,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-cau-dang",
+      "title": "Quy trình trồng Câu đằng sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "cau-dang",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-cau-tich",
+      "title": "Hướng dẫn kỹ thuật canh tác Cẩu tích từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "cau-tich",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-cau",
+      "title": "Hướng dẫn kỹ thuật canh tác Cau từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "cau",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-che-day",
+      "title": "Hướng dẫn kỹ thuật canh tác Chè dây từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "che-day",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-chi",
+      "title": "Quy trình trồng Chỉ thực – Chỉ xác sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "chi",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-co-man-trau",
+      "title": "Quy trình trồng Cỏ Mần Trầu sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "co-man-trau",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-co-ngot",
+      "title": "Quy trình trồng Cỏ ngọt sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "co-ngot",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-co-nho-noi",
+      "title": "Hướng dẫn kỹ thuật canh tác Cỏ nhọ nồi từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "co-nho-noi",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-co-sua-la-nho",
+      "title": "Quy trình trồng Cỏ sữa lá nhỏ sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "co-sua-la-nho",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-co-xuoc",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Cỏ xước đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "co-xuoc",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-coi-xay",
+      "title": "Quy trình trồng Cối xay sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "coi-xay",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-cot-khi-cu",
+      "title": "Hướng dẫn kỹ thuật canh tác Cốt khí củ từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "cot-khi-cu",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-cot-toai-bo",
+      "title": "Hướng dẫn kỹ thuật canh tác Cốt toái bổ từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "cot-toai-bo",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-cu-gai",
+      "title": "Quy trình trồng Củ gai sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "cu-gai",
+      "inboundCount": 1,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-cuc-hoa-vang",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Cúc hoa vàng đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "cuc-hoa-vang",
+      "inboundCount": 8,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-dai-hoi",
+      "title": "Hướng dẫn kỹ thuật canh tác Đại hồi từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "dai-hoi",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-dang-sam",
+      "title": "Hướng dẫn kỹ thuật canh tác Đảng sâm từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "dang-sam",
+      "inboundCount": 1,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-dau-tam",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Dâu tằm đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "dau-tam",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-day-dau-xuong",
+      "title": "Hướng dẫn kỹ thuật canh tác Dây đau xương từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "day-dau-xuong",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-dia-hoang",
+      "title": "Quy trình trồng Địa hoàng sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "dia-hoang",
+      "inboundCount": 2,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-dia-lien",
+      "title": "Hướng dẫn kỹ thuật canh tác Địa liền từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "dia-lien",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-dia-long",
+      "title": "Kỹ thuật nuôi và sơ chế Địa long (giun đất) làm dược liệu",
+      "type": "hub",
+      "meta": "dia-long",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-diep-ca",
+      "title": "Quy trình trồng Diếp cá sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "diep-ca",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-diep-ha-chau",
+      "title": "Hướng dẫn kỹ thuật canh tác Diệp hạ châu từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "diep-ha-chau",
+      "inboundCount": 6,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-dinh-lang",
+      "title": "Cẩm nang Kỹ thuật trồng và chăm sóc Đinh lăng nếp từ A-Z đạt chuẩn GACP-WHO",
+      "type": "hub",
+      "meta": "dinh-lang",
+      "inboundCount": 16,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-don-la-do",
+      "title": "Quy trình trồng Đơn lá đỏ sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "don-la-do",
+      "inboundCount": 1,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-duong-quy-b",
+      "title": "Quy trình trồng Đương quy B sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "duong-quy-b",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-duong-quy-n",
+      "title": "Quy trình trồng Đương quy N sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "duong-quy-n",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-giao-co-lam",
+      "title": "Quy trình trồng Giảo cổ lam sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "giao-co-lam",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-gung",
+      "title": "Hướng dẫn kỹ thuật canh tác Gừng từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "gung",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-ha-thu-o",
+      "title": "Cẩm nang Kỹ thuật trồng Hà thủ ô đỏ làm giàn leo, nuôi củ 3–5 năm đạt trọng lượng lớn",
+      "type": "hub",
+      "meta": "ha-thu-o",
+      "inboundCount": 8,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-hoac-huong",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Hoắc hương đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "hoac-huong",
+      "inboundCount": 3,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-hoai-son",
+      "title": "Hướng dẫn kỹ thuật canh tác Hoài sơn từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "hoai-son",
+      "inboundCount": 2,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-hoang-ba-nam",
+      "title": "Hướng dẫn kỹ thuật canh tác Hoàng bá nam từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "hoang-ba-nam",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-hoang-dang",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Hoàng đằng đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "hoang-dang",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-hoe-hoa",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Hòe hoa đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "hoe-hoa",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-huong-nhu-tia",
+      "title": "Hướng dẫn kỹ thuật canh tác Hương nhu tía từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "huong-nhu-tia",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-huong-nhu-trang",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Hương nhu trắng đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "huong-nhu-trang",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-huong-phu",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Hương phụ đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "huong-phu",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-huyet-giac",
+      "title": "Quy trình trồng Huyết giác sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "huyet-giac",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-hy-thiem",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Hy thiêm đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "hy-thiem",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-ich-mau",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Ích mẫu đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "ich-mau",
+      "inboundCount": 3,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-ke-huyet-dang",
+      "title": "Quy trình trồng Kê huyết đắng sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "ke-huyet-dang",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-ke-noi-kim",
+      "title": "Hướng dẫn kỹ thuật canh tác Kê nội kim từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "ke-noi-kim",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-khien-nguu",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Khiên ngưu đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "khien-nguu",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-kho-qua",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Khổ qua đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "kho-qua",
+      "inboundCount": 1,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-kho-sam",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Khổ sâm đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "kho-sam",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-kim-ngan-hoa",
+      "title": "Cẩm nang Kỹ thuật trồng Kim ngân hoa làm giàn leo, thu búp hoa giá cao nhiều năm",
+      "type": "hub",
+      "meta": "kim-ngan-hoa",
+      "inboundCount": 3,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-kim-tien-thao",
+      "title": "Hướng dẫn kỹ thuật canh tác Kim tiền thảo từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "kim-tien-thao",
+      "inboundCount": 3,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-kinh-gioi",
+      "title": "Quy trình trồng Kinh giới sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "kinh-gioi",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-la-bac-tu",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc La Bạc tử đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "la-bac-tu",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-la-khoi",
+      "title": "Hướng dẫn kỹ thuật canh tác Lá khôi từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "la-khoi",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-la-lot",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Lá lốt đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "la-lot",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-la-mong",
+      "title": "Hướng dẫn kỹ thuật canh tác Lá móng từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "la-mong",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-luc",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Lức đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "luc",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-ma-de",
+      "title": "Quy trình trồng Mã đề sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "ma-de",
+      "inboundCount": 5,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-ma-tien-che",
+      "title": "Hướng dẫn kỹ thuật canh tác Mã tiền chế từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "ma-tien-che",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-man-kinh-tu",
+      "title": "Hướng dẫn kỹ thuật canh tác Mạn kinh tử từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "man-kinh-tu",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-mat-nhan",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Mật nhân đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "mat-nhan",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-mat-ong",
+      "title": "Kỹ thuật nuôi ong lấy mật sạch đạt chuẩn dược liệu",
+      "type": "hub",
+      "meta": "mat-ong",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-mau-le",
+      "title": "Kỹ thuật thu và sơ chế Mẫu lệ (vỏ hàu) làm dược liệu",
+      "type": "hub",
+      "meta": "mau-le",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-nam-linh-chi",
+      "title": "Cẩm nang Kỹ thuật nuôi trồng Nấm linh chi đỏ trên bịch phôi mùn cưa trong nhà màng vô trùng",
+      "type": "hub",
+      "meta": "nam-linh-chi",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-nga-truat",
+      "title": "Hướng dẫn kỹ thuật canh tác Nga truật từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "nga-truat",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-ngai-diep",
+      "title": "Quy trình trồng Ngải diệp sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "ngai-diep",
+      "inboundCount": 1,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-nghe",
+      "title": "Hướng dẫn kỹ thuật canh tác Nghệ từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "nghe",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-ngu-gia-bi-chan-chim",
+      "title": "Quy trình trồng Ngũ gia bì chân chim sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "ngu-gia-bi-chan-chim",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-nguu-tat-n",
+      "title": "Hướng dẫn kỹ thuật canh tác Ngưu tất N từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "nguu-tat-n",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-nguu-tat",
+      "title": "Quy trình trồng Ngưu tất sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "nguu-tat",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-nhan-tran",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Nhân trần đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "nhan-tran",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-o-duoc",
+      "title": "Hướng dẫn kỹ thuật canh tác Ô dược từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "o-duoc",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-o-tac-cot",
+      "title": "Kỹ thuật thu và sơ chế Ô tặc cốt (mai mực) làm dược liệu",
+      "type": "hub",
+      "meta": "o-tac-cot",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-phen-chua",
+      "title": "Kỹ thuật khai thác và tinh chế Phèn chua (Kali nhôm sunfat) đạt độ tinh khiết làm dược liệu",
+      "type": "hub",
+      "meta": "phen-chua",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-phu-binh",
+      "title": "Quy trình trồng Phù bình sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "phu-binh",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-qua-lau-nhan",
+      "title": "Quy trình trồng Qua lâu nhân sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "qua-lau-nhan",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-que",
+      "title": "Hướng dẫn kỹ thuật canh tác Quế từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "que",
+      "inboundCount": 1,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-rau-ma",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Rau má đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "rau-ma",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-rieng-phien",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Riềng phiến đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "rieng-phien",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-sa-nhan",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Sa nhân đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "sa-nhan",
+      "inboundCount": 4,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-sai-dat-nam",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Sài đất Nam đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "sai-dat-nam",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-sam-dai-hanh",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Sâm đại hành đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "sam-dai-hanh",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-sen",
+      "title": "Quy trình trồng Sen sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "sen",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-son-tra",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Sơn tra đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "son-tra",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-tang-ky-sinh",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Tang ký sinh đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "tang-ky-sinh",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-tao-giac-thich",
+      "title": "Hướng dẫn kỹ thuật canh tác Tạo giác thích từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "tao-giac-thich",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-thach-cao-song",
+      "title": "Kỹ thuật khai thác và sơ chế Thạch cao sống (khoáng canxi sunfat) làm dược liệu",
+      "type": "hub",
+      "meta": "thach-cao-song",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-thach-xuong-bo",
+      "title": "Quy trình trồng Thạch xương bồ sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "thach-xuong-bo",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-thao-qua",
+      "title": "Quy trình trồng Thảo quả sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "thao-qua",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-thao-quyet-minh",
+      "title": "Hướng dẫn kỹ thuật canh tác Thảo quyết minh từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "thao-quyet-minh",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-thi-de",
+      "title": "Hướng dẫn kỹ thuật canh tác Thị đế từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "thi-de",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-thien-mon-dong",
+      "title": "Quy trình trồng Thiên môn đông sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "thien-mon-dong",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-thien-nien-kien",
+      "title": "Quy trình trồng Thiên niên kiện sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "thien-nien-kien",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-tho-phuc-linh",
+      "title": "Quy trình trồng Thổ phục linh sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "tho-phuc-linh",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-tia-to",
+      "title": "Quy trình trồng Tía tô sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "tia-to",
+      "inboundCount": 1,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-to-moc",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Tô mộc đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "to-moc",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-trac-bach-diep",
+      "title": "Hướng dẫn kỹ thuật canh tác Trắc bách diệp từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "trac-bach-diep",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-trach-ta",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Trạch tả đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "trach-ta",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-tran-bi",
+      "title": "Hướng dẫn kỹ thuật canh tác Trần bì từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "tran-bi",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-trinh-nu-hoang-cung",
+      "title": "Quy trình trồng Trinh nữ hoàng cung sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "trinh-nu-hoang-cung",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-truc-diep",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Trúc diệp đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "truc-diep",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-tuc-doan",
+      "title": "Hướng dẫn kỹ thuật canh tác Tục đoạn từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "tuc-doan",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-ty-giai",
+      "title": "Quy trình trồng Tỳ giải sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "ty-giai",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-vong-nem",
+      "title": "Hướng dẫn kỹ thuật canh tác Vông nem từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "vong-nem",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-vung-den",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Vừng đen đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "vung-den",
+      "inboundCount": 4,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-xa-can",
+      "title": "Hướng dẫn kỹ thuật canh tác Xạ can từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "xa-can",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-xa-sang-tu",
+      "title": "Quy trình trồng Xa sàng tử sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "xa-sang-tu",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-xa-tien-tu",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Xa tiền tử đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "xa-tien-tu",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-xich-dong-nam",
+      "title": "Hướng dẫn kỹ thuật canh tác Xích đồng nam từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "xich-dong-nam",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-xuyen-khung",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Xuyên khung đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "xuyen-khung",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-xuyen-tam-lien",
+      "title": "Hướng dẫn kỹ thuật canh tác Xuyên tâm liên từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "xuyen-tam-lien",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-y-di",
+      "title": "Quy trình trồng Ý dĩ sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "y-di",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/bao-quan-duoc-lieu",
+      "title": "Phương pháp bảo quản dược liệu không lo ẩm mốc, mối mọt",
+      "type": "wiki",
+      "meta": "Chế biến sau thu hoạch",
+      "inboundCount": 1,
+      "outboundCount": 1
+    },
+    {
+      "id": "/kien-thuc/benh-dom-la",
+      "title": "Bệnh đốm lá: nguyên nhân, dấu hiệu và cách phòng trị",
+      "type": "wiki",
+      "meta": "Phòng trừ sâu bệnh",
+      "inboundCount": 4,
+      "outboundCount": 6
+    },
+    {
+      "id": "/kien-thuc/benh-heo-xanh-heo-vang",
+      "title": "Bệnh héo xanh và héo vàng ở cây dược liệu: phân biệt và cách xử lý",
+      "type": "wiki",
+      "meta": "Phòng trừ sâu bệnh",
+      "inboundCount": 1,
+      "outboundCount": 8
+    },
+    {
+      "id": "/kien-thuc/benh-kham-la",
+      "title": "Bệnh khảm lá ở cây dược liệu: nguyên nhân và cách xử lý",
+      "type": "wiki",
+      "meta": "Phòng trừ sâu bệnh",
+      "inboundCount": 1,
+      "outboundCount": 5
+    },
+    {
+      "id": "/kien-thuc/benh-lo-co-re-thoi-re",
+      "title": "Bệnh lở cổ rễ và thối rễ: nguyên nhân, dấu hiệu, cách phòng trị",
+      "type": "wiki",
+      "meta": "Phòng trừ sâu bệnh",
+      "inboundCount": 4,
+      "outboundCount": 12
+    },
+    {
+      "id": "/kien-thuc/benh-moc-suong",
+      "title": "Bệnh mốc sương: dấu hiệu, điều kiện phát sinh và cách phòng trị",
+      "type": "wiki",
+      "meta": "Phòng trừ sâu bệnh",
+      "inboundCount": 3,
+      "outboundCount": 7
+    },
+    {
+      "id": "/kien-thuc/benh-moc-xam-muoi-den",
+      "title": "Bệnh mốc xám và muội đen hại lá cây dược liệu: cách nhận biết, xử lý",
+      "type": "wiki",
+      "meta": "Phòng trừ sâu bệnh",
+      "inboundCount": 1,
+      "outboundCount": 9
+    },
+    {
+      "id": "/kien-thuc/benh-nut-than-xi-mu",
+      "title": "Bệnh nứt thân xì mủ: nguyên nhân, dấu hiệu và cách xử lý",
+      "type": "wiki",
+      "meta": "Phòng trừ sâu bệnh",
+      "inboundCount": 1,
+      "outboundCount": 5
+    },
+    {
+      "id": "/kien-thuc/benh-phan-trang",
+      "title": "Bệnh phấn trắng: dấu hiệu và cách phòng trị cho cây dược liệu",
+      "type": "wiki",
+      "meta": "Phòng trừ sâu bệnh",
+      "inboundCount": 3,
+      "outboundCount": 8
+    },
+    {
+      "id": "/kien-thuc/benh-ri-sat",
+      "title": "Bệnh rỉ sắt (gỉ sắt): dấu hiệu và cách phòng trị trên cây trồng",
+      "type": "wiki",
+      "meta": "Phòng trừ sâu bệnh",
+      "inboundCount": 1,
+      "outboundCount": 6
+    },
+    {
+      "id": "/kien-thuc/benh-than-thu",
+      "title": "Bệnh thán thư: dấu hiệu nhận biết và cách phòng trị hiệu quả",
+      "type": "wiki",
+      "meta": "Phòng trừ sâu bệnh",
+      "inboundCount": 3,
+      "outboundCount": 8
+    },
+    {
+      "id": "/kien-thuc/cac-loai-dat-trong-cay",
+      "title": "Các loại đất trồng cây: Đặc điểm thổ nhưỡng và dược liệu phù hợp",
+      "type": "wiki",
+      "meta": "Kỹ thuật gieo trồng",
+      "inboundCount": 0,
+      "outboundCount": 14
+    },
+    {
+      "id": "/kien-thuc/cach-bon-lot-bon-thuc",
+      "title": "Bón lót và bón thúc là gì? Cách bón và chọn loại phân",
+      "type": "wiki",
+      "meta": "Kỹ thuật gieo trồng",
+      "inboundCount": 3,
+      "outboundCount": 3
+    },
+    {
+      "id": "/kien-thuc/cach-diet-co-dai",
+      "title": "Cách diệt cỏ dại cho vườn dược liệu phổ biến hiện nay",
+      "type": "wiki",
+      "meta": "Kỹ thuật gieo trồng",
+      "inboundCount": 4,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/cach-giam-canh",
+      "title": "Cách giâm cành đúng kỹ thuật cho cây dược liệu, tỷ lệ sống cao",
+      "type": "wiki",
+      "meta": "Kỹ thuật gieo trồng",
+      "inboundCount": 3,
+      "outboundCount": 5
+    },
+    {
+      "id": "/kien-thuc/cach-tri-rep-sap",
+      "title": "Cách trị rệp sáp hiệu quả, an toàn cho cây dược liệu",
+      "type": "wiki",
+      "meta": "Phòng trừ sâu bệnh",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/cach-tron-dat-trong-cay",
+      "title": "Cách trộn đất trồng cây dược liệu: tỷ lệ trấu, xơ dừa chuẩn",
+      "type": "wiki",
+      "meta": "Kỹ thuật gieo trồng",
+      "inboundCount": 9,
+      "outboundCount": 6
+    },
+    {
+      "id": "/kien-thuc/cach-u-hat-giong",
+      "title": "Cách ủ hạt giống kích mầm nhanh trước khi gieo",
+      "type": "wiki",
+      "meta": "Kỹ thuật gieo trồng",
+      "inboundCount": 4,
+      "outboundCount": 4
+    },
+    {
+      "id": "/kien-thuc/cach-uom-hat-giong",
+      "title": "Cách ươm hạt giống cây dược liệu nảy mầm đều, cây con khỏe",
+      "type": "wiki",
+      "meta": "Kỹ thuật gieo trồng",
+      "inboundCount": 11,
+      "outboundCount": 5
+    },
+    {
+      "id": "/kien-thuc/cay-duoc-lieu-la-gi",
+      "title": "Cây dược liệu là gì? Khái niệm và các loại cây giá trị cao",
+      "type": "wiki",
+      "meta": "Kiến thức cơ bản",
+      "inboundCount": 0,
+      "outboundCount": 5
+    },
+    {
+      "id": "/kien-thuc/dat-cat-trong-cay-gi",
+      "title": "Đất cát trồng cây dược liệu gì: Nhóm thảo dược chịu hạn hiệu quả",
+      "type": "wiki",
+      "meta": "Kỹ thuật gieo trồng",
+      "inboundCount": 0,
+      "outboundCount": 15
+    },
+    {
+      "id": "/kien-thuc/dat-man-trong-cay-gi",
+      "title": "Đất mặn trồng cây dược liệu gì: Giải pháp thảo dược chịu mặn",
+      "type": "wiki",
+      "meta": "Kỹ thuật gieo trồng",
+      "inboundCount": 0,
+      "outboundCount": 10
+    },
+    {
+      "id": "/kien-thuc/dat-phen-trong-cay-gi",
+      "title": "Đất phèn trồng cây dược liệu gì: Giải pháp và kỹ thuật canh tác",
+      "type": "wiki",
+      "meta": "Kỹ thuật gieo trồng",
+      "inboundCount": 0,
+      "outboundCount": 9
+    },
+    {
+      "id": "/kien-thuc/dat-phu-sa-trong-cay-gi",
+      "title": "Đất phù sa thích hợp trồng cây gì: Kỹ thuật canh tác hiệu quả",
+      "type": "wiki",
+      "meta": "Kỹ thuật gieo trồng",
+      "inboundCount": 0,
+      "outboundCount": 11
+    },
+    {
+      "id": "/kien-thuc/dat-trong-cay-duoc-lieu",
+      "title": "Đất trồng cây dược liệu: phân loại, chỉ số cần biết và cách cải tạo",
+      "type": "wiki",
+      "meta": "Kỹ thuật gieo trồng",
+      "inboundCount": 2,
+      "outboundCount": 1
+    },
+    {
+      "id": "/kien-thuc/gia-the-la-gi",
+      "title": "Giá thể là gì? Các loại giá thể trồng cây dược liệu phổ biến",
+      "type": "wiki",
+      "meta": "Kỹ thuật gieo trồng",
+      "inboundCount": 6,
+      "outboundCount": 5
+    },
+    {
+      "id": "/kien-thuc/kiem-dinh-duoc-lieu",
+      "title": "Kiểm định dược liệu là gì? Các chỉ tiêu kiểm nghiệm chính",
+      "type": "wiki",
+      "meta": "Tiêu chuẩn & kiểm định",
+      "inboundCount": 3,
+      "outboundCount": 4
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-say-duoc-lieu",
+      "title": "Kỹ thuật sấy khô và bảo quản dược liệu đạt chuẩn GACP-WHO hạn chế hao hụt hoạt chất",
+      "type": "wiki",
+      "meta": "Chế biến sau thu hoạch",
+      "inboundCount": 2,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-so-che-duoc-lieu",
+      "title": "Kỹ thuật sơ chế dược liệu: tổng quan các phương pháp phổ biến",
+      "type": "wiki",
+      "meta": "Chế biến sau thu hoạch",
+      "inboundCount": 3,
+      "outboundCount": 5
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-cay-duoc-lieu",
+      "title": "Kỹ thuật trồng và chăm sóc cây dược liệu: quy trình tổng quan",
+      "type": "wiki",
+      "meta": "Kỹ thuật gieo trồng",
+      "inboundCount": 1,
+      "outboundCount": 12
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-u-len-men",
+      "title": "Kỹ thuật ủ và lên men dược liệu đúng chuẩn",
+      "type": "wiki",
+      "meta": "Chế biến sau thu hoạch",
+      "inboundCount": 1,
+      "outboundCount": 1
+    },
+    {
+      "id": "/kien-thuc/lien-ket-ba-ben-vietmec",
+      "title": "Mô hình liên kết ba bên: Nông dân - Hợp tác xã - Nhà máy để thoát cảnh 'được mùa mất giá'",
+      "type": "wiki",
+      "meta": "Chính sách & Thị trường",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ngam-so-che-duoc-lieu",
+      "title": "Ngâm sơ chế dược liệu: rượu, giấm và nước gạo dùng khi nào",
+      "type": "wiki",
+      "meta": "Chế biến sau thu hoạch",
+      "inboundCount": 1,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/nuoi-cay-mo-te-bao",
+      "title": "Nuôi cấy mô tế bào cây dược liệu: khái niệm và quy trình cơ bản",
+      "type": "wiki",
+      "meta": "Kỹ thuật gieo trồng",
+      "inboundCount": 1,
+      "outboundCount": 4
+    },
+    {
+      "id": "/kien-thuc/phan-biet-cay-duoc-lieu-gia",
+      "title": "Cảnh giác chiêu trò lừa đảo cung cấp hạt giống, cây giống giả tràn lan mạng xã hội",
+      "type": "wiki",
+      "meta": "Cảnh báo nông nghiệp",
+      "inboundCount": 1,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/phan-bon-cho-cay-duoc-lieu",
+      "title": "Phân bón cho cây dược liệu: phân hữu cơ, trùn quế, vô cơ và NPK",
+      "type": "wiki",
+      "meta": "Kỹ thuật gieo trồng",
+      "inboundCount": 1,
+      "outboundCount": 1
+    },
+    {
+      "id": "/kien-thuc/phan-loai-giong-cay-duoc-lieu",
+      "title": "Phân loại giống cây dược liệu theo bộ phận thu hoạch và vùng miền",
+      "type": "wiki",
+      "meta": "Kiến thức cơ bản",
+      "inboundCount": 0,
+      "outboundCount": 2
+    },
+    {
+      "id": "/kien-thuc/sao-vang-ha-tho",
+      "title": "Sao vàng hạ thổ dược liệu là gì? Cách làm đúng kỹ thuật",
+      "type": "wiki",
+      "meta": "Chế biến sau thu hoạch",
+      "inboundCount": 1,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/sau-benh-hai-cay-duoc-lieu",
+      "title": "Sâu bệnh hại cây dược liệu: tổng quan các nhóm thường gặp",
+      "type": "wiki",
+      "meta": "Phòng trừ sâu bệnh",
+      "inboundCount": 7,
+      "outboundCount": 15
+    },
+    {
+      "id": "/kien-thuc/tieu-chuan-gacp",
+      "title": "Tiêu chuẩn GACP là gì? GACP-WHO cho vùng trồng dược liệu",
+      "type": "wiki",
+      "meta": "Tiêu chuẩn & kiểm định",
+      "inboundCount": 17,
+      "outboundCount": 6
+    },
+    {
+      "id": "/kien-thuc/tieu-chuan-gmp",
+      "title": "Tiêu chuẩn GMP là gì? GMP-WHO trong sản xuất dược liệu",
+      "type": "wiki",
+      "meta": "Tiêu chuẩn & kiểm định",
+      "inboundCount": 3,
+      "outboundCount": 4
+    },
+    {
+      "id": "/kien-thuc/tieu-chuan-huu-co-quoc-te",
+      "title": "Tiêu chuẩn hữu cơ quốc tế cho dược liệu: GlobalGAP, EU Organic, USDA Organic, JAS Organic",
+      "type": "wiki",
+      "meta": "Tiêu chuẩn & kiểm định",
+      "inboundCount": 0,
+      "outboundCount": 2
+    },
+    {
+      "id": "/kien-thuc/tieu-chuan-vietgap",
+      "title": "Tiêu chuẩn VietGAP cho cây dược liệu: yêu cầu và cách xin chứng nhận",
+      "type": "wiki",
+      "meta": "Tiêu chuẩn & kiểm định",
+      "inboundCount": 1,
+      "outboundCount": 1
+    },
+    {
+      "id": "/kien-thuc/tuyen-trung-re",
+      "title": "Tuyến trùng rễ hại cây dược liệu là gì? Dấu hiệu và cách phòng trừ",
+      "type": "wiki",
+      "meta": "Phòng trừ sâu bệnh",
+      "inboundCount": 1,
+      "outboundCount": 5
+    }
+  ],
+  "edges": [
+    {
+      "source": "/kien-thuc/bao-quan-duoc-lieu",
+      "target": "/kien-thuc/ky-thuat-so-che-duoc-lieu",
+      "label": "kỹ thuật sơ chế dược liệu",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-dom-la",
+      "target": "/kien-thuc/sau-benh-hai-cay-duoc-lieu",
+      "label": "sâu bệnh hại dược liệu",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-dom-la",
+      "target": "/kien-thuc/tieu-chuan-gacp",
+      "label": "chuẩn dược liệu GACP",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-dom-la",
+      "target": "/kien-thuc/benh-than-thu",
+      "label": "thán thư",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-dom-la",
+      "target": "/kien-thuc/ky-thuat-trong-ha-thu-o",
+      "label": "Hà thủ ô",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-dom-la",
+      "target": "/kien-thuc/ky-thuat-trong-kim-ngan-hoa",
+      "label": "Kim ngân hoa",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-dom-la",
+      "target": "/kien-thuc/ky-thuat-trong-dinh-lang",
+      "label": "Đinh lăng",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-heo-xanh-heo-vang",
+      "target": "/kien-thuc/tieu-chuan-gacp",
+      "label": "chuẩn dược liệu GACP",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-heo-xanh-heo-vang",
+      "target": "/kien-thuc/benh-lo-co-re-thoi-re",
+      "label": "lở cổ rễ",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-heo-xanh-heo-vang",
+      "target": "/kien-thuc/ky-thuat-trong-ca-gai-leo",
+      "label": "trồng cà gai leo",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-heo-xanh-heo-vang",
+      "target": "/kien-thuc/ky-thuat-trong-cuc-hoa-vang",
+      "label": "cây cúc hoa vàng",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-heo-xanh-heo-vang",
+      "target": "/kien-thuc/ky-thuat-trong-dia-hoang",
+      "label": "cây địa hoàng",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-heo-xanh-heo-vang",
+      "target": "/kien-thuc/ky-thuat-trong-ca-gai-leo",
+      "label": "Cà gai leo",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-heo-xanh-heo-vang",
+      "target": "/kien-thuc/ky-thuat-trong-cuc-hoa-vang",
+      "label": "Cúc hoa vàng",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-heo-xanh-heo-vang",
+      "target": "/kien-thuc/ky-thuat-trong-dia-hoang",
+      "label": "Địa hoàng",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-kham-la",
+      "target": "/kien-thuc/sau-benh-hai-cay-duoc-lieu",
+      "label": "dịch hại trên cây dược liệu",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-kham-la",
+      "target": "/kien-thuc/tieu-chuan-gacp",
+      "label": "quy trình canh tác GACP-WHO",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-kham-la",
+      "target": "/kien-thuc/ky-thuat-trong-ca-gai-leo",
+      "label": "Cà gai leo",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-kham-la",
+      "target": "/kien-thuc/ky-thuat-trong-cu-gai",
+      "label": "Củ gai",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-kham-la",
+      "target": "/kien-thuc/ky-thuat-trong-kho-qua",
+      "label": "Khổ qua",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-lo-co-re-thoi-re",
+      "target": "/kien-thuc/gia-the-la-gi",
+      "label": "giá thể là gì",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-lo-co-re-thoi-re",
+      "target": "/kien-thuc/cach-tron-dat-trong-cay",
+      "label": "cách trộn đất trồng cây",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-lo-co-re-thoi-re",
+      "target": "/kien-thuc/cach-uom-hat-giong",
+      "label": "cách ươm hạt giống",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-lo-co-re-thoi-re",
+      "target": "/kien-thuc/tieu-chuan-gacp",
+      "label": "chuẩn dược liệu GACP",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-lo-co-re-thoi-re",
+      "target": "/kien-thuc/benh-heo-xanh-heo-vang",
+      "label": "héo xanh và héo vàng",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-lo-co-re-thoi-re",
+      "target": "/kien-thuc/ky-thuat-trong-dang-sam",
+      "label": "Đảng sâm",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-lo-co-re-thoi-re",
+      "target": "/kien-thuc/ky-thuat-trong-hoai-son",
+      "label": "Hoài sơn",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-lo-co-re-thoi-re",
+      "target": "/kien-thuc/cach-uom-hat-giong",
+      "label": "cách ươm hạt giống",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-lo-co-re-thoi-re",
+      "target": "/kien-thuc/ky-thuat-trong-bac-ha",
+      "label": "Bạc hà Á",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-lo-co-re-thoi-re",
+      "target": "/kien-thuc/ky-thuat-trong-cat-can",
+      "label": "Cát cánh",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-lo-co-re-thoi-re",
+      "target": "/kien-thuc/ky-thuat-trong-actiso",
+      "label": "Actiso",
+      "sourceType": "wiki",
+      "targetType": "unknown",
+      "violatesSilo": false,
+      "broken": true
+    },
+    {
+      "source": "/kien-thuc/benh-lo-co-re-thoi-re",
+      "target": "/kien-thuc/ky-thuat-trong-hoai-son",
+      "label": "Hoài sơn",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-moc-suong",
+      "target": "/kien-thuc/benh-phan-trang",
+      "label": "phấn trắng",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-moc-suong",
+      "target": "/kien-thuc/tieu-chuan-gacp",
+      "label": "chuẩn dược liệu GACP",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-moc-suong",
+      "target": "/kien-thuc/benh-phan-trang",
+      "label": "Phấn trắng",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-moc-suong",
+      "target": "/kien-thuc/ky-thuat-trong-actiso",
+      "label": "Actiso",
+      "sourceType": "wiki",
+      "targetType": "unknown",
+      "violatesSilo": false,
+      "broken": true
+    },
+    {
+      "source": "/kien-thuc/benh-moc-suong",
+      "target": "/kien-thuc/ky-thuat-trong-cuc-hoa-vang",
+      "label": "Cúc hoa vàng",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-moc-suong",
+      "target": "/kien-thuc/ky-thuat-trong-ngai-diep",
+      "label": "Ngải diệp",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-moc-suong",
+      "target": "/kien-thuc/ky-thuat-trong-bac-ha",
+      "label": "Bạc hà Á",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-moc-xam-muoi-den",
+      "target": "/kien-thuc/ky-thuat-trong-hoac-huong",
+      "label": "cây Hoắc hương",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-moc-xam-muoi-den",
+      "target": "/kien-thuc/ky-thuat-trong-dinh-lang",
+      "label": "cây Đinh lăng",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-moc-xam-muoi-den",
+      "target": "/kien-thuc/ky-thuat-trong-tia-to",
+      "label": "cây tía tô",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-moc-xam-muoi-den",
+      "target": "/kien-thuc/tieu-chuan-gacp",
+      "label": "chuẩn dược liệu GACP",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-moc-xam-muoi-den",
+      "target": "/kien-thuc/benh-dom-la",
+      "label": "đốm lá",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-moc-xam-muoi-den",
+      "target": "/kien-thuc/ky-thuat-trong-bac-ha",
+      "label": "Bạc hà Á",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-moc-xam-muoi-den",
+      "target": "/kien-thuc/ky-thuat-trong-cuc-hoa-vang",
+      "label": "Cúc hoa vàng",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-moc-xam-muoi-den",
+      "target": "/kien-thuc/ky-thuat-trong-ich-mau",
+      "label": "Ích mẫu",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-moc-xam-muoi-den",
+      "target": "/kien-thuc/ky-thuat-trong-hoac-huong",
+      "label": "Hoắc hương",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-nut-than-xi-mu",
+      "target": "/kien-thuc/tieu-chuan-gacp",
+      "label": "chuẩn dược liệu GACP",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-nut-than-xi-mu",
+      "target": "/kien-thuc/benh-than-thu",
+      "label": "thán thư",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-nut-than-xi-mu",
+      "target": "/kien-thuc/ky-thuat-trong-cat-can",
+      "label": "Cát căn",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-nut-than-xi-mu",
+      "target": "/kien-thuc/ky-thuat-trong-dinh-lang",
+      "label": "Đinh lăng",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-nut-than-xi-mu",
+      "target": "/kien-thuc/ky-thuat-trong-que",
+      "label": "Quế",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-phan-trang",
+      "target": "/kien-thuc/sau-benh-hai-cay-duoc-lieu",
+      "label": "sâu bệnh hại dược liệu",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-phan-trang",
+      "target": "/kien-thuc/tieu-chuan-gacp",
+      "label": "chứng nhận GACP-WHO",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-phan-trang",
+      "target": "/kien-thuc/benh-moc-suong",
+      "label": "mốc sương",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-phan-trang",
+      "target": "/kien-thuc/ky-thuat-trong-cuc-hoa-vang",
+      "label": "Cúc hoa vàng",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-phan-trang",
+      "target": "/kien-thuc/ky-thuat-trong-bac-ha",
+      "label": "Bạc hà Á",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-phan-trang",
+      "target": "/kien-thuc/ky-thuat-trong-don-la-do",
+      "label": "Đơn lá đỏ",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-phan-trang",
+      "target": "/kien-thuc/ky-thuat-trong-hoac-huong",
+      "label": "Hoắc hương",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-phan-trang",
+      "target": "/kien-thuc/benh-moc-suong",
+      "label": "mốc sương",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-ri-sat",
+      "target": "/kien-thuc/sau-benh-hai-cay-duoc-lieu",
+      "label": "sâu bệnh hại dược liệu",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-ri-sat",
+      "target": "/kien-thuc/cach-diet-co-dai",
+      "label": "diệt cỏ dại",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-ri-sat",
+      "target": "/kien-thuc/tieu-chuan-gacp",
+      "label": "quy trình GACP-WHO",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-ri-sat",
+      "target": "/kien-thuc/ky-thuat-trong-bac-ha",
+      "label": "Bạc hà Á",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-ri-sat",
+      "target": "/kien-thuc/ky-thuat-trong-cuc-hoa-vang",
+      "label": "Cúc hoa vàng",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-ri-sat",
+      "target": "/kien-thuc/ky-thuat-trong-cat-can",
+      "label": "Cát căn",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-than-thu",
+      "target": "/kien-thuc/sau-benh-hai-cay-duoc-lieu",
+      "label": "sâu bệnh hại dược liệu",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-than-thu",
+      "target": "/kien-thuc/cach-tron-dat-trong-cay",
+      "label": "cách trộn đất trồng cây",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-than-thu",
+      "target": "/kien-thuc/tieu-chuan-gacp",
+      "label": "chuẩn dược liệu GACP",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-than-thu",
+      "target": "/kien-thuc/benh-dom-la",
+      "label": "đốm lá",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-than-thu",
+      "target": "/kien-thuc/ky-thuat-trong-kim-ngan-hoa",
+      "label": "Kim ngân hoa",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-than-thu",
+      "target": "/kien-thuc/ky-thuat-trong-dinh-lang",
+      "label": "Đinh lăng",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-than-thu",
+      "target": "/kien-thuc/ky-thuat-trong-ca-gai-leo",
+      "label": "Cà gai leo",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/benh-than-thu",
+      "target": "/kien-thuc/benh-dom-la",
+      "label": "đốm lá",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cac-loai-dat-trong-cay",
+      "target": "/kien-thuc/ky-thuat-trong-dinh-lang",
+      "label": "kỹ thuật trồng Đinh lăng",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cac-loai-dat-trong-cay",
+      "target": "/kien-thuc/ky-thuat-trong-ca-gai-leo",
+      "label": "chăm sóc Cà gai leo",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cac-loai-dat-trong-cay",
+      "target": "/kien-thuc/ky-thuat-trong-bac-ha",
+      "label": "kỹ thuật trồng Bạc hà",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cac-loai-dat-trong-cay",
+      "target": "/kien-thuc/ky-thuat-trong-ich-mau",
+      "label": "trồng dược liệu Ích mẫu",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cac-loai-dat-trong-cay",
+      "target": "/kien-thuc/ky-thuat-trong-ha-thu-o",
+      "label": "kỹ thuật trồng Hà thủ ô",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cac-loai-dat-trong-cay",
+      "target": "/kien-thuc/ky-thuat-trong-sa-nhan",
+      "label": "trồng Sa nhân",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cac-loai-dat-trong-cay",
+      "target": "/kien-thuc/ky-thuat-trong-ba-kich",
+      "label": "quy trình canh tác Ba kích",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cac-loai-dat-trong-cay",
+      "target": "/kien-thuc/ky-thuat-trong-dinh-lang",
+      "label": "canh tác giống Đinh lăng",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cac-loai-dat-trong-cay",
+      "target": "/kien-thuc/ky-thuat-trong-ca-gai-leo",
+      "label": "trồng cà gai leo",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cac-loai-dat-trong-cay",
+      "target": "/kien-thuc/ky-thuat-trong-bac-ha",
+      "label": "trồng giống Bạc hà",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cac-loai-dat-trong-cay",
+      "target": "/kien-thuc/ky-thuat-trong-ich-mau",
+      "label": "chăm sóc Ích mẫu",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cac-loai-dat-trong-cay",
+      "target": "/kien-thuc/ky-thuat-trong-sa-nhan",
+      "label": "canh tác Sa nhân",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cac-loai-dat-trong-cay",
+      "target": "/kien-thuc/ky-thuat-trong-ba-kich",
+      "label": "kỹ thuật trồng Ba kích",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cac-loai-dat-trong-cay",
+      "target": "/kien-thuc/ky-thuat-trong-ha-thu-o",
+      "label": "chăm sóc Hà thủ ô",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cach-bon-lot-bon-thuc",
+      "target": "/kien-thuc/ky-thuat-trong-dinh-lang",
+      "label": "kỹ thuật trồng Đinh lăng",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cach-bon-lot-bon-thuc",
+      "target": "/kien-thuc/ky-thuat-trong-ba-kich",
+      "label": "Ba kích",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cach-bon-lot-bon-thuc",
+      "target": "/kien-thuc/cach-tron-dat-trong-cay",
+      "label": "cách trộn đất trồng cây",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cach-giam-canh",
+      "target": "/kien-thuc/cach-uom-hat-giong",
+      "label": "cách ươm hạt giống",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cach-giam-canh",
+      "target": "/kien-thuc/gia-the-la-gi",
+      "label": "giá thể là gì",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cach-giam-canh",
+      "target": "/kien-thuc/ky-thuat-trong-dinh-lang",
+      "label": "kỹ thuật trồng Đinh lăng",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cach-giam-canh",
+      "target": "/kien-thuc/ky-thuat-trong-dinh-lang",
+      "label": "kỹ thuật trồng Đinh lăng",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cach-giam-canh",
+      "target": "/kien-thuc/cach-uom-hat-giong",
+      "label": "ươm hạt",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cach-tron-dat-trong-cay",
+      "target": "/kien-thuc/gia-the-la-gi",
+      "label": "giá thể là gì",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cach-tron-dat-trong-cay",
+      "target": "/kien-thuc/ky-thuat-trong-dinh-lang",
+      "label": "Đinh lăng",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cach-tron-dat-trong-cay",
+      "target": "/kien-thuc/ky-thuat-trong-ba-kich",
+      "label": "Ba kích",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cach-tron-dat-trong-cay",
+      "target": "/kien-thuc/ky-thuat-trong-ha-thu-o",
+      "label": "Hà thủ ô",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cach-tron-dat-trong-cay",
+      "target": "/kien-thuc/cach-uom-hat-giong",
+      "label": "cách ươm hạt giống",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cach-tron-dat-trong-cay",
+      "target": "/kien-thuc/gia-the-la-gi",
+      "label": "giá thể là gì",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cach-u-hat-giong",
+      "target": "/kien-thuc/cach-uom-hat-giong",
+      "label": "ươm hạt giống",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cach-u-hat-giong",
+      "target": "/kien-thuc/cach-uom-hat-giong",
+      "label": "ươm",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cach-u-hat-giong",
+      "target": "/kien-thuc/cach-tron-dat-trong-cay",
+      "label": "cách trộn đất trồng cây",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cach-u-hat-giong",
+      "target": "/kien-thuc/cach-uom-hat-giong",
+      "label": "ươm",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cach-uom-hat-giong",
+      "target": "/kien-thuc/cach-u-hat-giong",
+      "label": "ủ hạt giống",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cach-uom-hat-giong",
+      "target": "/kien-thuc/gia-the-la-gi",
+      "label": "giá thể là gì",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cach-uom-hat-giong",
+      "target": "/kien-thuc/cach-tron-dat-trong-cay",
+      "label": "cách trộn đất trồng cây",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cach-uom-hat-giong",
+      "target": "/kien-thuc/cach-u-hat-giong",
+      "label": "cách ủ hạt giống",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cach-uom-hat-giong",
+      "target": "/kien-thuc/cach-u-hat-giong",
+      "label": "ủ hạt",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cay-duoc-lieu-la-gi",
+      "target": "/kien-thuc/ky-thuat-trong-dinh-lang",
+      "label": "hướng dẫn trồng đinh lăng",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cay-duoc-lieu-la-gi",
+      "target": "/kien-thuc/ky-thuat-trong-ba-kich",
+      "label": "cách trồng ba kích",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cay-duoc-lieu-la-gi",
+      "target": "/kien-thuc/ky-thuat-trong-ca-gai-leo",
+      "label": "canh tác cà gai leo",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cay-duoc-lieu-la-gi",
+      "target": "/kien-thuc/tieu-chuan-gacp",
+      "label": "tiêu chuẩn GACP-WHO",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/cay-duoc-lieu-la-gi",
+      "target": "/kien-thuc/ky-thuat-trong-cay-duoc-lieu",
+      "label": "quy trình trồng dược liệu",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-cat-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-cat-can",
+      "label": "kỹ thuật gieo trồng Cát căn",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-cat-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-sa-nhan",
+      "label": "gieo trồng Sa nhân",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-cat-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-ba-kich",
+      "label": "trồng dược liệu Ba kích",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-cat-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-diep-ha-chau",
+      "label": "quy trình gieo trồng Diệp hạ châu",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-cat-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-vung-den",
+      "label": "canh tác Vừng đen",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-cat-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-dinh-lang",
+      "label": "chăm sóc Đinh lăng",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-cat-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-bach-bien-dau",
+      "label": "gieo trồng Bạch biến đậu",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-cat-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-cat-can",
+      "label": "canh tác Cát căn",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-cat-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-sa-nhan",
+      "label": "trồng Sa nhân",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-cat-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-ba-kich",
+      "label": "trồng Ba kích",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-cat-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-diep-ha-chau",
+      "label": "gieo trồng Diệp hạ châu",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-cat-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-vung-den",
+      "label": "trồng Vừng đen",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-cat-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-cuc-hoa-vang",
+      "label": "trồng Cúc hoa vàng",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-cat-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-dinh-lang",
+      "label": "kỹ thuật trồng Đinh lăng",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-cat-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-bach-bien-dau",
+      "label": "gieo trồng Bạch biến đậu",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-man-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-ma-de",
+      "label": "trồng thảo dược Mã đề",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-man-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-diep-ha-chau",
+      "label": "chăm sóc Diệp hạ châu",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-man-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-bach-bien-dau",
+      "label": "trồng cây Bạch biến đậu",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-man-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-vung-den",
+      "label": "gieo trồng Vừng đen",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-man-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-ma-de",
+      "label": "trồng thảo dược Mã đề",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-man-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-bach-bien-dau",
+      "label": "trồng cây Bạch biến đậu",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-man-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-ma-de",
+      "label": "trồng thảo dược Mã đề",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-man-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-diep-ha-chau",
+      "label": "chăm sóc Diệp hạ châu",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-man-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-bach-bien-dau",
+      "label": "trồng cây Bạch biến đậu",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-man-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-vung-den",
+      "label": "gieo trồng Vừng đen",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-phen-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-ha-thu-o",
+      "label": "trồng cây Hà thủ ô",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-phen-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-kim-tien-thao",
+      "label": "kim tiền thảo",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-phen-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-kim-tien-thao",
+      "label": "kim tiền thảo",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-phen-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-ma-de",
+      "label": "trồng Mã đề",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-phen-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-diep-ha-chau",
+      "label": "gieo trồng Diệp hạ châu",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-phen-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-ha-thu-o",
+      "label": "trồng cây Hà thủ ô",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-phen-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-kim-tien-thao",
+      "label": "kim tiền thảo",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-phen-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-ma-de",
+      "label": "trồng Mã đề",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-phen-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-diep-ha-chau",
+      "label": "gieo trồng Diệp hạ châu",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/dat-phu-sa-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-gung-cho-nang-suat-cao",
+      "label": "kỹ thuật canh tác Gừng",
+      "sourceType": "wiki",
+      "targetType": "unknown",
+      "violatesSilo": false,
+      "broken": true
+    },
+    {
+      "source": "/kien-thuc/dat-phu-sa-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-nghe-cho-nang-suat-cao",
+      "label": "quy trình trồng Nghệ",
+      "sourceType": "wiki",
+      "targetType": "unknown",
+      "violatesSilo": false,
+      "broken": true
+    },
+    {
+      "source": "/kien-thuc/dat-phu-sa-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-bac-ha-luan-canh-cat-nhieu-lua",
+      "label": "canh tác Bạc hà Á",
+      "sourceType": "wiki",
+      "targetType": "unknown",
+      "violatesSilo": false,
+      "broken": true
+    },
+    {
+      "source": "/kien-thuc/dat-phu-sa-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-ich-mau-dat-chuan-gacp-who",
+      "label": "trồng dược liệu Ích mẫu",
+      "sourceType": "wiki",
+      "targetType": "unknown",
+      "violatesSilo": false,
+      "broken": true
+    },
+    {
+      "source": "/kien-thuc/dat-phu-sa-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-dinh-lang-dat-nang-suat-cao",
+      "label": "canh tác giống Đinh lăng",
+      "sourceType": "wiki",
+      "targetType": "unknown",
+      "violatesSilo": false,
+      "broken": true
+    },
+    {
+      "source": "/kien-thuc/dat-phu-sa-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-dinh-lang-dat-nang-suat-cao",
+      "label": "canh tác giống Đinh lăng",
+      "sourceType": "wiki",
+      "targetType": "unknown",
+      "violatesSilo": false,
+      "broken": true
+    },
+    {
+      "source": "/kien-thuc/dat-phu-sa-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-hoai-son-cho-nang-suat-cao",
+      "label": "trồng Hoài sơn",
+      "sourceType": "wiki",
+      "targetType": "unknown",
+      "violatesSilo": false,
+      "broken": true
+    },
+    {
+      "source": "/kien-thuc/dat-phu-sa-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-gung-cho-nang-suat-cao",
+      "label": "kỹ thuật canh tác Gừng",
+      "sourceType": "wiki",
+      "targetType": "unknown",
+      "violatesSilo": false,
+      "broken": true
+    },
+    {
+      "source": "/kien-thuc/dat-phu-sa-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-nghe-cho-nang-suat-cao",
+      "label": "quy trình trồng Nghệ",
+      "sourceType": "wiki",
+      "targetType": "unknown",
+      "violatesSilo": false,
+      "broken": true
+    },
+    {
+      "source": "/kien-thuc/dat-phu-sa-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-ich-mau-dat-chuan-gacp-who",
+      "label": "trồng dược liệu Ích mẫu",
+      "sourceType": "wiki",
+      "targetType": "unknown",
+      "violatesSilo": false,
+      "broken": true
+    },
+    {
+      "source": "/kien-thuc/dat-phu-sa-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-bac-ha-luan-canh-cat-nhieu-lua",
+      "label": "canh tác Bạc hà Á",
+      "sourceType": "wiki",
+      "targetType": "unknown",
+      "violatesSilo": false,
+      "broken": true
+    },
+    {
+      "source": "/kien-thuc/dat-trong-cay-duoc-lieu",
+      "target": "/kien-thuc/cach-tron-dat-trong-cay",
+      "label": "cách trộn đất trồng cây",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/gia-the-la-gi",
+      "target": "/kien-thuc/ky-thuat-trong-dinh-lang",
+      "label": "canh tác Đinh lăng",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/gia-the-la-gi",
+      "target": "/kien-thuc/ky-thuat-trong-ba-kich",
+      "label": "trồng sâm Ba kích",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/gia-the-la-gi",
+      "target": "/kien-thuc/ky-thuat-trong-ha-thu-o",
+      "label": "vườn Hà thủ ô",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/gia-the-la-gi",
+      "target": "/kien-thuc/benh-lo-co-re-thoi-re",
+      "label": "thối rễ cổ rễ",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/gia-the-la-gi",
+      "target": "/kien-thuc/cach-tron-dat-trong-cay",
+      "label": "Cách trộn đất trồng cây dược liệu",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/kiem-dinh-duoc-lieu",
+      "target": "/kien-thuc/tieu-chuan-gmp",
+      "label": "GMP",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/kiem-dinh-duoc-lieu",
+      "target": "/kien-thuc/tieu-chuan-gacp",
+      "label": "GACP",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/kiem-dinh-duoc-lieu",
+      "target": "/kien-thuc/phan-biet-cay-duoc-lieu-gia",
+      "label": "phân biệt cây dược liệu giả",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/kiem-dinh-duoc-lieu",
+      "target": "/kien-thuc/tieu-chuan-gacp",
+      "label": "GACP",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/ky-thuat-so-che-duoc-lieu",
+      "target": "/kien-thuc/ky-thuat-say-duoc-lieu",
+      "label": "phơi âm can, phơi nắng và sấy nhiệt",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/ky-thuat-so-che-duoc-lieu",
+      "target": "/kien-thuc/sao-vang-ha-tho",
+      "label": "sao vàng hạ thổ",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/ky-thuat-so-che-duoc-lieu",
+      "target": "/kien-thuc/ngam-so-che-duoc-lieu",
+      "label": "ngâm sơ chế dược liệu: rượu, giấm, nước gạo",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/ky-thuat-so-che-duoc-lieu",
+      "target": "/kien-thuc/ky-thuat-u-len-men",
+      "label": "kỹ thuật ủ và lên men dược liệu",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/ky-thuat-so-che-duoc-lieu",
+      "target": "/kien-thuc/bao-quan-duoc-lieu",
+      "label": "phương pháp bảo quản dược liệu",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/ky-thuat-trong-cay-duoc-lieu",
+      "target": "/kien-thuc/cach-u-hat-giong",
+      "label": "cách ủ hạt giống",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/ky-thuat-trong-cay-duoc-lieu",
+      "target": "/kien-thuc/cach-uom-hat-giong",
+      "label": "cách ươm hạt giống",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/ky-thuat-trong-cay-duoc-lieu",
+      "target": "/kien-thuc/cach-giam-canh",
+      "label": "giâm, chiết, ghép cành",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/ky-thuat-trong-cay-duoc-lieu",
+      "target": "/kien-thuc/nuoi-cay-mo-te-bao",
+      "label": "nuôi cấy mô",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/ky-thuat-trong-cay-duoc-lieu",
+      "target": "/kien-thuc/dat-trong-cay-duoc-lieu",
+      "label": "loại đất vườn nhà và các chỉ số cơ bản",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/ky-thuat-trong-cay-duoc-lieu",
+      "target": "/kien-thuc/cach-tron-dat-trong-cay",
+      "label": "phối trộn đất/giá thể theo tỷ lệ phù hợp",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/ky-thuat-trong-cay-duoc-lieu",
+      "target": "/kien-thuc/gia-the-la-gi",
+      "label": "giá thể là gì",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/ky-thuat-trong-cay-duoc-lieu",
+      "target": "/kien-thuc/cach-bon-lot-bon-thuc",
+      "label": "bón lót, bón thúc",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/ky-thuat-trong-cay-duoc-lieu",
+      "target": "/kien-thuc/phan-bon-cho-cay-duoc-lieu",
+      "label": "phân hữu cơ, trùn quế, vô cơ, NPK",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/ky-thuat-trong-cay-duoc-lieu",
+      "target": "/kien-thuc/cach-diet-co-dai",
+      "label": "cách diệt cỏ dại",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/ky-thuat-trong-cay-duoc-lieu",
+      "target": "/kien-thuc/sau-benh-hai-cay-duoc-lieu",
+      "label": "tổng quan sâu bệnh hại cây dược liệu",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/ky-thuat-trong-cay-duoc-lieu",
+      "target": "/kien-thuc/ky-thuat-so-che-duoc-lieu",
+      "label": "kỹ thuật sơ chế dược liệu",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/ky-thuat-u-len-men",
+      "target": "/kien-thuc/ky-thuat-so-che-duoc-lieu",
+      "label": "kỹ thuật sơ chế dược liệu",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/nuoi-cay-mo-te-bao",
+      "target": "/kien-thuc/cach-giam-canh",
+      "label": "giâm cành, chiết cành, ghép cành",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/nuoi-cay-mo-te-bao",
+      "target": "/kien-thuc/cach-uom-hat-giong",
+      "label": "ươm hạt",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/nuoi-cay-mo-te-bao",
+      "target": "/kien-thuc/cach-giam-canh",
+      "label": "giâm, chiết, ghép cành",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/nuoi-cay-mo-te-bao",
+      "target": "/kien-thuc/cach-uom-hat-giong",
+      "label": "ươm hạt giống",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/phan-bon-cho-cay-duoc-lieu",
+      "target": "/kien-thuc/cach-bon-lot-bon-thuc",
+      "label": "bón lót, bón thúc cho cây dược liệu",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/phan-loai-giong-cay-duoc-lieu",
+      "target": "/kien-thuc/dat-trong-cay-duoc-lieu",
+      "label": "đất trồng dược liệu",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/phan-loai-giong-cay-duoc-lieu",
+      "target": "/kien-thuc/cach-tron-dat-trong-cay",
+      "label": "cách trộn đất trồng cây",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/sau-benh-hai-cay-duoc-lieu",
+      "target": "/kien-thuc/benh-dom-la",
+      "label": "bệnh đốm lá",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/sau-benh-hai-cay-duoc-lieu",
+      "target": "/kien-thuc/benh-phan-trang",
+      "label": "bệnh phấn trắng",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/sau-benh-hai-cay-duoc-lieu",
+      "target": "/kien-thuc/benh-kham-la",
+      "label": "bệnh khảm lá",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/sau-benh-hai-cay-duoc-lieu",
+      "target": "/kien-thuc/benh-moc-xam-muoi-den",
+      "label": "bệnh mốc xám, muội đen",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/sau-benh-hai-cay-duoc-lieu",
+      "target": "/kien-thuc/ky-thuat-trong-cuc-hoa-vang",
+      "label": "trồng cúc hoa vàng",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/sau-benh-hai-cay-duoc-lieu",
+      "target": "/kien-thuc/ky-thuat-trong-kim-ngan-hoa",
+      "label": "dây kim ngân hoa",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/sau-benh-hai-cay-duoc-lieu",
+      "target": "/kien-thuc/benh-nut-than-xi-mu",
+      "label": "bệnh nứt thân xì mủ",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/sau-benh-hai-cay-duoc-lieu",
+      "target": "/kien-thuc/benh-moc-suong",
+      "label": "bệnh mốc sương",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/sau-benh-hai-cay-duoc-lieu",
+      "target": "/kien-thuc/benh-than-thu",
+      "label": "bệnh thán thư",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/sau-benh-hai-cay-duoc-lieu",
+      "target": "/kien-thuc/benh-lo-co-re-thoi-re",
+      "label": "Bệnh lở cổ rễ, thối rễ và thối củ",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/sau-benh-hai-cay-duoc-lieu",
+      "target": "/kien-thuc/ky-thuat-trong-dinh-lang",
+      "label": "vườn đinh lăng",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/sau-benh-hai-cay-duoc-lieu",
+      "target": "/kien-thuc/ky-thuat-trong-ba-kich",
+      "label": "canh tác ba kích",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/sau-benh-hai-cay-duoc-lieu",
+      "target": "/kien-thuc/benh-ri-sat",
+      "label": "bệnh rỉ sắt",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/sau-benh-hai-cay-duoc-lieu",
+      "target": "/kien-thuc/tuyen-trung-re",
+      "label": "tuyến trùng rễ",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/sau-benh-hai-cay-duoc-lieu",
+      "target": "/kien-thuc/cach-diet-co-dai",
+      "label": "cách diệt cỏ dại",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/tieu-chuan-gacp",
+      "target": "/kien-thuc/tieu-chuan-gmp",
+      "label": "GMP",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/tieu-chuan-gacp",
+      "target": "/kien-thuc/cach-bon-lot-bon-thuc",
+      "label": "bón lót và bón thúc",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/tieu-chuan-gacp",
+      "target": "/kien-thuc/cach-diet-co-dai",
+      "label": "cách diệt cỏ dại",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/tieu-chuan-gacp",
+      "target": "/kien-thuc/ky-thuat-say-duoc-lieu",
+      "label": "kỹ thuật sấy dược liệu",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/tieu-chuan-gacp",
+      "target": "/kien-thuc/kiem-dinh-duoc-lieu",
+      "label": "kiểm định dược liệu",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/tieu-chuan-gacp",
+      "target": "/kien-thuc/tieu-chuan-gmp",
+      "label": "GMP",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/tieu-chuan-gmp",
+      "target": "/kien-thuc/tieu-chuan-gacp",
+      "label": "tiêu chuẩn GACP",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/tieu-chuan-gmp",
+      "target": "/kien-thuc/kiem-dinh-duoc-lieu",
+      "label": "kiểm định dược liệu",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/tieu-chuan-gmp",
+      "target": "/kien-thuc/tieu-chuan-gacp",
+      "label": "GACP",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/tieu-chuan-gmp",
+      "target": "/kien-thuc/kiem-dinh-duoc-lieu",
+      "label": "kiểm định",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/tieu-chuan-huu-co-quoc-te",
+      "target": "/kien-thuc/tieu-chuan-vietgap",
+      "label": "VietGAP",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/tieu-chuan-huu-co-quoc-te",
+      "target": "/kien-thuc/tieu-chuan-gacp",
+      "label": "GACP-WHO",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/tieu-chuan-vietgap",
+      "target": "/kien-thuc/tieu-chuan-gacp",
+      "label": "GACP-WHO",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/tuyen-trung-re",
+      "target": "/kien-thuc/sau-benh-hai-cay-duoc-lieu",
+      "label": "sâu bệnh hại dược liệu",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/tuyen-trung-re",
+      "target": "/kien-thuc/benh-lo-co-re-thoi-re",
+      "label": "thối rễ",
+      "sourceType": "wiki",
+      "targetType": "wiki",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/tuyen-trung-re",
+      "target": "/kien-thuc/ky-thuat-trong-ha-thu-o",
+      "label": "Hà thủ ô",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/tuyen-trung-re",
+      "target": "/kien-thuc/ky-thuat-trong-dinh-lang",
+      "label": "Đinh lăng",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    },
+    {
+      "source": "/kien-thuc/tuyen-trung-re",
+      "target": "/kien-thuc/ky-thuat-trong-cat-can",
+      "label": "Cát cánh",
+      "sourceType": "wiki",
+      "targetType": "hub",
+      "violatesSilo": false,
+      "broken": false
+    }
+  ],
+  "stats": {
+    "totalNodes": 300,
+    "totalEdges": 230,
+    "byType": {
+      "wiki": 44,
+      "hub": 123,
+      "cay": 123,
+      "static": 10
+    },
+    "orphanCount": 231,
+    "orphansByType": {
+      "wiki": 10,
+      "hub": 98,
+      "cay": 123
+    },
+    "siloViolationCount": 0,
+    "brokenLinkCount": 13
+  },
+  "orphans": [
+    {
+      "id": "/thu-mua-duoc-lieu/atiso",
+      "title": "atiso",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/ba-kich",
+      "title": "Ba kích",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/bac-ha",
+      "title": "Bạc hà Á",
+      "type": "cay",
+      "meta": "than",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/bach-bien-dau",
+      "title": "Bạch biển đậu",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/bach-bo",
+      "title": "Bách bộ",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/bach-chi",
+      "title": "Bạch chỉ",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/bach-hoa-xa-thiet-thao",
+      "title": "Bạch hoa xà thiệt thảo",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/bach-truat",
+      "title": "Bạch truật",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/ban-ha-nam",
+      "title": "Bán hạ nam",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/binh-voi",
+      "title": "Bình vôi",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/bo-cong-anh",
+      "title": "Bồ công anh",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/ca-gai-leo",
+      "title": "Cà gai leo",
+      "type": "cay",
+      "meta": "than",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/cat-can",
+      "title": "Cát căn",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/cau-dang",
+      "title": "Câu đằng",
+      "type": "cay",
+      "meta": "than",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/cau-tich",
+      "title": "Cẩu tích",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/cau",
+      "title": "Cau",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/che-day",
+      "title": "Chè dây",
+      "type": "cay",
+      "meta": "than",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/chi",
+      "title": "Chỉ thực – Chỉ xác",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/co-man-trau",
+      "title": "Cỏ Mần Trầu",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/co-ngot",
+      "title": "Cỏ ngọt",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/co-nho-noi",
+      "title": "Cỏ nhọ nồi",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/co-sua-la-nho",
+      "title": "Cỏ sữa lá nhỏ",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/co-xuoc",
+      "title": "Cỏ xước",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/coi-xay",
+      "title": "Cối xay",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/cot-khi-cu",
+      "title": "Cốt khí củ",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/cot-toai-bo",
+      "title": "Cốt toái bổ",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/cu-gai",
+      "title": "Củ gai",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/cuc-hoa-vang",
+      "title": "Cúc hoa vàng",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/dai-hoi",
+      "title": "Đại hồi",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/dang-sam",
+      "title": "Đảng sâm",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/dau-tam",
+      "title": "Dâu tằm",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/day-dau-xuong",
+      "title": "Dây đau xương",
+      "type": "cay",
+      "meta": "than",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/dia-hoang",
+      "title": "Địa hoàng",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/dia-lien",
+      "title": "Địa liền",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/dia-long",
+      "title": "Địa long",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/diep-ca",
+      "title": "Diếp cá",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/diep-ha-chau",
+      "title": "Diệp hạ châu",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/dinh-lang",
+      "title": "Đinh lăng",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/don-la-do",
+      "title": "Đơn lá đỏ",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/duong-quy-b",
+      "title": "Đương quy B",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/duong-quy-n",
+      "title": "Đương quy N",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/giao-co-lam",
+      "title": "Giảo cổ lam",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/gung",
+      "title": "Gừng",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/ha-thu-o",
+      "title": "Hà thủ ô đỏ",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/hoac-huong",
+      "title": "Hoắc hương",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/hoai-son",
+      "title": "Hoài sơn",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/hoang-ba-nam",
+      "title": "Hoàng bá nam",
+      "type": "cay",
+      "meta": "vo",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/hoang-dang",
+      "title": "Hoàng đằng",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/hoe-hoa",
+      "title": "Hòe hoa",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/huong-nhu-tia",
+      "title": "Hương nhu tía",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/huong-nhu-trang",
+      "title": "Hương nhu trắng",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/huong-phu",
+      "title": "Hương phụ",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/huyet-giac",
+      "title": "Huyết giác",
+      "type": "cay",
+      "meta": "than",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/hy-thiem",
+      "title": "Hy thiêm",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/ich-mau",
+      "title": "Ích mẫu",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/ke-huyet-dang",
+      "title": "Kê huyết đắng",
+      "type": "cay",
+      "meta": "than",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/ke-noi-kim",
+      "title": "Kê nội kim",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/khien-nguu",
+      "title": "Khiên ngưu",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/kho-qua",
+      "title": "Khổ qua",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/kho-sam",
+      "title": "Khổ sâm",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/kim-ngan-hoa",
+      "title": "Kim ngân hoa",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/kim-tien-thao",
+      "title": "Kim tiền thảo",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/kinh-gioi",
+      "title": "Kinh giới",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/la-bac-tu",
+      "title": "La Bạc tử",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/la-khoi",
+      "title": "Lá khôi",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/la-lot",
+      "title": "Lá lốt",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/la-mong",
+      "title": "Lá móng",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/luc",
+      "title": "Lức",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/ma-de",
+      "title": "Mã đề",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/ma-tien-che",
+      "title": "Mã tiền chế",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/man-kinh-tu",
+      "title": "Mạn kinh tử",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/mat-nhan",
+      "title": "Mật nhân",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/mat-ong",
+      "title": "Mật ong",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/mau-le",
+      "title": "Mẫu lệ",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/nam-linh-chi",
+      "title": "Nấm linh chi",
+      "type": "cay",
+      "meta": "nam",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/nga-truat",
+      "title": "Nga truật",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/ngai-diep",
+      "title": "Ngải diệp",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/nghe",
+      "title": "Nghệ",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/ngu-gia-bi-chan-chim",
+      "title": "Ngũ gia bì chân chim",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/nguu-tat-n",
+      "title": "Ngưu tất N",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/nguu-tat",
+      "title": "Ngưu tất",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/nhan-tran",
+      "title": "Nhân trần",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/o-duoc",
+      "title": "Ô dược",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/o-tac-cot",
+      "title": "Ô tặc cốt",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/phen-chua",
+      "title": "Phèn chua",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/phu-binh",
+      "title": "Phù bình",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/qua-lau-nhan",
+      "title": "Qua lâu nhân",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/que",
+      "title": "Quế",
+      "type": "cay",
+      "meta": "than",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/rau-ma",
+      "title": "Rau má",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/rieng-phien",
+      "title": "Riềng phiến",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/sa-nhan",
+      "title": "Sa nhân",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/sai-dat-nam",
+      "title": "Sài đất Nam",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/sam-dai-hanh",
+      "title": "Sâm đại hành",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/sen",
+      "title": "Sen",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/son-tra",
+      "title": "Sơn tra",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/tang-ky-sinh",
+      "title": "Tang ký sinh",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/tao-giac-thich",
+      "title": "Tạo giác thích",
+      "type": "cay",
+      "meta": "than",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/thach-cao-song",
+      "title": "Thạch cao sống",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/thach-xuong-bo",
+      "title": "Thạch xương bồ",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/thao-qua",
+      "title": "Thảo quả",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/thao-quyet-minh",
+      "title": "Thảo quyết minh",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/thi-de",
+      "title": "Thị đế",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/thien-mon-dong",
+      "title": "Thiên môn đông",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/thien-nien-kien",
+      "title": "Thiên niên kiện",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/tho-phuc-linh",
+      "title": "Thổ phục linh",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/tia-to",
+      "title": "Tía tô",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/to-moc",
+      "title": "Tô mộc",
+      "type": "cay",
+      "meta": "than",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/trac-bach-diep",
+      "title": "Trắc bách diệp",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/trach-ta",
+      "title": "Trạch tả",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/tran-bi",
+      "title": "Trần bì",
+      "type": "cay",
+      "meta": "vo",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/trinh-nu-hoang-cung",
+      "title": "Trinh nữ hoàng cung",
+      "type": "cay",
+      "meta": "cu-re",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/truc-diep",
+      "title": "Trúc diệp",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/tuc-doan",
+      "title": "Tục đoạn",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/ty-giai",
+      "title": "Tỳ giải",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/vong-nem",
+      "title": "Vông nem",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/vung-den",
+      "title": "Vừng đen",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/xa-can",
+      "title": "Xạ can",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/xa-sang-tu",
+      "title": "Xa sàng tử",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/xa-tien-tu",
+      "title": "Xa tiền tử",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/xich-dong-nam",
+      "title": "Xích đồng nam",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/xuyen-khung",
+      "title": "Xuyên khung",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/xuyen-tam-lien",
+      "title": "Xuyên tâm liên",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/thu-mua-duoc-lieu/y-di",
+      "title": "Ý dĩ",
+      "type": "cay",
+      "meta": "hoa-la",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-atiso",
+      "title": "Cẩm nang Kỹ thuật trồng atiso vùng cao ôn đới cho lá và hoa đạt chuẩn dược liệu",
+      "type": "hub",
+      "meta": "atiso",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-bach-bo",
+      "title": "Quy trình trồng Bách bộ sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "bach-bo",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-bach-chi",
+      "title": "Hướng dẫn kỹ thuật canh tác Bạch chỉ từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "bach-chi",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-bach-hoa-xa-thiet-thao",
+      "title": "Quy trình trồng Bạch hoa xà thiệt thảo sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "bach-hoa-xa-thiet-thao",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-bach-truat",
+      "title": "Quy trình trồng Bạch truật sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "bach-truat",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-ban-ha-nam",
+      "title": "Quy trình trồng Bán hạ nam sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "ban-ha-nam",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-binh-voi",
+      "title": "Quy trình trồng Bình vôi sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "binh-voi",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-bo-cong-anh",
+      "title": "Quy trình trồng Bồ công anh sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "bo-cong-anh",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-cau-dang",
+      "title": "Quy trình trồng Câu đằng sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "cau-dang",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-cau-tich",
+      "title": "Hướng dẫn kỹ thuật canh tác Cẩu tích từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "cau-tich",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-cau",
+      "title": "Hướng dẫn kỹ thuật canh tác Cau từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "cau",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-che-day",
+      "title": "Hướng dẫn kỹ thuật canh tác Chè dây từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "che-day",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-chi",
+      "title": "Quy trình trồng Chỉ thực – Chỉ xác sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "chi",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-co-man-trau",
+      "title": "Quy trình trồng Cỏ Mần Trầu sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "co-man-trau",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-co-ngot",
+      "title": "Quy trình trồng Cỏ ngọt sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "co-ngot",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-co-nho-noi",
+      "title": "Hướng dẫn kỹ thuật canh tác Cỏ nhọ nồi từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "co-nho-noi",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-co-sua-la-nho",
+      "title": "Quy trình trồng Cỏ sữa lá nhỏ sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "co-sua-la-nho",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-co-xuoc",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Cỏ xước đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "co-xuoc",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-coi-xay",
+      "title": "Quy trình trồng Cối xay sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "coi-xay",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-cot-khi-cu",
+      "title": "Hướng dẫn kỹ thuật canh tác Cốt khí củ từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "cot-khi-cu",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-cot-toai-bo",
+      "title": "Hướng dẫn kỹ thuật canh tác Cốt toái bổ từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "cot-toai-bo",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-dai-hoi",
+      "title": "Hướng dẫn kỹ thuật canh tác Đại hồi từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "dai-hoi",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-dau-tam",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Dâu tằm đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "dau-tam",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-day-dau-xuong",
+      "title": "Hướng dẫn kỹ thuật canh tác Dây đau xương từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "day-dau-xuong",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-dia-lien",
+      "title": "Hướng dẫn kỹ thuật canh tác Địa liền từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "dia-lien",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-dia-long",
+      "title": "Kỹ thuật nuôi và sơ chế Địa long (giun đất) làm dược liệu",
+      "type": "hub",
+      "meta": "dia-long",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-diep-ca",
+      "title": "Quy trình trồng Diếp cá sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "diep-ca",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-duong-quy-b",
+      "title": "Quy trình trồng Đương quy B sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "duong-quy-b",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-duong-quy-n",
+      "title": "Quy trình trồng Đương quy N sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "duong-quy-n",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-giao-co-lam",
+      "title": "Quy trình trồng Giảo cổ lam sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "giao-co-lam",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-gung",
+      "title": "Hướng dẫn kỹ thuật canh tác Gừng từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "gung",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-hoang-ba-nam",
+      "title": "Hướng dẫn kỹ thuật canh tác Hoàng bá nam từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "hoang-ba-nam",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-hoang-dang",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Hoàng đằng đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "hoang-dang",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-hoe-hoa",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Hòe hoa đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "hoe-hoa",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-huong-nhu-tia",
+      "title": "Hướng dẫn kỹ thuật canh tác Hương nhu tía từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "huong-nhu-tia",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-huong-nhu-trang",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Hương nhu trắng đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "huong-nhu-trang",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-huong-phu",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Hương phụ đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "huong-phu",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-huyet-giac",
+      "title": "Quy trình trồng Huyết giác sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "huyet-giac",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-hy-thiem",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Hy thiêm đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "hy-thiem",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-ke-huyet-dang",
+      "title": "Quy trình trồng Kê huyết đắng sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "ke-huyet-dang",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-ke-noi-kim",
+      "title": "Hướng dẫn kỹ thuật canh tác Kê nội kim từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "ke-noi-kim",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-khien-nguu",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Khiên ngưu đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "khien-nguu",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-kho-sam",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Khổ sâm đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "kho-sam",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-kinh-gioi",
+      "title": "Quy trình trồng Kinh giới sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "kinh-gioi",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-la-bac-tu",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc La Bạc tử đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "la-bac-tu",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-la-khoi",
+      "title": "Hướng dẫn kỹ thuật canh tác Lá khôi từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "la-khoi",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-la-lot",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Lá lốt đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "la-lot",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-la-mong",
+      "title": "Hướng dẫn kỹ thuật canh tác Lá móng từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "la-mong",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-luc",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Lức đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "luc",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-ma-tien-che",
+      "title": "Hướng dẫn kỹ thuật canh tác Mã tiền chế từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "ma-tien-che",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-man-kinh-tu",
+      "title": "Hướng dẫn kỹ thuật canh tác Mạn kinh tử từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "man-kinh-tu",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-mat-nhan",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Mật nhân đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "mat-nhan",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-mat-ong",
+      "title": "Kỹ thuật nuôi ong lấy mật sạch đạt chuẩn dược liệu",
+      "type": "hub",
+      "meta": "mat-ong",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-mau-le",
+      "title": "Kỹ thuật thu và sơ chế Mẫu lệ (vỏ hàu) làm dược liệu",
+      "type": "hub",
+      "meta": "mau-le",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-nam-linh-chi",
+      "title": "Cẩm nang Kỹ thuật nuôi trồng Nấm linh chi đỏ trên bịch phôi mùn cưa trong nhà màng vô trùng",
+      "type": "hub",
+      "meta": "nam-linh-chi",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-nga-truat",
+      "title": "Hướng dẫn kỹ thuật canh tác Nga truật từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "nga-truat",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-nghe",
+      "title": "Hướng dẫn kỹ thuật canh tác Nghệ từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "nghe",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-ngu-gia-bi-chan-chim",
+      "title": "Quy trình trồng Ngũ gia bì chân chim sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "ngu-gia-bi-chan-chim",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-nguu-tat-n",
+      "title": "Hướng dẫn kỹ thuật canh tác Ngưu tất N từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "nguu-tat-n",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-nguu-tat",
+      "title": "Quy trình trồng Ngưu tất sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "nguu-tat",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-nhan-tran",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Nhân trần đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "nhan-tran",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-o-duoc",
+      "title": "Hướng dẫn kỹ thuật canh tác Ô dược từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "o-duoc",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-o-tac-cot",
+      "title": "Kỹ thuật thu và sơ chế Ô tặc cốt (mai mực) làm dược liệu",
+      "type": "hub",
+      "meta": "o-tac-cot",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-phen-chua",
+      "title": "Kỹ thuật khai thác và tinh chế Phèn chua (Kali nhôm sunfat) đạt độ tinh khiết làm dược liệu",
+      "type": "hub",
+      "meta": "phen-chua",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-phu-binh",
+      "title": "Quy trình trồng Phù bình sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "phu-binh",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-qua-lau-nhan",
+      "title": "Quy trình trồng Qua lâu nhân sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "qua-lau-nhan",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-rau-ma",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Rau má đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "rau-ma",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-rieng-phien",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Riềng phiến đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "rieng-phien",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-sai-dat-nam",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Sài đất Nam đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "sai-dat-nam",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-sam-dai-hanh",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Sâm đại hành đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "sam-dai-hanh",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-sen",
+      "title": "Quy trình trồng Sen sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "sen",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-son-tra",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Sơn tra đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "son-tra",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-tang-ky-sinh",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Tang ký sinh đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "tang-ky-sinh",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-tao-giac-thich",
+      "title": "Hướng dẫn kỹ thuật canh tác Tạo giác thích từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "tao-giac-thich",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-thach-cao-song",
+      "title": "Kỹ thuật khai thác và sơ chế Thạch cao sống (khoáng canxi sunfat) làm dược liệu",
+      "type": "hub",
+      "meta": "thach-cao-song",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-thach-xuong-bo",
+      "title": "Quy trình trồng Thạch xương bồ sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "thach-xuong-bo",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-thao-qua",
+      "title": "Quy trình trồng Thảo quả sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "thao-qua",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-thao-quyet-minh",
+      "title": "Hướng dẫn kỹ thuật canh tác Thảo quyết minh từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "thao-quyet-minh",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-thi-de",
+      "title": "Hướng dẫn kỹ thuật canh tác Thị đế từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "thi-de",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-thien-mon-dong",
+      "title": "Quy trình trồng Thiên môn đông sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "thien-mon-dong",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-thien-nien-kien",
+      "title": "Quy trình trồng Thiên niên kiện sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "thien-nien-kien",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-tho-phuc-linh",
+      "title": "Quy trình trồng Thổ phục linh sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "tho-phuc-linh",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-to-moc",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Tô mộc đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "to-moc",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-trac-bach-diep",
+      "title": "Hướng dẫn kỹ thuật canh tác Trắc bách diệp từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "trac-bach-diep",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-trach-ta",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Trạch tả đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "trach-ta",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-tran-bi",
+      "title": "Hướng dẫn kỹ thuật canh tác Trần bì từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "tran-bi",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-trinh-nu-hoang-cung",
+      "title": "Quy trình trồng Trinh nữ hoàng cung sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "trinh-nu-hoang-cung",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-truc-diep",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Trúc diệp đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "truc-diep",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-tuc-doan",
+      "title": "Hướng dẫn kỹ thuật canh tác Tục đoạn từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "tuc-doan",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-ty-giai",
+      "title": "Quy trình trồng Tỳ giải sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "ty-giai",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-vong-nem",
+      "title": "Hướng dẫn kỹ thuật canh tác Vông nem từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "vong-nem",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-xa-can",
+      "title": "Hướng dẫn kỹ thuật canh tác Xạ can từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "xa-can",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-xa-sang-tu",
+      "title": "Quy trình trồng Xa sàng tử sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "xa-sang-tu",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-xa-tien-tu",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Xa tiền tử đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "xa-tien-tu",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-xich-dong-nam",
+      "title": "Hướng dẫn kỹ thuật canh tác Xích đồng nam từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "xich-dong-nam",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-xuyen-khung",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Xuyên khung đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "xuyen-khung",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-xuyen-tam-lien",
+      "title": "Hướng dẫn kỹ thuật canh tác Xuyên tâm liên từ A-Z: chọn đất, nhân giống đến thu hoạch",
+      "type": "hub",
+      "meta": "xuyen-tam-lien",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-y-di",
+      "title": "Quy trình trồng Ý dĩ sạch chuẩn dược liệu, tối ưu năng suất và giá bán",
+      "type": "hub",
+      "meta": "y-di",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/cac-loai-dat-trong-cay",
+      "title": "Các loại đất trồng cây: Đặc điểm thổ nhưỡng và dược liệu phù hợp",
+      "type": "wiki",
+      "meta": "Kỹ thuật gieo trồng",
+      "inboundCount": 0,
+      "outboundCount": 14
+    },
+    {
+      "id": "/kien-thuc/cach-tri-rep-sap",
+      "title": "Cách trị rệp sáp hiệu quả, an toàn cho cây dược liệu",
+      "type": "wiki",
+      "meta": "Phòng trừ sâu bệnh",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/cay-duoc-lieu-la-gi",
+      "title": "Cây dược liệu là gì? Khái niệm và các loại cây giá trị cao",
+      "type": "wiki",
+      "meta": "Kiến thức cơ bản",
+      "inboundCount": 0,
+      "outboundCount": 5
+    },
+    {
+      "id": "/kien-thuc/dat-cat-trong-cay-gi",
+      "title": "Đất cát trồng cây dược liệu gì: Nhóm thảo dược chịu hạn hiệu quả",
+      "type": "wiki",
+      "meta": "Kỹ thuật gieo trồng",
+      "inboundCount": 0,
+      "outboundCount": 15
+    },
+    {
+      "id": "/kien-thuc/dat-man-trong-cay-gi",
+      "title": "Đất mặn trồng cây dược liệu gì: Giải pháp thảo dược chịu mặn",
+      "type": "wiki",
+      "meta": "Kỹ thuật gieo trồng",
+      "inboundCount": 0,
+      "outboundCount": 10
+    },
+    {
+      "id": "/kien-thuc/dat-phen-trong-cay-gi",
+      "title": "Đất phèn trồng cây dược liệu gì: Giải pháp và kỹ thuật canh tác",
+      "type": "wiki",
+      "meta": "Kỹ thuật gieo trồng",
+      "inboundCount": 0,
+      "outboundCount": 9
+    },
+    {
+      "id": "/kien-thuc/dat-phu-sa-trong-cay-gi",
+      "title": "Đất phù sa thích hợp trồng cây gì: Kỹ thuật canh tác hiệu quả",
+      "type": "wiki",
+      "meta": "Kỹ thuật gieo trồng",
+      "inboundCount": 0,
+      "outboundCount": 11
+    },
+    {
+      "id": "/kien-thuc/lien-ket-ba-ben-vietmec",
+      "title": "Mô hình liên kết ba bên: Nông dân - Hợp tác xã - Nhà máy để thoát cảnh 'được mùa mất giá'",
+      "type": "wiki",
+      "meta": "Chính sách & Thị trường",
+      "inboundCount": 0,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/phan-loai-giong-cay-duoc-lieu",
+      "title": "Phân loại giống cây dược liệu theo bộ phận thu hoạch và vùng miền",
+      "type": "wiki",
+      "meta": "Kiến thức cơ bản",
+      "inboundCount": 0,
+      "outboundCount": 2
+    },
+    {
+      "id": "/kien-thuc/tieu-chuan-huu-co-quoc-te",
+      "title": "Tiêu chuẩn hữu cơ quốc tế cho dược liệu: GlobalGAP, EU Organic, USDA Organic, JAS Organic",
+      "type": "wiki",
+      "meta": "Tiêu chuẩn & kiểm định",
+      "inboundCount": 0,
+      "outboundCount": 2
+    }
+  ],
+  "topInbound": [
+    {
+      "id": "/kien-thuc/tieu-chuan-gacp",
+      "title": "Tiêu chuẩn GACP là gì? GACP-WHO cho vùng trồng dược liệu",
+      "type": "wiki",
+      "meta": "Tiêu chuẩn & kiểm định",
+      "inboundCount": 17,
+      "outboundCount": 6
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-dinh-lang",
+      "title": "Cẩm nang Kỹ thuật trồng và chăm sóc Đinh lăng nếp từ A-Z đạt chuẩn GACP-WHO",
+      "type": "hub",
+      "meta": "dinh-lang",
+      "inboundCount": 16,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/cach-uom-hat-giong",
+      "title": "Cách ươm hạt giống cây dược liệu nảy mầm đều, cây con khỏe",
+      "type": "wiki",
+      "meta": "Kỹ thuật gieo trồng",
+      "inboundCount": 11,
+      "outboundCount": 5
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-ba-kich",
+      "title": "Cẩm nang Kỹ thuật trồng Ba kích tím dưới tán rừng và làm giàn leo hiện đại",
+      "type": "hub",
+      "meta": "ba-kich",
+      "inboundCount": 9,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/cach-tron-dat-trong-cay",
+      "title": "Cách trộn đất trồng cây dược liệu: tỷ lệ trấu, xơ dừa chuẩn",
+      "type": "wiki",
+      "meta": "Kỹ thuật gieo trồng",
+      "inboundCount": 9,
+      "outboundCount": 6
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-cuc-hoa-vang",
+      "title": "Cẩm nang kỹ thuật trồng và chăm sóc Cúc hoa vàng đạt chuẩn GACP-WHO cho năng suất cao",
+      "type": "hub",
+      "meta": "cuc-hoa-vang",
+      "inboundCount": 8,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-ha-thu-o",
+      "title": "Cẩm nang Kỹ thuật trồng Hà thủ ô đỏ làm giàn leo, nuôi củ 3–5 năm đạt trọng lượng lớn",
+      "type": "hub",
+      "meta": "ha-thu-o",
+      "inboundCount": 8,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-bac-ha",
+      "title": "Cẩm nang Kỹ thuật trồng Bạc hà Á luân canh cắt nhiều lứa, hàm lượng tinh dầu cao",
+      "type": "hub",
+      "meta": "bac-ha",
+      "inboundCount": 7,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/ky-thuat-trong-ca-gai-leo",
+      "title": "Cẩm nang Kỹ thuật trồng Cà gai leo trên đất đồi sỏi đá cho hàm lượng dược chất cao",
+      "type": "hub",
+      "meta": "ca-gai-leo",
+      "inboundCount": 7,
+      "outboundCount": 0
+    },
+    {
+      "id": "/kien-thuc/sau-benh-hai-cay-duoc-lieu",
+      "title": "Sâu bệnh hại cây dược liệu: tổng quan các nhóm thường gặp",
+      "type": "wiki",
+      "meta": "Phòng trừ sâu bệnh",
+      "inboundCount": 7,
+      "outboundCount": 15
+    }
+  ],
+  "siloViolations": [],
+  "brokenLinks": [
+    {
+      "source": "/kien-thuc/benh-lo-co-re-thoi-re",
+      "target": "/kien-thuc/ky-thuat-trong-actiso",
+      "label": "Actiso",
+      "sourceType": "wiki",
+      "targetType": "unknown",
+      "violatesSilo": false,
+      "broken": true
+    },
+    {
+      "source": "/kien-thuc/benh-moc-suong",
+      "target": "/kien-thuc/ky-thuat-trong-actiso",
+      "label": "Actiso",
+      "sourceType": "wiki",
+      "targetType": "unknown",
+      "violatesSilo": false,
+      "broken": true
+    },
+    {
+      "source": "/kien-thuc/dat-phu-sa-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-gung-cho-nang-suat-cao",
+      "label": "kỹ thuật canh tác Gừng",
+      "sourceType": "wiki",
+      "targetType": "unknown",
+      "violatesSilo": false,
+      "broken": true
+    },
+    {
+      "source": "/kien-thuc/dat-phu-sa-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-nghe-cho-nang-suat-cao",
+      "label": "quy trình trồng Nghệ",
+      "sourceType": "wiki",
+      "targetType": "unknown",
+      "violatesSilo": false,
+      "broken": true
+    },
+    {
+      "source": "/kien-thuc/dat-phu-sa-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-bac-ha-luan-canh-cat-nhieu-lua",
+      "label": "canh tác Bạc hà Á",
+      "sourceType": "wiki",
+      "targetType": "unknown",
+      "violatesSilo": false,
+      "broken": true
+    },
+    {
+      "source": "/kien-thuc/dat-phu-sa-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-ich-mau-dat-chuan-gacp-who",
+      "label": "trồng dược liệu Ích mẫu",
+      "sourceType": "wiki",
+      "targetType": "unknown",
+      "violatesSilo": false,
+      "broken": true
+    },
+    {
+      "source": "/kien-thuc/dat-phu-sa-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-dinh-lang-dat-nang-suat-cao",
+      "label": "canh tác giống Đinh lăng",
+      "sourceType": "wiki",
+      "targetType": "unknown",
+      "violatesSilo": false,
+      "broken": true
+    },
+    {
+      "source": "/kien-thuc/dat-phu-sa-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-dinh-lang-dat-nang-suat-cao",
+      "label": "canh tác giống Đinh lăng",
+      "sourceType": "wiki",
+      "targetType": "unknown",
+      "violatesSilo": false,
+      "broken": true
+    },
+    {
+      "source": "/kien-thuc/dat-phu-sa-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-hoai-son-cho-nang-suat-cao",
+      "label": "trồng Hoài sơn",
+      "sourceType": "wiki",
+      "targetType": "unknown",
+      "violatesSilo": false,
+      "broken": true
+    },
+    {
+      "source": "/kien-thuc/dat-phu-sa-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-gung-cho-nang-suat-cao",
+      "label": "kỹ thuật canh tác Gừng",
+      "sourceType": "wiki",
+      "targetType": "unknown",
+      "violatesSilo": false,
+      "broken": true
+    },
+    {
+      "source": "/kien-thuc/dat-phu-sa-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-nghe-cho-nang-suat-cao",
+      "label": "quy trình trồng Nghệ",
+      "sourceType": "wiki",
+      "targetType": "unknown",
+      "violatesSilo": false,
+      "broken": true
+    },
+    {
+      "source": "/kien-thuc/dat-phu-sa-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-ich-mau-dat-chuan-gacp-who",
+      "label": "trồng dược liệu Ích mẫu",
+      "sourceType": "wiki",
+      "targetType": "unknown",
+      "violatesSilo": false,
+      "broken": true
+    },
+    {
+      "source": "/kien-thuc/dat-phu-sa-trong-cay-gi",
+      "target": "/kien-thuc/ky-thuat-trong-bac-ha-luan-canh-cat-nhieu-lua",
+      "label": "canh tác Bạc hà Á",
+      "sourceType": "wiki",
+      "targetType": "unknown",
+      "violatesSilo": false,
+      "broken": true
+    }
+  ]
+}

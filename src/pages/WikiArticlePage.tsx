@@ -3,6 +3,7 @@ import { AlertTriangle, ArrowRight, User } from "lucide-react";
 import { Link } from "react-router-dom";
 import { WIKI_ARTICLES } from "../lib/data";
 import { Breadcrumb, DataTable, FaqAccordion, SourceList, StickyToc } from "../components/ui";
+import { WikiInteractiveSection } from "../components/wiki/WikiInteractiveSection";
 import { paths } from "../lib/paths";
 import { lastModified, formatVnDate } from "../lib/data/lastmod";
 import { Seo, articleSeo, articleSectionId, toIsoDate } from "../lib/seo";
@@ -142,6 +143,8 @@ export const WikiArticlePage: React.FC<{ articleId: string }> = ({ articleId }) 
           <p className="seo-answer text-lg text-gray-700 italic font-sans leading-relaxed border-l-4 border-earth pl-4">
             {article.excerpt}
           </p>
+
+<WikiInteractiveSection article={article} />
 
           {/* Mỗi mục là một <section> có tên (aria-labelledby trỏ vào chính h2 của nó).
               Id ngoài cùng GIỮ NGUYÊN `articleSectionId` vì StickyToc scroll-spy và

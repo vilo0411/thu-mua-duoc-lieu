@@ -12,7 +12,7 @@
     {
       "heading": "1. Bệnh đốm lá là gì?",
       "paragraphs": [
-        "Đốm lá là tên gọi chung cho nhóm bệnh tạo các đốm trên phiến lá, do nhiều loại nấm khác nhau gây ra (Cercospora, Alternaria, Septoria...). Vì nhiều tác nhân nên hình dạng đốm cũng đa dạng, nhưng đều dẫn tới hậu quả chung: lá giảm quang hợp, cháy khô và rụng sớm.",
+        "Bệnh đốm lá, còn gọi là bệnh đốm lá do nấm, là một trong các dạng [sâu bệnh hại dược liệu](/kien-thuc/sau-benh-hai-cay-duoc-lieu) phổ biến...",
         "Bệnh ít khi giết cây ngay nhưng làm cây suy dần, giảm năng suất và làm xấu dược liệu lấy lá — ảnh hưởng trực tiếp giá bán."
       ],
       "highlight": "Dấu hiệu chung: đốm tròn hoặc bầu dục màu nâu, tâm xám, thường có QUẦNG VÀNG quanh vết; nặng thì các đốm liên kết làm lá cháy loang lổ rồi rụng."
@@ -29,7 +29,21 @@
       "paragraphs": [
         "Vệ sinh và canh tác: thu gom, tiêu hủy lá bệnh; tỉa thông thoáng; thoát nước tốt; tưới vào gốc buổi sáng thay vì tưới đẫm lên lá chiều tối; luân canh và bón cân đối để cây khỏe.",
         "Sinh học: phun Bacillus subtilis, Trichoderma, dịch chiết thảo mộc hỗ trợ phòng khi thời tiết thuận lợi cho bệnh.",
-        "Hóa học (khi cần): thuốc gốc đồng hoặc hoạt chất được phép, dùng đúng liều và bảo đảm thời gian cách ly cho dược liệu. Đốm lá dễ nhầm với [thán thư](/kien-thuc/benh-than-thu) — khi khó phân biệt, cứ ưu tiên các biện pháp canh tác phòng ngừa vì chúng gần như giống nhau."
+        "Hóa học (khi cần): thuốc gốc đồng hoặc hoạt chất được phép, dùng đúng liều và bảo đảm thời gian cách ly cho dược liệu để đạt [chuẩn dược liệu GACP](/kien-thuc/tieu-chuan-gacp). Đốm lá dễ nhầm với [thán thư](/kien-thuc/benh-than-thu) — khi khó phân biệt, cứ ưu tiên các biện pháp canh tác phòng ngừa vì chúng gần như giống nhau."
+      ]
+    },
+    {
+      "heading": "4. Mức độ ảnh hưởng trên các cây dược liệu",
+      "paragraphs": [
+        "Mỗi cây dược liệu có độ mẫn cảm và biểu hiện bệnh đốm lá khác nhau. Việc hiểu rõ giúp nhà vườn nhận diện sớm và kiểm soát bệnh hiệu quả hơn.",
+        "Bảng dưới đây liệt kê chi tiết biểu hiện đốm lá đặc trưng và lưu ý phòng ngừa riêng cho ba cây dược liệu chủ lực."
+      ]
+    },
+    {
+      "heading": "5. Lời khuyên của Nguyễn Viết Lộc cho bà con",
+      "paragraphs": [
+        "Bệnh đốm lá tuy không làm chết cây ngay nhưng kéo dài sẽ bào mòn sức khỏe của vườn dược liệu, làm lá úa vàng kém chất lượng. Bà con nên thăm vườn thường xuyên, lật mặt dưới lá kiểm tra và dọn sạch tàn dư.",
+        "Một vườn cây thông thoáng, được bón phân cân đối và có chế độ tưới hợp lý vào buổi sáng chính là giải pháp phòng bệnh hiệu quả, tiết kiệm chi phí nhất."
       ]
     }
   ],
@@ -48,6 +62,29 @@
     {
       "question": "Có cần diệt trừ đốm lá triệt để không?",
       "answer": "Với dược liệu, mục tiêu là kiểm soát bệnh ở mức không gây hại đáng kể chứ không nhất thiết 'sạch tuyệt đối'. Duy trì vườn thông thoáng, khô ráo, cây khỏe và can thiệp sinh học kịp thời khi bệnh chớm là đủ để giữ năng suất mà không phải lạm dụng hóa chất."
+    }
+  ],
+  "standardsTableTitle": "Đặc điểm bệnh đốm lá trên một số loại cây dược liệu tiêu biểu",
+  "standardsTableHeaders": [
+    "Cây dược liệu",
+    "Biểu hiện đốm lá đặc trưng",
+    "Biện pháp phòng ngừa riêng biệt"
+  ],
+  "standardsTable": [
+    {
+      "factor": "[Hà thủ ô](/kien-thuc/ky-thuat-trong-ha-thu-o)",
+      "standard": "Đốm nâu đen hình tròn hoặc bầu dục loang lổ trên lá bánh tẻ và lá già vào mùa mưa dầm.",
+      "notes": "Tỉa bớt lá chân, dọn sạch lá rụng dưới gốc và hạn chế tưới đẫm vào chiều tối."
+    },
+    {
+      "factor": "[Kim ngân hoa](/kien-thuc/ky-thuat-trong-kim-ngan-hoa)",
+      "standard": "Vết đốm màu nâu nhạt xuất hiện nhiều trên các lá già, làm lá vàng úa và rụng sớm.",
+      "notes": "Tỉa cành tạo tán thông thoáng đầu mùa mưa để giảm ẩm độ trong tán."
+    },
+    {
+      "factor": "[Đinh lăng](/kien-thuc/ky-thuat-trong-dinh-lang)",
+      "standard": "Các đốm xám nhỏ li ti có quầng vàng xuất hiện rải rác trên lá non và lá bánh tẻ.",
+      "notes": "Trồng mật độ vừa phải, tránh bón thừa đạm làm mỏng lá."
     }
   ]
 }
