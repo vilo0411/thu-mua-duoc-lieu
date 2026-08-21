@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { ChevronDown, ChevronUp, AlertCircle, Eye, Search, Stethoscope } from "lucide-react";
 import type { WikiArticle } from "../../types";
+import { renderRich, stripRich } from "../../lib/renderRich";
 
 // Detect which part of the plant is mentioned in symptom text.
 function detectPartIcon(text: string): string {
@@ -37,8 +38,8 @@ export const SymptomDiagnoser: React.FC<{ article: WikiArticle }> = ({ article }
   const filtered = filter
     ? rows.filter(
         (r) =>
-          r.factor.toLowerCase().includes(filter.toLowerCase()) ||
-          r.standard.toLowerCase().includes(filter.toLowerCase()),
+          stripRich(r.factor).toLowerCase().includes(filter.toLowerCase()) ||
+          stripRich(r.standard).toLowerCase().includes(filter.toLowerCase()),
       )
     : rows;
 
@@ -95,8 +96,8 @@ export const SymptomDiagnoser: React.FC<{ article: WikiArticle }> = ({ article }
         )}
         {filtered.map((row, idx) => {
           const isOpen = openIdx === idx;
-          const part = detectPartIcon(row.standard);
-          const sev = severityLabel(row.notes);
+          const part = detectPartIcon(stripRich(row.standard));
+          const sev = severityLabel(stripRich(row.notes));
           return (
             <div
               key={idx}
@@ -108,18 +109,18 @@ export const SymptomDiagnoser: React.FC<{ article: WikiArticle }> = ({ article }
                 className="w-full flex items-center gap-3 px-4 py-3.5 text-left cursor-pointer hover:bg-paper-2 transition-colors"
               >
                 <span className="text-2xl leading-none flex-shrink-0">{part}</span>
-                <div className="flex-1 min-w-0">
-                  <div className="flex items-center gap-2 flex-wrap">
-                    <span className="font-sans font-bold text-sm text-ink-soft">{row.factor}</span>
+                <span className="block flex-1 min-w-0">
+                  <span className="flex items-center gap-2 flex-wrap">
+                    <span className="font-sans font-bold text-sm text-ink-soft">{stripRich(row.factor)}</span>
                     <span
                       className="text-[10px] font-sans font-bold px-2 py-0.5 rounded-full text-white"
                       style={{ backgroundColor: sev.color }}
                     >
                       {sev.label}
                     </span>
-                  </div>
-                  <p className="text-xs text-gray-500 font-sans mt-0.5 line-clamp-1">{row.standard}</p>
-                </div>
+                  </span>
+                  <span className="block text-xs text-gray-500 font-sans mt-0.5 line-clamp-1">{stripRich(row.standard)}</span>
+                </span>
                 {isOpen
                   ? <ChevronUp className="w-4 h-4 text-gray-400 flex-shrink-0" />
                   : <ChevronDown className="w-4 h-4 text-gray-400 flex-shrink-0" />}
@@ -129,11 +130,11 @@ export const SymptomDiagnoser: React.FC<{ article: WikiArticle }> = ({ article }
                 <div className="px-4 pb-4 pt-1 space-y-3 border-t border-line">
                   <div className="space-y-1">
                     <span className="text-[11px] font-sans font-bold text-gray-500 uppercase tracking-wide">Triệu chứng</span>
-                    <p className="text-sm text-gray-700 font-sans leading-relaxed">{row.standard}</p>
+                    <p className="text-sm text-gray-700 font-sans leading-relaxed">{renderRich(row.standard)}</p>
                   </div>
                   <div className="space-y-1">
                     <span className="text-[11px] font-sans font-bold text-terracotta uppercase tracking-wide">Biện pháp xử lý</span>
-                    <p className="text-sm text-gray-700 font-sans leading-relaxed">{row.notes}</p>
+                    <p className="text-sm text-gray-700 font-sans leading-relaxed">{renderRich(row.notes)}</p>
                   </div>
                 </div>
               )}

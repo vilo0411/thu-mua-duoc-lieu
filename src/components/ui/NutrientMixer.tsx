@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FlaskConical, Calculator } from "lucide-react";
 import type { WikiArticle } from "../../types";
+import { renderRich, stripRich } from "../../lib/renderRich";
 
 // Approximate NPK ratios and base rates (kg/1000m²/vụ) for common organic fertilizers.
 const FERTILIZER_META: Record<string, { n: number; p: number; k: number; rateKg: number; color: string }> = {
@@ -86,7 +87,7 @@ export const NutrientMixer: React.FC<{ article: WikiArticle }> = ({ article }) =
       {/* Fertilizer Cards */}
       <div className="px-5 pb-4 space-y-3">
         {rows.map((row, idx) => {
-          const meta = getMeta(row.factor);
+          const meta = getMeta(stripRich(row.factor));
           const amountKg = Math.round((areaNum / 1000) * meta.rateKg);
           return (
             <div
@@ -95,8 +96,8 @@ export const NutrientMixer: React.FC<{ article: WikiArticle }> = ({ article }) =
             >
               <div className="flex items-start justify-between gap-2">
                 <div className="space-y-0.5">
-                  <span className="font-sans font-bold text-sm text-ink-soft">{row.factor}</span>
-                  <p className="text-xs text-gray-500 font-sans leading-relaxed">{row.standard}</p>
+                  <span className="font-sans font-bold text-sm text-ink-soft">{renderRich(row.factor)}</span>
+                  <p className="text-xs text-gray-500 font-sans leading-relaxed">{renderRich(row.standard)}</p>
                 </div>
                 <div
                   className="flex-shrink-0 text-xs font-sans font-bold px-2.5 py-1 rounded-full text-white"
@@ -109,7 +110,7 @@ export const NutrientMixer: React.FC<{ article: WikiArticle }> = ({ article }) =
               <NpkBar n={meta.n} p={meta.p} k={meta.k} color={meta.color} />
 
               {row.notes && (
-                <p className="text-[11px] text-gray-400 font-sans italic border-t border-line pt-2">{row.notes}</p>
+                <p className="text-[11px] text-gray-400 font-sans italic border-t border-line pt-2">{renderRich(row.notes)}</p>
               )}
             </div>
           );

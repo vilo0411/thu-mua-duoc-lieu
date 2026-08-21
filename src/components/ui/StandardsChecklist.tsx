@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { CheckCircle2, Circle, ClipboardList, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import type { WikiArticle } from "../../types";
+import { stripRich } from "../../lib/renderRich";
 
 function storageKey(articleId: string) {
   return `checklist-${articleId}`;
@@ -100,13 +101,13 @@ export const StandardsChecklist: React.FC<{ article: WikiArticle }> = ({ article
               {done
                 ? <CheckCircle2 className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
                 : <Circle className="w-5 h-5 text-gray-300 flex-shrink-0 mt-0.5" />}
-              <div className="space-y-0.5 flex-1 min-w-0">
-                <div className="text-sm font-sans font-semibold text-ink-soft line-clamp-1">{row.factor}</div>
-                <div className="text-xs text-gray-500 font-sans leading-relaxed">{row.standard}</div>
+              <span className="block space-y-0.5 flex-1 min-w-0">
+                <span className="block text-sm font-sans font-semibold text-ink-soft line-clamp-1">{stripRich(row.factor)}</span>
+                <span className="block text-xs text-gray-500 font-sans leading-relaxed">{stripRich(row.standard)}</span>
                 {row.notes && (
-                  <div className="text-xs text-gray-400 font-sans italic">{row.notes}</div>
+                  <span className="block text-xs text-gray-400 font-sans italic">{stripRich(row.notes)}</span>
                 )}
-              </div>
+              </span>
             </button>
           );
         })}

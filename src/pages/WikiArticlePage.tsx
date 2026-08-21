@@ -8,38 +8,7 @@ import { paths } from "../lib/paths";
 import { lastModified, formatVnDate } from "../lib/data/lastmod";
 import { Seo, articleSeo, articleSectionId, toIsoDate } from "../lib/seo";
 import { NotFoundPage } from "./NotFoundPage";
-
-// Cho phép nhúng link nội bộ/ngoài ngay trong đoạn văn JSON bằng cú pháp markdown [nhãn](đường-dẫn).
-// Link nội bộ ("/...") render bằng <Link> của react-router → là thẻ <a href> thật, crawl được
-// và tự gắn basename khi deploy GitHub Pages; link ngoài (http) mở tab mới an toàn.
-const LINK_RE = /\[([^\]]+)\]\(([^)]+)\)/g;
-const linkClass =
-  "text-terracotta font-semibold underline decoration-terracotta/40 underline-offset-2 hover:decoration-terracotta";
-
-function renderRich(text: string): React.ReactNode {
-  const parts: React.ReactNode[] = [];
-  let last = 0;
-  let m: RegExpExecArray | null;
-  LINK_RE.lastIndex = 0;
-  while ((m = LINK_RE.exec(text)) !== null) {
-    if (m.index > last) parts.push(text.slice(last, m.index));
-    const [, label, href] = m;
-    parts.push(
-      href.startsWith("/") ? (
-        <Link key={m.index} to={href} className={linkClass}>
-          {label}
-        </Link>
-      ) : (
-        <a key={m.index} href={href} target="_blank" rel="noopener noreferrer" className={linkClass}>
-          {label}
-        </a>
-      ),
-    );
-    last = m.index + m[0].length;
-  }
-  if (last < text.length) parts.push(text.slice(last));
-  return parts.length ? parts : text;
-}
+import { renderRich } from "../lib/renderRich";
 
 export const WikiArticlePage: React.FC<{ articleId: string }> = ({ articleId }) => {
   const article = WIKI_ARTICLES.find((a) => a.id === articleId);
@@ -178,9 +147,9 @@ export const WikiArticlePage: React.FC<{ articleId: string }> = ({ articleId }) 
                 labelledBy="bang-tieu-chuan"
                 headers={article.standardsTableHeaders ?? ["Nhóm", "Tiêu chuẩn", "Ghi chú"]}
                 rows={article.standardsTable.map((s) => [
-                  <strong className="text-ink-soft font-sans">{s.factor}</strong>,
-                  s.standard,
-                  <span className="text-sm text-gray-600">{s.notes}</span>,
+                  <strong className="text-ink-soft font-sans">{renderRich(s.factor)}</strong>,
+                  renderRich(s.standard),
+                  <span className="text-sm text-gray-600">{renderRich(s.notes)}</span>,
                 ])}
               />
             </section>

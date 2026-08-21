@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { ChevronDown, ChevronUp, ListChecks } from "lucide-react";
 import type { WikiArticle } from "../../types";
+import { renderRich, stripRich } from "../../lib/renderRich";
 
 export const TechProcessVisualizer: React.FC<{ article: WikiArticle }> = ({ article }) => {
   const [openIdx, setOpenIdx] = useState<number | null>(0);
@@ -65,7 +66,7 @@ export const TechProcessVisualizer: React.FC<{ article: WikiArticle }> = ({ arti
                 className="w-full flex items-center gap-3 px-4 py-3.5 text-left cursor-pointer"
               >
                 {/* Step number circle */}
-                <div
+                <span
                   className="w-7 h-7 rounded-full flex items-center justify-center text-xs font-sans font-bold flex-shrink-0 transition-colors"
                   style={isDone
                     ? { backgroundColor: "#16A34A", color: "white" }
@@ -74,30 +75,30 @@ export const TechProcessVisualizer: React.FC<{ article: WikiArticle }> = ({ arti
                       : { backgroundColor: "#F3F4F6", color: "#6B7280" }}
                 >
                   {isDone ? "✓" : idx + 1}
-                </div>
+                </span>
 
-                <div className="flex-1 min-w-0">
-                  <span className="text-sm font-sans font-semibold text-ink-soft line-clamp-1">{sec.heading}</span>
+                <span className="block flex-1 min-w-0">
+                  <span className="text-sm font-sans font-semibold text-ink-soft line-clamp-1">{stripRich(sec.heading)}</span>
                   {!isOpen && sec.paragraphs[0] && (
-                    <p className="text-xs text-gray-500 font-sans mt-0.5 line-clamp-1">{sec.paragraphs[0]}</p>
+                    <span className="block text-xs text-gray-500 font-sans mt-0.5 line-clamp-1">{stripRich(sec.paragraphs[0])}</span>
                   )}
-                </div>
+                </span>
 
-                <div className="flex items-center gap-2 flex-shrink-0">
+                <span className="flex items-center gap-2 flex-shrink-0">
                   {isOpen
                     ? <ChevronUp className="w-4 h-4 text-gray-400" />
                     : <ChevronDown className="w-4 h-4 text-gray-400" />}
-                </div>
+                </span>
               </button>
 
               {isOpen && (
                 <div className="px-4 pb-4 pt-1 border-t border-gray-100 space-y-3">
                   {sec.paragraphs.map((p, pIdx) => (
-                    <p key={pIdx} className="text-sm text-gray-700 font-sans leading-relaxed">{p}</p>
+                    <p key={pIdx} className="text-sm text-gray-700 font-sans leading-relaxed">{renderRich(p)}</p>
                   ))}
                   {sec.highlight && (
                     <div className="bg-paper-2 border-l-4 border-l-terracotta px-3 py-2.5 rounded-r-lg text-sm font-sans text-ink-soft italic">
-                      {sec.highlight}
+                      {renderRich(sec.highlight)}
                     </div>
                   )}
                   <button
