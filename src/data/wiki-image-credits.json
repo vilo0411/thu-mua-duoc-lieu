@@ -316,5 +316,50 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "query": "File:2010-365-328 Roasting Seeds (5206140472).jpg",
     "matchedTitle": "File:2010-365-328 Roasting Seeds (5206140472).jpg"
+  },
+  "cac-loai-dat-trong-cay": {
+    "file": "/images/kien-thuc/cac-loai-dat-trong-cay.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Soil_material_containing_Sand,_silt,_clay.jpg",
+    "artist": "Soil Science",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "query": "File:Soil material containing Sand, silt, clay.jpg",
+    "matchedTitle": "File:Soil material containing Sand, silt, clay.jpg"
+  },
+  "dat-cat-trong-cay-gi": {
+    "file": "/images/kien-thuc/dat-cat-trong-cay-gi.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Sandy_soil_on_track_and_field_-_geograph.org.uk_-_4440394.jpg",
+    "artist": "Adrian S Pye",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "query": "File:Sandy soil on track and field - geograph.org.uk - 4440394.jpg",
+    "matchedTitle": "File:Sandy soil on track and field - geograph.org.uk - 4440394.jpg"
+  },
+  "dat-man-trong-cay-gi": {
+    "file": "/images/kien-thuc/dat-man-trong-cay-gi.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Saline_soil_area.jpg",
+    "artist": "Zolfeqar Fatihzadeh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "query": "File:Saline soil area.jpg",
+    "matchedTitle": "File:Saline soil area.jpg"
+  },
+  "dat-phen-trong-cay-gi": {
+    "file": "/images/kien-thuc/dat-phen-trong-cay-gi.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_4631_Sulfuric_Extratidal_Hydrosol_soil_profile_at_East_Trinity_near_Cairns_north_Queensland.jpg",
+    "artist": "Rob Fitzpatrick, CSIRO",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "query": "File:CSIRO ScienceImage 4631 Sulfuric Extratidal Hydrosol soil profile at East Trinity near Cairns north Queensland.jpg",
+    "matchedTitle": "File:CSIRO ScienceImage 4631 Sulfuric Extratidal Hydrosol soil profile at East Trinity near Cairns north Queensland.jpg"
+  },
+  "dat-phu-sa-trong-cay-gi": {
+    "file": "/images/kien-thuc/dat-phu-sa-trong-cay-gi.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Alluvium_@Mekong-VNM.jpg",
+    "artist": "BacLuong",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "query": "File:Alluvium @Mekong-VNM.jpg",
+    "matchedTitle": "File:Alluvium @Mekong-VNM.jpg"
   }
 }

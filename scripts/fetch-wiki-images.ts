@@ -52,6 +52,11 @@ const QUERIES: Record<string, string[]> = {
   'bao-quan-duoc-lieu': ['dried herbs hanging bunches', 'herbal pharmacy drawers', 'dried herbs sacks market'],
   'tieu-chuan-vietgap': ['farmer inspecting vegetable field', 'greenhouse vegetable farming'],
   'tieu-chuan-huu-co-quoc-te': ['organic certification farm', 'organic farming field'],
+  'cac-loai-dat-trong-cay': ['topsoil close up ploughed field', 'farmer hands soil clod field', 'loam soil texture farmland'],
+  'dat-cat-trong-cay-gi': ['sandy soil field agriculture', 'sandy loam soil close up', 'sand dune farming'],
+  'dat-man-trong-cay-gi': ['salt crust soil surface', 'salinized farmland white salt', 'salt tolerant crop coastal field'],
+  'dat-phen-trong-cay-gi': ['acid sulfate soil', 'acid sulphate soil field', 'iron oxide acidic soil water'],
+  'dat-phu-sa-trong-cay-gi': ['riverbank vegetable field silt', 'floodplain farmland crops river', 'rice paddy Mekong delta'],
 };
 
 /**
@@ -68,6 +73,12 @@ const PICKS: Record<string, string> = {
   'bao-quan-duoc-lieu': 'File:Gyogynovenyek1.jpg',
   'tieu-chuan-vietgap': 'File:En terreno.jpg',
   'tieu-chuan-huu-co-quoc-te': 'File:Alamar Organic Farm crops.jpg',
+  'cac-loai-dat-trong-cay': 'File:Soil material containing Sand, silt, clay.jpg',
+  'dat-cat-trong-cay-gi': 'File:Sandy soil on track and field - geograph.org.uk - 4440394.jpg',
+  'dat-man-trong-cay-gi': 'File:Saline soil area.jpg',
+  'dat-phen-trong-cay-gi':
+    'File:CSIRO ScienceImage 4631 Sulfuric Extratidal Hydrosol soil profile at East Trinity near Cairns north Queensland.jpg',
+  'dat-phu-sa-trong-cay-gi': 'File:Alluvium @Mekong-VNM.jpg',
 };
 
 type Credit = {

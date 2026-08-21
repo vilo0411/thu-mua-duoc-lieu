@@ -22,12 +22,12 @@ const HUB_CAP = 9;
 // Số bài mỗi trang trong thư viện bài viết chuyên đề (lưới 3 cột × 3 hàng).
 const ARTICLES_PER_PAGE = 9;
 
-// Tra tiêu đề bài theo id (dùng cho ItemList SEO và các bước quy trình).
+// Tra tiêu đề bài theo id (dùng cho ItemList SEO).
 const ARTICLE_BY_ID = new Map(WIKI_ARTICLES.map((a) => [a.id, a] as const));
 const articleTitle = (id: string) => ARTICLE_BY_ID.get(id)?.title ?? id;
 
-// Pillar: 6 bước quy trình trồng dược liệu, mỗi bước trỏ tới bài nền tảng tương ứng.
-// Đây là phần điều phối link equity từ trang tổng xuống cụm "Kỹ thuật gieo trồng".
+// Cụm bài nền tảng "Kỹ thuật gieo trồng" theo thứ tự quy trình — dùng cho ItemList SEO
+// của pillar (khối 6 bước hiển thị đã bỏ, các bài vẫn nằm trong thư viện bài viết bên dưới).
 const FOUNDATION_STEPS: { step: string; desc: string; ids: string[] }[] = [
   { step: "1. Chuẩn bị giá thể & đất", desc: "Hiểu giá thể và phối trộn đất tơi xốp, thoát nước.", ids: ["gia-the-la-gi", "cach-tron-dat-trong-cay"] },
   { step: "2. Xử lý & ủ hạt giống", desc: "Kích mầm cho hạt nứt nanh, nảy đều.", ids: ["cach-u-hat-giong"] },
@@ -149,36 +149,6 @@ export const KnowledgePage: React.FC = () => {
         <p className="text-gray-700 text-base md:text-lg max-w-3xl font-sans leading-relaxed">
           Do <strong className="text-terracotta">Nguyễn Viết Lộc</strong> tổng hợp từ nguồn uy tín: từ chuẩn bị giá thể, gieo ươm, nhân giống, bón phân, phòng trừ sâu bệnh đến sơ chế sau thu hoạch — kèm cẩm nang kỹ thuật riêng cho {WIKI_HUBS.length} cây dược liệu, sắp xếp lại cho bà con dễ áp dụng.
         </p>
-      </section>
-
-      {/* Quy trình trồng dược liệu — 6 bước nền tảng, mỗi bước dẫn tới bài kỹ thuật chi tiết */}
-      <section aria-labelledby="quy-trinh-h" className="space-y-5">
-        <div className="border-b border-line pb-4">
-          <h2 id="quy-trinh-h" className="font-serif text-2xl font-bold text-ink-soft">Quy trình trồng dược liệu qua 6 bước</h2>
-          <p className="text-sm text-gray-600 font-sans mt-1">Nắm khung chung trước, rồi bấm vào từng bước để đọc kỹ thuật chi tiết.</p>
-        </div>
-        {/* <ol>: "6 bước" là một quy trình có thứ tự — thứ tự ở đây là ý nghĩa. */}
-        <ol role="list" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 list-none m-0 p-0">
-          {FOUNDATION_STEPS.map((s) => (
-            <li key={s.step} className="bg-white border border-line rounded-xl p-5 flex flex-col gap-2">
-              <h3 className="font-serif text-lg font-bold text-ink-soft">{s.step}</h3>
-              <p className="text-sm text-gray-600 font-sans leading-relaxed flex-1">{s.desc}</p>
-              <ul role="list" className="flex flex-col gap-1.5 pt-1 list-none m-0 p-0">
-                {s.ids.map((id) => (
-                  <li key={id}>
-                    <Link
-                      to={paths.article(id)}
-                      className="inline-flex items-center gap-1.5 text-sm font-semibold text-terracotta hover:text-terracotta-dark hover:underline"
-                    >
-                      <ArrowRight className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
-                      <span className="line-clamp-1">{articleTitle(id)}</span>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </li>
-          ))}
-        </ol>
       </section>
 
       {/* Hub kỹ thuật theo từng cây — lưới gọn, tìm/lọc để scale khi có nhiều bài */}
