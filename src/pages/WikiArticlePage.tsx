@@ -3,6 +3,7 @@ import { AlertTriangle, ArrowRight, User } from "lucide-react";
 import { Link } from "react-router-dom";
 import { WIKI_ARTICLES } from "../lib/data";
 import { Breadcrumb, DataTable, StickyToc } from "../components/ui";
+import { WikiInteractiveSection } from "../components/wiki/WikiInteractiveSection";
 import { paths } from "../lib/paths";
 import { Seo, articleSeo } from "../lib/seo";
 import { NotFoundPage } from "./NotFoundPage";
@@ -112,6 +113,8 @@ export const WikiArticlePage: React.FC<{ articleId: string }> = ({ articleId }) 
           <p className="text-lg text-gray-700 italic font-sans leading-relaxed border-l-4 border-earth pl-4">
             {article.excerpt}
           </p>
+
+          <WikiInteractiveSection article={article} />
 
           {article.contentSections.map((sec, idx) => (
             <div key={idx} id={`art-sec-${idx}`} className="space-y-4 pt-4 first:pt-0">

@@ -1,4 +1,4 @@
-/import React, { useState } from "react";
+import React, { useState } from "react";
 import { ArrowDown } from "lucide-react";
 import type { HerbGroup, HerbTechnique } from "../../types";
 

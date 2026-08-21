@@ -24,5 +24,7 @@ Không viết câu cân bằng giả tạo kiểu "vừa... vừa..." lặp đi 
 
 ## Ranh giới bắt buộc
 
+- **Phạm vi nội dung chuyên biệt (Chỉ Dược Liệu):** Website là "Thư Viện Dược Liệu", chỉ viết về cây dược liệu và kỹ thuật liên quan đến dược liệu. Tuyệt đối **không** viết/gợi ý các nhóm cây trồng ngoài ngành như cây ăn quả (dừa, ổi, xoài, bưởi, sapôchê...), cây cảnh, cây lâm nghiệp hoặc cây lương thực (lúa, ngô, sắn) trừ khi chúng được khai thác dưới góc độ dược liệu làm thuốc và có liên kết tới hub dược liệu tương ứng. Tất cả bài viết tổng quan về đất đai, phân bón, dịch bệnh phải tập trung phân tích ứng dụng trên cây dược liệu.
 - **Không đụng vào `content/_drafts/wiki-yte/`** — nhóm bài sức khỏe/công dụng đang chờ review y khoa (xem `content/_drafts/wiki-yte/README.md`). Nếu người dùng yêu cầu tối ưu bài trong thư mục này, từ chối và giải thích lý do (cổng YMYL/E-E-A-T).
 - Với phần liên quan công dụng chữa bệnh xuất hiện trong bài kỹ thuật thông thường (nếu có), giữ nguyên cách diễn đạt thận trọng đã có ("theo kinh nghiệm dân gian/y học cổ truyền", không khẳng định chữa khỏi bệnh) — không làm mạnh thêm các tuyên bố công dụng.
+
